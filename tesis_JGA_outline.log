@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2013.8.13)  6 DEC 2015 11:24
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2013.8.13)  6 DEC 2015 18:37
 entering extended mode
 **tesis_JGA_outline.tex
 
@@ -156,8 +156,8 @@ Package: xparse 2015/11/04 v6224 L3 Experimental document command parser
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\base\book.cls"
 Document Class: book 2007/10/19 v1.4h Standard LaTeX document class
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\bk12.clo"
-File: bk12.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\bk11.clo"
+File: bk11.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
 )
 \c@part=\count109
 \c@chapter=\count110
@@ -569,22 +569,22 @@ Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 .................................................
 . LaTeX info: "xparse/define-environment"
 . 
-. Defining environment 'abbreviations' with sig. ' m ' on line 329.
+. Defining environment 'abbreviations' with sig. ' m ' on line 330.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-environment"
 . 
-. Defining environment 'constants' with sig. ' m ' on line 345.
+. Defining environment 'constants' with sig. ' m ' on line 346.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-environment"
 . 
-. Defining environment 'symbols' with sig. ' m ' on line 361.
+. Defining environment 'symbols' with sig. ' m ' on line 362.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-environment"
 . 
-. Defining environment 'acknowledgements' with sig. '' on line 378.
+. Defining environment 'acknowledgements' with sig. '' on line 379.
 .................................................
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\hyperref.sty"
@@ -683,7 +683,7 @@ LaTeX Info: Redefining \pageref on input line 6369.
 )
 Package scrhack Info: hyperref hack deactivated because of
 (scrhack)             detection of hyperref version, that doesn't
-(scrhack)             need that hack, on input line 383.
+(scrhack)             need that hack, on input line 384.
 
 
 Package hyperref Message: Driver (autodetected): hpdftex.
@@ -700,15 +700,15 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 )
 \Hy@SectionHShift=\skip68
 )
-Package hyperref Info: Option `bookmarksopen' set `true' on input line 394.
-Package hyperref Info: Option `hypertexnames' set `false' on input line 394.
-Package hyperref Info: Option `colorlinks' set `true' on input line 394.
-Package hyperref Info: Option `unicode' set `true' on input line 394.
+Package hyperref Info: Option `bookmarksopen' set `true' on input line 395.
+Package hyperref Info: Option `hypertexnames' set `false' on input line 395.
+Package hyperref Info: Option `colorlinks' set `true' on input line 395.
+Package hyperref Info: Option `unicode' set `true' on input line 395.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\puenc.def"
 File: puenc.def 2012/11/06 v6.83m Hyperref: PDF Unicode definition (HO)
 )
-Package hyperref Info: Option `breaklinks' set `true' on input line 394.
+Package hyperref Info: Option `breaklinks' set `true' on input line 395.
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\base\inputenc.sty"
 Package: inputenc 2008/03/30 v1.1d Input encoding file
@@ -938,6 +938,112 @@ Package: fontenc 2005/09/27 v1.99g Standard LaTeX package
 File: t1enc.def 2005/09/27 v1.99g Standard LaTeX file
 LaTeX Font Info:    Redeclaring font encoding T1 on input line 43.
 ))
+("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\epstopdf.sty"
+Package: epstopdf 2010/02/09 v2.5 Conversion with epstopdf on the fly (HO)
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\epstopdf-base.sty"
+Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\grfext.sty"
+Package: grfext 2010/08/19 v1.1 Manage graphics extensions (HO)
+)
+Package grfext Info: Graphics extension search list:
+(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 452.
+))
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\amssymb.sty"
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\amsfonts.sty"
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+))
+("C:\Program Files\MiKTeX 2.9\tex\latex\amscls\amsthm.sty"
+Package: amsthm 2004/08/06 v2.20
+\thm@style=\toks21
+\thm@bodyfont=\toks22
+\thm@headfont=\toks23
+\thm@notefont=\toks24
+\thm@headpunct=\toks25
+\thm@preskip=\skip69
+\thm@postskip=\skip70
+\thm@headsep=\skip71
+\dth@everypar=\toks26
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsmath.sty"
+Package: amsmath 2013/01/14 v2.14 AMS math features
+\@mathmargin=\skip72
+
+For additional information on amsmath, use the `?' option.
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsbsy.sty"
+Package: amsbsy 1999/11/29 v1.2d
+\pmbraise@=\dimen185
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsopn.sty"
+Package: amsopn 1999/12/14 v2.01 operator names
+)
+\inf@bad=\count160
+LaTeX Info: Redefining \frac on input line 210.
+\uproot@=\count161
+\leftroot@=\count162
+LaTeX Info: Redefining \overline on input line 306.
+\classnum@=\count163
+\DOTSCASE@=\count164
+LaTeX Info: Redefining \ldots on input line 378.
+LaTeX Info: Redefining \dots on input line 381.
+LaTeX Info: Redefining \cdots on input line 466.
+\Mathstrutbox@=\box52
+\strutbox@=\box53
+\big@size=\dimen186
+LaTeX Font Info:    Redeclaring font encoding OML on input line 566.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
+\macc@depth=\count165
+\c@MaxMatrixCols=\count166
+\dotsspace@=\muskip17
+\c@parentequation=\count167
+\dspbrk@lvl=\count168
+\tag@help=\toks27
+\row@=\count169
+\column@=\count170
+\maxfields@=\count171
+\andhelp@=\toks28
+\eqnshift@=\dimen187
+\alignsep@=\dimen188
+\tagshift@=\dimen189
+\tagwidth@=\dimen190
+\totwidth@=\dimen191
+\lineht@=\dimen192
+\@envbody=\toks29
+\multlinegap=\skip73
+\multlinetaggap=\skip74
+\mathdisplay@stack=\toks30
+LaTeX Info: Redefining \[ on input line 2665.
+LaTeX Info: Redefining \] on input line 2666.
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\float\float.sty"
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count172
+\float@exts=\toks31
+\float@box=\box54
+\@float@everytoks=\toks32
+\@floatcapt=\box55
+)
+Package scrhack Info: loading float hack on input line 44.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\koma-script\float.hak"
+File: float.hak 2015/10/03 v3.19a KOMA-Script package (hacking package float)
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\koma-script\tocbasic.sty"
+Package: tocbasic 2015/10/03 v3.19a KOMA-Script package (handling toc-files)
+)
+Package scrhack Info: redefining \newfloat on input line 161.
+Package scrhack Info: redefining \listof on input line 161.
+Package scrhack Info: undefining \float@addtolists on input line 161.
+)
 ("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\palatino.sty"
 Package: palatino 2005/04/12 PSNFSS-v9.2a (SPQR) 
 )
@@ -950,7 +1056,7 @@ AB)
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\logreq\logreq.sty"
 Package: logreq 2010/08/04 v1.0 xml request logger
-\lrq@indent=\count160
+\lrq@indent=\count173
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\logreq\logreq.def"
 File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
@@ -958,122 +1064,122 @@ File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
 ("C:\Program Files\MiKTeX 2.9\tex\latex\base\ifthen.sty"
 Package: ifthen 2001/05/26 v1.1c Standard LaTeX ifthen package (DPC)
 )
-\c@tabx@nest=\count161
-\c@listtotal=\count162
-\c@listcount=\count163
-\c@liststart=\count164
-\c@liststop=\count165
-\c@citecount=\count166
-\c@citetotal=\count167
-\c@multicitecount=\count168
-\c@multicitetotal=\count169
-\c@instcount=\count170
-\c@maxnames=\count171
-\c@minnames=\count172
-\c@maxitems=\count173
-\c@minitems=\count174
-\c@citecounter=\count175
-\c@savedcitecounter=\count176
-\c@uniquelist=\count177
-\c@uniquename=\count178
-\c@refsection=\count179
-\c@refsegment=\count180
-\c@maxextrayear=\count181
-\c@maxextraalpha=\count182
-\c@abbrvpenalty=\count183
-\c@highnamepenalty=\count184
-\c@lownamepenalty=\count185
-\c@maxparens=\count186
-\c@parenlevel=\count187
-\blx@tempcnta=\count188
-\blx@tempcntb=\count189
-\blx@tempcntc=\count190
-\blx@maxsection=\count191
-\blx@maxsegment=\count192
-\blx@notetype=\count193
-\blx@parenlevel@text=\count194
-\blx@parenlevel@foot=\count195
-\labelnumberwidth=\skip69
-\labelalphawidth=\skip70
-\shorthandwidth=\skip71
-\biblabelsep=\skip72
-\bibitemsep=\skip73
-\bibnamesep=\skip74
-\bibinitsep=\skip75
-\bibparsep=\skip76
-\bibhang=\skip77
+\c@tabx@nest=\count174
+\c@listtotal=\count175
+\c@listcount=\count176
+\c@liststart=\count177
+\c@liststop=\count178
+\c@citecount=\count179
+\c@citetotal=\count180
+\c@multicitecount=\count181
+\c@multicitetotal=\count182
+\c@instcount=\count183
+\c@maxnames=\count184
+\c@minnames=\count185
+\c@maxitems=\count186
+\c@minitems=\count187
+\c@citecounter=\count188
+\c@savedcitecounter=\count189
+\c@uniquelist=\count190
+\c@uniquename=\count191
+\c@refsection=\count192
+\c@refsegment=\count193
+\c@maxextrayear=\count194
+\c@maxextraalpha=\count195
+\c@abbrvpenalty=\count196
+\c@highnamepenalty=\count197
+\c@lownamepenalty=\count198
+\c@maxparens=\count199
+\c@parenlevel=\count200
+\blx@tempcnta=\count201
+Normal \count register pool exhausted, switching to extended pool.
+\blx@tempcntb=\count277
+\blx@tempcntc=\count278
+\blx@maxsection=\count279
+\blx@maxsegment=\count280
+\blx@notetype=\count281
+\blx@parenlevel@text=\count282
+\blx@parenlevel@foot=\count283
+\labelnumberwidth=\skip75
+\labelalphawidth=\skip76
+\shorthandwidth=\skip77
+\biblabelsep=\skip78
+\bibitemsep=\skip79
+\bibnamesep=\skip80
+\bibinitsep=\skip81
+\bibparsep=\skip82
+\bibhang=\skip83
 \blx@auxin=\read2
 \blx@auxout=\write3
-\c@mincomprange=\count196
-\c@maxcomprange=\count197
-\c@mincompwidth=\count198
-\c@labelname=\count199
-\c@savedlabelname=\count200
-\c@author=\count201
-Normal \count register pool exhausted, switching to extended pool.
-\c@savedauthor=\count277
-\c@shortauthor=\count278
-\c@savedshortauthor=\count279
-\c@editor=\count280
-\c@savededitor=\count281
-\c@editora=\count282
-\c@savededitora=\count283
-\c@editorb=\count284
-\c@savededitorb=\count285
-\c@editorc=\count286
-\c@savededitorc=\count287
-\c@shorteditor=\count288
-\c@savedshorteditor=\count289
-\c@bookauthor=\count290
-\c@savedbookauthor=\count291
-\c@translator=\count292
-\c@savedtranslator=\count293
-\c@annotator=\count294
-\c@savedannotator=\count295
-\c@commentator=\count296
-\c@savedcommentator=\count297
-\c@introduction=\count298
-\c@savedintroduction=\count299
-\c@foreword=\count300
-\c@savedforeword=\count301
-\c@afterword=\count302
-\c@savedafterword=\count303
-\c@holder=\count304
-\c@savedholder=\count305
-\c@namea=\count306
-\c@savednamea=\count307
-\c@nameb=\count308
-\c@savednameb=\count309
-\c@namec=\count310
-\c@savednamec=\count311
-\c@institution=\count312
-\c@savedinstitution=\count313
-\c@language=\count314
-\c@savedlanguage=\count315
-\c@location=\count316
-\c@savedlocation=\count317
-\c@organization=\count318
-\c@savedorganization=\count319
-\c@origlocation=\count320
-\c@savedoriglocation=\count321
-\c@origpublisher=\count322
-\c@savedorigpublisher=\count323
-\c@pageref=\count324
-\c@savedpageref=\count325
-\c@publisher=\count326
-\c@savedpublisher=\count327
-\c@lista=\count328
-\c@savedlista=\count329
-\c@listb=\count330
-\c@savedlistb=\count331
-\c@listc=\count332
-\c@savedlistc=\count333
-\c@listd=\count334
-\c@savedlistd=\count335
-\c@liste=\count336
-\c@savedliste=\count337
-\c@listf=\count338
-\c@savedlistf=\count339
+\c@mincomprange=\count284
+\c@maxcomprange=\count285
+\c@mincompwidth=\count286
+\c@labelname=\count287
+\c@savedlabelname=\count288
+\c@author=\count289
+\c@savedauthor=\count290
+\c@shortauthor=\count291
+\c@savedshortauthor=\count292
+\c@editor=\count293
+\c@savededitor=\count294
+\c@editora=\count295
+\c@savededitora=\count296
+\c@editorb=\count297
+\c@savededitorb=\count298
+\c@editorc=\count299
+\c@savededitorc=\count300
+\c@shorteditor=\count301
+\c@savedshorteditor=\count302
+\c@bookauthor=\count303
+\c@savedbookauthor=\count304
+\c@translator=\count305
+\c@savedtranslator=\count306
+\c@annotator=\count307
+\c@savedannotator=\count308
+\c@commentator=\count309
+\c@savedcommentator=\count310
+\c@introduction=\count311
+\c@savedintroduction=\count312
+\c@foreword=\count313
+\c@savedforeword=\count314
+\c@afterword=\count315
+\c@savedafterword=\count316
+\c@holder=\count317
+\c@savedholder=\count318
+\c@namea=\count319
+\c@savednamea=\count320
+\c@nameb=\count321
+\c@savednameb=\count322
+\c@namec=\count323
+\c@savednamec=\count324
+\c@institution=\count325
+\c@savedinstitution=\count326
+\c@language=\count327
+\c@savedlanguage=\count328
+\c@location=\count329
+\c@savedlocation=\count330
+\c@organization=\count331
+\c@savedorganization=\count332
+\c@origlocation=\count333
+\c@savedoriglocation=\count334
+\c@origpublisher=\count335
+\c@savedorigpublisher=\count336
+\c@pageref=\count337
+\c@savedpageref=\count338
+\c@publisher=\count339
+\c@savedpublisher=\count340
+\c@lista=\count341
+\c@savedlista=\count342
+\c@listb=\count343
+\c@savedlistb=\count344
+\c@listc=\count345
+\c@savedlistc=\count346
+\c@listd=\count347
+\c@savedlistd=\count348
+\c@liste=\count349
+\c@savedliste=\count350
+\c@listf=\count351
+\c@savedlistf=\count352
 Package biblatex Info: Trying to load compatibility code...
 Package biblatex Info: ... file 'blx-compat.def' found.
 
@@ -1085,13 +1191,13 @@ Package biblatex Info: ... file 'biblatex.def' found.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\biblatex\biblatex.def"
 File: biblatex.def 
-\c@textcitecount=\count340
-\c@textcitetotal=\count341
-\c@textcitemaxnames=\count342
-\c@biburlnumpenalty=\count343
-\c@biburlucpenalty=\count344
-\c@biburllcpenalty=\count345
-\c@smartand=\count346
+\c@textcitecount=\count353
+\c@textcitetotal=\count354
+\c@textcitemaxnames=\count355
+\c@biburlnumpenalty=\count356
+\c@biburlucpenalty=\count357
+\c@biburllcpenalty=\count358
+\c@smartand=\count359
 )
 Package biblatex Info: Trying to load natbib compatibility...
 Package biblatex Info: ... file 'blx-natbib.def' found.
@@ -1109,8 +1215,8 @@ Package biblatex Info: ... file 'standard.bbx' found.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\biblatex\bbx\standard.bbx"
 File: standard.bbx 2015/10/21 v3.1 biblatex bibliography style (PK/JW/AB)
-\c@bbx:relatedcount=\count347
-\c@bbx:relatedtotal=\count348
+\c@bbx:relatedcount=\count360
+\c@bbx:relatedtotal=\count361
 ))
 Package biblatex Info: Trying to load citation style 'authoryear'...
 Package biblatex Info: ... file 'authoryear.cbx' found.
@@ -1133,13 +1239,13 @@ File: biblatex.cfg
 )))
 ("C:\Program Files\MiKTeX 2.9\tex\latex\csquotes\csquotes.sty"
 Package: csquotes 2015/07/18 v5.1f context-sensitive quotations (JAW)
-\csq@reset=\count349
-\csq@gtype=\count350
-\csq@glevel=\count351
-\csq@qlevel=\count352
-\csq@maxlvl=\count353
-\csq@tshold=\count354
-\csq@ltx@everypar=\toks21
+\csq@reset=\count362
+\csq@gtype=\count363
+\csq@glevel=\count364
+\csq@qlevel=\count365
+\csq@maxlvl=\count366
+\csq@tshold=\count367
+\csq@ltx@everypar=\toks33
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\csquotes\csquotes.def"
 File: csquotes.def 2015/07/18 v5.1f csquotes generic definitions (JAW)
@@ -1154,15 +1260,15 @@ Package csquotes Info: Enabling multilingual quotes.
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\titlesec\titlesec.sty"
 Package: titlesec 2011/12/15 v2.10.0 Sectioning titles
-\ttl@box=\box52
-\beforetitleunit=\skip78
-\aftertitleunit=\skip79
-\ttl@plus=\dimen185
-\ttl@minus=\dimen186
-\ttl@toksa=\toks22
-\titlewidth=\dimen187
-\titlewidthlast=\dimen188
-\titlewidthfirst=\dimen189
+\ttl@box=\box56
+\beforetitleunit=\skip84
+\aftertitleunit=\skip85
+\ttl@plus=\dimen193
+\ttl@minus=\dimen194
+\ttl@toksa=\toks34
+\titlewidth=\dimen195
+\titlewidthlast=\dimen196
+\titlewidthfirst=\dimen197
 )
 Package biblatex Info: Trying to load language 'english'...
 Package biblatex Info: ... file 'english.lbx' found.
@@ -1175,39 +1281,39 @@ Package csquotes Info: ... found 'babel' package.
 
 (D:\disco_usuario\javier\upm\doctorado\tesis\texto_tesis_upm\texto_tutto\tesis_
 JGA_outline.aux)
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 80.
-LaTeX Font Info:    ... okay on input line 80.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 80.
-LaTeX Font Info:    ... okay on input line 80.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 80.
-LaTeX Font Info:    ... okay on input line 80.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 80.
-LaTeX Font Info:    ... okay on input line 80.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 80.
-LaTeX Font Info:    ... okay on input line 80.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 80.
-LaTeX Font Info:    ... okay on input line 80.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 80.
-LaTeX Font Info:    ... okay on input line 80.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 80.
-LaTeX Font Info:    ... okay on input line 80.
-LaTeX Font Info:    Try loading font information for T1+ppl on input line 80.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 85.
+LaTeX Font Info:    ... okay on input line 85.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 85.
+LaTeX Font Info:    ... okay on input line 85.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 85.
+LaTeX Font Info:    ... okay on input line 85.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 85.
+LaTeX Font Info:    ... okay on input line 85.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 85.
+LaTeX Font Info:    ... okay on input line 85.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 85.
+LaTeX Font Info:    ... okay on input line 85.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 85.
+LaTeX Font Info:    ... okay on input line 85.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 85.
+LaTeX Font Info:    ... okay on input line 85.
+LaTeX Font Info:    Try loading font information for T1+ppl on input line 85.
  ("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\t1ppl.fd"
 File: t1ppl.fd 2001/06/04 font definitions for T1/ppl.
 )
 ("C:\Program Files\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count355
-\scratchdimen=\dimen190
-\scratchbox=\box53
-\nofMPsegments=\count356
-\nofMParguments=\count357
-\everyMPshowfont=\toks23
-\MPscratchCnt=\count358
-\MPscratchDim=\dimen191
-\MPnumerator=\count359
-\makeMPintoPDFobject=\count360
-\everyMPtoPDFconversion=\toks24
+\scratchcounter=\count368
+\scratchdimen=\dimen198
+\scratchbox=\box57
+\nofMPsegments=\count369
+\nofMParguments=\count370
+\everyMPshowfont=\toks35
+\MPscratchCnt=\count371
+\MPscratchDim=\dimen199
+\MPnumerator=\count372
+\makeMPintoPDFobject=\count373
+\everyMPtoPDFconversion=\toks36
 )
 Now handling font encoding TS1 ...
 ... processing UTF-8 mapping file for font encoding TS1
@@ -1291,6 +1397,7 @@ Dictionary: translator-basic-dictionary, Language: English
 File: siunitx-abbreviations.cfg 2015/10/15 v2.6m siunitx: Abbreviated units
 )
 Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: float package is loaded.
 Package caption Info: hyperref package is loaded.
 Package caption Info: End \AtBeginDocument code.
 
@@ -1307,18 +1414,18 @@ Package caption Info: End \AtBeginDocument code.
 * \paperwidth=597.50787pt
 * \paperheight=845.04684pt
 * \textwidth=416.83289pt
-* \textheight=675.80072pt
+* \textheight=678.33777pt
 * \oddsidemargin=36.13501pt
 * \evensidemargin=0.0pt
 * \topmargin=-28.90756pt
 * \headheight=20.0pt
 * \headsep=18.06749pt
-* \topskip=12.0pt
-* \footskip=30.0pt
-* \marginparwidth=98.0pt
+* \topskip=11.0pt
+* \footskip=27.46295pt
+* \marginparwidth=116.0pt
 * \marginparsep=7.0pt
 * \columnsep=10.0pt
-* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
+* \skip\footins=10.0pt plus 4.0pt minus 2.0pt
 * \hoffset=0.0pt
 * \voffset=0.0pt
 * \mag=1000
@@ -1328,28 +1435,28 @@ Package caption Info: End \AtBeginDocument code.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-Package scrbase Info: activating english \equationnamenname on input line 80.
-Package scrbase Info: activating english \sectionname on input line 80.
-Package scrbase Info: activating english \authorshipname on input line 80.
-Package scrbase Info: activating english \byname on input line 80.
-Package scrbase Info: activating english \abbrevname on input line 80.
-Package scrbase Info: activating english \constantsname on input line 80.
-Package scrbase Info: activating english \symbolsname on input line 80.
-Package scrbase Info: activating english \acknowledgementname on input line 80.
+Package scrbase Info: activating english \equationnamenname on input line 85.
+Package scrbase Info: activating english \sectionname on input line 85.
+Package scrbase Info: activating english \authorshipname on input line 85.
+Package scrbase Info: activating english \byname on input line 85.
+Package scrbase Info: activating english \abbrevname on input line 85.
+Package scrbase Info: activating english \constantsname on input line 85.
+Package scrbase Info: activating english \symbolsname on input line 85.
+Package scrbase Info: activating english \acknowledgementname on input line 85.
 
-\AtBeginShipoutBox=\box54
-Package hyperref Info: Link coloring ON on input line 80.
+\AtBeginShipoutBox=\box58
+Package hyperref Info: Link coloring ON on input line 85.
 ("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\nameref.sty"
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 
 ("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\gettitlestring.sty"
 Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
-\c@section@level=\count361
+\c@section@level=\count374
 )
-LaTeX Info: Redefining \ref on input line 80.
-LaTeX Info: Redefining \pageref on input line 80.
-LaTeX Info: Redefining \nameref on input line 80.
+LaTeX Info: Redefining \ref on input line 85.
+LaTeX Info: Redefining \pageref on input line 85.
+LaTeX Info: Redefining \nameref on input line 85.
 
 (D:\disco_usuario\javier\upm\doctorado\tesis\texto_tesis_upm\texto_tutto\tesis_
 JGA_outline.out)
@@ -1365,21 +1472,26 @@ Package biblatex Warning: Data encoding is 'utf8'.
 (biblatex)                Use backend=biber.
 
 Package biblatex Info: Trying to load bibliographic data...
-Package biblatex Info: ... file 'tesis_JGA_outline.bbl' not found.
-No file tesis_JGA_outline.bbl.
-Package biblatex Info: Reference section=0 on input line 80.
-Package biblatex Info: Reference segment=0 on input line 80.
-\c__siunitx_mathsf_int=\count362
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 80.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 80.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 80.
-\c__siunitx_mathtt_int=\count363
-LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <24.88> not available
-(Font)              Font shape `T1/ppl/b/n' tried instead on input line 97.
-[1
+Package biblatex Info: ... file 'tesis_JGA_outline.bbl' found.
+
+(D:\disco_usuario\javier\upm\doctorado\tesis\texto_tesis_upm\texto_tutto\tesis_
+JGA_outline.bbl)
+Package biblatex Info: Reference section=0 on input line 85.
+Package biblatex Info: Reference segment=0 on input line 85.
+\c__siunitx_mathsf_int=\count375
+LaTeX Font Info:    Try loading font information for U+msa on input line 85.
+ ("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 85.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+\c__siunitx_mathtt_int=\count376
+LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <20.74> not available
+(Font)              Font shape `T1/ppl/b/n' tried instead on input line 102.
+ [1
 
 
 
@@ -1387,8 +1499,8 @@ LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <24.88> not available
 --------------------
  Abstract
 --------------------
-LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <12> not available
-(Font)              Font shape `T1/ppl/b/n' tried instead on input line 165.
+LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <10.95> not available
+(Font)              Font shape `T1/ppl/b/n' tried instead on input line 170.
 [3
 
 ] [4
@@ -1400,8 +1512,10 @@ LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <12> not available
 [5] [6
 
 ]
-LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <17.28> not available
-(Font)              Font shape `T1/ppl/b/n' tried instead on input line 187.
+LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <14.4> not available
+(Font)              Font shape `T1/ppl/b/n' tried instead on input line 192.
+LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <24.88> not available
+(Font)              Font shape `T1/ppl/b/n' tried instead on input line 192.
 
 (D:\disco_usuario\javier\upm\doctorado\tesis\texto_tesis_upm\texto_tutto\tesis_
 JGA_outline.toc [7])
@@ -1413,137 +1527,125 @@ Cap\IeC {\'\i }tulo 1.
 --------------------
  1. Introducci\IeC {\'o}n general
 --------------------
-
-LaTeX Warning: Citation 'Reference3' on page 1 undefined on input line 13.
-
-
-Overfull \hbox (5.59775pt too wide) in paragraph at lines 13--14
-\T1/ppl/m/n/12 Lorem ip-sum do-lor sit amet, con-secte-tur adip-isc-ing elit. A
-li-quam ul-tricies lacinia
- []
-
+LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <12> not available
+(Font)              Font shape `T1/ppl/b/n' tried instead on input line 21.
 [1
 
 
-] [2])
+])
 (D:\disco_usuario\javier\upm\doctorado\tesis\texto_tesis_upm\texto_tutto\Chapte
-rs/Chapter_DINAMICA.tex [3] [4
-
-]
+rs/Chapter_DINAMICA.tex [2]
 Cap\IeC {\'\i }tulo 2.
 --------------------
  2. Modelado din\IeC {\'a}mico
 --------------------
+[3
 
-LaTeX Warning: Citation 'Reference3' on page 5 undefined on input line 13.
-
-
-Overfull \hbox (5.59775pt too wide) in paragraph at lines 13--14
-\T1/ppl/m/n/12 Lorem ip-sum do-lor sit amet, con-secte-tur adip-isc-ing elit. A
-li-quam ul-tricies lacinia
- []
-
-[5])
+])
 (D:\disco_usuario\javier\upm\doctorado\tesis\texto_tesis_upm\texto_tutto\Chapte
-rs/Chapter_ESTATICA.tex [6] [7] [8
-
-]
+rs/Chapter_ESTATICA.tex [4]
 Cap\IeC {\'\i }tulo 3.
 --------------------
  3. Estructura del mutualismo
 --------------------
-
-LaTeX Warning: Citation 'Reference3' on page 9 undefined on input line 13.
-
-
-Overfull \hbox (5.59775pt too wide) in paragraph at lines 13--14
-\T1/ppl/m/n/12 Lorem ip-sum do-lor sit amet, con-secte-tur adip-isc-ing elit. A
-li-quam ul-tricies lacinia
- []
-
-LaTeX Font Info:    Font shape `T1/ppl/bx/it' in size <17.28> not available
+LaTeX Font Info:    Font shape `T1/ppl/bx/it' in size <14.4> not available
 (Font)              Font shape `T1/ppl/b/it' tried instead on input line 22.
+LaTeX Font Info:    Font shape `T1/ppl/bx/it' in size <12> not available
+(Font)              Font shape `T1/ppl/b/it' tried instead on input line 30.
+[5
 
-Overfull \hbox (3.58714pt too wide) in paragraph at lines 22--22
- |[]\T1/ppl/b/n/17.28 Una de-scrip-ción al-ter-na-tiva basada en la de-scom-
- []
-
-[9])
+])
 (D:\disco_usuario\javier\upm\doctorado\tesis\texto_tesis_upm\texto_tutto\Chapte
-rs/Chapter_VISUALIZACION.tex [10]
+rs/Chapter_VISUALIZACION.tex [6]
 Cap\IeC {\'\i }tulo 4.
 --------------------
  4. Visualizaciones del mutualismo
 --------------------
+[7
 
-LaTeX Warning: Citation 'Reference3' on page 11 undefined on input line 13.
+]
+Package epstopdf Info: Source file: <Figures/M_SD_004_polar.eps>
+(epstopdf)                    date: 2015-07-15 14:29:46
+(epstopdf)                    size: 1038379 bytes
+(epstopdf)             Output file: <Figures/M_SD_004_polar-eps-converted-to.pd
+f>
+(epstopdf)                    date: 2015-12-06 17:12:57
+(epstopdf)                    size: 197823 bytes
+(epstopdf)             Command: <epstopdf --outfile=Figures/M_SD_004_polar-eps-
+converted-to.pdf Figures/M_SD_004_polar.eps>
+(epstopdf)             \includegraphics on input line 36.
+Package epstopdf Info: Output file is already uptodate.
+
+<Figures/M_SD_004_polar-eps-converted-to.pdf, id=291, 571.13374pt x 571.13374pt
+>
+File: Figures/M_SD_004_polar-eps-converted-to.pdf Graphic file (type pdf)
+ <use Figures/M_SD_004_polar-eps-converted-to.pdf>
+Package pdftex.def Info: Figures/M_SD_004_polar-eps-converted-to.pdf used on in
+put line 36.
+(pdftex.def)             Requested size: 342.68289pt x 342.68289pt.
+
+<Figures/zig_pl_024.png, id=292, 801.9561pt x 746.0673pt>
+File: Figures/zig_pl_024.png Graphic file (type png)
+
+<use Figures/zig_pl_024.png>
+Package pdftex.def Info: Figures/zig_pl_024.png used on input line 47.
+(pdftex.def)             Requested size: 400.97707pt x 373.03275pt.
 
 
-Overfull \hbox (5.59775pt too wide) in paragraph at lines 13--14
-\T1/ppl/m/n/12 Lorem ip-sum do-lor sit amet, con-secte-tur adip-isc-ing elit. A
-li-quam ul-tricies lacinia
- []
+LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[11
-
-])
+[8 <D:/disco_usuario/javier/upm/doctorado/tesis/texto_tesis_upm/texto_tutto/Fig
+ures/M_SD_004_polar-eps-converted-to.pdf>])
 (D:\disco_usuario\javier\upm\doctorado\tesis\texto_tesis_upm\texto_tutto\Chapte
-rs/Chapter_CONCLUSIONES.tex [12] [13] [14
+rs/Chapter_CONCLUSIONES.tex [9 <D:/disco_usuario/javier/upm/doctorado/tesis/tex
+to_tesis_upm/texto_tutto/Figures/zig_pl_024.png>] [10
 
 ]
 Cap\IeC {\'\i }tulo 5.
 --------------------
  5. Conclusiones de la tesis
 --------------------
+) [11] [12
 
-LaTeX Warning: Citation 'Reference3' on page 15 undefined on input line 13.
-
+]
+LaTeX Font Info:    Try loading font information for T1+pcr on input line 279.
+ ("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\t1pcr.fd"
+File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
 )
-Overfull \hbox (5.59775pt too wide) in paragraph at lines 13--256
-\T1/ppl/m/n/12 Lorem ip-sum do-lor sit amet, con-secte-tur adip-isc-ing elit. A
-li-quam ul-tricies lacinia
- []
-
-
-LaTeX Warning: Empty bibliography on input line 274.
-
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 278.
-[15]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 278.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 283.
+ [13]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 283.
 
 (D:\disco_usuario\javier\upm\doctorado\tesis\texto_tesis_upm\texto_tutto\tesis_
 JGA_outline.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 278.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 278.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 283.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 283.
 Package rerunfilecheck Info: File `tesis_JGA_outline.out' has not changed.
-(rerunfilecheck)             Checksum: 32960C8447C74791125FBE7E9F10CEC0;6491.
-
-
-LaTeX Warning: There were undefined references.
-
-
-Package biblatex Warning: Please (re)run BibTeX on the file(s):
-(biblatex)                tesis_JGA_outline
-(biblatex)                and rerun LaTeX afterwards.
-
+(rerunfilecheck)             Checksum: 748EB8BBBEA9EB291653E38EED25E66D;7132.
 Package logreq Info: Writing requests to 'tesis_JGA_outline.run.xml'.
  ) 
 Here is how much of TeX's memory you used:
- 27123 strings out of 493921
- 484643 string characters out of 3147276
- 636678 words of memory out of 3000000
- 30084 multiletter control sequences out of 15000+200000
- 36255 words of font info for 62 fonts, out of 3000000 for 9000
+ 28445 strings out of 493921
+ 502294 string characters out of 3147276
+ 659081 words of memory out of 3000000
+ 31334 multiletter control sequences out of 15000+200000
+ 48693 words of font info for 85 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 47i,11n,49p,10415b,2243s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 47i,11n,49p,10417b,2247s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}<C:/Program File
-s/MiKTeX 2.9/fonts/type1/urw/palatino/uplb8a.pfb><C:/Program Files/MiKTeX 2.9/f
-onts/type1/urw/palatino/uplbi8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/ur
-w/palatino/uplr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/palatino/upl
-r8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on tesis_JGA_outline.pdf (23 pages, 138824 bytes).
+s/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX
+ 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Program Files/MiKTeX 2.9/font
+s/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/p
+ublic/amsfonts/cm/cmr8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsf
+onts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/courier/ucrr8a.
+pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/palatino/uplb8a.pfb><C:/Progra
+m Files/MiKTeX 2.9/fonts/type1/urw/palatino/uplbi8a.pfb><C:/Program Files/MiKTe
+X 2.9/fonts/type1/urw/palatino/uplr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/ty
+pe1/urw/palatino/uplr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/palati
+no/uplri8a.pfb>
+Output written on tesis_JGA_outline.pdf (21 pages, 524898 bytes).
 PDF statistics:
- 331 PDF objects out of 1000 (max. 8388607)
- 60 named destinations out of 1000 (max. 500000)
- 297 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 380 PDF objects out of 1000 (max. 8388607)
+ 65 named destinations out of 1000 (max. 500000)
+ 323 words of extra memory for PDF output out of 10000 (max. 10000000)
 

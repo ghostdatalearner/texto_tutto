@@ -202,6 +202,7 @@
 \fancyhead{} % Erase the default headers and footers style to replace with our own
 \fancyfoot{} % Erase the default headers and footers style to replace with our own
 \if@twoside % If we are in two sided mode, print alternating page headers
+
 \fancypagestyle{thesis}{%
 	\fancyhead[LE,RO]{\rmfamily\thepage}%
 	\fancyhead[RE,LO]{\slshape\MakeMarkcase{\rightmark}}%
@@ -386,7 +387,7 @@ bookmarksopenlevel=0,
 hypertexnames=false,
 colorlinks=true, % Set to false to disable coloring links
 citecolor=Periwinkle, % The color of citations
-linkcolor=Black, % The color of references to document elements (sections, figures, etc)
+linkcolor=MidnightBlue, % The color of references to document elements (sections, figures, etc)
 urlcolor=MidnightBlue, % The color of hyperlinks (URLs)
 pdfstartview={FitV},
 unicode,
