@@ -41,45 +41,45 @@
   >
 ]>
 <requests version="1.0">
-  <internal package="biblatex" priority="9" active="1">
+  <internal package="biblatex" priority="9" active="0">
     <generic>latex</generic>
     <provides type="dynamic">
-      <file>tesis_JGA_outline.aux</file>
-      <file>tesis_JGA_outline-blx.bib</file>
+      <file>tesis_JGA_mutualismo.aux</file>
+      <file>tesis_JGA_mutualismo-blx.bib</file>
     </provides>
     <requires type="dynamic">
-      <file>tesis_JGA_outline.bbl</file>
+      <file>tesis_JGA_mutualismo.bbl</file>
     </requires>
     <requires type="static">
       <file>blx-compat.def</file>
       <file>biblatex.def</file>
       <file>blx-natbib.def</file>
-      <file>authoryear.bbx</file>
+      <file>alphabetic.bbx</file>
       <file>standard.bbx</file>
-      <file>authoryear.cbx</file>
+      <file>alphabetic.cbx</file>
       <file>biblatex.cfg</file>
       <file>english.lbx</file>
     </requires>
   </internal>
-  <external package="biblatex" priority="5" active="1">
+  <external package="biblatex" priority="5" active="0">
     <generic>bibtex</generic>
     <cmdline>
       <binary>bibtex</binary>
       <option>-min-crossrefs 2</option>
-      <infile>tesis_JGA_outline</infile>
+      <infile>tesis_JGA_mutualismo</infile>
     </cmdline>
     <input>
-      <file>tesis_JGA_outline.aux</file>
+      <file>tesis_JGA_mutualismo.aux</file>
     </input>
     <output>
-      <file>tesis_JGA_outline.bbl</file>
+      <file>tesis_JGA_mutualismo.bbl</file>
     </output>
     <provides type="dynamic">
-      <file>tesis_JGA_outline.bbl</file>
+      <file>tesis_JGA_mutualismo.bbl</file>
     </provides>
     <requires type="dynamic">
-      <file>tesis_JGA_outline.aux</file>
-      <file>tesis_JGA_outline-blx.bib</file>
+      <file>tesis_JGA_mutualismo.aux</file>
+      <file>tesis_JGA_mutualismo-blx.bib</file>
     </requires>
     <requires type="editable">
       <file>tesis_JGA.bib</file>

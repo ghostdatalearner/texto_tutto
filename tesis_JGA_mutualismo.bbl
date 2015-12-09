@@ -1,0 +1,349 @@
+% $ biblatex auxiliary file $
+% $ biblatex version 2.5 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated as
+% required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+\entry{barbera2014critical}{article}{}
+  \name{author}{7}{}{%
+    {{}%
+     {Barber{\'a}}{B.}%
+     {P}{P}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Wang}{W.}%
+     {N}{N}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Bonneau}{B.}%
+     {R}{R}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Jost}{J.}%
+     {JT}{J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Nagler}{N.}%
+     {J}{J}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Tucker}{T.}%
+     {J}{J}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Gonz{\'a}lez-Bail{\'o}n}{G.-B.}%
+     {S}{S}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{BP+1}
+  \strng{fullhash}{BPWNBRJJNJTJGBS1}
+  \field{labelalpha}{Bar+14}
+  \field{sortinit}{B}
+  \field{number}{11}
+  \field{pages}{e0143611\bibrangedash e0143611}
+  \field{title}{The Critical Periphery in the Growth of Social Protests.}
+  \field{volume}{10}
+  \field{journaltitle}{PloS one}
+  \field{year}{2014}
+\endentry
+
+\entry{cardona2006taxonomia}{article}{}
+  \name{author}{4}{}{%
+    {{}%
+     {Cardona}{C.}%
+     {Alberto}{A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Nigro}{N.}%
+     {Norberto}{N.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Sonzogni}{S.}%
+     {Victorio}{V.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Storti}{S.}%
+     {Mario}{M.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{CA+1}
+  \strng{fullhash}{CANNSVSM1}
+  \field{labelalpha}{Car+06}
+  \field{sortinit}{C}
+  \field{pages}{2597\bibrangedash 2612}
+  \field{title}{Taxomon{\'i}a de los modelos de topolog{\'i}a de internet}
+  \field{volume}{25}
+  \field{journaltitle}{Mec{\'a}nica Computacional}
+  \field{year}{2006}
+\endentry
+
+\entry{dorogovtsev2006k}{article}{}
+  \name{author}{3}{}{%
+    {{}%
+     {Dorogovtsev}{D.}%
+     {Sergey~N}{S.~N.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Goltsev}{G.}%
+     {Alexander~V}{A.~V.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Mendes}{M.}%
+     {Jose Ferreira~F}{J.~F.~F.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {APS}%
+  }
+  \strng{namehash}{DSNGAVMJFF1}
+  \strng{fullhash}{DSNGAVMJFF1}
+  \field{labelalpha}{DGM06}
+  \field{sortinit}{D}
+  \field{number}{4}
+  \field{pages}{040601}
+  \field{title}{K-core organization of complex networks}
+  \field{volume}{96}
+  \field{journaltitle}{Physical review letters}
+  \field{year}{2006}
+\endentry
+
+\entry{herrero2000terminologia}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Herrero}{H.}%
+     {Reyes}{R.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{HR1}
+  \strng{fullhash}{HR1}
+  \field{labelalpha}{Her00}
+  \field{sortinit}{H}
+  \field{number}{33}
+  \field{pages}{199\bibrangedash 206}
+  \field{title}{La terminolog{\'\i}a del an{\'a}lisis de redes: problemas de
+  definici{\'o}n y de traducci{\'o}n}
+  \field{journaltitle}{Pol{\'\i}tica y sociedad}
+  \field{year}{2000}
+\endentry
+
+\entry{kitsak2010identification}{article}{}
+  \name{author}{7}{}{%
+    {{}%
+     {Kitsak}{K.}%
+     {Maksim}{M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Gallos}{G.}%
+     {Lazaros~K}{L.~K.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Havlin}{H.}%
+     {Shlomo}{S.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Liljeros}{L.}%
+     {Fredrik}{F.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Muchnik}{M.}%
+     {Lev}{L.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Stanley}{S.}%
+     {H~Eugene}{H.~E.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Makse}{M.}%
+     {Hern{\'a}n~A}{H.~A.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Nature Publishing Group}%
+  }
+  \strng{namehash}{KM+1}
+  \strng{fullhash}{KMGLKHSLFMLSHEMHA1}
+  \field{labelalpha}{Kit+10}
+  \field{sortinit}{K}
+  \field{number}{11}
+  \field{pages}{888\bibrangedash 893}
+  \field{title}{Identification of influential spreaders in complex networks}
+  \field{volume}{6}
+  \field{journaltitle}{Nature Physics}
+  \field{year}{2010}
+\endentry
+
+\entry{montresor2013distributed}{article}{}
+  \name{author}{3}{}{%
+    {{}%
+     {Montresor}{M.}%
+     {Alberto}{A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {De~Pellegrini}{D.~P.}%
+     {Francesco}{F.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Miorandi}{M.}%
+     {Daniele}{D.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {IEEE}%
+  }
+  \strng{namehash}{MADPFMD1}
+  \strng{fullhash}{MADPFMD1}
+  \field{labelalpha}{MDPM13}
+  \field{sortinit}{M}
+  \field{number}{2}
+  \field{pages}{288\bibrangedash 300}
+  \field{title}{Distributed k-core decomposition}
+  \field{volume}{24}
+  \field{journaltitle}{Parallel and Distributed Systems, IEEE Transactions on}
+  \field{year}{2013}
+\endentry
+
+\entry{martinez2011aplicacion}{article}{}
+  \name{author}{4}{}{%
+    {{}%
+     {Mart{\'\i}nez-Torres}{M.-T.}%
+     {Mar{\'\i}a del~Roc{\'\i}o}{M.~d.~R.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Palacios-Florencio}{P.-F.}%
+     {Beatriz}{B.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Toral-Mar{\'\i}n}{T.-M.}%
+     {Sergio~L}{S.~L.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Barrero-Garc{\'\i}a}{B.-G.}%
+     {Federico~Jos{\'e}}{F.~J.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{MTMdR+1}
+  \strng{fullhash}{MTMdRPFBTMSLBGFJ1}
+  \field{labelalpha}{MT+11}
+  \field{sortinit}{M}
+  \field{number}{2}
+  \field{pages}{232\bibrangedash 252}
+  \field{title}{Aplicaci{\'o}n de algoritmos gen{\'e}ticos a la
+  identificaci{\'o}n de la estructura de enlaces en portales web}
+  \field{volume}{34}
+  \field{journaltitle}{Revista espa{\~n}ola de documentaci{\'o}n
+  cient{\'\i}fica}
+  \field{year}{2011}
+\endentry
+
+\entry{seidman1983network}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Seidman}{S.}%
+     {Stephen~B}{S.~B.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Elsevier}%
+  }
+  \strng{namehash}{SSB1}
+  \strng{fullhash}{SSB1}
+  \field{labelalpha}{Sei83}
+  \field{sortinit}{S}
+  \field{number}{3}
+  \field{pages}{269\bibrangedash 287}
+  \field{title}{Network structure and minimum degree}
+  \field{volume}{5}
+  \field{journaltitle}{Social networks}
+  \field{year}{1983}
+\endentry
+
+\entry{zhang2010using}{article}{}
+  \name{author}{5}{}{%
+    {{}%
+     {Zhang}{Z.}%
+     {Haohua}{H.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Zhao}{Z.}%
+     {Hai}{H.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Cai}{C.}%
+     {Wei}{W.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Liu}{L.}%
+     {Jie}{J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Zhou}{Z.}%
+     {Wanlei}{W.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Springer}%
+  }
+  \strng{namehash}{ZH+1}
+  \strng{fullhash}{ZHZHCWLJZW1}
+  \field{labelalpha}{Zha+10}
+  \field{sortinit}{Z}
+  \field{number}{2}
+  \field{pages}{352\bibrangedash 369}
+  \field{title}{Using the k-core decomposition to analyze the static structure
+  of large-scale software systems}
+  \field{volume}{53}
+  \field{journaltitle}{The Journal of Supercomputing}
+  \field{year}{2010}
+\endentry
+
+\lossort
+\endlossort
+
+\endinput

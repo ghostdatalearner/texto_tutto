@@ -176,7 +176,7 @@
 	top=.6in, % Top margin
 	bottom=.8in, % bottom margin
 	headheight=20pt, % Header height
-	headsep=.25in, % Header separation
+	headsep=.45in, % Header separation
 	includehead,
 	includefoot
 }
@@ -187,7 +187,7 @@
 %	PENALTIES
 %----------------------------------------------------------------------------------------
 
-\doublehyphendemerits=10000 % No consecutive line hyphens
+\doublehyphendemerits=0000 % No consecutive line hyphens
 \brokenpenalty=10000 % No broken words across columns/pages
 \widowpenalty=9999 % Almost no widows at bottom of page
 \clubpenalty=9999 % Almost no orphans at top of page
@@ -201,11 +201,50 @@
 \providecommand{\MakeMarkcase}{} % Add \MakeUppercase to make header text all capitals
 \fancyhead{} % Erase the default headers and footers style to replace with our own
 \fancyfoot{} % Erase the default headers and footers style to replace with our own
+
+\usepackage{color}
+\definecolor{bgpagenum}{gray}{.82}
+\definecolor{fgheader}{gray}{.5}
 \if@twoside % If we are in two sided mode, print alternating page headers
 
+%\fancypagestyle{thesis}{%
+%	\fancyhead[LE,RO]{\rmfamily\thepage}%
+%	\fancyhead[RE,LO]{\slshape\MakeMarkcase{\rightmark}}%
+%}
+%\else % If we are in one sided, print the headers on the same positions on all pages  
+%	\fancypagestyle{thesis}{%
+%	\lhead{\slshape\MakeMarkcase{\rightmark}}% The left top header
+%	\rhead{\rmfamily\thepage}% The right top header
+%}
+%\fi
+%\pagestyle{thesis}
+
+\renewcommand{\headrulewidth}{0pt}
 \fancypagestyle{thesis}{%
-	\fancyhead[LE,RO]{\rmfamily\thepage}%
-	\fancyhead[RE,LO]{\slshape\MakeMarkcase{\rightmark}}%
+	\fancyhead[RO]{%
+  \textcolor{fgheader}{%
+    \rightmark
+    \rlap{%
+      \hspace{\marginparsep}%
+      \hspace{--\fboxsep}%
+      \colorbox{bgpagenum}{%
+        \makebox[\textwidth][l]{\thepage}%
+      }%
+    }%
+  }%
+}
+\fancyhead[LE]{%
+  \textcolor{fgheader}{%
+    \llap{%
+      \colorbox{bgpagenum}{%
+        \makebox[\textwidth][r]{\thepage}%
+      }%
+      \hspace{\marginparsep}%
+      \hspace{--\fboxsep}%
+    }%
+    \leftmark
+  }%
+}
 }
 \else % If we are in one sided, print the headers on the same positions on all pages  
 	\fancypagestyle{thesis}{%
@@ -214,6 +253,7 @@
 }
 \fi
 \pagestyle{thesis}
+
 
 \renewcommand{\chaptermark}[1]{\tttypeout{\thechapter.\space #1}\markboth{\@chapapp\ \thechapter.\ #1}{\@chapapp\ \thechapter.\ #1}} % Define what is in the header and in what order
 \renewcommand{\sectionmark}[1]{}
@@ -232,11 +272,13 @@
 \newcommand{\tref}[1]{\tablename~\ref{#1}}
 \providecaptionname{german,ngerman,austrian,naustrian}{\equationnamenname}{Formel}
 \providecaptionname{american,australian,british,canadian,english,newzealand,UKenglish,USenglish}{\equationnamenname}{Equation}
+%\providecaptionname{spanish}{\equationnamenname}{Ecuación}
 \newcommand{\eref}[1]{\equationname~\ref{#1}}
 \newcommand{\cref}[1]{\chaptername~\ref{#1}}
 \newcommand{\sref}[1]{\sectionname~\ref{#1}}
 \providecaptionname{german,ngerman,austrian,naustrian}{\sectionname}{Abschnitt}
 \providecaptionname{american,australian,british,canadian,english,newzealand,UKenglish,USenglish}{\sectionname}{Section}
+%\providecaptionname{spanish}{\sectionname}{Sección}
 \newcommand{\aref}[1]{\appendixname~\ref{#1}}
 
 %----------------------------------------------------------------------------------------
@@ -261,6 +303,7 @@
 %----------------------------------------------------------------------------------------
 
 \providecaptionname{american,australian,british,canadian,english,newzealand,UKenglish,USenglish}{\authorshipname}{Declaration of Authorship} % Declaration of Authorship text for English countries
+%\providecaptionname{spanish}{\authorshipname}{Declaración de autoría} 
 \providecaptionname{german,ngerman,austrian,naustrian}{\authorshipname}{Eidesstattliche Erkl\"arung} % Declaration of Authorship text for Germanic countries
 
 \newenvironment{declaration}{
@@ -290,6 +333,7 @@
 
 \providecaptionname{german,ngerman,austrian,naustrian}{\byname}{von}
 \providecaptionname{american,australian,british,canadian,english,newzealand,UKenglish,USenglish}{\byname}{by}
+%\providecaptionname{spanish}{\byname}{por}
 \newenvironment{abstract}{
 	\checktoopen
 	\tttypeout{\abstractname}
@@ -319,6 +363,7 @@
 %----------------------------------------------------------------------------------------
 
 \providecaptionname{english,british,american}{\abbrevname}{List of Abbreviations}
+%\providecaptionname{spanish}{\abbrevname}{Abreviaturas}
 \providecaptionname{ngerman,german,austrian,naustrian}{\abbrevname}{Abk\"urzungsverzeichnis}
 \NewDocumentEnvironment{abbreviations}{ m }{%
 	\ifbool{nolistspace}{\begingroup\singlespacing}{}
@@ -334,6 +379,7 @@
 %----------------------------------------------------------------------------------------
 
 \providecaptionname{english,british,american}{\constantsname}{Physical Constants}
+%\providecaptionname{spanish}{\constantsname}{Constantes físicas}
 \providecaptionname{ngerman,german,austrian,naustrian}{\constantsname}{Physikalische Konstanten}
 
 \NewDocumentEnvironment{constants}{ m }{%
@@ -350,6 +396,7 @@
 %----------------------------------------------------------------------------------------
 
 \providecaptionname{english,british,american}{\symbolsname}{List of Symbols}
+%\providecaptionname{spanish}{\symbolsname}{Símbolos}
 \providecaptionname{ngerman,german,austrian,naustrian}{\symbolsname}{Symbolverzeichnis}
 
 \NewDocumentEnvironment{symbols}{ m }{%
@@ -366,6 +413,7 @@
 %----------------------------------------------------------------------------------------
 
 \providecaptionname{american,australian,british,canadian,english,newzealand,UKenglish,USenglish} {\acknowledgementname}{Acknowledgements} % Acknowledgement text for English countries
+%\providecaptionname{spanish} {\acknowledgementname}{Agradecimientos} 
 \providecaptionname{german,ngerman,austrian,naustrian}{\acknowledgementname}{Danksagung} % Acknowledgement text for Germanic countries
 
 \NewDocumentEnvironment{acknowledgements}{}{%
@@ -387,7 +435,7 @@ bookmarksopenlevel=0,
 hypertexnames=false,
 colorlinks=true, % Set to false to disable coloring links
 citecolor=Periwinkle, % The color of citations
-linkcolor=MidnightBlue, % The color of references to document elements (sections, figures, etc)
+linkcolor=bistre, % The color of references to document elements (sections, figures, etc)
 urlcolor=MidnightBlue, % The color of hyperlinks (URLs)
 pdfstartview={FitV},
 unicode,

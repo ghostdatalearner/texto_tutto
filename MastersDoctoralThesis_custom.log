@@ -1,0 +1,17 @@
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=pdftex 2013.9.16)  9 DEC 2015 14:30
+entering extended mode
+**D:/disco_usuario/javier/upm/doctorado/tesis/texto_tesis_upm/texto_tutto/Maste
+rsDoctoralThesis_custom.cls
+
+(D:/disco_usuario/javier/upm/doctorado/tesis/texto_tesis_upm/texto_tutto/Master
+sDoctoralThesis_custom.cls
+! Undefined control sequence.
+l.25 \NeedsTeXFormat
+                    {LaTeX2e}[1996/12/01]
+? 
+! Emergency stop.
+l.25 \NeedsTeXFormat
+                    {LaTeX2e}[1996/12/01]
+End of file on the terminal!
+
+!  ==> Fatal error occurred, no output PDF file produced!
