@@ -276,6 +276,45 @@
   \field{year}{2011}
 \endentry
 
+\entry{plavvsic1993harary}{article}{}
+  \name{author}{4}{}{%
+    {{}%
+     {Plav{\v{s}}i{\'c}}{P.}%
+     {Dejan}{D.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Nikoli{\'c}}{N.}%
+     {Sonja}{S.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Trinajsti{\'c}}{T.}%
+     {Nenad}{N.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Mihali{\'c}}{M.}%
+     {Zlatko}{Z.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Springer}%
+  }
+  \strng{namehash}{PD+1}
+  \strng{fullhash}{PDNSTNMZ1}
+  \field{labelalpha}{Pla+93}
+  \field{sortinit}{P}
+  \field{number}{1}
+  \field{pages}{235\bibrangedash 250}
+  \field{title}{On the Harary index for the characterization of chemical
+  graphs}
+  \field{volume}{12}
+  \field{journaltitle}{Journal of Mathematical Chemistry}
+  \field{year}{1993}
+\endentry
+
 \entry{seidman1983network}{article}{}
   \name{author}{1}{}{%
     {{}%

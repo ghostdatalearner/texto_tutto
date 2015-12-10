@@ -23,20 +23,20 @@
 \contentsline {chapter}{\numberline {3}Estructura del mutualismo}{9}{chapter.21}
 \contentsline {section}{\numberline {3.1}Propiedades estructurales del mutualismo}{9}{section.22}
 \contentsline {subsection}{\numberline {3.1.1}Magnitudes cl\IeC {\'a}sicas}{9}{subsection.23}
-\contentsline {section}{\numberline {3.2}Una descripci\IeC {\'o}n alternativa basada en la descompisi\IeC {\'o}n \textit {k-core}}{10}{section.24}
-\contentsline {subsection}{\numberline {3.2.1}K magnitudes}{11}{subsection.28}
-\contentsline {subsection}{\numberline {3.2.2}Algoritmo de destrucci\IeC {\'o}n basado en \textit {k-shell}}{11}{subsection.29}
-\contentsline {section}{\numberline {3.3}Resultados}{11}{section.30}
-\contentsline {section}{\numberline {3.4}Conclusiones}{12}{section.31}
-\contentsline {chapter}{\numberline {4}Visualizaciones del mutualismo}{13}{chapter.32}
-\contentsline {section}{\numberline {4.1}Representaci\IeC {\'o}n cl\IeC {\'a}sica del mutualismo}{13}{section.33}
-\contentsline {subsection}{\numberline {4.1.1}El diagrama bipartito}{13}{subsection.34}
-\contentsline {subsection}{\numberline {4.1.2}La matriz de interacci\IeC {\'o}n}{14}{subsection.35}
-\contentsline {section}{\numberline {4.2}Visualizaciones basadas en \textit {k-magnitudes}}{14}{section.36}
-\contentsline {subsection}{\numberline {4.2.1}El diagrama polar}{14}{subsection.37}
-\contentsline {subsection}{\numberline {4.2.2}El diagrama zigurat}{14}{subsection.39}
-\contentsline {section}{\numberline {4.3}Resultados}{14}{section.41}
-\contentsline {section}{\numberline {4.4}Conclusiones}{15}{section.42}
-\contentsline {chapter}{\numberline {5}Conclusiones de la tesis}{17}{chapter.43}
-\contentsline {section}{\numberline {5.1}XXXX mutualismo}{17}{section.44}
-\contentsline {chapter}{Bibliograf\IeC {\'\i }a}{19}{chapter*.45}
+\contentsline {section}{\numberline {3.2}Descripci\IeC {\'o}n basada en la descompisi\IeC {\'o}n \textit {k-core}}{10}{section.24}
+\contentsline {section}{\numberline {3.3}K magnitudes}{11}{section.28}
+\contentsline {subsection}{\numberline {3.3.1}Algoritmo de destrucci\IeC {\'o}n basado en \textit {k-shell}}{13}{subsection.32}
+\contentsline {section}{\numberline {3.4}Resultados}{13}{section.33}
+\contentsline {section}{\numberline {3.5}Conclusiones}{13}{section.34}
+\contentsline {chapter}{\numberline {4}Visualizaciones del mutualismo}{15}{chapter.35}
+\contentsline {section}{\numberline {4.1}Representaci\IeC {\'o}n cl\IeC {\'a}sica del mutualismo}{15}{section.36}
+\contentsline {subsection}{\numberline {4.1.1}El diagrama bipartito}{15}{subsection.37}
+\contentsline {subsection}{\numberline {4.1.2}La matriz de interacci\IeC {\'o}n}{16}{subsection.38}
+\contentsline {section}{\numberline {4.2}Visualizaciones basadas en \textit {k-magnitudes}}{16}{section.39}
+\contentsline {subsection}{\numberline {4.2.1}El diagrama polar}{16}{subsection.40}
+\contentsline {subsection}{\numberline {4.2.2}El diagrama zigurat}{16}{subsection.42}
+\contentsline {section}{\numberline {4.3}Resultados}{16}{section.44}
+\contentsline {section}{\numberline {4.4}Conclusiones}{17}{section.45}
+\contentsline {chapter}{\numberline {5}Conclusiones de la tesis}{19}{chapter.46}
+\contentsline {section}{\numberline {5.1}XXXX mutualismo}{19}{section.47}
+\contentsline {chapter}{Bibliograf\IeC {\'\i }a}{21}{chapter*.48}

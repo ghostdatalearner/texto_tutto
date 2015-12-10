@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2013.8.13)  9 DEC 2015 18:03
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2013.8.13)  9 DEC 2015 21:04
 entering extended mode
 **tesis_JGA_mutualismo.tex
 
@@ -1724,13 +1724,57 @@ on input line 39.
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [10]
+Package mdframed Info: mdframed works in twoside mode on input line 55.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 55.
+Package epstopdf Info: Source file: <Figures/ESTATICA_red_example.eps>
+(epstopdf)                    date: 2015-11-24 16:41:37
+(epstopdf)                    size: 297107 bytes
+(epstopdf)             Output file: <Figures/ESTATICA_red_example-eps-converted
+-to.pdf>
+(epstopdf)                    date: 2015-12-09 20:20:57
+(epstopdf)                    size: 140696 bytes
+(epstopdf)             Command: <epstopdf --outfile=Figures/ESTATICA_red_exampl
+e-eps-converted-to.pdf Figures/ESTATICA_red_example.eps>
+(epstopdf)             \includegraphics on input line 70.
+Package epstopdf Info: Output file is already uptodate.
+
+<Figures/ESTATICA_red_example-eps-converted-to.pdf, id=324, 845.1575pt x 597.23
+125pt>
+File: Figures/ESTATICA_red_example-eps-converted-to.pdf Graphic file (type pdf)
+
+ <use Figures/ESTATICA_red_example-eps-converted-to.pdf>
+Package pdftex.def Info: Figures/ESTATICA_red_example-eps-converted-to.pdf used
+ on input line 70.
+(pdftex.def)             Requested size: 422.57771pt x 298.61488pt.
+
+Overfull \hbox (5.74483pt too wide) in paragraph at lines 70--71
+ [][] 
+ []
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[11 <D:/disco_usuario/javier/upm/doctorado/tesis/texto_tesis_upm/texto_tutto/Fi
+gures/ESTATICA_kcore_decomposition_example.png>]
+Package mdframed Info: mdframed works in twoside mode on input line 81.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 81.
+ [12 <D:/disco_usuario/javier/upm/doctorado/tesis/texto_tesis_upm/texto_tutto/F
+igures/ESTATICA_red_example-eps-converted-to.pdf>]
+
+LaTeX Warning: Reference `fig:red_example' on page 13 undefined on input line 1
+03.
+
 LaTeX Font Info:    Font shape `T1/ppl/bx/it' in size <12> not available
-(Font)              Font shape `T1/ppl/b/it' tried instead on input line 57.
+(Font)              Font shape `T1/ppl/b/it' tried instead on input line 106.
 )
 (D:\disco_usuario\javier\upm\doctorado\tesis\texto_tesis_upm\texto_tutto\Chapte
-rs/Chapter_VISUALIZACION.tex [11 <D:/disco_usuario/javier/upm/doctorado/tesis/t
-exto_tesis_upm/texto_tutto/Figures/ESTATICA_kcore_decomposition_example.png>]
-[12]
+rs/Chapter_VISUALIZACION.tex [13] [14
+
+]
 Cap\IeC {\'\i }tulo 4.
 --------------------
  4. Visualizaciones del mutualismo
@@ -1740,9 +1784,7 @@ Overfull \hbox (11.14352pt too wide) in paragraph at lines 3--3
  |[]\T1/ppl/b/n/24.88 Visualizaciones del mu-tu-al-ismo| 
  []
 
-[13
-
-]
+[15]
 Package epstopdf Info: Source file: <Figures/M_SD_004_polar.eps>
 (epstopdf)                    date: 2015-07-15 14:29:46
 (epstopdf)                    size: 1038379 bytes
@@ -1755,7 +1797,7 @@ converted-to.pdf Figures/M_SD_004_polar.eps>
 (epstopdf)             \includegraphics on input line 36.
 Package epstopdf Info: Output file is already uptodate.
 
-<Figures/M_SD_004_polar-eps-converted-to.pdf, id=336, 571.13374pt x 571.13374pt
+<Figures/M_SD_004_polar-eps-converted-to.pdf, id=359, 571.13374pt x 571.13374pt
 >
 File: Figures/M_SD_004_polar-eps-converted-to.pdf Graphic file (type pdf)
  <use Figures/M_SD_004_polar-eps-converted-to.pdf>
@@ -1766,7 +1808,7 @@ put line 36.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<Figures/zig_pl_024.png, id=337, 801.9561pt x 746.0673pt>
+<Figures/zig_pl_024.png, id=360, 801.9561pt x 746.0673pt>
 File: Figures/zig_pl_024.png Graphic file (type png)
 
 <use Figures/zig_pl_024.png>
@@ -1778,17 +1820,17 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 )
 (D:\disco_usuario\javier\upm\doctorado\tesis\texto_tesis_upm\texto_tutto\Chapte
-rs/Chapter_CONCLUSIONES.tex [14] [15 <D:/disco_usuario/javier/upm/doctorado/tes
+rs/Chapter_CONCLUSIONES.tex [16] [17 <D:/disco_usuario/javier/upm/doctorado/tes
 is/texto_tesis_upm/texto_tutto/Figures/M_SD_004_polar-eps-converted-to.pdf>]
-[16 <D:/disco_usuario/javier/upm/doctorado/tesis/texto_tesis_upm/texto_tutto/Fi
+[18 <D:/disco_usuario/javier/upm/doctorado/tesis/texto_tesis_upm/texto_tutto/Fi
 gures/zig_pl_024.png>]
 Cap\IeC {\'\i }tulo 5.
 --------------------
  5. Conclusiones de la tesis
 --------------------
-) [17
+) [19
 
-] [18
+] [20
 
 ]
 Overfull \hbox (4.84381pt too wide) in paragraph at lines 299--299
@@ -1796,9 +1838,9 @@ Overfull \hbox (4.84381pt too wide) in paragraph at lines 299--299
 s: prob-le-mas de defini-
  []
 
-[19]
+[21]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 303.
- [20]
+ [22]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 303.
 
 (D:\disco_usuario\javier\upm\doctorado\tesis\texto_tesis_upm\texto_tutto\tesis_
@@ -1806,30 +1848,37 @@ JGA_mutualismo.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 303.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 303.
 Package rerunfilecheck Info: File `tesis_JGA_mutualismo.out' has not changed.
-(rerunfilecheck)             Checksum: 8BD3558FE3F7211365C503E6CA65998B;7132.
+(rerunfilecheck)             Checksum: FA8CA1A62850AE435C8112512A938EA9;7043.
+
+
+LaTeX Warning: There were undefined references.
+
 Package logreq Info: Writing requests to 'tesis_JGA_mutualismo.run.xml'.
  ) 
 Here is how much of TeX's memory you used:
- 29443 strings out of 493921
- 521663 string characters out of 3147276
+ 29473 strings out of 493921
+ 522263 string characters out of 3147276
  697509 words of memory out of 3000000
- 32280 multiletter control sequences out of 15000+200000
- 56153 words of font info for 102 fonts, out of 3000000 for 9000
+ 32303 multiletter control sequences out of 15000+200000
+ 58148 words of font info for 111 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
  47i,15n,49p,10420b,2265s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}<C:/Program File
 s/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files/MiKTeX
  2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX 2.9/fon
-ts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/
-public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/am
-sfonts/cm/cmr8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/
-cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/palatino/uplb8a.pfb><C:
-/Program Files/MiKTeX 2.9/fonts/type1/urw/palatino/uplbi8a.pfb><C:/Program File
-s/MiKTeX 2.9/fonts/type1/urw/palatino/uplr8a.pfb><C:/Program Files/MiKTeX 2.9/f
-onts/type1/urw/palatino/uplri8a.pfb>
-Output written on tesis_JGA_mutualismo.pdf (28 pages, 589422 bytes).
+ts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/
+public/amsfonts/cm/cmmi7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/am
+sfonts/cm/cmmi8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm
+/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb
+><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Pro
+gram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program File
+s/MiKTeX 2.9/fonts/type1/urw/palatino/uplb8a.pfb><C:/Program Files/MiKTeX 2.9/f
+onts/type1/urw/palatino/uplbi8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/ur
+w/palatino/uplr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/palatino/upl
+ri8a.pfb>
+Output written on tesis_JGA_mutualismo.pdf (30 pages, 766619 bytes).
 PDF statistics:
- 426 PDF objects out of 1000 (max. 8388607)
- 83 named destinations out of 1000 (max. 500000)
- 328 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 459 PDF objects out of 1000 (max. 8388607)
+ 89 named destinations out of 1000 (max. 500000)
+ 333 words of extra memory for PDF output out of 10000 (max. 10000000)
 
