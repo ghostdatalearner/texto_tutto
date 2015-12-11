@@ -16,6 +16,50 @@
   {}
 \endgroup
 
+\entry{almeida2008consistent}{article}{}
+  \name{author}{5}{}{%
+    {{}%
+     {Almeida-Neto}{A.-N.}%
+     {M{\'a}rio}{M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Guimaraes}{G.}%
+     {Paulo}{P.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Guimar{\~a}es}{G.}%
+     {Paulo~R}{P.~R.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Loyola}{L.}%
+     {Rafael~D}{R.~D.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Ulrich}{U.}%
+     {Werner}{W.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Wiley Online Library}%
+  }
+  \strng{namehash}{ANM+1}
+  \strng{fullhash}{ANMGPGPRLRDUW1}
+  \field{labelalpha}{AN+08}
+  \field{sortinit}{A}
+  \field{number}{8}
+  \field{pages}{1227\bibrangedash 1239}
+  \field{title}{A consistent metric for nestedness analysis in ecological
+  systems: reconciling concept and measurement}
+  \field{volume}{117}
+  \field{journaltitle}{Oikos}
+  \field{year}{2008}
+\endentry
+
 \entry{barbera2014critical}{article}{}
   \name{author}{7}{}{%
     {{}%
@@ -131,6 +175,66 @@
   \field{volume}{96}
   \field{journaltitle}{Physical review letters}
   \field{year}{2006}
+\endentry
+
+\entry{dominguez2015ranking}{article}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Dom{\'\i}nguez-Garc{\'\i}a}{D.-G.}%
+     {Virginia}{V.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Mu{\~n}oz}{M.}%
+     {Miguel~A}{M.~A.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Nature Publishing Group}%
+  }
+  \strng{namehash}{DGVMMA1}
+  \strng{fullhash}{DGVMMA1}
+  \field{labelalpha}{DGM15}
+  \field{sortinit}{D}
+  \field{title}{Ranking species in mutualistic networks}
+  \field{volume}{5}
+  \field{journaltitle}{Scientific reports}
+  \field{year}{2015}
+\endentry
+
+\entry{dunne2002biodiversity}{article}{}
+  \name{author}{3}{}{%
+    {{}%
+     {Dunne}{D.}%
+     {Jennifer~A.}{J.~A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Williams}{W.}%
+     {Richard~J.}{R.~J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Martinez}{M.}%
+     {Neo~D.}{N.~D.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Blackwell Science Ltd}%
+  }
+  \strng{namehash}{DJAWRJMND1}
+  \strng{fullhash}{DJAWRJMND1}
+  \field{labelalpha}{DWM02}
+  \field{sortinit}{D}
+  \field{number}{4}
+  \field{pages}{558\bibrangedash 567}
+  \field{title}{Network structure and biodiversity loss in food webs:
+  robustness increases with connectance}
+  \field{volume}{5}
+  \field{journaltitle}{Ecology letters}
+  \field{year}{2002}
 \endentry
 
 \entry{herrero2000terminologia}{article}{}
@@ -274,6 +378,72 @@
   \field{journaltitle}{Revista espa{\~n}ola de documentaci{\'o}n
   cient{\'\i}fica}
   \field{year}{2011}
+\endentry
+
+\entry{newman2004finding}{article}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Newman}{N.}%
+     {Mark~EJ}{M.~E.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Girvan}{G.}%
+     {Michelle}{M.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {APS}%
+  }
+  \strng{namehash}{NMEGM1}
+  \strng{fullhash}{NMEGM1}
+  \field{labelalpha}{NG04}
+  \field{sortinit}{N}
+  \field{number}{2}
+  \field{pages}{026113}
+  \field{title}{Finding and evaluating community structure in networks}
+  \field{volume}{69}
+  \field{journaltitle}{Physical review E}
+  \field{year}{2004}
+\endentry
+
+\entry{olesen2007modularity}{article}{}
+  \name{author}{4}{}{%
+    {{}%
+     {Olesen}{O.}%
+     {Jens~M}{J.~M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Bascompte}{B.}%
+     {Jordi}{J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Dupont}{D.}%
+     {Yoko~L}{Y.~L.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Jordano}{J.}%
+     {Pedro}{P.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {National Acad Sciences}%
+  }
+  \strng{namehash}{OJM+1}
+  \strng{fullhash}{OJMBJDYLJP1}
+  \field{labelalpha}{Ole+07}
+  \field{sortinit}{O}
+  \field{number}{50}
+  \field{pages}{19891\bibrangedash 19896}
+  \field{title}{The modularity of pollination networks}
+  \field{volume}{104}
+  \field{journaltitle}{Proceedings of the National Academy of Sciences}
+  \field{year}{2007}
 \endentry
 
 \entry{plavvsic1993harary}{article}{}

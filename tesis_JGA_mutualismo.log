@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2013.8.13)  9 DEC 2015 21:04
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2013.8.13)  11 DEC 2015 14:18
 entering extended mode
 **tesis_JGA_mutualismo.tex
 
@@ -1032,7 +1032,7 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \@float@everytoks=\toks32
 \@floatcapt=\box55
 )
-Package scrhack Info: loading float hack on input line 44.
+Package scrhack Info: loading float hack on input line 45.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\koma-script\float.hak"
 File: float.hak 2015/10/03 v3.19a KOMA-Script package (hacking package float)
@@ -1043,123 +1043,6 @@ Package: tocbasic 2015/10/03 v3.19a KOMA-Script package (handling toc-files)
 Package scrhack Info: redefining \newfloat on input line 161.
 Package scrhack Info: redefining \listof on input line 161.
 Package scrhack Info: undefining \float@addtolists on input line 161.
-)
-("C:\Program Files\MiKTeX 2.9\tex\latex\mdframed\mdframed.sty"
-Package: mdframed 2013/07/01 1.9b: mdframed
-
-("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\zref-abspage.sty"
-Package: zref-abspage 2012/04/04 v2.24 Module abspage for zref (HO)
-
-("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\zref-base.sty"
-Package: zref-base 2012/04/04 v2.24 Module base for zref (HO)
-Package zref Info: New property list: main on input line 759.
-Package zref Info: New property: default on input line 760.
-Package zref Info: New property: page on input line 761.
-)
-\c@abspage=\count173
-Package zref Info: New property: abspage on input line 62.
-)
-("C:\Program Files\MiKTeX 2.9\tex\latex\needspace\needspace.sty"
-Package: needspace 2010/09/12 v1.3d reserve vertical space
-)
-\mdf@templength=\skip75
-\c@mdf@globalstyle@cnt=\count174
-\mdf@skipabove@length=\skip76
-\mdf@skipbelow@length=\skip77
-\mdf@leftmargin@length=\skip78
-\mdf@rightmargin@length=\skip79
-\mdf@innerleftmargin@length=\skip80
-\mdf@innerrightmargin@length=\skip81
-\mdf@innertopmargin@length=\skip82
-\mdf@innerbottommargin@length=\skip83
-\mdf@splittopskip@length=\skip84
-\mdf@splitbottomskip@length=\skip85
-\mdf@outermargin@length=\skip86
-\mdf@innermargin@length=\skip87
-\mdf@linewidth@length=\skip88
-\mdf@innerlinewidth@length=\skip89
-\mdf@middlelinewidth@length=\skip90
-\mdf@outerlinewidth@length=\skip91
-\mdf@roundcorner@length=\skip92
-\mdf@footenotedistance@length=\skip93
-\mdf@userdefinedwidth@length=\skip94
-\mdf@needspace@length=\skip95
-\mdf@frametitleaboveskip@length=\skip96
-\mdf@frametitlebelowskip@length=\skip97
-\mdf@frametitlerulewidth@length=\skip98
-\mdf@frametitleleftmargin@length=\skip99
-\mdf@frametitlerightmargin@length=\skip100
-\mdf@shadowsize@length=\skip101
-\mdf@extratopheight@length=\skip102
-\mdf@subtitleabovelinewidth@length=\skip103
-\mdf@subtitlebelowlinewidth@length=\skip104
-\mdf@subtitleaboveskip@length=\skip105
-\mdf@subtitlebelowskip@length=\skip106
-\mdf@subtitleinneraboveskip@length=\skip107
-\mdf@subtitleinnerbelowskip@length=\skip108
-\mdf@subsubtitleabovelinewidth@length=\skip109
-\mdf@subsubtitlebelowlinewidth@length=\skip110
-\mdf@subsubtitleaboveskip@length=\skip111
-\mdf@subsubtitlebelowskip@length=\skip112
-\mdf@subsubtitleinneraboveskip@length=\skip113
-\mdf@subsubtitleinnerbelowskip@length=\skip114
-
-("C:\Program Files\MiKTeX 2.9\tex\latex\mdframed\md-frame-0.mdf"
-File: md-frame-0.mdf 2013/07/01\ 1.9b: md-frame-0
-)
-\mdf@frametitlebox=\box56
-\mdf@footnotebox=\box57
-\mdf@splitbox@one=\box58
-\mdf@splitbox@two=\box59
-\mdf@splitbox@save=\box60
-\mdfsplitboxwidth=\skip115
-\mdfsplitboxtotalwidth=\skip116
-\mdfsplitboxheight=\skip117
-\mdfsplitboxdepth=\skip118
-\mdfsplitboxtotalheight=\skip119
-\mdfframetitleboxwidth=\skip120
-\mdfframetitleboxtotalwidth=\skip121
-\mdfframetitleboxheight=\skip122
-\mdfframetitleboxdepth=\skip123
-\mdfframetitleboxtotalheight=\skip124
-\mdffootnoteboxwidth=\skip125
-\mdffootnoteboxtotalwidth=\skip126
-\mdffootnoteboxheight=\skip127
-\mdffootnoteboxdepth=\skip128
-\mdffootnoteboxtotalheight=\skip129
-\mdftotallinewidth=\skip130
-\mdfboundingboxwidth=\skip131
-\mdfboundingboxtotalwidth=\skip132
-\mdfboundingboxheight=\skip133
-\mdfboundingboxdepth=\skip134
-\mdfboundingboxtotalheight=\skip135
-\mdf@freevspace@length=\skip136
-\mdf@horizontalwidthofbox@length=\skip137
-\mdf@verticalmarginwhole@length=\skip138
-\mdf@horizontalspaceofbox=\skip139
-\mdfsubtitleheight=\skip140
-\mdfsubsubtitleheight=\skip141
-\c@mdfcountframes=\count175
-
-****** mdframed patching \endmdf@trivlist
-
-****** -- success******
-
-.................................................
-. LaTeX info: "xparse/define-command"
-. 
-. Defining command \newmdtheoremenv with sig. 'O{} m o m o ' on line 601.
-.................................................
-.................................................
-. LaTeX info: "xparse/define-command"
-. 
-. Defining command \mdtheorem with sig. ' O{} m o m o ' on line 701.
-.................................................
-\mdf@envdepth=\count176
-\c@mdf@env@i=\count177
-\c@mdf@env@ii=\count178
-\c@mdf@zref@counter=\count179
-Package zref Info: New property: mdf@pagevalue on input line 895.
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\palatino.sty"
 Package: palatino 2005/04/12 PSNFSS-v9.2a (SPQR) 
@@ -1173,7 +1056,7 @@ AB)
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\logreq\logreq.sty"
 Package: logreq 2010/08/04 v1.0 xml request logger
-\lrq@indent=\count180
+\lrq@indent=\count173
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\logreq\logreq.def"
 File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
@@ -1181,122 +1064,122 @@ File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
 ("C:\Program Files\MiKTeX 2.9\tex\latex\base\ifthen.sty"
 Package: ifthen 2001/05/26 v1.1c Standard LaTeX ifthen package (DPC)
 )
-\c@tabx@nest=\count181
-\c@listtotal=\count182
-\c@listcount=\count183
-\c@liststart=\count184
-\c@liststop=\count185
-\c@citecount=\count186
-\c@citetotal=\count187
-\c@multicitecount=\count188
-\c@multicitetotal=\count189
-\c@instcount=\count190
-\c@maxnames=\count191
-\c@minnames=\count192
-\c@maxitems=\count193
-\c@minitems=\count194
-\c@citecounter=\count195
-\c@savedcitecounter=\count196
-\c@uniquelist=\count197
-\c@uniquename=\count198
-\c@refsection=\count199
-\c@refsegment=\count200
-\c@maxextrayear=\count201
+\c@tabx@nest=\count174
+\c@listtotal=\count175
+\c@listcount=\count176
+\c@liststart=\count177
+\c@liststop=\count178
+\c@citecount=\count179
+\c@citetotal=\count180
+\c@multicitecount=\count181
+\c@multicitetotal=\count182
+\c@instcount=\count183
+\c@maxnames=\count184
+\c@minnames=\count185
+\c@maxitems=\count186
+\c@minitems=\count187
+\c@citecounter=\count188
+\c@savedcitecounter=\count189
+\c@uniquelist=\count190
+\c@uniquename=\count191
+\c@refsection=\count192
+\c@refsegment=\count193
+\c@maxextrayear=\count194
+\c@maxextraalpha=\count195
+\c@abbrvpenalty=\count196
+\c@highnamepenalty=\count197
+\c@lownamepenalty=\count198
+\c@maxparens=\count199
+\c@parenlevel=\count200
+\blx@tempcnta=\count201
 Normal \count register pool exhausted, switching to extended pool.
-\c@maxextraalpha=\count277
-\c@abbrvpenalty=\count278
-\c@highnamepenalty=\count279
-\c@lownamepenalty=\count280
-\c@maxparens=\count281
-\c@parenlevel=\count282
-\blx@tempcnta=\count283
-\blx@tempcntb=\count284
-\blx@tempcntc=\count285
-\blx@maxsection=\count286
-\blx@maxsegment=\count287
-\blx@notetype=\count288
-\blx@parenlevel@text=\count289
-\blx@parenlevel@foot=\count290
-\labelnumberwidth=\skip142
-\labelalphawidth=\skip143
-\shorthandwidth=\skip144
-\biblabelsep=\skip145
-\bibitemsep=\skip146
-\bibnamesep=\skip147
-\bibinitsep=\skip148
-\bibparsep=\skip149
-\bibhang=\skip150
+\blx@tempcntb=\count277
+\blx@tempcntc=\count278
+\blx@maxsection=\count279
+\blx@maxsegment=\count280
+\blx@notetype=\count281
+\blx@parenlevel@text=\count282
+\blx@parenlevel@foot=\count283
+\labelnumberwidth=\skip75
+\labelalphawidth=\skip76
+\shorthandwidth=\skip77
+\biblabelsep=\skip78
+\bibitemsep=\skip79
+\bibnamesep=\skip80
+\bibinitsep=\skip81
+\bibparsep=\skip82
+\bibhang=\skip83
 \blx@auxin=\read2
 \blx@auxout=\write3
-\c@mincomprange=\count291
-\c@maxcomprange=\count292
-\c@mincompwidth=\count293
-\c@labelname=\count294
-\c@savedlabelname=\count295
-\c@author=\count296
-\c@savedauthor=\count297
-\c@shortauthor=\count298
-\c@savedshortauthor=\count299
-\c@editor=\count300
-\c@savededitor=\count301
-\c@editora=\count302
-\c@savededitora=\count303
-\c@editorb=\count304
-\c@savededitorb=\count305
-\c@editorc=\count306
-\c@savededitorc=\count307
-\c@shorteditor=\count308
-\c@savedshorteditor=\count309
-\c@bookauthor=\count310
-\c@savedbookauthor=\count311
-\c@translator=\count312
-\c@savedtranslator=\count313
-\c@annotator=\count314
-\c@savedannotator=\count315
-\c@commentator=\count316
-\c@savedcommentator=\count317
-\c@introduction=\count318
-\c@savedintroduction=\count319
-\c@foreword=\count320
-\c@savedforeword=\count321
-\c@afterword=\count322
-\c@savedafterword=\count323
-\c@holder=\count324
-\c@savedholder=\count325
-\c@namea=\count326
-\c@savednamea=\count327
-\c@nameb=\count328
-\c@savednameb=\count329
-\c@namec=\count330
-\c@savednamec=\count331
-\c@institution=\count332
-\c@savedinstitution=\count333
-\c@language=\count334
-\c@savedlanguage=\count335
-\c@location=\count336
-\c@savedlocation=\count337
-\c@organization=\count338
-\c@savedorganization=\count339
-\c@origlocation=\count340
-\c@savedoriglocation=\count341
-\c@origpublisher=\count342
-\c@savedorigpublisher=\count343
-\c@pageref=\count344
-\c@savedpageref=\count345
-\c@publisher=\count346
-\c@savedpublisher=\count347
-\c@lista=\count348
-\c@savedlista=\count349
-\c@listb=\count350
-\c@savedlistb=\count351
-\c@listc=\count352
-\c@savedlistc=\count353
-\c@listd=\count354
-\c@savedlistd=\count355
-\c@liste=\count356
-\c@savedliste=\count357
-\c@listf=\count358
-\c@savedlistf=\count359
+\c@mincomprange=\count284
+\c@maxcomprange=\count285
+\c@mincompwidth=\count286
+\c@labelname=\count287
+\c@savedlabelname=\count288
+\c@author=\count289
+\c@savedauthor=\count290
+\c@shortauthor=\count291
+\c@savedshortauthor=\count292
+\c@editor=\count293
+\c@savededitor=\count294
+\c@editora=\count295
+\c@savededitora=\count296
+\c@editorb=\count297
+\c@savededitorb=\count298
+\c@editorc=\count299
+\c@savededitorc=\count300
+\c@shorteditor=\count301
+\c@savedshorteditor=\count302
+\c@bookauthor=\count303
+\c@savedbookauthor=\count304
+\c@translator=\count305
+\c@savedtranslator=\count306
+\c@annotator=\count307
+\c@savedannotator=\count308
+\c@commentator=\count309
+\c@savedcommentator=\count310
+\c@introduction=\count311
+\c@savedintroduction=\count312
+\c@foreword=\count313
+\c@savedforeword=\count314
+\c@afterword=\count315
+\c@savedafterword=\count316
+\c@holder=\count317
+\c@savedholder=\count318
+\c@namea=\count319
+\c@savednamea=\count320
+\c@nameb=\count321
+\c@savednameb=\count322
+\c@namec=\count323
+\c@savednamec=\count324
+\c@institution=\count325
+\c@savedinstitution=\count326
+\c@language=\count327
+\c@savedlanguage=\count328
+\c@location=\count329
+\c@savedlocation=\count330
+\c@organization=\count331
+\c@savedorganization=\count332
+\c@origlocation=\count333
+\c@savedoriglocation=\count334
+\c@origpublisher=\count335
+\c@savedorigpublisher=\count336
+\c@pageref=\count337
+\c@savedpageref=\count338
+\c@publisher=\count339
+\c@savedpublisher=\count340
+\c@lista=\count341
+\c@savedlista=\count342
+\c@listb=\count343
+\c@savedlistb=\count344
+\c@listc=\count345
+\c@savedlistc=\count346
+\c@listd=\count347
+\c@savedlistd=\count348
+\c@liste=\count349
+\c@savedliste=\count350
+\c@listf=\count351
+\c@savedlistf=\count352
 Package biblatex Info: Trying to load compatibility code...
 Package biblatex Info: ... file 'blx-compat.def' found.
 
@@ -1308,13 +1191,13 @@ Package biblatex Info: ... file 'biblatex.def' found.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\biblatex\biblatex.def"
 File: biblatex.def 
-\c@textcitecount=\count360
-\c@textcitetotal=\count361
-\c@textcitemaxnames=\count362
-\c@biburlnumpenalty=\count363
-\c@biburlucpenalty=\count364
-\c@biburllcpenalty=\count365
-\c@smartand=\count366
+\c@textcitecount=\count353
+\c@textcitetotal=\count354
+\c@textcitemaxnames=\count355
+\c@biburlnumpenalty=\count356
+\c@biburlucpenalty=\count357
+\c@biburllcpenalty=\count358
+\c@smartand=\count359
 )
 Package biblatex Info: Trying to load natbib compatibility...
 Package biblatex Info: ... file 'blx-natbib.def' found.
@@ -1332,8 +1215,8 @@ Package biblatex Info: ... file 'standard.bbx' found.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\biblatex\bbx\standard.bbx"
 File: standard.bbx 2015/10/21 v3.1 biblatex bibliography style (PK/JW/AB)
-\c@bbx:relatedcount=\count367
-\c@bbx:relatedtotal=\count368
+\c@bbx:relatedcount=\count360
+\c@bbx:relatedtotal=\count361
 ))
 Package biblatex Info: Trying to load citation style 'alphabetic'...
 Package biblatex Info: ... file 'alphabetic.cbx' found.
@@ -1359,12 +1242,12 @@ File: biblatex.cfg
 )))
 ("C:\Program Files\MiKTeX 2.9\tex\latex\csquotes\csquotes.sty"
 Package: csquotes 2015/07/18 v5.1f context-sensitive quotations (JAW)
-\csq@reset=\count369
-\csq@gtype=\count370
-\csq@glevel=\count371
-\csq@qlevel=\count372
-\csq@maxlvl=\count373
-\csq@tshold=\count374
+\csq@reset=\count362
+\csq@gtype=\count363
+\csq@glevel=\count364
+\csq@qlevel=\count365
+\csq@maxlvl=\count366
+\csq@tshold=\count367
 \csq@ltx@everypar=\toks33
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\csquotes\csquotes.def"
@@ -1380,9 +1263,9 @@ Package csquotes Info: Enabling multilingual quotes.
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\titlesec\titlesec.sty"
 Package: titlesec 2011/12/15 v2.10.0 Sectioning titles
-\ttl@box=\box61
-\beforetitleunit=\skip151
-\aftertitleunit=\skip152
+\ttl@box=\box56
+\beforetitleunit=\skip84
+\aftertitleunit=\skip85
 \ttl@plus=\dimen193
 \ttl@minus=\dimen194
 \ttl@toksa=\toks34
@@ -1390,7 +1273,384 @@ Package: titlesec 2011/12/15 v2.10.0 Sectioning titles
 \titlewidthlast=\dimen196
 \titlewidthfirst=\dimen197
 )
-\c@defn=\count375
+("C:\Program Files\MiKTeX 2.9\tex\latex\mdframed\mdframed.sty"
+Package: mdframed 2013/07/01 1.9b: mdframed
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\zref-abspage.sty"
+Package: zref-abspage 2012/04/04 v2.24 Module abspage for zref (HO)
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\zref-base.sty"
+Package: zref-base 2012/04/04 v2.24 Module base for zref (HO)
+Package zref Info: New property list: main on input line 759.
+Package zref Info: New property: default on input line 760.
+Package zref Info: New property: page on input line 761.
+)
+\c@abspage=\count368
+Package zref Info: New property: abspage on input line 62.
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\needspace\needspace.sty"
+Package: needspace 2010/09/12 v1.3d reserve vertical space
+)
+\mdf@templength=\skip86
+\c@mdf@globalstyle@cnt=\count369
+\mdf@skipabove@length=\skip87
+\mdf@skipbelow@length=\skip88
+\mdf@leftmargin@length=\skip89
+\mdf@rightmargin@length=\skip90
+\mdf@innerleftmargin@length=\skip91
+\mdf@innerrightmargin@length=\skip92
+\mdf@innertopmargin@length=\skip93
+\mdf@innerbottommargin@length=\skip94
+\mdf@splittopskip@length=\skip95
+\mdf@splitbottomskip@length=\skip96
+\mdf@outermargin@length=\skip97
+\mdf@innermargin@length=\skip98
+\mdf@linewidth@length=\skip99
+\mdf@innerlinewidth@length=\skip100
+\mdf@middlelinewidth@length=\skip101
+\mdf@outerlinewidth@length=\skip102
+\mdf@roundcorner@length=\skip103
+\mdf@footenotedistance@length=\skip104
+\mdf@userdefinedwidth@length=\skip105
+\mdf@needspace@length=\skip106
+\mdf@frametitleaboveskip@length=\skip107
+\mdf@frametitlebelowskip@length=\skip108
+\mdf@frametitlerulewidth@length=\skip109
+\mdf@frametitleleftmargin@length=\skip110
+\mdf@frametitlerightmargin@length=\skip111
+\mdf@shadowsize@length=\skip112
+\mdf@extratopheight@length=\skip113
+\mdf@subtitleabovelinewidth@length=\skip114
+\mdf@subtitlebelowlinewidth@length=\skip115
+\mdf@subtitleaboveskip@length=\skip116
+\mdf@subtitlebelowskip@length=\skip117
+\mdf@subtitleinneraboveskip@length=\skip118
+\mdf@subtitleinnerbelowskip@length=\skip119
+\mdf@subsubtitleabovelinewidth@length=\skip120
+\mdf@subsubtitlebelowlinewidth@length=\skip121
+\mdf@subsubtitleaboveskip@length=\skip122
+\mdf@subsubtitlebelowskip@length=\skip123
+\mdf@subsubtitleinneraboveskip@length=\skip124
+\mdf@subsubtitleinnerbelowskip@length=\skip125
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\pgf\frontendlayer\tikz.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\pgf\basiclayer\pgf.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\pgf\utilities\pgfrcs.sty"
+("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\utilities\pgfutil-common.tex"
+\pgfutil@everybye=\toks35
+\pgfutil@tempdima=\dimen198
+\pgfutil@tempdimb=\dimen199
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\utilities\pgfutil-common-lists.te
+x")) ("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\utilities\pgfutil-latex.def"
+\pgfutil@abb=\box57
+("C:\Program Files\MiKTeX 2.9\tex\latex\ms\everyshi.sty"
+Package: everyshi 2001/05/15 v3.00 EveryShipout Package (MS)
+))
+("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\utilities\pgfrcs.code.tex"
+Package: pgfrcs 2015/08/07 v3.0.1a (rcs-revision 1.31)
+))
+Package: pgf 2015/08/07 v3.0.1a (rcs-revision 1.15)
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\pgf\basiclayer\pgfcore.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\pgf\systemlayer\pgfsys.sty"
+("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\systemlayer\pgfsys.code.tex"
+Package: pgfsys 2014/07/09 v3.0.1a (rcs-revision 1.48)
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\utilities\pgfkeys.code.tex"
+\pgfkeys@pathtoks=\toks36
+\pgfkeys@temptoks=\toks37
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\utilities\pgfkeysfiltered.code.te
+x"
+\pgfkeys@tmptoks=\toks38
+))
+\pgf@x=\dimen200
+\pgf@y=\dimen201
+Normal \dimen register pool exhausted, switching to extended pool.
+\pgf@xa=\dimen256
+\pgf@ya=\dimen257
+\pgf@xb=\dimen258
+\pgf@yb=\dimen259
+\pgf@xc=\dimen260
+\pgf@yc=\dimen261
+\w@pgf@writea=\write4
+\r@pgf@reada=\read3
+\c@pgf@counta=\count370
+\c@pgf@countb=\count371
+\c@pgf@countc=\count372
+\c@pgf@countd=\count373
+\t@pgf@toka=\toks39
+\t@pgf@tokb=\toks40
+\t@pgf@tokc=\toks41
+ ("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\systemlayer\pgf.cfg"
+File: pgf.cfg 2008/05/14  (rcs-revision 1.7)
+)
+Driver file for pgf: pgfsys-pdftex.def
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\systemlayer\pgfsys-pdftex.def"
+File: pgfsys-pdftex.def 2014/10/11  (rcs-revision 1.35)
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\systemlayer\pgfsys-common-pdf.def
+"
+File: pgfsys-common-pdf.def 2013/10/10  (rcs-revision 1.13)
+)))
+("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\systemlayer\pgfsyssoftpath.code.t
+ex"
+File: pgfsyssoftpath.code.tex 2013/09/09  (rcs-revision 1.9)
+\pgfsyssoftpath@smallbuffer@items=\count374
+\pgfsyssoftpath@bigbuffer@items=\count375
+)
+("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\systemlayer\pgfsysprotocol.code.t
+ex"
+File: pgfsysprotocol.code.tex 2006/10/16  (rcs-revision 1.4)
+)) ("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcore.code.tex"
+Package: pgfcore 2010/04/11 v3.0.1a (rcs-revision 1.7)
+ ("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\math\pgfmath.code.tex"
+("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\math\pgfmathcalc.code.tex"
+("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\math\pgfmathutil.code.tex")
+("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\math\pgfmathparser.code.tex"
+\pgfmath@dimen=\dimen262
+\pgfmath@count=\count376
+\pgfmath@box=\box58
+\pgfmath@toks=\toks42
+\pgfmath@stack@operand=\toks43
+\pgfmath@stack@operation=\toks44
+)
+("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfunctions.code.tex"
+("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfunctions.basic.code.
+tex")
+("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfunctions.trigonometr
+ic.code.tex")
+("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfunctions.random.code
+.tex")
+("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfunctions.comparison.
+code.tex")
+("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfunctions.base.code.t
+ex")
+("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfunctions.round.code.
+tex")
+("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfunctions.misc.code.t
+ex")
+("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfunctions.integerarit
+hmetics.code.tex")))
+("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfloat.code.tex"
+\c@pgfmathroundto@lastzeros=\count377
+))
+("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcorepoints.code.tex
+"
+File: pgfcorepoints.code.tex 2013/10/07  (rcs-revision 1.27)
+\pgf@picminx=\dimen263
+\pgf@picmaxx=\dimen264
+\pgf@picminy=\dimen265
+\pgf@picmaxy=\dimen266
+\pgf@pathminx=\dimen267
+\pgf@pathmaxx=\dimen268
+\pgf@pathminy=\dimen269
+\pgf@pathmaxy=\dimen270
+\pgf@xx=\dimen271
+\pgf@xy=\dimen272
+\pgf@yx=\dimen273
+\pgf@yy=\dimen274
+\pgf@zx=\dimen275
+\pgf@zy=\dimen276
+)
+("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcorepathconstruct.c
+ode.tex"
+File: pgfcorepathconstruct.code.tex 2013/10/07  (rcs-revision 1.29)
+\pgf@path@lastx=\dimen277
+\pgf@path@lasty=\dimen278
+)
+("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcorepathusage.code.
+tex"
+File: pgfcorepathusage.code.tex 2014/11/02  (rcs-revision 1.24)
+\pgf@shorten@end@additional=\dimen279
+\pgf@shorten@start@additional=\dimen280
+)
+("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcorescopes.code.tex
+"
+File: pgfcorescopes.code.tex 2015/05/08  (rcs-revision 1.46)
+\pgfpic=\box59
+\pgf@hbox=\box60
+\pgf@layerbox@main=\box61
+\pgf@picture@serial@count=\count378
+)
+("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcoregraphicstate.co
+de.tex"
+File: pgfcoregraphicstate.code.tex 2014/11/02  (rcs-revision 1.12)
+\pgflinewidth=\dimen281
+)
+("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcoretransformations
+.code.tex"
+File: pgfcoretransformations.code.tex 2015/08/07  (rcs-revision 1.20)
+\pgf@pt@x=\dimen282
+\pgf@pt@y=\dimen283
+\pgf@pt@temp=\dimen284
+)
+("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcorequick.code.tex"
+File: pgfcorequick.code.tex 2008/10/09  (rcs-revision 1.3)
+)
+("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcoreobjects.code.te
+x"
+File: pgfcoreobjects.code.tex 2006/10/11  (rcs-revision 1.2)
+)
+("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcorepathprocessing.
+code.tex"
+File: pgfcorepathprocessing.code.tex 2013/09/09  (rcs-revision 1.9)
+)
+("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcorearrows.code.tex
+"
+File: pgfcorearrows.code.tex 2015/05/14  (rcs-revision 1.43)
+\pgfarrowsep=\dimen285
+)
+("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcoreshade.code.tex"
+File: pgfcoreshade.code.tex 2013/07/15  (rcs-revision 1.15)
+\pgf@max=\dimen286
+\pgf@sys@shading@range@num=\count379
+) ("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcoreimage.code.te
+x"
+File: pgfcoreimage.code.tex 2013/07/15  (rcs-revision 1.18)
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcoreexternal.code.t
+ex"
+File: pgfcoreexternal.code.tex 2014/07/09  (rcs-revision 1.21)
+\pgfexternal@startupbox=\box62
+))
+("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcorelayers.code.tex
+"
+File: pgfcorelayers.code.tex 2013/07/18  (rcs-revision 1.7)
+)
+("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcoretransparency.co
+de.tex"
+File: pgfcoretransparency.code.tex 2013/09/30  (rcs-revision 1.5)
+)
+("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcorepatterns.code.t
+ex"
+File: pgfcorepatterns.code.tex 2013/11/07  (rcs-revision 1.5)
+)))
+("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\modules\pgfmoduleshapes.code.tex"
+File: pgfmoduleshapes.code.tex 2014/03/21  (rcs-revision 1.35)
+\pgfnodeparttextbox=\box63
+) ("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\modules\pgfmoduleplot.code.tex"
+File: pgfmoduleplot.code.tex 2015/08/03  (rcs-revision 1.13)
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\pgf\compatibility\pgfcomp-version-0-65.
+sty"
+Package: pgfcomp-version-0-65 2007/07/03 v3.0.1a (rcs-revision 1.7)
+\pgf@nodesepstart=\dimen287
+\pgf@nodesepend=\dimen288
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\pgf\compatibility\pgfcomp-version-1-18.
+sty"
+Package: pgfcomp-version-1-18 2007/07/23 v3.0.1a (rcs-revision 1.1)
+)) ("C:\Program Files\MiKTeX 2.9\tex\latex\pgf\utilities\pgffor.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\pgf\utilities\pgfkeys.sty"
+("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\utilities\pgfkeys.code.tex"))
+("C:\Program Files\MiKTeX 2.9\tex\latex\pgf\math\pgfmath.sty"
+("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\math\pgfmath.code.tex"))
+("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\utilities\pgffor.code.tex"
+Package: pgffor 2013/12/13 v3.0.1a (rcs-revision 1.25)
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\math\pgfmath.code.tex")
+\pgffor@iter=\dimen289
+\pgffor@skip=\dimen290
+\pgffor@stack=\toks45
+\pgffor@toks=\toks46
+))
+("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\frontendlayer\tikz\tikz.code.tex"
+Package: tikz 2015/08/07 v3.0.1a (rcs-revision 1.151)
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\libraries\pgflibraryplothandlers.
+code.tex"
+File: pgflibraryplothandlers.code.tex 2013/08/31 v3.0.1a (rcs-revision 1.20)
+\pgf@plot@mark@count=\count380
+\pgfplotmarksize=\dimen291
+)
+\tikz@lastx=\dimen292
+\tikz@lasty=\dimen293
+\tikz@lastxsaved=\dimen294
+\tikz@lastysaved=\dimen295
+\tikzleveldistance=\dimen296
+\tikzsiblingdistance=\dimen297
+\tikz@figbox=\box64
+\tikz@figbox@bg=\box65
+\tikz@tempbox=\box66
+\tikz@tempbox@bg=\box67
+\tikztreelevel=\count381
+\tikznumberofchildren=\count382
+\tikznumberofcurrentchild=\count383
+\tikz@fig@count=\count384
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\modules\pgfmodulematrix.code.tex"
+File: pgfmodulematrix.code.tex 2013/09/17  (rcs-revision 1.8)
+\pgfmatrixcurrentrow=\count385
+\pgfmatrixcurrentcolumn=\count386
+\pgf@matrix@numberofcolumns=\count387
+)
+\tikz@expandcount=\count388
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\frontendlayer\tikz\libraries\tikz
+librarytopaths.code.tex"
+File: tikzlibrarytopaths.code.tex 2008/06/17 v3.0.1a (rcs-revision 1.2)
+)))
+("C:\Program Files\MiKTeX 2.9\tex\latex\mdframed\md-frame-1.mdf"
+File: md-frame-1.mdf 2013/07/01\ 1.9b: md-frame-1
+)
+\mdf@frametitlebox=\box68
+\mdf@footnotebox=\box69
+\mdf@splitbox@one=\box70
+\mdf@splitbox@two=\box71
+\mdf@splitbox@save=\box72
+\mdfsplitboxwidth=\skip126
+\mdfsplitboxtotalwidth=\skip127
+\mdfsplitboxheight=\skip128
+\mdfsplitboxdepth=\skip129
+\mdfsplitboxtotalheight=\skip130
+\mdfframetitleboxwidth=\skip131
+\mdfframetitleboxtotalwidth=\skip132
+\mdfframetitleboxheight=\skip133
+\mdfframetitleboxdepth=\skip134
+\mdfframetitleboxtotalheight=\skip135
+\mdffootnoteboxwidth=\skip136
+\mdffootnoteboxtotalwidth=\skip137
+\mdffootnoteboxheight=\skip138
+\mdffootnoteboxdepth=\skip139
+\mdffootnoteboxtotalheight=\skip140
+\mdftotallinewidth=\skip141
+\mdfboundingboxwidth=\skip142
+\mdfboundingboxtotalwidth=\skip143
+\mdfboundingboxheight=\skip144
+\mdfboundingboxdepth=\skip145
+\mdfboundingboxtotalheight=\skip146
+\mdf@freevspace@length=\skip147
+\mdf@horizontalwidthofbox@length=\skip148
+\mdf@verticalmarginwhole@length=\skip149
+\mdf@horizontalspaceofbox=\skip150
+\mdfsubtitleheight=\skip151
+\mdfsubsubtitleheight=\skip152
+\c@mdfcountframes=\count389
+
+****** mdframed patching \endmdf@trivlist
+
+****** -- success******
+
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \newmdtheoremenv with sig. 'O{} m o m o ' on line 601.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \mdtheorem with sig. ' O{} m o m o ' on line 701.
+.................................................
+\mdf@envdepth=\count390
+\c@mdf@env@i=\count391
+\c@mdf@env@ii=\count392
+\c@mdf@zref@counter=\count393
+Package zref Info: New property: mdf@pagevalue on input line 895.
+)
+\c@theo=\count394
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\base\fontenc.sty"
 Package: fontenc 2005/09/27 v1.99g Standard LaTeX package
@@ -1405,24 +1665,24 @@ Package: blindtext 2012/01/06 V2.0 blindtext-Package
 ("C:\Program Files\MiKTeX 2.9\tex\latex\tools\xspace.sty"
 Package: xspace 2009/10/20 v1.13 Space after command names (DPC,MH)
 )
-\c@blindtext=\count376
-\c@Blindtext=\count377
-\c@blind@countparstart=\count378
-\blind@countxx=\count379
-\blindtext@numBlindtext=\count380
-\blind@countyy=\count381
-\c@blindlist=\count382
-\c@blindlistlevel=\count383
-\c@blindlist@level=\count384
-\blind@listitem=\count385
-\c@blind@listcount=\count386
-\c@blind@levelcount=\count387
-\blind@mathformula=\count388
-\blind@Mathformula=\count389
-\c@blind@randomcount=\count390
-\c@blind@randommax=\count391
-\c@blind@pangramcount=\count392
-\c@blind@pangrammax=\count393
+\c@blindtext=\count395
+\c@Blindtext=\count396
+\c@blind@countparstart=\count397
+\blind@countxx=\count398
+\blindtext@numBlindtext=\count399
+\blind@countyy=\count400
+\c@blindlist=\count401
+\c@blindlistlevel=\count402
+\c@blindlist@level=\count403
+\blind@listitem=\count404
+\c@blind@listcount=\count405
+\c@blind@levelcount=\count406
+\blind@mathformula=\count407
+\blind@Mathformula=\count408
+\c@blind@randomcount=\count409
+\c@blind@randommax=\count410
+\c@blind@pangramcount=\count411
+\c@blind@pangrammax=\count412
 )
 Package biblatex Info: Trying to load language 'english'...
 Package biblatex Info: ... file 'english.lbx' found.
@@ -1435,39 +1695,39 @@ Package csquotes Info: ... found 'babel' package.
 
 (D:\disco_usuario\javier\upm\doctorado\tesis\texto_tesis_upm\texto_tutto\tesis_
 JGA_mutualismo.aux)
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 102.
-LaTeX Font Info:    ... okay on input line 102.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 102.
-LaTeX Font Info:    ... okay on input line 102.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 102.
-LaTeX Font Info:    ... okay on input line 102.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 102.
-LaTeX Font Info:    ... okay on input line 102.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 102.
-LaTeX Font Info:    ... okay on input line 102.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 102.
-LaTeX Font Info:    ... okay on input line 102.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 102.
-LaTeX Font Info:    ... okay on input line 102.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 102.
-LaTeX Font Info:    ... okay on input line 102.
-LaTeX Font Info:    Try loading font information for T1+ppl on input line 102.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 133.
+LaTeX Font Info:    ... okay on input line 133.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 133.
+LaTeX Font Info:    ... okay on input line 133.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 133.
+LaTeX Font Info:    ... okay on input line 133.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 133.
+LaTeX Font Info:    ... okay on input line 133.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 133.
+LaTeX Font Info:    ... okay on input line 133.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 133.
+LaTeX Font Info:    ... okay on input line 133.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 133.
+LaTeX Font Info:    ... okay on input line 133.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 133.
+LaTeX Font Info:    ... okay on input line 133.
+LaTeX Font Info:    Try loading font information for T1+ppl on input line 133.
  ("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\t1ppl.fd"
 File: t1ppl.fd 2001/06/04 font definitions for T1/ppl.
 )
 ("C:\Program Files\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count394
-\scratchdimen=\dimen198
-\scratchbox=\box62
-\nofMPsegments=\count395
-\nofMParguments=\count396
-\everyMPshowfont=\toks35
-\MPscratchCnt=\count397
-\MPscratchDim=\dimen199
-\MPnumerator=\count398
-\makeMPintoPDFobject=\count399
-\everyMPtoPDFconversion=\toks36
+\scratchcounter=\count413
+\scratchdimen=\dimen298
+\scratchbox=\box73
+\nofMPsegments=\count414
+\nofMParguments=\count415
+\everyMPshowfont=\toks47
+\MPscratchCnt=\count416
+\MPscratchDim=\dimen299
+\MPnumerator=\count417
+\makeMPintoPDFobject=\count418
+\everyMPtoPDFconversion=\toks48
 )
 Now handling font encoding TS1 ...
 ... processing UTF-8 mapping file for font encoding TS1
@@ -1589,34 +1849,34 @@ Package caption Info: End \AtBeginDocument code.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-Package scrbase Info: activating english \equationnamenname on input line 102.
-Package scrbase Info: activating english \sectionname on input line 102.
-Package scrbase Info: activating english \authorshipname on input line 102.
-Package scrbase Info: activating english \byname on input line 102.
-Package scrbase Info: activating english \abbrevname on input line 102.
-Package scrbase Info: activating english \constantsname on input line 102.
-Package scrbase Info: activating english \symbolsname on input line 102.
-Package scrbase Info: activating english \acknowledgementname on input line 102
+Package scrbase Info: activating english \equationnamenname on input line 133.
+Package scrbase Info: activating english \sectionname on input line 133.
+Package scrbase Info: activating english \authorshipname on input line 133.
+Package scrbase Info: activating english \byname on input line 133.
+Package scrbase Info: activating english \abbrevname on input line 133.
+Package scrbase Info: activating english \constantsname on input line 133.
+Package scrbase Info: activating english \symbolsname on input line 133.
+Package scrbase Info: activating english \acknowledgementname on input line 133
 .
-\AtBeginShipoutBox=\box63
-Package hyperref Info: Link coloring ON on input line 102.
+\AtBeginShipoutBox=\box74
+Package hyperref Info: Link coloring ON on input line 133.
 ("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\nameref.sty"
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 
 ("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\gettitlestring.sty"
 Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
-\c@section@level=\count400
+\c@section@level=\count419
 )
-LaTeX Info: Redefining \ref on input line 102.
-LaTeX Info: Redefining \pageref on input line 102.
-LaTeX Info: Redefining \nameref on input line 102.
+LaTeX Info: Redefining \ref on input line 133.
+LaTeX Info: Redefining \pageref on input line 133.
+LaTeX Info: Redefining \nameref on input line 133.
 
 (D:\disco_usuario\javier\upm\doctorado\tesis\texto_tesis_upm\texto_tutto\tesis_
 JGA_mutualismo.out)
 (D:\disco_usuario\javier\upm\doctorado\tesis\texto_tesis_upm\texto_tutto\tesis_
 JGA_mutualismo.out)
-\@outlinefile=\write4
+\@outlinefile=\write5
 Package biblatex Info: Input encoding 'utf8' detected.
 Package biblatex Info: Automatic encoding selection.
 (biblatex)             Assuming data encoding 'utf8'.
@@ -1630,21 +1890,23 @@ Package biblatex Info: ... file 'tesis_JGA_mutualismo.bbl' found.
 
 (D:\disco_usuario\javier\upm\doctorado\tesis\texto_tesis_upm\texto_tutto\tesis_
 JGA_mutualismo.bbl)
-Package biblatex Info: Reference section=0 on input line 102.
-Package biblatex Info: Reference segment=0 on input line 102.
-\c__siunitx_mathsf_int=\count401
-LaTeX Font Info:    Try loading font information for U+msa on input line 102.
- ("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
+Package biblatex Info: Reference section=0 on input line 133.
+Package biblatex Info: Reference segment=0 on input line 133.
+ ABD: EveryShipout initializing macros
+\c__siunitx_mathsf_int=\count420
+LaTeX Font Info:    Try loading font information for U+msa on input line 133.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 102.
+LaTeX Font Info:    Try loading font information for U+msb on input line 133.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-\c__siunitx_mathtt_int=\count402
+\c__siunitx_mathtt_int=\count421
 LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <20.74> not available
-(Font)              Font shape `T1/ppl/b/n' tried instead on input line 119.
+(Font)              Font shape `T1/ppl/b/n' tried instead on input line 150.
  [1
 
 
@@ -1654,7 +1916,7 @@ LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <20.74> not available
  Abstract
 --------------------
 LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <10.95> not available
-(Font)              Font shape `T1/ppl/b/n' tried instead on input line 187.
+(Font)              Font shape `T1/ppl/b/n' tried instead on input line 218.
 [3
 
 ] [4
@@ -1667,11 +1929,11 @@ LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <10.95> not available
 
 ]
 LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <24.88> not available
-(Font)              Font shape `T1/ppl/b/n' tried instead on input line 209.
+(Font)              Font shape `T1/ppl/b/n' tried instead on input line 240.
 
 (D:\disco_usuario\javier\upm\doctorado\tesis\texto_tesis_upm\texto_tutto\tesis_
 JGA_mutualismo.toc [7])
-\tf@toc=\write5
+\tf@toc=\write6
  [8]
 (D:\disco_usuario\javier\upm\doctorado\tesis\texto_tesis_upm\texto_tutto\Chapte
 rs/Chapter_INTROGEN.tex
@@ -1707,12 +1969,15 @@ Cap\IeC {\'\i }tulo 3.
 [9]
 LaTeX Font Info:    Font shape `T1/ppl/bx/it' in size <14.4> not available
 (Font)              Font shape `T1/ppl/b/it' tried instead on input line 21.
-Package mdframed Info: mdframed works in twoside mode on input line 25.
+Package mdframed Info: mdframed works in twoside mode on input line 26.
 Package mdframed Info: mdframed detected package amsthm 
  changed the theorem header of amsthm
-(mdframed)              on input line 25.
+(mdframed)              on input line 26.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 29.
 
-<Figures/ESTATICA_kcore_decomposition_example.png, id=303, 714.41907pt x 411.78
+<Figures/ESTATICA_kcore_decomposition_example.png, id=316, 714.41907pt x 411.78
 844pt>
 File: Figures/ESTATICA_kcore_decomposition_example.png Graphic file (type png)
  <use Figures/ESTATICA_kcore_decomposition_example.png>
@@ -1724,10 +1989,13 @@ on input line 39.
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [10]
-Package mdframed Info: mdframed works in twoside mode on input line 55.
+Package mdframed Info: mdframed works in twoside mode on input line 56.
 Package mdframed Info: mdframed detected package amsthm 
  changed the theorem header of amsthm
-(mdframed)              on input line 55.
+(mdframed)              on input line 56.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 63.
 Package epstopdf Info: Source file: <Figures/ESTATICA_red_example.eps>
 (epstopdf)                    date: 2015-11-24 16:41:37
 (epstopdf)                    size: 297107 bytes
@@ -1737,24 +2005,21 @@ Package epstopdf Info: Source file: <Figures/ESTATICA_red_example.eps>
 (epstopdf)                    size: 140696 bytes
 (epstopdf)             Command: <epstopdf --outfile=Figures/ESTATICA_red_exampl
 e-eps-converted-to.pdf Figures/ESTATICA_red_example.eps>
-(epstopdf)             \includegraphics on input line 70.
+(epstopdf)             \includegraphics on input line 69.
 Package epstopdf Info: Output file is already uptodate.
 
-<Figures/ESTATICA_red_example-eps-converted-to.pdf, id=324, 845.1575pt x 597.23
+<Figures/ESTATICA_red_example-eps-converted-to.pdf, id=336, 845.1575pt x 597.23
 125pt>
 File: Figures/ESTATICA_red_example-eps-converted-to.pdf Graphic file (type pdf)
 
  <use Figures/ESTATICA_red_example-eps-converted-to.pdf>
 Package pdftex.def Info: Figures/ESTATICA_red_example-eps-converted-to.pdf used
- on input line 70.
+ on input line 69.
 (pdftex.def)             Requested size: 422.57771pt x 298.61488pt.
 
-Overfull \hbox (5.74483pt too wide) in paragraph at lines 70--71
+Overfull \hbox (5.74483pt too wide) in paragraph at lines 69--70
  [][] 
  []
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [11 <D:/disco_usuario/javier/upm/doctorado/tesis/texto_tesis_upm/texto_tutto/Fi
 gures/ESTATICA_kcore_decomposition_example.png>]
@@ -1762,19 +2027,73 @@ Package mdframed Info: mdframed works in twoside mode on input line 81.
 Package mdframed Info: mdframed detected package amsthm 
  changed the theorem header of amsthm
 (mdframed)              on input line 81.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 89.
  [12 <D:/disco_usuario/javier/upm/doctorado/tesis/texto_tesis_upm/texto_tutto/F
 igures/ESTATICA_red_example-eps-converted-to.pdf>]
-
-LaTeX Warning: Reference `fig:red_example' on page 13 undefined on input line 1
-03.
-
+Package mdframed Info: mdframed works in twoside mode on input line 96.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 96.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 102.
 LaTeX Font Info:    Font shape `T1/ppl/bx/it' in size <12> not available
-(Font)              Font shape `T1/ppl/b/it' tried instead on input line 106.
+(Font)              Font shape `T1/ppl/b/it' tried instead on input line 107.
+ [13]
+<Figures/ESTATICA_destruction_example.png, id=363, 426.6339pt x 320.1561pt>
+File: Figures/ESTATICA_destruction_example.png Graphic file (type png)
+
+<use Figures/ESTATICA_destruction_example.png>
+Package pdftex.def Info: Figures/ESTATICA_destruction_example.png used on input
+ line 115.
+(pdftex.def)             Requested size: 234.64935pt x 176.08638pt.
+
+<Figures/ESTATICA_tamanyo_kdegree_kradius.png, id=366, 2186.1675pt x 2794.44pt>
+File: Figures/ESTATICA_tamanyo_kdegree_kradius.png Graphic file (type png)
+<use Figures/ESTATICA_tamanyo_kdegree_kradius.png>
+Package pdftex.def Info: Figures/ESTATICA_tamanyo_kdegree_kradius.png used on i
+nput line 131.
+(pdftex.def)             Requested size: 393.49316pt x 502.97751pt.
+ [14 <D:/disco_usuario/javier/upm/doctorado/tesis/texto_tesis_upm/texto_tutto/F
+igures/ESTATICA_destruction_example.png>] [15 <D:/disco_usuario/javier/upm/doct
+orado/tesis/texto_tesis_upm/texto_tutto/Figures/ESTATICA_tamanyo_kdegree_kradiu
+s.png>]
+LaTeX Font Info:    Try loading font information for T1+pcr on input line 148.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\t1pcr.fd"
+File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
+)
+<Figures/ESTATICA_correlation_figs.png, id=385, 2110.88625pt x 852.18375pt>
+File: Figures/ESTATICA_correlation_figs.png Graphic file (type png)
+
+<use Figures/ESTATICA_correlation_figs.png>
+Package pdftex.def Info: Figures/ESTATICA_correlation_figs.png used on input li
+ne 152.
+(pdftex.def)             Requested size: 422.16977pt x 170.43372pt.
+
+Overfull \hbox (5.33688pt too wide) in paragraph at lines 152--153
+ [][] 
+ []
+
+[16 <D:/disco_usuario/javier/upm/doctorado/tesis/texto_tesis_upm/texto_tutto/Fi
+gures/ESTATICA_correlation_figs.png>]
+<Figures/ESTATICA_density_plots.png, id=400, 400.1349pt x 233.9139pt>
+File: Figures/ESTATICA_density_plots.png Graphic file (type png)
+
+<use Figures/ESTATICA_density_plots.png>
+Package pdftex.def Info: Figures/ESTATICA_density_plots.png used on input line 
+182.
+(pdftex.def)             Requested size: 400.13391pt x 233.91331pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
 )
 (D:\disco_usuario\javier\upm\doctorado\tesis\texto_tesis_upm\texto_tutto\Chapte
-rs/Chapter_VISUALIZACION.tex [13] [14
-
-]
+rs/Chapter_VISUALIZACION.tex [17] [18 <D:/disco_usuario/javier/upm/doctorado/te
+sis/texto_tesis_upm/texto_tutto/Figures/ESTATICA_density_plots.png>]
 Cap\IeC {\'\i }tulo 4.
 --------------------
  4. Visualizaciones del mutualismo
@@ -1784,7 +2103,9 @@ Overfull \hbox (11.14352pt too wide) in paragraph at lines 3--3
  |[]\T1/ppl/b/n/24.88 Visualizaciones del mu-tu-al-ismo| 
  []
 
-[15]
+[19
+
+]
 Package epstopdf Info: Source file: <Figures/M_SD_004_polar.eps>
 (epstopdf)                    date: 2015-07-15 14:29:46
 (epstopdf)                    size: 1038379 bytes
@@ -1797,7 +2118,7 @@ converted-to.pdf Figures/M_SD_004_polar.eps>
 (epstopdf)             \includegraphics on input line 36.
 Package epstopdf Info: Output file is already uptodate.
 
-<Figures/M_SD_004_polar-eps-converted-to.pdf, id=359, 571.13374pt x 571.13374pt
+<Figures/M_SD_004_polar-eps-converted-to.pdf, id=418, 571.13374pt x 571.13374pt
 >
 File: Figures/M_SD_004_polar-eps-converted-to.pdf Graphic file (type pdf)
  <use Figures/M_SD_004_polar-eps-converted-to.pdf>
@@ -1808,7 +2129,7 @@ put line 36.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<Figures/zig_pl_024.png, id=360, 801.9561pt x 746.0673pt>
+<Figures/zig_pl_024.png, id=419, 801.9561pt x 746.0673pt>
 File: Figures/zig_pl_024.png Graphic file (type png)
 
 <use Figures/zig_pl_024.png>
@@ -1820,49 +2141,44 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 )
 (D:\disco_usuario\javier\upm\doctorado\tesis\texto_tesis_upm\texto_tutto\Chapte
-rs/Chapter_CONCLUSIONES.tex [16] [17 <D:/disco_usuario/javier/upm/doctorado/tes
+rs/Chapter_CONCLUSIONES.tex [20] [21 <D:/disco_usuario/javier/upm/doctorado/tes
 is/texto_tesis_upm/texto_tutto/Figures/M_SD_004_polar-eps-converted-to.pdf>]
-[18 <D:/disco_usuario/javier/upm/doctorado/tesis/texto_tesis_upm/texto_tutto/Fi
+[22 <D:/disco_usuario/javier/upm/doctorado/tesis/texto_tesis_upm/texto_tutto/Fi
 gures/zig_pl_024.png>]
 Cap\IeC {\'\i }tulo 5.
 --------------------
  5. Conclusiones de la tesis
 --------------------
-) [19
+) [23
 
-] [20
+] [24
 
-]
-Overfull \hbox (4.84381pt too wide) in paragraph at lines 299--299
+] [25]
+Overfull \hbox (4.84381pt too wide) in paragraph at lines 330--330
 []\T1/ppl/m/n/10.95 Reyes Her-rero.   La ter-mi-nología del análi-sis de re-de
 s: prob-le-mas de defini-
  []
 
-[21]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 303.
- [22]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 303.
+[26]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 334.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 334.
 
 (D:\disco_usuario\javier\upm\doctorado\tesis\texto_tesis_upm\texto_tutto\tesis_
 JGA_mutualismo.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 303.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 303.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 334.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 334.
 Package rerunfilecheck Info: File `tesis_JGA_mutualismo.out' has not changed.
-(rerunfilecheck)             Checksum: FA8CA1A62850AE435C8112512A938EA9;7043.
-
-
-LaTeX Warning: There were undefined references.
-
+(rerunfilecheck)             Checksum: 68EB479BD9241C3FFCB436374F304C44;7555.
 Package logreq Info: Writing requests to 'tesis_JGA_mutualismo.run.xml'.
  ) 
 Here is how much of TeX's memory you used:
- 29473 strings out of 493921
- 522263 string characters out of 3147276
- 697509 words of memory out of 3000000
- 32303 multiletter control sequences out of 15000+200000
- 58148 words of font info for 111 fonts, out of 3000000 for 9000
+ 39193 strings out of 493921
+ 735700 string characters out of 3147276
+ 877409 words of memory out of 3000000
+ 41798 multiletter control sequences out of 15000+200000
+ 58769 words of font info for 113 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 47i,15n,49p,10420b,2265s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 78i,15n,78p,10420b,2264s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}<C:/Program File
 s/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files/MiKTeX
  2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX 2.9/fon
@@ -1872,13 +2188,13 @@ sfonts/cm/cmmi8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm
 /cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb
 ><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Pro
 gram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program File
-s/MiKTeX 2.9/fonts/type1/urw/palatino/uplb8a.pfb><C:/Program Files/MiKTeX 2.9/f
-onts/type1/urw/palatino/uplbi8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/ur
-w/palatino/uplr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/palatino/upl
-ri8a.pfb>
-Output written on tesis_JGA_mutualismo.pdf (30 pages, 766619 bytes).
+s/MiKTeX 2.9/fonts/type1/urw/courier/ucrr8a.pfb><C:/Program Files/MiKTeX 2.9/fo
+nts/type1/urw/palatino/uplb8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/
+palatino/uplbi8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/palatino/uplr
+8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/palatino/uplri8a.pfb>
+Output written on tesis_JGA_mutualismo.pdf (34 pages, 1143159 bytes).
 PDF statistics:
- 459 PDF objects out of 1000 (max. 8388607)
- 89 named destinations out of 1000 (max. 500000)
- 333 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 523 PDF objects out of 1000 (max. 8388607)
+ 103 named destinations out of 1000 (max. 500000)
+ 381 words of extra memory for PDF output out of 10000 (max. 10000000)
 
