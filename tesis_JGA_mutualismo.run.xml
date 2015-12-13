@@ -82,7 +82,7 @@
       <file>tesis_JGA_mutualismo-blx.bib</file>
     </requires>
     <requires type="editable">
-      <file>tesis_JGA.bib</file>
+      <file>tesis_JGA_mutualismo.bib</file>
     </requires>
     <requires type="static">
       <file>biblatex.bst</file>

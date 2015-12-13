@@ -144,6 +144,31 @@
   \field{year}{2006}
 \endentry
 
+\entry{csardi2006igraph}{article}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Csardi}{C.}%
+     {Gabor}{G.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Nepusz}{N.}%
+     {Tamas}{T.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{CGNT1}
+  \strng{fullhash}{CGNT1}
+  \field{labelalpha}{CN06}
+  \field{sortinit}{C}
+  \field{number}{5}
+  \field{pages}{1\bibrangedash 9}
+  \field{title}{The igraph software package for complex network research}
+  \field{volume}{1695}
+  \field{journaltitle}{InterJournal, Complex Systems}
+  \field{year}{2006}
+\endentry
+
 \entry{dorogovtsev2006k}{article}{}
   \name{author}{3}{}{%
     {{}%
@@ -235,6 +260,33 @@
   \field{volume}{5}
   \field{journaltitle}{Ecology letters}
   \field{year}{2002}
+\endentry
+
+\entry{fortuna2014web}{article}{}
+  \name{author}{3}{}{%
+    {{}%
+     {Fortuna}{F.}%
+     {Miguel~A}{M.~A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Ortega}{O.}%
+     {Raul}{R.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Bascompte}{B.}%
+     {Jordi~and}{J.~a.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{FMAORBJa1}
+  \strng{fullhash}{FMAORBJa1}
+  \field{labelalpha}{FOB14}
+  \field{sortinit}{F}
+  \field{title}{The Web of Life}
+  \field{journaltitle}{arXiv preprint abs/1403.2575}
+  \field{year}{2014}
 \endentry
 
 \entry{herrero2000terminologia}{article}{}

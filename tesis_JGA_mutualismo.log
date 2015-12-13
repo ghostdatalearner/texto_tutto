@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2013.8.13)  11 DEC 2015 14:18
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2013.8.13)  13 DEC 2015 18:49
 entering extended mode
 **tesis_JGA_mutualismo.tex
 
@@ -156,8 +156,8 @@ Package: xparse 2015/11/04 v6224 L3 Experimental document command parser
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\base\book.cls"
 Document Class: book 2007/10/19 v1.4h Standard LaTeX document class
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\bk11.clo"
-File: bk11.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\bk12.clo"
+File: bk12.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
 )
 \c@part=\count109
 \c@chapter=\count110
@@ -1695,23 +1695,23 @@ Package csquotes Info: ... found 'babel' package.
 
 (D:\disco_usuario\javier\upm\doctorado\tesis\texto_tesis_upm\texto_tutto\tesis_
 JGA_mutualismo.aux)
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 133.
-LaTeX Font Info:    ... okay on input line 133.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 133.
-LaTeX Font Info:    ... okay on input line 133.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 133.
-LaTeX Font Info:    ... okay on input line 133.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 133.
-LaTeX Font Info:    ... okay on input line 133.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 133.
-LaTeX Font Info:    ... okay on input line 133.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 133.
-LaTeX Font Info:    ... okay on input line 133.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 133.
-LaTeX Font Info:    ... okay on input line 133.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 133.
-LaTeX Font Info:    ... okay on input line 133.
-LaTeX Font Info:    Try loading font information for T1+ppl on input line 133.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 132.
+LaTeX Font Info:    ... okay on input line 132.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 132.
+LaTeX Font Info:    ... okay on input line 132.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 132.
+LaTeX Font Info:    ... okay on input line 132.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 132.
+LaTeX Font Info:    ... okay on input line 132.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 132.
+LaTeX Font Info:    ... okay on input line 132.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 132.
+LaTeX Font Info:    ... okay on input line 132.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 132.
+LaTeX Font Info:    ... okay on input line 132.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 132.
+LaTeX Font Info:    ... okay on input line 132.
+LaTeX Font Info:    Try loading font information for T1+ppl on input line 132.
  ("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\t1ppl.fd"
 File: t1ppl.fd 2001/06/04 font definitions for T1/ppl.
 )
@@ -1828,18 +1828,18 @@ Package caption Info: End \AtBeginDocument code.
 * \paperwidth=597.50787pt
 * \paperheight=845.04684pt
 * \textwidth=416.83289pt
-* \textheight=663.88399pt
+* \textheight=661.34694pt
 * \oddsidemargin=36.13501pt
 * \evensidemargin=0.0pt
 * \topmargin=-28.90756pt
 * \headheight=20.0pt
 * \headsep=32.52127pt
-* \topskip=11.0pt
-* \footskip=27.46295pt
-* \marginparwidth=116.0pt
+* \topskip=12.0pt
+* \footskip=30.0pt
+* \marginparwidth=98.0pt
 * \marginparsep=7.0pt
 * \columnsep=10.0pt
-* \skip\footins=10.0pt plus 4.0pt minus 2.0pt
+* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
 * \hoffset=0.0pt
 * \voffset=0.0pt
 * \mag=1000
@@ -1849,17 +1849,17 @@ Package caption Info: End \AtBeginDocument code.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-Package scrbase Info: activating english \equationnamenname on input line 133.
-Package scrbase Info: activating english \sectionname on input line 133.
-Package scrbase Info: activating english \authorshipname on input line 133.
-Package scrbase Info: activating english \byname on input line 133.
-Package scrbase Info: activating english \abbrevname on input line 133.
-Package scrbase Info: activating english \constantsname on input line 133.
-Package scrbase Info: activating english \symbolsname on input line 133.
-Package scrbase Info: activating english \acknowledgementname on input line 133
+Package scrbase Info: activating english \equationnamenname on input line 132.
+Package scrbase Info: activating english \sectionname on input line 132.
+Package scrbase Info: activating english \authorshipname on input line 132.
+Package scrbase Info: activating english \byname on input line 132.
+Package scrbase Info: activating english \abbrevname on input line 132.
+Package scrbase Info: activating english \constantsname on input line 132.
+Package scrbase Info: activating english \symbolsname on input line 132.
+Package scrbase Info: activating english \acknowledgementname on input line 132
 .
 \AtBeginShipoutBox=\box74
-Package hyperref Info: Link coloring ON on input line 133.
+Package hyperref Info: Link coloring ON on input line 132.
 ("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\nameref.sty"
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 
@@ -1868,9 +1868,9 @@ Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
 \c@section@level=\count419
 )
-LaTeX Info: Redefining \ref on input line 133.
-LaTeX Info: Redefining \pageref on input line 133.
-LaTeX Info: Redefining \nameref on input line 133.
+LaTeX Info: Redefining \ref on input line 132.
+LaTeX Info: Redefining \pageref on input line 132.
+LaTeX Info: Redefining \nameref on input line 132.
 
 (D:\disco_usuario\javier\upm\doctorado\tesis\texto_tesis_upm\texto_tutto\tesis_
 JGA_mutualismo.out)
@@ -1890,23 +1890,23 @@ Package biblatex Info: ... file 'tesis_JGA_mutualismo.bbl' found.
 
 (D:\disco_usuario\javier\upm\doctorado\tesis\texto_tesis_upm\texto_tutto\tesis_
 JGA_mutualismo.bbl)
-Package biblatex Info: Reference section=0 on input line 133.
-Package biblatex Info: Reference segment=0 on input line 133.
+Package biblatex Info: Reference section=0 on input line 132.
+Package biblatex Info: Reference segment=0 on input line 132.
  ABD: EveryShipout initializing macros
 \c__siunitx_mathsf_int=\count420
-LaTeX Font Info:    Try loading font information for U+msa on input line 133.
+LaTeX Font Info:    Try loading font information for U+msa on input line 132.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 133.
+LaTeX Font Info:    Try loading font information for U+msb on input line 132.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 \c__siunitx_mathtt_int=\count421
-LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <20.74> not available
-(Font)              Font shape `T1/ppl/b/n' tried instead on input line 150.
+LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <24.88> not available
+(Font)              Font shape `T1/ppl/b/n' tried instead on input line 149.
  [1
 
 
@@ -1915,8 +1915,8 @@ LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <20.74> not available
 --------------------
  Abstract
 --------------------
-LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <10.95> not available
-(Font)              Font shape `T1/ppl/b/n' tried instead on input line 218.
+LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <12> not available
+(Font)              Font shape `T1/ppl/b/n' tried instead on input line 217.
 [3
 
 ] [4
@@ -1928,9 +1928,6 @@ LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <10.95> not available
 [5] [6
 
 ]
-LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <24.88> not available
-(Font)              Font shape `T1/ppl/b/n' tried instead on input line 240.
-
 (D:\disco_usuario\javier\upm\doctorado\tesis\texto_tesis_upm\texto_tutto\tesis_
 JGA_mutualismo.toc [7])
 \tf@toc=\write6
@@ -1941,23 +1938,36 @@ Cap\IeC {\'\i }tulo 1.
 --------------------
  1. Introducci\IeC {\'o}n general
 --------------------
-LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <14.4> not available
+LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <17.28> not available
 (Font)              Font shape `T1/ppl/b/n' tried instead on input line 11.
-LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <12> not available
-(Font)              Font shape `T1/ppl/b/n' tried instead on input line 21.
+
+Overfull \hbox (5.59775pt too wide) in paragraph at lines 13--14
+\T1/ppl/m/n/12 Lorem ip-sum do-lor sit amet, con-secte-tur adip-isc-ing elit. A
+li-quam ul-tricies lacinia
+ []
+
 [1
 
 
-] [2])
-(D:\disco_usuario\javier\upm\doctorado\tesis\texto_tesis_upm\texto_tutto\Chapte
-rs/Chapter_DINAMICA.tex [3] [4
-
 ]
+LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <14.4> not available
+(Font)              Font shape `T1/ppl/b/n' tried instead on input line 21.
+ [2])
+(D:\disco_usuario\javier\upm\doctorado\tesis\texto_tesis_upm\texto_tutto\Chapte
+rs/Chapter_DINAMICA.tex [3] [4]
 Cap\IeC {\'\i }tulo 2.
 --------------------
  2. Modelado din\IeC {\'a}mico
 --------------------
-[5] [6])
+
+Overfull \hbox (5.59775pt too wide) in paragraph at lines 13--14
+\T1/ppl/m/n/12 Lorem ip-sum do-lor sit amet, con-secte-tur adip-isc-ing elit. A
+li-quam ul-tricies lacinia
+ []
+
+[5
+
+] [6])
 (D:\disco_usuario\javier\upm\doctorado\tesis\texto_tesis_upm\texto_tutto\Chapte
 rs/Chapter_ESTATICA.tex [7] [8
 
@@ -1966,8 +1976,14 @@ Cap\IeC {\'\i }tulo 3.
 --------------------
  3. Estructura del mutualismo
 --------------------
+
+Overfull \hbox (5.59775pt too wide) in paragraph at lines 12--13
+\T1/ppl/m/n/12 Lorem ip-sum do-lor sit amet, con-secte-tur adip-isc-ing elit. A
+li-quam ul-tricies lacinia
+ []
+
 [9]
-LaTeX Font Info:    Font shape `T1/ppl/bx/it' in size <14.4> not available
+LaTeX Font Info:    Font shape `T1/ppl/bx/it' in size <17.28> not available
 (Font)              Font shape `T1/ppl/b/it' tried instead on input line 21.
 Package mdframed Info: mdframed works in twoside mode on input line 26.
 Package mdframed Info: mdframed detected package amsthm 
@@ -1976,19 +1992,21 @@ Package mdframed Info: mdframed detected package amsthm
 Package mdframed Info: mdframed detected package amsthm 
  changed the theorem header of amsthm
 (mdframed)              on input line 29.
-
-<Figures/ESTATICA_kcore_decomposition_example.png, id=316, 714.41907pt x 411.78
+ [10]
+<Figures/ESTATICA_kcore_decomposition_example.png, id=342, 714.41907pt x 411.78
 844pt>
 File: Figures/ESTATICA_kcore_decomposition_example.png Graphic file (type png)
  <use Figures/ESTATICA_kcore_decomposition_example.png>
 Package pdftex.def Info: Figures/ESTATICA_kcore_decomposition_example.png used 
 on input line 39.
 (pdftex.def)             Requested size: 357.20866pt x 205.8937pt.
+ [11 <D:/disco_usuario/javier/upm/doctorado/tesis/texto_tesis_upm/texto_tutto/F
+igures/ESTATICA_kcore_decomposition_example.png>]
+Overfull \hbox (0.51003pt too wide) in paragraph at lines 53--54
+\T1/ppl/m/n/12 ba-ciones ex-ter-nas porque el ben-efi-cio que reciben de-pende 
+de múlti-ples fuentes.
+ []
 
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[10]
 Package mdframed Info: mdframed works in twoside mode on input line 56.
 Package mdframed Info: mdframed detected package amsthm 
  changed the theorem header of amsthm
@@ -2008,7 +2026,7 @@ e-eps-converted-to.pdf Figures/ESTATICA_red_example.eps>
 (epstopdf)             \includegraphics on input line 69.
 Package epstopdf Info: Output file is already uptodate.
 
-<Figures/ESTATICA_red_example-eps-converted-to.pdf, id=336, 845.1575pt x 597.23
+<Figures/ESTATICA_red_example-eps-converted-to.pdf, id=352, 845.1575pt x 597.23
 125pt>
 File: Figures/ESTATICA_red_example-eps-converted-to.pdf Graphic file (type pdf)
 
@@ -2021,79 +2039,116 @@ Overfull \hbox (5.74483pt too wide) in paragraph at lines 69--70
  [][] 
  []
 
-[11 <D:/disco_usuario/javier/upm/doctorado/tesis/texto_tesis_upm/texto_tutto/Fi
-gures/ESTATICA_kcore_decomposition_example.png>]
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[12]
 Package mdframed Info: mdframed works in twoside mode on input line 81.
 Package mdframed Info: mdframed detected package amsthm 
  changed the theorem header of amsthm
 (mdframed)              on input line 81.
 Package mdframed Info: mdframed detected package amsthm 
  changed the theorem header of amsthm
-(mdframed)              on input line 89.
- [12 <D:/disco_usuario/javier/upm/doctorado/tesis/texto_tesis_upm/texto_tutto/F
+(mdframed)              on input line 88.
+ [13 <D:/disco_usuario/javier/upm/doctorado/tesis/texto_tesis_upm/texto_tutto/F
 igures/ESTATICA_red_example-eps-converted-to.pdf>]
-Package mdframed Info: mdframed works in twoside mode on input line 96.
+Package mdframed Info: mdframed works in twoside mode on input line 95.
 Package mdframed Info: mdframed detected package amsthm 
  changed the theorem header of amsthm
-(mdframed)              on input line 96.
+(mdframed)              on input line 95.
 Package mdframed Info: mdframed detected package amsthm 
  changed the theorem header of amsthm
-(mdframed)              on input line 102.
-LaTeX Font Info:    Font shape `T1/ppl/bx/it' in size <12> not available
-(Font)              Font shape `T1/ppl/b/it' tried instead on input line 107.
- [13]
-<Figures/ESTATICA_destruction_example.png, id=363, 426.6339pt x 320.1561pt>
+(mdframed)              on input line 101.
+LaTeX Font Info:    Font shape `T1/ppl/bx/it' in size <14.4> not available
+(Font)              Font shape `T1/ppl/b/it' tried instead on input line 106.
+ [14]
+<Figures/ESTATICA_destruction_example.png, id=377, 426.6339pt x 320.1561pt>
 File: Figures/ESTATICA_destruction_example.png Graphic file (type png)
 
 <use Figures/ESTATICA_destruction_example.png>
 Package pdftex.def Info: Figures/ESTATICA_destruction_example.png used on input
- line 115.
+ line 114.
 (pdftex.def)             Requested size: 234.64935pt x 176.08638pt.
 
-<Figures/ESTATICA_tamanyo_kdegree_kradius.png, id=366, 2186.1675pt x 2794.44pt>
-File: Figures/ESTATICA_tamanyo_kdegree_kradius.png Graphic file (type png)
-<use Figures/ESTATICA_tamanyo_kdegree_kradius.png>
-Package pdftex.def Info: Figures/ESTATICA_tamanyo_kdegree_kradius.png used on i
-nput line 131.
-(pdftex.def)             Requested size: 393.49316pt x 502.97751pt.
- [14 <D:/disco_usuario/javier/upm/doctorado/tesis/texto_tesis_upm/texto_tutto/F
-igures/ESTATICA_destruction_example.png>] [15 <D:/disco_usuario/javier/upm/doct
-orado/tesis/texto_tesis_upm/texto_tutto/Figures/ESTATICA_tamanyo_kdegree_kradiu
-s.png>]
-LaTeX Font Info:    Try loading font information for T1+pcr on input line 148.
+Overfull \hbox (20.30083pt too wide) in paragraph at lines 121--122
+\T1/ppl/m/n/12 ritmo de de-struc-ción que pro-ponemos se basa en la se-cuen-cia
+ $\OML/cmm/m/it/12 k$\T1/ppl/m/n/12 -$\OML/cmm/m/it/12 shell$\T1/ppl/m/n/12 /$\
+OML/cmm/m/it/12 k[]$\T1/ppl/m/n/12 /$\OML/cmm/m/it/12 k[]$\T1/ppl/m/n/12 ,
+ []
+
+[15 <D:/disco_usuario/javier/upm/doctorado/tesis/texto_tesis_upm/texto_tutto/Fi
+gures/ESTATICA_destruction_example.png>]
+LaTeX Font Info:    Try loading font information for T1+pcr on input line 126.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\t1pcr.fd"
 File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
-)
-<Figures/ESTATICA_correlation_figs.png, id=385, 2110.88625pt x 852.18375pt>
-File: Figures/ESTATICA_correlation_figs.png Graphic file (type png)
+) [16]
+<Figures/ESTATICA_hist_kmagnitudes.png, id=399, 847.0044pt x 267.8808pt>
+File: Figures/ESTATICA_hist_kmagnitudes.png Graphic file (type png)
 
-<use Figures/ESTATICA_correlation_figs.png>
-Package pdftex.def Info: Figures/ESTATICA_correlation_figs.png used on input li
-ne 152.
-(pdftex.def)             Requested size: 422.16977pt x 170.43372pt.
+<use Figures/ESTATICA_hist_kmagnitudes.png>
+Package pdftex.def Info: Figures/ESTATICA_hist_kmagnitudes.png used on input li
+ne 144.
+(pdftex.def)             Requested size: 406.55748pt x 128.58131pt.
+ [17
 
-Overfull \hbox (5.33688pt too wide) in paragraph at lines 152--153
- [][] 
- []
-
-[16 <D:/disco_usuario/javier/upm/doctorado/tesis/texto_tesis_upm/texto_tutto/Fi
-gures/ESTATICA_correlation_figs.png>]
-<Figures/ESTATICA_density_plots.png, id=400, 400.1349pt x 233.9139pt>
-File: Figures/ESTATICA_density_plots.png Graphic file (type png)
-
-<use Figures/ESTATICA_density_plots.png>
-Package pdftex.def Info: Figures/ESTATICA_density_plots.png used on input line 
-182.
-(pdftex.def)             Requested size: 400.13391pt x 233.91331pt.
+ <D:/disco_usuario/javier/upm/doctorado/tesis/texto_tesis_upm/texto_tutto/Figur
+es/ESTATICA_hist_kmagnitudes.png>]
+<Figures/ESTATICA_tamanyo_kdegree_kradius.png, id=410, 2186.1675pt x 2794.44pt>
+File: Figures/ESTATICA_tamanyo_kdegree_kradius.png Graphic file (type png)
+<use Figures/ESTATICA_tamanyo_kdegree_kradius.png>
+Package pdftex.def Info: Figures/ESTATICA_tamanyo_kdegree_kradius.png used on i
+nput line 155.
+(pdftex.def)             Requested size: 393.49316pt x 502.97751pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-)
+
+Overfull \hbox (20.9552pt too wide) in paragraph at lines 167--168
+[]\T1/ppl/m/n/12 Para re-alizar la com-para-ción se cal-cula el anidamiento me-
+di-ante \T1/ppl/m/it/12 NODF \T1/ppl/m/n/12 [[][]AN+08[][]]
+ []
+
+<Figures/ESTATICA_correlation_figs.png, id=415, 2110.88625pt x 852.18375pt>
+File: Figures/ESTATICA_correlation_figs.png Graphic file (type png)
+
+<use Figures/ESTATICA_correlation_figs.png>
+Package pdftex.def Info: Figures/ESTATICA_correlation_figs.png used on input li
+ne 171.
+(pdftex.def)             Requested size: 422.16977pt x 170.43372pt.
+
+Overfull \hbox (5.33688pt too wide) in paragraph at lines 171--172
+ [][] 
+ []
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[18]
+Overfull \hbox (20.00237pt too wide) in paragraph at lines 185--195
+ [][] 
+ []
+
+[19 <D:/disco_usuario/javier/upm/doctorado/tesis/texto_tesis_upm/texto_tutto/Fi
+gures/ESTATICA_tamanyo_kdegree_kradius.png>] [20 <D:/disco_usuario/javier/upm/d
+octorado/tesis/texto_tesis_upm/texto_tutto/Figures/ESTATICA_correlation_figs.pn
+g>] <ESTATICA_density_plots.png, id=442, 433.62pt x 267.399pt>
+File: ESTATICA_density_plots.png Graphic file (type png)
+
+<use ESTATICA_density_plots.png>
+Package pdftex.def Info: ESTATICA_density_plots.png used on input line 204.
+(pdftex.def)             Requested size: 368.57874pt x 227.29022pt.
+
+Overfull \hbox (18.81119pt too wide) in paragraph at lines 209--210
+\T1/ppl/m/n/12 son su-fi-cientes para esta in-ves-ti-gación. Por ejem-plo, no s
+e prop-ugna que $\OML/cmm/m/it/12 log\OT1/cmr/m/n/12 ([][])$
+ []
+
+[21 <D:/disco_usuario/javier/upm/doctorado/tesis/texto_tesis_upm/texto_tutto/ES
+TATICA_density_plots.png>])
 (D:\disco_usuario\javier\upm\doctorado\tesis\texto_tesis_upm\texto_tutto\Chapte
-rs/Chapter_VISUALIZACION.tex [17] [18 <D:/disco_usuario/javier/upm/doctorado/te
-sis/texto_tesis_upm/texto_tutto/Figures/ESTATICA_density_plots.png>]
+rs/Chapter_VISUALIZACION.tex [22]
 Cap\IeC {\'\i }tulo 4.
 --------------------
  4. Visualizaciones del mutualismo
@@ -2103,7 +2158,13 @@ Overfull \hbox (11.14352pt too wide) in paragraph at lines 3--3
  |[]\T1/ppl/b/n/24.88 Visualizaciones del mu-tu-al-ismo| 
  []
 
-[19
+
+Overfull \hbox (5.59775pt too wide) in paragraph at lines 13--14
+\T1/ppl/m/n/12 Lorem ip-sum do-lor sit amet, con-secte-tur adip-isc-ing elit. A
+li-quam ul-tricies lacinia
+ []
+
+[23
 
 ]
 Package epstopdf Info: Source file: <Figures/M_SD_004_polar.eps>
@@ -2118,7 +2179,7 @@ converted-to.pdf Figures/M_SD_004_polar.eps>
 (epstopdf)             \includegraphics on input line 36.
 Package epstopdf Info: Output file is already uptodate.
 
-<Figures/M_SD_004_polar-eps-converted-to.pdf, id=418, 571.13374pt x 571.13374pt
+<Figures/M_SD_004_polar-eps-converted-to.pdf, id=457, 571.13374pt x 571.13374pt
 >
 File: Figures/M_SD_004_polar-eps-converted-to.pdf Graphic file (type pdf)
  <use Figures/M_SD_004_polar-eps-converted-to.pdf>
@@ -2129,7 +2190,7 @@ put line 36.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<Figures/zig_pl_024.png, id=419, 801.9561pt x 746.0673pt>
+[24] <Figures/zig_pl_024.png, id=462, 801.9561pt x 746.0673pt>
 File: Figures/zig_pl_024.png Graphic file (type png)
 
 <use Figures/zig_pl_024.png>
@@ -2139,62 +2200,95 @@ Package pdftex.def Info: Figures/zig_pl_024.png used on input line 47.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-)
+[25 <D:/disco_usuario/javier/upm/doctorado/tesis/texto_tesis_upm/texto_tutto/Fi
+gures/M_SD_004_polar-eps-converted-to.pdf>])
 (D:\disco_usuario\javier\upm\doctorado\tesis\texto_tesis_upm\texto_tutto\Chapte
-rs/Chapter_CONCLUSIONES.tex [20] [21 <D:/disco_usuario/javier/upm/doctorado/tes
-is/texto_tesis_upm/texto_tutto/Figures/M_SD_004_polar-eps-converted-to.pdf>]
-[22 <D:/disco_usuario/javier/upm/doctorado/tesis/texto_tesis_upm/texto_tutto/Fi
-gures/zig_pl_024.png>]
+rs/Chapter_CONCLUSIONES.tex [26 <D:/disco_usuario/javier/upm/doctorado/tesis/te
+xto_tesis_upm/texto_tutto/Figures/zig_pl_024.png>]
 Cap\IeC {\'\i }tulo 5.
 --------------------
  5. Conclusiones de la tesis
 --------------------
-) [23
-
-] [24
-
-] [25]
-Overfull \hbox (4.84381pt too wide) in paragraph at lines 330--330
-[]\T1/ppl/m/n/10.95 Reyes Her-rero.   La ter-mi-nología del análi-sis de re-de
-s: prob-le-mas de defini-
+)
+Overfull \hbox (5.59775pt too wide) in paragraph at lines 13--311
+\T1/ppl/m/n/12 Lorem ip-sum do-lor sit amet, con-secte-tur adip-isc-ing elit. A
+li-quam ul-tricies lacinia
  []
 
-[26]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 334.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 334.
+[27
+
+] [28
+
+] [29]
+Overfull \hbox (11.02979pt too wide) in paragraph at lines 329--329
+[]\T1/ppl/m/n/12 Virginia Domínguez-García and Miguel A Muñoz.   Rank-ing spec
+ies
+ []
+
+
+Overfull \hbox (4.61879pt too wide) in paragraph at lines 329--329
+[]\T1/ppl/m/n/12 Jennifer A. Dunne, Richard J. Williams, and Neo D. Mar-tinez. 
+  Net-
+ []
+
+
+Overfull \hbox (4.54927pt too wide) in paragraph at lines 329--329
+[]\T1/ppl/m/n/12 Maksim Kit-sak et al.   Iden-ti-fi-ca-tion of in-flu-en-tial 
+spread-ers in com-
+ []
+
+
+Overfull \hbox (3.68526pt too wide) in paragraph at lines 329--329
+[]\T1/ppl/m/n/12 Alberto Mon-tre-sor, Francesco De Pel-le-grini, and Daniele Mi
+o-randi.
+ []
+
+
+Overfull \hbox (4.57616pt too wide) in paragraph at lines 329--329
+\T1/ppl/m/n/12   Dis-tributed k-core de-com-po-si-tion. In: \T1/ppl/m/it/12 P
+ar-al-lel and Dis-tributed Sys-
+ []
+
+[30] [31]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 333.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 333.
 
 (D:\disco_usuario\javier\upm\doctorado\tesis\texto_tesis_upm\texto_tutto\tesis_
 JGA_mutualismo.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 334.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 334.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 333.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 333.
 Package rerunfilecheck Info: File `tesis_JGA_mutualismo.out' has not changed.
-(rerunfilecheck)             Checksum: 68EB479BD9241C3FFCB436374F304C44;7555.
+(rerunfilecheck)             Checksum: 9E0C381C24F0580088D364D992FA8ECB;7872.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
 Package logreq Info: Writing requests to 'tesis_JGA_mutualismo.run.xml'.
  ) 
 Here is how much of TeX's memory you used:
- 39193 strings out of 493921
- 735700 string characters out of 3147276
- 877409 words of memory out of 3000000
- 41798 multiletter control sequences out of 15000+200000
- 58769 words of font info for 113 fonts, out of 3000000 for 9000
+ 39191 strings out of 493921
+ 735664 string characters out of 3147276
+ 876434 words of memory out of 3000000
+ 41786 multiletter control sequences out of 15000+200000
+ 57062 words of font info for 111 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 78i,15n,78p,10420b,2264s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 78i,15n,76p,10420b,2447s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}<C:/Program File
 s/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files/MiKTeX
  2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX 2.9/fon
-ts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/
-public/amsfonts/cm/cmmi7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/am
-sfonts/cm/cmmi8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm
-/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb
-><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Pro
-gram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program File
-s/MiKTeX 2.9/fonts/type1/urw/courier/ucrr8a.pfb><C:/Program Files/MiKTeX 2.9/fo
-nts/type1/urw/palatino/uplb8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/
-palatino/uplbi8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/palatino/uplr
-8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on tesis_JGA_mutualismo.pdf (34 pages, 1143159 bytes).
+ts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1
+/public/amsfonts/cm/cmmi6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/a
+msfonts/cm/cmmi8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/c
+m/cmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pf
+b><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Pr
+ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Fil
+es/MiKTeX 2.9/fonts/type1/urw/courier/ucrr8a.pfb><C:/Program Files/MiKTeX 2.9/f
+onts/type1/urw/palatino/uplb8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw
+/palatino/uplbi8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/palatino/upl
+r8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/palatino/uplri8a.pfb>
+Output written on tesis_JGA_mutualismo.pdf (39 pages, 1216019 bytes).
 PDF statistics:
- 523 PDF objects out of 1000 (max. 8388607)
- 103 named destinations out of 1000 (max. 500000)
- 381 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 570 PDF objects out of 1000 (max. 8388607)
+ 114 named destinations out of 1000 (max. 500000)
+ 402 words of extra memory for PDF output out of 10000 (max. 10000000)
 
