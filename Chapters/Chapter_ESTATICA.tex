@@ -73,7 +73,7 @@ En la fórmula \ref{ESTATICA_kradius} $dist_{mj}$ es el camino más corto de la 
 
 La parte superior izquierda de la figura \ref{fig:ESTATICA_red_example} es el esquema de otra red ficticia muy sencilla, con solo siete nodos, tres de la clase $A$ y cuatro de la $B$. La descomposición $k$-$core$ indica que la especie $B4$ es la única de la $1$-$shell$. El resto pertenecen a la $2$-$shell$, que por ser la más interna sirve de base para medir el $k_{radius}$. 
 
-En la parte superior derecha de la imagen, se reproduce el detalle de las conexiones de la especie $A1$, perteneciente a $C^{A}$.  Como está directamente conectada con los tres nodos de $C^{B}$ la el camino más corto a cada uno de ellos es $1$, y en consecuencia $k^A_{radius}1$ es $1$. En la parte inferior derecha, la especie $A2$ que también pertenece a $C^{A}$ no tiene enlace directo con $B2$, aunque sí con $B1$ y $B3$. El camino más corto, marcado en color violeta, pasa por $B1$ y $A1$, y mide $3$. El $k^A_{radius}2$ vale $\frac{5}{3}$. En la parte inferior izquierda, vemos el esquema de conexiones de la especie $B4$, que no forma parte de $C^{B}$. Como cabía esperar, su$k_{radius}$ es mayor, $\frac{7}{3}$. 
+En la parte superior derecha de la imagen, se reproduce el detalle de las conexiones de la especie $A1$, perteneciente a $C^{A}$.  Como está directamente conectada con los tres nodos de $C^{B}$ la el camino más corto a cada uno de ellos es $1$, y en consecuencia $k^A_{radius}1$ es $1$. En la parte inferior derecha, la especie $A2$ que también pertenece a $C^{A}$ no tiene enlace directo con $B2$, aunque sí con $B1$ y $B3$. El camino más corto, marcado en color violeta, pasa por $B1$ y $A1$, y mide $3$. El $k^A_{radius}2$ vale $\sfrac{5}{3}$. En la parte inferior izquierda, vemos el esquema de conexiones de la especie $B4$, que no forma parte de $C^{B}$. Como cabía esperar, su$k_{radius}$ es mayor, $\sfrac{7}{3}$. 
 
 Podemos definir una magnitud global, teniendo en cuenta los $k_{radius}$ de todas las especies.
 
@@ -87,7 +87,7 @@ El \textit{$\overline k_{radius}$} de una red se obtiene promediando los ${k}_{r
 \label{ESTATICA_avgkradius}
 \end{theo}
 
-Una red con todos sus nodos conectados (matriz de adyacencia cuadrada) tendría $\overline {k}_{radius}=1$, el menor posible. En una con matriz de adyacencia triangular el $\overline {k}_{radius}$ vale $1.5$. En la red que hemos usado como ejemplo, su valor es $\frac{11}{7}$. Intuitivamente, el $\overline {k}_{radius}$ será pequeño para redes muy anidadas, porque la probabilidad de conexión con la \textit{shell} más interna es elevada. Las especies generalistas están muy interconectadas y las especialistas tienen enlaces directos con las \textit{k-shells} de mayor índice. por el contrario, una distribución de enlaces puramente aleatoria conduciría a una red con mayor $\overline {k}_{radius}=1$.
+Una red con todos sus nodos conectados (matriz de adyacencia cuadrada) tendría $\overline {k}_{radius}=1$, el menor posible. En una con matriz de adyacencia triangular el $\overline {k}_{radius}$ vale $1.5$. En la red que hemos usado como ejemplo, su valor es $\sfrac{11}{7}$. Intuitivamente, el $\overline {k}_{radius}$ será pequeño para redes muy anidadas, porque la probabilidad de conexión con la \textit{shell} más interna es elevada. Las especies generalistas están muy interconectadas y las especialistas tienen enlaces directos con las \textit{k-shells} de mayor índice. por el contrario, una distribución de enlaces puramente aleatoria conduciría a una red con mayor $\overline {k}_{radius}=1$.
 
 El ${k}_{radius}$ es una buena medida de conexión al núcleo central pero no de centralidad. Por ejemplo, su valor es bajo para un especialista con un enlace a la \textit{shell} más interna, aunque sabemos que no resulta determinante para la estabilidad global de la red. Para atender esta necesidad, definimos una segunda \textit{k-magnitud}.
 
@@ -100,7 +100,7 @@ k^A_{degree}m = \sum\limits_{j} \frac{a_{mj} }{k_{radius}j}  \quad   m \in A, \f
 \label{kdegree}
 \end{theo}
 
-Donde $a_{mj}$ es el elemento de la matriz de interacción que representa el enlace, cuyo valor es $1$ si existe o $0$ si no está presente. El $k_{degree}$ es la suma de los inversos de los $k_{radius}$ de los nodos conectados con $m$. Una especie de la \textit{shell} más interna tiene un $k_{degree}m$ elevado,  mientras que los especialistas con solo uno o dos enlaces tiene un $k_{degree}$ reducido. Volviendo al ejemplo de la figura \ref{fig:ESTATICA_red_example}, el $k_{degree}$ del nodo $B3$ es is $1+3/5+3/5 = 11/5$, mientras que solo vale $3/7$ para el especialista $B4$. Esta magnitud recuerda la definición del \textit{índice de Harary} \cite{plavvsic1993harary} pero teniendo solo en cuenta los enlaces con la \textit{shell} más interna.
+Donde $a_{mj}$ es el elemento de la matriz de interacción que representa el enlace, cuyo valor es $1$ si existe o $0$ si no está presente. El $k_{degree}$ es la suma de los inversos de los $k_{radius}$ de los nodos conectados con $m$. Una especie de la \textit{shell} más interna tiene un $k_{degree}m$ elevado,  mientras que los especialistas con solo uno o dos enlaces tiene un $k_{degree}$ reducido. Volviendo al ejemplo de la figura \ref{fig:ESTATICA_red_example}, el $k_{degree}$ del nodo $B3$ es is $1+\sfrac{3}{5}+\sfrac{3}{5} = \sfrac{11}{5}$, mientras que solo vale $\sfrac{3}{7}$ para el especialista $B4$. Esta magnitud recuerda la definición del \textit{índice de Harary} \cite{plavvsic1993harary} pero teniendo solo en cuenta los enlaces con la \textit{shell} más interna.
 
 
 \subsection{Algoritmo de destrucción basado en \textit{k-shell}}
@@ -116,18 +116,18 @@ Esto es lo que hace el método de medida de Dunne \cite{dunne2002biodiversity}. 
 \label{fig:ESTATICA_destruction_example}
 \end{figure}
 
-La clave está en el orden de selección de las especies que se retiran en las extinciones primarias. Si disponemos de una cifra que defina su importancia para esa red concreta, se podrán concentrar los esfuerzos de conservación en las especies que más aportan a la supervivencia del sistema. El problema es que no existe un criterio único para establecer esa clasificación, por lo que es un campo de investigación activo \citep{dominguez2015ranking}.
+La clave está en el orden de selección de las especies que se retiran en las extinciones primarias. Si disponemos de una cifra que defina su importancia para esa red concreta, se podrán concentrar los esfuerzos de conservación en las especies que más aportan a la supervivencia del sistema. El problema es que no existe un criterio único para establecer esa clasificación, por lo que es un campo de investigación activo.
 
-En el mutualismo, parece lógico pensar que las especies de las \textit{shells} más internas son las más importantes para mantener la integridad de la red. El algoritmo de destrucción que proponemos se basa en la secuencia $k$-$shell$/$k_{degree}$/$k_{radius}$, esto es, se empiezan las extinciones primarias por las especies pertenecientes a la $k$-$shell$ de mayor índice, y dentro de esta, el de mayor $k_{degree}$, y en caso de coincidencia, el de menor $k_{radius}$. Como veremos en la sección de resultados esta selección es muy eficaz comparada con el algoritmo más eficaz de los publicados. 
-
+En el mutualismo, parece lógico pensar que las especies de las \textit{shells} más internas son las más importantes para mantener la integridad de la red. El algoritmo de destrucción que proponemos se basa en la secuencia $k$-$shell, k_{degree}, k_{radius}$, esto es, se empiezan las extinciones primarias por las especies pertenecientes a la $k$-$shell$ de mayor índice, y dentro de esta, el de mayor $k_{degree}$, y en caso de coincidencia, el de menor $k_{radius}$. 
 
 \section{Material y métodos}
 
-Para este capítulo hemos utilizado la colección de datos de redes mutualistas disponible en la \textit{Web of Life}  \url{http://www.web-of-life.es/} \cite{fortuna2014web}. Hemos analizado todas las disponibles en las categorías \textit{planta-polinizador} y \textit{panta-dispersor de semillas}. En diciembre de 2015 dicha colección consta de 59 redes de la primera familia y 30 de la segunda. El número de especies por red varía entre 6 y 997 y el número de interacciones entre 6 y 2993.
+Para este capítulo hemos utilizado la colección de datos de redes mutualistas de la \textit{Web of Life}  \url{http://www.web-of-life.es/} \cite{fortuna2014web}. Hemos analizado todas las disponibles en las categorías \textit{planta-polinizador} y \textit{panta-dispersor de semillas}. En diciembre de 2015 dicha colección consta de 59 redes de la primera familia y 30 de la segunda. El número de especies por red varía entre 6 y 997 y el número de interacciones entre 6 y 2993.
 
-El software se ha desarrollado en \texttt{R} y \texttt{Python}. La \textit{descomposición k-core} se realiza con el paquete \texttt{R} \texttt{igraph} \cite{csardi2006igraph}. El mismo paquete ofrece funciones para el cálculo de $NODF$ y $Modularity$. El código\texttt{R} para medir ${k}_{degree}$ y ${k}_{radius}$ es propio. Los valores medios de estas magnitudes se calculan descartando las especies que no pertenecen a la componente gigante cuando en la red se produce esta circunstancia. El algoritmo de destrucción basado en \textit{k-shell} y la medida \textit{MusRank} se han codificado en \texttt{Python}.
+El software se ha desarrollado en \texttt{R} y \texttt{Python}. La \textit{descomposición k-core} se realiza con el paquete \texttt{R} \texttt{igraph} \cite{csardi2006igraph}. El mismo paquete ofrece funciones para el cálculo de $NODF$ y $Modularity$. El código\texttt{R} para medir ${k}_{degree}$ y ${k}_{radius}$ es propio. Los valores medios de estas magnitudes se calculan descartando las especies que no pertenecen a la componente gigante cuando en la red se produce esta circunstancia. 
 
-\clearpage
+Para medir la bondad del algoritmo de destrucción, hemos comparado su rendimiento con el que ofrece \textit{MusRank}, de reciente publicación y basado en una clasificación de la importancia de los nodos similar a la del \textit{PageRank} de Google  \citep{dominguez2015ranking}. Tanto el algoritmo basado en \textit{k-shell} como la medición del \textit{MusRank} se han codificado en \texttt{Python}.
+
 \section{Resultados}
 
 En este apartado se describen los resultados de los siguientes procedimientos: análisis exploratorio de los datos de las redes de la colección, estudio de la correlación entre las \textit{k-magnitudes} las medidas estadísticas habituales, experimento de recableado y comparación del algoritmo de destrucción basado en \textit{k-shell} con el basado en \textit{MusRank}.
@@ -135,13 +135,13 @@ En este apartado se describen los resultados de los siguientes procedimientos: a
 \subsection{Análisis exploratorio}
 
 En la figura \ref{fig:ESTATICA_hist_kmagnitudes} se han representado los histogramas de las tres \textit{k-magnitudes} que describen globalmente las redes incluidas en la investigación. En la mitad de ellas el índice $k$ máximo es $4$ o menos y solo hay dos que tengan más de $8$. La distribución del $\overline{k}_{radius}$ es aproximadamente normal, con una mediana de $2,51$ y media $2,47$. Teniendo en cuenta que el valor mínimo de esta magnitud es $1$, podemos deducir que las redes mutualistas analizadas son \textit{very small world}, las especies se encuentran muy próximas a la \textit{k-shell} más interna. Este dato concuerda con la observación de que los especialistas se conectan con generalistas lo que les proporciona más probabilidades de supervivencia. Finalmente, el $\overline{k}_{degree}$ se
-concentra entre los valores $0,5$ y $3,5$, con la mediana en $2,08$. La conectividad media de las redes es reducida
+concentra entre los valores $0,5$ y $3,5$ con la mediana en $2,08$. La conectividad media de las redes es reducida
 porque abundan los especialistas. En el tercer histograma hay una diferencia sensible entre las redes de polinizadores
 y las de dispersores de semillas, pues estas últimas tienen valores más elevados.
 
 \begin{figure}[h!]
 \centering
-\includegraphics[scale=0.48]{Figures/ESTATICA_hist_kmagnitudes.png}
+\includegraphics[scale=0.5]{Figures/ESTATICA_hist_kmagnitudes.png}
 \caption{Histogramas de las \textit{k-magnitudes}.}
 \label{fig:ESTATICA_hist_kmagnitudes}
 \end{figure}
@@ -176,8 +176,8 @@ Para realizar la comparación se calcula el anidamiento mediante \textit{NODF} y
 Las nubes de puntos se represntan sobre eje lineal en las abscisas y logarítmico en las ordenadas. Parecen compatibles con un modelo exponencial, así que procedimos a calcular las regresiones lineales $log(Y) ~ X$. Los resultados numéricos se resumen en la tabla \ref{table:table_lmodel}. Como muestra el valor ajustado de $R^2$ $(0,84)$, el logaritmo de $\overline {k}_{radius}$ tiene una correlación muy elevada con $NODF$. 
 \begin{align}
 \displaystyle \log({\overline k_{radius}}) = \beta_1 \times NODF + \beta_0
+\stepcounter{equation}\tag{\theequation}\label{eq:kradius_vs_nodf}
 \end{align}
-\label{eq:kradius_vs_nodf}
 Es sencillo de entender; si la red es muy anidada las especies se conectan directamente a las \textit{shells} más internas y su distancia a los nodos de la \textit{shell} máxima es pequeña. 
 
 \begin{table}[ht]
@@ -210,9 +210,45 @@ Las elevadas correlaciones de $\overline {k}_{radius}$ con $NODF$ y de $\overlin
 
 \subsection{Recableado aleatorio}
 
-Con este experimento se busca entender como se alteran $\overline {k}_{radius}$ y $NODF$ si se recablea al azar un porcentaje de enlaces de la red. La idea subyacente es que las comunidades mutualistas adoptan configuraciones estables, con anidamiento fuerte y $\overline {k}_{radius}$ reducidos. Si esto es así, el recableado debe de conducir a un estado más inestable y, eventualmente, a una configuración aleatoria. En el tránsito entre esos dos extremos, la relación encontrada entre las dos magnitudes en el apartado anterior (ecuación \ref{eq:kradius_vs_nodf}) debería mantenerse. Al reducirse el anidamiento el $\overline {k}_{radius}$ debería crecer.
+Con este experimento se busca entender como se alteran $\overline {k}_{radius}$ y $NODF$ al reconectar al azar un porcentaje de enlaces de la red. La idea subyacente es que las comunidades mutualistas adoptan configuraciones estables, con anidamiento fuerte y $\overline {k}_{radius}$ reducido. Si esto es así, el recableado debe de conducir a un estado más inestable y, eventualmente, a una configuración aleatoria. En el tránsito entre esos dos extremos, la relación encontrada entre las dos magnitudes en el apartado anterior (ecuación \ref{eq:kradius_vs_nodf}) debería de mantenerse. Al reducirse el anidamiento, el $\overline {k}_{radius}$ crecerá de forma lineal.
 
+El experimento comienza recableando al azar un enlace, se analiza la red resultante y se halla la correlación entre $log(\overline {k}_{radius})$  y $NODF$. La operación se repite con $2,3,..,n$ nodos hasta alcanzar un porcentaje fijado de antemano. El experimento se repite $20$ veces para cada red. Se han incluido $50$  redes con más de $40$ enlaces y menos de $200$ para evitar la destrucción abrupta de redes muy pequeñas o un excesivo tiempo de cómputo para las mayores. La figura \ref{fig:ESTATICA_histo_corr_rewiring} es el resultado.
 
+\begin{figure}[h!]
+\centering
+\includegraphics[scale=0.58]{ESTATICA_histo_corr_rewiring.png}
+\caption {Resultados del experimento de recableado: histograma de correlación $\overline {k}_{radius}$ y $NODF$, para un máximo del 10\% de enlaces; dispersión en función del tamaño de la red y gráficas para tres redes. En estas últimas el asterico azul indica el valor de la red original, sin modificar ninguna conexión.}
+\label{fig:ESTATICA_histo_corr_rewiring}
+\end{figure}
+
+El histograma representa los valores de la correlación entre las dos magnitudes aludidas cuando en el experimento se recablean hasta un 10\% de los enlaces. Para la mayoría de las redes se obtienen correlaciones en torno al valor $-0,84$ que se encontró en el apartado anterior. Un pequeño porcentaje de reconexiones hace que $NODF$ se reduzca y que $\overline {k}_{radius}$ aumente de una manera predecible (véase la figura correspondiente a la red $M\_PL\_012$ en la fila inferior). Para las redes que se comportan así, un mayor porcentaje de reconexiones no supone un gran cambio en el estado final. la gráfica de la red $M\_PL\_010$ se ha obtenido cambiando hasta la mitad de los enlaces. Hay
+una zona de atracción en torno a $\overline {k}_{radius}$ de valor $0,35$ y $NODF$ casi nula, que representa una configuración aleatoria de la red muy alejada de la real.
+
+Hay un porcentaje no despreciable de redes que no siguen esa variación para las que el experimento arroja valores reducidos de correlación e incluso positivos. Es el caso, por ejemplo, de $M\_SD\_007$. Un mínimo cambio destruye el anidamiento sin alterar de manera sustancial el $\overline {k}_{radius}$. Buscando el origen de este comportamiento dispar, se ha representado en la fila intermedia de la figura un diagrama de dispersión que relaciona el valor de la correlación con el número de especies de la red y con la asimetría. Esta se mide como el valor absoluto de la diferencia entre el número de especies de ambas clases dividida por su suma. El área correspondiente al rombo de cada especie es proporcional a esta cantidad. De la gráfica podemos deducir que cuanto mayor es el tamaño de la red, la correlación lineal entre $NODF$ y $log(\overline {k}_{radius})$ tiene mayor tendencia a mantenerse aunque cambie un pequeño porcentaje de conexiones. Para redes más pequeñas, el factor que destruye con mayor rapidez el anidamiento es la asimetría, y la red $M\_SD\_007$ es un caso extremo, con $72$ especies de plantas, solo $7$ de polinizadores y una estructura muy peculiar como se verá en el próximo capítulo de visualizaciones. Estas redes asimétricas son mucho más sensibles a las reconexiones, porque hay una mayor probabilidad de alterar la \textit{k-shell} máxima.
+
+Lo que muestra cualitativamente este experimento, es que cuanto  mayores son el tamaño y la simetría, las redes parecen menos destructibles ante pequeños cambios. El valor de la correlación del experimento de recableado podría utilizarse como indicador numérico de la resistencia a una variación de las condiciones ambientales.
+
+\subsection{Rendimiento del algoritmo de destrucción}
+
+Como hemos indicado, los resultados de nuestro algoritmo de destrucción se comparan con los obtenidos con \textit{MusRank}, un procedimiento de alto rendimiento. Tras probar diversas posibles combinaciones de los \textit{k-parámetros} encontramos que la más eficiente se basa en ordenar las especies primero por su \textit{k-shell}, a igualdad de  \textit{k-shell}por su $k_{radius}$, y a igualdas de ambos parámetros, por su $k_{degree}$. El área bajo la curva de extinción se utiliza para medir la velocidad de destrucción (mayor cuanto más pequeña). Por ejemplo, la figura \ref{ESTATICA_destruction_comparativa_dosredes} muestra el tamaño de la componente gigante superviviente en función de la fracción de extinciones primarias para la red de polinizadores $M\_PL\_010$ (Elberling \& Olesen, no publicada). A la izquierda, el proceso de destrucción siguiendo el {MusRank}, a la derecha, según la ordenación basada en \textit{k-shell}. Mientras que con \textit{MusRank} la pendiente decreciente permanece casi constante, con \textit{k-shell} puede verse como al eliminarse la \textit{k-shell} máxima se produce una caída abrupta en el número de especies supervivientes.
+
+\begin{figure}[h!]
+\centering
+\includegraphics[scale=0.45]{ESTATICA_destruction_comparativa_dosredes.png}
+\caption {Curva de extinción de la red planta-polinizador $M\_PL\_010$ para ambos algoritmos}
+\label{fig:ESTATICA_destruction_comparativa_dosredes}
+\end{figure}
+
+La figura \ref{fig:ESTATICA_destructions_comparison} muestra la comparativa de rendimiento para las $89$ redes del estudio, medida como la diferencia de áreas normalizadas según \textit{MusRank} y según \textit{k-shell}. Si es positiva, el segundo procedimiento es más destructivo y por tanto más eficaz, y viceversa. la destrucción basada en \textit{k-shell} es más rápida para $57$ de las $59$ redes del tipo \textit{planta-polinizador}. 
+
+\begin{figure}[h!]
+\centering
+\includegraphics[scale=0.5]{ESTATICA_destructions_comparison.png}
+\caption {Comparison of destruction performance of \textit{k-shell} ranking based algorithm vs. \textit{MusRank}}
+\label{fig:ESTATICA_destructions_comparison}
+\end{figure}
+
+La diferencia de rendimiento no es tan llamativa para las de dispersores de semillas, \textit{MusRank} supera a \textit{k-shell} en $13$ casos, es más lento en $10$ y equivalente en $y$. Como hemos visto, las redes de este tipo en la colección estudiada son de menor tamaño y más anidades. El procedimiento basado en \textit{k-shell} parece ser mejor predictor de la resistencia de la red en comunidades grandes y modulares, mientras que \textit{MusRank} alcanza mejor rendimiento para redes pequeñas y fuertemente anidadas.
 
 \section{Conclusiones}
 

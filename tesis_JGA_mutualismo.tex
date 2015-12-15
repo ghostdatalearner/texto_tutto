@@ -23,7 +23,7 @@
 %----------------------------------------------------------------------------------------
 
 \documentclass[
-12pt, % The default document font size, options: 10pt, 11pt, 12pt
+11pt, % The default document font size, options: 10pt, 11pt, 12pt
 %oneside, % Two side (alternating margins) for binding by default, uncomment to switch to one side
 english, % ngerman for German
 onehalfspacing, % Single line spacing, alternatives: onehalfspacing or doublespacing
@@ -42,19 +42,24 @@ onehalfspacing, % Single line spacing, alternatives: onehalfspacing or doublespa
 \usepackage{amsmath}
 \usepackage{float}
 %\usepackage{mdframed}
-\usepackage{palatino} % Use the Palatino font by default
+\usepackage{xfrac}
+
+
+\usepackage{mathpazo} 
+\usepackage{eulervm}
+\usepackage{bookman}
+
 
 \usepackage[backend=bibtex,style=alphabetic,natbib=true]{biblatex} % (which resembles APA)
 \addbibresource{tesis_JGA_mutualismo.bib} % The filename of the bibliography
 
-\usepackage[autostyle=true]{csquotes} % Required to generate language-dependent quotes in the bibliography
 
 
 \definecolor{bistre}{rgb}{0.24, 0.17, 0.12}
 
 \usepackage{titlesec}
-\titleformat{\chapter}%[display]
-  {\normalfont\rmfamily\Large\bfseries}
+\titleformat{\chapter}
+  {\normalfont\rmfamily\Huge\bfseries}
   {\chaptertitlename\ \thechapter\color{bistre}}{50pt}{\Huge}
 \titleformat{\section}
   {\normalfont\rmfamily\Large\bfseries\color{bistre}}

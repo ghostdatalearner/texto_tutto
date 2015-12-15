@@ -144,7 +144,7 @@
 \usepackage{booktabs} % Required for better table rules
 
 \RequirePackage[centerlast,small,sc]{caption} % Required for customising the captions
-\setlength{\captionmargin}{50pt}
+\setlength{\captionmargin}{30pt}
 
 %----------------------------------------------------------------------------------------
 
@@ -171,7 +171,7 @@
 \RequirePackage{geometry}
 \geometry{
 	paper=a4paper, % Default paper size, change to "letterpaper" for US Letter (you'll need to adjust margins after)
-	inner=1.5in, % The inner margin (beside binding)
+	inner=1.25in, % The inner margin (beside binding)
 	outer=1in, % The outer margin (opposite binding)
 	top=.6in, % Top margin
 	bottom=.8in, % bottom margin
