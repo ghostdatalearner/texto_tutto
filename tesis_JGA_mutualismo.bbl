@@ -110,6 +110,44 @@
   \field{year}{2014}
 \endentry
 
+\entry{bascompte2003nested}{article}{}
+  \name{author}{4}{}{%
+    {{}%
+     {Bascompte}{B.}%
+     {Jordi}{J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Jordano}{J.}%
+     {Pedro}{P.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Meli{\'a}n}{M.}%
+     {Carlos~J}{C.~J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Olesen}{O.}%
+     {Jens~M}{J.~M.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {National Acad Sciences}%
+  }
+  \strng{namehash}{BJ+1}
+  \strng{fullhash}{BJJPMCJOJM1}
+  \field{labelalpha}{Bas+03}
+  \field{sortinit}{B}
+  \field{number}{16}
+  \field{pages}{9383\bibrangedash 9387}
+  \field{title}{The nested assembly of plant--animal mutualistic networks}
+  \field{volume}{100}
+  \field{journaltitle}{Proceedings of the National Academy of Sciences}
+  \field{year}{2003}
+\endentry
+
 \entry{cardona2006taxonomia}{article}{}
   \name{author}{4}{}{%
     {{}%
@@ -144,6 +182,29 @@
   \field{year}{2006}
 \endentry
 
+\entry{chagnon2015characterizing}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Chagnon}{C.}%
+     {P.-L.}{P.-L.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Springer}%
+  }
+  \strng{namehash}{CPL1}
+  \strng{fullhash}{CPL1}
+  \field{labelalpha}{Cha15}
+  \field{sortinit}{C}
+  \field{pages}{36\bibrangedash 39}
+  \field{title}{Characterizing topology of ecological networks along gradients:
+  The limits of metrics standardization}
+  \field{volume}{22}
+  \field{journaltitle}{Ecological Complexity}
+  \field{year}{2015}
+\endentry
+
 \entry{csardi2006igraph}{article}{}
   \name{author}{2}{}{%
     {{}%
@@ -167,6 +228,75 @@
   \field{volume}{1695}
   \field{journaltitle}{InterJournal, Complex Systems}
   \field{year}{2006}
+\endentry
+
+\entry{dakos2015resilience}{article}{}
+  \name{author}{4}{}{%
+    {{}%
+     {Dakos}{D.}%
+     {Vasilis}{V.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Carpenter}{C.}%
+     {Stephen~R}{S.~R.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Nes}{N.}%
+     {Egbert~H}{E.~H.}%
+     {van}{v.}%
+     {}{}}%
+    {{}%
+     {Scheffer}{S.}%
+     {Marten}{M.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {The Royal Society}%
+  }
+  \strng{namehash}{DV+1}
+  \strng{fullhash}{DVCSRNEHvSM1}
+  \field{labelalpha}{Dak+15}
+  \field{sortinit}{D}
+  \field{number}{1659}
+  \field{pages}{20130263}
+  \field{title}{Resilience indicators: prospects and limitations for early
+  warnings of regime shifts}
+  \field{volume}{370}
+  \field{journaltitle}{Philosophical Transactions of the Royal Society of
+  London B: Biological Sciences}
+  \field{year}{2015}
+\endentry
+
+\entry{dakos2014critical}{article}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Dakos}{D.}%
+     {Vasilis}{V.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Bascompte}{B.}%
+     {Jordi}{J.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {National Acad Sciences}%
+  }
+  \strng{namehash}{DVBJ1}
+  \strng{fullhash}{DVBJ1}
+  \field{labelalpha}{DB14}
+  \field{sortinit}{D}
+  \field{number}{49}
+  \field{pages}{17546\bibrangedash 17551}
+  \field{title}{Critical slowing down as early warning for the onset of
+  collapse in mutualistic communities}
+  \field{volume}{111}
+  \field{journaltitle}{Proceedings of the National Academy of Sciences}
+  \field{year}{2014}
 \endentry
 
 \entry{dorogovtsev2006k}{article}{}
@@ -276,16 +406,102 @@
      {}{}}%
     {{}%
      {Bascompte}{B.}%
-     {Jordi~and}{J.~a.}%
+     {Jordi}{J.}%
      {}{}%
      {}{}}%
   }
-  \strng{namehash}{FMAORBJa1}
-  \strng{fullhash}{FMAORBJa1}
+  \strng{namehash}{FMAORBJ1}
+  \strng{fullhash}{FMAORBJ1}
   \field{labelalpha}{FOB14}
   \field{sortinit}{F}
   \field{title}{The Web of Life}
   \field{journaltitle}{arXiv preprint abs/1403.2575}
+  \field{year}{2014}
+\endentry
+
+\entry{fortuna2010nestedness}{article}{}
+  \name{author}{8}{}{%
+    {{}%
+     {Fortuna}{F.}%
+     {Miguel~A}{M.~A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Stouffer}{S.}%
+     {Daniel~B}{D.~B.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Olesen}{O.}%
+     {Jens~M}{J.~M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Jordano}{J.}%
+     {Pedro}{P.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Mouillot}{M.}%
+     {David}{D.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Krasnov}{K.}%
+     {Boris~R}{B.~R.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Poulin}{P.}%
+     {Robert}{R.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Bascompte}{B.}%
+     {Jordi}{J.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Wiley Online Library}%
+  }
+  \strng{namehash}{FMA+1}
+  \strng{fullhash}{FMASDBOJMJPMDKBRPRBJ1}
+  \field{labelalpha}{For+10}
+  \field{sortinit}{F}
+  \field{number}{4}
+  \field{pages}{811\bibrangedash 817}
+  \field{title}{Nestedness versus modularity in ecological networks: two sides
+  of the same coin?}
+  \field{volume}{79}
+  \field{journaltitle}{Journal of Animal Ecology}
+  \field{year}{2010}
+\endentry
+
+\entry{feng2014heterogeneity}{article}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Feng}{F.}%
+     {Wenfeng}{W.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Takemoto}{T.}%
+     {Kazuhiro}{K.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Nature Publishing Group}%
+  }
+  \strng{namehash}{FWTK1}
+  \strng{fullhash}{FWTK1}
+  \field{labelalpha}{FT14}
+  \field{sortinit}{F}
+  \field{title}{Heterogeneity in ecological mutualistic networks dominantly
+  determines community stability}
+  \field{volume}{4}
+  \field{journaltitle}{Scientific reports}
   \field{year}{2014}
 \endentry
 
@@ -307,6 +523,39 @@
   definici{\'o}n y de traducci{\'o}n}
   \field{journaltitle}{Pol{\'\i}tica y sociedad}
   \field{year}{2000}
+\endentry
+
+\entry{james2012disentangling}{article}{}
+  \name{author}{3}{}{%
+    {{}%
+     {James}{J.}%
+     {Alex}{A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Pitchford}{P.}%
+     {Jonathan~W}{J.~W.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Plank}{P.}%
+     {Michael~J}{M.~J.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Nature Publishing Group}%
+  }
+  \strng{namehash}{JAPJWPMJ1}
+  \strng{fullhash}{JAPJWPMJ1}
+  \field{labelalpha}{JPP12}
+  \field{sortinit}{J}
+  \field{number}{7406}
+  \field{pages}{227\bibrangedash 230}
+  \field{title}{Disentangling nestedness from models of ecological complexity}
+  \field{volume}{487}
+  \field{journaltitle}{Nature}
+  \field{year}{2012}
 \endentry
 
 \entry{kitsak2010identification}{article}{}
@@ -360,6 +609,44 @@
   \field{volume}{6}
   \field{journaltitle}{Nature Physics}
   \field{year}{2010}
+\endentry
+
+\entry{lever2014sudden}{article}{}
+  \name{author}{4}{}{%
+    {{}%
+     {Lever}{L.}%
+     {J~Jelle}{J.~J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Nes}{N.}%
+     {Egbert~H}{E.~H.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Scheffer}{S.}%
+     {Marten}{M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Bascompte}{B.}%
+     {Jordi}{J.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Wiley Online Library}%
+  }
+  \strng{namehash}{LJJ+1}
+  \strng{fullhash}{LJJNEHSMBJ1}
+  \field{labelalpha}{Lev+14}
+  \field{sortinit}{L}
+  \field{number}{3}
+  \field{pages}{350\bibrangedash 359}
+  \field{title}{The sudden collapse of pollinator communities}
+  \field{volume}{17}
+  \field{journaltitle}{Ecology letters}
+  \field{year}{2014}
 \endentry
 
 \entry{montresor2013distributed}{article}{}
@@ -498,6 +785,33 @@
   \field{year}{2007}
 \endentry
 
+\entry{podani2014new}{article}{}
+  \name{author}{3}{}{%
+    {{}%
+     {Podani}{P.}%
+     {J.}{J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Jord{\'a}n}{J.}%
+     {F.}{F.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Schmera}{S.}%
+     {D.}{D.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{PJJFSD1}
+  \strng{fullhash}{PJJFSD1}
+  \field{labelalpha}{PJS}
+  \field{sortinit}{P}
+  \field{title}{A new approach to exploring architecture of bipartite
+  ecological networks}
+  \field{journaltitle}{Journal of Complex Networks}
+\endentry
+
 \entry{plavvsic1993harary}{article}{}
   \name{author}{4}{}{%
     {{}%
@@ -537,6 +851,81 @@
   \field{year}{1993}
 \endentry
 
+\entry{saavedra2011strong}{article}{}
+  \name{author}{4}{}{%
+    {{}%
+     {Saavedra}{S.}%
+     {Serguei}{S.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Stouffer}{S.}%
+     {Daniel~B}{D.~B.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Uzzi}{U.}%
+     {Brian}{B.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Bascompte}{B.}%
+     {Jordi}{J.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Nature Publishing Group}%
+  }
+  \strng{namehash}{SS+1}
+  \strng{fullhash}{SSSDBUBBJ1}
+  \field{labelalpha}{Saa+11}
+  \field{sortinit}{S}
+  \field{number}{7368}
+  \field{pages}{233\bibrangedash 235}
+  \field{title}{Strong contributors to network persistence are the most
+  vulnerable to extinction}
+  \field{volume}{478}
+  \field{journaltitle}{Nature}
+  \field{year}{2011}
+\endentry
+
+\entry{santamaria2015removing}{article}{}
+  \name{author}{4}{}{%
+    {{}%
+     {Santamar{\'\i}a}{S.}%
+     {Silvia}{S.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Galeano}{G.}%
+     {Javier}{J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Pastor}{P.}%
+     {Juan~Manuel}{J.~M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {M{\'e}ndez}{M.}%
+     {Marcos}{M.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Blackwell Publishing Ltd}%
+  }
+  \strng{namehash}{SS+2}
+  \strng{fullhash}{SSGJPJMMM1}
+  \field{labelalpha}{San+15}
+  \field{sortinit}{S}
+  \field{title}{Removing interactions, rather than species, casts doubt on the
+  high robustness of pollination networks}
+  \field{journaltitle}{Oikos}
+  \field{year}{2015}
+\endentry
+
 \entry{seidman1983network}{article}{}
   \name{author}{1}{}{%
     {{}%
@@ -558,6 +947,159 @@
   \field{volume}{5}
   \field{journaltitle}{Social networks}
   \field{year}{1983}
+\endentry
+
+\entry{staniczenko2013ghost}{article}{}
+  \name{author}{3}{}{%
+    {{}%
+     {Staniczenko}{S.}%
+     {Phillip~PA}{P.~P.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Kopp}{K.}%
+     {Jason~C}{J.~C.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Allesina}{A.}%
+     {Stefano}{S.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Nature Publishing Group}%
+  }
+  \strng{namehash}{SPPKJCAS1}
+  \strng{fullhash}{SPPKJCAS1}
+  \field{labelalpha}{SKA13}
+  \field{sortinit}{S}
+  \field{pages}{1391}
+  \field{title}{The ghost of nestedness in ecological networks}
+  \field{volume}{4}
+  \field{journaltitle}{Nature communications}
+  \field{year}{2013}
+\endentry
+
+\entry{sole2001fragility}{article}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Sole}{S.}%
+     {Ricard}{R.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Montoya}{M.}%
+     {Jose~M.}{J.~M.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {The Royal Society}%
+  }
+  \strng{namehash}{SRMJM1}
+  \strng{fullhash}{SRMJM1}
+  \field{labelalpha}{SM01}
+  \field{sortinit}{S}
+  \field{pages}{2039\bibrangedash 2045}
+  \field{title}{Complexity and fragility in ecological networks}
+  \field{volume}{268}
+  \field{journaltitle}{Proc. R. Soc. Lond. B}
+  \field{year}{2001}
+\endentry
+
+\entry{suweis2013emergence}{article}{}
+  \name{author}{4}{}{%
+    {{}%
+     {Suweis}{S.}%
+     {Samir}{S.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Simini}{S.}%
+     {Filippo}{F.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Banavar}{B.}%
+     {Jayanth~R}{J.~R.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Maritan}{M.}%
+     {Amos}{A.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Nature Publishing Group}%
+  }
+  \strng{namehash}{SS+3}
+  \strng{fullhash}{SSSFBJRMA1}
+  \field{labelalpha}{Suw+13}
+  \field{sortinit}{S}
+  \field{number}{7463}
+  \field{pages}{449\bibrangedash 452}
+  \field{title}{Emergence of structural and dynamical properties of ecological
+  mutualistic networks}
+  \field{volume}{500}
+  \field{journaltitle}{Nature}
+  \field{year}{2013}
+\endentry
+
+\entry{strona2015new}{article}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Strona}{S.}%
+     {Giovanni}{G.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Veech}{V.}%
+     {Joseph~A}{J.~A.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Wiley Online Library}%
+  }
+  \strng{namehash}{SGVJA1}
+  \strng{fullhash}{SGVJA1}
+  \field{labelalpha}{SV15}
+  \field{sortinit}{S}
+  \field{title}{A new measure of ecological network structure based on node
+  overlap and segregation}
+  \field{journaltitle}{Methods in Ecology and Evolution}
+  \field{year}{2015}
+\endentry
+
+\entry{thebault2010stability}{article}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Th{\'e}bault}{T.}%
+     {Elisa}{E.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Fontaine}{F.}%
+     {Colin}{C.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {American Association for the Advancement of Science}%
+  }
+  \strng{namehash}{TEFC1}
+  \strng{fullhash}{TEFC1}
+  \field{labelalpha}{TF10}
+  \field{sortinit}{T}
+  \field{number}{5993}
+  \field{pages}{853\bibrangedash 856}
+  \field{title}{Stability of ecological communities and the architecture of
+  mutualistic and trophic networks}
+  \field{volume}{329}
+  \field{journaltitle}{Science}
+  \field{year}{2010}
 \endentry
 
 \entry{zhang2010using}{article}{}

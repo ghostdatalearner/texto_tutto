@@ -21,27 +21,28 @@
 \contentsline {section}{\numberline {2.4}Resultados}{7}{section.19}
 \contentsline {section}{\numberline {2.5}Conclusiones}{7}{section.20}
 \contentsline {chapter}{\numberline {3}Estructura del mutualismo}{9}{chapter.21}
-\contentsline {section}{\numberline {3.1}Propiedades estructurales del mutualismo}{9}{section.22}
-\contentsline {subsection}{\numberline {3.1.1}Magnitudes cl\IeC {\'a}sicas}{10}{subsection.23}
-\contentsline {section}{\numberline {3.2}Descripci\IeC {\'o}n basada en la descompisi\IeC {\'o}n \textit {k-core}}{10}{section.24}
-\contentsline {section}{\numberline {3.3}K magnitudes}{12}{section.27}
-\contentsline {subsection}{\numberline {3.3.1}Algoritmo de destrucci\IeC {\'o}n basado en \textit {k-shell}}{14}{subsection.29}
-\contentsline {section}{\numberline {3.4}Material y m\IeC {\'e}todos}{15}{section.31}
+\contentsline {section}{\numberline {3.1}Propiedades estructurales del mutualismo}{10}{section.22}
+\contentsline {section}{\numberline {3.2}Descripci\IeC {\'o}n basada en la descompisi\IeC {\'o}n \textit {k-core}}{10}{section.23}
+\contentsline {section}{\numberline {3.3}K magnitudes}{12}{section.26}
+\contentsline {subsection}{\numberline {3.3.1}Algoritmo de destrucci\IeC {\'o}n basado en \textit {k-shell}}{15}{subsection.28}
+\contentsline {section}{\numberline {3.4}Material y m\IeC {\'e}todos}{16}{section.30}
 \contentsline {section}{\numberline {3.5}Resultados}{16}{section.32}
-\contentsline {subsection}{\numberline {3.5.1}An\IeC {\'a}lisis exploratorio}{16}{subsection.33}
-\contentsline {subsection}{\numberline {3.5.2}Correlaci\IeC {\'o}n entre \textit {k-magnitudes} y propiedades globales}{17}{subsection.36}
-\contentsline {subsection}{\numberline {3.5.3}Recableado aleatorio}{20}{subsection.41}
-\contentsline {subsection}{\numberline {3.5.4}Rendimiento del algoritmo de destrucci\IeC {\'o}n}{22}{subsection.43}
-\contentsline {section}{\numberline {3.6}Conclusiones}{24}{section.46}
-\contentsline {chapter}{\numberline {4}Visualizaciones}{25}{chapter.47}
-\contentsline {section}{\numberline {4.1}Representaci\IeC {\'o}n cl\IeC {\'a}sica del mutualismo}{25}{section.48}
-\contentsline {subsection}{\numberline {4.1.1}El diagrama bipartito}{26}{subsection.49}
-\contentsline {subsection}{\numberline {4.1.2}La matriz de interacci\IeC {\'o}n}{26}{subsection.50}
-\contentsline {section}{\numberline {4.2}Visualizaciones basadas en \textit {k-magnitudes}}{26}{section.51}
-\contentsline {subsection}{\numberline {4.2.1}El diagrama polar}{26}{subsection.52}
-\contentsline {subsection}{\numberline {4.2.2}El diagrama zigurat}{26}{subsection.54}
-\contentsline {section}{\numberline {4.3}Resultados}{27}{section.56}
-\contentsline {section}{\numberline {4.4}Conclusiones}{27}{section.57}
-\contentsline {chapter}{\numberline {5}Conclusiones de la tesis}{29}{chapter.58}
-\contentsline {section}{\numberline {5.1}XXXX mutualismo}{29}{section.59}
-\contentsline {chapter}{Bibliograf\IeC {\'\i }a}{31}{chapter*.60}
+\contentsline {subsection}{\numberline {3.5.1}An\IeC {\'a}lisis exploratorio}{18}{subsection.33}
+\contentsline {subsection}{\numberline {3.5.2}Correlaci\IeC {\'o}n entre \textit {k-magnitudes} y propiedades globales}{20}{subsection.36}
+\contentsline {subsection}{\numberline {3.5.3}Recableado aleatorio}{21}{subsection.41}
+\contentsline {subsection}{\numberline {3.5.4}Rendimiento del algoritmo de destrucci\IeC {\'o}n}{25}{subsection.44}
+\contentsline {section}{\numberline {3.6}Conclusiones}{26}{section.47}
+\contentsline {chapter}{\numberline {4}Visualizaciones}{29}{chapter.48}
+\contentsline {section}{\numberline {4.1}Representaci\IeC {\'o}n cl\IeC {\'a}sica del mutualismo}{29}{section.49}
+\contentsline {subsection}{\numberline {4.1.1}El diagrama bipartito}{30}{subsection.50}
+\contentsline {subsection}{\numberline {4.1.2}La matriz de interacci\IeC {\'o}n}{30}{subsection.51}
+\contentsline {section}{\numberline {4.2}Visualizaciones basadas en \textit {k-magnitudes}}{30}{section.52}
+\contentsline {subsection}{\numberline {4.2.1}El diagrama polar}{30}{subsection.53}
+\contentsline {subsection}{\numberline {4.2.2}El diagrama zigurat}{30}{subsection.55}
+\contentsline {section}{\numberline {4.3}Resultados}{31}{section.57}
+\contentsline {section}{\numberline {4.4}Conclusiones}{31}{section.58}
+\contentsline {chapter}{\numberline {5}Conclusiones de la tesis}{33}{chapter.59}
+\contentsline {section}{\numberline {5.1}XXXX mutualismo}{33}{section.60}
+\contentsline {chapter}{\numberline {6}Ap\IeC {\'e}ndice: Fuentes de datos}{35}{chapter.61}
+\contentsline {section}{\numberline {6.1}Redes mutualistas del cap\IeC {\'\i }tulo }{35}{section.62}
+\contentsline {chapter}{Bibliograf\IeC {\'\i }a}{37}{chapter*.63}

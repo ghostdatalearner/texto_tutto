@@ -48,12 +48,14 @@ onehalfspacing, % Single line spacing, alternatives: onehalfspacing or doublespa
 \usepackage{mathpazo} 
 \usepackage{eulervm}
 \usepackage{bookman}
-
+\usepackage{csvsimple}
 
 \usepackage[backend=bibtex,style=alphabetic,natbib=true]{biblatex} % (which resembles APA)
 \addbibresource{tesis_JGA_mutualismo.bib} % The filename of the bibliography
 
-
+\hyphenation{co-ne-xio-nes}
+\hyphenation{pro-ba-bi-li-dad}
+\hyphenation{co-rre-la-ción}
 
 \definecolor{bistre}{rgb}{0.24, 0.17, 0.12}
 
@@ -243,6 +245,7 @@ The acknowledgements and the people to thank go here, don't forget to include yo
 \renewcommand{\contentsname}{Indice}
 \tableofcontents % Prints the main table of contents
 \renewcommand{\figurename}{Figura}
+\renewcommand{\tablename}{Tabla}
 %\listoffigures % Prints the list of figures
 
 %\listoftables % Prints the list of tables
@@ -313,6 +316,7 @@ The acknowledgements and the people to thank go here, don't forget to include yo
 \input{Chapters/Chapter_ESTATICA}
 \input{Chapters/Chapter_VISUALIZACION}
 \input{Chapters/Chapter_CONCLUSIONES}
+\input{Appendices/AppendixA}
 
 %----------------------------------------------------------------------------------------
 %	THESIS CONTENT - APPENDICES
