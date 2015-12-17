@@ -1,5 +1,20 @@
 This is BibTeX, Version 0.99dThe top-level auxiliary file: tesis_JGA_outline.aux
 The style file: biblatex.bst
-Database file #1: tesis_JGA_outline-blx.bib
-Database file #2: tesis_JGA.bib
+I couldn't open database file tesis_JGA_outline-blx.bib
+---line 20 of file tesis_JGA_outline.aux
+ : \bibdata{tesis_JGA_outline-blx
+ :                               ,tesis_JGA}
+I'm skipping whatever remains of this command
+I found no database files---while reading file tesis_JGA_outline.aux
+Warning--I didn't find a database entry for "biblatex-control"
+Warning--I didn't find a database entry for "herrero2000terminologia"
+Warning--I didn't find a database entry for "cardona2006taxonomia"
+Warning--I didn't find a database entry for "martinez2011aplicacion"
+Warning--I didn't find a database entry for "seidman1983network"
+Warning--I didn't find a database entry for "dorogovtsev2006k"
+Warning--I didn't find a database entry for "kitsak2010identification"
+Warning--I didn't find a database entry for "zhang2010using"
+Warning--I didn't find a database entry for "barbera2014critical"
+Warning--I didn't find a database entry for "montresor2013distributed"
 Biblatex version: 3.0
+(There were 2 error messages)

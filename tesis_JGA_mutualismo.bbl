@@ -148,6 +148,51 @@
   \field{year}{2003}
 \endentry
 
+\entry{bastolla2009}{article}{}
+  \name{author}{6}{}{%
+    {{}%
+     {Bastolla}{B.}%
+     {Ugo}{U.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Fortuna}{F.}%
+     {Miguel~A.}{M.~A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Alberto Pascual-Garc\'{\i}a}{A.~P.-G.}%
+     {Alberto}{A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Ferrera}{F.}%
+     {Antonio}{A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Luque}{L.}%
+     {Bartolo}{B.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Bascompte}{B.}%
+     {Jordi}{J.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{BU+1}
+  \strng{fullhash}{BUFMAAPGAFALBBJ1}
+  \field{labelalpha}{Bas+09}
+  \field{sortinit}{B}
+  \field{pages}{1018\bibrangedash 1020}
+  \field{title}{The architecture of mutualistic networks minimizes competition
+  and increases biodiversity}
+  \field{volume}{458}
+  \field{journaltitle}{Nature}
+  \field{year}{2009}
+\endentry
+
 \entry{cardona2006taxonomia}{article}{}
   \name{author}{4}{}{%
     {{}%
@@ -505,6 +550,25 @@
   \field{year}{2014}
 \endentry
 
+\entry{goh1979}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Goh}{G.}%
+     {B.S.}{B.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{GB1}
+  \strng{fullhash}{GB1}
+  \field{labelalpha}{Goh79}
+  \field{sortinit}{G}
+  \field{pages}{261\bibrangedash 275}
+  \field{title}{Stability in models of mutualism}
+  \field{volume}{113}
+  \field{journaltitle}{The American Naturalist}
+  \field{year}{1979}
+\endentry
+
 \entry{herrero2000terminologia}{article}{}
   \name{author}{1}{}{%
     {{}%
@@ -523,6 +587,66 @@
   definici{\'o}n y de traducci{\'o}n}
   \field{journaltitle}{Pol{\'\i}tica y sociedad}
   \field{year}{2000}
+\endentry
+
+\entry{jones2008}{article}{}
+  \name{author}{9}{}{%
+    {{}%
+     {Jones}{J.}%
+     {Menna~E.}{M.~E.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Cockburn}{C.}%
+     {Andrew}{A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Hamede}{H.}%
+     {Rodrigo}{R.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Hawkins}{H.}%
+     {Clare}{C.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Hesterman}{H.}%
+     {Heather}{H.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Lachish}{L.}%
+     {Shelly}{S.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Mann}{M.}%
+     {Diana}{D.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {McCallum}{M.}%
+     {Hamish}{H.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Pemberton}{P.}%
+     {David}{D.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{JME+1}
+  \strng{fullhash}{JMECAHRHCHHLSMDMHPD1}
+  \field{labelalpha}{Jon+08}
+  \field{sortinit}{J}
+  \field{pages}{10023\bibrangedash 10027}
+  \field{title}{Life-history change in disease-ravaged Tasmanian devil
+  populations}
+  \field{volume}{105}
+  \field{journaltitle}{Proceedings of the National Academy of Sciences USA}
+  \field{year}{2008}
 \endentry
 
 \entry{james2012disentangling}{article}{}
@@ -609,6 +733,25 @@
   \field{volume}{6}
   \field{journaltitle}{Nature Physics}
   \field{year}{2010}
+\endentry
+
+\entry{krebs2002}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Krebs}{K.}%
+     {Charles~J.}{C.~J.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{KCJ1}
+  \strng{fullhash}{KCJ1}
+  \field{labelalpha}{Kre02}
+  \field{sortinit}{K}
+  \field{pages}{1211\bibrangedash 1219}
+  \field{title}{Two complementary paradigms for analysing population dynamics}
+  \field{volume}{357}
+  \field{journaltitle}{Proc. R. Soc. Lond. B}
+  \field{year}{2002}
 \endentry
 
 \entry{lever2014sudden}{article}{}
@@ -717,6 +860,26 @@
   \field{journaltitle}{Revista espa{\~n}ola de documentaci{\'o}n
   cient{\'\i}fica}
   \field{year}{2011}
+\endentry
+
+\entry{murray1993mathematical}{misc}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Murray}{M.}%
+     {JD}{J.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Springer, Berlin}%
+  }
+  \strng{namehash}{MJ1}
+  \strng{fullhash}{MJ1}
+  \field{labelalpha}{Mur93}
+  \field{sortinit}{M}
+  \field{title}{Mathematical Biology I. An Introduction. Interdisciplinary
+  Applied Mathematics 1993}
+  \field{year}{1993}
 \endentry
 
 \entry{newman2004finding}{article}{}
@@ -849,6 +1012,51 @@
   \field{volume}{12}
   \field{journaltitle}{Journal of Mathematical Chemistry}
   \field{year}{1993}
+\endentry
+
+\entry{rueness2003}{article}{}
+  \name{author}{6}{}{%
+    {{}%
+     {Rueness}{R.}%
+     {Eli~Knispel}{E.~K.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Stenseth}{S.}%
+     {Nils~Chr.}{N.~C.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {O'Donoghue}{O.}%
+     {Mark}{M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Boutin}{B.}%
+     {Stan}{S.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Ellegren}{E.}%
+     {Hans}{H.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Jakobsen}{J.}%
+     {Kjetill~S.}{K.~S.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{REK+1}
+  \strng{fullhash}{REKSNCOMBSEHJKS1}
+  \field{labelalpha}{Rue+03}
+  \field{sortinit}{R}
+  \field{pages}{69\bibrangedash 72}
+  \field{title}{Ecological and genetic spatial structuring in the Canadian
+  lynx}
+  \field{volume}{425}
+  \field{journaltitle}{Nature}
+  \field{year}{2003}
 \endentry
 
 \entry{saavedra2011strong}{article}{}
@@ -1008,6 +1216,71 @@
   \field{year}{2001}
 \endentry
 
+\entry{stenseth1998}{article}{}
+  \name{author}{10}{}{%
+    {{}%
+     {Stenseth}{S.}%
+     {Nils~C.}{N.~C.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Falck}{F.}%
+     {Wilhelm}{W.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Chan}{C.}%
+     {Kung-Sik}{K.-S.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Bj{\o}rnstad}{B.}%
+     {Ottar~N.}{O.~N.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {O'Donoghue}{O.}%
+     {Mark}{M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Tong}{T.}%
+     {Howell}{H.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Boonstra}{B.}%
+     {Rudy}{R.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Boutin}{B.}%
+     {Stan}{S.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Krebs}{K.}%
+     {Charles~J.}{C.~J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Yoccoz}{Y.}%
+     {Nigel~G.}{N.~G.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{SNC+1}
+  \strng{fullhash}{SNCFWCKSBONOMTHBRBSKCJYNG1}
+  \field{labelalpha}{Ste+98}
+  \field{sortinit}{S}
+  \field{pages}{15430\bibrangedash 15435}
+  \field{title}{From patterns to processes: Phase and density dependencies in
+  the Canadian lynx cycle}
+  \field{volume}{95}
+  \field{journaltitle}{Proceedings of the National Academy of Sciences USA}
+  \field{year}{1998}
+\endentry
+
 \entry{suweis2013emergence}{article}{}
   \name{author}{4}{}{%
     {{}%
@@ -1100,6 +1373,36 @@
   \field{volume}{329}
   \field{journaltitle}{Science}
   \field{year}{2010}
+\endentry
+
+\entry{tyler2008}{article}{}
+  \name{author}{3}{}{%
+    {{}%
+     {Tyler}{T.}%
+     {Nicholas J.~C.}{N.~J.~C.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Forchhammer}{F.}%
+     {Mads~C.}{M.~C.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{\O}ritsland}{{\O}.}%
+     {Nils~Are}{N.~A.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{TNJCFMCONA1}
+  \strng{fullhash}{TNJCFMCONA1}
+  \field{labelalpha}{TF{\O}08}
+  \field{sortinit}{T}
+  \field{pages}{1675\bibrangedash 1686}
+  \field{title}{Nonlinear effects of climate and density in the dynamics of a
+  fluctutating population of reindeer}
+  \field{volume}{89}
+  \field{journaltitle}{Ecology}
+  \field{year}{2008}
 \endentry
 
 \entry{zhang2010using}{article}{}
