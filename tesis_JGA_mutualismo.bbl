@@ -60,6 +60,52 @@
   \field{year}{2008}
 \endentry
 
+\entry{balcan2009multiscale}{article}{}
+  \name{author}{6}{}{%
+    {{}%
+     {Balcan}{B.}%
+     {Duygu}{D.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Colizza}{C.}%
+     {Vittoria}{V.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Gon{\c{c}}alves}{G.}%
+     {Bruno}{B.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Hu}{H.}%
+     {Hao}{H.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Ramasco}{R.}%
+     {Jos{\'e}~J}{J.~J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Vespignani}{V.}%
+     {Alessandro}{A.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{BD+1}
+  \strng{fullhash}{BDCVGBHHRJJVA1}
+  \field{labelalpha}{Bal+09}
+  \field{sortinit}{B}
+  \field{number}{51}
+  \field{pages}{21484\bibrangedash 21489}
+  \field{title}{Multiscale mobility networks and the spatial spreading of
+  infectious diseases}
+  \field{volume}{106}
+  \field{journaltitle}{Proceedings of the National Academy of Sciences USA}
+  \field{year}{2009}
+\endentry
+
 \entry{barbera2014critical}{article}{}
   \name{author}{7}{}{%
     {{}%
@@ -569,6 +615,31 @@
   \field{year}{1979}
 \endentry
 
+\entry{gustafsson2007bringing}{article}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Gustafsson}{G.}%
+     {Leif}{L.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Sternad}{S.}%
+     {Mikael}{M.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{GLSM1}
+  \strng{fullhash}{GLSM1}
+  \field{labelalpha}{GS07}
+  \field{sortinit}{G}
+  \field{pages}{361\bibrangedash 385}
+  \field{title}{Bringing consistency to simulation of population
+  models--Poisson Simulation as a bridge between micro and macro simulation}
+  \field{volume}{209}
+  \field{journaltitle}{Mathematical biosciences}
+  \field{year}{2007}
+\endentry
+
 \entry{herrero2000terminologia}{article}{}
   \name{author}{1}{}{%
     {{}%
@@ -587,6 +658,31 @@
   definici{\'o}n y de traducci{\'o}n}
   \field{journaltitle}{Pol{\'\i}tica y sociedad}
   \field{year}{2000}
+\endentry
+
+\entry{Johnson2013}{article}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Johnson}{J.}%
+     {C.~A.}{C.~A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Amarasekare}{A.}%
+     {P.}{P.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{JCAAP1}
+  \strng{fullhash}{JCAAP1}
+  \field{labelalpha}{JA13}
+  \field{sortinit}{J}
+  \field{pages}{54\bibrangedash 64}
+  \field{title}{Competition for benefits can promote the persistence of
+  mutualistic interactions}
+  \field{volume}{328}
+  \field{journaltitle}{Journal of Theoretical Biology}
+  \field{year}{2013}
 \endentry
 
 \entry{jones2008}{article}{}
