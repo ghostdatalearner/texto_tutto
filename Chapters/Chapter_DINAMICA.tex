@@ -171,7 +171,7 @@ $N_2=30$ la tasa ya es positiva y el sistema alcanzaría el máximo vital con la
 
 Las ecuaciones del sistema más simple, compuesto por una especia de planta a la que llamamos $1$ y una especia animal a la que llamamos $2$ son:
 \begin{align*}
-\displaystyle \frac{dN_1}{dt}= N_1 \left( r_{\rm{eff},1} - |r_{\rm{eff},1}| \frac{N_1}{K_1} \right)\frac{ }{•} \\
+\displaystyle \frac{dN_1}{dt}= N_1 \left( r_{\rm{eff},1} - |r_{\rm{eff},1}| \frac{N_1}{K_1} \right) \\
 \displaystyle \frac{dN_2}{dt}= N_2 \left( r_{\rm{eff},2} - |r_{\rm{eff},2}| \frac{N_2}{K_2} \right)
 \stepcounter{equation}\tag{\theequation}\label{eq:two_species_model}
 \end{align*}
@@ -674,13 +674,183 @@ N^{p}_{l}(t+\Delta T)=N^{p}_{l}(t) + sgn \left(\hat{r}^{p}_{ef,l} \right) Binomi
 \hat{r}_{ef} = (1+r_{ef})^{1/365}-1
 \end{equation}
 
+La simulación estocástica tiene una ventaja adicional de gran interés para nuestras simulaciones. Las perturbaciones externas se modelan como variaciones temporales de la tasa efectiva de reproducción, restando el efecto del siniestro. Computacionalmente es muy sencillo llevar a cabo esta modificación; si, por el contrario, se resuelven numéricamente las ecuaciones diferenciales, es necesario cambiar las condiciones iniciales para cada nueva perturbación y garantizar la continuidad en dichos puntos.
+
 \section{Resultados}
 
 Nunc posuere quam at lectus tristique eu ultrices augue venenatis. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Aliquam erat volutpat. Vivamus sodales tortor eget quam adipiscing in vulputate ante ullamcorper. Sed eros ante, lacinia et sollicitudin et, aliquam sit amet augue. In hac habitasse platea dictumst.
 
+\subsection{Simulaciones con capacidades de carga constantes}
+\label{results_K_constante}
+Es muy complicado obtener resultados analíticos para una comunidad mutualista por la compleja red de interacciones entre las especies \cite{Bastolla05,Bastolla09}. En este apartado se muestran los resultados de simulaciones numéricas que sirve para explorar la estabilidad de las soluciones del modelo \ref{modelo_optionI}. Se han simulado situaciones dentro de las tres cuencas de atracción, esto es, extinción total, extinciones parciales y supervivencia en capacidades de carga. Los parámetros de las simulaciones se listan en el Anexo \ref{DINAMICA_ANEXO_KConst}.
+
+\begin{figure}[h!]
+\centering
+\includegraphics[scale=0.5]{DINAMICA_red_exper_stab2.eps}
+\caption {Comunidad mutualista con cinco especie de plantas y cinco de polinizadores.}
+\label{fig:red_exper_stab1}
+\end{figure}
+
+La figura \ref{fig:red_exper_stab1} muestra una pequeña comunidad mutualista ficticia, que hemos construido para los experimentos numéricos. Este ejemplo sencillo muestra la dinámica característica de las redes reales.
+
+\begin{figure}[ht!]
+\centering
+\includegraphics[width=8cm]{DINAMICA_Fig5_extinction.eps}
+\caption {Dinámica de poblaciones para $4+5$ especies que termina en la extinción completa.}
+\label{fig:exper_stab1}
+\end{figure}
+
+En el primer experimento el sistema empieza con todas las tasas efectivas negativas, excepto la del polinizador número $4$. Asumimos que el mutualismo es obligado. En estas circunstancias es sencillo encontrar los valores mínimos de población que garantizarían la supervivencia resolviendo $r_{\rm{eff}.i} = 0$ en las ecuaciones \eqref{modelors}, para todo $i$.
+
+Las tasas efectivas solo pueden ser positivas por el beneficio mutualista, pero en esta simulación las poblaciones iniciales no son suficientes para para conseguirlo, con la excepción del mencionado polinizador número $4$. Las especies de planta $1$ y $2$ empiezan con poblaciones por encima de sus capacidades de carga.
+Este experimento muestra el \textit{atractor de extinción} que conduce a la destrucción total de la comunidad.
+
+\begin{figure}[ht!]
+\centering
+\includegraphics[scale = 0.5]{DINAMICA_Fig6_carrying_cap.eps}
+\caption {Evolución temporal de las poblacoines y de las tasas de crecimiento efectivas del mismo sistema de $4+5$ species (figura \ref{fig:red_exper_stab1}). La comunidad termina con todas las especies en sus capacidades de carga respectivas.}
+\label{fig:exper_carrying_cap}
+\end{figure}
+
+La figura \ref{fig:exper_carrying_cap} muestra un segundo experimento, con la misma red, pero con diferentes parámetros (Anexo \ref{DINAMICA_ANEXO_KConst}). En esta simulación, todas las poblaciones de plantas iniciales están por debajo de sus capacidades de carga, pero con tasas de crecimiento efectivas positivas, por lo que terminan en máximos. La población del polinizador $5$ está inicialmente por encima de su capacidad de carga, por eso la tasa efectiva es ligeramente negativa y converge hacia la capacidad de carga al final de la simulación. Por el contrario, la especie de polinizador $4$ tiene muy pocos individuos al principio pero la abundancia de mutualistas genera una tasa eficaz positiva y una curva tipo de crecimiento logístico. Al final de la simulación todas las tasas efectivas convergen a cero, es el atractor que aparece en el máximo de poblaciones.
+
+\begin{figure}[h!]
+\centering
+\includegraphics[scale = 0.5 ]{DINAMICA_Fig7_partial_extinct.eps}
+\caption {Resultados del tercer experimento. El polinizador $4$ y la planta $4$ se extinguen.}
+\label{fig:exper_stab2}
+\end{figure}
+
+En la tercera simulación exploramos las extinciones parciales (figure \ref{fig:exper_stab2}). De nuevo, todas las tasas vegetativas son negativas, pero los pesos de los enlaces se han modificado ligeramente respecto al experimento anterior.
+
+En esta simulación todas las poblaciones empiezan por debajo de sus capacidades de carga. Todas evolucionan hacia sus máximos excepto el polinizador $4$ y la planta $4$ que se extinguen. La especie de planta $2$ empieza con una tasa eficaz negativa pero el crecimiento de sus mutualistas da la vuelta a esta situación y termina sobreviviendo.
+
 \section{Conclusiones}
 
 Nunc posuere quam at lectus tristique eu ultrices augue venenatis. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Aliquam erat volutpat. Vivamus sodales tortor eget quam adipiscing in vulputate ante ullamcorper. Sed eros ante, lacinia et sollicitudin et, aliquam sit amet augue. In hac habitasse platea dictumst.
+
+\section{Anexo: Datos de las simulaciones del modelo con $K$ constantes}
+\label{DINAMICA_ANEXO_KConst}
+
+\begin{table}[ht!]
+\centering
+\footnotesize
+\begin{tabular}{lrrrr}
+\hline
+ & Planta 1 & Planta 2 & Planta 3 & Planta 4  \\
+\hline
+\\
+$b_{pol1j}\left(10^{-6}\right)$ & 1 & 12 & 12 & 16 \\
+$b_{pol2j}\left(10^{-6}\right)$ & 20 & 4 & 11 & 0 \\
+$b_{pol3j}\left(10^{-6}\right)$ & 20 & 10 & 0 & 0 \\
+$b_{pol4j}\left(10^{-6}\right)$ & 10 & $0.1$ & 0 & 0 \\
+$b_{pol5j}\left(10^{-6}\right)$ & 10 & 0 & 0 & 0 \\
+$N_{init\,j}$ & 2000 & 2800 & 1200 & 500 \\
+$K_{j}$ & 1500 & 2500 & 2000 & 1000 \\
+$r_{birth\, j}$ & 0.004 & 0.01 & 0.01 & 0.005 \\
+$r_{death\, j}$ & 0.13 & 0.10 & 0.08 & 0.065 \\
+\hline
+\\
+\end{tabular}
+
+\begin{tabular}{lrrrrr}
+\hline
+ &Pol 1&Pol 2&Pol 3&Pol 4&Pol 5\\
+\hline
+\\
+$b_{pl1m}\left(10^{-6}\right)$ & 4 & 13 & 5 & 30 & 20\\
+$b_{pl2m}\left(10^{-6}\right)$ & 12 & 6 & 10 & $0.1$ & 0\\
+$b_{pl3m}\left(10^{-6}\right)$ & 2 & 5 & 0 & 0 & 0\\
+$b_{pl4m}\left(10^{-6}\right)$ & 10 & 0 & 0 & 0 & 0\\
+$N_{init\,m}$ & 3000 & 3000 & 2000 & 600 & 500 \\
+$K_{m}$& 5000 & 4000 & 3000 & 2000 & 2000\\
+$r_{b\, m}$ & 0.08 & 0.02 & 0.05 & 0.08 & 0.02 \\
+$r_{d\, m}$ & 0.14 & 0.078 & 0.07 & 0.14 & 0.08 \\
+\hline
+\end{tabular}
+\normalsize
+\caption{Coeficientes mutualistas y condiciones del primer experimento del modelo con capacidades de carga constantes (fig. \ref{fig:exper_stab1}), con la red de la figura \ref{fig:red_exper_stab1}. Arriba, la matriz polinizador-planta, abajo la planta-polinizador.}
+\label{tab:experiment1}\vspace*{-10pt}
+\end{table}
+
+\begin{table}[h!]
+\centering
+\footnotesize
+\begin{tabular}{lrrrr}
+\hline
+ & Planta 1 & Planta 2 & Planta 3 & Planta 4  \\
+\hline
+\\
+$b_{pol1j}\left(10^{-6}\right)$ & 50 & 22 & 42 & 56 \\
+$b_{pol2j}\left(10^{-6}\right)$ & 20 & 40 & 81 & 0 \\
+$b_{pol3j}\left(10^{-6}\right)$ & 20 & 10 & 0 & 0 \\
+$b_{pol4j}\left(10^{-6}\right)$ & 50 & $0.1$ & 0 & 0 \\
+$b_{pol5j}\left(10^{-6}\right)$ & 10 & 0 & 0 & 0 \\
+$N_{init\,j}$ & 1500 & 1200 & 1000 & 500 \\
+$K_{j}$ & 2800 & 2500 & 2000 & 1000 \\
+
+\hline
+\\
+\end{tabular}
+
+\begin{tabular}{lrrrrr}
+\hline
+ &Pol 1&Pol 2&Pol 3&Pol 4&Pol 5\\
+\hline
+\\
+$b_{pl1m}\left(10^{-6}\right)$ & 40 & 13 & 15 & 30 & 20\\
+$b_{pl2m}\left(10^{-6}\right)$ & 12 & 6 & 1 & 1 & 0\\
+$b_{pl3m}\left(10^{-6}\right)$ & 2 & 5 & $0.1$ & 0 & 0\\
+$b_{pl4m}\left(10^{-6}\right)$ & 1 & 1 & 0 & 0 & 0\\
+$N_{init\,m}$ & 2200 & 3000 & 2000 & 600 & 2200 \\
+$K_{m}$& 5000 & 4000 & 3000 & 2000 & 2000\\
+\hline
+\end{tabular}
+\normalsize
+\caption{Configuración del experimento de la figura \ref{fig:exper_stab2} Las tasas de nacimiento y muerte son las mismas que en la tabla \ref{tab:experiment1} excepto $r_{d,pl3}=0.1$, $r_{d,pol2}=0.048$ y $r_{d,pol5}=0.04$}
+\label{tab:experiment2}
+\end{table}
+
+
+\begin{table}[h!]
+\centering
+\footnotesize
+\begin{tabular}{lrrrr}
+\hline
+ & Planta 1 & Planta 2 & Planta 3 & Planta 4  \\
+\hline
+\\
+$b_{pol1j}\left(10^{-6}\right)$ & 10 & 22 & 42 & 6 \\
+$b_{pol2j}\left(10^{-6}\right)$ & 20 & 4 & 11 & 0 \\
+$b_{pol3j}\left(10^{-6}\right)$ & 20 & 10 & 0 & 0 \\
+$b_{pol4j}\left(10^{-6}\right)$ & 1 & $0.1 $ & 0 & 0 \\
+$b_{pol5j}\left(10^{-6}\right)$ & 1 & 0 & 0 & 0 \\
+$N_{init\,j}$ & 1200 & 2200 & 1500 & 800 \\
+$K_{j}$ & 1500 & 2500 & 2000 & 1000 \\
+
+\hline
+\\
+\end{tabular}
+
+\begin{tabular}{lrrrrr}
+\hline
+ &Pol 1&Pol 2&Pol 3&Pol 4&Pol 5\\
+\hline
+\\
+$b_{pl1m}\left(10^{-6}\right)$ & 34 & 33 & 15 & 20 & 60\\
+$b_{pl2m}\left(10^{-6}\right)$ & 12 & 6 & 1 & $0.1$ & 0\\
+$b_{pl3m}\left(10^{-6}\right)$ & 2 & 5 & 0 & 0 & 0\\
+$b_{pl4m}\left(10^{-6}\right)$ & 1 & $0.1$ & 0 & 0 & 0\\
+$N_{init\,m}$ & 2200 & 3000 & 2000 & 600 & 2200 \\
+$K_{m}$& 5000 & 4000 & 3000 & 2000 & 2000\\
+\hline
+\end{tabular}
+\normalsize
+\caption{Configuración del tercer experimento numérico (figura \ref{fig:exper_stab2})  Las tasas de nacimiento y muerte son las mismas que en la tabla \ref{tab:experiment1} excepto  $r_{d,pl4}=0.053$, $r_{d,pol4}=0.09$ y $r_{b,pol4}=0.01$}
+\label{tab:experiment3}
+\end{table}
+
+
 
 \section{Anexo: Análisis de la estabilidad en detalle}
 \label{DINAMICA_ANEXO_estabilidad}
