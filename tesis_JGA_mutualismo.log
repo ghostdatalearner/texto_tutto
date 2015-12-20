@@ -1,8 +1,9 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2013.8.13)  19 DEC 2015 13:43
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2013.8.13)  20 DEC 2015 20:09
 entering extended mode
-**tesis_JGA_mutualismo.tex
+**D:/disco_usuario/javier/upm/doctorado/tesis/texto_tesis_upm/texto_tutto/tesis
+_JGA_mutualismo.tex
 
-(D:\disco_usuario\javier\upm\doctorado\tesis\texto_tesis_upm\texto_tutto\tesis_
+(D:/disco_usuario/javier/upm/doctorado/tesis/texto_tesis_upm/texto_tutto/tesis_
 JGA_mutualismo.tex
 LaTeX2e <2011/06/27>
 Babel <v3.8m> and hyphenation patterns for english, afrikaans, ancientgreek, ar
@@ -1895,39 +1896,42 @@ LaTeX Warning: Label `eq:partial_N_0' multiply defined.
 LaTeX Warning: Label `eq:reffs_2especies' multiply defined.
 
 
+LaTeX Warning: Label `results_K_constante' multiply defined.
+
+
 LaTeX Warning: Label `ChapterESTATICA' multiply defined.
 
 )
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 140.
-LaTeX Font Info:    ... okay on input line 140.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 140.
-LaTeX Font Info:    ... okay on input line 140.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 140.
-LaTeX Font Info:    ... okay on input line 140.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 140.
-LaTeX Font Info:    ... okay on input line 140.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 140.
-LaTeX Font Info:    ... okay on input line 140.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 140.
-LaTeX Font Info:    ... okay on input line 140.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 140.
-LaTeX Font Info:    ... okay on input line 140.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 140.
-LaTeX Font Info:    ... okay on input line 140.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 140.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 140.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 142.
+LaTeX Font Info:    ... okay on input line 142.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 142.
+LaTeX Font Info:    ... okay on input line 142.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 142.
+LaTeX Font Info:    ... okay on input line 142.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 142.
+LaTeX Font Info:    ... okay on input line 142.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 142.
+LaTeX Font Info:    ... okay on input line 142.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 142.
+LaTeX Font Info:    ... okay on input line 142.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 142.
+LaTeX Font Info:    ... okay on input line 142.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 142.
+LaTeX Font Info:    ... okay on input line 142.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 142.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 142.
 
  ("C:\Program Files\MiKTeX 2.9\tex\latex\base\ts1cmr.fd"
 File: ts1cmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 140.
-LaTeX Font Info:    Try loading font information for T1+pbk on input line 140.
+LaTeX Font Info:    ... okay on input line 142.
+LaTeX Font Info:    Try loading font information for T1+pbk on input line 142.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\t1pbk.fd"
 File: t1pbk.fd 2001/06/04 font definitions for T1/pbk.
 )
 LaTeX Font Info:    Font shape `T1/pbk/m/n' in size <10.95> not available
-(Font)              Font shape `T1/pbk/l/n' tried instead on input line 140.
+(Font)              Font shape `T1/pbk/l/n' tried instead on input line 142.
 
 ("C:\Program Files\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -1989,17 +1993,17 @@ Package caption Info: End \AtBeginDocument code.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-Package scrbase Info: activating english \equationnamenname on input line 140.
-Package scrbase Info: activating english \sectionname on input line 140.
-Package scrbase Info: activating english \authorshipname on input line 140.
-Package scrbase Info: activating english \byname on input line 140.
-Package scrbase Info: activating english \abbrevname on input line 140.
-Package scrbase Info: activating english \constantsname on input line 140.
-Package scrbase Info: activating english \symbolsname on input line 140.
-Package scrbase Info: activating english \acknowledgementname on input line 140
+Package scrbase Info: activating english \equationnamenname on input line 142.
+Package scrbase Info: activating english \sectionname on input line 142.
+Package scrbase Info: activating english \authorshipname on input line 142.
+Package scrbase Info: activating english \byname on input line 142.
+Package scrbase Info: activating english \abbrevname on input line 142.
+Package scrbase Info: activating english \constantsname on input line 142.
+Package scrbase Info: activating english \symbolsname on input line 142.
+Package scrbase Info: activating english \acknowledgementname on input line 142
 .
 \AtBeginShipoutBox=\box76
-Package hyperref Info: Link coloring ON on input line 140.
+Package hyperref Info: Link coloring ON on input line 142.
 ("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\nameref.sty"
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 
@@ -2008,9 +2012,9 @@ Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
 \c@section@level=\count419
 )
-LaTeX Info: Redefining \ref on input line 140.
-LaTeX Info: Redefining \pageref on input line 140.
-LaTeX Info: Redefining \nameref on input line 140.
+LaTeX Info: Redefining \ref on input line 142.
+LaTeX Info: Redefining \pageref on input line 142.
+LaTeX Info: Redefining \nameref on input line 142.
 
 (D:\disco_usuario\javier\upm\doctorado\tesis\texto_tesis_upm\texto_tutto\tesis_
 JGA_mutualismo.out)
@@ -2030,85 +2034,85 @@ Package biblatex Info: ... file 'tesis_JGA_mutualismo.bbl' found.
 
 (D:\disco_usuario\javier\upm\doctorado\tesis\texto_tesis_upm\texto_tutto\tesis_
 JGA_mutualismo.bbl)
-Package biblatex Info: Reference section=0 on input line 140.
-Package biblatex Info: Reference segment=0 on input line 140.
+Package biblatex Info: Reference section=0 on input line 142.
+Package biblatex Info: Reference segment=0 on input line 142.
  ABD: EveryShipout initializing macros
 \c__siunitx_mathsf_int=\count420
-LaTeX Font Info:    Try loading font information for T1+ppl on input line 140.
+LaTeX Font Info:    Try loading font information for T1+ppl on input line 142.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\t1ppl.fd"
 File: t1ppl.fd 2001/06/04 font definitions for T1/ppl.
 )
-LaTeX Font Info:    Try loading font information for U+zeur on input line 140.
+LaTeX Font Info:    Try loading font information for U+zeur on input line 142.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\eulervm\uzeur.fd"
 File: uzeur.fd 2005/01/11 v4.0 (WaS)
 )
-LaTeX Font Info:    Try loading font information for U+zeus on input line 140.
+LaTeX Font Info:    Try loading font information for U+zeus on input line 142.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\eulervm\uzeus.fd"
 File: uzeus.fd 2005/01/11 v4.0 (WaS)
 )
-LaTeX Font Info:    Try loading font information for U+zeuex on input line 140.
+LaTeX Font Info:    Try loading font information for U+zeuex on input line 142.
 
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\eulervm\uzeuex.fd"
 File: uzeuex.fd 2005/01/11 v4.0 (WaS)
 )
-LaTeX Font Info:    Try loading font information for OT1+zplm on input line 140
+LaTeX Font Info:    Try loading font information for OT1+zplm on input line 142
 .
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\ot1zplm.fd"
 File: ot1zplm.fd 2002/09/08 Fontinst v1.914 font definitions for OT1/zplm.
 )
-LaTeX Font Info:    Try loading font information for T1+cmss on input line 140.
+LaTeX Font Info:    Try loading font information for T1+cmss on input line 142.
 
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\base\t1cmss.fd"
 File: t1cmss.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 \c__siunitx_mathtt_int=\count421
-LaTeX Font Info:    Try loading font information for T1+cmtt on input line 140.
+LaTeX Font Info:    Try loading font information for T1+cmtt on input line 142.
 
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\base\t1cmtt.fd"
 File: t1cmtt.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `T1/pbk/m/sc' in size <10.95> not available
-(Font)              Font shape `T1/pbk/l/sc' tried instead on input line 153.
+(Font)              Font shape `T1/pbk/l/sc' tried instead on input line 155.
 LaTeX Font Info:    Font shape `T1/pbk/m/sc' in size <17.28> not available
-(Font)              Font shape `T1/pbk/l/sc' tried instead on input line 153.
+(Font)              Font shape `T1/pbk/l/sc' tried instead on input line 155.
 LaTeX Font Info:    Font shape `T1/pbk/m/sc' in size <14.4> not available
-(Font)              Font shape `T1/pbk/l/sc' tried instead on input line 154.
+(Font)              Font shape `T1/pbk/l/sc' tried instead on input line 156.
 LaTeX Font Info:    Font shape `T1/pbk/m/n' in size <20.74> not available
-(Font)              Font shape `T1/pbk/l/n' tried instead on input line 157.
+(Font)              Font shape `T1/pbk/l/n' tried instead on input line 159.
 LaTeX Font Info:    Font shape `T1/pbk/bx/n' in size <20.74> not available
-(Font)              Font shape `T1/pbk/b/n' tried instead on input line 157.
+(Font)              Font shape `T1/pbk/b/n' tried instead on input line 159.
 LaTeX Font Info:    Font shape `T1/pbk/b/n' in size <20.74> not available
-(Font)              Font shape `T1/pbk/db/n' tried instead on input line 157.
+(Font)              Font shape `T1/pbk/db/n' tried instead on input line 159.
 LaTeX Font Info:    Font shape `T1/pbk/m/n' in size <12> not available
-(Font)              Font shape `T1/pbk/l/n' tried instead on input line 161.
+(Font)              Font shape `T1/pbk/l/n' tried instead on input line 163.
 LaTeX Font Info:    Font shape `T1/pbk/m/it' in size <12> not available
-(Font)              Font shape `T1/pbk/l/it' tried instead on input line 162.
+(Font)              Font shape `T1/pbk/l/it' tried instead on input line 164.
 LaTeX Font Info:    Font shape `T1/pbk/m/sc' in size <12> not available
-(Font)              Font shape `T1/pbk/l/sc' tried instead on input line 163.
+(Font)              Font shape `T1/pbk/l/sc' tried instead on input line 165.
  [1
 
 
 
 {C:/Users/algarra/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
 LaTeX Font Info:    Font shape `T1/pbk/m/it' in size <10.95> not available
-(Font)              Font shape `T1/pbk/l/it' tried instead on input line 217.
+(Font)              Font shape `T1/pbk/l/it' tried instead on input line 219.
  [2]
 --------------------
  Abstract
 --------------------
 LaTeX Font Info:    Font shape `T1/pbk/m/it' in size <20.74> not available
-(Font)              Font shape `T1/pbk/l/it' tried instead on input line 225.
+(Font)              Font shape `T1/pbk/l/it' tried instead on input line 227.
 LaTeX Font Info:    Font shape `T1/pbk/bx/n' in size <10.95> not available
-(Font)              Font shape `T1/pbk/b/n' tried instead on input line 225.
+(Font)              Font shape `T1/pbk/b/n' tried instead on input line 227.
 LaTeX Font Info:    Font shape `T1/pbk/b/n' in size <10.95> not available
-(Font)              Font shape `T1/pbk/db/n' tried instead on input line 225.
+(Font)              Font shape `T1/pbk/db/n' tried instead on input line 227.
 [3
 
 ] [4
@@ -2121,16 +2125,18 @@ LaTeX Font Info:    Font shape `T1/pbk/b/n' in size <10.95> not available
 
 ]
 LaTeX Font Info:    Font shape `T1/pbk/m/n' in size <24.88> not available
-(Font)              Font shape `T1/pbk/l/n' tried instead on input line 247.
+(Font)              Font shape `T1/pbk/l/n' tried instead on input line 249.
 LaTeX Font Info:    Font shape `T1/pbk/bx/n' in size <24.88> not available
-(Font)              Font shape `T1/pbk/b/n' tried instead on input line 247.
+(Font)              Font shape `T1/pbk/b/n' tried instead on input line 249.
 LaTeX Font Info:    Font shape `T1/pbk/b/n' in size <24.88> not available
-(Font)              Font shape `T1/pbk/db/n' tried instead on input line 247.
+(Font)              Font shape `T1/pbk/db/n' tried instead on input line 249.
 
 (D:\disco_usuario\javier\upm\doctorado\tesis\texto_tesis_upm\texto_tutto\tesis_
-JGA_mutualismo.toc [7])
+JGA_mutualismo.toc [7] [8])
 \tf@toc=\write7
- [8]
+ [9] [10
+
+]
 (D:\disco_usuario\javier\upm\doctorado\tesis\texto_tesis_upm\texto_tutto\Chapte
 rs/Chapter_INTROGEN.tex
 Cap\IeC {\'\i }tulo 1.
@@ -2148,7 +2154,6 @@ LaTeX Font Info:    Font shape `T1/pbk/bx/n' in size <12> not available
 LaTeX Font Info:    Font shape `T1/pbk/b/n' in size <12> not available
 (Font)              Font shape `T1/pbk/db/n' tried instead on input line 21.
 [1
-
 
 ] [2])
 (D:\disco_usuario\javier\upm\doctorado\tesis\texto_tesis_upm\texto_tutto\Chapte
@@ -2176,7 +2181,7 @@ ps>
 (epstopdf)             \includegraphics on input line 89.
 Package epstopdf Info: Output file is already uptodate.
 
-<Figures/DINAMICA_r1_Verh+modif_r1-p8p8K50-eps-converted-to.pdf, id=380, 728.72
+<Figures/DINAMICA_r1_Verh+modif_r1-p8p8K50-eps-converted-to.pdf, id=398, 728.72
 25pt x 403.5075pt>
 File: Figures/DINAMICA_r1_Verh+modif_r1-p8p8K50-eps-converted-to.pdf Graphic fi
 le (type pdf)
@@ -2205,7 +2210,7 @@ ps>
 (epstopdf)             \includegraphics on input line 131.
 Package epstopdf Info: Output file is already uptodate.
 
-<Figures/DINAMICA_r1_eq_N1N2_r1p8b12p05K50-eps-converted-to.pdf, id=391, 450.68
+<Figures/DINAMICA_r1_eq_N1N2_r1p8b12p05K50-eps-converted-to.pdf, id=409, 450.68
 375pt x 375.4025pt>
 File: Figures/DINAMICA_r1_eq_N1N2_r1p8b12p05K50-eps-converted-to.pdf Graphic fi
 le (type pdf)
@@ -2252,7 +2257,7 @@ gram.eps>
 (epstopdf)             \includegraphics on input line 293.
 Package epstopdf Info: Output file is already uptodate.
 
-<Figures/DINAMICA_solut_r9b03K100+flowdiagram-eps-converted-to.pdf, id=428, 795
+<Figures/DINAMICA_solut_r9b03K100+flowdiagram-eps-converted-to.pdf, id=446, 795
 .97375pt x 318.18875pt>
 File: Figures/DINAMICA_solut_r9b03K100+flowdiagram-eps-converted-to.pdf Graphic
  file (type pdf)
@@ -2312,7 +2317,7 @@ ps-converted-to.pdf Figures/DINAMICA_Figure1h.eps>
 (epstopdf)             \includegraphics on input line 446.
 Package epstopdf Info: Output file is already uptodate.
 
-<Figures/DINAMICA_Figure1h-eps-converted-to.pdf, id=485, 1211.52625pt x 320.196
+<Figures/DINAMICA_Figure1h-eps-converted-to.pdf, id=503, 1211.52625pt x 320.196
 24pt>
 File: Figures/DINAMICA_Figure1h-eps-converted-to.pdf Graphic file (type pdf)
  <use Figures/DINAMICA_Figure1h-eps-converted-to.pdf>
@@ -2333,7 +2338,7 @@ s-converted-to.pdf Figures/DINAMICA_Figure2.eps>
 (epstopdf)             \includegraphics on input line 517.
 Package epstopdf Info: Output file is already uptodate.
 
-<Figures/DINAMICA_Figure2-eps-converted-to.pdf, id=530, 286.06876pt x 281.05pt>
+<Figures/DINAMICA_Figure2-eps-converted-to.pdf, id=548, 286.06876pt x 281.05pt>
 File: Figures/DINAMICA_Figure2-eps-converted-to.pdf Graphic file (type pdf)
 <use Figures/DINAMICA_Figure2-eps-converted-to.pdf>
 Package pdftex.def Info: Figures/DINAMICA_Figure2-eps-converted-to.pdf used on 
@@ -2366,7 +2371,7 @@ s-converted-to.pdf Figures/DINAMICA_Figure3.eps>
 (epstopdf)             \includegraphics on input line 591.
 Package epstopdf Info: Output file is already uptodate.
 
-<Figures/DINAMICA_Figure3-eps-converted-to.pdf, id=562, 794.97pt x 614.295pt>
+<Figures/DINAMICA_Figure3-eps-converted-to.pdf, id=581, 794.97pt x 614.295pt>
 File: Figures/DINAMICA_Figure3-eps-converted-to.pdf Graphic file (type pdf)
 
 <use Figures/DINAMICA_Figure3-eps-converted-to.pdf>
@@ -2391,10 +2396,10 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 [23] [24 <D:/disco_usuario/javier/upm/doctorado/tesis/texto_tesis_upm/texto_tut
 to/Figures/DINAMICA_Figure3-eps-converted-to.pdf>] [25] [26] [27]
 
-LaTeX Warning: Citation 'Bastolla05' on page 28 undefined on input line 685.
+LaTeX Warning: Citation 'bastolla05' on page 28 undefined on input line 685.
 
 
-LaTeX Warning: Citation 'Bastolla09' on page 28 undefined on input line 685.
+LaTeX Warning: Citation 'bastolla09' on page 28 undefined on input line 685.
 
 Package epstopdf Info: Source file: <Figures/DINAMICA_red_exper_stab2.eps>
 (epstopdf)                    date: 2014-07-10 19:46:12
@@ -2408,7 +2413,7 @@ stab2-eps-converted-to.pdf Figures/DINAMICA_red_exper_stab2.eps>
 (epstopdf)             \includegraphics on input line 689.
 Package epstopdf Info: Output file is already uptodate.
 
-<Figures/DINAMICA_red_exper_stab2-eps-converted-to.pdf, id=620, 710.655pt x 297
+<Figures/DINAMICA_red_exper_stab2-eps-converted-to.pdf, id=639, 710.655pt x 297
 .11pt>
 File: Figures/DINAMICA_red_exper_stab2-eps-converted-to.pdf Graphic file (type 
 pdf)
@@ -2428,7 +2433,7 @@ ction-eps-converted-to.pdf Figures/DINAMICA_Fig5_extinction.eps>
 (epstopdf)             \includegraphics on input line 698.
 Package epstopdf Info: Output file is already uptodate.
 
-<Figures/DINAMICA_Fig5_extinction-eps-converted-to.pdf, id=622, 451.6875pt x 52
+<Figures/DINAMICA_Fig5_extinction-eps-converted-to.pdf, id=641, 451.6875pt x 52
 6.96875pt>
 File: Figures/DINAMICA_Fig5_extinction-eps-converted-to.pdf Graphic file (type 
 pdf)
@@ -2450,14 +2455,19 @@ ing_cap-eps-converted-to.pdf Figures/DINAMICA_Fig6_carrying_cap.eps>
 (epstopdf)             \includegraphics on input line 710.
 Package epstopdf Info: Output file is already uptodate.
 
-<Figures/DINAMICA_Fig6_carrying_cap-eps-converted-to.pdf, id=632, 677.53125pt x
+<Figures/DINAMICA_Fig6_carrying_cap-eps-converted-to.pdf, id=651, 677.53125pt x
  451.6875pt>
 File: Figures/DINAMICA_Fig6_carrying_cap-eps-converted-to.pdf Graphic file (typ
 e pdf)
  <use Figures/DINAMICA_Fig6_carrying_cap-eps-converted-to.pdf>
 Package pdftex.def Info: Figures/DINAMICA_Fig6_carrying_cap-eps-converted-to.pd
 f used on input line 710.
-(pdftex.def)             Requested size: 338.76479pt x 225.84319pt.
+(pdftex.def)             Requested size: 447.172pt x 298.11465pt.
+
+Overfull \hbox (12.2716pt too wide) in paragraph at lines 710--711
+ [][] 
+ []
+
 Package epstopdf Info: Source file: <Figures/DINAMICA_Fig7_partial_extinct.eps>
 
 (epstopdf)                    date: 2014-11-27 12:32:13
@@ -2471,7 +2481,7 @@ al_extinct-eps-converted-to.pdf Figures/DINAMICA_Fig7_partial_extinct.eps>
 (epstopdf)             \includegraphics on input line 719.
 Package epstopdf Info: Output file is already uptodate.
 
-<Figures/DINAMICA_Fig7_partial_extinct-eps-converted-to.pdf, id=637, 451.6875pt
+<Figures/DINAMICA_Fig7_partial_extinct-eps-converted-to.pdf, id=656, 451.6875pt
  x 526.96875pt>
 File: Figures/DINAMICA_Fig7_partial_extinct-eps-converted-to.pdf Graphic file (
 type pdf)
@@ -2479,54 +2489,127 @@ type pdf)
 <use Figures/DINAMICA_Fig7_partial_extinct-eps-converted-to.pdf>
 Package pdftex.def Info: Figures/DINAMICA_Fig7_partial_extinct-eps-converted-to
 .pdf used on input line 719.
-(pdftex.def)             Requested size: 225.84319pt x 263.48372pt.
+(pdftex.def)             Requested size: 298.11465pt x 347.80045pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [29 <D:/disco_usuario/javier/upm/doctorado/tesis/texto_tesis_upm/texto_tutto/Fi
-gures/DINAMICA_Fig5_extinction-eps-converted-to.pdf>] [30 <D:/disco_usuario/jav
-ier/upm/doctorado/tesis/texto_tesis_upm/texto_tutto/Figures/DINAMICA_Fig6_carry
-ing_cap-eps-converted-to.pdf> <D:/disco_usuario/javier/upm/doctorado/tesis/text
-o_tesis_upm/texto_tutto/Figures/DINAMICA_Fig7_partial_extinct-eps-converted-to.
-pdf>]
+gures/DINAMICA_Fig5_extinction-eps-converted-to.pdf>]
+<Figures/DINAMICA_SATU_experimento_1.pdf, id=672, 377.41pt x 458.71375pt>
+File: Figures/DINAMICA_SATU_experimento_1.pdf Graphic file (type pdf)
 
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 732.
+<use Figures/DINAMICA_SATU_experimento_1.pdf>
+Package pdftex.def Info: Figures/DINAMICA_SATU_experimento_1.pdf used on input 
+line 735.
+(pdftex.def)             Requested size: 249.09137pt x 302.75201pt.
+ [30 <D:/disco_usuario/javier/upm/doctorado/tesis/texto_tesis_upm/texto_tutto/F
+igures/DINAMICA_Fig6_carrying_cap-eps-converted-to.pdf>]
+<Figures/DINAMICA_SATU_experimento_2.pdf, id=686, 505.89pt x 401.5pt>
+File: Figures/DINAMICA_SATU_experimento_2.pdf Graphic file (type pdf)
+
+<use Figures/DINAMICA_SATU_experimento_2.pdf>
+Package pdftex.def Info: Figures/DINAMICA_SATU_experimento_2.pdf used on input 
+line 746.
+(pdftex.def)             Requested size: 404.71254pt x 321.20042pt.
 
 
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 732.
+LaTeX Warning: `!h' float specifier changed to `!ht'.
 
+
+<Figures/DINAMICA_SAT_red_exper_resilience_strong.pdf, id=693, 1026.83624pt x 4
+12.54124pt>
+File: Figures/DINAMICA_SAT_red_exper_resilience_strong.pdf Graphic file (type p
+df)
+ <use Figures/DINAMICA_SAT_red_exper_resilience_strong.pdf>
+Package pdftex.def Info: Figures/DINAMICA_SAT_red_exper_resilience_strong.pdf u
+sed on input line 757.
+(pdftex.def)             Requested size: 287.51219pt x 115.51076pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[31 <D:/disco_usuario/javier/upm/doctorado/tesis/texto_tesis_upm/texto_tutto/Fi
+gures/DINAMICA_Fig7_partial_extinct-eps-converted-to.pdf>]
+<Figures/DINAMICA_SATU_nested.pdf, id=708, 377.41pt x 451.6875pt>
+File: Figures/DINAMICA_SATU_nested.pdf Graphic file (type pdf)
+
+<use Figures/DINAMICA_SATU_nested.pdf>
+Package pdftex.def Info: Figures/DINAMICA_SATU_nested.pdf used on input line 76
+6.
+(pdftex.def)             Requested size: 283.0568pt x 338.76479pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+<Figures/DINAMICA_SAT_red_exper_resilience_weak.pdf, id=711, 1024.82875pt x 403
+.5075pt>
+File: Figures/DINAMICA_SAT_red_exper_resilience_weak.pdf Graphic file (type pdf
+)
+ <use Figures/DINAMICA_SAT_red_exper_resilience_weak.pdf>
+Package pdftex.def Info: Figures/DINAMICA_SAT_red_exper_resilience_weak.pdf use
+d on input line 775.
+(pdftex.def)             Requested size: 286.95009pt x 112.98132pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<Figures/DINAMICA_SATU_weak.pdf, id=715, 377.41pt x 451.6875pt>
+File: Figures/DINAMICA_SATU_weak.pdf Graphic file (type pdf)
+
+<use Figures/DINAMICA_SATU_weak.pdf>
+Package pdftex.def Info: Figures/DINAMICA_SATU_weak.pdf used on input line 784.
+
+(pdftex.def)             Requested size: 283.0568pt x 338.76479pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[32 <D:/disco_usuario/javier/upm/doctorado/tesis/texto_tesis_upm/texto_tutto/Fi
+gures/DINAMICA_SATU_experimento_1.pdf>] [33 <D:/disco_usuario/javier/upm/doctor
+ado/tesis/texto_tesis_upm/texto_tutto/Figures/DINAMICA_SATU_experimento_2.pdf> 
+<D:/disco_usuario/javier/upm/doctorado/tesis/texto_tesis_upm/texto_tutto/Figure
+s/DINAMICA_SAT_red_exper_resilience_strong.pdf>] [34 <D:/disco_usuario/javier/u
+pm/doctorado/tesis/texto_tesis_upm/texto_tutto/Figures/DINAMICA_SATU_nested.pdf
+> <D:/disco_usuario/javier/upm/doctorado/tesis/texto_tesis_upm/texto_tutto/Figu
+res/DINAMICA_SAT_red_exper_resilience_weak.pdf>] [35 <D:/disco_usuario/javier/u
+pm/doctorado/tesis/texto_tesis_upm/texto_tutto/Figures/DINAMICA_SATU_weak.pdf>]
+LaTeX Font Info:    Font shape `T1/pbk/bx/it' in size <14.4> not available
+(Font)              Font shape `T1/pbk/b/it' tried instead on input line 798.
+LaTeX Font Info:    Font shape `T1/pbk/b/it' in size <14.4> not available
+(Font)              Font shape `T1/pbk/db/it' tried instead on input line 798.
 LaTeX Font Info:    Font shape `T1/pbk/m/n' in size <9> not available
-(Font)              Font shape `T1/pbk/l/n' tried instead on input line 737.
+(Font)              Font shape `T1/pbk/l/n' tried instead on input line 803.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
+LaTeX Font Info:    Font shape `T1/pbk/m/n' in size <6> not available
+(Font)              Font shape `T1/pbk/l/n' tried instead on input line 929.
+[36
+
+]
+LaTeX Font Info:    Font shape `T1/pbk/m/n' in size <8> not available
+(Font)              Font shape `T1/pbk/l/n' tried instead on input line 1005.
+
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[31] [32] [33] [34] [35])
+[37] [38] [39] [40] [41] [42])
 (D:\disco_usuario\javier\upm\doctorado\tesis\texto_tesis_upm\texto_tutto\Chapte
-rs/Chapter_ESTATICA.tex [36]
+rs/Chapter_ESTATICA.tex [43] [44
+
+]
 Cap\IeC {\'\i }tulo 3.
 --------------------
  3. Estructura del mutualismo
 --------------------
-[37
-
-]
-LaTeX Font Info:    Font shape `T1/pbk/bx/it' in size <14.4> not available
-(Font)              Font shape `T1/pbk/b/it' tried instead on input line 29.
-LaTeX Font Info:    Font shape `T1/pbk/b/it' in size <14.4> not available
-(Font)              Font shape `T1/pbk/db/it' tried instead on input line 29.
-LaTeX Font Info:    Font shape `T1/pbk/m/n' in size <8> not available
-(Font)              Font shape `T1/pbk/l/n' tried instead on input line 31.
+[45]
 LaTeX Font Info:    Font shape `T1/pbk/m/n' in size <7> not available
 (Font)              Font shape `T1/pbk/l/n' tried instead on input line 31.
 LaTeX Font Info:    Font shape `T1/pbk/m/it' in size <9> not available
 (Font)              Font shape `T1/pbk/l/it' tried instead on input line 31.
- [38]
+ [46]
 Package mdframed Info: mdframed works in twoside mode on input line 36.
 Package mdframed Info: mdframed detected package amsthm 
  changed the theorem header of amsthm
@@ -2535,7 +2618,7 @@ Package mdframed Info: mdframed detected package amsthm
  changed the theorem header of amsthm
 (mdframed)              on input line 39.
 
-<Figures/ESTATICA_kcore_decomposition_example.png, id=780, 714.41907pt x 411.78
+<Figures/ESTATICA_kcore_decomposition_example.png, id=907, 714.41907pt x 411.78
 844pt>
 File: Figures/ESTATICA_kcore_decomposition_example.png Graphic file (type png)
  <use Figures/ESTATICA_kcore_decomposition_example.png>
@@ -2546,7 +2629,7 @@ on input line 47.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[39]
+[47]
 Package mdframed Info: mdframed works in twoside mode on input line 64.
 Package mdframed Info: mdframed detected package amsthm 
  changed the theorem header of amsthm
@@ -2566,7 +2649,7 @@ e-eps-converted-to.pdf Figures/ESTATICA_red_example.eps>
 (epstopdf)             \includegraphics on input line 77.
 Package epstopdf Info: Output file is already uptodate.
 
-<Figures/ESTATICA_red_example-eps-converted-to.pdf, id=790, 845.1575pt x 597.23
+<Figures/ESTATICA_red_example-eps-converted-to.pdf, id=917, 845.1575pt x 597.23
 125pt>
 File: Figures/ESTATICA_red_example-eps-converted-to.pdf Graphic file (type pdf)
 
@@ -2582,7 +2665,7 @@ Overfull \hbox (55.2913pt too wide) in paragraph at lines 77--78
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[40 <D:/disco_usuario/javier/upm/doctorado/tesis/texto_tesis_upm/texto_tutto/Fi
+[48 <D:/disco_usuario/javier/upm/doctorado/tesis/texto_tesis_upm/texto_tutto/Fi
 gures/ESTATICA_kcore_decomposition_example.png>]
 LaTeX Font Info:    Font shape `T1/pbk/m/n' in size <7.6611> not available
 (Font)              Font shape `T1/pbk/l/n' tried instead on input line 84.
@@ -2596,9 +2679,7 @@ LaTeX Font Warning: Font shape `T1/cmss/m/n' in size <4.5967> not available
 LaTeX Font Warning: Font shape `T1/cmtt/m/n' in size <4.5967> not available
 (Font)              size <5> substituted on input line 84.
 
-LaTeX Font Info:    Font shape `T1/pbk/m/n' in size <6> not available
-(Font)              Font shape `T1/pbk/l/n' tried instead on input line 84.
-[41 <D:/disco_usuario/javier/upm/doctorado/tesis/texto_tesis_upm/texto_tutto/Fi
+[49 <D:/disco_usuario/javier/upm/doctorado/tesis/texto_tesis_upm/texto_tutto/Fi
 gures/ESTATICA_red_example-eps-converted-to.pdf>]
 Package mdframed Info: mdframed works in twoside mode on input line 90.
 Package mdframed Info: mdframed detected package amsthm 
@@ -2625,17 +2706,17 @@ Overfull \hbox (10.88164pt too wide) in paragraph at lines 117--118
 sario disponer de un respaldo
  []
 
-[42
+[50
 
 ]
-<Figures/ESTATICA_destruction_example.png, id=819, 431.9337pt x 354.3639pt>
+<Figures/ESTATICA_destruction_example.png, id=945, 431.9337pt x 354.3639pt>
 File: Figures/ESTATICA_destruction_example.png Graphic file (type png)
 
 <use Figures/ESTATICA_destruction_example.png>
 Package pdftex.def Info: Figures/ESTATICA_destruction_example.png used on input
  line 125.
 (pdftex.def)             Requested size: 237.56427pt x 194.90074pt.
- [43 <D:/disco_usuario/javier/upm/doctorado/tesis/texto_tesis_upm/texto_tutto/F
+ [51 <D:/disco_usuario/javier/upm/doctorado/tesis/texto_tesis_upm/texto_tutto/F
 igures/ESTATICA_destruction_example.png>]
 Overfull \hbox (16.32275pt too wide) in paragraph at lines 132--133
 \T1/pbk/l/n/10.95 ritmo de de-struc-ción que pro-ponemos se basa en la se-cuen-
@@ -2651,8 +2732,8 @@ File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
 
 LaTeX Warning: Float too large for page by 1.02415pt on input line 244.
 
-[44] [45]
-<Figures/ESTATICA_hist_kmagnitudes.png, id=852, 847.0044pt x 267.8808pt>
+[52] [53]
+<Figures/ESTATICA_hist_kmagnitudes.png, id=978, 847.0044pt x 267.8808pt>
 File: Figures/ESTATICA_hist_kmagnitudes.png Graphic file (type png)
 
 <use Figures/ESTATICA_hist_kmagnitudes.png>
@@ -2660,7 +2741,7 @@ Package pdftex.def Info: Figures/ESTATICA_hist_kmagnitudes.png used on input li
 ne 259.
 (pdftex.def)             Requested size: 423.50116pt x 133.94006pt.
 
-<Figures/ESTATICA_tamanyo_kdegree_kradius.png, id=855, 2186.1675pt x 2794.44pt>
+<Figures/ESTATICA_tamanyo_kdegree_kradius.png, id=981, 2186.1675pt x 2794.44pt>
 File: Figures/ESTATICA_tamanyo_kdegree_kradius.png Graphic file (type png)
 <use Figures/ESTATICA_tamanyo_kdegree_kradius.png>
 Package pdftex.def Info: Figures/ESTATICA_tamanyo_kdegree_kradius.png used on i
@@ -2670,20 +2751,20 @@ nput line 270.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[46 <D:/disco_usuario/javier/upm/doctorado/tesis/texto_tesis_upm/texto_tutto/Fi
-gures/ESTATICA_hist_kmagnitudes.png>] [47 <D:/disco_usuario/javier/upm/doctorad
+[54 <D:/disco_usuario/javier/upm/doctorado/tesis/texto_tesis_upm/texto_tutto/Fi
+gures/ESTATICA_hist_kmagnitudes.png>] [55 <D:/disco_usuario/javier/upm/doctorad
 o/tesis/texto_tesis_upm/texto_tutto/Figures/ESTATICA_tamanyo_kdegree_kradius.pn
 g>]
-<Figures/ESTATICA_correlation_figs.png, id=874, 2110.88625pt x 852.18375pt>
+<Figures/ESTATICA_correlation_figs.png, id=999, 2110.88625pt x 852.18375pt>
 File: Figures/ESTATICA_correlation_figs.png Graphic file (type png)
 
 <use Figures/ESTATICA_correlation_figs.png>
 Package pdftex.def Info: Figures/ESTATICA_correlation_figs.png used on input li
 ne 286.
 (pdftex.def)             Requested size: 422.16977pt x 170.43372pt.
- [48 <D:/disco_usuario/javier/upm/doctorado/tesis/texto_tesis_upm/texto_tutto/F
-igures/ESTATICA_correlation_figs.png>] <ESTATICA_density_plots.png, id=888, 433
-.62pt x 267.399pt>
+ [56 <D:/disco_usuario/javier/upm/doctorado/tesis/texto_tesis_upm/texto_tutto/F
+igures/ESTATICA_correlation_figs.png>] <ESTATICA_density_plots.png, id=1013, 43
+3.62pt x 267.399pt>
 File: ESTATICA_density_plots.png Graphic file (type png)
 
 <use ESTATICA_density_plots.png>
@@ -2699,8 +2780,8 @@ Overfull \hbox (12.50674pt too wide) in paragraph at lines 324--325
 o se prop-ugna que $\U/zeur/m/n/10.95 log\U/zeus/m/n/10.95 ¨[][]©$
  []
 
-[49]
-<Figures/ESTATICA_histo_corr_rewiring.png, id=895, 763.4121pt x 842.4273pt>
+[57]
+<Figures/ESTATICA_histo_corr_rewiring.png, id=1021, 763.4121pt x 842.4273pt>
 File: Figures/ESTATICA_histo_corr_rewiring.png Graphic file (type png)
 
 <use Figures/ESTATICA_histo_corr_rewiring.png>
@@ -2715,8 +2796,8 @@ Overfull \hbox (7.87894pt too wide) in paragraph at lines 334--335
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[50 <D:/disco_usuario/javier/upm/doctorado/tesis/texto_tesis_upm/texto_tutto/ES
-TATICA_density_plots.png>] [51 <D:/disco_usuario/javier/upm/doctorado/tesis/tex
+[58 <D:/disco_usuario/javier/upm/doctorado/tesis/texto_tesis_upm/texto_tutto/ES
+TATICA_density_plots.png>] [59 <D:/disco_usuario/javier/upm/doctorado/tesis/tex
 to_tesis_upm/texto_tutto/Figures/ESTATICA_histo_corr_rewiring.png>]
 
 LaTeX Warning: Command \' invalid in math mode on input line 351.
@@ -2724,9 +2805,9 @@ LaTeX Warning: Command \' invalid in math mode on input line 351.
 
 LaTeX Warning: Command \' invalid in math mode on input line 351.
 
-[52]
-<Figures/ESTATICA_destruction_comparativa_dosredes.png, id=914, 867.24pt x 361.
-35pt>
+[60]
+<Figures/ESTATICA_destruction_comparativa_dosredes.png, id=1040, 867.24pt x 361
+.35pt>
 File: Figures/ESTATICA_destruction_comparativa_dosredes.png Graphic file (type 
 png)
  <use Figures/ESTATICA_destruction_comparativa_dosredes.png>
@@ -2736,7 +2817,7 @@ used on input line 415.
 LaTeX Font Info:    Font shape `T1/pbk/m/n' in size <7.6> not available
 (Font)              Font shape `T1/pbk/l/n' tried instead on input line 416.
 
-<Figures/ESTATICA_destructions_comparison.png, id=917, 867.24pt x 361.35pt>
+<Figures/ESTATICA_destructions_comparison.png, id=1043, 867.24pt x 361.35pt>
 File: Figures/ESTATICA_destructions_comparison.png Graphic file (type png)
 
 <use Figures/ESTATICA_destructions_comparison.png>
@@ -2747,19 +2828,19 @@ nput line 424.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[53 <D:/disco_usuario/javier/upm/doctorado/tesis/texto_tesis_upm/texto_tutto/Fi
+[61 <D:/disco_usuario/javier/upm/doctorado/tesis/texto_tesis_upm/texto_tutto/Fi
 gures/ESTATICA_destruction_comparativa_dosredes.png>])
 (D:\disco_usuario\javier\upm\doctorado\tesis\texto_tesis_upm\texto_tutto\Chapte
-rs/Chapter_VISUALIZACION.tex [54 <D:/disco_usuario/javier/upm/doctorado/tesis/t
+rs/Chapter_VISUALIZACION.tex [62 <D:/disco_usuario/javier/upm/doctorado/tesis/t
 exto_tesis_upm/texto_tutto/Figures/ESTATICA_destructions_comparison.png>]
-[55] [56
+[63] [64
 
 ]
 Cap\IeC {\'\i }tulo 4.
 --------------------
  4. Visualizaciones
 --------------------
-[57]
+[65]
 Package epstopdf Info: Source file: <Figures/M_SD_004_polar.eps>
 (epstopdf)                    date: 2015-07-15 14:29:46
 (epstopdf)                    size: 1038379 bytes
@@ -2772,8 +2853,8 @@ converted-to.pdf Figures/M_SD_004_polar.eps>
 (epstopdf)             \includegraphics on input line 36.
 Package epstopdf Info: Output file is already uptodate.
 
-<Figures/M_SD_004_polar-eps-converted-to.pdf, id=943, 571.13374pt x 571.13374pt
->
+<Figures/M_SD_004_polar-eps-converted-to.pdf, id=1069, 571.13374pt x 571.13374p
+t>
 File: Figures/M_SD_004_polar-eps-converted-to.pdf Graphic file (type pdf)
  <use Figures/M_SD_004_polar-eps-converted-to.pdf>
 Package pdftex.def Info: Figures/M_SD_004_polar-eps-converted-to.pdf used on in
@@ -2783,7 +2864,7 @@ put line 36.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<Figures/zig_pl_024.png, id=944, 801.9561pt x 746.0673pt>
+<Figures/zig_pl_024.png, id=1070, 801.9561pt x 746.0673pt>
 File: Figures/zig_pl_024.png Graphic file (type png)
 
 <use Figures/zig_pl_024.png>
@@ -2793,11 +2874,11 @@ Package pdftex.def Info: Figures/zig_pl_024.png used on input line 47.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[58])
+[66])
 (D:\disco_usuario\javier\upm\doctorado\tesis\texto_tesis_upm\texto_tutto\Chapte
-rs/Chapter_CONCLUSIONES.tex [59 <D:/disco_usuario/javier/upm/doctorado/tesis/te
+rs/Chapter_CONCLUSIONES.tex [67 <D:/disco_usuario/javier/upm/doctorado/tesis/te
 xto_tesis_upm/texto_tutto/Figures/M_SD_004_polar-eps-converted-to.pdf>]
-[60 <D:/disco_usuario/javier/upm/doctorado/tesis/texto_tesis_upm/texto_tutto/Fi
+[68 <D:/disco_usuario/javier/upm/doctorado/tesis/texto_tesis_upm/texto_tutto/Fi
 gures/zig_pl_024.png>]
 Cap\IeC {\'\i }tulo 5.
 --------------------
@@ -2805,75 +2886,75 @@ Cap\IeC {\'\i }tulo 5.
 --------------------
 )
 (D:\disco_usuario\javier\upm\doctorado\tesis\texto_tesis_upm\texto_tutto\Append
-ices/AppendixA.tex [61
+ices/AppendixA.tex [69
 
-] [62
+] [70
 
 ]
 Cap\IeC {\'\i }tulo 6.
 --------------------
  6. Ap\IeC {\'e}ndice: Fuentes de datos
 --------------------
-) [63] [64
+) [71] [72
 
 ]
-Overfull \hbox (18.53307pt too wide) in paragraph at lines 339--339
+Overfull \hbox (18.53307pt too wide) in paragraph at lines 341--341
 \T1/pbk/l/n/10.95 spread-ing of in-fec-tious dis-eases''. In: \T1/pbk/l/it/10.9
 5 Pro-ceed-ings of the Na-tional Academy
  []
 
 
-Overfull \hbox (10.81017pt too wide) in paragraph at lines 339--339
+Overfull \hbox (10.81017pt too wide) in paragraph at lines 341--341
 []\T1/pbk/l/n/10.95 P Bar-berá et al. ``The Crit-i-cal Pe-riph-ery in the Growt
 h of So-cial Protests.''
  []
 
-[65]
-Overfull \hbox (1.08658pt too wide) in paragraph at lines 339--339
+[73]
+Overfull \hbox (1.08658pt too wide) in paragraph at lines 341--341
 \T1/pbk/l/n/10.95 com-plex net-work re-search''. In: \T1/pbk/l/it/10.95 In-ter-
 Jour-nal, Com-plex Sys-tems \T1/pbk/l/n/10.95 1695.5
  []
 
 
-Overfull \hbox (8.48132pt too wide) in paragraph at lines 339--339
+Overfull \hbox (8.48132pt too wide) in paragraph at lines 341--341
 \T1/pbk/l/it/10.95 ceed-ings of the Na-tional Academy of Sci-ences \T1/pbk/l/n/
 10.95 111.49 (2014), pp. 17546
  []
 
 
-Overfull \hbox (13.07675pt too wide) in paragraph at lines 339--339
+Overfull \hbox (13.07675pt too wide) in paragraph at lines 341--341
 []\T1/pbk/l/n/10.95 Sergey N Doro-govt-sev, Alexan-der V Golt-sev, and Jose Fer
 -reira F Mendes.
  []
 
 
-Overfull \hbox (4.85124pt too wide) in paragraph at lines 339--339
+Overfull \hbox (4.85124pt too wide) in paragraph at lines 341--341
 \T1/pbk/l/n/10.95 mi-cro and macro sim-u-la-tion''. In: \T1/pbk/l/it/10.95 Math
 -e-mat-i-cal bio-sciences \T1/pbk/l/n/10.95 209 (2007),
  []
 
-[66]
-Overfull \hbox (4.6124pt too wide) in paragraph at lines 339--339
+[74]
+Overfull \hbox (4.6124pt too wide) in paragraph at lines 341--341
 []\T1/pbk/l/n/10.95 María del Rocío Martínez-Torres et al. ``Apli-cación de al-
 go-rit-mos genéti-
  []
 
 
-Overfull \hbox (8.48132pt too wide) in paragraph at lines 339--339
+Overfull \hbox (8.48132pt too wide) in paragraph at lines 341--341
 \T1/pbk/l/it/10.95 ceed-ings of the Na-tional Academy of Sci-ences \T1/pbk/l/n/
 10.95 104.50 (2007), pp. 19891
  []
 
-[67] [68] [69]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 343.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 343.
+[75] [76] [77]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 345.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 345.
 
 (D:\disco_usuario\javier\upm\doctorado\tesis\texto_tesis_upm\texto_tutto\tesis_
 JGA_mutualismo.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 343.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 343.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 345.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 345.
 Package rerunfilecheck Info: File `tesis_JGA_mutualismo.out' has not changed.
-(rerunfilecheck)             Checksum: F3C8DAA1ABDE391CA5EF725E7F6960E3;10996.
+(rerunfilecheck)             Checksum: 29AEFA6CD96CEC8B14942490567EA770;11648.
 
 
 LaTeX Font Warning: Size substitutions with differences
@@ -2893,13 +2974,13 @@ Package biblatex Warning: Please (re)run BibTeX on the file(s):
 Package logreq Info: Writing requests to 'tesis_JGA_mutualismo.run.xml'.
  ) 
 Here is how much of TeX's memory you used:
- 40740 strings out of 493921
- 772143 string characters out of 3147276
- 928949 words of memory out of 3000000
- 43043 multiletter control sequences out of 15000+200000
- 154087 words of font info for 334 fonts, out of 3000000 for 9000
- 845 hyphenation exceptions out of 8191
- 75i,17n,76p,10420b,2429s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 40792 strings out of 493921
+ 773904 string characters out of 3147276
+ 930419 words of memory out of 3000000
+ 43069 multiletter control sequences out of 15000+200000
+ 148924 words of font info for 321 fonts, out of 3000000 for 9000
+ 847 hyphenation exceptions out of 8191
+ 75i,17n,76p,10492b,2429s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}<C:/Program File
 s/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files/MiKTeX
  2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fon
@@ -2919,9 +3000,9 @@ man/ubkl8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/bookman/ubkli8a.pfb
 ><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/courier/ucrr8a.pfb><C:/Program Fi
 les/MiKTeX 2.9/fonts/type1/urw/palatino/uplb8a.pfb><C:/Program Files/MiKTeX 2.9
 /fonts/type1/urw/palatino/uplr8a.pfb>
-Output written on tesis_JGA_mutualismo.pdf (77 pages, 3397557 bytes).
+Output written on tesis_JGA_mutualismo.pdf (87 pages, 6961451 bytes).
 PDF statistics:
- 1124 PDF objects out of 1200 (max. 8388607)
- 265 named destinations out of 1000 (max. 500000)
- 563 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1253 PDF objects out of 1440 (max. 8388607)
+ 287 named destinations out of 1000 (max. 500000)
+ 609 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -127,7 +127,7 @@ En ausencia de mutualismo se convierte en la ecuación logística modificada. El
 
 \begin{figure}[t]
 \centering
-%\includegraphics[scale=0.33]{rectas_optionI_2.eps}
+%\includegraphics[scale=0.28]{rectas_optionI_2.eps}
 \includegraphics[scale=0.5]{DINAMICA_r1_eq_N1N2_r1p8b12p05K50.eps}
 \caption{Per capita growth rate for species 1 with vegetative rate $r_1=-0.8$, carrying capacity $K_1=50$, and mutualism interaction coefficient $b_{12}=0.05$, for different values of population $N_2=0,10,20,30,40,50$.}
 \label{fig:per capita_growth_rate_mutualism}
@@ -406,7 +406,7 @@ Siguiendo la idea de Velhurst, proponemos un modelo en el que el término de fri
 El término $c_{i}$ es el coeficiente de proporcionalidad. Las expresiones para las plantas son similares con el sumatorio sobre las especies de animales. Para simplificar la notación, eliminaremos los ceros de $\alpha_{i}^{0}$ y $r_{i}^{0}$ allí donde no haya confusión posible. Bajo estas suposiciones la dinámica del modelo propuesto está gobernada por el siguiente juego de ecuaciones:
 
 \begin{theo} 
-Modelo de dinámica mutualista con saturación de beneficio.
+Modelo de dinámica mutualista con saturación del beneficio.
 \begin{align*}
 \frac{1}{N^{a}_{i}}\frac{dN^{a}_{i}}{dt} = r_{i}+ \sum_{k=1}^{n_{p}} b_{ik}\, N^{p}_k - \left( \alpha_{i}+ c_{i} \sum_{k=1}^{n_{p}} b_{ik}\, N^{p}_k \right) N^{a}_{i} \nonumber\\
 \frac{1}{N^{p}_{j}}\frac{dN^{p}_{j}}{dt} = r_{j}+ \sum_{\ell=1}^{n_{a}} b_{j\ell}\, N^{a}_\ell - \left( \alpha_{j}+ c_{j} \sum_{\ell=1}^{n_{a}} b_{j\ell}\, N^{a}_\ell \right) N^{p}_{j}
@@ -682,12 +682,12 @@ Nunc posuere quam at lectus tristique eu ultrices augue venenatis. Vestibulum an
 
 \subsection{Simulaciones con capacidades de carga constantes}
 \label{results_K_constante}
-Es muy complicado obtener resultados analíticos para una comunidad mutualista por la compleja red de interacciones entre las especies \cite{Bastolla05,Bastolla09}. En este apartado se muestran los resultados de simulaciones numéricas que sirve para explorar la estabilidad de las soluciones del modelo \ref{modelo_optionI}. Se han simulado situaciones dentro de las tres cuencas de atracción, esto es, extinción total, extinciones parciales y supervivencia en capacidades de carga. Los parámetros de las simulaciones se listan en el Anexo \ref{DINAMICA_ANEXO_KConst}.
+Es muy complicado obtener resultados analíticos para una comunidad mutualista por la compleja red de interacciones entre las especies \cite{bastolla05,bastolla09}. En este apartado se muestran los resultados de simulaciones numéricas que sirve para explorar la estabilidad de las soluciones del modelo \ref{modelo_optionI}. Se han simulado situaciones dentro de las tres cuencas de atracción, esto es, extinción total, extinciones parciales y supervivencia en capacidades de carga. Los parámetros de las simulaciones se listan en el Anexo \ref{DINAMICA_ANEXO_KConst}.
 
 \begin{figure}[h!]
 \centering
 \includegraphics[scale=0.5]{DINAMICA_red_exper_stab2.eps}
-\caption {Comunidad mutualista con cinco especie de plantas y cinco de polinizadores.}
+\caption {Comunidad mutualista con cinco especie de plantas y cuatro de polinizadores.}
 \label{fig:red_exper_stab1}
 \end{figure}
 
@@ -707,8 +707,8 @@ Este experimento muestra el \textit{atractor de extinción} que conduce a la des
 
 \begin{figure}[ht!]
 \centering
-\includegraphics[scale = 0.5]{DINAMICA_Fig6_carrying_cap.eps}
-\caption {Evolución temporal de las poblacoines y de las tasas de crecimiento efectivas del mismo sistema de $4+5$ species (figura \ref{fig:red_exper_stab1}). La comunidad termina con todas las especies en sus capacidades de carga respectivas.}
+\includegraphics[scale = 0.66]{DINAMICA_Fig6_carrying_cap.eps}
+\caption {Evolución temporal de las poblaciones y de las tasas de crecimiento efectivas del mismo sistema de $4+5$ species (figura \ref{fig:red_exper_stab1}). La comunidad termina con todas las especies en sus capacidades de carga respectivas.}
 \label{fig:exper_carrying_cap}
 \end{figure}
 
@@ -716,7 +716,7 @@ La figura \ref{fig:exper_carrying_cap} muestra un segundo experimento, con la mi
 
 \begin{figure}[h!]
 \centering
-\includegraphics[scale = 0.5 ]{DINAMICA_Fig7_partial_extinct.eps}
+\includegraphics[scale = 0.66 ]{DINAMICA_Fig7_partial_extinct.eps}
 \caption {Resultados del tercer experimento. El polinizador $4$ y la planta $4$ se extinguen.}
 \label{fig:exper_stab2}
 \end{figure}
@@ -725,14 +725,80 @@ En la tercera simulación exploramos las extinciones parciales (figure \ref{fig:
 
 En esta simulación todas las poblaciones empiezan por debajo de sus capacidades de carga. Todas evolucionan hacia sus máximos excepto el polinizador $4$ y la planta $4$ que se extinguen. La especie de planta $2$ empieza con una tasa eficaz negativa pero el crecimiento de sus mutualistas da la vuelta a esta situación y termina sobreviviendo.
 
+\subsection{Simulaciones con saturación del beneficio}
+\label{results_K_constante}
+
+En este apartado presentamos los resultados de las simulaciones que hemos llevado a cabo con el modelo de saturación del beneficio mutualista (ecuaciones \ref{eq:DINAMICA_modeloralphaconmut}). Para el primer experimento hemos utilizado la misma red ficticia que en el apartado anterior (figura \ref{fig:red_exper_stab1})
+
+\begin{figure}[b!]
+\centering
+\includegraphics[scale=0.66]{DINAMICA_SATU_experimento_1.pdf}
+\caption {Resultados del primer experimento. La parametrización puede verse en el Anexo \ref{DINAMICA_ANEXO_saturacion}, tabla \ref{tab:SAT_experiment1}.}
+\label{fig:DINAMICA_SAT_exper_stab1}
+\end{figure}
+
+En todos los experimentos las tasas vegetativas son negativas, el mutualismo es obligado para todas las especies.
+
+El primer experimento con saturación es similar al realizado para el modelo con capacidades de carga constantes. En este caso, hay especies que empiezan la simulación con tasas efectivas negativas y otras positivas, pero el sistema está al principio por debajo de la divisoria multidimensional y se extingue porque la trayectoria termina en el atractor de destrucción.
+
+\begin{figure}[h!]
+\centering
+\includegraphics[scale=0.8]{DINAMICA_SATU_experimento_2.pdf}
+\caption {Resultados del segundo experimento. La configuración puede consultarse en el Anexo  \ref{DINAMICA_ANEXO_saturacion}, tabla \ref{tab:SAT_experiment2}.}
+\label{fig:DINAMICA_SAT_exper_stab2}
+\end{figure}
+
+La segunda simulación (figura \ref{fig:DINAMICA_SAT_exper_stab2}) muestra como el sistema evoluciona hasta máximos de todas las especies. En este caso resulta de gran interés ver como varían las tasas de crecimiento eficaces y la complejidad que pueden llegar a adquirir por las múltiples interacciones. Al final todas terminan anulándose porque el sistema ha alcanzado el punto de equilibrio máximo. 
+
+Los análisis de estabilidad de este capítulo asumían que las condiciones no se alteran durante el estudio. En realidad, las tasas varían como consecuencia de diferentes perturbaciones medioambientales. A continuación, vamos a ver la resistencia del sistema ante perturbaciones externas, simulando fuerte incrementos en las tasas de mortalidad $r_{d_i}$ como las que producen las sequías o las enfermedades. La literatura afirma que el \emph{anidamiento} proporciona resistencia a las comunidades \citep{bascompte2003nested}. Los dos últimos experimentos muestran como influye esta magnitud.
+
+\begin{figure}[h!]
+\centering
+\includegraphics[scale=0.28]{DINAMICA_SAT_red_exper_resilience_strong.pdf}
+\caption {Red con anidamiento fuerte. Tabla \ref{tab:SAT_exper_resilience_strong}.}
+\label{fig:DINAMICA_SAT_red_exper_resilience_strong}
+\end{figure}
+
+En el penúltimo usamos otra red fictica, con siete especies de plantas y cinco de polinizadores (figura \ref{fig:DINAMICA_SAT_red_exper_resilience_strong}). Puede identificarse de manera visual el núcleo central de especies generalistas y las especies especialistas conectadas a generalistas de la clase contraria. Se han elegido las poblaciones iniciales para que el sistema esté en la cuenca de supervivencia.
+
+\begin{figure}[h!]
+\centering
+\includegraphics[scale=0.75]{DINAMICA_SATU_nested.pdf}
+\caption {Experimento con la red con anidamiento fuerte. Una perturbación externa ataca la especie de planta número $6$. Tabla \ref{tab:SAT_exper_resilience_strong}.}
+\label{fig:DINAMICA_SAT_exper_resilience_strong}
+\end{figure}
+
+El sistema crecería hasta alcanzar máximos en ausencia de perturbaciones externas, pero la especie $6$ de plantas sufre un aumento abrupto de mortalidad de un $20\%$ anual que la conduce a la extinción. Esta especie estaba conectada solo al polinizador $1$, el más generalista de su clase. El efecto de la extinción es despreciable sobre este polinizador porque el resto de especies benefactoras lo suplen. 
+
+\begin{figure}[h!]
+\centering
+\includegraphics[scale=0.28]{DINAMICA_SAT_red_exper_resilience_weak.pdf}
+\caption {Red débilmente anidada. Tabla \ref{tab:SAT_exper_resilience_weak}.}
+\label{fig:DINAMICA_SAT_red_exper_resilience_weak}
+\end{figure}
+
+El último experimento usa una red ligeramente modificada (figura\ref{fig:DINAMICA_SAT_red_exper_resilience_weak}). La especie de plantas $6$ se conecta al polinizador $5$, un especialista. También se elimina el enlace que conecta la planta $1$ con el polinizador $5$ y se reemplaza por uno nuevo entre la planta $7$ y el polinizador $1$.  
+
+\begin{figure}[h!]
+\centering
+\includegraphics[scale=0.75]{DINAMICA_SATU_weak.pdf}
+\caption {Experimento con una red menos anidada. Una perturbación externa ataca la planta $6$. Tabla \ref{tab:SAT_exper_resilience_weak}.}
+\label{fig:DINAMICA_SAT_exper_resilience_weak}
+\end{figure}
+
+Las posibilidades de supervivencia de una nueva especie que llegue a la comunidad son mayores si se conecta con una generalista. Este propiedad se debe no solo al hecho de que las generalistas son menos vulnerables por la gran cantidad de especies de las que reciben beneficio. Enlazarse con una especialista expone a la destrucción por arrastre.
+
+Cuando la planta $6$ es atacada y se extingue el efecto es mucho peor para la red. El polinizador $5$ pierde a su única especie benefactora, de manera que su tasa efectiva se vuelve negativa y finalmente desaparecerá. La planta $7$, conectada con el polinizador $5$ también se ve condenada a la extinción porque su enlace con el polinizador $1$ no compensa la pérdida. En resumen, una perturbación externa sobre la especie de planta $6$ arrastra a la extinción a la planta $7$ por culpa del enlace que comparten con el polinizador $5$. Si ambas plantas compartieran enlaces con el núcleo generalista esta destrucción en cascada resultaría mucho más improbable.
+
 \section{Conclusiones}
 
 Nunc posuere quam at lectus tristique eu ultrices augue venenatis. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Aliquam erat volutpat. Vivamus sodales tortor eget quam adipiscing in vulputate ante ullamcorper. Sed eros ante, lacinia et sollicitudin et, aliquam sit amet augue. In hac habitasse platea dictumst.
 
-\section{Anexo: Datos de las simulaciones del modelo con $K$ constantes}
+\clearpage
+\section{Anexo: Datos de las simulaciones del modelo con \textit{K} constantes}
 \label{DINAMICA_ANEXO_KConst}
 
-\begin{table}[ht!]
+\begin{table}[h!]
 \centering
 \footnotesize
 \begin{tabular}{lrrrr}
@@ -850,13 +916,184 @@ $K_{m}$& 5000 & 4000 & 3000 & 2000 & 2000\\
 \label{tab:experiment3}
 \end{table}
 
+\section{Anexo: Datos de las simulaciones del modelo con saturación}
+\label{DINAMICA_ANEXO_saturacion}
+
+\begin{table}[h!]
+\centering
+\footnotesize
+\begin{tabular}{lrrrr}
+\hline
+ & Planta 1 & Planta 2 & Planta 3 & Planta 4  \\
+\hline
+$b_{1j}${\tiny $\left(10^{-6}\right)$} & 1 & 12 & 12 & 16\\
+$b_{2j}${\tiny $\left(10^{-6}\right)$} & 12 & 4 & 11 & 0 \\
+$b_{3j}${\tiny $\left(10^{-6}\right)$} & 12 & 10 & 0 & 0 \\
+$b_{4j}${\tiny $\left(10^{-6}\right)$} & 6 & 10 & 0 & 0 \\
+$b_{5j}${\tiny $\left(10^{-6}\right)$} & 10 & 0 & 0 & 0 \\
+$N_{init\,j}$ & 700 & 600 & 500 & 200 \\
+$c_{j}${\tiny $\left(10^{-4}\right)$} & 1 & 1 & 1 & 1 \\
+$\alpha_{j}${\tiny $\left(10^{-6}\right)$} & 7 & 12 & 12 & 10 \\
+$r_{birth\, j}$ & 0.004 & 0.01 & 0.01 & 0.005 \\
+$r_{death\, j}$ & 0.005 & 0.04 & 0.05 & 0.0055 \\
+\hline
+\\
+\end{tabular}
+\begin{tabular}{lrrrrr}
+\hline
+ &Pol 1&Pol 2&Pol 3&Pol 4&Pol 5\\
+\hline
+$b_{1m}${\tiny $\left(10^{-6}\right)$}&14&13&10&10&20\\
+$b_{2m}${\tiny $\left(10^{-6}\right)$}&12&6&1&10&0\\
+$b_{3m}${\tiny $\left(10^{-6}\right)$}&2&5&1&0&0\\
+$b_{4m}${\tiny $\left(10^{-6}\right)$}&10&1&0&0&0\\
+$N_{init\,m}$ & 500 & 300 & 500 & 200 & 150 \\
+$c_{m}${\tiny $\left(10^{-4}\right)$} & 1 & 1 & 1 & 1 & 1\\
+$\alpha_{m}${\tiny $\left(10^{-6}\right)$} & 10 & 10 & 8 & 10 & 30\\
+$r_{b\, m}$ & 0.28 & 0.02 & 0.05 & 0.02 & 0.02 \\
+$r_{d\, m}$ & 0.44 & 0.058 & 0.065 & 0.034 & 0.038 \\
+\hline
+\end{tabular}
+\normalsize
+\caption{Coeficientes y condiciones del primer experimento con saturación del beneficio (figura \ref{fig:DINAMICA_SAT_exper_stab1}), con la red de la figura \ref{fig:red_exper_stab1}. Arriba, la matriz polinizador-planta; abajo la matriz planta-polinizador.}
+
+\label{tab:SAT_experiment1}
+\end{table}
+\begin{table}[hp]
+\centering
+\footnotesize
+\begin{tabular}{lrrrr}
+\hline
+ & Planta 1 & Planta 2 & Planta 3 & Planta 4  \\
+\hline
+$b_{1j}${\tiny $\left(10^{-6}\right)$} & 1 & 12 & 12 & 16\\
+$b_{2j}${\tiny $\left(10^{-6}\right)$} & 12 & 4 & 11 & 0 \\
+$b_{3j}${\tiny $\left(10^{-6}\right)$} & 12 & 10 & 0 & 0 \\
+$b_{4j}${\tiny $\left(10^{-6}\right)$} & 6 & 10 & 0 & 0 \\
+$b_{5j}${\tiny $\left(10^{-6}\right)$} & 10 & 0 & 0 & 0 \\
+$N_{init\,j}$ & 1500 & 2000 & 1200 & 1500 \\
+$c_{j}${\tiny $\left(10^{-4}\right)$} & 1 & 1 & 1 & 1 \\
+$\alpha_{j}${\tiny $\left(10^{-6}\right)$} & 7 & 12 & 12 & 10 \\
+$r_{birth\, j}$ & 0.004 & 0.01 & 0.01 & 0.005 \\
+$r_{death\, j}$ & 0.005 & 0.04 & 0.05 & 0.0055 \\
+\hline
+\\
+\end{tabular}
+\centering
+\begin{tabular}{lrrrrr}
+\hline
+ &Pol 1&Pol 2&Pol 3&Pol 4&Pol 5\\
+\hline
+$b_{1m}${\tiny $\left(10^{-6}\right)$}&14&13&10&10&20\\
+$b_{2m}${\tiny $\left(10^{-6}\right)$}&12&6&1&10&0\\
+$b_{3m}${\tiny $\left(10^{-6}\right)$}&2&5&1&0&0\\
+$b_{4m}${\tiny $\left(10^{-6}\right)$}&10&1&0&0&0\\
+$N_{init\,m}$ & 700 & 600 & 1000 & 700 & 500 \\
+$c_{m}${\tiny $\left(10^{-4}\right)$} & 1 & 1 & 1 & 1 & 1\\
+$\alpha_{m}${\tiny $\left(10^{-6}\right)$} & 10 & 10 & 8 & 10 & 30\\
+$r_{b\, m}$ & 0.28 & 0.02 & 0.05 & 0.02 & 0.02 \\
+$r_{d\, m}$ & 0.44 & 0.058 & 0.065 & 0.034 & 0.038 \\
+\hline
+\end{tabular}
+\normalsize
+\caption{Coeficientes y condiciones del segundo experimento con saturación del beneficio (figura \ref{fig:DINAMICA_SAT_exper_stab2}). Arriba, la matriz polinizador-planta; abajo la matriz planta-polinizador.}
+\label{tab:SAT_experiment2}
+\end{table}
+
+\begin{table}
+\centering
+\scriptsize
+\begin{tabular}{lrrrrrrr}
+\hline
+ &Planta 1&Planta 2&Planta 3&Planta 4&Planta 5&Planta 6&Planta 7\\
+\hline
+$b_{1j\, }${\tiny $\left(10^{-6}\right)$}&20&12&16&16&19&25&35\\
+$b_{2j\, }${\tiny $\left(10^{-6}\right)$}&12&14&4.1&2&22&0&0\\
+$b_{3j\, }${\tiny $\left(10^{-6}\right)$}&20&11&3.1&20&0&0&0\\
+$b_{4j\, }${\tiny $\left(10^{-6}\right)$}&11&24&0&0&0&0&0\\
+$b_{5j\, }${\tiny $\left(10^{-6}\right)$}&1&0&0&0&0&0&0\\
+$N_{init\,j}$&1200 & 1500 & 800 & 770 & 700 & 800 & 400\\
+$c_{j}${\tiny $\left(10^{-4}\right)$} & 1 & 0.5 & 1 & 2 & 1 & 1 & 1\\
+$\alpha_{j}${\tiny $\left(10^{-6}\right)$} & 20 & 30 & 10 & 10 & 50 & 10 &10\\
+$r_{birth\, j}$ & 0.004 & 0.01 & 0.02 & 0.005 & 0.004 & 0.02 & 0.025\\
+$r_{death\, j}$ & 0.03 & 0.04 & 0.04 & 0.055 & 0.03 & 0.03 & 0.028\\
+\hline
+\\
+\end{tabular}
+\centering
+\begin{tabular}{lrrrrr}
+\hline
+ &Pol 1&Pol 2&Pol 3&Pol 4&Pol 5\\
+\hline
+$b_{1m\,}${\tiny $\left(10^{-6}\right)$}&14&13&23&30&23\\
+$b_{2m\,}${\tiny $\left(10^{-6}\right)$}&19&26&10&10&0\\
+$b_{3m\,}${\tiny $\left(10^{-6}\right)$}&2&25&10&0&0\\
+$b_{4m\,}${\tiny $\left(10^{-6}\right)$}&1&11&10&0&0\\
+$b_{5m\,}${\tiny $\left(10^{-6}\right)$}&1&1&0&0&0\\
+$b_{6m}${\tiny $\left(10^{-6}\right)$}&1&0&0&0&0\\
+$b_{7m}${\tiny $\left(10^{-6}\right)$}&1&0&0&0&0\\
+$N_{init\,m}$ & 1200 & 1500 & 1300 & 1000 & 700 \\
+$c_{m}${\tiny $\left(10^{-4}\right)$} & 1 & 1 & 1 & 0.7 & 2\\
+$\alpha_{m}${\tiny $\left(10^{-6}\right)$} & 10 & 10 & 20 & 10 & 20\\
+$r_{b\, m}$ & 0.08 & 0.02 & 0.02 & 0.05 & 0.02 \\
+$r_{d\, m}$ & 0.11 & 0.078 & 0.068 & 0.07 & 0.028 \\
+\hline
+\end{tabular}
+\normalsize
+\caption{Coeficientes y condiciones para el experimento con la red fuertemente anidada (figura \ref{fig:DINAMICA_SAT_red_exper_resilience_strong}). Arriba, la matriz polinizador-planta; abajo la matriz planta-polinizador.}
+\label{tab:SAT_exper_resilience_strong}
+\end{table}
+
+\begin{table}[h!]
+\centering
+\scriptsize
+\begin{tabular}{lrrrrrrr}
+\hline
+ &Planta 1&Planta 2&Planta 3&Planta 4&Planta 5&Planta 6&Planta 7\\
+\hline
+$b_{1j\, }${\tiny $\left(10^{-6}\right)$}&20&12&16&16&19&0&45\\
+$b_{2j\, }${\tiny $\left(10^{-6}\right)$}&12&14&4.1&2&22&0&0\\
+$b_{3j\, }${\tiny $\left(10^{-6}\right)$}&20&11&3.1&20&0&0&0\\
+$b_{4j\, }${\tiny $\left(10^{-6}\right)$}&11&24&0&0&0&0&0\\
+$b_{5j\, }${\tiny $\left(10^{-6}\right)$}&0&0&0&0&0&25&1\\
+$N_{init\,j}$&1200 & 1500 & 800 & 770 & 700 & 400 &1000\\
+$c_{j}${\tiny $\left(10^{-4}\right)$} & 1 & 0.5 & 1 & 2 & 1 & 1 & 1\\
+$\alpha_{j}${\tiny $\left(10^{-6}\right)$} & 20 & 30 & 10 & 10 & 50 & 10 &10\\
+$r_{birth\, j}$ & 0.004 & 0.01 & 0.02 & 0.005 & 0.004 & 0.02 & 0.025\\
+$r_{death\, j}$ & 0.03 & 0.04 & 0.04 & 0.055 & 0.03 & 0.024 & 0.04\\
+\hline
+\\
+\end{tabular}
+\begin{tabular}{lrrrrr}
+\hline
+ &Pol 1&Pol 2&Pol 3&Pol 4&Pol 5\\
+\hline
+$b_{1m\,}${\tiny $\left(10^{-6}\right)$}&14&13&23&30&0\\
+$b_{2m\,}${\tiny $\left(10^{-6}\right)$}&19&26&10&10&0\\
+$b_{3m\,}${\tiny $\left(10^{-6}\right)$}&2&25&10&0&0\\
+$b_{4m\,}${\tiny $\left(10^{-6}\right)$}&1&11&10&0&0\\
+$b_{5m\,}${\tiny $\left(10^{-6}\right)$}&1&1&0&0&0\\
+$b_{6m}${\tiny $\left(10^{-6}\right)$}&0&0&0&0&5\\
+$b_{7m}${\tiny $\left(10^{-6}\right)$}&1&0&0&0&30\\
+$N_{init\,m}$ & 1200 & 1500 & 1300 & 1000 & 700 \\
+$c_{m}${\tiny $\left(10^{-4}\right)$} & 1 & 1 & 1 & 0.7 & 2\\
+$\alpha_{m}${\tiny $\left(10^{-6}\right)$} & 10 & 10 & 20 & 10 & 20\\
+$r_{b\, m}$ & 0.09 & 0.02 & 0.02 & 0.05 & 0.02 \\
+$r_{d\, m}$ & 0.11 & 0.058 & 0.04 & 0.07 & 0.025 \\
+\hline
+\end{tabular}
+\normalsize
+\caption{Coeficientes y condiciones para el experimento con la red débilmente anidada (figura \ref{fig:DINAMICA_SAT_red_exper_resilience_weak}). Arriba, la matriz polinizador-planta; abajo la matriz planta-polinizador.}
+\label{tab:SAT_exper_resilience_weak}
+\end{table}
+
 
 
 \section{Anexo: Análisis de la estabilidad en detalle}
 \label{DINAMICA_ANEXO_estabilidad}
 
 Para simplificar, prescindimos de los superíndices que representan las clases $animal$ y $planta$. 
-El sitema de ecuaciones \ref{eq:DINAMICA_dos_especies} se desarrolla en serie de Taylor en la vecindad del punto singular ($N^{*}_{1}, N^{*}_{2}$) como  $N_{1}= N^{*}_1+\tilde{N}_{1}$ y $N_{2}= N^{*}_2+\tilde{N}_{2}$ \cite{murray1993mathematical}:
+El sistema de ecuaciones \ref{eq:DINAMICA_dos_especies} se desarrolla en serie de Taylor en la vecindad del punto singular ($N^{*}_{1}, N^{*}_{2}$) como  $N_{1}= N^{*}_1+\tilde{N}_{1}$ y $N_{2}= N^{*}_2+\tilde{N}_{2}$ \cite{murray1993mathematical}:
 
 \begin{equation}
 \begin{array}{lcr}
