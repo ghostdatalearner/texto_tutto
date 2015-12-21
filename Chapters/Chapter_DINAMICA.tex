@@ -10,7 +10,7 @@
 
 \section{Dinámica de las comunidades mutualistas}
 
-A pesar de su larga historia, hay aun muchos puntos abiertos en la investigación de la dinámica de poblaciones. Algunas de ellas fueron presentadas en el 125 aniversario de la revista {\em Science} hace ya una década  \cite{kennedy2005,pennisi2005,stokstad2005}. Por ejemplo, los mecanismos que dan origen y mantienen la biodiversidad en en un ecosistema son objeto de investigación desde campos diversos por la comunidad científica \cite{williams2000,dunne2002biodiversity,olesen2007modularity,allesina2008,bascompte2009,saavedra2009,bastolla2009,fortuna2010nestedness,encinas2012}.  
+A pesar de su larga historia, hay aun muchos puntos abiertos en la investigación de la dinámica de poblaciones. Algunos de ellas fueron presentadas en el 125 aniversario de la revista {\em Science} hace ya una década  \cite{kennedy2005,pennisi2005,stokstad2005}. Por ejemplo, los mecanismos que dan origen y mantienen la biodiversidad en un ecosistema son objeto de investigación desde campos diversos por la comunidad científica \cite{williams2000,dunne2002biodiversity,olesen2007modularity,allesina2008,bascompte2009,saavedra2009,bastolla2009,fortuna2010nestedness,encinas2012}.  
 
 El antecente más antiguo del estudio cuantitativo de las poblaciones se remonta a $1202$ cuando Leonardo Pisano (\textit{Fibonacci}), describió en su obra enciclopédica {\em Liber Abaci} la serie que sigue el crecimiento de una población de conejos \cite{sigler2002}. La teoría clásica de poblaciones, no obstante, se remonta a a $1798$ cuando Robert Malthus publicó {\em An Essay on the Principle of Population} \citep{malthus1798}. En dicha obra Malthus razonaba que el crecimiento de la población humana es proporcional al tamaño dado en un momento. Trasladándolo a una ecuación diferencial:
 \begin{equation}
@@ -19,14 +19,14 @@ El antecente más antiguo del estudio cuantitativo de las poblaciones se remonta
 \end{equation}
 \noindent donde $N$ es el número de individuos y $r_0$ la {\em tasa intrínseca o vegetativa} de crecimiento de la polación, igual a la diferencia de las tasas de reproducción y defunciones cuando no hay migraciones.
 
-El modelo malthusiano predice un crecimiento exponencial, así que si $r_0 > 0$ no tendría límite. En este modelo $r_0$ permanece constante a lo largo del proceso, sin tener en cuenta factores limitantes como la falta de alimentos o de espacio. En $1838$ Verhulst añadió un término adicional y llamó su modelo modificado ecuación \emph{logística} \cite{verhulst1845}. La hipótesis de Verhulst es que la tasa de crecimiento debe reducirse conforme $N$ aumenta, hasta alcanzar un máximo. La forma matemática más simple de conseguirlo es haciendo que $r_0$ sea una función lineal de $N$: $ r_0 = r - \alpha N$, donde $r$ es la tasa intrínseca de crecimiento y $\alpha$ un coeficiente positivo de fricción que se interpreta como la competeción entre los individuos de la misma especie por los recursos que permiten su crecimiento y supervivencia. El modelo $r-\alpha$ de Verhulst es:
+El modelo malthusiano predice un crecimiento exponencial, así que si $r_0 > 0$ no tendría límite. En este modelo $r_0$ permanece constante a lo largo del proceso, sin tener en cuenta factores limitantes como la falta de alimentos o de espacio. En $1838$ Verhulst añadió un término adicional y llamó a su modelo modificado ecuación \emph{logística} \cite{verhulst1845}. La hipótesis de Verhulst es que la tasa de crecimiento debe reducirse conforme $N$ aumenta, hasta alcanzar un máximo. La forma matemática más simple de conseguirlo es haciendo que $r_0$ sea una función lineal de $N$: $ r_0 = r - \alpha N$, donde $r$ es la tasa intrínseca de crecimiento y $\alpha$ un coeficiente positivo de fricción que se interpreta como la competeción entre los individuos de la misma especie por los recursos que permiten su crecimiento y supervivencia. El modelo $r-\alpha$ de Verhulst es:
 \begin{equation}
 \frac{dN}{dt}=r \, N \,  - \alpha  \, N^2 
 \label{eq:primitiveverhulst}
 \end{equation}
-El término con $\alpha$ actúa como un freno biológico, que sitúa al sistema en un punto de equilibrio cuando la población alcanza un valor $ K = r / \alpha$, comúnmente denominado \emph{capcidad de carga}.
+El término $\alpha$ actúa como un freno biológico, que sitúa al sistema en un punto de equilibrio cuando la población alcanza un valor $ K = r / \alpha$, comúnmente denominado \emph{capcidad de carga}.
 
-Sin embargo, la ecuación logística se conoce mucho más en la forma que Raymond Pearl introdujo en un libro biometría en $1930$ (véase una excelente reseña histórica en \cite{mallet2012struggle}). En esta formulación, que se impuso en los libros de texto y en la literatura científica, la capacidad de carga aparece como un parámetro explícito de la ecuación y por ello se conoce como la forma $r-K$:
+Sin embargo, la ecuación logística se conoce mucho más en la forma que Raymond Pearl introdujo en un libro de biometría en $1930$ (véase una excelente reseña histórica en \cite{mallet2012struggle}). En esta formulación, que se impuso en los libros de texto y en la literatura científica, la capacidad de carga aparece como un parámetro explícito de la ecuación y por ello se conoce como la forma $r-K$:
 
 \begin{equation}
 \frac{dN}{dt}=r \, N \, \left(1-\frac{N}{K}\right)
@@ -35,7 +35,7 @@ Sin embargo, la ecuación logística se conoce mucho más en la forma que Raymon
 
 La solución de esta ecuación es una curva sigmoide que crece asintóticamente hacia $K$. La fórmula de Pearl tiene algunos inconvenientes matemáticos importantes \citep{kuno1991some,gabriel2005paradoxes}. El más notable es que predice un absurdo crecimiento si la tasa $r$ es negativa pero la población inicial está por encima de la capacidad de carga. Este problema fue señalado por Richard Levins y en consecuencia de denomina \textit{paradoja de Levins}. Es importante señalarlo, porque todos los modelos de mutualismo se han derivado de la logística en la formulación de Pearl y por tanto arrastran este inconveniente.
 
-Para solucionar el problema Levins propuso que $r$, debía ser siempre no negativa. Gabriel \emph{et al.} encontraron una solución más elegante usando la formulación original de Verhulst. La condición para que el sistema alcance la establidad es que el coeficiente $\alpha$ sea siempre positivo y la capacidad de carga se redefine como:
+Para solucionar el problema Levins propuso que $r$ debía ser siempre no negativa. Gabriel \emph{et al.} encontraron una solución más elegante usando la formulación original de Verhulst. La condición para que el sistema alcance la establidad es que el coeficiente $\alpha$ sea siempre positivo y la capacidad de carga se redefine como:
 
 \begin{equation}
 K_{\infty}=\lim_{t\rightarrow\infty}N(t),\; N(0)>0
@@ -57,15 +57,15 @@ Estos modelos primitivos de dinámica no incluían interacciones entre las espec
 \label{myeq1}
 %\end{split}
 \end{align}
-\noindent donde $a$, $b$, $c$ y $d$ son constantes positivas. En el modelo de Lotka-Volterra model, como se conoce hoy, el crecimiento de la población de la presa está limitado por la porblación del derpedador y viceversa. Este par de ecuaciones tiene una solución oscilatoria.
+\noindent donde $a$, $b$, $c$ y $d$ son constantes positivas. En el modelo de Lotka-Volterra, como se conoce hoy, el crecimiento de la población de la presa está limitado por la población del derpedador y viceversa. Este par de ecuaciones tiene una solución oscilatoria.
 
-El mutualismo ha recibido menos atención históricamente, también desde el punto de vista matemático. El primer modelo fue propuesto por Richard May. Cada una de las ecuaciones de May es una logística con un tercer término que representa el beneficio mutualista. Es la misma idea que la del modelo Lotka-Volterra, pero con un inconveninete analítico, las interacciones son siempre positivas, de manera que no hay oscialciones y si la posibilidad de un crecimimento ilimitado. El modelo de May se fromaliza como:
+El mutualismo ha recibido menos atención históricamente, también desde el punto de vista matemático. El primer modelo fue propuesto por Richard May. Cada una de las ecuaciones de May es una logística con un tercer término que representa el beneficio mutualista. Es la misma idea que la del modelo Lotka-Volterra, pero con un inconveninete analítico, las interacciones son siempre positivas, de manera que no hay oscialciones y sí la posibilidad de un crecimimento ilimitado. El modelo de May se formaliza como:
 \begin{align}
 \frac{dN_1}{dt}=r_1 \,N_1\,\left(1-\frac{N_1}{K_1}\right)+r_1\, N_1\,\beta_{12}\, \frac{N_2}{K_1} \nonumber \\ 
 \frac{dN_2}{dt}=r_2\, N_2\, \left(1-\frac{N_2}{K_2}\right)+r_2\, N_2\, \beta_{21} \, \frac{N_1}{K_2} 
 \label{myeq2}
 \end{align}
-\noindent donde $N_1(N_2)$ es la población de la especie $1(2)$; $r_{1,2}$ es la tasa vegetativa de la población $1\, (2)$ y $K_1\, (K_2)$ la capacidad de carga. Este es el máximo que el entorno puede mantener en función de la disponibilidad de sustento y espacio. Por último, $\beta_{12}\,(\beta_{21})$ es el coeficiente que representa el beneficio mutualista para la especie $1\,(2)$ de su interacción con la $2\,(1)$. El principal inconveniente del modelo de May es que conduce a crecimiento ilimitado. No obstante, ha servido de inspiración para todos sus sucesores que incorporar términos adicionales para solucionar este problema.
+\noindent donde $N_1(N_2)$ es la población de la especie $1(2)$; $r_{1,2}$ es la tasa vegetativa de la población $1\, (2)$ y $K_1\, (K_2)$ la capacidad de carga. Este es el máximo que el entorno puede mantener en función de la disponibilidad de sustento y espacio. Por último, $\beta_{12}\,(\beta_{21})$ es el coeficiente que representa el beneficio mutualista para la especie $1\,(2)$ de su interacción con la $2\,(1)$. El principal inconveniente del modelo de May es que conduce a crecimiento ilimitado. No obstante, ha servido de inspiración para todos sus sucesores que incorporan términos adicionales para solucionar este problema.
 
 Ha habido diferentes estrategias de ataque. Wright propuso un modelo de dos especies con saturación como resultado de las restricciones del \textit{handling time}, $T_H$, que corresponde al tiempo necesario para procesar los recursos (comida) producidos por la relación mutualista \cite{wright1989}. Esto dio lugar a la familia de modelos conocida como \textit{tipo II}:
 \begin{align}
@@ -75,7 +75,7 @@ Ha habido diferentes estrategias de ataque. Wright propuso un modelo de dos espe
 \end{align}
 \noindent donde $a$ es la tasa efectiva de búsqueda y $b$ un coeficiente que tiene en cuenta los encuentros entre individuos de las especies $1$ y $2$. La dinámica del modelo depende en gran medida del afinado de los parámetros, pero para un rango limitado de ellos muestra tres puntos fijos. Uno estable, que corresponde con la destrucción completa, otro también estable en máximos de población y un \textit{saddle} que separa las cuencas de atracción de los dos primeros. Usando un modelo tipo II, Bastolla demostró la importancia de la estructura de la red para minimizar la competencia entre especies y optimizar la biodiversidad \cite{bastolla2005,bastolla2009}. Los modelos de tipo II son, no obstante, difíciles de manejar analíticamente, debido a la forma en fracción del término mutualista. Hay otras alternativas recientes \cite{johnson2013} que proponen añadir términos adicionales al modelo tipo II, dificultando aun más el análisis.
 
-En este capítulo proponemos dos modelos alternativos. El primero se basa en la fórmula de Pearl y es garantizar la estabilidad forzando a que la capacidad de carga sea constante. El segundo se aparta de lo publicado hasat la fecha y vuelve la vista a la formulación $r-\alpha$ de la ecuación de Verhulst.
+En este capítulo proponemos dos modelos alternativos. El primero se basa en la fórmula de Pearl y se garantiza la estabilidad forzando a que la capacidad de carga sea constante. El segundo se aparta de lo publicado hasta la fecha y vuelve la vista a la formulación $r-\alpha$ de la ecuación de Verhulst.
 
 \clearpage
 \section{Modelo con capacidad de carga constante}
@@ -116,7 +116,7 @@ La dinámica de la población de la especie $i$ se puede escribir como:
 \label{ec:vhoptionI}
 \end{equation}
 
-Si $r_b > r_d$ no hay diferencia con la formulación habitual del modelo de Pearl. El término cuadrático es siempre negativo y eso implica la reducción de la población. La ecuación también predice correctamente el comportamiento cuando $N>K$. Cuanto mayor sea la población, la tasa de crecimiento es menor, incluso $r_b < r_d$. En la figura \ref{fig:r_equiv_Verh+modif} se puede ver una comparativa de la tasa de crecimiento en la formulación de Pearl y de la del modelo modificado de la ecuación \ref{ec:vhoptionI}. La figura \ref{fig:r_equiv_Verh+modif}a muestra la tasa de crecimiento para distintos valores de la tasa vegetativa entre $r=-0.8$ y $r=0.8$.
+Si $r_b > r_d$ no hay diferencia con la formulación habitual del modelo de Pearl. El término cuadrático es siempre negativo y eso implica la reducción de la población. La ecuación también predice correctamente el comportamiento cuando $N>K$. Cuanto mayor sea la población, la tasa de crecimiento es menor, incluso si $r_b < r_d$. En la figura \ref{fig:r_equiv_Verh+modif} se puede ver una comparativa de la tasa de crecimiento en la formulación de Pearl y de la del modelo modificado de la ecuación \ref{ec:vhoptionI}. La figura \ref{fig:r_equiv_Verh+modif}a muestra la tasa de crecimiento para distintos valores de la tasa vegetativa entre $r=-0.8$ y $r=0.8$.
  
  
 \begin{figure}[ht]
@@ -127,7 +127,7 @@ $r=-0.4$ (rojo), $r=0.4$ azul y $r=0.8$ naranja. b) La misma gráfica para la ec
 \label{fig:r_equiv_Verh+modif}
 \end{figure}
 
-Por su parte, la figura \ref{fig:r_equiv_Verh+modif}b muestra la tasa de crecimiento para nuestra fórmula modificada. En este caso la tasa per cápita dsiminuye siempre con el aumento de la población. Basados en esta idea proponemos un modelo de dinámica con capacidad de carga constante.
+Por su parte, la figura \ref{fig:r_equiv_Verh+modif}b muestra la tasa de crecimiento para nuestra fórmula modificada. En este caso la tasa per cápita disminuye siempre con el aumento de la población. Basados en esta idea proponemos un modelo de dinámica con capacidad de carga constante.
 
 En el modelo de May se asume que la capacidad de carga y la tasa de crecimiento intrínseca de las especies son constantes e independientes del término mutualista. El efecto del mutualismo es un incremento de la tasa de crecimiento efectiva.
 
@@ -164,7 +164,7 @@ En ausencia de mutualismo se convierte en la ecuación logística modificada. El
 \centering
 %\includegraphics[scale=0.28]{rectas_optionI_2.eps}
 \includegraphics[scale=0.75]{DINAMICA_r1_eq_N1N2_r1p8b12p05K50.eps}
-\caption{Per capita growth rate for species 1 with vegetative rate $r_1=-0.8$, carrying capacity $K_1=50$, and mutualism interaction coefficient $b_{12}=0.05$, for different values of population $N_2=0,10,20,30,40,50$.}
+\caption{Crecimiento per cápita de la especie $1$ con tasa de crecimiento vegetativa $r_1=-0.8$, capacidad de carga $K_1=50$, y coeficiente de interacción $b_{12}=0.05$, para diferentes valores de población: $N_2=0,10,20,30,40,50$.}
 \label{fig:per capita_growth_rate_mutualism}
 \end{figure}
 
@@ -177,7 +177,7 @@ Incluyendo la modificación usada en las ecuaciones \ref{eq:May_reff}, el modelo
 
 Como ya se ha indicado, la función $sgn(r_{\rm{eq}})$ tiene sentido biológico porque la competencia intra especie debe ser siempre negativa, con independencia del signo de la tasa vegetativa.
 
-Para llegar a la fórmula general, generalizamos a una comunidad con $n$ esoecies de la clase $P$ (plantas), y $m$ especies de la otra $A$ (animales), que se relacionan por medio de una red de interacciones bipartita, pesada y bidireccional. Tomemos una especie $i$ de $P$ de población $N_i$ y otra $j$ de $A$ con $N_j$ individuos. Los pesos de la red representan la tasa de beneficio que recibe la población $i$ por la existencia de $j$. 
+Para llegar a la fórmula final, generalizamos a una comunidad con $n$ esoecies de la clase $P$ (plantas), y $m$ especies de la otra $A$ (animales), que se relacionan por medio de una red de interacciones bipartita, pesada y bidireccional. Tomemos una especie $i$ de $P$ de población $N_i$ y otra $j$ de $A$ con $N_j$ individuos. Los pesos de la red representan la tasa de beneficio que recibe la población $i$ por la existencia de $j$. 
 
 Las expresiones de las tasas de crecimiento de las especies $i$, $j$ quedan:
 \begin{align*}
@@ -218,10 +218,10 @@ Las ecuaciones del sistema más simple, compuesto por una especia de planta a la
 \stepcounter{equation}\tag{\theequation}\label{eq:two_species_reff}
 \end{align*}
 
-En el sistema \ref{eq:two_species_model} se pueden idefnticar cinco puntos fijos:
-la destrucción totoal ($N_1=0$,$N_2=0$), con independencia del valor de $r_{1}$ y $r_{2}$;
+En el sistema \ref{eq:two_species_model} se pueden identificar cinco puntos fijos:
+la destrucción total ($N_1=0$,$N_2=0$), con independencia del valor de $r_{1}$ y $r_{2}$;
 el máximo vital ($N_1=K_1$,$N_2=K_2$) que aparece si $r_{2}>0$ y $r_{1}>0$ simultáneamente (porque $b_{12}$ y $b_{21}$ son siempre positivos), es decir, cuando el mutualismo es facultativo para ambas especies; y las extinciones parciales, ($N_1=0$,$N_2=K_2$)
-y ($N_1=K_1$,$N_2=0$) cuando $r_{2}>0$ y $r_{1}>0$ respectivamente, cuando el mutualismo es facultativo para una sola de las especies. Estas cuatro soluciones son equivalentes a las que aparecen en el modelo clásico de Verhulst. El quinto punto, y el más interesante para el análisis, aparece cuando el mutualismo es obligado para las dos especies, $r_{2}<0$ y $r_{1}<0$, y cuando $r_{\rm{ef},1}=r_{\rm{ef},2}=0$. Se corresponde con los valores de población ($N_1={-r_{2}}/{b_{21}}$, $N_2={-r_{1}}/{b_{12}}$).
+y ($N_1=K_1$,$N_2=0$) cuando $r_{2}>0$ y $r_{1}>0$ respectivamente, si el mutualismo es facultativo para una sola de las especies. Estas cuatro soluciones son equivalentes a las que aparecen en el modelo clásico de Verhulst. El quinto punto, y el más interesante para el análisis, aparece cuando el mutualismo es obligado para las dos especies, $r_{2}<0$ y $r_{1}<0$, y cuando $r_{\rm{ef},1}=r_{\rm{ef},2}=0$. Se corresponde con los valores de población ($N_1={-r_{2}}/{b_{21}}$, $N_2={-r_{1}}/{b_{12}}$).
 
 El análisis de estabilidad lineal de los primeros cuatro puntos se puede hacer con el jacobiano, definido a partir de las ecuaciones de la dinámica de poblaciones
 \begin{align*}
@@ -255,7 +255,7 @@ Para la solución trivial (extinción completa) el jacobiano es:
 %\end{align*}
 \end{equation}
 
-En la extinción total las tasas de crecimiento vegetativas $r_1$ y $r_2$, son los autovalores. En consecuencia, es una solución estable solo para el mutualismo obligado ( $r_{1}<0$ and $r_{2}<0$) e inestable en otro caso.
+En la extinción total las tasas de crecimiento vegetativas $r_1$ y $r_2$ son los autovalores. En consecuencia, es una solución estable solo para el mutualismo obligado ( $r_{1}<0$ y $r_{2}<0$) e inestable en otro caso.
 
 En $(0,K_2)$ el jacobiano vale:
 \begin{equation}
@@ -288,9 +288,9 @@ Y hay un solo punto fijo estable cuando se dan las siguientes condiciones:
 \stepcounter{equation}\tag{\theequation}\label{eq:conditio2}
 \end{align*}
 
-Cuando ambas tasas efectivas de crecimiento son positivas, ambas poblaciones alcanzan las respectivas capacidades de carga.
+Cuando ambas tasas efectivas de crecimiento son positivas, las poblaciones alcanzan las respectivas capacidades de carga.
 
-El último punto fijo $({-r_{2}}/{b_{21}}, {-r_{1}}/{b_{12}})$ staisface que $r_{\rm{ef},1}=0$ y $r_{\rm{ef},2}=0$, y solo aparece para $r_{1}<0$ y $r_{2}<0$. En este caso el jacobiano no está definido porque la función valor anosluto no es diferenciable en $x=0$. Sin embargo, se puede estudiar la estabilidad en su vecindad bajo dos hipótesis, cuando $r_{\rm{ef}}>0$ y cuando $r_{\rm{ef}}<0$.
+El último punto fijo $({-r_{2}}/{b_{21}}, {-r_{1}}/{b_{12}})$ satisface que $r_{\rm{ef},1}=0$ y $r_{\rm{ef},2}=0$, y solo aparece para $r_{1}<0$ y $r_{2}<0$. En este caso el jacobiano no está definido porque la función valor absoluto no es diferenciable en $x=0$. Sin embargo, se puede estudiar la estabilidad en su vecindad bajo dos hipótesis, cuando $r_{\rm{ef}}>0$ y cuando $r_{\rm{ef}}<0$.
 
 Podemos definir cuatro jacobianos dependiendo del signo de $r_{\rm{ef},1}$ y $r_{\rm{ef},2}$. En la vecindad de dicho punto las derivadas son:
 \begin{align*}
@@ -315,26 +315,26 @@ Los autovalores obtenidos de $\left| \mathbf{J}^{\pm,\mp}-\lambda\mathbb{I}  \ri
   \lambda^{\pm,\mp}_{1,2}= \pm \sqrt{r_1 r_2 \left(1\pm\frac{r_2}{b_{21}}K_1 \right)\left(1\mp\frac{r_1}{b_{12}}K_2 \right)}
 \end{align*}
 
-Para cualquier definición de $sgn(r_{eff},1)$ y $sgn(r_{eff},2)$ todos los factores dentro de la raíz cuadrada son positivos, por tanto siempre hay un autovaloe positivo y otro negativo. Esto significa que en la vecindad del punto bajo estudio existe una cuenca de atracción y una de repulsión y por tanto es un \textit{saddle}.
+Para cualquier definición de $sgn(r_{eff},1)$ y $sgn(r_{eff},2)$ todos los factores dentro de la raíz cuadrada son positivos, por tanto siempre hay un autovalor positivo y otro negativo. Esto significa que en la vecindad del punto bajo estudio existe una cuenca de atracción y una de repulsión y por tanto es un \textit{saddle}.
 
-Pese a que el jacobiano no está definico en este punto fijo, el diagrama de flujo puede obtenerse y solo una línea pasa por cualquier punto.
+Pese a que el jacobiano no está definido en este punto fijo, el diagrama de flujo puede obtenerse y solo una línea pasa por cualquier punto.
 
-Este \textit{saddle} marca la frontera entre la cuenca de atracción de los otros puntos fijos estables y, en consecuencia, controla la resistenca del sistema ante perturbaciones externas. Si está próximo a la destrucción completa ($N_1=0$,$N_2=0$), el sistema es más estable porque la cuenca de atracción de $(K_1,K_2)$ es más extensa. Sucede lo contrario cuando se localiza cerca del máximo vital, con ambas poblaciones en capacidades de carga.
+Este \textit{saddle} marca la frontera entre la cuenca de atracción de los puntos fijos estables y, en consecuencia, controla la resistenca del sistema ante perturbaciones externas. Si está próximo a la destrucción completa ($N_1=0$,$N_2=0$), el sistema es más estable porque la cuenca de atracción de $(K_1,K_2)$ es más extensa. Sucede lo contrario cuando se localiza cerca del máximo vital, con ambas poblaciones en capacidades de carga.
 
-La figura \ref{fig:stab1_phase}a muestra las soluciones del sistema \ref{eq:new_model} para dos especies con mutualismo obligado ($r_1<0$ and $r_2<0$), e incio de las trayectorias en los puntos de la rejilla entre $10$ y $70$; la \ref{fig:stab1_phase}b es el diagrama de flujo en torno al \textit{saddle} en ($30,30$). Cuanto mayor sea la intensidad del mutualismo, más próximo se encuentra este punto al origen.
+La figura \ref{fig:stab1_phase}a muestra las soluciones del sistema \ref{eq:new_model} para dos especies con mutualismo obligado ($r_1<0$ y $r_2<0$), e incio de las trayectorias en los puntos de la rejilla entre $10$ y $70$; la \ref{fig:stab1_phase}b es el diagrama de flujo en torno al \textit{saddle} en ($30,30$). Cuanto mayor sea la intensidad del mutualismo, más próximo se encuentra este punto al origen.
 
 \begin{figure}
 \centering
 \includegraphics[scale = 0.5]{DINAMICA_solut_r9b03K100+flowdiagram.eps}
-\caption {a) Soluciones del sistema \ref{eq:new_model} apara $r_1=r_2=-0.9$, $b_{12}=b_{21}=0.03$ y $K_1=K_2=100$. b) Diagrama de flujo en la vecindad del \textit{saddle} en ($30,30$). En rojo, los puntos fijos.}
+\caption {a) Soluciones del sistema \ref{eq:new_model} apara $r_1=r_2=-0.9$, $b_{12}=b_{21}=0.03$ y $K_1=K_2=100$. b) Diagrama de flujo en la vecindad del \textit{saddle} en ($30,30$).}
 \label{fig:stab1_phase}
 \end{figure}
 
 \subsection{Generalización con $n$ especies}
 
-Para una red con múltiples especies, hay que analizar el sistema de ecuaciones \ref{modelo_optionI}. Los puntos fijos son, de nuevo, la extinción total ($N_i=0$, for all $i$), el máximo vital con todas las especies en sus capacidades de carga respectivas ($N_i=K_i$, for all $i$), y cualquier combinación de la solución trivial $N_{i}=0$ con las $N_{j}= K_{j}$, con la condición para las especies supervivientes:
+Para una red con múltiples especies, hay que analizar el sistema de ecuaciones \ref{modelo_optionI}. Los puntos fijos son, de nuevo, la extinción total ($N_i=0$, para todo $i$), el máximo vital con todas las especies en sus capacidades de carga respectivas ($N_i=K_i$, para todo $i$), y cualquier combinación de la solución trivial $N_{i}=0$ con las $N_{j}= K_{j}$, con la condición para las especies supervivientes:
 \begin{equation}
-\displaystyle r_{\rm{ef},j}^{\ast} = r_{j} + \sum_{l} b_{jl}\, K_{l} > 0 \\,
+\displaystyle r_{\rm{ef},j}^{\ast} = r_{j} + \sum_{l} b_{jl}\, K_{l} > 0 \\
 \label{eq:condit_reff_K}
 \end{equation}
 
@@ -402,9 +402,9 @@ El jacobiano es diagonal con los valores
 
 \noindent y $r_{\rm{ef},l}>0$.
 
-Entonces, la condición para que la extinción parcial sea estable es $r_k<-\sum_{s}b_{ks}K_s$, esto es, la tasa intrínseca de crecimimento de las especies que se extinguen es más negativa que menos la contribución mutualista de las especies a las que se conecta y $r_l>-\sum_{s}b_{ls}K_s$, esto es, la tasa intrínseca de crecimiento de las especies supervivientes es mayor que menos la contribución mutualista de sus benefecatoras.
+Entonces, la condición para que la extinción parcial sea estable es $r_k<-\sum_{s}b_{ks}K_s$, esto es, la tasa intrínseca de crecimiento de las especies que se extinguen es más negativa que menos la contribución mutualista de las especies a las que se conecta y $r_l>-\sum_{s}b_{ls}K_s$, esto es, la tasa intrínseca de crecimiento de las especies supervivientes es mayor que menos la contribución mutualista de sus benefactoras.
 
-Otros puntos fijos se obtienen de la condición $r_{\rm{ef},i}=0$, para todo $i$. Como se comentó en el caso de $1+1$ especies, la función valor absoluto no es diferenciable en $x=0$. Sin embargo, podemos definir las derivadas en la vecindad del pungo (\ref{eq:deriv_reff_0}). Suponiendo que $r_{\rm{ef},i}>0$ los términos del jacobiano son:
+Otros puntos fijos se obtienen de la condición $r_{\rm{ef},i}=0$, para todo $i$. Como se comentó en el caso de $1+1$ especies, la función valor absoluto no es diferenciable en $x=0$. Sin embargo, podemos definir las derivadas en la vecindad del punto (\ref{eq:deriv_reff_0}). Suponiendo que $r_{\rm{ef},i}>0$ los términos del jacobiano son:
 \begin{align*}
 \displaystyle
 &\left.\frac{\partial f_i}{\partial N_i} \right|_{r_{\rm{ef},i}=0^{+}} =0\\
@@ -425,7 +425,7 @@ Este es el punto intermedio de la solución, entre la extinción total y el máx
 \clearpage
 \section{Modelo con saturación del beneficio}
 
-La hipótesis de partida es que el mutualismo incrementa a tasa intrínseca de crecimiento de las especies. Esta suposición se basa en observaciones según las cuales la variación de la tasa de crecimiento de las poblaciones (o la fertilidad) tienen una alta correlación con la disponiblidad de recursos \cite{stenseth1998,krebs2002,rueness2003,tyler2008,jones2008}. En este contexto los recursos son las interacciones mutualistas. Supongamos que la comunidad está compuesta por $n_a$ especies de animales, con poblaciones$\{N_{i}^a\}$, y $n_p$ especies de plantas con poblaciones $\{N_{j}^p\}$. El beneficio mutualista entre las especies $i$  de una clase y $j$ de la otra se representa con el elemento $b_{ij}$ de la matriz de interacción. Debe tenerse en cuenta que las matrices no son necesariamente simétricas, y que la intensidad del beneficio de la interacción no es el mismo en ambos sentidos. Para una especie animal $i$, escribimos su tasa de de crecimiento como
+La hipótesis de partida es que el mutualismo incrementa a tasa intrínseca de crecimiento de las especies. Esta suposición se basa en observaciones según las cuales la variación de la tasa de crecimiento de las poblaciones (o la fertilidad) tienen una alta correlación con la disponiblidad de recursos \cite{stenseth1998,krebs2002,rueness2003,tyler2008,jones2008}. En este contexto los recursos son las interacciones mutualistas. Supongamos que la comunidad está compuesta por $n_a$ especies de animales, con poblaciones $\{N_{i}^a\}$, y $n_p$ especies de plantas con poblaciones $\{N_{j}^p\}$. El beneficio mutualista entre las especies $i$  de una clase y $j$ de la otra se representa con el elemento $b_{ij}$ de la matriz de interacción. Debe tenerse en cuenta que las matrices no son necesariamente simétricas y que la intensidad del beneficio de la interacción no es la misma en ambos sentidos. Para una especie animal $i$, escribimos su tasa de de crecimiento como
 \begin{align}
 r_{i} = r_{i}^{0} + \sum_{k=1}^{n_{p}} b_{ik}\, N^{p}_k
 \label{eq:expr}
@@ -453,7 +453,7 @@ Modelo de dinámica mutualista con saturación del beneficio.
 Las expresiones en el lado derecho de las igualdades se pueden interpretar como \textit{tasas de crecimiento efectivas}. 
 
 \begin{theo} 
-Tasa de crecimiemto eficaz de la especie animal $i$.
+Tasa de crecimiemto efectiva de la especie animal $i$.
 \begin{equation}
 r_{ef,i} = r_{i} + \sum_{k=1}^{n_{p}} b_{ik}\, N^{p}_k - \left( \alpha_{i}+ c_{i} \sum_{k=1}^{n_{p}} b_{ik}\, N^{p}_k \right) N^{a}_{i}
 \label{eq:DINAMICA_effrate}
@@ -462,7 +462,7 @@ r_{ef,i} = r_{i} + \sum_{k=1}^{n_{p}} b_{ik}\, N^{p}_k - \left( \alpha_{i}+ c_{i
 
 Las tasas efectivas de las especies de plantas se definen de forma similar sustituyendo $a$ por $p$. Las \textit{capacidades de carga} del sistema son los puntos fijos distintos de cero de las ecuaciones \ref{eq:DINAMICA_modeloralphaconmut}. Es sencillo ver que en ausencia de mutualismo $K_i = r_i/\alpha_i$ para la especie $i$. Por el contrario, en presencia de mutualismo muy intenso, $K_i$ tiende a $1/c_{i}$. El papel de la constante de proporcionalidad $c_i$ es, por tanto, limitar la población máxima de la especie $i$ cuando $c_{i} \sum_{k=1}^{n_p} b_{ik} \, N^p_{k} \gg \alpha_{i}$. 
 
-Consideramos que este modelo podría resultar también válido para otro tipo de interacciones ecológicas en las que todos los términos $b_{ik}$ son positivos, como el comensalismo Commensalism ($b_{ij}=0, b_{ji}>0)$ y el antagonismo ($b_{mn}>0,b_{nm}<0$). 
+Consideramos que este modelo podría resultar también válido para otro tipo de interacciones ecológicas en las que todos los términos $b_{ik}$ son positivos, como el comensalismo ($b_{ij}=0, b_{ji}>0)$ y el antagonismo ($b_{mn}>0,b_{nm}<0$). 
 
 \subsection{Análisis de estabilidad para dos especies}
 
@@ -479,7 +479,7 @@ La figura \ref{DINAMICA_diagram} representa varios diagramas de flujo del sistem
 \begin{figure*}
 \centering
 \includegraphics[scale=0.35]{DINAMICA_Figure1h.eps}
-\caption {Diagrma de flujo de la dinámica de una comunidad de dos especies según el modelo de ecuaciones \ref{eq:DINAMICA_dos_especies}. Los puntos fijos se han resaltado como círculos de color rojo. El color de las flechas indica la intensidad del flujo. Las cuatro imágenes corresponden a diferentes valores para las tases intrínsecas de crecimimento. El resto de parámetros mantiene los mismos valores en los cuatro casos: $\alpha_1 = \alpha_2 = 0.008$, $b_{12} = b_{21} = 0.4$ and $c_1 = c_2 = 0.008$. El mutualismo es obligatorio en a) y b), aunque en diferente grado en el segundo diagrama. Es obligatorio para la especie 2 es c), mientras que la especie 1 podría sobrevivir sin la 2. En d) el mutualismo es facultativo para ambas especies.}
+\caption {Diagrama de flujo de la dinámica de una comunidad de dos especies según el modelo de ecuaciones \ref{eq:DINAMICA_dos_especies}. Los puntos fijos se han resaltado como círculos de color rojo. El color de las flechas indica la intensidad del flujo. Las cuatro imágenes corresponden a diferentes valores para las tasas intrínsecas de crecimimento. El resto de parámetros mantiene los mismos valores en los cuatro casos: $\alpha_1 = \alpha_2 = 0.008$, $b_{12} = b_{21} = 0.4$ y $c_1 = c_2 = 0.008$. El mutualismo es obligatorio en a) y b), aunque en diferente grado en el segundo diagrama. Es obligatorio para la especie 2 es c), mientras que la especie 1 podría sobrevivir sin la 2. En d) el mutualismo es facultativo para ambas especies.}
 \label{DINAMICA_diagram}
 \end{figure*}
 
@@ -512,7 +512,7 @@ Los puntos fijos para ${N^a_2}^*$ se encuentran sustituyendo ${N^p_1}^*$ en la e
 \begin{enumerate}
 \item Ambas raíces complejas. No hay puntos fijos que no supongan extinciones.
 \item Una sola raíz real. Es un punto de bifuración de la dinámica del sistema. Las soluciones son reales pero degeneradas. En este caso existe un único punto fijo aparte de los de extinción. El estado final del sistema depende de la estabilidad de dicho punto. Sin embargo, lo más probable es que las poblaciones terminen extinguiéndose.
-\item Dos raíces reales. La situación es similar a la representada en la imagen de la izquierda de la figura \ref{DINAMICA_diagram}. Hay dos puntos fijos no triviales, típicamente uno estable y un \textit{saddle} sobre la divisoria de las dos cuencas de atracción. La posición de este segundo punto depende de la extensión de la cuenca de extinción y, por tanto, de la resistencia del sistema ante perturbaciones externas. Lo denominamos \textit{umbral de extinción} y su valor lo representamos como$({N_{1}^{p}}^\bullet,{N_{2}^{a}}^\bullet)$.
+\item Dos raíces reales. La situación es similar a la representada en la imagen de la izquierda de la figura \ref{DINAMICA_diagram}. Hay dos puntos fijos no triviales, típicamente uno estable y un \textit{saddle} sobre la divisoria de las dos cuencas de atracción. La posición de este segundo punto depende de la extensión de la cuenca de extinción y, por tanto, de la resistencia del sistema ante perturbaciones externas. Lo denominamos \textit{mínimo vital} y su valor lo representamos como$({N_{1}^{p}}^\bullet,{N_{2}^{a}}^\bullet)$.
 \end{enumerate}
 
 Para estudiar la estabilidad lineal de los puntos fijos, expandimos las ecuaciones \ref{eq:DINAMICA_dos_especies} en serie de Taylor en torno a ellos y calculamos el jacobiano del sistema (ver los detalles en el anexo \ref{DINAMICA_ANEXO_estabilidad}). Si los autovalores son negativos, el punto fijo es estable. En caso contrario, puede ser un \textit{saddle} si uno es positivo y otro negativo o inestable si ambos son negativos. Comenzando por la extinción total, el jacobiano puede escribirse como: 
@@ -522,13 +522,13 @@ J = \left(
 r_{1}   & 0 \\
 0 & r_{2} 
 \end{array}
-\right) .\stepcounter{equation}\tag{\theequation}\label{eq:J00}
+\right) \stepcounter{equation}\tag{\theequation}\label{eq:J00}
 \end{equation}
 
 Lo autovalores son $\lambda_{1,2} = r_{1,2}$, lo que indica que el punto de extinción es linealmente estable bajo la hipótesis de que $r_{1}<0$ y $r_{2}<0$; es decir, ambas especies dependen del mutualismo para sobrevivir. La extinción total tiene una cuenca de atracción para los distintos valores de las poblaciones. Si el sistema entra en ella, el único destino posible es la destrucción de la comunidad.
 
 Por el contrario, si el mutualismo es facultativo para una o ambas especies, la extinción total se convierte en un \textit{saddle} o en un punto inestable. No obstante, pueden aparecer otros dos puntos fijos correspondientes a extinciones parciales. En estas circunstancias, la condición de estabilidad para $(r_1/\alpha_1, 0)$ es que $r_{1}>0$ y $r_{2}<-b_{21}\, r_{1}/\alpha_{1}$. Análogamente, $(r_1/\alpha_1, 0)$ es estable si y solo si  $r_{2}>0$ y $r_{1}<-b_{12}\, r_{2}/\alpha_{2}$.
-El mismo análisis para los restantes casos de puntos fijos no triviales se traduce en jacobiano:
+El mismo análisis para los restantes casos de puntos fijos no triviales se traduce en el jacobiano:
 
 \begin{equation}
 J = \left(
@@ -538,30 +538,30 @@ J = \left(
 \end{array}
 \right)\stepcounter{equation}\tag{\theequation}\label{eq:J}
 \end{equation}
-Como los parámetros $c_{1}$ y $c_2$ son siempre positivos (recordemos que son el inverso del límite de población en presencia de un mutualismo muy intenso), y que todos los términos de $J$ tienen el signo mostrado en la ecuación \ref{eq:J}. Los elementos de la diagonal son negativos, mientras que el resto son siempre positivos (una configuración similar del jacobiano para modelos mutualistas aparece en \cite{goh1979}. Esto implica que los autovalores de $J$ son ambos reales y pueden ser los dos negativos (\textit{puntos fijos estables}) o uno positivo y otro negativo (\textit{saddle}). La condición para la existencia de este últimoes que el determinante del jacobiano en el \textit{imbral de extinción} sea negativo, $J_{11} \, J_{22} < J_{12}\, J_{21}$, que en función de ${N_{1}^{p}}^\bullet$ y ${N_{2}^{a}}^\bullet$ significa que:
+Como los parámetros $c_{1}$ y $c_2$ son siempre positivos (recordemos que son el inverso del límite de población en presencia de un mutualismo muy intenso), y que todos los términos de $J$ tienen el signo mostrado en la ecuación \ref{eq:J}. Los elementos de la diagonal son negativos, mientras que el resto son siempre positivos (una configuración similar del jacobiano para modelos mutualistas aparece en \cite{goh1979}. Esto implica que los autovalores de $J$ son ambos reales y pueden ser los dos negativos (\textit{puntos fijos estables}) o uno positivo y otro negativo (\textit{saddle}). La condición para la existencia de este último es que el determinante del jacobiano en el \textit{mínimo vital} sea negativo, $J_{11} \, J_{22} < J_{12}\, J_{21}$, que en función de ${N_{1}^{p}}^\bullet$ y ${N_{2}^{a}}^\bullet$ significa que:
 
 \begin{equation}
 1-c_{1}\, {N_{1}^{p}}^\bullet - c_{2}\, {N_{2}^{a}}^\bullet > 0 .
 \end{equation}
 
-Todos estos resultados para dos especies indican que el modelo presenta una dinámica muy rica. Pese a ello, es los suficientemente simple para entender bien los diferentes regímenes y donde se localizan en el espacio de configuración de los parámetros. En este sentido, soluciona algunas de las limitaciones del modelo tipo II. Por ejemplo, encontrar una configuración para dos especies como la que aparece en la figura \ref{DINAMICA_typeII} requiere un esfuerzo considerable de afinamiento de los pará,etros. Esta configuración con dos atractores y una divisoria nítida es ideal para estudiar fenómenos como la resistencia de la red, la capacidad de soportar una alta biodiversidad o la evolución de las interacciones de la red \cite{bastolla2009, suweis2013emergence}. Este régimen aparece de forma natural en el modelo propuesto, como se ve en la figura \ref{DINAMICA_diagram}, sin la necesidad de un complejo proceso de afinamiento. Además, como veremos en los siguientes apartados, una configuración equivalente con un atractor de extinción, otro con poblaciones finitas y una clara divisoria, aparece al extender el estudio a redes con muchas más
+Todos estos resultados para dos especies indican que el modelo presenta una dinámica muy rica. Pese a ello, es los suficientemente simple para entender bien los diferentes regímenes y donde se localizan en el espacio de configuración de los parámetros. En este sentido, soluciona algunas de las limitaciones del modelo tipo II. Por ejemplo, encontrar una configuración para dos especies como la que aparece en la figura \ref{DINAMICA_typeII} requiere un esfuerzo considerable de afinamiento de los parámetros. Esta configuración con dos atractores y una divisoria nítida es ideal para estudiar fenómenos como la resistencia de la red, la capacidad de soportar una alta biodiversidad o la evolución de las interacciones de la red \cite{bastolla2009, suweis2013emergence}. Este régimen aparece de forma natural en el modelo propuesto, como se ve en la figura \ref{DINAMICA_diagram}, sin la necesidad de un complejo proceso de afinamiento. Además, como veremos en los siguientes apartados, una configuración equivalente con un atractor de extinción, otro con poblaciones finitas y una clara divisoria, aparece al extender el estudio a redes con muchas más
 especies.
 
 \begin{figure}
 \centering
 \includegraphics[scale=0.6]{DINAMICA_Figure2.eps}
-\caption {Diagrama de flujo para la dinámica de ecuaciones de tipo II \ref{DINAMICA_eq_typeII}. Encontrar esta configuración requirió un ajuste de parámetros laborioso. Los valores empleados en este ejemplo son $r_1 = r_2 = -0.1$, $\alpha_1 = \alpha_2 = 0.001$, $a = 0.066$, $b = 0.2$ and $T_H = 1$.}
+\caption {Diagrama de flujo para la dinámica de ecuaciones de tipo II \ref{DINAMICA_typeII}. Encontrar esta configuración requirió un ajuste de parámetros laborioso. Los valores empleados en este ejemplo son $r_1 = r_2 = -0.1$, $\alpha_1 = \alpha_2 = 0.001$, $a = 0.066$, $b = 0.2$ y $T_H = 1$.}
 \label{DINAMICA_typeII}
 \end{figure}
 
 \subsection{La divisoria de la vida}
 \label{watershed}
 
-Llamaremos \textit{divisoria de la vida} al límte que separa las trayectorias que evolucionan hacia la capcidad máxima de población del sistema de las que terminan en su destrucción. En la imagen izquierda de la figura \ref{DINAMICA_diagram} es la curva que claramente delimita ambas cuencas. La divisoria incluye al \textit{saddle} no trivial $({N_1^p}^\bullet,{N_2^a}^\bullet)$, esto es la combinación mínima de poblaciones que garantiza la supervivencia. Su posición en el espacio de fases es importante porque determina la posición base de dicha curva y en consecuencia la fragilidad del sistema, que se expresa como la relación de áreas entre las dos cuencas de atracción. La distancia de este punto al máximo de poblaciones indica la resistencia ante perturbaciones externas. Si es muy pequeña, una ligera disminución del número de individuos, provocada por enfermedades, sequías o siniestros cualquier naturaleza puede llevar al sistema a la cuenca de destrucción. Por el contrario, si esta distancia es grande, la comunidad podrá recobrarse de estos eventos y crecer de nuevo hacia el máximo. Como los ciclos naturales suelen ser cíclicos, la combinación de poblaciones se moverá de manera habitual entre estos puntos, y un amplio rango dinámico facilita la permanencia en el tiempo. 
+Llamaremos \textit{divisoria de la vida} al límte que separa las trayectorias que evolucionan hacia la capcidad máxima de población del sistema de las que terminan en su destrucción. En la imagen izquierda de la figura \ref{DINAMICA_diagram} es la curva que claramente delimita ambas cuencas. La divisoria incluye al \textit{saddle} no trivial $({N_1^p}^\bullet,{N_2^a}^\bullet)$, esto es, la combinación mínima de poblaciones que garantiza la supervivencia. Su posición en el espacio de fases es importante porque determina la posición base de dicha curva y en consecuencia la fragilidad del sistema, que se expresa como la relación de áreas entre las dos cuencas de atracción. La distancia de este punto al máximo de poblaciones indica la resistencia ante perturbaciones externas. Si es muy pequeña, una ligera disminución del número de individuos, provocada por enfermedades, sequías o siniestros de cualquier naturaleza puede llevar al sistema a la cuenca de destrucción. Por el contrario, si esta distancia es grande, la comunidad podrá recobrarse de estos eventos y crecer de nuevo hacia el máximo. Como los ciclos naturales suelen ser cíclicos, la combinación de poblaciones se moverá de manera habitual entre estos puntos, y un amplio rango dinámico facilita la permanencia en el tiempo. 
 
 Para el sistema mínimo, de dos especies, las principales características de la divisoria se pueden encontrar analíticamente. Los puntos de la curva se corresponden a los pares de poblaciones $({N_1^p},{N_2^a})$ para los cuales la dinámica del sistema evoluciona exactamente sobre la curva y termina en el atractor $({N_1^p}^\bullet,{N_2^a}^\bullet)$. Sabemos que es un punto inestable y que la menor perturbación conducirá hacia uno u otro lado de la divisoria, pero conocer la expresión analítica de la curva supone un gran avance.  
 
-Por definición, en $({N_1^p}^\bullet,{N_2^a}^\bullet)$ las tasas efectivas de crecimiento son nulas. Para llegar a este punto desde cualquier otro de la divisoria, las tasas de ambas especias deben ser de signo contrario y evolucionar en el tiempo de forma similar. Si las dos fueran del mismo signo, las trayetorias irían hacia la extinción (negativo) o hacia el máximo vital (positivo). 
+Por definición, en $({N_1^p}^\bullet,{N_2^a}^\bullet)$ las tasas efectivas de crecimiento son nulas. Para llegar a este punto desde cualquier otro de la divisoria, las tasas de ambas especies deben ser de signo contrario y evolucionar en el tiempo de forma similar. Si las dos fueran del mismo signo, las trayectorias irían hacia la extinción (negativo) o hacia el máximo vital (positivo). 
 
 Supongamos que el sistema se aproxima a $({N_1^p}^\bullet,{N_2^a}^\bullet)$, desde una posición inicial $({N_1^p}^0,{N_2^a}^0)$ pertencienta a la divisoria. Las tasas efectivas de crecimiento son:
 
@@ -580,8 +580,8 @@ donde $A$, $B$ y $\gamma$ son constantes desconocidas por el momento. El sistema
 Integrando ambas ecuaciones entre $t = 0$ e infinito  encontramos que:
 
 \begin{align}
- \ln \frac{{N_1^p}^\bullet}{{N_{1}^p}^0} & = \frac{A}{\gamma} , \nonumber\\ 
- \ln \frac{{N_2^a}^\bullet}{{N_{2}^a}^0} & = - \frac{B}{\gamma} .
+ \ln \left(\frac{{N_1^p}^\bullet}{{N_{1}^p}^0} \right) & = \frac{A}{\gamma} , \nonumber\\ 
+ \ln \left(\frac{{N_2^a}^\bullet}{{N_{2}^a}^0} \right) & = - \frac{B}{\gamma} .
 \label{eq:coeffsreffs_3}
 \end{align}
 
@@ -619,7 +619,7 @@ Si sabemos que nuestro punto inicial era parte de la divisoria, podemos obtener 
 \label{eq:implicita_watershed}
 \end{align}
 
-Resolviendo esta ecuación de forma numérica podemos encontrar cualquier punto de la divisoria, y con ello obtenemos el valor del exponente $\frac{B}{A}$. La figura \ref{fig:powerlaw} muestra un ejemplo concreto de divisoria, y una comparación entre la curva definida por el sistema \ref{eq:powerlaw} y la ecuación implícita \eqref{eq:implicita_watershed}. Ambas se han resuelto por intergación numérica. Los puntos rojos se han encontrado haciendo un barrido del espacio de parámetros en una aproximación de \textit{fuerza bruta}, determinando el límite entre extinción y evolución hacia la capacidad máxima. La línea gris continua es la ley de potencia que se obtiene resolviendo las ecuaciones \eqref{eq:powerlaw} and \eqref{eq:implicita_watershed}
+Resolviendo esta ecuación de forma numérica podemos encontrar cualquier punto de la divisoria, y con ello obtenemos el valor del exponente $\frac{B}{A}$. La figura \ref{fig:powerlaw} muestra un ejemplo concreto de divisoria, y una comparación entre la curva definida por el sistema \ref{eq:powerlaw} y la ecuación implícita \ref{eq:implicita_watershed}. Ambas se han resuelto por intergación numérica. Los puntos rojos se han encontrado haciendo un barrido del espacio de parámetros en una aproximación de \textit{fuerza bruta}, determinando el límite entre extinción y evolución hacia la capacidad máxima. La línea gris continua es la ley de potencia que se obtiene resolviendo las ecuaciones \ref{eq:powerlaw} y \ref{eq:implicita_watershed}
 
 \begin{figure}[ht!]
 \centering
@@ -642,18 +642,18 @@ Estas son las expresiones para animales y plantas. Se puede reescribir el sistem
 \begin{align}  
 {N^{a}_{i}}^* = \frac{r_{i}+\sum_{k=1}^{n_{p}}b_{ik}\, {N^{p}_{k}}^*}{\alpha_{i}+c_{i}\,\sum_{k=1}^{n_{p}}{b_{ik}N^{p}_{k}}^*} = 
   \frac{r_{i}+r_{i}^{mut}}{\alpha_{i}+c_{i}\, r_{i}^{mut}} = 
-  \frac{r_{i}^{*+}}{r_{i}^{*-}} , \nonumber\\
+  \frac{r_{i}^{*+}}{r_{i}^{*-}} \nonumber\\
 {N^{p}_{j}}^*=\frac{r_{j}+\sum_{\ell=1}^{n_{a}}b_{j\ell}\, {N^{a}_{\ell}}^*}{\alpha_{j}+c_{j}\,\sum_{\ell=1}^{n_{a}}{b_{j\ell}N^{a}_{\ell}}^*} =
   \frac{r_{j}+r_{j}^{mut}}{\alpha_{j}+c_{j}r_{j}^{mut}} =
-  \frac{r_{j}^{*+}}{r_{j}^{*-}} .
+  \frac{r_{j}^{*+}}{r_{j}^{*-}}
 \end{align}
 
 Donde las tasas $r_{i}^{mut}$ representan el efecto del mutualismo sobre la especie $i$, mientras que las tasas $r^{*+}$ son las que incrementan el crecimento de la población y las $r^{*-}$ las que lo disminuyen vía competición intra especies. 
 
-Las ecuaciones  \ref{eq:DINAMICA_modeloralphaconmut} se pueden linealizar en torno a los puntos fijos. El jacobiano correspondiente tiene el mismo aspecto que el correpondiente al sistema mínimo de dos especies (ecuación \eqref{eq:J}), con términos negativos en la diagonal de la matriz y positivos o nulos fuera de ella. Para los puntos fijos no triviales se pueden escribir como (véase el Anexo \ref{DINAMICA_ANEXO_estabilidad}):
+Las ecuaciones  \ref{eq:DINAMICA_modeloralphaconmut} se pueden linealizar en torno a los puntos fijos. El jacobiano tiene el mismo aspecto que el correspondiente al sistema mínimo de dos especies (ecuación \eqref{eq:J}), con términos negativos en la diagonal de la matriz y positivos o nulos fuera de ella. Para los puntos fijos no triviales se pueden escribir como (véase el Anexo \ref{DINAMICA_ANEXO_estabilidad}):
 \begin{align}
-\displaystyle & J_{ii}= - {N^{a}_{i}}^* \left(\alpha_{i} + c_{i} \,  \sum_{k=1}^{n_{p}} b_{ik} {N^{p}_{k}}^* \right), \nonumber\\
-\displaystyle & J_{jj}= - {N^{p}_{j}}^* \left(\alpha_{j} + c_{j} \, \sum_{\ell=1}^{n_{a}} b_{j\ell}\, {N^{a}_{\ell}}^*\right).
+\displaystyle & J_{ii}= - {N^{a}_{i}}^* \left(\alpha_{i} + c_{i} \,  \sum_{k=1}^{n_{p}} b_{ik} {N^{p}_{k}}^* \right) \nonumber\\
+\displaystyle & J_{jj}= - {N^{p}_{j}}^* \left(\alpha_{j} + c_{j} \, \sum_{\ell=1}^{n_{a}} b_{j\ell}\, {N^{a}_{\ell}}^*\right)
 \label{eq:Jii}
 \end{align}
 Los coeficientes fuera de la diagonal son:
@@ -668,16 +668,14 @@ para la interacción entre una especie animal $i$ y una planta $j$, y
 \end{align}
 para la correspondiente al sentido planta $j$ y animal $i$. Dada la invariancia de la traza de la matriz bajo un cambio de la base vectorial, la suma de autovalores de la matriz debe satisfacer la siguiente relación:
 \begin{equation}
-  \sum_{k}^{n_{a}+n_{p}} \lambda_{k}= - \left(\sum_{k}^{n_{a}+n_{p}} |J_{kk}| \right) .
+  \sum_{k}^{n_{a}+n_{p}} \lambda_{k}= - \left(\sum_{k}^{n_{a}+n_{p}} |J_{kk}| \right)
   \stepcounter{equation}\tag{\theequation}\label{eq:sum_lambdas2}
 \end{equation}
 La traza es negativa, lo que significa que si hay autovalores positivos o nulos su efecto debe compensarse por otros autovalores negativos. En consecuencia, los puntos fijos no triviales pueden ser estables si todos los autovalores son negativos, o \textit{saddle} si al menos uno de ellos en positivo. No es posible que sean puramente inestables.
 
-Otro extremo que hay que investigar es lo que sucede en caso de extinciones parciales. El efecto de la desaparición de algunas especies es reducir las dimensiones del sistema de ecuaciones \ref{eq:DINAMICA_modeloralphaconmut}. Para hacerlo más simple, asumamos, por ejemplo, que la especie animal $e$ se extingue. Esto significa que los posibles puntos fijos del sistema deben incluir ahora ${N_e^a}^* = 0$. El colapso de $e$ puede provocar la extinción de algunas especies de plantas que se alimentaban con su polen, frutos o semillas, dependiendo del tipo de red. Estas extinciones pueden, a su vez, desencadenar la desaparición de especies animales que dependían de dichas plantas para su ciclo reproductivo. Este encadenamiento catastrófico es lo que se conoce como extinción en cascada. Aunque el fenómeno que produce la primera extinción sea externo y afecte a una sola especie, todas las demás se ven afectadas porque su dinámica está enlazada por el sistema de ecuaciones completo. Los nuevos puntos fijos no triviales se corresponden con los de extinción parcial del sistema original. La estabilidad de dichos puntos puede cambiar de manera sustancial con esta alteración de las condiciones. Los términos del jacobiano de las especies desaparecidas se convierten en $J_{ee} = r_e + \sum_{k =1}^{n_p }b_{ek}\,{N_k^p}^*$ en la diagonal y $J_{ej} = 0$ fuera de ella. Estos términos dejan de contribuir a los autovalores relevantes para la estabilidad del sistema. El resto de coeficientes del jacobiano se obtienen de las ecuaciones \ref{eq:Jii}, \ref{eq:Jij1}, y \ref{eq:Jij2} adaptadas a las especies supervivientes. Esto implica que los sumatorios de las ecuaciones \eqref{eq:Jii} ya no incluyen todas las especies y que los términos de la diagonal pueden estar más próximos a cero. La establidad de los nuevos puntos fijos puede variar dependiendo de los parámetros de las ecuaciones del modelo de dinámica de poblaciones de las especies supervivientes. En realidad, dependiendo de la configuración resultante de la comunidad reducida, el sistema puede ser más robusto ante extinciones parciales que antes. Esto puede explicar por qué las comunidades mutualistas adoptan configuraciones fuertemente anidadas, son el resultado por prueba y error en el tiempo de extinciones parciales y de la llegada de nuevas especies que alteran su dinámica.   
+Otro extremo que hay que investigar es lo que sucede en caso de extinciones parciales. El efecto de la desaparición de algunas especies es reducir las dimensiones del sistema de ecuaciones \ref{eq:DINAMICA_modeloralphaconmut}. Para hacerlo más simple, asumamos, por ejemplo, que la especie animal $e$ se extingue. Esto significa que los posibles puntos fijos del sistema deben incluir ahora ${N_e^a}^* = 0$. El colapso de $e$ puede provocar la extinción de algunas especies de plantas que se alimentaban con su polen, frutos o semillas, dependiendo del tipo de red. Estas extinciones pueden, a su vez, desencadenar la desaparición de especies animales que dependían de dichas plantas para su ciclo reproductivo. Este encadenamiento catastrófico es lo que se conoce como extinción en cascada. Aunque el fenómeno que produce la primera extinción sea externo y afecte a una sola especie, todas las demás se ven afectadas porque su dinámica está enlazada por el sistema de ecuaciones completo. Los nuevos puntos fijos no triviales se corresponden con los de extinción parcial del sistema original. La estabilidad de dichos puntos puede cambiar de manera sustancial con esta alteración de las condiciones. Los términos del jacobiano de las especies desaparecidas se convierten en $J_{ee} = r_e + \sum_{k =1}^{n_p }b_{ek}\,{N_k^p}^*$ en la diagonal y $J_{ej} = 0$ fuera de ella. Estos términos dejan de contribuir a los autovalores relevantes para la estabilidad del sistema. El resto de coeficientes del jacobiano se obtienen de las ecuaciones \ref{eq:Jii}, \ref{eq:Jij1}, y \ref{eq:Jij2} adaptadas a las especies supervivientes. Esto implica que los sumatorios de las ecuaciones \ref{eq:Jii} ya no incluyen todas las especies y que los términos de la diagonal pueden estar más próximos a cero. La establidad de los nuevos puntos fijos puede variar dependiendo de los parámetros de las ecuaciones del modelo de dinámica de poblaciones de las especies supervivientes. En realidad, dependiendo de la configuración resultante de la comunidad reducida, el sistema puede ser más robusto ante extinciones parciales que antes. Esto puede explicar por qué las comunidades mutualistas adoptan configuraciones fuertemente anidadas, son el resultado por prueba y error en el tiempo de extinciones parciales y de la llegada de nuevas especies que alteran su dinámica.   
 
 \section{Material y métodos}
-
-Para este capítulo hemos utilizado la cole....
 
 \subsection{Integración de las ecuaciones}
 \label{DINAMINCA_NumSim}
@@ -686,14 +684,14 @@ Los modelos de población manejan cantidades discretas y la simulación es una h
 
 Por ejemplo, los modelos discretos de Markov se han utilizado con frecuencia para este tipo de simulaciones, pero esta estrategia tiene desventajas comparada con la simulación estocática discreta, ya sea basada en la distribución de Poisson o en la binomial. Para los modelos de Markov de dimensiones moderadas, el número de estados puede ser muy grande, minetras que las simulaciones basadas en Poisson o binomial, con su manejo de variables de estado agregadas es mucho más rápida  \cite{gustafsson2007bringing, balcan2009multiscale}.
 
-Hemos elegido la simulación binomaial para resolver las ecuaciones de ambos modelos. Esta técnica es una extensión de la simulación de sistemas continuos y una elección razonable cuando el resultado del proceso aleatorio tiene solo dos posibles valores. Por ejemplo, la supervivencia en un intervalo finito de tiempo es un ensayo de Bernoulli, el individuo sobrevive o no. La reproducción también puede modelarse adecuadamente como un ensayo de Bernouilli si el intervalo de simulación es pequeño. 
+Hemos elegido la simulación binomial para resolver las ecuaciones de ambos modelos. Esta técnica es una extensión de la simulación de sistemas continuos y una elección razonable cuando el resultado del proceso aleatorio tiene solo dos posibles valores. Por ejemplo, la supervivencia en un intervalo finito de tiempo es un ensayo de Bernoulli, el individuo sobrevive o no. La reproducción también puede modelarse adecuadamente como un ensayo de Bernouilli si el intervalo de simulación es pequeño. 
 
 Para una especie con una tasa intrínseca de crecimiento $r$, podemos suponer que la probabilidad de reproducción en un intervalo $\Delta T$ sigue una distribución exponencial de valor medio $1/r$. Así, la probabilidad de reproducción es:
 \begin{equation}
 \label{eq:probbreeding}
 P = \int_0^{\Delta T} \! re^{-r\, t}  \, dt = 1 - e^{-r\, \Delta T}
 \end{equation}
-In particular, a population of $N$ individuals in time $t$, with pure exponential growth, will be in $t+\Delta T$:
+En particular, una población de $N$ individos en el instante $t$, con crecimiento exponencial puro, será en $t+\Delta T$:
 \begin{equation}
 N(t+\Delta T)=N(t) + sgn \left(r \right) Binomial \left( N(t),P \right)
 \end{equation}
@@ -709,7 +707,14 @@ N^{p}_{l}(t+\Delta T)=N^{p}_{l}(t) + sgn \left(\hat{r}^{p}_{ef,l} \right) Binomi
 \hat{r}_{ef} = (1+r_{ef})^{1/365}-1
 \end{equation}
 
-La simulación estocástica tiene una ventaja adicional de gran interés para nuestras simulaciones. Las perturbaciones externas se modelan como variaciones temporales de la tasa efectiva de reproducción, restando el efecto del siniestro. Computacionalmente es muy sencillo llevar a cabo esta modificación; si, por el contrario, se resuelven numéricamente las ecuaciones diferenciales, es necesario cambiar las condiciones iniciales para cada nueva perturbación y garantizar la continuidad en dichos puntos.
+La simulación estocástica tiene una ventaja adicional de gran interés. Las perturbaciones externas se modelan como variaciones temporales de la tasa efectiva de reproducción, restando el efecto del siniestro. Computacionalmente es muy sencillo llevar a cabo esta modificación; si, por el contrario, se resuelven numéricamente las ecuaciones diferenciales, es necesario cambiar las condiciones iniciales para cada nueva perturbación y garantizar la continuidad en dichos puntos.
+
+\subsection{Software}
+Se ha desarrollado un simulador numérico (\textit{SIGMUND)} que es el que ha permitido llevar a cabo los experimentos. El lenguaje utilizado ha sido \texttt{Python}, con los paquetes \texttt{NumPy} y \texttt{SciPy} para la parte de cálculo, \texttt{PyQt} para construir una interfaz de usuario interactiva y \texttt{Matplotlib} para la parte gráfica.
+
+Los gráficos de alta resolución para este documento se generan con \texttt{R}, tomando como base los ficheros de salida del simulador. 
+
+Los diagramas de flujo se han construido con \texttt{Mathematica} y la resolución numérica de la ecuación de la divisoria de la vida (ecuación \ref{eq:powerlaw}) con \texttt{MATLAB}.
 
 \section{Resultados}
 
@@ -735,7 +740,7 @@ La figura \ref{fig:red_exper_stab1} muestra una pequeña comunidad mutualista fi
 \label{fig:exper_stab1}
 \end{figure}
 
-En el primer experimento el sistema empieza con todas las tasas efectivas negativas, excepto la del polinizador número $4$. Asumimos que el mutualismo es obligado. En estas circunstancias es sencillo encontrar los valores mínimos de población que garantizarían la supervivencia resolviendo $r_{\rm{eff}.i} = 0$ en las ecuaciones \eqref{modelors}, para todo $i$.
+En el primer experimento el sistema empieza con todas las tasas efectivas negativas, excepto la del polinizador número $4$. Asumimos que el mutualismo es obligado. En estas circunstancias es sencillo encontrar los valores mínimos de población que garantizarían la supervivencia resolviendo $r_{\rm{eff}.i} = 0$ en las ecuaciones \ref{modelors}, para todo $i$.
 
 Las tasas efectivas solo pueden ser positivas por el beneficio mutualista, pero en esta simulación las poblaciones iniciales no son suficientes para para conseguirlo, con la excepción del mencionado polinizador número $4$. Las especies de planta $1$ y $2$ empiezan con poblaciones por encima de sus capacidades de carga.
 Este experimento muestra el \textit{atractor de extinción} que conduce a la destrucción total de la comunidad.
@@ -747,8 +752,6 @@ Este experimento muestra el \textit{atractor de extinción} que conduce a la des
 \label{fig:exper_carrying_cap}
 \end{figure}
 
-La figura \ref{fig:exper_carrying_cap} muestra un segundo experimento, con la misma red, pero con diferentes parámetros (Anexo \ref{DINAMICA_ANEXO_KConst}). En esta simulación, todas las poblaciones de plantas iniciales están por debajo de sus capacidades de carga, pero con tasas de crecimiento efectivas positivas, por lo que terminan en máximos. La población del polinizador $5$ está inicialmente por encima de su capacidad de carga, por eso la tasa efectiva es ligeramente negativa y converge hacia la capacidad de carga al final de la simulación. Por el contrario, la especie de polinizador $4$ tiene muy pocos individuos al principio pero la abundancia de mutualistas genera una tasa eficaz positiva y una curva tipo de crecimiento logístico. Al final de la simulación todas las tasas efectivas convergen a cero, es el atractor que aparece en el máximo de poblaciones.
-
 \begin{figure}[h!]
 \centering
 \includegraphics[scale = 0.66 ]{DINAMICA_Fig7_partial_extinct.eps}
@@ -756,7 +759,9 @@ La figura \ref{fig:exper_carrying_cap} muestra un segundo experimento, con la mi
 \label{fig:exper_stab2}
 \end{figure}
 
-En la tercera simulación exploramos las extinciones parciales (figure \ref{fig:exper_stab2}). De nuevo, todas las tasas vegetativas son negativas, pero los pesos de los enlaces se han modificado ligeramente respecto al experimento anterior.
+La figura \ref{fig:exper_carrying_cap} muestra un segundo experimento, con la misma red, pero con diferentes parámetros (Anexo \ref{DINAMICA_ANEXO_KConst}). En esta simulación, todas las poblaciones de plantas iniciales están por debajo de sus capacidades de carga, pero con tasas de crecimiento efectivas positivas, por lo que terminan en máximos. La población del polinizador $5$ está inicialmente por encima de su capacidad de carga, por eso la tasa efectiva es ligeramente negativa y converge hacia la capacidad de carga al final de la simulación. Por el contrario, la especie de polinizador $4$ tiene muy pocos individuos al principio pero la abundancia de mutualistas genera una tasa eficaz positiva y una curva tipo de crecimiento logístico. Al final de la simulación todas las tasas efectivas convergen a cero, es el atractor que aparece en el máximo de poblaciones.
+
+En la tercera simulación exploramos las extinciones parciales (figura \ref{fig:exper_stab2}). De nuevo, todas las tasas vegetativas son negativas, pero los pesos de los enlaces se han modificado ligeramente respecto al experimento anterior.
 
 En esta simulación todas las poblaciones empiezan por debajo de sus capacidades de carga. Todas evolucionan hacia sus máximos excepto el polinizador $4$ y la planta $4$ que se extinguen. La especie de planta $2$ empieza con una tasa eficaz negativa pero el crecimiento de sus mutualistas da la vuelta a esta situación y termina sobreviviendo.
 
@@ -794,7 +799,7 @@ Los análisis de estabilidad de este capítulo asumían que las condiciones no s
 \label{fig:DINAMICA_SAT_red_exper_resilience_strong}
 \end{figure}
 
-En el penúltimo usamos otra red fictica, con siete especies de plantas y cinco de polinizadores (figura \ref{fig:DINAMICA_SAT_red_exper_resilience_strong}). Puede identificarse de manera visual el núcleo central de especies generalistas y las especies especialistas conectadas a generalistas de la clase contraria. Se han elegido las poblaciones iniciales para que el sistema esté en la cuenca de supervivencia.
+En el penúltimo usamos otra red ficticia, con siete especies de plantas y cinco de polinizadores (figura \ref{fig:DINAMICA_SAT_red_exper_resilience_strong}). Puede identificarse de manera visual el núcleo central de especies generalistas y las especies especialistas conectadas a generalistas de la clase contraria. Se han elegido las poblaciones iniciales para que el sistema esté en la cuenca de supervivencia.
 
 \begin{figure}[h!]
 \centering
@@ -821,15 +826,15 @@ El último experimento usa una red ligeramente modificada (figura  \ref{fig:DINA
 \label{fig:DINAMICA_SAT_exper_resilience_weak}
 \end{figure}
 
-Las posibilidades de supervivencia de una nueva especie que llegue a la comunidad son mayores si se conecta con una generalista. Este propiedad se debe no solo al hecho de que las generalistas son menos vulnerables por la gran cantidad de especies de las que reciben beneficio. Enlazarse con una especialista expone a la destrucción por arrastre.
+Las posibilidades de supervivencia de una nueva especie que llegue a la comunidad son mayores si se conecta con una generalista. Esta propiedad se debe no solo al hecho de que las generalistas son menos vulnerables por la gran cantidad de especies de las que reciben beneficio. Enlazarse con una especialista expone a la destrucción por arrastre.
 
 Cuando la planta $6$ es atacada y se extingue el efecto es mucho peor para la red. El polinizador $5$ pierde a su única especie benefactora, de manera que su tasa efectiva se vuelve negativa y finalmente desaparecerá. La planta $7$, conectada con el polinizador $5$ también se ve condenada a la extinción porque su enlace con el polinizador $1$ no compensa la pérdida. En resumen, una perturbación externa sobre la especie de planta $6$ arrastra a la extinción a la planta $7$ por culpa del enlace que comparten con el polinizador $5$. Si ambas plantas compartieran enlaces con el núcleo generalista esta destrucción en cascada resultaría mucho más improbable.
 
 \section{Conclusiones}
 
-En este capítulo, han presentado dos modelos de dinámica mutualista derivados de la ecuación logística. Ambos solucionan los problemas de estabilidad del modelo de May y la paradoja de Levin, derivada de la fórmula de Pearl, y permiten un tratamiento analítico más simple que los llamados de \textit{tipo II}.
+En este capítulo, se han presentado dos modelos de dinámica mutualista derivados de la ecuación logística. Ambos solucionan los problemas de estabilidad del modelo de May y la paradoja de Levins, derivada de la fórmula de Pearl, y permiten un tratamiento analítico más simple que los llamados de \textit{tipo II}.
 
-El primero funciona con capacidad de carga constante, con independencia de la abundancia de individuos de las especies mutualistas. Es una modificación muy simple, que permite describir la dinámica habitual del mutualismo, sus puntos fijos y el \textit{saddle} que marca la supervivencia de la comunidad. Se puede analizar de forma analítica y extender del caso simple de dos especies al más general. Las simulaciones numéricas han permitido reproducir lo que preveía el análisis.
+El primero funciona con capacidad de carga constante, con independencia de la abundancia de individuos de las especies mutualistas. Es una modificación muy simple, que permite describir la dinámica habitual del mutualismo, sus puntos fijos y el \textit{saddle} que marca la supervivencia de la comunidad. Se puede resolver de forma analítica y extender del caso simple de dos especies al más general. Las simulaciones numéricas han permitido reproducir lo que preveía el análisis.
 
 El segundo modelo es más refinado. En lugar de forzar la estabilidad mediante una capacidad de carga constante, el crecimiento se limita automáticamente con un término adicional lineal en el coeficiente de fricción intra especie. Este parámetro aparecía de manera natural en la formulación original de Verhulst, por lo que la extensión a partir de ella es mucho más evidente que con la fórmula de Pearl.
 
