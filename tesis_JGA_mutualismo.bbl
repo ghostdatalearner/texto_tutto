@@ -16,6 +16,35 @@
   {}
 \endgroup
 
+\entry{allesina2008}{article}{}
+  \name{author}{3}{}{%
+    {{}%
+     {Allesina}{A.}%
+     {S.}{S.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Alonso}{A.}%
+     {D.}{D.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Pascual}{P.}%
+     {M.}{M.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{ASADPM1}
+  \strng{fullhash}{ASADPM1}
+  \field{labelalpha}{AAP08}
+  \field{sortinit}{A}
+  \field{pages}{658\bibrangedash 661}
+  \field{title}{A general model for food web structure}
+  \field{volume}{320}
+  \field{journaltitle}{Science}
+  \field{year}{2008}
+\endentry
+
 \entry{almeida2008consistent}{article}{}
   \name{author}{5}{}{%
     {{}%
@@ -194,6 +223,41 @@
   \field{year}{2003}
 \endentry
 
+\entry{bastolla2005}{article}{}
+  \name{author}{4}{}{%
+    {{}%
+     {Bastolla}{B.}%
+     {Ugo}{U.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {L{\"a}ssig}{L.}%
+     {Michael}{M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Manrubia}{M.}%
+     {Susanna~C}{S.~C.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Valleriani}{V.}%
+     {Angelo}{A.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{BU+1}
+  \strng{fullhash}{BULMMSCVA1}
+  \field{labelalpha}{Bas+05}
+  \field{sortinit}{B}
+  \field{pages}{531\bibrangedash 9}
+  \field{title}{Biodiversity in model ecosystems, II: species assembly and food
+  web structure}
+  \field{volume}{235}
+  \field{journaltitle}{J Theor Biol}
+  \field{year}{2005}
+\endentry
+
 \entry{bastolla2009}{article}{}
   \name{author}{6}{}{%
     {{}%
@@ -236,6 +300,25 @@
   and increases biodiversity}
   \field{volume}{458}
   \field{journaltitle}{Nature}
+  \field{year}{2009}
+\endentry
+
+\entry{bascompte2009}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Bascompte}{B.}%
+     {Jordi}{J.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{BJ1}
+  \strng{fullhash}{BJ1}
+  \field{labelalpha}{Bas09}
+  \field{sortinit}{B}
+  \field{pages}{416\bibrangedash 419}
+  \field{title}{Disentangling the web of life}
+  \field{volume}{325}
+  \field{journaltitle}{Science}
   \field{year}{2009}
 \endentry
 
@@ -483,6 +566,35 @@
   \field{year}{2002}
 \endentry
 
+\entry{encinas2012}{article}{}
+  \name{author}{3}{}{%
+    {{}%
+     {Encinas-Viso}{E.-V.}%
+     {Francisco}{F.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Revilla}{R.}%
+     {Tom\'as~A.}{T.~A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Etienne}{E.}%
+     {Rampal~S.}{R.~S.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{EVFRTAERS1}
+  \strng{fullhash}{EVFRTAERS1}
+  \field{labelalpha}{EVRE12}
+  \field{sortinit}{E}
+  \field{pages}{198\bibrangedash 208}
+  \field{title}{Phenology drives mutualistic network structure and diversity}
+  \field{volume}{15}
+  \field{journaltitle}{Ecology Letters}
+  \field{year}{2012}
+\endentry
+
 \entry{fortuna2014web}{article}{}
   \name{author}{3}{}{%
     {{}%
@@ -640,6 +752,39 @@
   \field{year}{2007}
 \endentry
 
+\entry{gabriel2005paradoxes}{article}{}
+  \name{author}{3}{}{%
+    {{}%
+     {Gabriel}{G.}%
+     {Jean-Pierre}{J.-P.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Saucy}{S.}%
+     {Francis}{F.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Bersier}{B.}%
+     {Louis-F{\'e}lix}{L.-F.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Elsevier}%
+  }
+  \strng{namehash}{GJPSFBLF1}
+  \strng{fullhash}{GJPSFBLF1}
+  \field{labelalpha}{GSB05}
+  \field{sortinit}{G}
+  \field{number}{1}
+  \field{pages}{147\bibrangedash 151}
+  \field{title}{Paradoxes in the logistic equation?}
+  \field{volume}{185}
+  \field{journaltitle}{Ecological Modelling}
+  \field{year}{2005}
+\endentry
+
 \entry{herrero2000terminologia}{article}{}
   \name{author}{1}{}{%
     {{}%
@@ -660,7 +805,7 @@
   \field{year}{2000}
 \endentry
 
-\entry{Johnson2013}{article}{}
+\entry{johnson2013}{article}{}
   \name{author}{2}{}{%
     {{}%
      {Johnson}{J.}%
@@ -831,6 +976,30 @@
   \field{year}{2010}
 \endentry
 
+\entry{kennedy2005}{article}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Kennedy}{K.}%
+     {Donald}{D.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Norman}{N.}%
+     {Colin}{C.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{KDNC1}
+  \strng{fullhash}{KDNC1}
+  \field{labelalpha}{KN05}
+  \field{sortinit}{K}
+  \field{pages}{75\bibrangedash 75}
+  \field{title}{What Don't We Know?}
+  \field{volume}{309}
+  \field{journaltitle}{Science}
+  \field{year}{2005}
+\endentry
+
 \entry{krebs2002}{article}{}
   \name{author}{1}{}{%
     {{}%
@@ -848,6 +1017,30 @@
   \field{volume}{357}
   \field{journaltitle}{Proc. R. Soc. Lond. B}
   \field{year}{2002}
+\endentry
+
+\entry{kuno1991some}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Kuno}{K.}%
+     {Eizi}{E.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Springer}%
+  }
+  \strng{namehash}{KE1}
+  \strng{fullhash}{KE1}
+  \field{labelalpha}{Kun91}
+  \field{sortinit}{K}
+  \field{number}{1}
+  \field{pages}{33\bibrangedash 39}
+  \field{title}{Some strange properties of the logistic equation defined withr
+  andK: Inherent defects or artifacts?}
+  \field{volume}{33}
+  \field{journaltitle}{Researches on population ecology}
+  \field{year}{1991}
 \endentry
 
 \entry{lever2014sudden}{article}{}
@@ -886,6 +1079,52 @@
   \field{volume}{17}
   \field{journaltitle}{Ecology letters}
   \field{year}{2014}
+\endentry
+
+\entry{mallet2012struggle}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Mallet}{M.}%
+     {James}{J.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{MJ1}
+  \strng{fullhash}{MJ1}
+  \field{labelalpha}{Mal12}
+  \field{sortinit}{M}
+  \field{number}{5}
+  \field{pages}{627\bibrangedash 665}
+  \field{title}{The struggle for existence: how the notion of carrying
+  capacity, K, obscures the links between demography, Darwinian evolution, and
+  speciation}
+  \field{volume}{14}
+  \field{journaltitle}{Evolutionary Ecology Research}
+  \field{year}{2012}
+\endentry
+
+\entry{malthus1798}{book}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Malthus}{M.}%
+     {T.~R.}{T.~R.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Roger Chew Weightman, Washington}%
+  }
+  \strng{namehash}{MTR1}
+  \strng{fullhash}{MTR1}
+  \field{labelalpha}{Mal98}
+  \field{sortinit}{M}
+  \field{edition}{1st American from the 3rd London ed.}
+  \field{title}{An essay on the principle of population, or, A view of its past
+  and present effects on human happiness [electronic resource] : with an
+  inquiry into our prospects respecting the future removal on mitigation of the
+  evils which it occasions / by T.R. Malthus}
+  \field{type}{Book, Online}
+  \field{year}{1798}
 \endentry
 
 \entry{montresor2013distributed}{article}{}
@@ -969,8 +1208,8 @@
   \list{publisher}{1}{%
     {Springer, Berlin}%
   }
-  \strng{namehash}{MJ1}
-  \strng{fullhash}{MJ1}
+  \strng{namehash}{MJ2}
+  \strng{fullhash}{MJ2}
   \field{labelalpha}{Mur93}
   \field{sortinit}{M}
   \field{title}{Mathematical Biology I. An Introduction. Interdisciplinary
@@ -1042,6 +1281,25 @@
   \field{volume}{104}
   \field{journaltitle}{Proceedings of the National Academy of Sciences}
   \field{year}{2007}
+\endentry
+
+\entry{pennisi2005}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Pennisi}{P.}%
+     {Elizabeth}{E.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{PE1}
+  \strng{fullhash}{PE1}
+  \field{labelalpha}{Pen05}
+  \field{sortinit}{P}
+  \field{pages}{90}
+  \field{title}{What Determines Species Diversity?}
+  \field{volume}{309}
+  \field{journaltitle}{Science}
+  \field{year}{2005}
 \endentry
 
 \entry{podani2014new}{article}{}
@@ -1253,6 +1511,29 @@
   \field{year}{1983}
 \endentry
 
+\entry{sigler2002}{book}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Sigler}{S.}%
+     {L.~E. (Laurence~E.)}{L.~E. L.~E.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Springer}%
+  }
+  \strng{namehash}{SLELE1}
+  \strng{fullhash}{SLELE1}
+  \field{labelalpha}{Sig02}
+  \field{sortinit}{S}
+  \field{pages}{viii + 636}
+  \field{series}{Sources and studies in the history of mathematics and physical
+  sciences}
+  \field{title}{{Fibonacci}'s Liber Abaci: {A} Translation into Modern
+  {English} of {Leonardo Pisano}'s {Book of Calculation}}
+  \field{year}{2002}
+\endentry
+
 \entry{staniczenko2013ghost}{article}{}
   \name{author}{3}{}{%
     {{}%
@@ -1310,6 +1591,36 @@
   \field{volume}{268}
   \field{journaltitle}{Proc. R. Soc. Lond. B}
   \field{year}{2001}
+\endentry
+
+\entry{saavedra2009}{article}{}
+  \name{author}{3}{}{%
+    {{}%
+     {Saavedra}{S.}%
+     {Serguei}{S.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Reed-Tsochas}{R.-T.}%
+     {Felix}{F.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Uzzi}{U.}%
+     {Brian}{B.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{SSRTFUB1}
+  \strng{fullhash}{SSRTFUB1}
+  \field{labelalpha}{SRTU09}
+  \field{sortinit}{S}
+  \field{pages}{463\bibrangedash 466}
+  \field{title}{A simple model of bipartite cooperation for ecological and
+  organizational networks}
+  \field{volume}{457}
+  \field{journaltitle}{Nature}
+  \field{year}{2009}
 \endentry
 
 \entry{stenseth1998}{article}{}
@@ -1375,6 +1686,26 @@
   \field{volume}{95}
   \field{journaltitle}{Proceedings of the National Academy of Sciences USA}
   \field{year}{1998}
+\endentry
+
+\entry{stokstad2005}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Stokstad}{S.}%
+     {Erik}{E.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{SE1}
+  \strng{fullhash}{SE1}
+  \field{labelalpha}{Sto05}
+  \field{sortinit}{S}
+  \field{number}{5731}
+  \field{pages}{102\bibrangedash 102}
+  \field{title}{Will Malthus Continue to Be Wrong?}
+  \field{volume}{309}
+  \field{journaltitle}{Science}
+  \field{year}{2005}
 \endentry
 
 \entry{suweis2013emergence}{article}{}
@@ -1499,6 +1830,93 @@
   \field{volume}{89}
   \field{journaltitle}{Ecology}
   \field{year}{2008}
+\endentry
+
+\entry{verhulst1845}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Verhulst}{V.}%
+     {Pierre~Fran\c{c}ois}{P.~F.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{VPF1}
+  \strng{fullhash}{VPF1}
+  \field{labelalpha}{Ver45}
+  \field{sortinit}{V}
+  \field{pages}{1\bibrangedash 42}
+  \field{title}{{Recherches mathematiques sur la loi d'accroissement de la
+  population [Mathematical Researches into the Law of Population Growth
+  Increase]}}
+  \field{volume}{18}
+  \field{journaltitle}{Nouveaux Memoires de l'Academie Royale des Sciences et
+  Belles-Lettres de Bruxelles}
+  \field{year}{1845}
+\endentry
+
+\entry{volterra1926}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Volterra}{V.}%
+     {Vito}{V.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{VV1}
+  \strng{fullhash}{VV1}
+  \field{labelalpha}{Vol26}
+  \field{sortinit}{V}
+  \field{pages}{558\bibrangedash 60}
+  \field{title}{Fluctuations in the abundance of a species considered
+  mathematically}
+  \field{volume}{118}
+  \field{journaltitle}{Nature}
+  \field{year}{1926}
+\endentry
+
+\entry{williams2000}{article}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Williams}{W.}%
+     {R.J.}{R.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Mart\'{\i}nez}{M.}%
+     {N.~D.}{N.~D.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{WRMND1}
+  \strng{fullhash}{WRMND1}
+  \field{labelalpha}{WM00}
+  \field{sortinit}{W}
+  \field{pages}{180\bibrangedash 183}
+  \field{title}{Simple rules yield complex food webs}
+  \field{volume}{404}
+  \field{journaltitle}{Nature}
+  \field{year}{2000}
+\endentry
+
+\entry{wright1989}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Wright}{W.}%
+     {David~Hamilton}{D.~H.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{WDH1}
+  \strng{fullhash}{WDH1}
+  \field{labelalpha}{Wri89}
+  \field{sortinit}{W}
+  \field{number}{4}
+  \field{pages}{664\bibrangedash 667}
+  \field{title}{A simple, stable model of mutualism incorporating handling
+  time}
+  \field{volume}{134}
+  \field{journaltitle}{The American Naturalist}
+  \field{year}{1989}
 \endentry
 
 \entry{zhang2010using}{article}{}
