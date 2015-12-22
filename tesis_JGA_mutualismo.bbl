@@ -89,6 +89,59 @@
   \field{year}{2008}
 \endentry
 
+\entry{arroyo1982community}{article}{}
+  \name{author}{3}{}{%
+    {{}%
+     {Arroyo}{A.}%
+     {Mary T~Kalin}{M.~T.~K.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Primack}{P.}%
+     {Richard}{R.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Armesto}{A.}%
+     {Juan}{J.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {JSTOR}%
+  }
+  \strng{namehash}{AMTKPRAJ1}
+  \strng{fullhash}{AMTKPRAJ1}
+  \field{labelalpha}{APA82}
+  \field{sortinit}{A}
+  \field{pages}{82\bibrangedash 97}
+  \field{title}{Community studies in pollination ecology in the high temperate
+  Andes of central Chile. I. Pollination mechanisms and altitudinal variation}
+  \field{journaltitle}{American journal of botany}
+  \field{year}{1982}
+\endentry
+
+\entry{baird1980selection}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Baird}{B.}%
+     {John~W}{J.~W.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {JSTOR}%
+  }
+  \strng{namehash}{BJW1}
+  \strng{fullhash}{BJW1}
+  \field{labelalpha}{Bai80}
+  \field{sortinit}{B}
+  \field{pages}{63\bibrangedash 73}
+  \field{title}{The selection and use of fruit by birds in an eastern forest}
+  \field{journaltitle}{The Wilson Bulletin}
+  \field{year}{1980}
+\endentry
+
 \entry{balcan2009multiscale}{article}{}
   \name{author}{6}{}{%
     {{}%
@@ -681,6 +734,27 @@
   \field{year}{2010}
 \endentry
 
+\entry{freeman2012social}{incollection}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Freeman}{F.}%
+     {Linton~C}{L.~C.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Springer}%
+  }
+  \strng{namehash}{FLC1}
+  \strng{fullhash}{FLC1}
+  \field{labelalpha}{Fre12}
+  \field{sortinit}{F}
+  \field{booktitle}{Computational Complexity}
+  \field{pages}{2981\bibrangedash 2998}
+  \field{title}{Social Network Visualization, Methods of}
+  \field{year}{2012}
+\endentry
+
 \entry{feng2014heterogeneity}{article}{}
   \name{author}{2}{}{%
     {{}%
@@ -921,6 +995,30 @@
   \field{volume}{487}
   \field{journaltitle}{Nature}
   \field{year}{2012}
+\endentry
+
+\entry{kazanci2007econet}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Kazanc{\i}}{K.}%
+     {Caner}{C.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Elsevier}%
+  }
+  \strng{namehash}{KC1}
+  \strng{fullhash}{KC1}
+  \field{labelalpha}{Kaz07}
+  \field{sortinit}{K}
+  \field{number}{1}
+  \field{pages}{3\bibrangedash 8}
+  \field{title}{EcoNet: A new software for ecological modeling, simulation and
+  network analysis}
+  \field{volume}{208}
+  \field{journaltitle}{Ecological Modelling}
+  \field{year}{2007}
 \endentry
 
 \entry{kitsak2010identification}{article}{}
@@ -1322,11 +1420,14 @@
   }
   \strng{namehash}{PJJFSD1}
   \strng{fullhash}{PJJFSD1}
-  \field{labelalpha}{PJS}
+  \field{labelalpha}{PJS14}
   \field{sortinit}{P}
+  \field{pages}{168\bibrangedash 186}
   \field{title}{A new approach to exploring architecture of bipartite
   ecological networks}
+  \field{volume}{2}
   \field{journaltitle}{Journal of Complex Networks}
+  \field{year}{2014}
 \endentry
 
 \entry{plavvsic1993harary}{article}{}
@@ -1845,9 +1946,8 @@
   \field{labelalpha}{Ver45}
   \field{sortinit}{V}
   \field{pages}{1\bibrangedash 42}
-  \field{title}{{Recherches mathematiques sur la loi d'accroissement de la
-  population [Mathematical Researches into the Law of Population Growth
-  Increase]}}
+  \field{title}{Recherches mathematiques sur la loi d'accroissement de la
+  population}
   \field{volume}{18}
   \field{journaltitle}{Nouveaux Memoires de l'Academie Royale des Sciences et
   Belles-Lettres de Bruxelles}
@@ -1917,6 +2017,45 @@
   \field{volume}{134}
   \field{journaltitle}{The American Naturalist}
   \field{year}{1989}
+\endentry
+
+\entry{yoon20043d}{inproceedings}{}
+  \name{author}{5}{}{%
+    {{}%
+     {Yoon}{Y.}%
+     {Sanghyuk}{S.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Yoon}{Y.}%
+     {Ilmi}{I.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Williams}{W.}%
+     {Rich}{R.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Martinez}{M.}%
+     {Neo}{N.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Dunne}{D.}%
+     {Jennifer}{J.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{YS+1}
+  \strng{fullhash}{YSYIWRMNDJ1}
+  \field{labelalpha}{Yoo+04}
+  \field{sortinit}{Y}
+  \field{booktitle}{Proceedings of the seventh LASTED international conference
+  on computer graphics and imaging. San Jose, CA}
+  \field{pages}{224\bibrangedash 229}
+  \field{title}{3D Visualization and Analysis of Ecological Networks on WWW}
+  \field{year}{2004}
 \endentry
 
 \entry{zhang2010using}{article}{}

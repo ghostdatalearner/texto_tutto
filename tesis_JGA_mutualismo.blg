@@ -1,19 +1,5 @@
 This is BibTeX, Version 0.99dThe top-level auxiliary file: tesis_JGA_mutualismo.aux
 The style file: biblatex.bst
-Case mismatch error between cite keys Johnson2013 and johnson2013
----line 77 of file tesis_JGA_mutualismo.aux
- : \citation{Johnson2013
- :                      }
-I'm skipping whatever remains of this command
 Database file #1: tesis_JGA_mutualismo-blx.bib
 Database file #2: tesis_JGA_mutualismo.bib
-I was expecting a `,' or a `}'---line 456 of file tesis_JGA_mutualismo.bib
- :   
- :   volume={2},
-(Error may have been on previous line)
-I'm skipping whatever remains of this entry
-Warning--I didn't find a database entry for "dunne2002"
-Warning--I didn't find a database entry for "bastolla05"
-Warning--I didn't find a database entry for "bastolla09"
 Biblatex version: 3.0
-(There were 2 error messages)

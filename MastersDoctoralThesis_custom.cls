@@ -429,13 +429,14 @@
 %----------------------------------------------------------------------------------------
 
 \usepackage{hyperref} % Required for customising links and the PDF
+\definecolor{cadet}{rgb}{0.33, 0.41, 0.47}
 \hypersetup{pdfpagemode={UseOutlines},
 bookmarksopen=true,
 bookmarksopenlevel=0,
 hypertexnames=false,
 colorlinks=true, % Set to false to disable coloring links
 citecolor=Periwinkle, % The color of citations
-linkcolor=bistre, % The color of references to document elements (sections, figures, etc)
+linkcolor=cadet, % The color of references to document elements (sections, figures, etc)
 urlcolor=MidnightBlue, % The color of hyperlinks (URLs)
 pdfstartview={FitV},
 unicode,

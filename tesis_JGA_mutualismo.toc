@@ -43,16 +43,14 @@
 \contentsline {subsection}{\numberline {3.5.4}Rendimiento del algoritmo de destrucci\IeC {\'o}n}{63}{subsection.139}
 \contentsline {section}{\numberline {3.6}Conclusiones}{64}{section.142}
 \contentsline {chapter}{\numberline {4}Visualizaciones}{67}{chapter.143}
-\contentsline {section}{\numberline {4.1}Representaci\IeC {\'o}n cl\IeC {\'a}sica del mutualismo}{67}{section.144}
-\contentsline {subsection}{\numberline {4.1.1}El diagrama bipartito}{68}{subsection.145}
-\contentsline {subsection}{\numberline {4.1.2}La matriz de interacci\IeC {\'o}n}{68}{subsection.146}
-\contentsline {section}{\numberline {4.2}Visualizaciones basadas en \textit {k-magnitudes}}{68}{section.147}
-\contentsline {subsection}{\numberline {4.2.1}El diagrama polar}{68}{subsection.148}
-\contentsline {subsection}{\numberline {4.2.2}El diagrama zigurat}{68}{subsection.150}
-\contentsline {section}{\numberline {4.3}Resultados}{69}{section.152}
-\contentsline {section}{\numberline {4.4}Conclusiones}{69}{section.153}
-\contentsline {chapter}{\numberline {5}Conclusiones de la tesis}{71}{chapter.154}
-\contentsline {section}{\numberline {5.1}XXXX mutualismo}{71}{section.155}
-\contentsline {chapter}{\numberline {6}Ap\IeC {\'e}ndice: Fuentes de datos}{73}{chapter.156}
-\contentsline {section}{\numberline {6.1}Redes mutualistas del cap\IeC {\'\i }tulo }{73}{section.157}
-\contentsline {chapter}{Bibliograf\IeC {\'\i }a}{75}{chapter*.158}
+\contentsline {section}{\numberline {4.1}Representaciones cl\IeC {\'a}sicas del mutualismo}{67}{section.144}
+\contentsline {section}{\numberline {4.2}Visualizaciones basadas en \textit {k-magnitudes}}{70}{section.149}
+\contentsline {subsection}{\numberline {4.2.1}El diagrama polar}{70}{subsection.150}
+\contentsline {subsection}{\numberline {4.2.2}El diagrama zigurat}{71}{subsection.152}
+\contentsline {section}{\numberline {4.3}Resultados}{71}{section.154}
+\contentsline {section}{\numberline {4.4}Conclusiones}{72}{section.155}
+\contentsline {chapter}{\numberline {5}Conclusiones de la tesis}{73}{chapter.156}
+\contentsline {section}{\numberline {5.1}XXXX mutualismo}{73}{section.157}
+\contentsline {chapter}{\numberline {6}Ap\IeC {\'e}ndice: Fuentes de datos}{75}{chapter.158}
+\contentsline {section}{\numberline {6.1}Redes mutualistas del cap\IeC {\'\i }tulo }{75}{section.159}
+\contentsline {chapter}{Bibliograf\IeC {\'\i }a}{77}{chapter*.160}

@@ -72,8 +72,10 @@ onehalfspacing, % Single line spacing, alternatives: onehalfspacing or doublespa
 
 \usepackage{titlesec}
 \titleformat{\chapter}
-  {\normalfont\rmfamily\Huge\bfseries}
-  {\chaptertitlename\ \thechapter\color{bistre}}{50pt}{\Huge}
+%  {\normalfont\rmfamily\Huge\bfseries}
+%  {\chaptertitlename\ \thechapter\color{bistre}}{50pt}{\Huge}
+  {\normalfont\rmfamily\Huge\bfseries\color{bistre}}
+  {\thechapter}{1em}{}
 \titleformat{\section}
   {\normalfont\rmfamily\Large\bfseries\color{bistre}}
   {\thesection}{1em}{}
@@ -117,7 +119,7 @@ onehalfspacing, % Single line spacing, alternatives: onehalfspacing or doublespa
 \usepackage{titlesec, blindtext, color}
 \definecolor{gray75}{gray}{0.75}
 \newcommand{\hsp}{\hspace{20pt}}
-\titleformat{\chapter}[hang]{\Huge\bfseries}{\thechapter\hsp\textcolor{gray75}{|}\hsp}{0pt}{\Huge\bfseries}
+\titleformat{\chapter}[hang]{\Huge\bfseries}{\thechapter\hsp\textcolor{bistre}{|}\hsp}{0pt}{\Huge\bfseries}
 
 \titlespacing*{\chapter}
 {0pt}{5.5ex plus 1ex minus .2ex}{22.3ex plus .2ex}
