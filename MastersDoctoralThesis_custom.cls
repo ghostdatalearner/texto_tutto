@@ -126,7 +126,7 @@
 %	REQUIRED PACKAGES
 %----------------------------------------------------------------------------------------
 
-\usepackage{babel} % Required for automatically changing names of document elements to languages besides english
+\usepackage[spanish]{babel} % Required for automatically changing names of document elements to languages besides english
 
 \RequirePackage{scrbase} % Required for handling language-dependent names of sections/document elements
 
@@ -272,13 +272,13 @@
 \newcommand{\tref}[1]{\tablename~\ref{#1}}
 \providecaptionname{german,ngerman,austrian,naustrian}{\equationnamenname}{Formel}
 \providecaptionname{american,australian,british,canadian,english,newzealand,UKenglish,USenglish}{\equationnamenname}{Equation}
-%\providecaptionname{spanish}{\equationnamenname}{Ecuación}
+\providecaptionname{spanish}{\equationnamenname}{Ecuación}
 \newcommand{\eref}[1]{\equationname~\ref{#1}}
 \newcommand{\cref}[1]{\chaptername~\ref{#1}}
 \newcommand{\sref}[1]{\sectionname~\ref{#1}}
 \providecaptionname{german,ngerman,austrian,naustrian}{\sectionname}{Abschnitt}
 \providecaptionname{american,australian,british,canadian,english,newzealand,UKenglish,USenglish}{\sectionname}{Section}
-%\providecaptionname{spanish}{\sectionname}{Sección}
+\providecaptionname{spanish}{\sectionname}{Sección}
 \newcommand{\aref}[1]{\appendixname~\ref{#1}}
 
 %----------------------------------------------------------------------------------------
@@ -303,7 +303,7 @@
 %----------------------------------------------------------------------------------------
 
 \providecaptionname{american,australian,british,canadian,english,newzealand,UKenglish,USenglish}{\authorshipname}{Declaration of Authorship} % Declaration of Authorship text for English countries
-%\providecaptionname{spanish}{\authorshipname}{Declaración de autoría} 
+\providecaptionname{spanish}{\authorshipname}{Declaración de autoría} 
 \providecaptionname{german,ngerman,austrian,naustrian}{\authorshipname}{Eidesstattliche Erkl\"arung} % Declaration of Authorship text for Germanic countries
 
 \newenvironment{declaration}{
@@ -333,7 +333,7 @@
 
 \providecaptionname{german,ngerman,austrian,naustrian}{\byname}{von}
 \providecaptionname{american,australian,british,canadian,english,newzealand,UKenglish,USenglish}{\byname}{by}
-%\providecaptionname{spanish}{\byname}{por}
+\providecaptionname{spanish}{\byname}{por}
 \newenvironment{abstract}{
 	\checktoopen
 	\tttypeout{\abstractname}
@@ -363,7 +363,7 @@
 %----------------------------------------------------------------------------------------
 
 \providecaptionname{english,british,american}{\abbrevname}{List of Abbreviations}
-%\providecaptionname{spanish}{\abbrevname}{Abreviaturas}
+\providecaptionname{spanish}{\abbrevname}{Abreviaturas}
 \providecaptionname{ngerman,german,austrian,naustrian}{\abbrevname}{Abk\"urzungsverzeichnis}
 \NewDocumentEnvironment{abbreviations}{ m }{%
 	\ifbool{nolistspace}{\begingroup\singlespacing}{}
@@ -379,7 +379,7 @@
 %----------------------------------------------------------------------------------------
 
 \providecaptionname{english,british,american}{\constantsname}{Physical Constants}
-%\providecaptionname{spanish}{\constantsname}{Constantes físicas}
+\providecaptionname{spanish}{\constantsname}{Constantes físicas}
 \providecaptionname{ngerman,german,austrian,naustrian}{\constantsname}{Physikalische Konstanten}
 
 \NewDocumentEnvironment{constants}{ m }{%
@@ -396,7 +396,7 @@
 %----------------------------------------------------------------------------------------
 
 \providecaptionname{english,british,american}{\symbolsname}{List of Symbols}
-%\providecaptionname{spanish}{\symbolsname}{Símbolos}
+\providecaptionname{spanish}{\symbolsname}{Símbolos}
 \providecaptionname{ngerman,german,austrian,naustrian}{\symbolsname}{Symbolverzeichnis}
 
 \NewDocumentEnvironment{symbols}{ m }{%
@@ -413,7 +413,7 @@
 %----------------------------------------------------------------------------------------
 
 \providecaptionname{american,australian,british,canadian,english,newzealand,UKenglish,USenglish} {\acknowledgementname}{Acknowledgements} % Acknowledgement text for English countries
-%\providecaptionname{spanish} {\acknowledgementname}{Agradecimientos} 
+\providecaptionname{spanish} {\acknowledgementname}{Agradecimientos} 
 \providecaptionname{german,ngerman,austrian,naustrian}{\acknowledgementname}{Danksagung} % Acknowledgement text for Germanic countries
 
 \NewDocumentEnvironment{acknowledgements}{}{%

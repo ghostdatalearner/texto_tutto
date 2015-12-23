@@ -10,7 +10,7 @@
 
 \section{Dinámica de las comunidades mutualistas}
 
-A pesar de su larga historia, hay aun muchos puntos abiertos en la investigación de la dinámica de poblaciones. Algunos de ellas fueron presentadas en el 125 aniversario de la revista {\em Science} hace ya una década  \cite{kennedy2005,pennisi2005,stokstad2005}. Por ejemplo, los mecanismos que dan origen y mantienen la biodiversidad en un ecosistema son objeto de investigación desde campos diversos por la comunidad científica \cite{williams2000,dunne2002biodiversity,olesen2007modularity,allesina2008,bascompte2009,saavedra2009,bastolla2009,fortuna2010nestedness,encinas2012}.  
+A pesar de su larga historia, hay aun muchos puntos abiertos en la investigación de la dinámica de poblaciones. Algunos de ellos fueron presentadas en el 125 aniversario de la revista {\em Science} hace ya una década  \cite{kennedy2005,pennisi2005,stokstad2005}. Por ejemplo, los mecanismos que dan origen y mantienen la biodiversidad en un ecosistema son objeto de investigación desde campos diversos por la comunidad científica \cite{williams2000,dunne2002biodiversity,olesen2007modularity,allesina2008,bascompte2009,saavedra2009,bastolla2009,fortuna2010nestedness,encinas2012}.  
 
 El antecente más antiguo del estudio cuantitativo de las poblaciones se remonta a $1202$ cuando Leonardo Pisano (\textit{Fibonacci}), describió en su obra enciclopédica {\em Liber Abaci} la serie que sigue el crecimiento de una población de conejos \cite{sigler2002}. La teoría clásica de poblaciones, no obstante, se remonta a a $1798$ cuando Robert Malthus publicó {\em An Essay on the Principle of Population} \citep{malthus1798}. En dicha obra Malthus razonaba que el crecimiento de la población humana es proporcional al tamaño dado en un momento. Trasladándolo a una ecuación diferencial:
 \begin{equation}
@@ -35,7 +35,7 @@ Sin embargo, la ecuación logística se conoce mucho más en la forma que Raymon
 
 La solución de esta ecuación es una curva sigmoide que crece asintóticamente hacia $K$. La fórmula de Pearl tiene algunos inconvenientes matemáticos importantes \citep{kuno1991some,gabriel2005paradoxes}. El más notable es que predice un absurdo crecimiento si la tasa $r$ es negativa pero la población inicial está por encima de la capacidad de carga. Este problema fue señalado por Richard Levins y en consecuencia de denomina \textit{paradoja de Levins}. Es importante señalarlo, porque todos los modelos de mutualismo se han derivado de la logística en la formulación de Pearl y por tanto arrastran este inconveniente.
 
-Para solucionar el problema Levins propuso que $r$ debía ser siempre no negativa. Gabriel \emph{et al.} encontraron una solución más elegante usando la formulación original de Verhulst. La condición para que el sistema alcance la establidad es que el coeficiente $\alpha$ sea siempre positivo y la capacidad de carga se redefine como:
+Para solucionar el problema Levins propuso que $r$ debía ser siempre no negativa. Gabriel \emph{et al.} encontraron una solución más elegante usando la formulación original de Verhulst \cite{gabriel2005paradoxes}. La condición para que el sistema alcance la establidad es que el coeficiente $\alpha$ sea siempre positivo y la capacidad de carga se redefine como:
 
 \begin{equation}
 K_{\infty}=\lim_{t\rightarrow\infty}N(t),\; N(0)>0
@@ -49,7 +49,7 @@ K_{\infty}=\left\{
   \end{array} \right.
 \end{equation*}
 
-Estos modelos primitivos de dinámica no incluían interacciones entre las especies. Cuando varias de ellas comparten un mismo ecosistema aparece una compleja cadena de relaciones que puede modelarse como una red, como se mencionó en la introducción. En $1926$ Vito Volterra propuso un modelo de dos especies para explicar el comportamiento de algunos bancos de pesca en el Adriático \cite{volterra1926}. Las ecuaciones de Volterra describen las poblaciones de presa $N(t)$ y depredador $P(t)$ de la siguiente manera: 
+Estos modelos primitivos de dinámica no incluían interacciones entre especies. Cuando varias de ellas comparten un mismo ecosistema aparece una compleja cadena de relaciones que puede modelarse como una red, como se mencionó en la introducción. En $1926$ Vito Volterra propuso un modelo de dos especies para explicar el comportamiento de algunos bancos de pesca en el Adriático \cite{volterra1926}. Las ecuaciones de Volterra describen las poblaciones de presa $N(t)$ y depredador $P(t)$ de la siguiente manera: 
 \begin{align}
 %\begin{split}
 \displaystyle &\frac{dN}{dt}=N\, \left(a-b \,P\right) \nonumber\\
@@ -59,7 +59,7 @@ Estos modelos primitivos de dinámica no incluían interacciones entre las espec
 \end{align}
 \noindent donde $a$, $b$, $c$ y $d$ son constantes positivas. En el modelo de Lotka-Volterra, como se conoce hoy, el crecimiento de la población de la presa está limitado por la población del derpedador y viceversa. Este par de ecuaciones tiene una solución oscilatoria.
 
-El mutualismo ha recibido menos atención históricamente, también desde el punto de vista matemático. El primer modelo fue propuesto por Richard May. Cada una de las ecuaciones de May es una logística con un tercer término que representa el beneficio mutualista. Es la misma idea que la del modelo Lotka-Volterra, pero con un inconveninete analítico, las interacciones son siempre positivas, de manera que no hay oscialciones y sí la posibilidad de un crecimimento ilimitado. El modelo de May se formaliza como:
+El mutualismo, probablemente porque es una interacción menos abundante en la naturaleza, ha recibido menos atención históricamente, también desde el punto de vista matemático. El primer modelo fue propuesto por Richard May. Las ecuaciones de May representan una ecuación logística a la que se ha añadido un tercer término que representa el beneficio mutualista. Es la misma idea que la del modelo Lotka-Volterra, pero con un inconveninete analítico, las interacciones son siempre positivas, de manera que no hay oscilaciones y sí la posibilidad de un crecimimento ilimitado. El modelo de May se formaliza como:
 \begin{align}
 \frac{dN_1}{dt}=r_1 \,N_1\,\left(1-\frac{N_1}{K_1}\right)+r_1\, N_1\,\beta_{12}\, \frac{N_2}{K_1} \nonumber \\ 
 \frac{dN_2}{dt}=r_2\, N_2\, \left(1-\frac{N_2}{K_2}\right)+r_2\, N_2\, \beta_{21} \, \frac{N_1}{K_2} 
@@ -122,8 +122,8 @@ Si $r_b > r_d$ no hay diferencia con la formulación habitual del modelo de Pear
 \begin{figure}[ht]
 \centering
 \includegraphics[scale=0.5]{DINAMICA_r1_Verh+modif_r1-p8p8K50.eps}
-\caption{a) Tasas de crecimiento per cápita para la ecuación logística en la fórmula de Pearl, para las tasas vegetativas $r=-0.8$ (negro)
-$r=-0.4$ (rojo), $r=0.4$ azul y $r=0.8$ naranja. b) La misma gráfica para la ecuación modificada de nuestro modelo.}
+\caption{a) Tasas de crecimiento per cápita para la ecuación logística en la fórmula de Pearl, para las tasas vegetativas $r=-0.8$ (azul)
+$r=-0.4$ (verde), $r=0.4$ (naranja) y $r=0.8$ (rojo). b) La misma gráfica para la ecuación modificada de nuestro modelo.}
 \label{fig:r_equiv_Verh+modif}
 \end{figure}
 
@@ -194,7 +194,7 @@ Y el modelo con capacidades de carga constantes queda así:
 &\frac{dN_i}{dt}=r_{\rm{eq},i}\, N_i - |r_{\rm{eq},i}| \, \frac{{N_i}^2}{K_i}  \\
 \displaystyle
 &\frac{dN_j}{dt}=r_{\rm{eq},j} \, N_j - |r_{\rm{eq},j}| \, \frac{{N_j}^2}{K_j}
-\stepcounter{equation}\tag{\theequation}\label{modelo_optionI}
+\stepcounter{equation}\tag{\theequation}\label{eq:modelo_optionI}
 \end{align*}
 \end{theo}
 
@@ -204,7 +204,7 @@ $N_2=30$ la tasa ya es positiva y el sistema alcanzaría el máximo vital con la
 
 \subsection{Análisis de estabilidad para dos especies}
 
-Las ecuaciones del sistema más simple, compuesto por una especia de planta a la que llamamos $1$ y una especia animal a la que llamamos $2$ son:
+Para ver el comportamiento dinámico de nuestro modelo, vamos hacer un estudio de estabilidad lineal con sólo dos especies (supongamos que la que llamamos $1$ es una planta la que llamamos $2$ un animal, sin pérdida de generalidad). Las ecuaciones del modelo son:
 \begin{align*}
 \displaystyle \frac{dN_1}{dt}= N_1 \left( r_{\rm{eff},1} - |r_{\rm{eff},1}| \frac{N_1}{K_1} \right) \\
 \displaystyle \frac{dN_2}{dt}= N_2 \left( r_{\rm{eff},2} - |r_{\rm{eff},2}| \frac{N_2}{K_2} \right)
@@ -319,7 +319,7 @@ Para cualquier definición de $sgn(r_{eff},1)$ y $sgn(r_{eff},2)$ todos los fact
 
 Pese a que el jacobiano no está definido en este punto fijo, el diagrama de flujo puede obtenerse y solo una línea pasa por cualquier punto.
 
-Este \textit{saddle} marca la frontera entre la cuenca de atracción de los puntos fijos estables y, en consecuencia, controla la resistenca del sistema ante perturbaciones externas. Si está próximo a la destrucción completa ($N_1=0$,$N_2=0$), el sistema es más estable porque la cuenca de atracción de $(K_1,K_2)$ es más extensa. Sucede lo contrario cuando se localiza cerca del máximo vital, con ambas poblaciones en capacidades de carga.
+Este \textit{saddle} marca la frontera entre la cuenca de atracción de los puntos fijos estables y, en consecuencia, controla la resistenca del sistema ante perturbaciones externas. Si está próximo a la destrucción completa ($N_1=0$,$N_2=0$), el sistema es más estable porque la cuenca de atracción de $(K_1,K_2)$ es más extensa.Sucede lo contrario cuando se localiza cerca del máximo vital, es decir, con ambas poblaciones tomando los valores máximos de sus capacidades de carga.
 
 La figura \ref{fig:stab1_phase}a muestra las soluciones del sistema \ref{eq:new_model} para dos especies con mutualismo obligado ($r_1<0$ y $r_2<0$), e incio de las trayectorias en los puntos de la rejilla entre $10$ y $70$; la \ref{fig:stab1_phase}b es el diagrama de flujo en torno al \textit{saddle} en ($30,30$). Cuanto mayor sea la intensidad del mutualismo, más próximo se encuentra este punto al origen.
 
@@ -332,7 +332,7 @@ La figura \ref{fig:stab1_phase}a muestra las soluciones del sistema \ref{eq:new_
 
 \subsection{Generalización con $n$ especies}
 
-Para una red con múltiples especies, hay que analizar el sistema de ecuaciones \ref{modelo_optionI}. Los puntos fijos son, de nuevo, la extinción total ($N_i=0$, para todo $i$), el máximo vital con todas las especies en sus capacidades de carga respectivas ($N_i=K_i$, para todo $i$), y cualquier combinación de la solución trivial $N_{i}=0$ con las $N_{j}= K_{j}$, con la condición para las especies supervivientes:
+Para una red con múltiples especies, hay que analizar el sistema de ecuaciones \ref{eq:modelo_optionI}. Los puntos fijos son, de nuevo, la extinción total ($N_i=0$, para todo $i$), el máximo vital con todas las especies en sus capacidades de carga respectivas ($N_i=K_i$, para todo $i$), y cualquier combinación de la solución trivial $N_{i}=0$ con las $N_{j}= K_{j}$, con la condición para las especies supervivientes:
 \begin{equation}
 \displaystyle r_{\rm{ef},j}^{\ast} = r_{j} + \sum_{l} b_{jl}\, K_{l} > 0 \\
 \label{eq:condit_reff_K}
@@ -557,7 +557,7 @@ especies.
 \subsection{La divisoria de la vida}
 \label{watershed}
 
-Llamaremos \textit{divisoria de la vida} al límte que separa las trayectorias que evolucionan hacia la capcidad máxima de población del sistema de las que terminan en su destrucción. En la imagen izquierda de la figura \ref{DINAMICA_diagram} es la curva que claramente delimita ambas cuencas. La divisoria incluye al \textit{saddle} no trivial $({N_1^p}^\bullet,{N_2^a}^\bullet)$, esto es, la combinación mínima de poblaciones que garantiza la supervivencia. Su posición en el espacio de fases es importante porque determina la posición base de dicha curva y en consecuencia la fragilidad del sistema, que se expresa como la relación de áreas entre las dos cuencas de atracción. La distancia de este punto al máximo de poblaciones indica la resistencia ante perturbaciones externas. Si es muy pequeña, una ligera disminución del número de individuos, provocada por enfermedades, sequías o siniestros de cualquier naturaleza puede llevar al sistema a la cuenca de destrucción. Por el contrario, si esta distancia es grande, la comunidad podrá recobrarse de estos eventos y crecer de nuevo hacia el máximo. Como los ciclos naturales suelen ser cíclicos, la combinación de poblaciones se moverá de manera habitual entre estos puntos, y un amplio rango dinámico facilita la permanencia en el tiempo. 
+Llamaremos \textit{divisoria de la vida} al límite que separa las trayectorias que evolucionan hacia la capacidad máxima de población del sistema de las que terminan en su destrucción. En la imagen izquierda de la figura \ref{DINAMICA_diagram} es la curva que claramente delimita ambas cuencas. La divisoria incluye al \textit{saddle} no trivial $({N_1^p}^\bullet,{N_2^a}^\bullet)$, esto es, la combinación mínima de poblaciones que garantiza la supervivencia. Su posición en el espacio de fases es importante porque determina la posición base de dicha curva y en consecuencia la fragilidad del sistema, que se expresa como la relación de áreas entre las dos cuencas de atracción. La distancia de este punto al máximo de poblaciones indica la resistencia ante perturbaciones externas. Si es muy pequeña, una ligera disminución del número de individuos, provocada por enfermedades, sequías o siniestros de cualquier naturaleza puede llevar al sistema a la cuenca de destrucción. Por el contrario, si esta distancia es grande, la comunidad podrá recobrarse de estos eventos y crecer de nuevo hacia el máximo. Como los ciclos naturales suelen ser cíclicos, la combinación de poblaciones se moverá de manera habitual entre estos puntos, y un amplio rango dinámico facilita la permanencia en el tiempo. 
 
 Para el sistema mínimo, de dos especies, las principales características de la divisoria se pueden encontrar analíticamente. Los puntos de la curva se corresponden a los pares de poblaciones $({N_1^p},{N_2^a})$ para los cuales la dinámica del sistema evoluciona exactamente sobre la curva y termina en el atractor $({N_1^p}^\bullet,{N_2^a}^\bullet)$. Sabemos que es un punto inestable y que la menor perturbación conducirá hacia uno u otro lado de la divisoria, pero conocer la expresión analítica de la curva supone un gran avance.  
 
@@ -623,8 +623,8 @@ Resolviendo esta ecuación de forma numérica podemos encontrar cualquier punto 
 
 \begin{figure}[ht!]
 \centering
-\includegraphics[scale=0.5]{DINAMICA_Figure3.eps}
-\caption {Divisoria de la vida para dos especies. En este caso, $\frac{B}{A}=1.2944,~{N_1^p}^\bullet=989,~{N_2^a}^\bullet=1232,~b_{12}=0.000041850,~c_{1}=0.00004,~\alpha_{1}=~0.000035,~r_1=-0.016,~b_{21}=0.00008750,~c_{2}=0.0001,~\alpha_{2}=0.000035,~r_2 =-0.02$.}
+\includegraphics[scale=0.5]{DINAMICA_Figure3.png}
+\caption {Divisoria de la vida para dos especies. En este caso, $\frac{B}{A}=1.2944,~{N_1^p}^\bullet=692,~{N_2^a}^\bullet=989,~b_{12}=0.000041850,~c_{1}=0.00004,~\alpha_{1}=~0.000035,~r_1=-0.016,~b_{21}=0.00008750,~c_{2}=0.0001,~\alpha_{2}=0.000035,~r_2 =-0.02$.}
 \label{fig:powerlaw}
 \end{figure}
 
@@ -722,7 +722,7 @@ En esta sección se incluyen los resultados de los experimentos numéricos lleva
 
 \subsection{Simulaciones con capacidades de carga constantes}
 \label{results_K_constante}
-Es muy complicado obtener resultados analíticos para una comunidad mutualista por la compleja red de interacciones entre las especies. En este apartado se muestran los resultados de simulaciones numéricas que sirve para explorar la estabilidad de las soluciones del modelo \ref{modelo_optionI}. Se han simulado situaciones dentro de las tres cuencas de atracción, esto es, extinción total, extinciones parciales y supervivencia en capacidades de carga. Los parámetros de las simulaciones se listan en el Anexo \ref{DINAMICA_ANEXO_KConst}.
+Es muy complicado obtener resultados analíticos para una comunidad mutualista por la compleja red de interacciones entre las especies. En este apartado se muestran los resultados de simulaciones numéricas que sirve para explorar la estabilidad de las soluciones del modelo \ref{eq:modelo_optionI}. Se han simulado situaciones dentro de las tres cuencas de atracción, esto es, extinción total, extinciones parciales y supervivencia en capacidades de carga. Los parámetros de las simulaciones se listan en el Anexo \ref{DINAMICA_ANEXO_KConst}.
 
 \begin{figure}[h!]
 \centering
@@ -740,7 +740,7 @@ La figura \ref{fig:red_exper_stab1} muestra una pequeña comunidad mutualista fi
 \label{fig:exper_stab1}
 \end{figure}
 
-En el primer experimento el sistema empieza con todas las tasas efectivas negativas, excepto la del polinizador número $4$. Asumimos que el mutualismo es obligado. En estas circunstancias es sencillo encontrar los valores mínimos de población que garantizarían la supervivencia resolviendo $r_{\rm{eff}.i} = 0$ en las ecuaciones \ref{modelors}, para todo $i$.
+En el primer experimento (figura \ref{fig:exper_carrying_cap}) el sistema empieza con todas las tasas efectivas negativas, excepto la del polinizador número $4$. Asumimos que el mutualismo es obligado. En estas circunstancias es sencillo encontrar los valores mínimos de población que garantizarían la supervivencia resolviendo $r_{\rm{eff}.i} = 0$ en las ecuaciones \ref{modelors}, para todo $i$.
 
 Las tasas efectivas solo pueden ser positivas por el beneficio mutualista, pero en esta simulación las poblaciones iniciales no son suficientes para para conseguirlo, con la excepción del mencionado polinizador número $4$. Las especies de planta $1$ y $2$ empiezan con poblaciones por encima de sus capacidades de carga.
 Este experimento muestra el \textit{atractor de extinción} que conduce a la destrucción total de la comunidad.
@@ -779,7 +779,7 @@ En este apartado presentamos los resultados de las simulaciones que hemos llevad
 
 En todos los experimentos las tasas vegetativas son negativas, el mutualismo es obligado para todas las especies.
 
-El primer experimento con saturación es similar al realizado para el modelo con capacidades de carga constantes. En este caso, hay especies que empiezan la simulación con tasas efectivas negativas y otras positivas, pero el sistema está al principio por debajo de la divisoria multidimensional y se extingue porque la trayectoria termina en el atractor de destrucción.
+El primer experimento con saturación (figura \ref{fig:DINAMICA_SAT_exper_stab1}) es similar al realizado para el modelo con capacidades de carga constantes. En este caso, hay especies que empiezan la simulación con tasas efectivas negativas y otras positivas, pero el sistema está al principio por debajo de la divisoria multidimensional y se extingue porque la trayectoria termina en el atractor de destrucción.
 
 \begin{figure}[h!]
 \centering

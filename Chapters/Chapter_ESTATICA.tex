@@ -4,7 +4,8 @@
 \label{ChapterESTATICA}  % Change X to a consecutive number; for referencing this chapter elsewhere, use \ref{ChapterX}
 
 
-La descripción de la estructura de las comunidades mutualistas se hace mediante indicadores estadísticos, como el \textit{anidamiento}
+Como se ha visto en el capítulo anterior el estudio de la estructura de la red mutualista es fundamental para la compresión de las poblaciones de interacciones mutualistas y  sus modelos dinámicos. 
+La descripción de dicha estructura se hace mediante indicadores estadísticos, como el \textit{anidamiento}
 y la \textit{modularidad}. Las medidas locales de centralidad y grado ayudan a ordenar las especies y su importancia relativa para
 la resitencia de la red ante perturbaciones externas. Sin embargo, no existe un marco teórico que explique las relaciones entre los observables
 que se manejan habitualmente.
@@ -22,7 +23,7 @@ para una nueva ordenación de las especies en función de su aportación a la re
 Es un hecho empírico que las redes mutualistas muestran \textit{anidamiento} \cite{bascompte2003nested}. Hay un grupo de especies generalistas, con un alto número de conexiones, mientras que las especialistas tienen una alta probabilidad de conectarse a generalistas pero no a otras especialistas. El anidamiento parece proporcionar estabilidad estructural y maximizar las poblaciones de la comunidad \cite{thebault2010stability, suweis2013emergence}. Por estas razones la medida del anidamiento resulta tan popular en el análisis del mutualismo. 
 
 La modularidad es otra propiedad global observada en estas redes \cite{newman2004finding, olesen2007modularity}. De una forma intuitiva, los módulos son grupos de nodos fuertemente conectados entre sí dentro de una red con baja conectividad. Los módulos parecen actuar como cortafuegos ante las extinciones en cascada \cite{saavedra2011strong} mientras que las redes muy anidadas son más vulnerables a este fenómeno \cite{lever2014sudden}. 
-
+$  $
 Ambas magnitudes se corresponden con propiedades globales de la red, pero no ofrecen medidas locales. No tiene sentido hablar de anidamiento o modularidad de una especie. Esta limitación supone un obstáculo en la práctica a la hora de definir políticas de conservación, porque no resultan útiles para predecir el comportamiento ante extinciones parciales. Desde un punto de vista analítico, también es deseable poder encontrar principios que funcionen tanto a escala global como a escala local. 
 Además, la relación entre anidamiento, modularidad y establidad de la red es un tema de intenso debate académico \cite{fortuna2010nestedness, james2012disentangling, staniczenko2013ghost, feng2014heterogeneity}. Como resultado de todas estas consideraciones, la búsqueda de medidas alternativas, basadas en propiedades estadísticas o topológicas, es un campo de investigación muy activo \cite{podani2014new,chagnon2015characterizing,strona2015new}.
 
@@ -30,7 +31,7 @@ Además, la relación entre anidamiento, modularidad y establidad de la red es u
 
 La \textit{descomposición k-core}\footnote{Utilizamos la expresión original en inglés por ser prevalente en la bibliografía, a pesar de que algunos autores han propuesto traducciones como \textit{núcleos de grado k} \cite{herrero2000terminologia} o \textit{k-núcleos} \cite{cardona2006taxonomia, martinez2011aplicacion}} fue utilizada por primera vez por Stefen Seidman para medir la densidad local y la cohesión en redes sociales \cite{seidman1983network}. Dado un grafo no dirigido, un \textit{k-core} es el subgrafo máximo el el que todos sus nodos están conectados con al menos otros $k$ puntos \cite{dorogovtsev2006k}.
 
-La \textit{descomposición k-core} se ha utilizado de forma habitual como mecanismo de reducción de información para estudiar redes de distinta naturaleza \cite{kitsak2010identification, zhang2010using, barbera2014critical}. El resultado ofrece una visión organizada en capas, con los nodos más centrales en la \textit{shell} de mayor $k$. Esta cifra puede llegar al orden de las centenas en redes grandes. Hasta donde nosotros sabemos, no hay literatura sobre su aplicación al estudio del mutualismo, ya que son redes bipartitas de un tamaño mínimo comparado con los sistemas sociales o tecnológicos a los que se ha aplicado.
+La \textit{descomposición k-core} se ha utilizado de forma habitual como mecanismo de reducción de información para estudiar redes de distinta naturaleza \cite{kitsak2010identification, zhang2010using, barbera2015critical}. El resultado ofrece una visión organizada en capas, con los nodos más centrales en la \textit{shell} de mayor $k$. Esta cifra puede llegar al orden de las centenas en redes grandes. Hasta donde nosotros sabemos, no hay literatura sobre su aplicación al estudio del mutualismo, ya que son redes bipartitas de un tamaño mínimo comparado con los sistemas sociales o tecnológicos a los que se ha aplicado.
 
 \begin{theo} 
 Sea un grafo no dirigido $G = \{V, E\}$, donde $V$ y $E$ son los conjuntos de nodos y enlaces respectivamente. Llamamos $deg_G(v)$ al grado del nodo $v$ en el grafo $G$. El subgrafo $M = \{C, E|C\}$ inducido por el subconjunto de nodos $C \subseteq V$ es
@@ -85,7 +86,6 @@ En la parte superior derecha de la imagen, se reproduce el detalle de las conexi
 
 Podemos definir una magnitud global, teniendo en cuenta los $k_{radius}$ de todas las especies.
 
-\clearpage
 \begin{theo} 
 El \textit{$\overline k_{radius}$} de una red se obtiene promediando los ${k}_{radius}$ de todos los nodos, sin importar la clase a la que pertenezcan.
 \begin{align*}
@@ -118,7 +118,7 @@ Para poder establecer políticas de conservación es necesario disponer de un re
 
 La biodiversidad y resistencia de una comunidad mutualista depende de su estructura. La extinción de algunas especies provoca que partes de la red queden desconectadas de la componente gigante y posiblemente expuestas a la desaparición. Por este motivo, la evolución del tamaño de la componente gigante cuando se eliminan especies es el criterio más utilizado para estudiar la resistencia estructural estática.
 
-Esto es lo que hace el método de medida de Dunne \cite{dunne2002biodiversity}, ideado en origen para \textit{food webs}. Las especies se van retirando una por una de la red (extinciones primarias). Este hecho produce extinciones secundarias de aquellas especies que resultan desconectadas de la componente gigante. La gráfica de la fracción de la componente gigante inicial superviviente, frente a la fracción de extinciones primarias (en escala normalizada entre 0 y 1) define la \textit{curva de extinción}. Cuanto menor sea el área bajo esta curva, más rápida será la destrucción de la red.
+Esto es lo que hace el método de medida de Dunne \cite{dunne2002biodiversity}, ideado en origen para \textit{food webs}. Las especies se van retirando una por una de la red (extinciones primarias). Este hecho produce extinciones secundarias de aquellas especies. La gráfica de la fracción de la red inicial superviviente, frente a la fracción de extinciones primarias (en escala normalizada entre 0 y 1) define la \textit{curva de extinción}. Cuanto menor sea el área bajo esta curva, más rápida será la destrucción de la red.
 
 \begin{figure}[h!]
 \centering
@@ -133,9 +133,9 @@ En el mutualismo, parece lógico pensar que las especies de las \textit{shells} 
 
 \section{Material y métodos}
 
-Para este capítulo hemos utilizado la colección de datos de redes mutualistas de la \textit{Web of Life}  \url{http://www.web-of-life.es/} \cite{fortuna2014web}. Hemos analizado todas las disponibles en las categorías \textit{planta-polinizador} y \textit{panta-dispersor de semillas}. En diciembre de 2015 dicha colección consta de 59 redes de la primera familia y 30 de la segunda. El número de especies por red varía entre 6 y 997 y el número de interacciones entre 6 y 2993.
+Para este capítulo hemos utilizado la colección de datos de redes mutualistas de la \textit{Web of Life}  \url{http://www.web-of-life.es/} \cite{fortuna2014web}. Hemos analizado todas las disponibles en las categorías \textit{planta-polinizador} y \textit{planta-dispersor de semillas}. En diciembre de 2015 dicha colección consta de 59 redes de la primera familia y 30 de la segunda. El número de especies por red varía entre 6 y 997 y el número de interacciones entre 6 y 2993.
 
-El software se ha desarrollado en \texttt{R} y \texttt{Python}. La \textit{descomposición k-core} se realiza con el paquete \texttt{R} \texttt{igraph} \cite{csardi2006igraph}. El mismo paquete ofrece funciones para el cálculo de $NODF$ y $Modularity$. El código\texttt{R} para medir ${k}_{degree}$ y ${k}_{radius}$ es propio. Los valores medios de estas magnitudes se calculan descartando las especies que no pertenecen a la componente gigante cuando en la red se produce esta circunstancia. 
+El software se ha desarrollado en \texttt{R} y \texttt{Python}. La \textit{descomposición k-core} se realiza con el paquete \texttt{R} \texttt{igraph} \cite{csardi2006igraph}. El mismo paquete ofrece funciones para el cálculo de $NODF$ y $Modularity$. El código \texttt{R} para medir ${k}_{degree}$ y ${k}_{radius}$ es propio. Los valores medios de estas magnitudes se calculan descartando las especies que no pertenecen a la componente gigante cuando en la red se produce esta circunstancia. 
 
 Para medir la bondad del algoritmo de destrucción, hemos comparado su rendimiento con el que ofrece \textit{MusRank}, de reciente publicación y basado en una clasificación de la importancia de los nodos similar a la del \textit{PageRank} de Google  \citep{dominguez2015ranking}. Tanto el algoritmo basado en \textit{k-shell} como la medición del \textit{MusRank} se han codificado en \texttt{Python}.
 
@@ -277,7 +277,7 @@ Si observamos la relación entre las dos \textit{k-magnitudes} y el indíce $k$ 
 
 \subsection{Correlación entre \textit{k-magnitudes} y propiedades globales}
 
-Uno de los objetivos principales de la investigación es hallar la posible relación entre las magnitudes que se derivan de la \textit{descomposición k-core} y las que se utilizan habitualmente en la caracterización del mutualismo \textit{anidamiento} y \textit{modularidad}. Hemos encontrado que las \textit{k-magnitudes} globales tienen una fuerte correlación con estas dos medidas, y esto es de gran interés puesto que surgen de la agregación de las propiedades locales de cada nodo.
+Uno de los objetivos principales de la investigación es hallar la posible relación entre las magnitudes que se derivan de la \textit{descomposición k-core} y las que se utilizan habitualmente en la caracterización del mutualismo. Hemos encontrado que las \textit{k-magnitudes} globales tienen una fuerte correlación con estas dos medidas, y esto es de gran interés puesto que surgen de la agregación de las propiedades locales de cada nodo.
 
 Para realizar la comparación se calcula el anidamiento mediante \textit{NODF} y la modularidad siguiendo la definición de \textit{Modularity} de Newman \cite{almeida2008consistent, newman2004finding} \footnote{Para evitar confusiones entre el nombre la de la magnitud y la medida según un algoritmo concreto, en lo sucesivo se emplea \textit{Modularity}, en inglés y con mayúscula, para referirse al valor definido por Newman.}. Ambas medidas las proporciona el paquete \texttt{bipartite} en \texttt{R}. En la figura \ref{fig:ESTATICA_corrfigs} se han representado el $\overline {k}_{radius}$ en función de $NODF$ y el $\overline {k}_{degree}$ en función de la $modularidad$. Las figuras sugerían que existe un fuerte correlación negativa entre el $\overline {k}_{radius}$ y $NODF$ por una parte y, por otra, entre el $\overline {k}_{degree}$ y la $modularidad$. 
 
@@ -288,7 +288,7 @@ Para realizar la comparación se calcula el anidamiento mediante \textit{NODF} y
 \label{fig:ESTATICA_corrfigs}
 \end{figure}
 
-Las nubes de puntos se represntan sobre eje lineal en las abscisas y logarítmico en las ordenadas. Parecen compatibles con un modelo exponencial, así que procedimos a calcular las regresiones lineales $log(Y) ~ X$. Los resultados numéricos se resumen en la tabla \ref{table:table_lmodel}. Como muestra el valor ajustado de $R^2$ $(0,84)$, el logaritmo de $\overline {k}_{radius}$ tiene una correlación muy elevada con $NODF$. 
+Las nubes de puntos se representan sobre eje lineal en las abscisas y logarítmico en las ordenadas. Parecen compatibles con un modelo exponencial, así que procedimos a calcular las regresiones lineales $log(Y) ~ X$. Los resultados numéricos se resumen en la tabla \ref{table:table_lmodel}. Como muestra el valor ajustado de $R^2$ $(0,84)$, el logaritmo de $\overline {k}_{radius}$ tiene una correlación muy elevada con $NODF$. 
 \begin{align}
 \displaystyle \log({\overline k_{radius}}) = \beta_1 \times NODF + \beta_0
 \stepcounter{equation}\tag{\theequation}\label{eq:kradius_vs_nodf}
@@ -312,7 +312,7 @@ p-value & $<2.2 \times 10^{-16}$& p-value' & $<2.2 \times 10^{-16}$\\
 
 La correlación entre $\overline {k}_{degree}$ y $Modularity$ es más complicada de intuir. La distribución de densidad del $k_{degree}$ está más concentrada y sesgada hacia la izquierda cuanto más modular es la red. En ese caso la mayoría de las especies tienen valores reducidos del ${k}_{degree}$ y en consecuencia el valor medio es reducido. La distribución se va aplanando a medida que la modularidad decrece y el valor medio se desplaza hacia la derecha. En la figura \ref{fig:ESTATICA_density_plots} se puede ver este efecto.
 
-Si se examina de nuevo la figura \ref{fig:ESTATICA_corrfigs}, se verá que las redes de mayor tamaño son también las que tienen valores más altos de $Modularity$. La mayoría de ellas son de la clase \textit{plata-polinizador} mientras que las tipo \textit{dispersor de semillas} son más pequeñas. Este hecho ya fue puntado por Olesen que estudió 51 redes y encontró que las que tienen menos de 150 especies no son modulares \cite{olesen2007modularity}. Los valores elevados de $\overline {k}_{degree}$ en redes reducidas casan bien con la observación de que en ese caso las especies se encuentran más próximas a la \textit{shell} más interna y añaden valores altos al ${k}_{degree}$ de las especies a las que se conectan.
+Si se examina de nuevo la figura \ref{fig:ESTATICA_corrfigs}, se verá que las redes de mayor tamaño son también las que tienen valores más altos de $Modularity$. La mayoría de ellas son de la clase \textit{planta-polinizador} mientras que las tipo \textit{dispersor de semillas} son más pequeñas. Este hecho ya fue puntado por Olesen que estudió 51 redes y encontró que las que tienen menos de 150 especies no son modulares \cite{olesen2007modularity}. Los valores elevados de $\overline {k}_{degree}$ en redes reducidas casan bien con la observación de que en ese caso las especies se encuentran más próximas a la \textit{shell} más interna y añaden valores altos al ${k}_{degree}$ de las especies a las que se conectan.
 
 \begin{figure}[h!]
 \centering
@@ -321,7 +321,7 @@ Si se examina de nuevo la figura \ref{fig:ESTATICA_corrfigs}, se verá que las r
 \label{fig:ESTATICA_density_plots}
 \end{figure}
 
-Las elevadas correlaciones de $\overline {k}_{radius}$ con $NODF$ y de $\overline {k}_{radius}$ con $Modularity$ son suficientes para esta investigación. Por ejemplo, no se propugna que $log(\overline {k}_{radius})$ sea un buen predicto de $NODF$, de hecho el test de \textit{Shapiro-Wilk} muestra heterocedasticidad. La colección de la \textit{Web of Life} no es una muestra aleatoria, y la distribución de las magnitudes no son normales. Sin embargo, las correlaciones apoyan la idea de que el $\overline {k}_{radius}$ es un indicador global de anidamiento, y el $\overline {k}_{degree}$ de modularidad y que la \textit{descomposición k-core} es una alternativa válida para el estudio del mutualismo.
+Las elevadas correlaciones de $\overline {k}_{radius}$ con $NODF$ y de $\overline {k}_{radius}$ con $Modularity$ son suficientes para esta investigación. Por ejemplo, no se propugna que $log(\overline {k}_{radius})$ sea un buen predictor de $NODF$, de hecho el test de \textit{Shapiro-Wilk} muestra heterocedasticidad. La colección de la \textit{Web of Life} no es una muestra aleatoria, y la distribución de las magnitudes no son normales. Sin embargo, las correlaciones apoyan la idea de que el $\overline {k}_{radius}$ es un indicador global de anidamiento, y el $\overline {k}_{degree}$ de modularidad y que la \textit{descomposición k-core} es una alternativa válida para el estudio del mutualismo.
 
 \subsection{Recableado aleatorio}
 
@@ -408,7 +408,7 @@ Lo que muestra cualitativamente este experimento, es que cuanto  mayores son el 
 
 \subsection{Rendimiento del algoritmo de destrucción}
 
-Como hemos indicado, los resultados de nuestro algoritmo de destrucción se comparan con los obtenidos con \textit{MusRank}, un procedimiento de alto rendimiento. Tras probar diversas posibles combinaciones de los \textit{k-parámetros} encontramos que la más eficiente se basa en ordenar las especies primero por su \textit{k-shell}, a igualdad de  \textit{k-shell}por su $k_{radius}$, y a igualdas de ambos parámetros, por su $k_{degree}$. El área bajo la curva de extinción se utiliza para medir la velocidad de destrucción (mayor cuanto más pequeña). Por ejemplo, la figura \ref{fig:ESTATICA_destruction_comparativa_dosredes} muestra el tamaño de la componente gigante superviviente en función de la fracción de extinciones primarias para la red de polinizadores $M\_PL\_010$ (Elberling \& Olesen, no publicada). A la izquierda, el proceso de destrucción siguiendo el {MusRank}, a la derecha, según la ordenación basada en \textit{k-shell}. Mientras que con \textit{MusRank} la pendiente decreciente permanece casi constante, con \textit{k-shell} puede verse como al eliminarse la \textit{k-shell} máxima se produce una caída abrupta en el número de especies supervivientes.
+Como hemos indicado, los resultados de nuestro algoritmo de destrucción se comparan con los obtenidos con \textit{MusRank}, un procedimiento de alto rendimiento. Tras probar diversas posibles combinaciones de los \textit{k-parámetros} encontramos que la más eficiente se basa en ordenar las especies primero por su \textit{k-shell}, a igualdad de  \textit{k-shell} por su $k_{radius}$, y a igualdad de ambos parámetros, por su $k_{degree}$. El área bajo la curva de extinción se utiliza para medir la velocidad de destrucción (mayor cuanto más pequeña). Por ejemplo, la figura \ref{fig:ESTATICA_destruction_comparativa_dosredes} muestra el tamaño de la componente gigante superviviente en función de la fracción de extinciones primarias para la red de polinizadores $M\_PL\_010$ (Elberling \& Olesen, no publicada). A la izquierda, el proceso de destrucción siguiendo el {MusRank}, a la derecha, según la ordenación basada en \textit{k-shell}. Mientras que con \textit{MusRank} la pendiente decreciente permanece casi constante, con \textit{k-shell} puede verse como al eliminarse la \textit{k-shell} máxima se produce una caída abrupta en el número de especies supervivientes.
 
 \begin{figure}[h!]
 \centering
@@ -432,8 +432,8 @@ La diferencia de rendimiento no es tan llamativa para las de dispersores de semi
 
 La \textit{descomposición k-core} proporciona una sólida base para el análisis del mutualismo. Hemos demostrado como las \textit{k-magnitudes} definidas como propiedades surgidas del procedimiento, permiten conocer en detalle la estructura de las redes. En particular, al promediar los valores locales para todo el sistema, $\overline {k}_{radius}$ y $\overline {k}_{degree}$ muestran una fuerte correlación con los observables globales $NODF$ y $Modularity$. 
 
-Esta técnica descubre detalles internos de una forma natural, agrupando las especies en conjuntos que comparten propiedades topológicas.La identificación de las distintas \textit{k-shells} permite realizar estudios de estabilidad y resistencia. La simulación de perturbaciones externas puede concentrarse en la destrucción de las \textit{k-shells} más internas y observar el efecto para la supervivencia de la comunidad. 
+Esta técnica descubre detalles internos de una forma natural, agrupando las especies en conjuntos que comparten propiedades topológicas. La identificación de las distintas \textit{k-shells} permite realizar estudios de estabilidad y resistencia. La simulación de perturbaciones externas puede concentrarse en la destrucción de las \textit{k-shells} más internas y observar el efecto para la supervivencia de la comunidad. 
 
-La descomposición es también el criterio de una nueva ordenación de las especies. Hemos provocado extinciones primarias y evaluado la evolución del tamaño de la componente gigante. Los resultados muestra que el procedimiento de extinción basado en \textit{k-shell} obtiene un mejor renidmiento que \textit{MusRank} para casi todas las redes de polinizadores de la colección investigad, y es ligeramente peor para las de dispersores de semillas. La ordenación por \textit{k-core} es un buen predictor de la resistencia de red.
+La descomposición es también el criterio de una nueva ordenación de las especies. Hemos provocado extinciones primarias y evaluado la evolución del tamaño de la componente gigante. Los resultados muestra que el procedimiento de extinción basado en \textit{k-shell} obtiene un mejor renidmiento que \textit{MusRank} para casi todas las redes de polinizadores de la colección investigada, y es ligeramente peor para las de dispersores de semillas. La ordenación por \textit{k-core} es un buen predictor de la resistencia de red.
 
 Aunque hemos enfocado el estudio en redes mutualistas, la técnica se puede extender a otros tipos de redes bipartitas, por ejemplo comensalistas. Relaciones bipartitas y con fuerte anidamiento, como las que aparecen en redes de innovación y comercio, podrían también beneficiarse de este análisis.

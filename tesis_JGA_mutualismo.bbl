@@ -45,6 +45,39 @@
   \field{year}{2008}
 \endentry
 
+\entry{alvarez2005k}{article}{}
+  \name{author}{4}{}{%
+    {{}%
+     {Alvarez-Hamelin}{A.-H.}%
+     {Jos{\'e}~Ignacio}{J.~I.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Dall'Asta}{D.}%
+     {Luca}{L.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Barrat}{B.}%
+     {Alain}{A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Vespignani}{V.}%
+     {Alessandro}{A.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{AHJI+1}
+  \strng{fullhash}{AHJIDLBAVA1}
+  \field{labelalpha}{AH+05}
+  \field{sortinit}{A}
+  \field{title}{k-core decomposition: A tool for the visualization of large
+  scale networks}
+  \field{journaltitle}{arXiv preprint cs/0504107}
+  \field{year}{2005}
+\endentry
+
 \entry{almeida2008consistent}{article}{}
   \name{author}{5}{}{%
     {{}%
@@ -188,54 +221,56 @@
   \field{year}{2009}
 \endentry
 
-\entry{barbera2014critical}{article}{}
+\entry{barbera2015critical}{article}{}
   \name{author}{7}{}{%
     {{}%
      {Barber{\'a}}{B.}%
-     {P}{P}%
+     {Pablo}{P.}%
      {}{}%
      {}{}}%
     {{}%
      {Wang}{W.}%
-     {N}{N}%
+     {Ning}{N.}%
      {}{}%
      {}{}}%
     {{}%
      {Bonneau}{B.}%
-     {R}{R}%
+     {Richard}{R.}%
      {}{}%
      {}{}}%
     {{}%
      {Jost}{J.}%
-     {JT}{J.}%
+     {John~T}{J.~T.}%
      {}{}%
      {}{}}%
     {{}%
      {Nagler}{N.}%
-     {J}{J}%
+     {Jonathan}{J.}%
      {}{}%
      {}{}}%
     {{}%
      {Tucker}{T.}%
-     {J}{J}%
+     {Joshua}{J.}%
      {}{}%
      {}{}}%
     {{}%
      {Gonz{\'a}lez-Bail{\'o}n}{G.-B.}%
-     {S}{S}%
+     {Sandra}{S.}%
      {}{}%
      {}{}}%
   }
+  \list{publisher}{1}{%
+    {Public Library of Science}%
+  }
   \strng{namehash}{BP+1}
-  \strng{fullhash}{BPWNBRJJNJTJGBS1}
-  \field{labelalpha}{Bar+14}
+  \strng{fullhash}{BPWNBRJJTNJTJGBS1}
+  \field{labelalpha}{Bar+15}
   \field{sortinit}{B}
   \field{number}{11}
-  \field{pages}{e0143611\bibrangedash e0143611}
-  \field{title}{The Critical Periphery in the Growth of Social Protests.}
+  \field{title}{The Critical Periphery in the Growth of Social Protests}
   \field{volume}{10}
   \field{journaltitle}{PloS one}
-  \field{year}{2014}
+  \field{year}{2015}
 \endentry
 
 \entry{bascompte2003nested}{article}{}
@@ -1692,6 +1727,50 @@
   \field{volume}{268}
   \field{journaltitle}{Proc. R. Soc. Lond. B}
   \field{year}{2001}
+\endentry
+
+\entry{smith2005diversity}{article}{}
+  \name{author}{5}{}{%
+    {{}%
+     {SMITH-RAM{\'I}REZ}{S.-R.}%
+     {Cecilia}{C.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Martinez}{M.}%
+     {P}{P}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Nunez}{N.}%
+     {M}{M}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Gonz{\'a}lez}{G.}%
+     {C}{C}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Armesto}{A.}%
+     {Juan~J}{J.~J.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Wiley Online Library}%
+  }
+  \strng{namehash}{SRC+1}
+  \strng{fullhash}{SRCMPNMGCAJJ1}
+  \field{labelalpha}{SR+05}
+  \field{sortinit}{S}
+  \field{number}{4}
+  \field{pages}{399\bibrangedash 416}
+  \field{title}{Diversity, flower visitation frequency and generalism of
+  pollinators in temperate rain forests of Chilo{\'e} Island, Chile}
+  \field{volume}{147}
+  \field{journaltitle}{Botanical Journal of the Linnean Society}
+  \field{year}{2005}
 \endentry
 
 \entry{saavedra2009}{article}{}
