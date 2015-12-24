@@ -45,9 +45,9 @@
 \contentsline {chapter}{\numberline {4}Visualizaciones}{67}{chapter.143}
 \contentsline {section}{\numberline {4.1}Representaciones cl\IeC {\'a}sicas del mutualismo}{67}{section.144}
 \contentsline {section}{\numberline {4.2}Visualizaciones basadas en \textit {k-magnitudes}}{70}{section.149}
-\contentsline {subsection}{\numberline {4.2.1}El diagrama polar}{70}{subsection.151}
-\contentsline {subsection}{\numberline {4.2.2}El diagrama zigurat}{72}{subsection.154}
-\contentsline {section}{\numberline {4.3}Resultados}{73}{section.156}
+\contentsline {subsection}{\numberline {4.2.1}El diagrama polar}{70}{subsection.150}
+\contentsline {subsection}{\numberline {4.2.2}El diagrama zigurat}{72}{subsection.153}
+\contentsline {section}{\numberline {4.3}Resultados}{74}{section.156}
 \contentsline {section}{\numberline {4.4}Conclusiones}{74}{section.157}
 \contentsline {chapter}{\numberline {5}Conclusiones de la tesis}{75}{chapter.158}
 \contentsline {section}{\numberline {5.1}XXXX mutualismo}{75}{section.159}

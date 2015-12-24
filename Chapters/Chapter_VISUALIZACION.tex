@@ -56,7 +56,7 @@ Por el contrario, la matriz de interacción se vuelve también muy confusa para 
 
 \section{Visualizaciones basadas en \textit{k-magnitudes}}
 
-En este apartado se describen dos nuevos tipos de visualización que se basan en las \textit{k magnitudes} definidas en el capítulo anterior: el diagrama polar y el diagrama zigurat (\footnote{Según el DRAE: Torre escalonada y piramidal, característica de la arquitectura religiosa asiria y caldea.}).
+En este apartado se describen dos nuevos tipos de visualización que se basan en las \textit{k magnitudes} definidas en el capítulo anterior: el diagrama polar y el diagrama zigurat.
 
 \subsection{El diagrama polar}
 
@@ -90,14 +90,24 @@ A pesar de que el diagrama polar ofrece una nueva visión de las comunidades mut
 
 \subsection{El diagrama zigurat}
 
-Nunc posuere quam at lectus tristique eu ultrices augue venenatis. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Aliquam erat volutpat. Vivamus sodales tortor eget quam adipiscing in vulputate ante ullamcorper. Sed eros ante, lacinia et sollicitudin et, aliquam sit amet augue. In hac habitasse platea dictumst.
+El diagrana zigurat se ha creado para mostrar la estructura de \textit{k shells} de una red bipartita y todos los enlaces entre sus nodos. La idea básica consiste en agrupar las especies en \textit{shells} que se representan como pequeños zigurats(\footnote{Según el DRAE: Torre escalonada y piramidal, característica de la arquitectura religiosa asiria y caldea.}). Las dos \textit{shells} máximas se colocan en el eje de simetría horizontal, ligeramente hacia la izquierda. El resto, se distribuyen siguiendo una disposición en forma de almendra, que deja un gran espacio libre para dibujar los enlaces.
 
 \begin{figure}[h!]
 \centering
-\includegraphics[scale=0.5]{Figures/zig_pl_024.png}
-\caption[PolarExample]{Ejemplo de diagrama \textit{zigurat}.}
-\label{fig:VISUALIZACION_zigurat}
+\includegraphics[scale=0.4]{Figures/VIS_ALL_SD_004.eps}
+\caption {Diagrama zigurat de una comunidad de aves frugívoras de Puerto Rico, con $54$ especies y $95$ enlaces \cite{carlo2003avian}. Abajo el diagrama bipartito.}
+\label{fig:ziggurat}
 \end{figure}
+
+En la \textit{shell} máxima las especies se ordenan por $k_{degree}$, con el valor mayor a la izquierda. En el resto, se ordenan por $k_{radius}$, correspondiendo la base del zigurat a la especie de menor $k_{radius}$.
+
+Las especies de la \textit{1-shell} se disponen como una nube el torno a la almendra central. Si, como sucede a menudo, varias especies de esta \textit{shell} comparten enlace, se dibujan de forma agrupada y con un único enlace.
+
+En algunas redes, los autores han incluido observaciones de especies que no están conectadas con la componente gigante. En ese caso, se representa el fragmento inconexo, pero no se tiene en cuenta para la \textit{k descomposición}.
+
+Por último, es importante recalcar que en el diagrama zigurat, las áreas no transmiten información sobre tamaños de la población.
+
+La red de la figura \ref{fig:ziggurat} es de pequeño tamaño. En el gráfico bipartito todavía se pueden seguir los enlaces individuales. Sin embargo, el zigurat ofrece una visión mucho más rica de la organización con cuatro \textit{shells} internas y una pequeña \textit{1-shell}. Se pueden descubrir con facilidad algunos patrones, como la baja conectividad entre especies de las \textit{shells} de menor índice $k$, o la relativa importancia de la especie dispersora $2$ que en el bipartito aparece en el extremo izquierdo.
 
 \section{Resultados}
 

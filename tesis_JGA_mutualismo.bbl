@@ -444,6 +444,40 @@
   \field{year}{2006}
 \endentry
 
+\entry{carlo2003avian}{article}{}
+  \name{author}{3}{}{%
+    {{}%
+     {Carlo}{C.}%
+     {Tom{\'a}s~A}{T.~A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Collazo}{C.}%
+     {Jaime~A}{J.~A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Groom}{G.}%
+     {Martha~J}{M.~J.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Springer}%
+  }
+  \strng{namehash}{CTACJAGMJ1}
+  \strng{fullhash}{CTACJAGMJ1}
+  \field{labelalpha}{CCG03}
+  \field{sortinit}{C}
+  \field{number}{1}
+  \field{pages}{119\bibrangedash 131}
+  \field{title}{Avian fruit preferences across a Puerto Rican forested
+  landscape: pattern consistency and implications for seed removal}
+  \field{volume}{134}
+  \field{journaltitle}{Oecologia}
+  \field{year}{2003}
+\endentry
+
 \entry{chagnon2015characterizing}{article}{}
   \name{author}{1}{}{%
     {{}%
