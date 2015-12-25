@@ -47,10 +47,10 @@
 \contentsline {section}{\numberline {4.2}Visualizaciones basadas en \textit {k-magnitudes}}{70}{section.149}
 \contentsline {subsection}{\numberline {4.2.1}El diagrama polar}{70}{subsection.150}
 \contentsline {subsection}{\numberline {4.2.2}El diagrama zigurat}{72}{subsection.153}
-\contentsline {section}{\numberline {4.3}Resultados}{74}{section.156}
-\contentsline {section}{\numberline {4.4}Conclusiones}{74}{section.157}
-\contentsline {chapter}{\numberline {5}Conclusiones de la tesis}{75}{chapter.158}
-\contentsline {section}{\numberline {5.1}XXXX mutualismo}{75}{section.159}
-\contentsline {chapter}{\numberline {6}Ap\IeC {\'e}ndice: Fuentes de datos}{77}{chapter.160}
-\contentsline {section}{\numberline {6.1}Redes mutualistas del cap\IeC {\'\i }tulo }{77}{section.161}
-\contentsline {chapter}{Bibliograf\IeC {\'\i }a}{79}{chapter*.162}
+\contentsline {section}{\numberline {4.3}Resultados}{77}{section.159}
+\contentsline {section}{\numberline {4.4}Conclusiones}{77}{section.160}
+\contentsline {chapter}{\numberline {5}Conclusiones de la tesis}{79}{chapter.161}
+\contentsline {section}{\numberline {5.1}XXXX mutualismo}{79}{section.162}
+\contentsline {chapter}{\numberline {6}Ap\IeC {\'e}ndice: Fuentes de datos}{81}{chapter.163}
+\contentsline {section}{\numberline {6.1}Redes mutualistas del cap\IeC {\'\i }tulo }{81}{section.164}
+\contentsline {chapter}{Bibliograf\IeC {\'\i }a}{83}{chapter*.165}
