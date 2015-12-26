@@ -654,6 +654,35 @@
   \field{year}{2015}
 \endentry
 
+\entry{dupont2009ecological}{article}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Dupont}{D.}%
+     {Yoko~L}{Y.~L.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Olesen}{O.}%
+     {Jens~M}{J.~M.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Wiley Online Library}%
+  }
+  \strng{namehash}{DYLOJM1}
+  \strng{fullhash}{DYLOJM1}
+  \field{labelalpha}{DO09}
+  \field{sortinit}{D}
+  \field{number}{2}
+  \field{pages}{346\bibrangedash 353}
+  \field{title}{Ecological modules and roles of species in heathland
+  plant--insect flower visitor networks}
+  \field{volume}{78}
+  \field{journaltitle}{Journal of Animal Ecology}
+  \field{year}{2009}
+\endentry
+
 \entry{dunne2002biodiversity}{article}{}
   \name{author}{3}{}{%
     {{}%
@@ -1210,6 +1239,29 @@
   \field{year}{1991}
 \endentry
 
+\entry{lambert1989fig}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Lambert}{L.}%
+     {Frank}{F.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Cambridge Univ Press}%
+  }
+  \strng{namehash}{LF1}
+  \strng{fullhash}{LF1}
+  \field{labelalpha}{Lam89}
+  \field{sortinit}{L}
+  \field{number}{04}
+  \field{pages}{401\bibrangedash 412}
+  \field{title}{Fig-eating by birds in a Malaysian lowland rain forest}
+  \field{volume}{5}
+  \field{journaltitle}{Journal of Tropical Ecology}
+  \field{year}{1989}
+\endentry
+
 \entry{lever2014sudden}{article}{}
   \name{author}{4}{}{%
     {{}%
@@ -1325,6 +1377,31 @@
   \field{volume}{24}
   \field{journaltitle}{Parallel and Distributed Systems, IEEE Transactions on}
   \field{year}{2013}
+\endentry
+
+\entry{mosquin1967observations}{article}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Mosquin}{M.}%
+     {Theodore}{T.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Martin}{M.}%
+     {JEH}{J.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{MTMJ1}
+  \strng{fullhash}{MTMJ1}
+  \field{labelalpha}{MM67}
+  \field{sortinit}{M}
+  \field{pages}{201\bibrangedash 205}
+  \field{title}{Observations on the pollination biology of plants on Melville
+  Island, NWT, Canada}
+  \field{volume}{81}
+  \field{journaltitle}{Canadian Field Naturalist}
+  \field{year}{1967}
 \endentry
 
 \entry{martinez2011aplicacion}{article}{}
@@ -1536,6 +1613,28 @@
   \field{volume}{12}
   \field{journaltitle}{Journal of Mathematical Chemistry}
   \field{year}{1993}
+\endentry
+
+\entry{ramirez1989biologia}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Ramirez}{R.}%
+     {Nelson}{N.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {JSTOR}%
+  }
+  \strng{namehash}{RN1}
+  \strng{fullhash}{RN1}
+  \field{labelalpha}{Ram89}
+  \field{sortinit}{R}
+  \field{pages}{319\bibrangedash 330}
+  \field{title}{Biolog{\'\i}a de polinizaci{\'o}n en una comunidad arbustiva
+  tropical de la alta Guayana venezolana}
+  \field{journaltitle}{Biotropica}
+  \field{year}{1989}
 \endentry
 
 \entry{rueness2003}{article}{}
