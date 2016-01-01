@@ -95,7 +95,7 @@ El diagrana zigurat se ha creado para mostrar la estructura de \textit{k shells}
 \begin{figure}[h!]
 \centering
 \includegraphics[scale=0.45]{Figures/VIS_ALL_SD_004.eps}
-\caption {Diagrama zigurat de una comunidad de aves frugívoras de Puerto Rico, con $54$ especies y $95$ enlaces \cite{carlo2003avian}. $\overline k_{radius} = 2,19$, $\overline k_{degree} = 2,37$, $NODF = 39,82$, $Modularity = 0.34$. Abajo el diagrama bipartito.}
+\caption {Diagrama zigurat de una comunidad de aves frugívoras de Puerto Rico  $M\_SD\_004$, con $54$ especies y $95$ enlaces \cite{carlo2003avian}. $\overline k_{radius} = 2,19$, $\overline k_{degree} = 2,37$, $NODF = 39,82$, $Modularity = 0.34$. Abajo el diagrama bipartito.}
 \label{fig:ziggurat}
 \end{figure}
 
@@ -243,19 +243,23 @@ No obstante, un pequeño porcentaje se salía de este patrón, y vimos que eran 
 
 El primero (figura \ref{fig:VIS_PL_012}) corresponde a una red de tamaño mediano, con una estructura compleja. La red original se representa con los colores habituales, las correspondientes a los distintos grados de recableado en otros tonos, para recalcar que no se trata de redes reales. 
 
-En la red sin alterar, se observa un índice $k$ máximo de $4$, y una gran conectividad directa con esas \textit{shells}. Hay un importante número de especies en la $1$-$shell$. En el gráfico de correlación general entre $NODF$ y $\overline k_{radius}$ (figura \ref{ESTATICA_corrfigs}) esta red se sitúa en una zona intermedia.
+En la red sin alterar, se observa un índice $k$ máximo de $4$, y una gran conectividad directa con esas \textit{shells}. Hay un importante número de especies en la $1$-$shell$. En el gráfico de correlación general entre $NODF$ y $\overline k_{radius}$ (figura \ref{fig:ESTATICA_corrfigs}) esta red se sitúa en una zona intermedia.
 
-Al recablear al azar seis enlaces, la estructura cambia poco, aunque puede verse como aparece una $2$-$shell$ de plantas y aumenta la conectividad entre las \textit{k shells} inferiores. Es importante recalcar que esta red alterada es resultado de una realización al azar, la configuración puede variar entre distintas realizaciones, por eso las gráficas de la figura \ref{ESTATICA_corrfigs} se obtuvieron repitiendo veinte veces. No obstante, un recableado mínimo, tendrá pocas consecuencias globales en en esta red.
+Cuando se reconectan al azar seis enlaces, la estructura cambia poco, aunque puede verse como aparece una $2$-$shell$ de plantas y aumenta la conectividad entre las \textit{k shells} inferiores. Es importante recalcar que esta red alterada es resultado de una realización aleatoria, la configuración puede variar entre distintos intentos, por eso las gráficas de la figura \ref{fig:ESTATICA_corrfigs} se obtuvieron repitiendo veinte veces el recabledado para un mismo número de enlaces. No obstante, un recableado mínimo como el del ejemplo, tendrá pocas consecuencias globales para esta red.
 
-Al aumentar a diecisiete los enlaces reconectados, la degradación es más notable. El índice $k$ máximo baja a $3$. Si sigue creciendo esa cifra, la modificación es aun más evidente, en la imagen para treinta y dos cambios al azar, las $2$-$shells$ han crecido a costa de la $3$ y tienen muchas más conexiones entre ellas. La $NODF$ ha bajado desde el original $30,40$ a $12,22$ y el $\overline k_{radius}$ pasa de $2,51$ a $2,82$. 
+Al aumentar a diecisiete los enlaces reconectados, la degradación es más notable. El índice $k$ máximo baja a $3$. Si sigue creciendo la cantidad de reconexiones, la modificación es aun más evidente. En la imagen, para treinta y dos cambios al azar, las $2$-$shells$ han crecido a costa de la $3$ y aparecen muchas más conexiones, en proporción, entre ellas. La $NODF$ ha bajado desde el original $30,40$ a $12,22$ y el $\overline k_{radius}$ pasa de $2,51$ a $2,82$. 
 
+En el segundo ejemplo se presenta un caso extremo de comportamiento fuera de la norma  (figura \ref{fig:VIS_SD_007}). Esta red de frugívoros es extraordinariamente asimétrica con solo $7$ especies de plantas por $72$ de animales. Las especies $1$ a $6$ de plantas forman la $3$-$shell$, solo la número $7$ tiene un lugar marginal en la $1$-$shell$.
+
+\clearpage
 \begin{figure}[ht!]
 \centering
-\includegraphics[scale=0.75]{Figures/VIS_PL_012.pdf}
+\includegraphics[scale=0.80]{Figures/VIS_PL_012.pdf}
 \caption {Red de polinizadores $M\_PL\_012$, en el Parque Nacional de Garajonay, La Gomera (España), compilada por Olesen y no publicada, con $84$ especies y $145$ enlaces. Arriba, la red original, $NODF = 30,40$, $\overline k_{radius} = 2,51$. En sentido horario, red con siete enlaces recableados al azar, $NODF = 26,62$, $\overline k_{radius} = 2,48$; con diecisiete enlaces recableados, $NODF = 22,62$, $\overline k_{radius} = 2,77$ y con treinta y dos, $NODF = 13,22$, $\overline k_{radius} = 2,82$.}
 \label{fig:VIS_PL_012}
 \end{figure}
 
+\clearpage
 \begin{figure}[ht!]
 \centering
 \includegraphics[scale=0.75]{Figures/VIS_SD_007.pdf}
@@ -263,11 +267,17 @@ Al aumentar a diecisiete los enlaces reconectados, la degradación es más notab
 \label{fig:VIS_SD_007}
 \end{figure}
 
-
-En el segundo ejemplo se presenta un caso extremo de comportamiento fuera de la norma  (figura \ref{fig:VIS_SD_007}). Esta red de frugívoros es extraordinariamente asimétrica con solo $7$ especies de plantas por $72$ de animales. Las especies $1$ a $6$ de plantas forman la $3$-$shell$, solo la número $7$ tiene un lugar marginal en la $1$-$shell$.
-
+\clearpage
 Con esta configuración parece claro que una alteración mínima de las conexiones de las plantas tendrá un impacto sensible en la estructura global. Es lo que sucede recableando al azar solo seis enlaces. Aparece una $4$-$shell$ y disminuyen a la vez $NODF$ y  $\overline k_{radius}$. En el diagrama de correlación se ve que cualquier cambio disminuye el primer parámetro, pero esa información no dice nada sobre los profundos cambios de estructura que podrían producirse.
 
+Una situación real en la que las redes cambian de forma drástica se produce por la extinción de una o más especies. En la figura \ref{fig:VIS_M_SD_004_pol3_pol4_ziggurat} se representa la red $M\_SD\_004$, en la que se han eliminado únicamente los dos polinizadores de mayor $k_{degree}$, los números $3$ y $4$. El resultado es la reducción en $1$ del índice $k$ máximo, $NODF$ baja desde $39,82$ a $22,46$ y $\overline k_{radius}$ pasa de $2,19$ a $2,26$. La degradación de la red se asemeja a la que se ha visto con el experimento de recableado, con la fusión del $k$ máximo con el $k$-$1$ y el crecimiento de la proporción de enlaces entre especies fuera del $k$ máximo resultante.
+
+\begin{figure}[ht!]
+\centering
+\includegraphics[scale=0.5]{Figures/VIS_M_SD_004_pol3_pol4_ziggurat.png}
+\caption {Red de frugívoros $M\_SD\_004$, en la que se han eliminado los polinizadores números $3$ y $4$, los dos de mayor $k_{degree}$, véase la figura \ref{fig:ziggurat}.} 
+\label{fig:VIS_M_SD_004_pol3_pol4_ziggurat}
+\end{figure}
 
 \clearpage
 \section{Conclusiones}
