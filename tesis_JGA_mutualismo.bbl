@@ -526,6 +526,29 @@
   \field{year}{2006}
 \endentry
 
+\entry{crome1975ecology}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Crome}{C.}%
+     {FHJ}{F.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {CSIRO}%
+  }
+  \strng{namehash}{CF1}
+  \strng{fullhash}{CF1}
+  \field{labelalpha}{Cro75}
+  \field{sortinit}{C}
+  \field{number}{2}
+  \field{pages}{155\bibrangedash 185}
+  \field{title}{The ecology of fruit pigeons in tropical Northern Queensland.}
+  \field{volume}{2}
+  \field{journaltitle}{Wildlife Research}
+  \field{year}{1975}
+\endentry
+
 \entry{dakos2015resilience}{article}{}
   \name{author}{4}{}{%
     {{}%

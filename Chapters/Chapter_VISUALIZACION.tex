@@ -6,7 +6,7 @@
 
 %----------------------------------------------------------------------------------------
 %	SECTION 1
-%------------------------5---------------------------------------------------------------
+%----------------------------------------------------------------------------------------
 
 \section{Representaciones clásicas del mutualismo}
 
@@ -235,11 +235,41 @@ La red de polinizadores de un brezal danés (figura \ref{fig:VIS_M_PL_047_ziggur
 
 
 \clearpage
-\section{Resultados}
+\section{Visualización de la estructura}
 
-Nunc posuere quam at lectus tristique eu ultrices augue venenatis. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Aliquam erat volutpat. Vivamus sodales tortor eget quam adipiscing in vulputate ante ullamcorper. Sed eros ante, lacinia et sollicitudin et, aliquam sit amet augue. In hac habitasse platea dictumst.
+El diagrama zigurat no solo sirve para captar la riqueza y variedad de las comunidades mutualistas, también puede ayudar a entender algunas de sus propiedades. En el capítulo anterior se describió un experimento que consiste en recablear al azar un pequeño porcentaje de los enlaces y medir su efecto en la correlación entre $NODF$ y $\overline k_{radius}$ (figura \ref{fig:ESTATICA_histo_corr_rewiring}). La mayoría de las redes experimentan una degradaciónl lineal por la que el anidamiento medido con $NODF$ decrece y el $\overline k_{radius}$ aumenta. Se llega a un estado similar al que se obtendría si las especies interactuasen al azar, lo que sabemos que está muy lejos de la realidad.
+
+No obstante, un pequeño porcentaje se salía de este patrón, y vimos que eran redes pequeñas o con una marcada asimetría. En los dos ejemplos que se incluyen a continuación, los diagramas zigurat permiten entener el por qué de este comportamiento.
+
+El primero (figura \ref{fig:VIS_PL_012}) corresponde a una red de tamaño mediano, con una estructura compleja. La red original se representa con los colores habituales, las correspondientes a los distintos grados de recableado en otros tonos, para recalcar que no se trata de redes reales. 
+
+En la red sin alterar, se observa un índice $k$ máximo de $4$, y una gran conectividad directa con esas \textit{shells}. Hay un importante número de especies en la $1$-$shell$. En el gráfico de correlación general entre $NODF$ y $\overline k_{radius}$ (figura \ref{ESTATICA_corrfigs}) esta red se sitúa en una zona intermedia.
+
+Al recablear al azar seis enlaces, la estructura cambia poco, aunque puede verse como aparece una $2$-$shell$ de plantas y aumenta la conectividad entre las \textit{k shells} inferiores. Es importante recalcar que esta red alterada es resultado de una realización al azar, la configuración puede variar entre distintas realizaciones, por eso las gráficas de la figura \ref{ESTATICA_corrfigs} se obtuvieron repitiendo veinte veces. No obstante, un recableado mínimo, tendrá pocas consecuencias globales en en esta red.
+
+Al aumentar a diecisiete los enlaces reconectados, la degradación es más notable. El índice $k$ máximo baja a $3$. Si sigue creciendo esa cifra, la modificación es aun más evidente, en la imagen para treinta y dos cambios al azar, las $2$-$shells$ han crecido a costa de la $3$ y tienen muchas más conexiones entre ellas. La $NODF$ ha bajado desde el original $30,40$ a $12,22$ y el $\overline k_{radius}$ pasa de $2,51$ a $2,82$. 
+
+\begin{figure}[ht!]
+\centering
+\includegraphics[scale=0.75]{Figures/VIS_PL_012.pdf}
+\caption {Red de polinizadores $M\_PL\_012$, en el Parque Nacional de Garajonay, La Gomera (España), compilada por Olesen y no publicada, con $84$ especies y $145$ enlaces. Arriba, la red original, $NODF = 30,40$, $\overline k_{radius} = 2,51$. En sentido horario, red con siete enlaces recableados al azar, $NODF = 26,62$, $\overline k_{radius} = 2,48$; con diecisiete enlaces recableados, $NODF = 22,62$, $\overline k_{radius} = 2,77$ y con treinta y dos, $NODF = 13,22$, $\overline k_{radius} = 2,82$.}
+\label{fig:VIS_PL_012}
+\end{figure}
+
+\begin{figure}[ht!]
+\centering
+\includegraphics[scale=0.75]{Figures/VIS_SD_007.pdf}
+\caption {Red de frugívoros $M\_SD\_007$, en el norte de Queensland, Australia \cite{crome1975ecology}, con $79$ especies y $143$ enlaces. Arriba, la red original, $NODF = 51,67$, $\overline k_{radius} = 2,37$. Abajo, red con seis enlaces recableados al azar, $NODF = 44,75$, $\overline k_{radius} = 2,09$.}
+\label{fig:VIS_SD_007}
+\end{figure}
 
 
+En el segundo ejemplo se presenta un caso extremo de comportamiento fuera de la norma  (figura \ref{fig:VIS_SD_007}). Esta red de frugívoros es extraordinariamente asimétrica con solo $7$ especies de plantas por $72$ de animales. Las especies $1$ a $6$ de plantas forman la $3$-$shell$, solo la número $7$ tiene un lugar marginal en la $1$-$shell$.
+
+Con esta configuración parece claro que una alteración mínima de las conexiones de las plantas tendrá un impacto sensible en la estructura global. Es lo que sucede recableando al azar solo seis enlaces. Aparece una $4$-$shell$ y disminuyen a la vez $NODF$ y  $\overline k_{radius}$. En el diagrama de correlación se ve que cualquier cambio disminuye el primer parámetro, pero esa información no dice nada sobre los profundos cambios de estructura que podrían producirse.
+
+
+\clearpage
 \section{Conclusiones}
 
 Nunc posuere quam at lectus tristique eu ultrices augue venenatis. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Aliquam erat volutpat. Vivamus sodales tortor eget quam adipiscing in vulputate ante ullamcorper. Sed eros ante, lacinia et sollicitudin et, aliquam sit amet augue. In hac habitasse platea dictumst.
