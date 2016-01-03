@@ -1484,6 +1484,35 @@
   \field{year}{1993}
 \endentry
 
+\entry{mack1996notes}{article}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Mack}{M.}%
+     {Andrew~L}{A.~L.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Wright}{W.}%
+     {Debra~D}{D.~D.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {CSIRO}%
+  }
+  \strng{namehash}{MALWDD1}
+  \strng{fullhash}{MALWDD1}
+  \field{labelalpha}{MW96}
+  \field{sortinit}{M}
+  \field{number}{2}
+  \field{pages}{89\bibrangedash 101}
+  \field{title}{Notes on occurrence and feeding of birds at Crater Mountain
+  biological research station, Papua New Guinea}
+  \field{volume}{96}
+  \field{journaltitle}{Emu}
+  \field{year}{1996}
+\endentry
+
 \entry{newman2004finding}{article}{}
   \name{author}{2}{}{%
     {{}%

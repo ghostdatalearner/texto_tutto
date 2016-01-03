@@ -280,6 +280,55 @@ Una situación real en la que las redes cambian de forma drástica se produce po
 \end{figure}
 
 \clearpage
+\begin{figure}[ht!]
+\centering
+\includegraphics[scale=0.33]{Figures/VIS_M_SD_004_minus_k4_ziggurat.png}
+\caption {Red de frugívoros $M\_SD\_004$, en la que se han eliminado todos los polinizadores de la $4$-$shell$, véase la figura \ref{fig:ziggurat}.} 
+\label{fig:VIS_M_SD_004_minus_k4_ziggurat}
+\end{figure}
+
+\begin{figure}[h!]
+\centering
+\includegraphics[scale=0.45]{Figures/VIS_M_SD_018_ziggurat.png}
+\caption {Red de frugívoros $M\_SD\_018$, en Papúa Nueva Guinea \cite{mack1996notes}.} 
+\label{fig:VIS_M_SD_018_ziggurat}
+\end{figure}
+
+El diagrama de zigurat permite ver de forma clara la importancia de la \textit{shell} máxima para la estabilidad de la red. Si desaparecen todas las especies de polinizadores de la $4$-$shell$ de manera simultánea ($1$,$3$,$4$,$5$ y $8$) el resultado es casi catastrófico para la comunidad. El anidamiento cae a $NODF = 3,38$. La red sobreviviente es un pequeño núcleo en $2$-$shell$ y escasas especies en $1$-$shell$ (figura \ref{fig:VIS_M_SD_004_minus_k4_ziggurat}).
+
+En la figura \ref{fig:VIS_Modvskdegree3-sd04} se han representado los diagramas polares de la red intacta, de la red sin los dos polinizadores y de la red sin la $4$-$shell$ y el gráfico de la relación de $\overline k_{degree}$ con $Modularity$ como se hizo en la figura \ref{fig:VIS_Modvskdegree3-sd04}. Desde una posición inicial en la mitad del gráfico, los dos estados degradados se desplazan hacia posiciones de menor $k_{degree}$ y mayor $Modularity$.
+
+\begin{figure}[h!]
+\centering
+\includegraphics[scale=0.23]{Figures/VIS_Modvskdegree3-sd04.pdf}
+\caption {Diagramas polares de la red $M\_SD\_004$ intacta, tras eliminar los dos polinizadores de mayor $k_{degree}$ y tras suprimir la $4$-$shell$ de polinizadores completa.} 
+\label{fig:VIS_Modvskdegree3-sd04}
+\end{figure}
+ 
+\clearpage
+\begin{figure}[ht!]
+\centering
+\includegraphics[scale=0.5]{Figures/VIS_M_SD_004_minus_k3k2_ziggurat.png}
+\caption {Red de frugívoros $M\_SD\_004$, en la que se han eliminado todos los polinizadores de la $3$-$shell$ ($NODF = 36,24$, $\overline k_{radius} = 2,17$)y la $2$-$shell$ ($NODF = 33,055$, $\overline k_{radius} = 2,15$), véase la figura \ref{fig:ziggurat}.} 
+\label{fig:VIS_M_SD_004_minus_k3k2_ziggurat}
+\end{figure}
+
+\clearpage
+Cabe preguntarse si las redes resultantes de las extinciones se parecen a redes reales. La de toda la colección cuyos parámetros se acercan más a la de la figura \ref{fig:VIS_M_SD_004_minus_k4_ziggurat} es una comunidad de frugívoros que en estado natural tiene un $k$ máximo $2$ (figura \ref{fig:VIS_M_SD_018_ziggurat}). Se ha señalado en el gráfico de correlación de \ref{fig:VIS_Modvskdegree3-sd04} la posición de esta red.
+
+Su aspecto general es muy similar al de lo que queda de la comunidad de Puerto Rico al extinguirse los frugívoros de la \textit{shell} máxima. Esto lleva a pensar que las comunidades mutualistas con índices $k$ máximos menores pueden ser restos de otras anteriores más complejas que han perdido parte de sus nodos. Alternativamente, podrían ser estados iniciales de formación.
+
+Al exponer en el capítulo anterior el mecanismo de extinción basado en $k$-$shell$, se vio que la mayor destrucción se produce si se eliminan éstas de mayor a menor índice. Se ha comprobado como afecta a la red $M\_SD\_004$ la pérdida de los cinco frugívoros de la \textit{shell} máxima, ¿qué ocurre si ese núcleo se mantiene y se destruyen los de índices $k$ menores?
+
+En la imagen superior de la figura \ref{fig:VIS_M_SD_004_minus_k3k2_ziggurat}, se han extinguido las dos especies de frugívoros que formaban la $3$-$shell$. La $NODF$ baja muy poco, de $39,82$ a $36,34$ y el $\overline k_{radius}$ prácticamente no se modifica. El contraste es grande si se compara con el resultado de eliminar los dos frugívoros de mayor $\overline k_{degree}$, tanto en el porcentaje de cambio de las magnitudes como en el de la estructura de la red. Se sigue conservando el índice $k$ máximo $4$.
+
+Si a continuación se extinguen las cuatro especies animales de la $2$-$shell$, tampoco se observan grandes cambios en los parámetros de la red resultante (figura \ref{fig:VIS_M_SD_004_minus_k3k2_ziggurat}, abajo). Esto es así porque los frugívoros desaparecidos tenían casi todos sus enlaces con la $4$-$shell$ de plantas, como consecuencia del anidamiento. Apenas hay arrastre de otras especies (solo las dos plantas de $1$-$shell$ conectadas a la $3$-$shell$ de animales).
+
+Con este ejemplo se puede entender mejor la importancia del orden de extinción basado en el índice $k$. Si se conservan las \textit{shells} máximas y la red está bien anidada, la pérdida de otras \textit{shells} de índice inferior no arrastra apenas otras especies. Por el contrario, si hay muchos enlaces entre entre estas \textit{shells} inferiores, el fenómeno puede propagarse dando origen a las extinciones en cascada.
+
+La conservación de las especies de las \textit{shells} máximas debe ser prioritaria porque de ellas depende en gran medida la supervivencia de toda la comunidad, y el diagrama zigurat es una ayuda gráfica para la comprensión de este hecho.
+
+\clearpage
 \section{Conclusiones}
 
 Nunc posuere quam at lectus tristique eu ultrices augue venenatis. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Aliquam erat volutpat. Vivamus sodales tortor eget quam adipiscing in vulputate ante ullamcorper. Sed eros ante, lacinia et sollicitudin et, aliquam sit amet augue. In hac habitasse platea dictumst.
