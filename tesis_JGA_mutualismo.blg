@@ -2,4 +2,19 @@ This is BibTeX, Version 0.99dThe top-level auxiliary file: tesis_JGA_mutualismo.
 The style file: biblatex.bst
 Database file #1: tesis_JGA_mutualismo-blx.bib
 Database file #2: tesis_JGA_mutualismo.bib
+I was expecting a `,' or a `}'---line 208 of file tesis_JGA_mutualismo.bib
+ :     
+ :     url = {http://igraph.org},
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 237 of file tesis_JGA_mutualismo.bib
+ :   
+ :   publisher={The Royal Society}
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+Repeated entry---line 458 of file tesis_JGA_mutualismo.bib
+ : @book{rech2014biologia
+ :                       ,
+I'm skipping whatever remains of this entry
 Biblatex version: 3.0
+(There were 3 error messages)

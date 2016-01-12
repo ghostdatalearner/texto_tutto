@@ -53,19 +53,19 @@ onehalfspacing, % Single line spacing, alternatives: onehalfspacing or doublespa
 \usepackage[backend=bibtex,style=alphabetic,natbib=true]{biblatex} % (which resembles APA)
 \addbibresource{tesis_JGA_mutualismo.bib} % The filename of the bibliography
 
-\hyphenation{co-ne-xio-nes}
-\hyphenation{pro-ba-bi-li-dad}
-\hyphenation{co-rre-la-ción}
-\hyphenation{cre-ci-mien-to}
-\hyphenation{sa-tu-ra-ción}
-\hyphenation{lle-va-do}
-\hyphenation{mo-de-lo}
-\hyphenation{po-si-ti-vas}
-\hyphenation{co-rres-pon-den}
-\hyphenation{ba-rri-do}
-\hyphenation{mu-tua-lis-ta}
-\hyphenation{ne-ga-ti-vas}
-
+%\hyphenation{co-ne-xio-nes}
+%\hyphenation{pro-ba-bi-li-dad}
+%\hyphenation{co-rre-la-ción}
+%\hyphenation{cre-ci-mien-to}
+%\hyphenation{sa-tu-ra-ción}
+%\hyphenation{lle-va-do}
+%\hyphenation{mo-de-lo}
+%\hyphenation{po-si-ti-vas}
+%\hyphenation{co-rres-pon-den}
+%\hyphenation{ba-rri-do}
+%\hyphenation{mu-tua-lis-ta}
+%\hyphenation{ne-ga-ti-vas}
+\hyphenation{a-ccroi-sse-ment}
 
 
 \definecolor{bistre}{rgb}{0.24, 0.17, 0.12}
@@ -350,10 +350,11 @@ The acknowledgements and the people to thank go here, don't forget to include yo
 %	BIBLIOGRAPHY
 %----------------------------------------------------------------------------------------
 \renewcommand{\bibname}{Bibliografía}
-\begin{tiny}
+\renewcommand*{\bibfont}{\small}
+\setlength{\bibhang}{0em}
 \printbibliography[heading=bibintoc]
 
-\end{tiny}
+
 
 %----------------------------------------------------------------------------------------
 

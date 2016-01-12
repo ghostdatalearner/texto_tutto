@@ -410,7 +410,7 @@
   \strng{fullhash}{BUFMAAPGAFALBBJ1}
   \field{labelalpha}{Bas+09}
   \field{sortinit}{B}
-  \field{pages}{1018\bibrangedash 1020}
+  \field{pages}{1018\bibrangedash 20}
   \field{title}{The architecture of mutualistic networks minimizes competition
   and increases biodiversity}
   \field{volume}{458}
@@ -435,6 +435,33 @@
   \field{volume}{325}
   \field{journaltitle}{Science}
   \field{year}{2009}
+\endentry
+
+\entry{bascompte2007plant}{article}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Bascompte}{B.}%
+     {Jordi}{J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Jordano}{J.}%
+     {Pedro}{P.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {JSTOR}%
+  }
+  \strng{namehash}{BJJP1}
+  \strng{fullhash}{BJJP1}
+  \field{labelalpha}{BJ07}
+  \field{sortinit}{B}
+  \field{pages}{567\bibrangedash 593}
+  \field{title}{Plant-animal mutualistic networks: the architecture of
+  biodiversity}
+  \field{journaltitle}{Annual Review of Ecology, Evolution, and Systematics}
+  \field{year}{2007}
 \endentry
 
 \entry{boucher1982ecology}{article}{}
@@ -630,7 +657,7 @@
   \field{pages}{1\bibrangedash 9}
   \field{title}{The igraph software package for complex network research}
   \field{volume}{1695}
-  \field{journaltitle}{InterJournal, Complex Systems}
+  \field{journaltitle}{InterJournal}
   \field{year}{2006}
 \endentry
 
@@ -657,7 +684,7 @@
   \field{year}{1975}
 \endentry
 
-\entry{dakos2015resilience}{article}{}
+\entry{dakos2014resilience}{article}{}
   \name{author}{4}{}{%
     {{}%
      {Dakos}{D.}%
@@ -680,21 +707,18 @@
      {}{}%
      {}{}}%
   }
-  \list{publisher}{1}{%
-    {The Royal Society}%
-  }
   \strng{namehash}{DV+1}
   \strng{fullhash}{DVCSRNEHvSM1}
-  \field{labelalpha}{Dak+15}
+  \field{labelalpha}{Dak+14}
   \field{sortinit}{D}
   \field{number}{1659}
-  \field{pages}{20130263}
+  \field{pages}{1\bibrangedash 10}
   \field{title}{Resilience indicators: prospects and limitations for early
   warnings of regime shifts}
   \field{volume}{370}
   \field{journaltitle}{Philosophical Transactions of the Royal Society of
   London B: Biological Sciences}
-  \field{year}{2015}
+  \field{year}{2014}
 \endentry
 
 \entry{dakos2014critical}{article}{}
@@ -785,6 +809,51 @@
   \field{year}{2015}
 \endentry
 
+\entry{djieto2004symbiotic}{article}{}
+  \name{author}{5}{}{%
+    {{}%
+     {Dji{\'e}to-Lordon}{D.-L.}%
+     {Champlain}{C.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Dejean}{D.}%
+     {Alain}{A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Gibernau}{G.}%
+     {Marc}{M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Hossaert-McKey}{H.-M.}%
+     {Martine}{M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {McKey}{M.}%
+     {Doyle}{D.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Elsevier}%
+  }
+  \strng{namehash}{DLC+1}
+  \strng{fullhash}{DLCDAGMHMMMD1}
+  \field{labelalpha}{DL+04}
+  \field{sortinit}{D}
+  \field{number}{2}
+  \field{pages}{109\bibrangedash 116}
+  \field{title}{Symbiotic mutualism with a community of opportunistic ants:
+  protection, competition, and ant occupancy of the myrmecophyte Barteria
+  nigritana (Passifloraceae)}
+  \field{volume}{26}
+  \field{journaltitle}{Acta Oecologica}
+  \field{year}{2004}
+\endentry
+
 \entry{dupont2009ecological}{article}{}
   \name{author}{2}{}{%
     {{}%
@@ -846,6 +915,31 @@
   \field{volume}{5}
   \field{journaltitle}{Ecology letters}
   \field{year}{2002}
+\endentry
+
+\entry{estrada2012frugivores}{book}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Estrada}{E.}%
+     {Alejandro}{A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Fleming}{F.}%
+     {Theodore~H}{T.~H.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Springer Science \& Business Media}%
+  }
+  \strng{namehash}{EAFTH1}
+  \strng{fullhash}{EAFTH1}
+  \field{labelalpha}{EF12}
+  \field{sortinit}{E}
+  \field{title}{Frugivores and seed dispersal}
+  \field{volume}{15}
+  \field{year}{2012}
 \endentry
 
 \entry{encinas2012}{article}{}
@@ -1135,6 +1229,32 @@
   definici{\'o}n y de traducci{\'o}n}
   \field{journaltitle}{Pol{\'\i}tica y sociedad}
   \field{year}{2000}
+\endentry
+
+\entry{ito1991indirect}{article}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Ito}{I.}%
+     {F}{F}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Higashi}{H.}%
+     {S}{S}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {JSTOR}%
+  }
+  \strng{namehash}{IFHS1}
+  \strng{fullhash}{IFHS1}
+  \field{labelalpha}{IH91}
+  \field{sortinit}{I}
+  \field{pages}{463\bibrangedash 470}
+  \field{title}{An indirect mutualism between oaks and wood ants via aphids}
+  \field{journaltitle}{The Journal of Animal Ecology}
+  \field{year}{1991}
 \endentry
 
 \entry{johnson2013}{article}{}
@@ -1460,6 +1580,45 @@
   \field{year}{2014}
 \endentry
 
+\entry{lindstrom2010biodiversity}{article}{}
+  \name{author}{4}{}{%
+    {{}%
+     {Lindstr{\"o}m}{L.}%
+     {Kristina}{K.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Murwira}{M.}%
+     {Mazvita}{M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Willems}{W.}%
+     {Anne}{A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Altier}{A.}%
+     {Nora}{N.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Elsevier}%
+  }
+  \strng{namehash}{LK+1}
+  \strng{fullhash}{LKMMWAAN1}
+  \field{labelalpha}{Lin+10}
+  \field{sortinit}{L}
+  \field{number}{6}
+  \field{pages}{453\bibrangedash 463}
+  \field{title}{The biodiversity of beneficial microbe-host mutualism: the case
+  of rhizobia}
+  \field{volume}{161}
+  \field{journaltitle}{Research in Microbiology}
+  \field{year}{2010}
+\endentry
+
 \entry{mallet2012struggle}{article}{}
   \name{author}{1}{}{%
     {{}%
@@ -1539,6 +1698,30 @@
   \field{year}{2013}
 \endentry
 
+\entry{mebs2009chemical}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Mebs}{M.}%
+     {Dietrich}{D.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Elsevier}%
+  }
+  \strng{namehash}{MD1}
+  \strng{fullhash}{MD1}
+  \field{labelalpha}{Meb09}
+  \field{sortinit}{M}
+  \field{number}{8}
+  \field{pages}{1071\bibrangedash 74}
+  \field{title}{Chemical biology of the mutualistic relationships of sea
+  anemones with fish and crustaceans}
+  \field{volume}{54}
+  \field{journaltitle}{Toxicon}
+  \field{year}{2009}
+\endentry
+
 \entry{mosquin1967observations}{article}{}
   \name{author}{2}{}{%
     {{}%
@@ -1562,6 +1745,51 @@
   \field{volume}{81}
   \field{journaltitle}{Canadian Field Naturalist}
   \field{year}{1967}
+\endentry
+
+\entry{moran2005players}{article}{}
+  \name{author}{5}{}{%
+    {{}%
+     {Moran}{M.}%
+     {Nancy~A}{N.~A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Degnan}{D.}%
+     {Patrick~H}{P.~H.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Santos}{S.}%
+     {Scott~R}{S.~R.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Dunbar}{D.}%
+     {Helen~E}{H.~E.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Ochman}{O.}%
+     {Howard}{H.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {National Acad Sciences}%
+  }
+  \strng{namehash}{MNA+1}
+  \strng{fullhash}{MNADPHSSRDHEOH1}
+  \field{labelalpha}{Mor+05}
+  \field{sortinit}{M}
+  \field{number}{47}
+  \field{pages}{16919\bibrangedash 16926}
+  \field{title}{The players in a mutualistic symbiosis: insects, bacteria,
+  viruses, and virulence genes}
+  \field{volume}{102}
+  \field{journaltitle}{Proceedings of the National Academy of Sciences of the
+  United States of America}
+  \field{year}{2005}
 \endentry
 
 \entry{martinez2011aplicacion}{article}{}
@@ -1599,6 +1827,47 @@
   \field{journaltitle}{Revista espa{\~n}ola de documentaci{\'o}n
   cient{\'\i}fica}
   \field{year}{2011}
+\endentry
+
+\entry{mueller2001origin}{article}{}
+  \name{author}{5}{}{%
+    {{}%
+     {Mueller}{M.}%
+     {Ulrich~G}{U.~G.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Schultz}{S.}%
+     {Ted~R}{T.~R.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Currie}{C.}%
+     {Cameron~R}{C.~R.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Adams}{A.}%
+     {Rachelle~MM}{R.~M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Malloch}{M.}%
+     {David}{D.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {JSTOR}%
+  }
+  \strng{namehash}{MUG+1}
+  \strng{fullhash}{MUGSTRCCRARMMD1}
+  \field{labelalpha}{Mue+01}
+  \field{sortinit}{M}
+  \field{pages}{169\bibrangedash 197}
+  \field{title}{The origin of the attine ant-fungus mutualism}
+  \field{journaltitle}{Quarterly Review of Biology}
+  \field{year}{2001}
 \endentry
 
 \entry{murray1993mathematical}{misc}{}
@@ -1796,7 +2065,7 @@
   \field{labelalpha}{Pla+93}
   \field{sortinit}{P}
   \field{number}{1}
-  \field{pages}{235\bibrangedash 250}
+  \field{pages}{235\bibrangedash 50}
   \field{title}{On the Harary index for the characterization of chemical
   graphs}
   \field{volume}{12}
@@ -1843,6 +2112,37 @@
   tropical de la alta Guayana venezolana}
   \field{journaltitle}{Biotropica}
   \field{year}{1989}
+\endentry
+
+\entry{rech2014biologia}{article}{}
+  \name{author}{4}{}{%
+    {{}%
+     {Rech}{R.}%
+     {Andr{\'e}~Rodrigo}{A.~R.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Agostini}{A.}%
+     {Kayna}{K.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Oliveira}{O.}%
+     {Paulo~Eug{\^e}nio}{P.~E.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Machado}{M.}%
+     {Isabel~Cristina}{I.~C.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{RAR+1}
+  \strng{fullhash}{RARAKOPEMIC1}
+  \field{labelalpha}{Rec+14}
+  \field{sortinit}{R}
+  \field{title}{Biologia da Poliniza{\c{c}}{\~a}o}
+  \field{year}{2014}
 \endentry
 
 \entry{rockwood2006introduction}{book}{}
@@ -1908,6 +2208,40 @@
   \field{volume}{425}
   \field{journaltitle}{Nature}
   \field{year}{2003}
+\endentry
+
+\entry{raine2002spatial}{article}{}
+  \name{author}{3}{}{%
+    {{}%
+     {Raine}{R.}%
+     {Nigel~E}{N.~E.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Willmer}{W.}%
+     {Pat}{P.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Stone}{S.}%
+     {Graham~N}{G.~N.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Eco Soc America}%
+  }
+  \strng{namehash}{RNEWPSGN1}
+  \strng{fullhash}{RNEWPSGN1}
+  \field{labelalpha}{RWS02}
+  \field{sortinit}{R}
+  \field{number}{11}
+  \field{pages}{3086\bibrangedash 3096}
+  \field{title}{Spatial structuring and floral avoidance behavior prevent
+  ant-pollinator conflict in a Mexican ant-acacia}
+  \field{volume}{83}
+  \field{journaltitle}{Ecology}
+  \field{year}{2002}
 \endentry
 
 \entry{saavedra2011strong}{article}{}
@@ -2417,7 +2751,7 @@
   \name{author}{1}{}{%
     {{}%
      {Verhulst}{V.}%
-     {Pierre~Fran\c{c}ois}{P.~F.}%
+     {Pierre~F.}{P.~F.}%
      {}{}%
      {}{}}%
   }
@@ -2452,6 +2786,50 @@
   \field{volume}{118}
   \field{journaltitle}{Nature}
   \field{year}{1926}
+\endentry
+
+\entry{volkl1999ant}{article}{}
+  \name{author}{5}{}{%
+    {{}%
+     {V{\"o}lkl}{V.}%
+     {Wolfgang}{W.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Woodring}{W.}%
+     {Joseph}{J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Fischer}{F.}%
+     {Melanie}{M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Lorenz}{L.}%
+     {Matthias~W}{M.~W.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Hoffmann}{H.}%
+     {Klaus~H}{K.~H.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Springer}%
+  }
+  \strng{namehash}{VW+1}
+  \strng{fullhash}{VWWJFMLMWHKH1}
+  \field{labelalpha}{V{\"o}l+99}
+  \field{sortinit}{V}
+  \field{number}{4}
+  \field{pages}{483\bibrangedash 491}
+  \field{title}{Ant-aphid mutualisms: the impact of honeydew production and
+  honeydew sugar composition on ant preferences}
+  \field{volume}{118}
+  \field{journaltitle}{Oecologia}
+  \field{year}{1999}
 \endentry
 
 \entry{williams2000}{article}{}
