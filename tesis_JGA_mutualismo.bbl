@@ -300,6 +300,24 @@
   \field{year}{2015}
 \endentry
 
+\entry{barabasi2002linked}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Barabasi}{B.}%
+     {Albert-Laszlo}{A.-L.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{BAL1}
+  \strng{fullhash}{BAL1}
+  \field{labelalpha}{Bar02}
+  \field{sortinit}{B}
+  \field{title}{Linked: How everything is connected to everything else and what
+  it means}
+  \field{journaltitle}{Plume Editors}
+  \field{year}{2002}
+\endentry
+
 \entry{bascompte2003nested}{article}{}
   \name{author}{4}{}{%
     {{}%
@@ -493,6 +511,44 @@
   \field{title}{The ecology of mutualism}
   \field{journaltitle}{Annual Review of Ecology and Systematics}
   \field{year}{1982}
+\endentry
+
+\entry{brandes2013network}{article}{}
+  \name{author}{4}{}{%
+    {{}%
+     {Brandes}{B.}%
+     {Ulrik}{U.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Robins}{R.}%
+     {Garry}{G.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {McCranie}{M.}%
+     {Ann}{A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Wasserman}{W.}%
+     {Stanley}{S.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Cambridge Univ Press}%
+  }
+  \strng{namehash}{BU+2}
+  \strng{fullhash}{BURGMAWS1}
+  \field{labelalpha}{Bra+13}
+  \field{sortinit}{B}
+  \field{number}{01}
+  \field{pages}{1\bibrangedash 15}
+  \field{title}{What is network science?}
+  \field{volume}{1}
+  \field{journaltitle}{Network Science}
+  \field{year}{2013}
 \endentry
 
 \entry{bronstein2001exploitation}{article}{}
@@ -1338,7 +1394,7 @@
   \field{title}{Life-history change in disease-ravaged Tasmanian devil
   populations}
   \field{volume}{105}
-  \field{journaltitle}{Proceedings of the National Academy of Sciences USA}
+  \field{journaltitle}{Proceedings of the National Academy of Sciences}
   \field{year}{2008}
 \endentry
 
@@ -1665,6 +1721,27 @@
   \field{year}{1798}
 \endentry
 
+\entry{martinez1992constant}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Martinez}{M.}%
+     {Neo~D}{N.~D.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {JSTOR}%
+  }
+  \strng{namehash}{MND1}
+  \strng{fullhash}{MND1}
+  \field{labelalpha}{Mar92}
+  \field{sortinit}{M}
+  \field{pages}{1208\bibrangedash 1218}
+  \field{title}{Constant connectance in community food webs}
+  \field{journaltitle}{American Naturalist}
+  \field{year}{1992}
+\endentry
+
 \entry{montresor2013distributed}{article}{}
   \name{author}{3}{}{%
     {{}%
@@ -1890,6 +1967,34 @@
   \field{year}{1993}
 \endentry
 
+\entry{mason2007graph}{article}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Mason}{M.}%
+     {Oliver}{O.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Verwoerd}{V.}%
+     {Mark}{M.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {IET}%
+  }
+  \strng{namehash}{MOVM1}
+  \strng{fullhash}{MOVM1}
+  \field{labelalpha}{MV07}
+  \field{sortinit}{M}
+  \field{number}{2}
+  \field{pages}{89\bibrangedash 119}
+  \field{title}{Graph theory and networks in biology}
+  \field{volume}{1}
+  \field{journaltitle}{Systems Biology, IET}
+  \field{year}{2007}
+\endentry
+
 \entry{mack1996notes}{article}{}
   \name{author}{2}{}{%
     {{}%
@@ -1917,6 +2022,29 @@
   \field{volume}{96}
   \field{journaltitle}{Emu}
   \field{year}{1996}
+\endentry
+
+\entry{newman2003structure}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Newman}{N.}%
+     {Mark~EJ}{M.~E.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {SIAM}%
+  }
+  \strng{namehash}{NME1}
+  \strng{fullhash}{NME1}
+  \field{labelalpha}{New03}
+  \field{sortinit}{N}
+  \field{number}{2}
+  \field{pages}{167\bibrangedash 256}
+  \field{title}{The structure and function of complex networks}
+  \field{volume}{45}
+  \field{journaltitle}{SIAM review}
+  \field{year}{2003}
 \endentry
 
 \entry{newman2004finding}{article}{}
@@ -2002,6 +2130,25 @@
   \field{volume}{309}
   \field{journaltitle}{Science}
   \field{year}{2005}
+\endentry
+
+\entry{pimm1982food}{book}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Pimm}{P.}%
+     {Stuart~L}{S.~L.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Springer}%
+  }
+  \strng{namehash}{PSL1}
+  \strng{fullhash}{PSL1}
+  \field{labelalpha}{Pim82}
+  \field{sortinit}{P}
+  \field{title}{Food webs}
+  \field{year}{1982}
 \endentry
 
 \entry{podani2014new}{article}{}
@@ -2114,7 +2261,7 @@
   \field{year}{1989}
 \endentry
 
-\entry{rech2014biologia}{article}{}
+\entry{rech2014biologia}{book}{}
   \name{author}{4}{}{%
     {{}%
      {Rech}{R.}%
@@ -2136,6 +2283,9 @@
      {Isabel~Cristina}{I.~C.}%
      {}{}%
      {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Projeto Cultural}%
   }
   \strng{namehash}{RAR+1}
   \strng{fullhash}{RARAKOPEMIC1}

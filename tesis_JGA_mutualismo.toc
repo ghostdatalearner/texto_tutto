@@ -6,7 +6,7 @@
 \contentsline {chapter}{\numberline {1}Introducci\IeC {\'o}n general}{1}{chapter.2}
 \contentsline {section}{\numberline {1.1}El mutualismo en ecolog\IeC {\'\i }a}{2}{section.3}
 \contentsline {subsection}{\numberline {1.1.1}Tipos de mutualismo}{2}{subsection.4}
-\contentsline {section}{\numberline {1.2}Redes en ecolog\IeC {\'\i }a}{5}{section.7}
+\contentsline {section}{\numberline {1.2}Redes ecol\IeC {\'o}gicas}{5}{section.7}
 \contentsline {subsection}{\numberline {1.2.1}Redes mutualistas}{5}{subsection.8}
 \contentsline {subsection}{\numberline {1.2.2}Tendencias actuales en el estudio de las redes mutualistas}{5}{subsection.9}
 \contentsline {section}{\numberline {1.3}Estructura de la tesis}{6}{section.10}
