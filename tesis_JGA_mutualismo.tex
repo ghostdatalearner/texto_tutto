@@ -140,9 +140,9 @@ onehalfspacing, % Single line spacing, alternatives: onehalfspacing or doublespa
 
 \subject{Biological Sciences} % Your subject area, this is not currently used anywhere in the template, print it elsewhere with \subjectname
 \keywords{} % Keywords for your thesis, this is not currently used anywhere in the template, print it elsewhere with \keywordnames
-\university{\href{http://www.upm.es}{Universidad Politécnica de Madrid}} % Your university's name and URL, this is used in the title page and abstract, print it elsewhere with \univname
-\department{\href{http://department.university.com}{Department or School Name}} % Your department's name and URL, this is used in the title page and abstract, print it elsewhere with \deptname
-\group{\href{http://researchgroup.university.com}{Research Group Name}} % Your research group's name and URL, this is used in the title page, print it elsewhere with \groupname
+\university{Universidad Politécnica de Madrid} % Your university's name and URL, this is used in the title page and abstract, print it elsewhere with \univname
+\department{ETS de Ingeniería Agronómica, Alimentaria y de Biosistemas} % Your department's name and URL, this is used in the title page and abstract, print it elsewhere with \deptname
+\group{Grupo de Sistemas Complejos} % Your research group's name and URL, this is used in the title page, print it elsewhere with \groupname
 \faculty{\href{http://faculty.university.com}{Faculty Name}} % Your faculty's name and URL, this is used in the title page and abstract, print it elsewhere with \facname
 
 \hypersetup{pdftitle=\ttitle} % Set the PDF's title to your title
@@ -160,35 +160,39 @@ onehalfspacing, % Single line spacing, alternatives: onehalfspacing or doublespa
 %----------------------------------------------------------------------------------------
 
 \begin{titlepage}
-\includegraphics[scale=0.5]{Figures/logoupm.jpg}
-
 \begin{center}
+\includegraphics[scale=0.6]{Figures/logoupm.jpg}
 
-\textsc{\LARGE \univname}\\[1.5cm] % University name
+\textsc{\large \groupname}\\
+\textsc{\large \deptname}\\[5.5cm] % University name
+
+
+
+%\HRule \\[0.4cm] % Horizontal line
+{\huge \textsc \ttitle}\\[5cm] % Thesis title
+%\HRule \\[1.5cm] % Horizontal line
+ 
+%\begin{minipage}{0.4\textwidth}
+%\begin{flushleft} \large
+%\emph{Autor:}\\
+%{\authorname} % Author name - remove the \href bracket to remove the link
+%\end{flushleft}
+%\end{minipage}
+%\begin{minipage}{0.4\textwidth}
+%\begin{flushright} \large
+%\emph{Director:} \\
+%{\supname} % Supervisor name - remove the \href bracket to remove the link  
+%\end{flushright}
+%\end{minipage}\\[3cm]
+ 
+%\large \textit{A thesis submitted in fulfilment of the requirements\\ for the degree of \degreename}\\[0.3cm] % University requirement text
+%\textit{in the}\\[0.4cm]
+%\groupname\\\deptname\\[2cm] % Research group name and department name
+{\Large \authorname}\\[1cm]
+\Large{{Director: }{Dr. Javier Galeano Prieto}}\\[1cm]
 \textsc{\Large Tesis doctoral}\\[0.5cm] % Thesis type
-
-\HRule \\[0.4cm] % Horizontal line
-{\huge \bfseries \ttitle}\\[0.4cm] % Thesis title
-\HRule \\[1.5cm] % Horizontal line
- 
-\begin{minipage}{0.4\textwidth}
-\begin{flushleft} \large
-\emph{Autor:}\\
-{\authorname} % Author name - remove the \href bracket to remove the link
-\end{flushleft}
-\end{minipage}
-\begin{minipage}{0.4\textwidth}
-\begin{flushright} \large
-\emph{Director:} \\
-{\supname} % Supervisor name - remove the \href bracket to remove the link  
-\end{flushright}
-\end{minipage}\\[3cm]
- 
-\large \textit{A thesis submitted in fulfilment of the requirements\\ for the degree of \degreename}\\[0.3cm] % University requirement text
-\textit{in the}\\[0.4cm]
-\groupname\\\deptname\\[2cm] % Research group name and department name
- 
-{\large \today}\\[4cm] % Date
+{\large 2016}\\[4cm] % Date
+%{\large \today}\\[4cm] % Date
 %\includegraphics{Logo} % University/department logo - uncomment to place it
  
 \vfill
@@ -226,11 +230,11 @@ onehalfspacing, % Single line spacing, alternatives: onehalfspacing or doublespa
 %	QUOTATION PAGE
 %----------------------------------------------------------------------------------------
 
-\vspace*{0.2\textheight}
+\vspace*{0.05\textheight}
 
-\noindent\enquote{\itshape Thanks to my solid academic training, today I can write hundreds of words on virtually any topic without possessing a shred of information, which is how I got a good job in journalism.}\bigbreak
+\hfill\textit{\large All models are wrong but some are useful}\footnote{\cite{box1979robustness}}\bigbreak
 
-\hfill Dave Barry
+\hfill George Box (Estadístico, 1919-2013)
 
 %----------------------------------------------------------------------------------------
 %	ABSTRACT PAGE

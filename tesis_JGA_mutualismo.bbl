@@ -248,6 +248,44 @@
   \field{year}{2009}
 \endentry
 
+\entry{barrat2004architecture}{article}{}
+  \name{author}{4}{}{%
+    {{}%
+     {Barrat}{B.}%
+     {Alain}{A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Barthelemy}{B.}%
+     {Marc}{M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Pastor-Satorras}{P.-S.}%
+     {Romualdo}{R.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Vespignani}{V.}%
+     {Alessandro}{A.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {National Acad Sciences}%
+  }
+  \strng{namehash}{BA+1}
+  \strng{fullhash}{BABMPSRVA1}
+  \field{labelalpha}{Bar+04}
+  \field{sortinit}{B}
+  \field{number}{11}
+  \field{pages}{3747\bibrangedash 52}
+  \field{title}{The architecture of complex weighted networks}
+  \field{volume}{101}
+  \field{journaltitle}{Proceedings of the National Academy of Sciences}
+  \field{year}{2004}
+\endentry
+
 \entry{barbera2015critical}{article}{}
   \name{author}{7}{}{%
     {{}%
@@ -511,6 +549,25 @@
   \field{title}{The ecology of mutualism}
   \field{journaltitle}{Annual Review of Ecology and Systematics}
   \field{year}{1982}
+\endentry
+
+\entry{box1979robustness}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Box}{B.}%
+     {George~EP}{G.~E.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{BGE1}
+  \strng{fullhash}{BGE1}
+  \field{labelalpha}{Box79}
+  \field{sortinit}{B}
+  \field{pages}{201\bibrangedash 236}
+  \field{title}{Robustness in the strategy of scientific model building}
+  \field{volume}{1}
+  \field{journaltitle}{Robustness in statistics}
+  \field{year}{1979}
 \endentry
 
 \entry{brandes2013network}{article}{}
@@ -939,6 +996,47 @@
   \field{year}{2009}
 \endentry
 
+\entry{dunne2008compilation}{article}{}
+  \true{moreauthor}
+  \name{author}{5}{}{%
+    {{}%
+     {Dunne}{D.}%
+     {Jennifer~A}{J.~A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Williams}{W.}%
+     {Richard~J}{R.~J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Martinez}{M.}%
+     {Neo~D}{N.~D.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Wood}{W.}%
+     {Rachel~A}{R.~A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Erwin}{E.}%
+     {Douglas~H}{D.~H.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{DJA+1}
+  \strng{fullhash}{DJAWRJMNDWRAEDH+1}
+  \field{labelalpha}{Dun+08}
+  \field{sortinit}{D}
+  \field{number}{4}
+  \field{pages}{e102}
+  \field{title}{Compilation and network analyses of Cambrian food webs}
+  \field{volume}{6}
+  \field{journaltitle}{PLoS Biol}
+  \field{year}{2008}
+\endentry
+
 \entry{dunne2002biodiversity}{article}{}
   \name{author}{3}{}{%
     {{}%
@@ -1190,6 +1288,37 @@
   \field{year}{2012}
 \endentry
 
+\entry{gu2015emerging}{article}{}
+  \name{author}{3}{}{%
+    {{}%
+     {Gu}{G.}%
+     {Hao}{H.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Goodale}{G.}%
+     {Eben}{E.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Chen}{C.}%
+     {Jin}{J.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{GHGECJ1}
+  \strng{fullhash}{GHGECJ1}
+  \field{labelalpha}{GGC15}
+  \field{sortinit}{G}
+  \field{number}{2}
+  \field{pages}{65\bibrangedash 71}
+  \field{title}{Emerging directions in the study of the ecology and evolution
+  of plant-animal mutualistic networks: a review}
+  \field{volume}{36}
+  \field{journaltitle}{Zoological Research}
+  \field{year}{2015}
+\endentry
+
 \entry{goh1979}{article}{}
   \name{author}{1}{}{%
     {{}%
@@ -1396,6 +1525,28 @@
   \field{volume}{105}
   \field{journaltitle}{Proceedings of the National Academy of Sciences}
   \field{year}{2008}
+\endentry
+
+\entry{jordano1987patterns}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Jordano}{J.}%
+     {Pedro}{P.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {JSTOR}%
+  }
+  \strng{namehash}{JP1}
+  \strng{fullhash}{JP1}
+  \field{labelalpha}{Jor87}
+  \field{sortinit}{J}
+  \field{pages}{657\bibrangedash 677}
+  \field{title}{Patterns of mutualistic interactions in pollination and seed
+  dispersal: connectance, dependence asymmetries, and coevolution}
+  \field{journaltitle}{American naturalist}
+  \field{year}{1987}
 \endentry
 
 \entry{james2012disentangling}{article}{}
