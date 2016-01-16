@@ -34,6 +34,7 @@ El mutualismo puede adoptar varias formas e intensidades. La característica que
 %	SUBSECTION 1
 %-----------------------------------
 \subsection{Tipos de mutualismo}
+\label{TIPOS_DE_MUTUALISMO}
 	
 Las relaciones mutualistas pueden clasificarse según distintos criterios. Por el \textbf{tipo de convivencia}, se diferencia el \textit{mutualismo de simbiosis}. Las especies solo pueden vivir en una relación íntima, como las que se estableces entre numerosas especies de animales y su flora intestinal o entre bacterias y virus \cite{moran2005players}. Si, por el contrario, no hay una convivencia permanente se habla de \textit{mutualismo no simbiótico}.
 	
@@ -74,12 +75,12 @@ A veces, las relaciones son complejas. Las hormigas actúan como protectoras de 
 %	SECTION 2
 %----------------------------------------------------------------------------------------
 
-\section{Redes ecológicas}
+\section{Redes en ecología}
 
 Una red es un conjunto de entidades entre las que se establecen relaciones. Representando las primeras como nodos y las segundas como enlaces, 
 se construye un grafo, un modelo abstracto muy versátil. La estructura y dinámica dependen solo de su conformación, no de la realidad que representa. La ciencia de redes es una disciplina de desarrollo reciente que estudia cualquier fenómeno al que pueda aplicarse este método de modelado. Utiliza técnicas propias de la teoría de grafos clásica, de la física estadística o de la sociometría y tiene un amplío espectro de aplicación: economía, biología, tecnología, historia, literatura... \cite{barabasi2002linked, newman2003structure, brandes2013network}
 
-Las redes son ubicuas en biología \cite{mason2007graph}. Aparecen en las rutas metabólicas, la expresión génica o en epidemiología, por citar tres ejemplos destacados. Las comunidades ecológicas son redes de interacciones y su estudio en calidad de tales es anterior al auge actual de la ciencia de redes. Los investigadores de las cadenas tróficas ("\textit{food webs}") fueron los que abrieron este camino \cite{pimm1982food,martinez1992constant}.
+Las redes son ubicuas en biología \cite{mason2007graph, raymond2009network}. Aparecen en las rutas metabólicas, la expresión génica o en epidemiología, por citar tres ejemplos destacados. Las comunidades ecológicas son redes de interacciones y su estudio en calidad de tales es anterior al auge actual de la ciencia de redes. Los investigadores de las cadenas tróficas ("\textit{food webs}") fueron los que abrieron este camino \cite{pimm1982food,martinez1992constant}.
 
 \begin{figure}[h!]
 \centering
@@ -93,9 +94,11 @@ Las redes son ubicuas en biología \cite{mason2007graph}. Aparecen en las rutas 
 
 Las comunidades mutualistas se modelan como redes bipartitas, dirigidas y pesadas. Son bipartitas porque existen dos clases de nodos y las relaciones solo pueden establecerse entre especies de clases distintas. Los enlaces representan el beneficio que la especie $X$ de la clase $A$ aporta a la especie $Z$ de la clase $B$, por tanto son pesados \cite{barrat2004architecture}. La intensidad de este beneficio no es la misma que la que que recibe $X$ de $Z$, de manera que la red es dirigida. La figura \ref{fig:INTRO_bip_ficticia} muestra un diagrama bipartito de una comunidad mutualista. Para hacer más legibles los diagramas reales, la interacción entre dos especies se simplifica como un solo enlace no dirigido.
 
+Una de las objeciones que pueden hacerse al modelado de las comunidades mutualistas como redes es su enfoque reduccionista. Tan solo se incluyen las interacciones positivas entre especies, pero como se ha explicado en el apartado \ref{TIPOS_DE_MUTUALISMO} la realidad puede ser mucho más rica. La simplificación es cierta. La red es una abstracción a la que podrían añadirse otros tipos de relación, posiblemente complicando el modelo hasta hacerlo inmanejable y mezclando los efectos del mutualismo con los de otros tipos de relación ecológica. En este punto conviene recordar la reflexión de George Box que abre la tesis. No hay modelos perfectos, pero algunos resultan útiles. A la vista de los resultados que ha producido esta forma de estudiar el mutualismo, es un modelo útil.
+
 \begin{figure}[h!]
 \centering
-\includegraphics[scale=0.33]{Figures/INTRO_bip_ficticia.png}
+\includegraphics[scale=0.30]{Figures/INTRO_bip_ficticia.png}
 \caption{Red mutualista ficticia con cuatro plantas y dos polinizadores}
 \label{fig:INTRO_bip_ficticia}
 \end{figure}
@@ -106,11 +109,77 @@ En su artículo seminal de 1987, Pedro Jordano aplicó de manera sistemática al
 
 El análisis partía de la \textit{matriz de interacción}. Las especies de una clase se disponen como filas y las de la otra como columnas, si existe interacción la casilla de la matriz está rellena (figura \ref{fig:VIS_matrix_SD_001}). Jordano observó que el número de interacciones crece con el tamaño de la red, como cabía esperar. La \textit{conectancia}, entendida como la fracción del número de enlaces existentes entre todos los posibles presentaba una gran heterogeneidad. A partir de la publicación de este artículo, la literatura sobre redes mutualistas ha conocido un crecimiento sostenido y vive en la actualidad un periodo de florecimiento \cite{gu2015emerging}.
 
-Debido a las características de la relación mutualista, a lo largo de estos treinta años se han desarrollado modelos y medidas mucho más elaborados y específicos. Sin intención de hacer una revisión en profundidad, se describen a continuación los más destacados.
+Debido a las características de la relación mutualista, a lo largo de estos treinta años se han desarrollado modelos y medidas mucho más elaborados y específicos. Sin intención de hacer una revisión en profundidad, se describen a continuación los más relevantes para esta investigación.
+
+\section{Dinámica de las comunidades mutualistas}
+
+A pesar de su larga historia, hay aun muchos puntos abiertos en la investigación de la dinámica de poblaciones. Algunos de ellos fueron presentadas en el 125 aniversario de la revista {\em Science} hace ya una década  \cite{kennedy2005,pennisi2005,stokstad2005}. Por ejemplo, los mecanismos que dan origen y mantienen la biodiversidad en un ecosistema son objeto de investigación desde campos diversos por la comunidad científica \cite{williams2000,dunne2002biodiversity,olesen2007modularity,allesina2008,bascompte2009,saavedra2009,bastolla2009,fortuna2010nestedness,encinas2012}.  
+
+El antecente más antiguo del estudio cuantitativo de las poblaciones se remonta a $1202$ cuando Leonardo Pisano (\textit{Fibonacci}), describió en su obra enciclopédica {\em Liber Abaci} la serie que sigue el crecimiento de una población de conejos \cite{sigler2002}. La teoría clásica de poblaciones, no obstante, se remonta a a $1798$ cuando Robert Malthus publicó {\em An Essay on the Principle of Population} \citep{malthus1798}. En dicha obra Malthus razonaba que el crecimiento de la población humana es proporcional al tamaño dado en un momento. Trasladándolo a una ecuación diferencial:
+\begin{equation}
+\frac{dN}{dt}=r_0\, N 
+\label{eq:malthus}
+\end{equation}
+\noindent donde $N$ es el número de individuos y $r_0$ la {\em tasa intrínseca o vegetativa} de crecimiento de la polación, igual a la diferencia de las tasas de reproducción y defunciones cuando no hay migraciones.
+
+El modelo malthusiano predice un crecimiento exponencial, así que si $r_0 > 0$ no tendría límite. En este modelo $r_0$ permanece constante a lo largo del proceso, sin tener en cuenta factores limitantes como la falta de alimentos o de espacio. En $1838$ Verhulst añadió un término adicional y llamó a su modelo modificado ecuación \emph{logística} \cite{verhulst1845}. La hipótesis de Verhulst es que la tasa de crecimiento debe reducirse conforme $N$ aumenta, hasta alcanzar un máximo. La forma matemática más simple de conseguirlo es haciendo que $r_0$ sea una función lineal de $N$: $ r_0 = r - \alpha N$, donde $r$ es la tasa intrínseca de crecimiento y $\alpha$ un coeficiente positivo de fricción que se interpreta como la competeción entre los individuos de la misma especie por los recursos que permiten su crecimiento y supervivencia. El modelo $r-\alpha$ de Verhulst es:
+\begin{equation}
+\frac{dN}{dt}=r \, N \,  - \alpha  \, N^2 
+\label{eq:primitiveverhulst}
+\end{equation}
+El término $\alpha$ actúa como un freno biológico, que sitúa al sistema en un punto de equilibrio cuando la población alcanza un valor $ K = r / \alpha$, comúnmente denominado \emph{capcidad de carga}.
+
+Sin embargo, la ecuación logística se conoce mucho más en la forma que Raymond Pearl introdujo en un libro de biometría en $1930$ (véase una excelente reseña histórica en \cite{mallet2012struggle}). En esta formulación, que se impuso en los libros de texto y en la literatura científica, la capacidad de carga aparece como un parámetro explícito de la ecuación y por ello se conoce como la forma $r-K$:
+
+\begin{equation}
+\frac{dN}{dt}=r \, N \, \left(1-\frac{N}{K}\right)
+\label{pearl}
+\end{equation}
+
+La solución de esta ecuación es una curva sigmoide que crece asintóticamente hacia $K$. La fórmula de Pearl tiene algunos inconvenientes matemáticos importantes \citep{kuno1991some,gabriel2005paradoxes}. El más notable es que predice un absurdo crecimiento si la tasa $r$ es negativa pero la población inicial está por encima de la capacidad de carga. Este problema fue señalado por Richard Levins y en consecuencia de denomina \textit{paradoja de Levins}. Es importante señalarlo, porque todos los modelos de mutualismo se han derivado de la logística en la formulación de Pearl y por tanto arrastran este inconveniente.
+
+Para solucionar el problema Levins propuso que $r$ debía ser siempre no negativa. Gabriel \emph{et al.} encontraron una solución más elegante usando la formulación original de Verhulst \cite{gabriel2005paradoxes}. La condición para que el sistema alcance la establidad es que el coeficiente $\alpha$ sea siempre positivo y la capacidad de carga se redefine como:
+
+\begin{equation}
+K_{\infty}=\lim_{t\rightarrow\infty}N(t),\; N(0)>0
+\end{equation}
+
+\noindent y entonces
+\begin{equation*}
+K_{\infty}=\left\{
+\begin{array}{ll}
+  \alpha / r = K, & \mathrm{si} \;\; \alpha > 0, \\ 0  & \mathrm{si} \;\; \alpha \le0 \\
+  \end{array} \right.
+\end{equation*}
+
+Estos modelos primitivos de dinámica no incluían interacciones entre especies. Cuando varias de ellas comparten un mismo ecosistema aparece una compleja cadena de relaciones que puede modelarse como una red, como se mencionó en la introducción. En $1926$ Vito Volterra propuso un modelo de dos especies para explicar el comportamiento de algunos bancos de pesca en el Adriático \cite{volterra1926}. Las ecuaciones de Volterra describen las poblaciones de presa $N(t)$ y depredador $P(t)$ de la siguiente manera: 
+\begin{align}
+%\begin{split}
+\displaystyle &\frac{dN}{dt}=N\, \left(a-b \,P\right) \nonumber\\
+\displaystyle &\frac{dP}{dt}=P\, \left(c\, N-d\right) 
+\label{myeq1}
+%\end{split}
+\end{align}
+\noindent donde $a$, $b$, $c$ y $d$ son constantes positivas. En el modelo de Lotka-Volterra, como se conoce hoy, el crecimiento de la población de la presa está limitado por la población del derpedador y viceversa. Este par de ecuaciones tiene una solución oscilatoria.
+
+El mutualismo, probablemente porque es una interacción menos abundante en la naturaleza, ha recibido menos atención históricamente, también desde el punto de vista matemático. El primer modelo fue propuesto por Richard May. Las ecuaciones de May representan una ecuación logística a la que se ha añadido un tercer término que representa el beneficio mutualista. Es la misma idea que la del modelo Lotka-Volterra, pero con un inconveninete analítico, las interacciones son siempre positivas, de manera que no hay oscilaciones y sí la posibilidad de un crecimimento ilimitado. El modelo de May se formaliza como:
+\begin{align}
+\frac{dN_1}{dt}=r_1 \,N_1\,\left(1-\frac{N_1}{K_1}\right)+r_1\, N_1\,\beta_{12}\, \frac{N_2}{K_1} \nonumber \\ 
+\frac{dN_2}{dt}=r_2\, N_2\, \left(1-\frac{N_2}{K_2}\right)+r_2\, N_2\, \beta_{21} \, \frac{N_1}{K_2} 
+\label{myeq2}
+\end{align}
+\noindent donde $N_1(N_2)$ es la población de la especie $1(2)$; $r_{1,2}$ es la tasa vegetativa de la población $1\, (2)$ y $K_1\, (K_2)$ la capacidad de carga. Este es el máximo que el entorno puede mantener en función de la disponibilidad de sustento y espacio. Por último, $\beta_{12}\,(\beta_{21})$ es el coeficiente que representa el beneficio mutualista para la especie $1\,(2)$ de su interacción con la $2\,(1)$. El principal inconveniente del modelo de May es que conduce a crecimiento ilimitado. No obstante, ha servido de inspiración para todos sus sucesores que incorporan términos adicionales para solucionar este problema.
+
+Ha habido diferentes estrategias de ataque. Wright propuso un modelo de dos especies con saturación como resultado de las restricciones del \textit{handling time}, $T_H$, que corresponde al tiempo necesario para procesar los recursos (comida) producidos por la relación mutualista \cite{wright1989}. Esto dio lugar a la familia de modelos conocida como \textit{tipo II}:
+\begin{align}
+\frac{dN_1}{dt}=r_1\, N_1\, - \alpha_1 \, N_1^2+ \frac{a\, b\, N_1\,N_2}{1+ a\, N_2\,T_H} \nonumber\\
+\frac{dN_2}{dt}=r_2\, N_2\, - \alpha_2 N_2^2 + \frac{a\,b\,N_1\,N_2}{1+a\, N_1\, T_H}
+\label{eq_typeII}
+\end{align}
+\noindent donde $a$ es la tasa efectiva de búsqueda y $b$ un coeficiente que tiene en cuenta los encuentros entre individuos de las especies $1$ y $2$. La dinámica del modelo depende en gran medida del afinado de los parámetros, pero para un rango limitado de ellos muestra tres puntos fijos. Uno estable, que corresponde con la destrucción completa, otro también estable en máximos de población y un \textit{saddle} que separa las cuencas de atracción de los dos primeros. Usando un modelo tipo II, Bastolla demostró la importancia de la estructura de la red para minimizar la competencia entre especies y optimizar la biodiversidad \cite{bastolla2005,bastolla2009}. Los modelos de tipo II son, no obstante, difíciles de manejar analíticamente, debido a la forma en fracción del término mutualista. Hay otras alternativas recientes \cite{johnson2013} que proponen añadir términos adicionales al modelo tipo II, dificultando aun más el análisis.
 
 
-\subsection{Tendencias actuales en el estudio de las redes mutualistas}
-Morbi rutrum odio eget arcu adipiscing sodales. Aenean et purus a est pulvinar pellentesque. Cras in elit neque, quis varius elit. Phasellus fringilla, nibh eu tempus venenatis, dolor elit posuere quam, quis adipiscing urna leo nec orci. Sed nec nulla auctor odio aliquet consequat. Ut nec nulla in ante ullamcorper aliquam at sed dolor. Phasellus fermentum magna in augue gravida cursus. Cras sed pretium lorem. Pellentesque eget ornare odio. Proin accumsan, massa viverra cursus pharetra, ipsum nisi lobortis velit, a malesuada dolor lorem eu neque.
+\section{Cuestiones abiertas en el modelado del mutualismo}
 
 Phasellus fermentum magna in augue gravida cursus. Cras sed pretium lorem. Pellentesque eget ornare odio. Proin accumsan, massa viverra cursus pharetra, ipsum nisi lobortis velit, a malesuada dolor lorem eu neque.
 

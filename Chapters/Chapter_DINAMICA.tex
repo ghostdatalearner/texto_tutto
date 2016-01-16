@@ -10,74 +10,75 @@
 
 \section{Dinámica de las comunidades mutualistas}
 
-A pesar de su larga historia, hay aun muchos puntos abiertos en la investigación de la dinámica de poblaciones. Algunos de ellos fueron presentadas en el 125 aniversario de la revista {\em Science} hace ya una década  \cite{kennedy2005,pennisi2005,stokstad2005}. Por ejemplo, los mecanismos que dan origen y mantienen la biodiversidad en un ecosistema son objeto de investigación desde campos diversos por la comunidad científica \cite{williams2000,dunne2002biodiversity,olesen2007modularity,allesina2008,bascompte2009,saavedra2009,bastolla2009,fortuna2010nestedness,encinas2012}.  
+%A pesar de su larga historia, hay aun muchos puntos abiertos en la investigación de la dinámica de poblaciones. Algunos de ellos fueron presentadas en el 125 aniversario de la revista {\em Science} hace ya una década  \cite{kennedy2005,pennisi2005,stokstad2005}. Por ejemplo, los mecanismos que dan origen y mantienen la biodiversidad en un ecosistema son objeto de investigación desde campos diversos por la comunidad científica \cite{williams2000,dunne2002biodiversity,olesen2007modularity,allesina2008,bascompte2009,saavedra2009,bastolla2009,fortuna2010nestedness,encinas2012}.  
 
-El antecente más antiguo del estudio cuantitativo de las poblaciones se remonta a $1202$ cuando Leonardo Pisano (\textit{Fibonacci}), describió en su obra enciclopédica {\em Liber Abaci} la serie que sigue el crecimiento de una población de conejos \cite{sigler2002}. La teoría clásica de poblaciones, no obstante, se remonta a a $1798$ cuando Robert Malthus publicó {\em An Essay on the Principle of Population} \citep{malthus1798}. En dicha obra Malthus razonaba que el crecimiento de la población humana es proporcional al tamaño dado en un momento. Trasladándolo a una ecuación diferencial:
-\begin{equation}
-\frac{dN}{dt}=r_0\, N 
-\label{eq:malthus}
-\end{equation}
-\noindent donde $N$ es el número de individuos y $r_0$ la {\em tasa intrínseca o vegetativa} de crecimiento de la polación, igual a la diferencia de las tasas de reproducción y defunciones cuando no hay migraciones.
+%El antecente más antiguo del estudio cuantitativo de las poblaciones se remonta a $1202$ cuando Leonardo Pisano (\textit{Fibonacci}), describió en su obra enciclopédica {\em Liber Abaci} la serie que sigue el crecimiento de una población de conejos \cite{sigler2002}. La teoría clásica de poblaciones, no obstante, se remonta a a $1798$ cuando Robert Malthus publicó {\em An Essay on the Principle of Population} \citep{malthus1798}. En dicha obra Malthus razonaba que el crecimiento de la población humana es proporcional al tamaño dado en un momento. Trasladándolo a una ecuación diferencial:
+%\begin{equation}
+%\frac{dN}{dt}=r_0\, N 
+%\label{eq:malthus}
+%\end{equation}
+%\noindent donde $N$ es el número de individuos y $r_0$ la {\em tasa intrínseca o vegetativa} de crecimiento de la polación, igual a la diferencia de las tasas de reproducción y defunciones cuando no hay migraciones.
+%
+%El modelo malthusiano predice un crecimiento exponencial, así que si $r_0 > 0$ no tendría límite. En este modelo $r_0$ permanece constante a lo largo del proceso, sin tener en cuenta factores limitantes como la falta de alimentos o de espacio. En $1838$ Verhulst añadió un término adicional y llamó a su modelo modificado ecuación \emph{logística} \cite{verhulst1845}. La hipótesis de Verhulst es que la tasa de crecimiento debe reducirse conforme $N$ aumenta, hasta alcanzar un máximo. La forma matemática más simple de conseguirlo es haciendo que $r_0$ sea una función lineal de $N$: $ r_0 = r - \alpha N$, donde $r$ es la tasa intrínseca de crecimiento y $\alpha$ un coeficiente positivo de fricción que se interpreta como la competeción entre los individuos de la misma especie por los recursos que permiten su crecimiento y supervivencia. El modelo $r-\alpha$ de Verhulst es:
+%\begin{equation}
+%\frac{dN}{dt}=r \, N \,  - \alpha  \, N^2 
+%\label{eq:primitiveverhulst}
+%\end{equation}
+%El término $\alpha$ actúa como un freno biológico, que sitúa al sistema en un punto de equilibrio cuando la población alcanza un valor $ K = r / \alpha$, comúnmente denominado \emph{capcidad de carga}.
+%
+%Sin embargo, la ecuación logística se conoce mucho más en la forma que Raymond Pearl introdujo en un libro de biometría en $1930$ (véase una excelente reseña histórica en \cite{mallet2012struggle}). En esta formulación, que se impuso en los libros de texto y en la literatura científica, la capacidad de carga aparece como un parámetro explícito de la ecuación y por ello se conoce como la forma $r-K$:
+%
+%\begin{equation}
+%\frac{dN}{dt}=r \, N \, \left(1-\frac{N}{K}\right)
+%\label{pearl}
+%\end{equation}
+%
+%La solución de esta ecuación es una curva sigmoide que crece asintóticamente hacia $K$. La fórmula de Pearl tiene algunos inconvenientes matemáticos importantes \citep{kuno1991some,gabriel2005paradoxes}. El más notable es que predice un absurdo crecimiento si la tasa $r$ es negativa pero la población inicial está por encima de la capacidad de carga. Este problema fue señalado por Richard Levins y en consecuencia de denomina \textit{paradoja de Levins}. Es importante señalarlo, porque todos los modelos de mutualismo se han derivado de la logística en la formulación de Pearl y por tanto arrastran este inconveniente.
+%
+%Para solucionar el problema Levins propuso que $r$ debía ser siempre no negativa. Gabriel \emph{et al.} encontraron una solución más elegante usando la formulación original de Verhulst \cite{gabriel2005paradoxes}. La condición para que el sistema alcance la establidad es que el coeficiente $\alpha$ sea siempre positivo y la capacidad de carga se redefine como:
+%
+%\begin{equation}
+%K_{\infty}=\lim_{t\rightarrow\infty}N(t),\; N(0)>0
+%\end{equation}
+%
+%\noindent y entonces
+%\begin{equation*}
+%K_{\infty}=\left\{
+%\begin{array}{ll}
+%  \alpha / r = K, & \mathrm{si} \;\; \alpha > 0, \\ 0  & \mathrm{si} \;\; \alpha \le0 \\
+%  \end{array} \right.
+%\end{equation*}
+%
+%Estos modelos primitivos de dinámica no incluían interacciones entre especies. Cuando varias de ellas comparten un mismo ecosistema aparece una compleja cadena de relaciones que puede modelarse como una red, como se mencionó en la introducción. En $1926$ Vito Volterra propuso un modelo de dos especies para explicar el comportamiento de algunos bancos de pesca en el Adriático \cite{volterra1926}. Las ecuaciones de Volterra describen las poblaciones de presa $N(t)$ y depredador $P(t)$ de la siguiente manera: 
+%\begin{align}
+%%\begin{split}
+%\displaystyle &\frac{dN}{dt}=N\, \left(a-b \,P\right) \nonumber\\
+%\displaystyle &\frac{dP}{dt}=P\, \left(c\, N-d\right) 
+%\label{myeq1}
+%%\end{split}
+%\end{align}
+%\noindent donde $a$, $b$, $c$ y $d$ son constantes positivas. En el modelo de Lotka-Volterra, como se conoce hoy, el crecimiento de la población de la presa está limitado por la población del derpedador y viceversa. Este par de ecuaciones tiene una solución oscilatoria.
+%
+%El mutualismo, probablemente porque es una interacción menos abundante en la naturaleza, ha recibido menos atención históricamente, también desde el punto de vista matemático. El primer modelo fue propuesto por Richard May. Las ecuaciones de May representan una ecuación logística a la que se ha añadido un tercer término que representa el beneficio mutualista. Es la misma idea que la del modelo Lotka-Volterra, pero con un inconveninete analítico, las interacciones son siempre positivas, de manera que no hay oscilaciones y sí la posibilidad de un crecimimento ilimitado. El modelo de May se formaliza como:
+%\begin{align}
+%\frac{dN_1}{dt}=r_1 \,N_1\,\left(1-\frac{N_1}{K_1}\right)+r_1\, N_1\,\beta_{12}\, \frac{N_2}{K_1} \nonumber \\ 
+%\frac{dN_2}{dt}=r_2\, N_2\, \left(1-\frac{N_2}{K_2}\right)+r_2\, N_2\, \beta_{21} \, \frac{N_1}{K_2} 
+%\label{myeq2}
+%\end{align}
+%\noindent donde $N_1(N_2)$ es la población de la especie $1(2)$; $r_{1,2}$ es la tasa vegetativa de la población $1\, (2)$ y $K_1\, (K_2)$ la capacidad de carga. Este es el máximo que el entorno puede mantener en función de la disponibilidad de sustento y espacio. Por último, $\beta_{12}\,(\beta_{21})$ es el coeficiente que representa el beneficio mutualista para la especie $1\,(2)$ de su interacción con la $2\,(1)$. El principal inconveniente del modelo de May es que conduce a crecimiento ilimitado. No obstante, ha servido de inspiración para todos sus sucesores que incorporan términos adicionales para solucionar este problema.
+%
+%Ha habido diferentes estrategias de ataque. Wright propuso un modelo de dos especies con saturación como resultado de las restricciones del \textit{handling time}, $T_H$, que corresponde al tiempo necesario para procesar los recursos (comida) producidos por la relación mutualista \cite{wright1989}. Esto dio lugar a la familia de modelos conocida como \textit{tipo II}:
+%\begin{align}
+%\frac{dN_1}{dt}=r_1\, N_1\, - \alpha_1 \, N_1^2+ \frac{a\, b\, N_1\,N_2}{1+ a\, N_2\,T_H} \nonumber\\
+%\frac{dN_2}{dt}=r_2\, N_2\, - \alpha_2 N_2^2 + \frac{a\,b\,N_1\,N_2}{1+a\, N_1\, T_H}
+%\label{eq_typeII}
+%\end{align}
+%\noindent donde $a$ es la tasa efectiva de búsqueda y $b$ un coeficiente que tiene en cuenta los encuentros entre individuos de las especies $1$ y $2$. La dinámica del modelo depende en gran medida del afinado de los parámetros, pero para un rango limitado de ellos muestra tres puntos fijos. Uno estable, que corresponde con la destrucción completa, otro también estable en máximos de población y un \textit{saddle} que separa las cuencas de atracción de los dos primeros. Usando un modelo tipo II, Bastolla demostró la importancia de la estructura de la red para minimizar la competencia entre especies y optimizar la biodiversidad \cite{bastolla2005,bastolla2009}. Los modelos de tipo II son, no obstante, difíciles de manejar analíticamente, debido a la forma en fracción del término mutualista. Hay otras alternativas recientes \cite{johnson2013} que proponen añadir términos adicionales al modelo tipo II, dificultando aun más el análisis.
 
-El modelo malthusiano predice un crecimiento exponencial, así que si $r_0 > 0$ no tendría límite. En este modelo $r_0$ permanece constante a lo largo del proceso, sin tener en cuenta factores limitantes como la falta de alimentos o de espacio. En $1838$ Verhulst añadió un término adicional y llamó a su modelo modificado ecuación \emph{logística} \cite{verhulst1845}. La hipótesis de Verhulst es que la tasa de crecimiento debe reducirse conforme $N$ aumenta, hasta alcanzar un máximo. La forma matemática más simple de conseguirlo es haciendo que $r_0$ sea una función lineal de $N$: $ r_0 = r - \alpha N$, donde $r$ es la tasa intrínseca de crecimiento y $\alpha$ un coeficiente positivo de fricción que se interpreta como la competeción entre los individuos de la misma especie por los recursos que permiten su crecimiento y supervivencia. El modelo $r-\alpha$ de Verhulst es:
-\begin{equation}
-\frac{dN}{dt}=r \, N \,  - \alpha  \, N^2 
-\label{eq:primitiveverhulst}
-\end{equation}
-El término $\alpha$ actúa como un freno biológico, que sitúa al sistema en un punto de equilibrio cuando la población alcanza un valor $ K = r / \alpha$, comúnmente denominado \emph{capcidad de carga}.
+En el capítulo anterior se han expuesto algunos de los problemas que tienen los modelos actuales de dinámica del mutualismo. Además de las limitaciones que se derivan de cada simplificación matemática hay una más grave para verificar la realidad de las predicciones. El peso de los coeficientes $b_{ij}$ de las matrices de interacción es muy difícil de determinar a partir de las observaciones de campo. Las comunidades complejas no pueden reproducirse en laboratorio para obtener medidas precisas por lo que se trabaja con el número de interacciones observadas como indicador. Esta solución no es satisfactoria pero es la mejor de la que se dispone \cite{olesen2002geographic}. 
 
-Sin embargo, la ecuación logística se conoce mucho más en la forma que Raymond Pearl introdujo en un libro de biometría en $1930$ (véase una excelente reseña histórica en \cite{mallet2012struggle}). En esta formulación, que se impuso en los libros de texto y en la literatura científica, la capacidad de carga aparece como un parámetro explícito de la ecuación y por ello se conoce como la forma $r-K$:
+La imposibilidad de validar los modelos con series de datos de campo de periodos prolongados hace que este campo de estudio siga siendo dominio de la teoría. En este capítulo se proponen dos modelos alternativos de dinámica. El primero se basa en la formulación de Pearl y se garantiza la estabilidad forzando a que la capacidad de carga sea constante. El segundo se aparta de lo publicado hasta la fecha y vuelve la vista a la formulación $r-\alpha$ de la ecuación de Verhulst.
 
-\begin{equation}
-\frac{dN}{dt}=r \, N \, \left(1-\frac{N}{K}\right)
-\label{pearl}
-\end{equation}
-
-La solución de esta ecuación es una curva sigmoide que crece asintóticamente hacia $K$. La fórmula de Pearl tiene algunos inconvenientes matemáticos importantes \citep{kuno1991some,gabriel2005paradoxes}. El más notable es que predice un absurdo crecimiento si la tasa $r$ es negativa pero la población inicial está por encima de la capacidad de carga. Este problema fue señalado por Richard Levins y en consecuencia de denomina \textit{paradoja de Levins}. Es importante señalarlo, porque todos los modelos de mutualismo se han derivado de la logística en la formulación de Pearl y por tanto arrastran este inconveniente.
-
-Para solucionar el problema Levins propuso que $r$ debía ser siempre no negativa. Gabriel \emph{et al.} encontraron una solución más elegante usando la formulación original de Verhulst \cite{gabriel2005paradoxes}. La condición para que el sistema alcance la establidad es que el coeficiente $\alpha$ sea siempre positivo y la capacidad de carga se redefine como:
-
-\begin{equation}
-K_{\infty}=\lim_{t\rightarrow\infty}N(t),\; N(0)>0
-\end{equation}
-
-\noindent y entonces
-\begin{equation*}
-K_{\infty}=\left\{
-\begin{array}{ll}
-  \alpha / r = K, & \mathrm{si} \;\; \alpha > 0, \\ 0  & \mathrm{si} \;\; \alpha \le0 \\
-  \end{array} \right.
-\end{equation*}
-
-Estos modelos primitivos de dinámica no incluían interacciones entre especies. Cuando varias de ellas comparten un mismo ecosistema aparece una compleja cadena de relaciones que puede modelarse como una red, como se mencionó en la introducción. En $1926$ Vito Volterra propuso un modelo de dos especies para explicar el comportamiento de algunos bancos de pesca en el Adriático \cite{volterra1926}. Las ecuaciones de Volterra describen las poblaciones de presa $N(t)$ y depredador $P(t)$ de la siguiente manera: 
-\begin{align}
-%\begin{split}
-\displaystyle &\frac{dN}{dt}=N\, \left(a-b \,P\right) \nonumber\\
-\displaystyle &\frac{dP}{dt}=P\, \left(c\, N-d\right) 
-\label{myeq1}
-%\end{split}
-\end{align}
-\noindent donde $a$, $b$, $c$ y $d$ son constantes positivas. En el modelo de Lotka-Volterra, como se conoce hoy, el crecimiento de la población de la presa está limitado por la población del derpedador y viceversa. Este par de ecuaciones tiene una solución oscilatoria.
-
-El mutualismo, probablemente porque es una interacción menos abundante en la naturaleza, ha recibido menos atención históricamente, también desde el punto de vista matemático. El primer modelo fue propuesto por Richard May. Las ecuaciones de May representan una ecuación logística a la que se ha añadido un tercer término que representa el beneficio mutualista. Es la misma idea que la del modelo Lotka-Volterra, pero con un inconveninete analítico, las interacciones son siempre positivas, de manera que no hay oscilaciones y sí la posibilidad de un crecimimento ilimitado. El modelo de May se formaliza como:
-\begin{align}
-\frac{dN_1}{dt}=r_1 \,N_1\,\left(1-\frac{N_1}{K_1}\right)+r_1\, N_1\,\beta_{12}\, \frac{N_2}{K_1} \nonumber \\ 
-\frac{dN_2}{dt}=r_2\, N_2\, \left(1-\frac{N_2}{K_2}\right)+r_2\, N_2\, \beta_{21} \, \frac{N_1}{K_2} 
-\label{myeq2}
-\end{align}
-\noindent donde $N_1(N_2)$ es la población de la especie $1(2)$; $r_{1,2}$ es la tasa vegetativa de la población $1\, (2)$ y $K_1\, (K_2)$ la capacidad de carga. Este es el máximo que el entorno puede mantener en función de la disponibilidad de sustento y espacio. Por último, $\beta_{12}\,(\beta_{21})$ es el coeficiente que representa el beneficio mutualista para la especie $1\,(2)$ de su interacción con la $2\,(1)$. El principal inconveniente del modelo de May es que conduce a crecimiento ilimitado. No obstante, ha servido de inspiración para todos sus sucesores que incorporan términos adicionales para solucionar este problema.
-
-Ha habido diferentes estrategias de ataque. Wright propuso un modelo de dos especies con saturación como resultado de las restricciones del \textit{handling time}, $T_H$, que corresponde al tiempo necesario para procesar los recursos (comida) producidos por la relación mutualista \cite{wright1989}. Esto dio lugar a la familia de modelos conocida como \textit{tipo II}:
-\begin{align}
-\frac{dN_1}{dt}=r_1\, N_1\, - \alpha_1 \, N_1^2+ \frac{a\, b\, N_1\,N_2}{1+ a\, N_2\,T_H} \nonumber\\
-\frac{dN_2}{dt}=r_2\, N_2\, - \alpha_2 N_2^2 + \frac{a\,b\,N_1\,N_2}{1+a\, N_1\, T_H}
-\label{eq_typeII}
-\end{align}
-\noindent donde $a$ es la tasa efectiva de búsqueda y $b$ un coeficiente que tiene en cuenta los encuentros entre individuos de las especies $1$ y $2$. La dinámica del modelo depende en gran medida del afinado de los parámetros, pero para un rango limitado de ellos muestra tres puntos fijos. Uno estable, que corresponde con la destrucción completa, otro también estable en máximos de población y un \textit{saddle} que separa las cuencas de atracción de los dos primeros. Usando un modelo tipo II, Bastolla demostró la importancia de la estructura de la red para minimizar la competencia entre especies y optimizar la biodiversidad \cite{bastolla2005,bastolla2009}. Los modelos de tipo II son, no obstante, difíciles de manejar analíticamente, debido a la forma en fracción del término mutualista. Hay otras alternativas recientes \cite{johnson2013} que proponen añadir términos adicionales al modelo tipo II, dificultando aun más el análisis.
-
-En este capítulo proponemos dos modelos alternativos. El primero se basa en la fórmula de Pearl y se garantiza la estabilidad forzando a que la capacidad de carga sea constante. El segundo se aparta de lo publicado hasta la fecha y vuelve la vista a la formulación $r-\alpha$ de la ecuación de Verhulst.
-
-\clearpage
 \section{Modelo con capacidad de carga constante}
 
 La primera solución para evitar un crecimiento ilimitado, como el que aparece en las ecuaciones de May, es la base de nuestro modelo con capacidad de carga constante. Desde el punto de vista ecológico, esta solución puede resultar ingenua puesto que el mutualismo supone un incremento de recursos. No obstante, resuelve los problemas descritos en la introducción y es de gran simplicidad.
@@ -163,7 +164,7 @@ En ausencia de mutualismo se convierte en la ecuación logística modificada. El
 \begin{figure}[t]
 \centering
 %\includegraphics[scale=0.28]{rectas_optionI_2.eps}
-\includegraphics[scale=0.75]{DINAMICA_r1_eq_N1N2_r1p8b12p05K50.eps}
+\includegraphics[scale=0.66]{DINAMICA_r1_eq_N1N2_r1p8b12p05K50.eps}
 \caption{Crecimiento per cápita de la especie $1$ con tasa de crecimiento vegetativa $r_1=-0.8$, capacidad de carga $K_1=50$, y coeficiente de interacción $b_{12}=0.05$, para diferentes valores de población: $N_2=0,10,20,30,40,50$.}
 \label{fig:per capita_growth_rate_mutualism}
 \end{figure}
@@ -239,7 +240,7 @@ El análisis de estabilidad lineal de los primeros cuatro puntos se puede hacer 
     \\
         \frac{\partial f_2}{\partial N_1} \,& \frac{\partial f_2}{\partial N_2}
     \end{array} \right)\right|_{N^{*}_1,N^{*}_2}
-\stepcounter{equation}\tag{\theequation}\label{eq:Jacob00}
+\stepcounter{equation}\tag{\theequation}\label{eq:Jacob01}
 %\end{align*}
 \end{equation}
 
@@ -251,7 +252,7 @@ Para la solución trivial (extinción completa) el jacobiano es:
     r_1 & 0\\
     0 & r_2
     \end{array} \right)
-\stepcounter{equation}\tag{\theequation}\label{eq:Jacob00}
+\stepcounter{equation}\tag{\theequation}\label{eq:Jacob02}
 %\end{align*}
 \end{equation}
 
@@ -315,20 +316,19 @@ Los autovalores obtenidos de $\left| \mathbf{J}^{\pm,\mp}-\lambda\mathbb{I}  \ri
   \lambda^{\pm,\mp}_{1,2}= \pm \sqrt{r_1 r_2 \left(1\pm\frac{r_2}{b_{21}}K_1 \right)\left(1\mp\frac{r_1}{b_{12}}K_2 \right)}
 \end{align*}
 
-Para cualquier definición de $sgn(r_{eff},1)$ y $sgn(r_{eff},2)$ todos los factores dentro de la raíz cuadrada son positivos, por tanto siempre hay un autovalor positivo y otro negativo. Esto significa que en la vecindad del punto bajo estudio existe una cuenca de atracción y una de repulsión y por tanto es un \textit{saddle}.
+Para cualquier definición de $sgn(r_{eff},1)$ y $sgn(r_{eff},2)$ todos los factores dentro de la raíz cuadrada son positivos, por tanto siempre hay un autovalor positivo y otro negativo. Esto significa que en la vecindad del punto bajo estudio existe una cuenca de atracción y una de repulsión y por tanto es un \textit{saddle}. Pese a que el jacobiano no está definido en este punto fijo, el diagrama de flujo puede obtenerse y solo una línea pasa por cualquier punto.
 
-Pese a que el jacobiano no está definido en este punto fijo, el diagrama de flujo puede obtenerse y solo una línea pasa por cualquier punto.
-
-Este \textit{saddle} marca la frontera entre la cuenca de atracción de los puntos fijos estables y, en consecuencia, controla la resistenca del sistema ante perturbaciones externas. Si está próximo a la destrucción completa ($N_1=0$,$N_2=0$), el sistema es más estable porque la cuenca de atracción de $(K_1,K_2)$ es más extensa.Sucede lo contrario cuando se localiza cerca del máximo vital, es decir, con ambas poblaciones tomando los valores máximos de sus capacidades de carga.
-
-La figura \ref{fig:stab1_phase}a muestra las soluciones del sistema \ref{eq:new_model} para dos especies con mutualismo obligado ($r_1<0$ y $r_2<0$), e incio de las trayectorias en los puntos de la rejilla entre $10$ y $70$; la \ref{fig:stab1_phase}b es el diagrama de flujo en torno al \textit{saddle} en ($30,30$). Cuanto mayor sea la intensidad del mutualismo, más próximo se encuentra este punto al origen.
-
-\begin{figure}
+\begin{figure}[h!]
 \centering
 \includegraphics[scale = 0.5]{DINAMICA_solut_r9b03K100+flowdiagram.eps}
 \caption {a) Soluciones del sistema \ref{eq:new_model} apara $r_1=r_2=-0.9$, $b_{12}=b_{21}=0.03$ y $K_1=K_2=100$. b) Diagrama de flujo en la vecindad del \textit{saddle} en ($30,30$).}
 \label{fig:stab1_phase}
 \end{figure}
+
+Este \textit{saddle} marca la frontera entre la cuenca de atracción de los puntos fijos estables y, en consecuencia, controla la resistenca del sistema ante perturbaciones externas. Si está próximo a la destrucción completa ($N_1=0$,$N_2=0$), el sistema es más estable porque la cuenca de atracción de $(K_1,K_2)$ es más extensa.Sucede lo contrario cuando se localiza cerca del máximo vital, es decir, con ambas poblaciones tomando los valores máximos de sus capacidades de carga.
+
+La figura \ref{fig:stab1_phase}a muestra las soluciones del sistema \ref{eq:new_model} para dos especies con mutualismo obligado ($r_1<0$ y $r_2<0$), e incio de las trayectorias en los puntos de la rejilla entre $10$ y $70$; la \ref{fig:stab1_phase}b es el diagrama de flujo en torno al \textit{saddle} en ($30,30$). Cuanto mayor sea la intensidad del mutualismo, más próximo se encuentra este punto al origen.
+
 
 \subsection{Generalización con $n$ especies}
 
@@ -338,11 +338,7 @@ Para una red con múltiples especies, hay que analizar el sistema de ecuaciones 
 \label{eq:condit_reff_K}
 \end{equation}
 
-\noindent done $l$ es el índice para todas las especies de la clase diferentes de $j$ que alcanzan la capacidad de carga en el punto fijo ($N_{l}=K_{l}$).
-
-El jacobiano para la extinción total es como la ecuación \ref{eq:Jacob00}, con las tasas vegetativas en la diagonal, y por tanto es una solución estable para mutualismo obligado ($r_i<0$ para todo $i$) e inestable en otro caso.
-
-Para poblaciones en máximos, el jacobiano es como en \ref{eq:JacobK1K2}
+\noindent done $l$ es el índice para todas las especies de la clase diferentes de $j$ que alcanzan la capacidad de carga en el punto fijo ($N_{l}=K_{l}$). El jacobiano para la extinción total es como la ecuación \ref{eq:Jacob00}, con las tasas vegetativas en la diagonal, y por tanto es una solución estable para mutualismo obligado ($r_i<0$ para todo $i$) e inestable en otro caso. Para poblaciones en máximos, el jacobiano es como en \ref{eq:JacobK1K2}
 \begin{equation}
 %\begin{align*}
 \displaystyle
@@ -352,14 +348,11 @@ Para poblaciones en máximos, el jacobiano es como en \ref{eq:JacobK1K2}
     \vdots & \ddots & \vdots \\
     0 & \cdots & -r_{\rm{ef},j}
     \end{array} \right)
-\stepcounter{equation}\tag{\theequation}\label{eq:JacobK1K2}
+\stepcounter{equation}\tag{\theequation}\label{eq:GenJacobK1K2}
 %\end{align*}
 \end{equation}
 
-Esta solución es intrínsicamente estable porque todos los autovalores $\lambda_i=-r_{\rm{ef},i}^{\ast}$ son negativos (como en \ref{eq:condit_reff_K}).
-
-La estabilidad de las soluciones de las extinciones parciales para $N_k=0$ y $N_l=K_l$, con
-$k$ para las especies que se extinguen y $l$ para las que alcanzan sus capacidades de carga, puede deducirse de las entradas genéricas del jacobiano:
+Esta solución es estable porque todos los autovalores $\lambda_i=-r_{\rm{ef},i}^{\ast}$ son negativos (como en \ref{eq:condit_reff_K}). La estabilidad de las soluciones de las extinciones parciales para $N_k=0$ y $N_l=K_l$, con $k$ para las especies que se extinguen y $l$ para las que sobreviven, puede deducirse de las entradas genéricas del jacobiano:
 \begin{align*}
 \displaystyle &\frac{\partial f_i}{\partial N_i} = r_{\rm{ef},i}-2\left|r_{\rm{ef},i}\right| \frac{N_i}{K_i}\\
 \displaystyle &\frac{\partial f_i}{\partial N_j} = N_i\,b_{ij}-sgn\left(r_{\rm{ef},i}\right)b_{ij}\frac{{N_i}^2}{K_j}
@@ -408,9 +401,9 @@ Otros puntos fijos se obtienen de la condición $r_{\rm{ef},i}=0$, para todo $i$
 \begin{align*}
 \displaystyle
 &\left.\frac{\partial f_i}{\partial N_i} \right|_{r_{\rm{ef},i}=0^{+}} =0\\
-&\left.\frac{\partial f_i}{\partial N_j} \right|_{r_{\rm{ef},i}=0^{+}} =N_i\,b_{ij} \left( 1- \frac{N_i}{K_i} \right) \equiv J_{ij}>0\\
+&\left.\frac{\partial f_i}{\partial N_j} \right|_{r_{\rm{ef},i}=0^{+}} =N_i\,b_{ij} \left( 1- \frac{N_i}{K_i} \right) \equiv J_{ij}>0
 \stepcounter{equation}\tag{\theequation}
-\label{eq:partial_N_0}
+\label{eq:rmefi0}
 %\end{equation}
 \end{align*}
 
@@ -766,7 +759,7 @@ En la tercera simulación exploramos las extinciones parciales (figura \ref{fig:
 En esta simulación todas las poblaciones empiezan por debajo de sus capacidades de carga. Todas evolucionan hacia sus máximos excepto el polinizador $4$ y la planta $4$ que se extinguen. La especie de planta $2$ empieza con una tasa eficaz negativa pero el crecimiento de sus mutualistas da la vuelta a esta situación y termina sobreviviendo.
 
 \subsection{Simulaciones con saturación del beneficio}
-\label{results_K_constante}
+\label{results_alfa}
 
 En este apartado presentamos los resultados de las simulaciones que hemos llevado a cabo con el modelo de saturación del beneficio mutualista (ecuaciones \ref{eq:DINAMICA_modeloralphaconmut}). Para el primer experimento hemos utilizado la misma red ficticia que en el apartado anterior (figura \ref{fig:red_exper_stab1})
 
@@ -819,7 +812,7 @@ El sistema crecería hasta alcanzar máximos en ausencia de perturbaciones exter
 
 El último experimento usa una red ligeramente modificada (figura  \ref{fig:DINAMICA_SAT_red_exper_resilience_weak}). La especie de plantas $6$ se conecta al polinizador $5$, un especialista. También se elimina el enlace que conecta la planta $1$ con el polinizador $5$ y se reemplaza por uno nuevo entre la planta $7$ y el polinizador $1$.  
 
-\begin{figure}[h!]
+\begin{figure}[ht!]
 \centering
 \includegraphics[scale=0.75]{DINAMICA_SATU_weak.pdf}
 \caption {Experimento con una red menos anidada. Una perturbación externa ataca la planta $6$. Tabla \ref{tab:SAT_exper_resilience_weak}.}
@@ -841,6 +834,201 @@ El segundo modelo es más refinado. En lugar de forzar la estabilidad mediante u
 El análisis de estabilidad es más simple para este modelo que para el primero que hemos propuesto y que para los modelos habituales de la literatura. Además, se ha explicado como se puede encontrar la divisoria que separa las cuencas de extinción y supervivencia, que es una ley de potencia para el caso de dos especies.
 
 La simulación estocástica a la hora de integrar las ecuaciones, permite introducir de manera muy simple perturbaciones externas que suceden en de manera habitual en la naturaleza. Los experimentos numéricos con este modelo y unas redes muy simples han mostrado la gran riqueza y complejidad de la dinámica del mutualismo.
+
+\section{Anexo: Análisis en detalle de la estabilidad del modelo con saturación}
+\label{DINAMICA_ANEXO_estabilidad}
+
+Para simplificar, prescindimos de los superíndices que representan las clases $animal$ y $planta$. 
+El sistema de ecuaciones \ref{eq:DINAMICA_dos_especies} se desarrolla en serie de Taylor en la vecindad del punto singular ($N^{*}_{1}, N^{*}_{2}$) como  $N_{1}= N^{*}_1+\tilde{N}_{1}$ y $N_{2}= N^{*}_2+\tilde{N}_{2}$ \cite{murray1993mathematical}:
+
+\begin{equation}
+\begin{array}{lcr}
+\displaystyle \frac{d\tilde{N}_{1}}{dt} = r_{1}+ b_{12}(N^{*}_2+\tilde{N}_{2})-(\alpha_{1}+ c_{1} b_{12} (N^{*}_2+\tilde{N}_{2}))( N^{*}_1+\tilde{N}_{1})\nonumber\\
+\\
+\displaystyle \frac{d\tilde{N}_{2}}{dt} = r_{2}+ b_{21}( N^{*}_1+\tilde{N}_{1})-(\alpha_{2}+ c_{2} b_{21}(N^{*}_1+\tilde{N}_{1}))(N^{*}_2+\tilde{N}_{2}) 
+\stepcounter{equation}\tag{\theequation}\label{eq:effrateTaylor}
+\end{array}
+\end{equation}
+
+\noindent y quedándonos solo con los términos de primer orden:
+
+\begin{equation}
+\begin{array}{lcr}
+\displaystyle \frac{d\tilde{N}_{1}}{dt}= \tilde{N}_{2}( b_{12} - c_{1} b_{12}\, N^{*}_1)-\tilde{N}_{1}(\alpha_{1}+ c_{1} b_{12} \, N^{*}_2) \equiv f_{1}(\tilde{N}_{1},\tilde{N}_{2}) \nonumber\\
+\\
+\displaystyle \frac{d\tilde{N}_{2}}{dt} = \tilde{N}_{1}( b_{21} - c_{2} b_{21}\, N^{*}_2)-\tilde{N}_{2}(\alpha_{2}+ c_{2} b_{21} \, N^{*}_1) \equiv f_{2}(\tilde{N}_{1},\tilde{N}_{2})
+\stepcounter{equation}\tag{\theequation}\label{eq:effrateTaylor2}
+\end{array}
+\end{equation}
+
+\noindent Los términos del jacobiano son:
+
+\begin{equation}
+\begin{array}{l}
+J_{11}= \frac{\partial f_{1}}{\partial \tilde{N}_{1}} =- N^{*}_{1}\left(\alpha_{1}+ c_{1} b_{12} \, N^{*}_2\right)  \\
+\\
+J_{12}= \frac{\partial f_{1}}{\partial \tilde{N}_{2}} = N^{*}_{1}b_{12}\left(1 - c_{1}\, N^{*}_1\right) \\
+\\
+J_{21}= \frac{\partial f_{2}}{\partial \tilde{N}_{1}} = N^{*}_{2}b_{21} \left(1 - c_{2}\, N^{*}_2\right) \\
+\\
+J_{22}= \frac{\partial f_{2}}{\partial \tilde{N}_{2}} = - N^{*}_{2}\left(\alpha_{2}+ c_{2} b_{21}\,N^{*}_{1}\right)
+\end{array}
+\stepcounter{equation}\tag{\theequation}\label{eq:J11}
+\end{equation}
+
+\noindent que puede reescribirse en términos de los coeficientes positivos $J_{ij}$ como:
+
+\begin{equation*}
+J = \left(
+\begin{array}{rr}
+-J_{11} & J_{12} \\ J_{21} & -J_{22}
+\end{array}
+\right)
+\end{equation*}
+
+\noindent Los autovalores $\lambda_{1,2}$ se obtienen de
+\begin{equation}
+\lvert J - \lambda I \rvert =0
+\stepcounter{equation}\tag{\theequation}\label{eq:lambda0App}
+\end{equation}
+
+\noindent cuyas soluciones son
+\begin{equation}
+\begin{array}{lcl}
+\lambda _{1,2}=\frac{1}{2}\left(tr(J)\pm \sqrt{tr^{2}(J)-4\,\mathrm{Det}(J)}\right)\\ =
+\frac{1}{2}\left(-\left(J_{11}+J_{22}\right)\pm \sqrt{\left(J_{11}+J_{22}\right)^{2}-4\,\mathrm{Det}(J)}\right)\\  =
+\frac{1}{2}\left(-\left(J_{11}+J_{22}\right)\pm \sqrt{\left(J_{11}-J_{22}\right)^{2} +4 \,\left( J_{12}J_{21} \right) }\right)
+\end{array}
+\stepcounter{equation}\tag{\theequation}\label{eq:lambda12}
+\end{equation}
+
+\noindent La última expresión indica que los dos autovalores son reales. Además, satisfacen la siguiente condición:
+
+\begin{equation}
+\prod_{k}\lambda_{k}=\mathrm{Det}(J)
+\end{equation}
+
+\noindent por tanto el punto singular será un \textit{saddle} cuando se cumpla que  $\mathrm{Det}(J)<0$. Expandiendo el determinante del jacobiano obtenemos la condición de existencia del \textit{saddle}:
+
+\begin{equation}
+1-c_{1}N^{*}_{1}-c_{2}N^{*}_{2} >0
+\end{equation}
+
+Las extinciones parciales son también puntos singulares, y corresponden a $N^{*}_{1,2} = 0$. Para simplificar, escribimos solo las ecuaciones del punto singular  ($N^{*}_{1}=r_{1}/\alpha_{1},N^{*}_{2}=0$). Expandiendo en serie de Taylor en torno a él, el sistema de ecuaciones se convierte en:
+
+\begin{equation}
+\begin{array}{ll}
+\displaystyle \frac{d\tilde{N}_{1}}{dt} = & r_{1} N^{*}_{1}-\alpha_{1}N^{*2}_{1}+r_{1}\tilde{N}_{1}+ b_{12}\tilde{N}_{2}N^{*}_1-2\alpha_{1}N^{*}_1\tilde{N}_{1} + \\
+\, & - c_{1} b_{12}\tilde{N}_{2}N^{*2}_1\nonumber\\
+\displaystyle \frac{d\tilde{N}_{2}}{dt} = & r_{2}\tilde{N_{2}}+ b_{21} N^{*}_1\tilde{N_{2}} 
+\end{array}
+\label{eq:effrateTaylorN2=0}
+\end{equation}
+
+\noindent El jacobiano es ahora:
+
+\begin{equation*}
+J = \left(
+\begin{array}{rr}
+-r_{1} & b_{12}N^{*}_{1}\left(1-c_{1}N^{*}_{1}\right) \\
+0 & r_{2}+b_{21}N^{*}_{1}
+\end{array}
+\right)
+\end{equation*}
+
+Los autovalores son los términos de la diagonal. Este punto será estable si se cumple que $r_{1}>0$ y que $r_{2}<-b_{21}r_{1}/\alpha_{1}$. La solución simétrica es ($N^{*}_{1}=0,N^{*}_{2}=r_{2}/\alpha_{2}$) y será estable si  $r_{2}>0$ y $r_{1}<-b_{12}r_{2}/\alpha_{2}$. La generalización para $n_{a} + n_{p}$ especies es:
+ 
+\begin{align}
+\frac{dN_{i}}{dt} = \left( r_{i}+ \sum_{j=1}^{n_{a}} b_{ij}N_{j}\right)N_{i} - \left(\alpha_{i}+ c_{i} \sum_{j=1}^{n_{a}} b_{ij}N_{j} \right) N^{2}_{i} \nonumber\\ 
+\frac{dN_{j}}{dt} = \left( r_{j}+ \sum_{i=1}^{n_{p}} b_{ji}N_{i}\right)N_{j} - \left(\alpha_{j}+ c_{j} \sum_{i=1}^{n_{p}} b_{ji} N_{i} \right) N^{2}_{j} 
+\stepcounter{equation}\tag{\theequation}\label{eq:N_especies}
+\end{align}
+
+\noindent donde el subíndice $i$ se extiende para todas las especies de plantas y el $j$ para todas las de animales.
+
+Los puntos fijos de este sistema son la solución trivial de destrucción completa de la comunidad ($N_{i=1\cdots n_{p}}=0, N_{j=1\cdots n_{a}}=0$), y las soluciones para las que las tasas de crecimiento efectivas se anulan: 
+
+\begin{equation}
+\begin{array}{lcr}
+\displaystyle r^{*}_{ef,i} =\left(r_{i}+ \sum_{j=1}^{n_{a}} b_{ij}N^{*}_{j}\right)- \left(\alpha_{i}+c_{i}\sum_{j=1}^{n_{a}} b_{ij}N^{*}_j\right)N^{*}_{i}
+=0 \nonumber\\
+\displaystyle r^{*}_{ef,j} = \left(r_{j}+ \sum_{i=1}^{n_{p}} b_{ji}N^{*}_{i}\right)- \left(\alpha_{j}+c_{j}\sum_{i=1}^{n_{p}} b_{ji}N^{*}_i\right)N^{*}_{j} 
+=0 
+\stepcounter{equation}\tag{\theequation}\label{eq:effrateN}
+\end{array}
+\end{equation}
+
+\noindent que pueden reescribirse como un conjunto de ecuaciones implícitas.
+
+\begin{eqnarray}
+\begin{array}{lcc}
+  N^{*}_{i}=\frac{r_{i}+\sum_{j=1}^{n_{a}}b_{ij}N^{*}_{j}}{\alpha_{i}+c_{i}\sum_{i=1}^{n_{p}}b_{ij}N^{*}_{j}} = 
+  \frac{r_{i}+r_{i}^{Mut}}{\alpha_{i}+c_{i}r_{i}^{Mut}} = 
+  \frac{r_{i}^{*+}}{r_{i}^{*-}}  \nonumber\\
+  \\
+  N^{*}_{j}=\frac{r_{j}+\sum_{i=1}^{n_{p}}b_{ji}N^{*}_{i}}{\alpha_{j}+c_{j}\sum_{i=1}^{n_{a}}b_{ij}N^{*}_{i}} =
+  \frac{r_{j}+r_{j}^{Mut}}{\alpha_{j}+c_{j}r_{j}^{Mut}} =
+  \frac{r_{j}^{*+}}{r_{j}^{*-}}
+  \end{array}
+\end{eqnarray} 
+ 
+\noindent donde las tasas $r^{*+}$ y $r^{*-}$ representan el efecto positivo sobre el crecimiento y el negativo, respectivamente. El sistema \ref{eq:N_especies} puede también desarrollarse en torno al punto singular:
+
+\begin{equation}
+\begin{array}{lcl}
+\textstyle \frac{dN_{i}}{dt}=r_{i}+\sum\limits_{j=1}^{n_{a}}b_{ij}(N^{*}_{j}+\tilde{N}_{j})- (\alpha_{i}+c_{i}\sum\limits_{j=1}^{n_{a}}b_{ij}(N^{*}_j+\tilde{N}_{j}))(N^{*}_i+\tilde{N}_{i}) \nonumber\\
+\textstyle \frac{dN_{j}}{dt}=r_{j}+\sum\limits_{i=1}^{n_{p}}b_{ji}(N^{*}_{i}+\tilde{N}_{i})-(\alpha_{j}+c_{j}\sum\limits_{i=1}^{n_{p}}b_{ji}(N^{*}_i+\tilde{N}_{i}))(N^{*}_j+\tilde{N}_{j}) 
+\stepcounter{equation}\tag{\theequation}\label{eq:effrateTaylorN}
+\end{array}
+\end{equation}
+
+\noindent donde el subíndice $i$ corresponde a las plantas y el $j$ a los animales. El conjunto de $n_{a} + n_{p}$ ecuaciones se reescribe en términos lineales como:
+
+\begin{align}
+\begin{array}{lcl}
+\displaystyle \frac{dN_{i}}{dt} = \sum_{j=1}^{n_{a}} \tilde{N}_{j} \left(  b_{ij} - c_{i} b_{ij}\, N^{*}_i\right) - \tilde{N}_{i}(\alpha_{i}+ c_{i} \sum_{j=1}^{n_{a}} b_{ij} \, N^{*}_{j})\nonumber\\
+\displaystyle \frac{dN_{j}}{dt} = \sum_{i=1}^{n_{p}} \tilde{N}_{i} \left( b_{ji} - c_{j} b_{ji}\, N^{*}_j\right) - \tilde{N}_{j}(\alpha_{j}+ c_{j} \sum_{i=1}^{n_{p}} b_{ji} \, N^{*}_{i})\stepcounter{equation}\tag{\theequation}\label{eq:effrateTaylor2N}
+\end{array}
+\end{align}
+
+Los coeficientes de $\tilde{N}_{i,j}$ son los términos del jacobiano. Los valores absolutos de los elementos de la diagonal, para cualquier especie $i$ de plantas, $j$ de animales son:
+
+\begin{align}
+\displaystyle & J_{ii}=N^{*}_{i}\left(\alpha_{i} + c_{i} \sum_{j=1}^{n_{a}} b_{ij} N^{*}_{j}\right) \nonumber\\
+\displaystyle & J_{jj}=N^{*}_{j}\left(\alpha_{j} + c_{j} \sum_{i=1}^{n_{p}} b_{ji} N^{*}_{i}\right)
+\label{eq:Jii2}
+\end{align}
+
+\noindent y los términos fuera de la diagonal:
+
+\begin{align}
+\displaystyle & J_{ij}=N^{*}_{i}b_{ij}\left( 1-c_{i}N^{*}_{i}\right)\nonumber\\
+\displaystyle & J_{ji}=N^{*}_{j}b_{ji}\left( 1-c_{j}N^{*}_{j}\right)
+\label{eq:Jij}
+\end{align}
+
+\noindent Como resultado el jacobiano queda así:
+
+\begin{equation*}
+J=\left(
+   \begin{array}{ccccc}
+      \ddots  & \cdots & \cdots & \cdots & \cdots \\
+      \cdots  & -J_{ii} & \cdots & J_{ij} & \cdots \\
+      \vdots  & \vdots & \ddots  & \vdots & \vdots  \\
+      \cdots  & J_{ji} & \cdots & -J_{jj} & \cdots \\
+      \cdots  & \cdots & \cdots & \cdots  & \ddots
+   \end{array}
+\right)
+\end{equation*}
+
+\noindent con todos los términos de la diagonal negativos y el resto positivos. La suma de los autovalores satisface la sigiente igualdad:
+
+\begin{equation}
+  \sum_{k}^{n_{a}+n_{p}} \lambda_{k}= -\left(\sum_{k}^{n_{a}+n_{p}} J_{kk}\right)
+  \stepcounter{equation}\tag{\theequation}\label{eq:sum_lambdas}
+\end{equation}
+
+Esto significa que no todos los autovalores son positivos y que por tanto el punto singular no es asintóticamente inestable. Por otra parte, los autovalores no pueden ser complejos porque todos los coeficientes fuera de la diagonal son positivos o nulos; los puntos fijos deben ser estables o  \textit{saddle}.
 
 \clearpage
 \section{Anexo: Datos de las simulaciones del modelo con \textit{K} constantes}
@@ -1092,7 +1280,7 @@ $r_{d\, m}$ & 0.11 & 0.078 & 0.068 & 0.07 & 0.028 \\
 \label{tab:SAT_exper_resilience_strong}
 \end{table}
 
-\begin{table}[h!]
+\begin{table}[ht!]
 \centering
 \scriptsize
 \begin{tabular}{lrrrrrrr}
@@ -1134,200 +1322,3 @@ $r_{d\, m}$ & 0.11 & 0.058 & 0.04 & 0.07 & 0.025 \\
 \caption{Coeficientes y condiciones para el experimento con la red débilmente anidada (figura \ref{fig:DINAMICA_SAT_red_exper_resilience_weak}). Arriba, la matriz polinizador-planta; abajo la matriz planta-polinizador.}
 \label{tab:SAT_exper_resilience_weak}
 \end{table}
-
-
-
-\section{Anexo: Análisis en detalle de la estabilidad del modelo con saturación}
-\label{DINAMICA_ANEXO_estabilidad}
-
-Para simplificar, prescindimos de los superíndices que representan las clases $animal$ y $planta$. 
-El sistema de ecuaciones \ref{eq:DINAMICA_dos_especies} se desarrolla en serie de Taylor en la vecindad del punto singular ($N^{*}_{1}, N^{*}_{2}$) como  $N_{1}= N^{*}_1+\tilde{N}_{1}$ y $N_{2}= N^{*}_2+\tilde{N}_{2}$ \cite{murray1993mathematical}:
-
-\begin{equation}
-\begin{array}{lcr}
-\displaystyle \frac{d\tilde{N}_{1}}{dt} = r_{1}+ b_{12}(N^{*}_2+\tilde{N}_{2})-(\alpha_{1}+ c_{1} b_{12} (N^{*}_2+\tilde{N}_{2}))( N^{*}_1+\tilde{N}_{1})\nonumber\\
-\\
-\displaystyle \frac{d\tilde{N}_{2}}{dt} = r_{2}+ b_{21}( N^{*}_1+\tilde{N}_{1})-(\alpha_{2}+ c_{2} b_{21}(N^{*}_1+\tilde{N}_{1}))(N^{*}_2+\tilde{N}_{2}) 
-\stepcounter{equation}\tag{\theequation}\label{eq:effrateTaylor}
-\end{array}
-\end{equation}
-
-\noindent y quedándonos solo con los términos de primer orden:
-
-\begin{equation}
-\begin{array}{lcr}
-\displaystyle \frac{d\tilde{N}_{1}}{dt}= \tilde{N}_{2}( b_{12} - c_{1} b_{12}\, N^{*}_1)-\tilde{N}_{1}(\alpha_{1}+ c_{1} b_{12} \, N^{*}_2) \equiv f_{1}(\tilde{N}_{1},\tilde{N}_{2}) \nonumber\\
-\\
-\displaystyle \frac{d\tilde{N}_{2}}{dt} = \tilde{N}_{1}( b_{21} - c_{2} b_{21}\, N^{*}_2)-\tilde{N}_{2}(\alpha_{2}+ c_{2} b_{21} \, N^{*}_1) \equiv f_{2}(\tilde{N}_{1},\tilde{N}_{2})
-\stepcounter{equation}\tag{\theequation}\label{eq:effrateTaylor2}
-\end{array}
-\end{equation}
-
-\noindent Los términos del jacobiano son:
-
-\begin{equation}
-\begin{array}{l}
-J_{11}= \frac{\partial f_{1}}{\partial \tilde{N}_{1}} =- N^{*}_{1}\left(\alpha_{1}+ c_{1} b_{12} \, N^{*}_2\right)  \\
-\\
-J_{12}= \frac{\partial f_{1}}{\partial \tilde{N}_{2}} = N^{*}_{1}b_{12}\left(1 - c_{1}\, N^{*}_1\right) \\
-\\
-J_{21}= \frac{\partial f_{2}}{\partial \tilde{N}_{1}} = N^{*}_{2}b_{21} \left(1 - c_{2}\, N^{*}_2\right) \\
-\\
-J_{22}= \frac{\partial f_{2}}{\partial \tilde{N}_{2}} = - N^{*}_{2}\left(\alpha_{2}+ c_{2} b_{21}\,N^{*}_{1}\right)
-\end{array}
-\stepcounter{equation}\tag{\theequation}\label{eq:J11}
-\end{equation}
-
-\noindent que puede reescribirse en términos de los coeficientes positivos $J_{ij}$ como:
-
-\begin{equation*}
-J = \left(
-\begin{array}{rr}
--J_{11} & J_{12} \\ J_{21} & -J_{22}
-\end{array}
-\right)
-\end{equation*}
-
-\noindent Los autovalores $\lambda_{1,2}$ se obtienen de
-\begin{equation}
-\lvert J - \lambda I \rvert =0
-\stepcounter{equation}\tag{\theequation}\label{eq:lambda0App}
-\end{equation}
-
-\noindent cuyas soluciones son
-\begin{equation}
-\begin{array}{lcl}
-\lambda _{1,2}=\frac{1}{2}\left(tr(J)\pm \sqrt{tr^{2}(J)-4\,\mathrm{Det}(J)}\right)\\ =
-\frac{1}{2}\left(-\left(J_{11}+J_{22}\right)\pm \sqrt{\left(J_{11}+J_{22}\right)^{2}-4\,\mathrm{Det}(J)}\right)\\  =
-\frac{1}{2}\left(-\left(J_{11}+J_{22}\right)\pm \sqrt{\left(J_{11}-J_{22}\right)^{2} +4 \,\left( J_{12}J_{21} \right) }\right)
-\end{array}
-\stepcounter{equation}\tag{\theequation}\label{eq:lambda12}
-\end{equation}
-
-\noindent La última expresión indica que los dos autovalores son reales. Además, satisfacen la siguiente condición:
-
-\begin{equation}
-\prod_{k}\lambda_{k}=\mathrm{Det}(J)
-\end{equation}
-
-\noindent por tanto el punto singular será un \textit{saddle} cuando se cumpla que  $\mathrm{Det}(J)<0$. Expandiendo el determinante del jacobiano obtenemos la condición de existencia del \textit{saddle}:
-
-\begin{equation}
-1-c_{1}N^{*}_{1}-c_{2}N^{*}_{2} >0
-\end{equation}
-
-Las extinciones parciales son también puntos singulares, y corresponden a $N^{*}_{1,2} = 0$. Para simplificar, escribimos solo las ecuaciones del punto singular  ($N^{*}_{1}=r_{1}/\alpha_{1},N^{*}_{2}=0$). Expandiendo en serie de Taylor en torno a él, el sistema de ecuaciones se convierte en:
-
-\begin{equation}
-\begin{array}{ll}
-\displaystyle \frac{d\tilde{N}_{1}}{dt} = & r_{1} N^{*}_{1}-\alpha_{1}N^{*2}_{1}+r_{1}\tilde{N}_{1}+ b_{12}\tilde{N}_{2}N^{*}_1-2\alpha_{1}N^{*}_1\tilde{N}_{1} + \\
-\, & - c_{1} b_{12}\tilde{N}_{2}N^{*2}_1\nonumber\\
-\displaystyle \frac{d\tilde{N}_{2}}{dt} = & r_{2}\tilde{N_{2}}+ b_{21} N^{*}_1\tilde{N_{2}} 
-\end{array}
-\label{eq:effrateTaylorN2=0}
-\end{equation}
-
-\noindent El jacobiano es ahora:
-
-\begin{equation*}
-J = \left(
-\begin{array}{rr}
--r_{1} & b_{12}N^{*}_{1}\left(1-c_{1}N^{*}_{1}\right) \\
-0 & r_{2}+b_{21}N^{*}_{1}
-\end{array}
-\right)
-\end{equation*}
-
-Los autovalores son los términos de la diagonal. Este punto será estable si se cumple que $r_{1}>0$ y que $r_{2}<-b_{21}r_{1}/\alpha_{1}$. La solución simétrica es ($N^{*}_{1}=0,N^{*}_{2}=r_{2}/\alpha_{2}$) y será estable si  $r_{2}>0$ y $r_{1}<-b_{12}r_{2}/\alpha_{2}$. La generalización para $n_{a} + n_{p}$ especies es:
- 
-\begin{align}
-\frac{dN_{i}}{dt} = \left( r_{i}+ \sum_{j=1}^{n_{a}} b_{ij}N_{j}\right)N_{i} - \left(\alpha_{i}+ c_{i} \sum_{j=1}^{n_{a}} b_{ij}N_{j} \right) N^{2}_{i} \nonumber\\ 
-\frac{dN_{j}}{dt} = \left( r_{j}+ \sum_{i=1}^{n_{p}} b_{ji}N_{i}\right)N_{j} - \left(\alpha_{j}+ c_{j} \sum_{i=1}^{n_{p}} b_{ji} N_{i} \right) N^{2}_{j} 
-\stepcounter{equation}\tag{\theequation}\label{eq:N_especies}
-\end{align}
-
-\noindent donde el subíndice $i$ se extiende para todas las especies de plantas y el $j$ para todas las de animales.
-
-Los puntos fijos de este sistema son la solución trivial de destrucción completa de la comunidad ($N_{i=1\cdots n_{p}}=0, N_{j=1\cdots n_{a}}=0$), y las soluciones para las que las tasas de crecimiento efectivas se anulan: 
-
-\begin{equation}
-\begin{array}{lcr}
-\displaystyle r^{*}_{ef,i} =\left(r_{i}+ \sum_{j=1}^{n_{a}} b_{ij}N^{*}_{j}\right)- \left(\alpha_{i}+c_{i}\sum_{j=1}^{n_{a}} b_{ij}N^{*}_j\right)N^{*}_{i}
-=0 \nonumber\\
-\displaystyle r^{*}_{ef,j} = \left(r_{j}+ \sum_{i=1}^{n_{p}} b_{ji}N^{*}_{i}\right)- \left(\alpha_{j}+c_{j}\sum_{i=1}^{n_{p}} b_{ji}N^{*}_i\right)N^{*}_{j} 
-=0 
-\stepcounter{equation}\tag{\theequation}\label{eq:effrateN}
-\end{array}
-\end{equation}
-
-\noindent que pueden reescribirse como un conjunto de ecuaciones implícitas.
-
-\begin{eqnarray}
-\begin{array}{lcc}
-  N^{*}_{i}=\frac{r_{i}+\sum_{j=1}^{n_{a}}b_{ij}N^{*}_{j}}{\alpha_{i}+c_{i}\sum_{i=1}^{n_{p}}b_{ij}N^{*}_{j}} = 
-  \frac{r_{i}+r_{i}^{Mut}}{\alpha_{i}+c_{i}r_{i}^{Mut}} = 
-  \frac{r_{i}^{*+}}{r_{i}^{*-}}  \nonumber\\
-  \\
-  N^{*}_{j}=\frac{r_{j}+\sum_{i=1}^{n_{p}}b_{ji}N^{*}_{i}}{\alpha_{j}+c_{j}\sum_{i=1}^{n_{a}}b_{ij}N^{*}_{i}} =
-  \frac{r_{j}+r_{j}^{Mut}}{\alpha_{j}+c_{j}r_{j}^{Mut}} =
-  \frac{r_{j}^{*+}}{r_{j}^{*-}}
-  \end{array}
-\end{eqnarray} 
- 
-\noindent donde las tasas $r^{*+}$ y $r^{*-}$ representan el efecto positivo sobre el crecimiento y el negativo, respectivamente. El sistema \ref{eq:N_especies} puede también desarrollarse en torno al punto singular:
-
-\begin{equation}
-\begin{array}{lcl}
-\textstyle \frac{dN_{i}}{dt}=r_{i}+\sum\limits_{j=1}^{n_{a}}b_{ij}(N^{*}_{j}+\tilde{N}_{j})- (\alpha_{i}+c_{i}\sum\limits_{j=1}^{n_{a}}b_{ij}(N^{*}_j+\tilde{N}_{j}))(N^{*}_i+\tilde{N}_{i}) \nonumber\\
-\textstyle \frac{dN_{j}}{dt}=r_{j}+\sum\limits_{i=1}^{n_{p}}b_{ji}(N^{*}_{i}+\tilde{N}_{i})-(\alpha_{j}+c_{j}\sum\limits_{i=1}^{n_{p}}b_{ji}(N^{*}_i+\tilde{N}_{i}))(N^{*}_j+\tilde{N}_{j}) 
-\stepcounter{equation}\tag{\theequation}\label{eq:effrateTaylorN}
-\end{array}
-\end{equation}
-
-\noindent donde el subíndice $i$ corresponde a las plantas y el $j$ a los animales. El conjunto de $n_{a} + n_{p}$ ecuaciones se reescribe en términos lineales como:
-
-\begin{align}
-\begin{array}{lcl}
-\displaystyle \frac{dN_{i}}{dt} = \sum_{j=1}^{n_{a}} \tilde{N}_{j} \left(  b_{ij} - c_{i} b_{ij}\, N^{*}_i\right) - \tilde{N}_{i}(\alpha_{i}+ c_{i} \sum_{j=1}^{n_{a}} b_{ij} \, N^{*}_{j})\nonumber\\
-\displaystyle \frac{dN_{j}}{dt} = \sum_{i=1}^{n_{p}} \tilde{N}_{i} \left( b_{ji} - c_{j} b_{ji}\, N^{*}_j\right) - \tilde{N}_{j}(\alpha_{j}+ c_{j} \sum_{i=1}^{n_{p}} b_{ji} \, N^{*}_{i})\stepcounter{equation}\tag{\theequation}\label{eq:effrateTaylor2N}
-\end{array}
-\end{align}
-
-Los coeficientes de $\tilde{N}_{i,j}$ son los términos del jacobiano. Los valores absolutos de los elementos de la diagonal, para cualquier especie $i$ de plantas, $j$ de animales son:
-
-\begin{align}
-\displaystyle & J_{ii}=N^{*}_{i}\left(\alpha_{i} + c_{i} \sum_{j=1}^{n_{a}} b_{ij} N^{*}_{j}\right) \nonumber\\
-\displaystyle & J_{jj}=N^{*}_{j}\left(\alpha_{j} + c_{j} \sum_{i=1}^{n_{p}} b_{ji} N^{*}_{i}\right)
-\label{eq:Jii2}
-\end{align}
-
-\noindent y los términos fuera de la diagonal:
-
-\begin{align}
-\displaystyle & J_{ij}=N^{*}_{i}b_{ij}\left( 1-c_{i}N^{*}_{i}\right)\nonumber\\
-\displaystyle & J_{ji}=N^{*}_{j}b_{ji}\left( 1-c_{j}N^{*}_{j}\right)
-\label{eq:Jij}
-\end{align}
-
-\noindent Como resultado el jacobiano queda así:
-
-\begin{equation*}
-J=\left(
-   \begin{array}{ccccc}
-      \ddots  & \cdots & \cdots & \cdots & \cdots \\
-      \cdots  & -J_{ii} & \cdots & J_{ij} & \cdots \\
-      \vdots  & \vdots & \ddots  & \vdots & \vdots  \\
-      \cdots  & J_{ji} & \cdots & -J_{jj} & \cdots \\
-      \cdots  & \cdots & \cdots & \cdots  & \ddots
-   \end{array}
-\right)
-\end{equation*}
-
-\noindent con todos los términos de la diagonal negativos y el resto positivos. La suma de los autovalores satisface la sigiente igualdad:
-
-\begin{equation}
-  \sum_{k}^{n_{a}+n_{p}} \lambda_{k}= -\left(\sum_{k}^{n_{a}+n_{p}} J_{kk}\right)
-  \stepcounter{equation}\tag{\theequation}\label{eq:sum_lambdas}
-\end{equation}
-
-Esto significa que no todos los autovalores son positivos y que por tanto el punto singular no es asintóticamente inestable. Por otra parte, los autovalores no pueden ser complejos porque todos los coeficientes fuera de la diagonal del jacobiano son positivos o nulos, por tanto los puntos fijos deben ser estables o \textit{saddle}.

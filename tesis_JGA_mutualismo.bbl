@@ -2226,6 +2226,34 @@
   \field{year}{2004}
 \endentry
 
+\entry{olesen2002geographic}{article}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Olesen}{O.}%
+     {Jens~M}{J.~M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Jordano}{J.}%
+     {Pedro}{P.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Eco Soc America}%
+  }
+  \strng{namehash}{OJMJP1}
+  \strng{fullhash}{OJMJP1}
+  \field{labelalpha}{OJ02}
+  \field{sortinit}{O}
+  \field{number}{9}
+  \field{pages}{2416\bibrangedash 2424}
+  \field{title}{Geographic patterns in plant-pollinator mutualistic networks}
+  \field{volume}{83}
+  \field{journaltitle}{Ecology}
+  \field{year}{2002}
+\endentry
+
 \entry{olesen2007modularity}{article}{}
   \name{author}{4}{}{%
     {{}%
@@ -2444,6 +2472,34 @@
   \field{sortinit}{R}
   \field{title}{Biologia da Poliniza{\c{c}}{\~a}o}
   \field{year}{2014}
+\endentry
+
+\entry{raymond2009network}{article}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Raymond}{R.}%
+     {Ben}{B.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Hosie}{H.}%
+     {Graham}{G.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Elsevier}%
+  }
+  \strng{namehash}{RBHG1}
+  \strng{fullhash}{RBHG1}
+  \field{labelalpha}{RH09}
+  \field{sortinit}{R}
+  \field{number}{5}
+  \field{pages}{673\bibrangedash 683}
+  \field{title}{Network-based exploration and visualisation of ecological data}
+  \field{volume}{220}
+  \field{journaltitle}{Ecological Modelling}
+  \field{year}{2009}
 \endentry
 
 \entry{rockwood2006introduction}{book}{}
