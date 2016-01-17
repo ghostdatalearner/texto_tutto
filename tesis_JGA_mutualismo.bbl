@@ -122,6 +122,29 @@
   \field{year}{2008}
 \endentry
 
+\entry{atmar1995nestedness}{article}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Atmar}{A.}%
+     {Wirt}{W.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Patterson}{P.}%
+     {Bruce~D}{B.~D.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{AWPBD1}
+  \strng{fullhash}{AWPBD1}
+  \field{labelalpha}{AP95}
+  \field{sortinit}{A}
+  \field{title}{The nestedness temperature calculator: a visual basic program,
+  including 294 presence-absence matrices}
+  \field{journaltitle}{AICS Research Incorporate and The Field Museum}
+  \field{year}{1995}
+\endentry
+
 \entry{arroyo1982community}{article}{}
   \name{author}{3}{}{%
     {{}%
@@ -179,6 +202,34 @@
   benefit yuccas?}
   \field{journaltitle}{Oikos}
   \field{year}{1995}
+\endentry
+
+\entry{barabasi1999emergence}{article}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Barab{\'a}si}{B.}%
+     {Albert-L{\'a}szl{\'o}}{A.-L.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Albert}{A.}%
+     {R{\'e}ka}{R.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {American Association for the Advancement of Science}%
+  }
+  \strng{namehash}{BALAR1}
+  \strng{fullhash}{BALAR1}
+  \field{labelalpha}{BA99}
+  \field{sortinit}{B}
+  \field{number}{5439}
+  \field{pages}{509\bibrangedash 512}
+  \field{title}{Emergence of scaling in random networks}
+  \field{volume}{286}
+  \field{journaltitle}{science}
+  \field{year}{1999}
 \endentry
 
 \entry{baird1980selection}{article}{}
@@ -1338,6 +1389,40 @@
   \field{year}{1979}
 \endentry
 
+\entry{galeano2009weighted}{article}{}
+  \name{author}{3}{}{%
+    {{}%
+     {Galeano}{G.}%
+     {Javier}{J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Pastor}{P.}%
+     {Juan~M}{J.~M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Iriondo}{I.}%
+     {Jose~M}{J.~M.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Elsevier}%
+  }
+  \strng{namehash}{GJPJMIJM1}
+  \strng{fullhash}{GJPJMIJM1}
+  \field{labelalpha}{GPI09}
+  \field{sortinit}{G}
+  \field{number}{11}
+  \field{pages}{1342\bibrangedash 1346}
+  \field{title}{Weighted-interaction nestedness estimator (WINE): a new
+  estimator to calculate over frequency matrices}
+  \field{volume}{24}
+  \field{journaltitle}{Environmental Modelling \& Software}
+  \field{year}{2009}
+\endentry
+
 \entry{gustafsson2007bringing}{article}{}
   \name{author}{2}{}{%
     {{}%
@@ -1465,6 +1550,40 @@
   \field{volume}{328}
   \field{journaltitle}{Journal of Theoretical Biology}
   \field{year}{2013}
+\endentry
+
+\entry{jordano2003invariant}{article}{}
+  \name{author}{3}{}{%
+    {{}%
+     {Jordano}{J.}%
+     {Pedro}{P.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Bascompte}{B.}%
+     {Jordi}{J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Olesen}{O.}%
+     {Jens~M}{J.~M.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Wiley Online Library}%
+  }
+  \strng{namehash}{JPBJOJM1}
+  \strng{fullhash}{JPBJOJM1}
+  \field{labelalpha}{JBO03}
+  \field{sortinit}{J}
+  \field{number}{1}
+  \field{pages}{69\bibrangedash 81}
+  \field{title}{Invariant properties in coevolutionary networks of
+  plant--animal interactions}
+  \field{volume}{6}
+  \field{journaltitle}{Ecology letters}
+  \field{year}{2003}
 \endentry
 
 \entry{jones2008}{article}{}
@@ -2020,6 +2139,39 @@
   \field{year}{2005}
 \endentry
 
+\entry{montoya2006ecological}{article}{}
+  \name{author}{3}{}{%
+    {{}%
+     {Montoya}{M.}%
+     {Jos{\'e}~M}{J.~M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Pimm}{P.}%
+     {Stuart~L}{S.~L.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Sol{\'e}}{S.}%
+     {Ricard~V}{R.~V.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Nature Publishing Group}%
+  }
+  \strng{namehash}{MJMPSLSRV1}
+  \strng{fullhash}{MJMPSLSRV1}
+  \field{labelalpha}{MPS06}
+  \field{sortinit}{M}
+  \field{number}{7100}
+  \field{pages}{259\bibrangedash 264}
+  \field{title}{Ecological networks and their fragility}
+  \field{volume}{442}
+  \field{journaltitle}{Nature}
+  \field{year}{2006}
+\endentry
+
 \entry{martinez2011aplicacion}{article}{}
   \name{author}{4}{}{%
     {{}%
@@ -2198,6 +2350,29 @@
   \field{year}{2003}
 \endentry
 
+\entry{newman2006modularity}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Newman}{N.}%
+     {Mark~EJ}{M.~E.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {National Acad Sciences}%
+  }
+  \strng{namehash}{NME1}
+  \strng{fullhash}{NME1}
+  \field{labelalpha}{New06}
+  \field{sortinit}{N}
+  \field{number}{23}
+  \field{pages}{8577\bibrangedash 8582}
+  \field{title}{Modularity and community structure in networks}
+  \field{volume}{103}
+  \field{journaltitle}{Proceedings of the National Academy of Sciences}
+  \field{year}{2006}
+\endentry
+
 \entry{newman2004finding}{article}{}
   \name{author}{2}{}{%
     {{}%
@@ -2252,6 +2427,67 @@
   \field{volume}{83}
   \field{journaltitle}{Ecology}
   \field{year}{2002}
+\endentry
+
+\entry{okuyama2008mutualistic}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Okuyama}{O.}%
+     {Toshinori}{T.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Elsevier}%
+  }
+  \strng{namehash}{OT1}
+  \strng{fullhash}{OT1}
+  \field{labelalpha}{Oku08}
+  \field{sortinit}{O}
+  \field{number}{1}
+  \field{pages}{59\bibrangedash 65}
+  \field{title}{Do mutualistic networks follow power distributions?}
+  \field{volume}{5}
+  \field{journaltitle}{ecological complexity}
+  \field{year}{2008}
+\endentry
+
+\entry{olesen2006smallest}{article}{}
+  \name{author}{4}{}{%
+    {{}%
+     {Olesen}{O.}%
+     {Jens~M}{J.~M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Bascompte}{B.}%
+     {Jordi}{J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Dupont}{D.}%
+     {Yoko~L}{Y.~L.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Jordano}{J.}%
+     {Pedro}{P.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Elsevier}%
+  }
+  \strng{namehash}{OJM+1}
+  \strng{fullhash}{OJMBJDYLJP1}
+  \field{labelalpha}{Ole+06}
+  \field{sortinit}{O}
+  \field{number}{2}
+  \field{pages}{270\bibrangedash 276}
+  \field{title}{The smallest of all worlds: pollination networks}
+  \field{volume}{240}
+  \field{journaltitle}{Journal of Theoretical Biology}
+  \field{year}{2006}
 \endentry
 
 \entry{olesen2007modularity}{article}{}
@@ -2674,6 +2910,34 @@
   high robustness of pollination networks}
   \field{journaltitle}{Oikos}
   \field{year}{2015}
+\endentry
+
+\entry{stouffer2011compartmentalization}{article}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Stouffer}{S.}%
+     {Daniel~B}{D.~B.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Bascompte}{B.}%
+     {Jordi}{J.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {National Acad Sciences}%
+  }
+  \strng{namehash}{SDBBJ1}
+  \strng{fullhash}{SDBBJ1}
+  \field{labelalpha}{SB11}
+  \field{sortinit}{S}
+  \field{number}{9}
+  \field{pages}{3648\bibrangedash 3652}
+  \field{title}{Compartmentalization increases food-web persistence}
+  \field{volume}{108}
+  \field{journaltitle}{Proceedings of the National Academy of Sciences}
+  \field{year}{2011}
 \endentry
 
 \entry{van2010ethical}{article}{}
@@ -3187,6 +3451,53 @@
   \field{volume}{118}
   \field{journaltitle}{Oecologia}
   \field{year}{1999}
+\endentry
+
+\entry{vazquez2005degree}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {V{\'a}zquez}{V.}%
+     {Diego~P}{D.~P.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Wiley Online Library}%
+  }
+  \strng{namehash}{VDP1}
+  \strng{fullhash}{VDP1}
+  \field{labelalpha}{V{\'a}z05}
+  \field{sortinit}{V}
+  \field{number}{2}
+  \field{pages}{421\bibrangedash 426}
+  \field{title}{Degree distribution in plant--animal mutualistic networks:
+  forbidden links or random interactions?}
+  \field{volume}{108}
+  \field{journaltitle}{Oikos}
+  \field{year}{2005}
+\endentry
+
+\entry{williams2011biology}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Williams}{W.}%
+     {Richard~J}{R.~J.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Public Library of Science}%
+  }
+  \strng{namehash}{WRJ1}
+  \strng{fullhash}{WRJ1}
+  \field{labelalpha}{Wil11}
+  \field{sortinit}{W}
+  \field{number}{3}
+  \field{title}{Biology, Methodology or Chance? The Degree Distributions of
+  Bipartite Ecological Networks}
+  \field{volume}{6}
+  \field{journaltitle}{PLoS One}
+  \field{year}{2011}
 \endentry
 
 \entry{williams2000}{article}{}
