@@ -2401,6 +2401,40 @@
   \field{year}{2004}
 \endentry
 
+\entry{olesen2002invasion}{article}{}
+  \name{author}{3}{}{%
+    {{}%
+     {Olesen}{O.}%
+     {Jens~M}{J.~M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Eskildsen}{E.}%
+     {Louise~I}{L.~I.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Venkatasamy}{V.}%
+     {Shadila}{S.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Wiley Online Library}%
+  }
+  \strng{namehash}{OJMELIVS1}
+  \strng{fullhash}{OJMELIVS1}
+  \field{labelalpha}{OEV02}
+  \field{sortinit}{O}
+  \field{number}{3}
+  \field{pages}{181\bibrangedash 192}
+  \field{title}{Invasion of pollination networks on oceanic islands: importance
+  of invader complexes and endemic super generalists}
+  \field{volume}{8}
+  \field{journaltitle}{Diversity and Distributions}
+  \field{year}{2002}
+\endentry
+
 \entry{olesen2002geographic}{article}{}
   \name{author}{2}{}{%
     {{}%
