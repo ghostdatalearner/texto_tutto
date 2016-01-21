@@ -1668,6 +1668,29 @@
   \field{year}{1987}
 \endentry
 
+\entry{jordano1993geographical}{book}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Jordano}{J.}%
+     {Pedro}{P.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Springer}%
+  }
+  \strng{namehash}{JP1}
+  \strng{fullhash}{JP1}
+  \field{labelalpha}{Jor93}
+  \field{sortinit}{J}
+  \field{booktitle}{Frugivory and seed dispersal: ecological and evolutionary
+  aspects}
+  \field{pages}{85\bibrangedash 104}
+  \field{title}{Geographical ecology and variation of plant-seed disperser
+  interactions: southern Spanish junipers and frugivorous thrushes}
+  \field{year}{1993}
+\endentry
+
 \entry{james2012disentangling}{article}{}
   \name{author}{3}{}{%
     {{}%

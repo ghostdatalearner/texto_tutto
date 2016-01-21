@@ -73,16 +73,36 @@ k^A_{radius}m = \frac{1}{\mid C^{B} \mid}\sum\limits_{j \in C^{B}} dist_{mj}  \q
 
 En la fórmula \ref{ESTATICA_kradius} $dist_{mj}$ es el camino más corto de la especie $m$ a cada una de las $j$ especies que forman el conjuto $C^B$. La misma definción es válida para especies de la clase $B$, calculando la distancia media a las especies de $C^A$. El valor mínimo posible de $k_{radius}$ es $1$ para un nodo perteciente a $C^B$ conectado con todas las especies de $C^A$ (y viceversa).
 
+%\begin{figure}[h!]
+%\centering
+%\includegraphics[scale=0.58]{ESTATICA_red_example.eps}
+%\caption {Cálculo de \textit{$k_{radius}$} y  \textit{$k_{degree}$} en una red ficticia.}
+%\label{fig:ESTATICA_red_example}
+%\end{figure}
+
 \begin{figure}[h!]
 \centering
-\includegraphics[scale=0.58]{ESTATICA_red_example.eps}
-\caption {Cálculo de \textit{$k_{radius}$} y  \textit{$k_{degree}$} en una red ficticia.}
+\includegraphics[scale=0.5]{ESTATICA_SD_030_example_network.pdf}
+\caption {Red de frugívoros en Santa Bárbara, Sierra de Baza (España) \cite{jordano1993geographical}.}
 \label{fig:ESTATICA_red_example}
 \end{figure}
 
-La parte superior izquierda de la figura \ref{fig:ESTATICA_red_example} es el esquema de otra red ficticia muy sencilla, con solo siete nodos, tres de la clase $A$ y cuatro de la $B$. Como se puede ver,  la especie $B4$ es la única que pertenece a la $1$-$shell$. El resto son parte de las $2$-$shell$, que por ser la más internas se toman como referencia para medir los $k_{radius}$ individuales. 
+%La parte superior izquierda de la figura \ref{fig:ESTATICA_red_example} es el esquema de otra red ficticia muy sencilla, con solo siete nodos, tres de la clase $A$ y cuatro de la $B$. Como se puede ver,  la especie $B4$ es la única que pertenece a la $1$-$shell$. El resto son parte de las $2$-$shell$, que por ser la más internas se toman como referencia para medir los $k_{radius}$ individuales. 
+%
+%En la parte superior derecha de la imagen, se reproduce el detalle de las conexiones de la especie $A1$, perteneciente a $C^{A}$.  Como está directamente conectada con los tres nodos de $C^{B}$ la el camino más corto a cada uno de ellos es $1$, y en consecuencia $k^A_{radius}1$ es $1$. En la parte inferior derecha, la especie $A2$ que también pertenece a $C^{A}$ no tiene enlace directo con $B2$, aunque sí con $B1$ y $B3$. El camino más corto, marcado en color violeta, pasa por $B1$ y $A1$, y mide $3$. El $k^A_{radius}2$ vale $\sfrac{5}{3}$. En la parte inferior izquierda, vemos el esquema de conexiones de la especie $B4$, que no forma parte de $C^{B}$. Como cabía esperar, su$k_{radius}$ es mayor, $\sfrac{7}{3}$. 
 
-En la parte superior derecha de la imagen, se reproduce el detalle de las conexiones de la especie $A1$, perteneciente a $C^{A}$.  Como está directamente conectada con los tres nodos de $C^{B}$ la el camino más corto a cada uno de ellos es $1$, y en consecuencia $k^A_{radius}1$ es $1$. En la parte inferior derecha, la especie $A2$ que también pertenece a $C^{A}$ no tiene enlace directo con $B2$, aunque sí con $B1$ y $B3$. El camino más corto, marcado en color violeta, pasa por $B1$ y $A1$, y mide $3$. El $k^A_{radius}2$ vale $\sfrac{5}{3}$. En la parte inferior izquierda, vemos el esquema de conexiones de la especie $B4$, que no forma parte de $C^{B}$. Como cabía esperar, su$k_{radius}$ es mayor, $\sfrac{7}{3}$. 
+La figura \ref{fig:ESTATICA_red_example} es una red de frugívoros real, de dimensiones muy reducidas, con cinco especies de plantas, cuatro de aves (mirlos) y once enlaces. Llamaremos clase $A$ a las plantas y clase $B$ a las aves. La descomposición \textit{k-core} se ha realizado con el algoritmo de \textit{pruning}. El índice $k$ máximo es $2$, todas las aves pertenecen a la $2-shell$, no así todas las plantas. En este ejemplo todas las especies de la \textit{shell} máxima de la clase $A$ tienen enlace directo con todas las especies de la \textit{shell} máxima de la clase $B$, esto no tiene por qué ser siempre así. 
+
+El camino más corto desde la planta $2$ a cada una de las cuatro especies de dispersores de la $2-shell$ es $1$ al estar enlazada con todas ellas. Su $k_{radius}$ es, en consecuencia, $1$ porque se ha definido como el promedio de las distancias a todas las especies de la \textit{shell} máxima de la clase contraria. Lo mismo ocurre con la planta $1$ . Se puede comprobar que el $k_{radius}$ de todas las especies de aves de la $2$-$shell$ es también $1$, midiendo sus distancias respectivas a las plantas $1$ y $2$.
+
+El cálculo es simple aunque algo más laborioso para las plantas de la $1$-$shell$. En la figura \ref{fig:ESTATICA_SD_030_example_distances} se ha tomado como ejemplo la especie número $4$. Hay que medir primero la distancia con cada una de las aves de la $2$-$shell$. Para ello, se han representado con distintos colores los caminos más cortos. La distancia con el dispersor $1$ es $1$ porque comparten enlace (camino en color azul marino). Con la especie $2$ no hay conexión directa, el camino más corto (representado en azul celeste) es $pl4$-$disp1$-$pl2$-$disp2$ y la distancia es $3$. Lo mismo sucede con las especies de ave $3$ (camino rojo) y $4$ (camino violeta), ambas a distancia $3$ de la planta $4$. Medidas las cuatro distancias, ya se puede calcular el $k_{radius}$ de la especie de planta $4$, que es el promedio de 1, 3, 3 y 3, es decir 2,5. Este procedimiento hay que repetirlo para todas las especies de la red.
+
+\begin{figure}[h!]
+\centering
+\includegraphics[scale=0.5]{ESTATICA_SD_030_example_distances.pdf}
+\caption {Red de frugívoros en Santa Bárbara, Sierra de Baza (España) \cite{jordano1993geographical}.}
+\label{fig:ESTATICA_SD_030_example_distances}
+\end{figure}
 
 Podemos definir una magnitud global, teniendo en cuenta los $k_{radius}$ de todas las especies.
 
@@ -96,7 +116,7 @@ El \textit{$\overline k_{radius}$} de una red se obtiene promediando los ${k}_{r
 \label{ESTATICA_avgkradius}
 \end{theo}
 
-Una red con todos sus nodos conectados (matriz de adyacencia cuadrada) tendría $\overline {k}_{radius}=1$, el menor posible. En una con matriz de adyacencia triangular el $\overline {k}_{radius}$ vale $1.5$. En la red que hemos usado como ejemplo, su valor es $\sfrac{11}{7}$. Intuitivamente, el $\overline {k}_{radius}$ será pequeño para redes muy anidadas, porque la probabilidad de conexión con la \textit{shell} más interna es elevada. Las especies generalistas están muy interconectadas y las especialistas tienen enlaces directos con las \textit{k-shells} de mayor índice. por el contrario, una distribución de enlaces puramente aleatoria conduciría a una red con mayor $\overline {k}_{radius}$.
+Una red con todos sus nodos conectados (matriz de adyacencia cuadrada) tendría $\overline {k}_{radius}=1$, el menor posible. En una con matriz de adyacencia triangular el $\overline {k}_{radius}$ vale $1.5$. Intuitivamente, el $\overline {k}_{radius}$ será pequeño para redes muy anidadas, porque la probabilidad de conexión con la \textit{shell} más interna es elevada. Las especies generalistas están muy interconectadas y las especialistas tienen enlaces directos con las \textit{k-shells} de mayor índice. por el contrario, una distribución de enlaces puramente aleatoria conduciría a una red con mayor $\overline {k}_{radius}$.
 
 El ${k}_{radius}$ es una buena medida de conexión al corazón de la red pero no de centralidad. Por ejemplo, su valor es bajo para un especialista con un enlace a la \textit{shell} más interna, aunque sabemos que no resulta determinante para la estabilidad global de la red. Para atender esta necesidad, definimos una segunda \textit{k-magnitud}.
 
@@ -109,8 +129,34 @@ k^A_{degree}m = \sum\limits_{j} \frac{a_{mj} }{k_{radius}j}  \quad   m \in A, \f
 \label{kdegree}
 \end{theo}
 
-Donde $a_{mj}$ es el elemento de la matriz de interacción que representa el enlace, cuyo valor es $1$ si existe o $0$ si no está presente. El $k_{degree}$ es la suma de los inversos de los $k_{radius}$ de los nodos conectados con $m$. Una especie de la \textit{shell} más interna tiene un $k_{degree}m$ elevado,  mientras que los especialistas con solo uno o dos enlaces tiene un $k_{degree}$ reducido. Volviendo al ejemplo de la figura \ref{fig:ESTATICA_red_example}, el $k_{degree}$ del nodo $B3$ es is $1+\sfrac{3}{5}+\sfrac{3}{5} = \sfrac{11}{5}$, mientras que solo vale $\sfrac{3}{7}$ para el especialista $B4$. Esta magnitud recuerda la definición del \textit{índice de Harary} \cite{plavvsic1993harary} pero teniendo solo en cuenta los enlaces con la \textit{shell} más interna.
+Donde $a_{mj}$ es el elemento de la matriz de interacción que representa el enlace, cuyo valor es $1$ si existe o $0$ si no está presente. El $k_{degree}$ es la suma de los inversos de los $k_{radius}$ de los nodos conectados con $m$. Una especie de la \textit{shell} más interna tiene un $k_{degree}m$ elevado,  mientras que los especialistas con solo uno o dos enlaces tiene un $k_{degree}$ reducido. 
 
+En el ejemplo de la figura \ref{fig:ESTATICA_red_example}, vamos a calcular el $k_{degree}$ de la planta $1$. Se obtuvo que el $k_{radius}$ de las cuatro especies de la $2$-$shell$ de dispersores es $1$. Al tener la planta enlace con cada una de ellas, el $k_{degree}$, que es la suma de los inversos de los $4$ valores de $k_{radius}$, vale $4$. Si ahora nos fijamos en la planta $4$, solo tiene un enlace con el dispersor $1$, cuyo $k_{radius}$ es $1$ y así el $k_{degree}$ de la planta $1$ vale solo $1$. De manera intuitiva, la planta $1$ parece ser menos importante para la supervivencia de la red que la planta $4$. En el próximo apartado se explica como medirlo.
+
+El  $\overline k_{degree}$ recuerda la definición del \textit{índice de Harary} que se deine como la suma de los inversos de las distancias entre todos los nodos de un grafo conectado \cite{plavvsic1993harary}. El  $\overline k_{degree}$ teniendo solo tiene en cuenta los enlaces con la \textit{shell} más interna y utiliza el inverso de los $k_{radius}$, no de las distancias.
+
+En la tabla \ref{table:table_SD_030} pueden consultarse los valores de las \textit{k-magnitudes} de la red que se ha utilizado como ejemplo.
+
+\begin{table}[htbp]
+\small
+  \centering
+    \begin{tabular}{rrr}
+    \toprule
+    $Especie$ & $k_{radius}$ & $k_{degree}$  \\
+    \midrule
+    pl1  & 1    & 4 \\
+    pl2  & 1    & 4 \\
+    pl3  & 2,5  & 1 \\
+    pl4  & 2,5  & 1 \\
+    pl5  & 2,5  & 1 \\
+    disp1 & 1    & 2,8 \\
+    disp2 & 1    & 2,4 \\
+    disp3 & 1    & 2 \\
+    disp4 & 1    & 2 \\
+    \bottomrule
+    \end{tabular}%
+  \caption{\label{table:table_SD_030} \textit{K-magnitudes} de la red de la figura \ref{fig:ESTATICA_SD_030_example_distances}. Valores globlales: $\overline k_{radius} = 1,5 $ y $\overline k_{degree} = 2,24$.}
+\end{table}%
 
 \subsection{Algoritmo de destrucción basado en \textit{k-shell}}
 
