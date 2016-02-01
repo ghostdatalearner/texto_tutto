@@ -204,6 +204,26 @@
   \field{year}{1995}
 \endentry
 
+\entry{atmar1986nested}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {ATMAR}{A.}%
+     {WIRT}{W.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{AW1}
+  \strng{fullhash}{AW1}
+  \field{labelalpha}{ATM86}
+  \field{sortinit}{A}
+  \field{pages}{65\bibrangedash 82}
+  \field{title}{Nested subsets and the structure of insular mammalian faunas
+  and archipelagos}
+  \field{volume}{28}
+  \field{journaltitle}{Bio. J. Linnean Soc}
+  \field{year}{1986}
+\endentry
+
 \entry{barabasi1999emergence}{article}{}
   \name{author}{2}{}{%
     {{}%
@@ -1842,6 +1862,44 @@
   \field{volume}{357}
   \field{journaltitle}{Proc. R. Soc. Lond. B}
   \field{year}{2002}
+\endentry
+
+\entry{krishna2008neutral}{article}{}
+  \name{author}{4}{}{%
+    {{}%
+     {Krishna}{K.}%
+     {Abhay}{A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Guimaraes~Jr}{G.~J.}%
+     {Paulo~R}{P.~R.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Jordano}{J.}%
+     {Pedro}{P.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Bascompte}{B.}%
+     {Jordi}{J.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Wiley Online Library}%
+  }
+  \strng{namehash}{KA+1}
+  \strng{fullhash}{KAGJPRJPBJ1}
+  \field{labelalpha}{Kri+08}
+  \field{sortinit}{K}
+  \field{number}{11}
+  \field{pages}{1609\bibrangedash 1618}
+  \field{title}{A neutral-niche theory of nestedness in mutualistic networks}
+  \field{volume}{117}
+  \field{journaltitle}{Oikos}
+  \field{year}{2008}
 \endentry
 
 \entry{kuno1991some}{article}{}

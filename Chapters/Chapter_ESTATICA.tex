@@ -65,7 +65,7 @@ Las especies más conectadas de una red mutualista son resistentes a las perturb
 El \textit{$k_{radius}$} del nodo $m$ de la clase $A$ es el valor medio de la distancia a las especies de $C^B$
 \begin{align*}
 \displaystyle
-k^A_{radius}m = \frac{1}{\mid C^{B} \mid}\sum\limits_{j \in C^{B}} dist_{mj}  \qquad   m \in A
+k^A_{radius}(m) = \frac{1}{\mid C^{B} \mid}\sum\limits_{j \in C^{B}} dist_{mj}  \qquad   m \in A
 \stepcounter{equation}\tag{\theequation}\label{kradius}
 \end{align*}
 \label{ESTATICA_kradius}
@@ -123,7 +123,7 @@ El ${k}_{radius}$ es una buena medida de conexión al corazón de la red pero no
 \begin{theo} 
 \begin{align*}
 \displaystyle
-k^A_{degree}m = \sum\limits_{j} \frac{a_{mj} }{k_{radius}j}  \quad   m \in A, \forall j \in B
+k^A_{degree}(m) = \sum\limits_{j} \frac{a_{mj} }{k_{radius}j}  \quad   m \in A, \forall j \in B
 \stepcounter{equation}\tag{\theequation}
 \end{align*}
 \label{kdegree}
@@ -378,13 +378,13 @@ El experimento comienza recableando al azar un enlace, se analiza la red resulta
 \begin{figure}[h!]
 \centering
 \includegraphics[scale=0.58]{ESTATICA_histo_corr_rewiring.png}
-\caption {Resultados del experimento de recableado. Histograma de correlación $\overline {k}_{radius}$ y $NODF$, para un máximo del 10\% de enlaces; dispersión en función del tamaño de la red y gráficas para tres redes. En estas últimas el asterico azul indica el valor de la red original, sin modificar ninguna conexión.}
+\caption {Resultados del experimento de recableado. Histograma de correlación $\overline {k}_{radius}$ y $NODF$, para un máximo del 10\% de enlaces; dispersión en función del tamaño de la red, el tamaño de los nodos es proporcional a la asimetría de clases, y gráficas para tres redes. En estas últimas el asterico azul indica el valor de la red original, sin modificar ninguna conexión.}
 \label{fig:ESTATICA_histo_corr_rewiring}
 \end{figure}
 
 El histograma representa los valores de la correlación entre las dos magnitudes aludidas cuando en el experimento se recablean hasta un 10\% de los enlaces. Para la mayoría de las redes se obtienen correlaciones en torno al valor $-0,84$ que se encontró en el apartado anterior. Un pequeño porcentaje de reconexiones hace que $NODF$ se reduzca y que $\overline {k}_{radius}$ aumente de una manera predecible (véase la figura correspondiente a la red $M\_PL\_012$ en la fila inferior). Para las redes que se comportan así, un mayor porcentaje de reconexiones no supone un gran cambio en el estado final. la gráfica de la red $M\_PL\_010$ se ha obtenido cambiando hasta la mitad de los enlaces. Hay una zona de atracción en torno a $\overline {k}_{radius}$ de valor $0,35$ y $NODF$ casi nula, que representa una configuración aleatoria de la red muy alejada de la real.
 
-Hay un porcentaje no despreciable de redes que no siguen esa variación para las que el experimento arroja valores reducidos de correlación e incluso positivos. Es el caso, por ejemplo, de $M\_SD\_007$. Un mínimo cambio destruye el anidamiento sin alterar de manera sustancial el $\overline {k}_{radius}$. Buscando el origen de este comportamiento dispar, se ha representado en la fila intermedia de la figura un diagrama de dispersión que relaciona el valor de la correlación con el número de especies de la red y con la asimetría. Esta se mide como el valor absoluto de la diferencia entre el número de especies de ambas clases dividida por su suma (tabla \ref{table:table_rewiring}) . El área correspondiente al rombo de cada especie es proporcional a esta cantidad. De la gráfica podemos deducir que cuanto mayor es el tamaño de la red, la correlación lineal entre $NODF$ y $log(\overline {k}_{radius})$ tiene mayor tendencia a mantenerse aunque cambie un pequeño porcentaje de conexiones. Para redes más pequeñas, el factor que destruye con mayor rapidez el anidamiento es la asimetría, y la red $M\_SD\_007$ es un caso extremo, con $72$ especies de plantas, solo $7$ de polinizadores y una estructura muy peculiar como se verá en el próximo capítulo de visualizaciones. Estas redes asimétricas son mucho más sensibles a las reconexiones, porque hay una mayor probabilidad de alterar la \textit{k-shell} máxima.
+Hay un porcentaje no despreciable de redes que no siguen esa variación para las que el experimento arroja valores reducidos de correlación e incluso positivos. Es el caso, por ejemplo, de $M\_SD\_007$. Un mínimo cambio destruye el anidamiento sin alterar de manera sustancial el $\overline {k}_{radius}$. Buscando el origen de este comportamiento dispar, se ha representado en la fila intermedia de la figura un diagrama de dispersión que relaciona el valor de la correlación con el número de especies de la red y con la asimetría de clases. Esta se mide como el valor absoluto de la diferencia entre el número de especies de ambas clases dividida por su suma (tabla \ref{table:table_rewiring}) . El área correspondiente al rombo de cada especie es proporcional a esta cantidad. De la gráfica podemos deducir que cuanto mayor es el tamaño de la red, la correlación lineal entre $NODF$ y $log(\overline {k}_{radius})$ tiene mayor tendencia a mantenerse aunque cambie un pequeño porcentaje de conexiones. Para redes más pequeñas, el factor que destruye con mayor rapidez el anidamiento es la asimetría, y la red $M\_SD\_007$ es un caso extremo, con $72$ especies de plantas, solo $7$ de polinizadores y una estructura muy peculiar como se verá en el próximo capítulo de visualizaciones. Estas redes asimétricas son mucho más sensibles a las reconexiones, porque hay una mayor probabilidad de alterar la \textit{k-shell} máxima.
 
 Lo que muestra cualitativamente este experimento, es que cuanto  mayores son el tamaño y la simetría, las redes parecen menos destructibles ante pequeños cambios. El valor de la correlación del experimento de recableado podría utilizarse como indicador numérico de la resistencia a una variación de las condiciones ambientales.
 
@@ -394,7 +394,7 @@ Lo que muestra cualitativamente este experimento, es que cuanto  mayores son el 
   \tiny
     \begin{tabular}{lrrrr}
     \toprule
-    $Red$ & $Plantas$ & $Animales$ & $Asimetría$ & $Correlación \overline r_{radius} y NODF$ \\
+    $Red$ & $Plantas$ & $Animales$ & $Asimetría de clases$ & $Corr \overline r_{radius} y NODF$ \\
     \midrule
     M\_PL\_001 & 84   & 101  & 0,09 & -0,89 \\
     M\_PL\_002 & 43   & 64   & 0,20 & -0,78 \\
