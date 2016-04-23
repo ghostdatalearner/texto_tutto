@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2013.8.13)  1 FEB 2016 08:48
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2013.8.13)  23 APR 2016 09:46
 entering extended mode
 **D:/disco_usuario/javier/upm/doctorado/tesis/texto_tesis_upm/texto_tutto/tesis
 _JGA_mutualismo.tex
@@ -2750,11 +2750,11 @@ Package babel Info: Redefining spanish shorthand "?
  [14]
 Package epstopdf Info: Source file: <Figures/DINAMICA_r1_Verh+modif_r1-p8p8K50.
 eps>
-(epstopdf)                    date: 2013-04-15 12:29:04
+(epstopdf)                    date: 2013-04-15 13:29:04
 (epstopdf)                    size: 49552 bytes
 (epstopdf)             Output file: <Figures/DINAMICA_r1_Verh+modif_r1-p8p8K50-
 eps-converted-to.pdf>
-(epstopdf)                    date: 2015-12-18 11:31:14
+(epstopdf)                    date: 2015-12-18 12:31:14
 (epstopdf)                    size: 35073 bytes
 (epstopdf)             Command: <epstopdf --outfile=Figures/DINAMICA_r1_Verh+mo
 dif_r1-p8p8K50-eps-converted-to.pdf Figures/DINAMICA_r1_Verh+modif_r1-p8p8K50.e
@@ -2790,11 +2790,11 @@ Package babel Info: Redefining spanish shorthand "?
 igures/DINAMICA_r1_Verh+modif_r1-p8p8K50-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <Figures/DINAMICA_r1_eq_N1N2_r1p8b12p05K50.
 eps>
-(epstopdf)                    date: 2013-04-18 13:00:02
+(epstopdf)                    date: 2013-04-18 14:00:02
 (epstopdf)                    size: 34789 bytes
 (epstopdf)             Output file: <Figures/DINAMICA_r1_eq_N1N2_r1p8b12p05K50-
 eps-converted-to.pdf>
-(epstopdf)                    date: 2015-12-18 11:32:27
+(epstopdf)                    date: 2015-12-18 12:32:27
 (epstopdf)                    size: 22013 bytes
 (epstopdf)             Command: <epstopdf --outfile=Figures/DINAMICA_r1_eq_N1N2
 _r1p8b12p05K50-eps-converted-to.pdf Figures/DINAMICA_r1_eq_N1N2_r1p8b12p05K50.e
@@ -2911,11 +2911,11 @@ File: ufplmbb.fd 2003/10/30 Fontinst v1.914 font definitions for U/fplmbb.
 )
 Package epstopdf Info: Source file: <Figures/DINAMICA_solut_r9b03K100+flowdiagr
 am.eps>
-(epstopdf)                    date: 2014-07-08 10:04:46
+(epstopdf)                    date: 2014-07-08 11:04:46
 (epstopdf)                    size: 203166 bytes
 (epstopdf)             Output file: <Figures/DINAMICA_solut_r9b03K100+flowdiagr
 am-eps-converted-to.pdf>
-(epstopdf)                    date: 2015-12-18 23:12:06
+(epstopdf)                    date: 2015-12-19 00:12:06
 (epstopdf)                    size: 45756 bytes
 (epstopdf)             Command: <epstopdf --outfile=Figures/DINAMICA_solut_r9b0
 3K100+flowdiagram-eps-converted-to.pdf Figures/DINAMICA_solut_r9b03K100+flowdia
@@ -3067,11 +3067,11 @@ Package babel Info: Redefining spanish shorthand "!
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 460.
 Package epstopdf Info: Source file: <Figures/DINAMICA_Figure1h.eps>
-(epstopdf)                    date: 2014-02-04 17:50:12
+(epstopdf)                    date: 2014-02-04 18:50:12
 (epstopdf)                    size: 2088950 bytes
 (epstopdf)             Output file: <Figures/DINAMICA_Figure1h-eps-converted-to
 .pdf>
-(epstopdf)                    date: 2015-12-17 12:25:39
+(epstopdf)                    date: 2015-12-17 13:25:39
 (epstopdf)                    size: 165444 bytes
 (epstopdf)             Command: <epstopdf --outfile=Figures/DINAMICA_Figure1h-e
 ps-converted-to.pdf Figures/DINAMICA_Figure1h.eps>
@@ -3135,11 +3135,11 @@ Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 522.
  [26]
 Package epstopdf Info: Source file: <Figures/DINAMICA_Figure2.eps>
-(epstopdf)                    date: 2014-02-04 17:50:12
+(epstopdf)                    date: 2014-02-04 18:50:12
 (epstopdf)                    size: 689590 bytes
 (epstopdf)             Output file: <Figures/DINAMICA_Figure2-eps-converted-to.
 pdf>
-(epstopdf)                    date: 2015-12-17 14:27:34
+(epstopdf)                    date: 2015-12-17 15:27:34
 (epstopdf)                    size: 70927 bytes
 (epstopdf)             Command: <epstopdf --outfile=Figures/DINAMICA_Figure2-ep
 s-converted-to.pdf Figures/DINAMICA_Figure2.eps>
@@ -3403,11 +3403,11 @@ Package pdftex.def Info: Figures/DINAMICA_red_exper_2.png used on input line 72
 2.
 (pdftex.def)             Requested size: 319.68338pt x 133.0117pt.
 Package epstopdf Info: Source file: <Figures/DINAMICA_Fig5_extinction.eps>
-(epstopdf)                    date: 2014-11-27 11:43:33
+(epstopdf)                    date: 2014-11-27 12:43:33
 (epstopdf)                    size: 4056927 bytes
 (epstopdf)             Output file: <Figures/DINAMICA_Fig5_extinction-eps-conve
 rted-to.pdf>
-(epstopdf)                    date: 2015-12-19 13:42:42
+(epstopdf)                    date: 2015-12-19 14:42:42
 (epstopdf)                    size: 222170 bytes
 (epstopdf)             Command: <epstopdf --outfile=Figures/DINAMICA_Fig5_extin
 ction-eps-converted-to.pdf Figures/DINAMICA_Fig5_extinction.eps>
@@ -3440,11 +3440,11 @@ Package babel Info: Redefining spanish shorthand "?
  [35 <D:/disco_usuario/javier/upm/doctorado/tesis/texto_tesis_upm/texto_tutto/F
 igures/DINAMICA_red_exper_2.png>]
 Package epstopdf Info: Source file: <Figures/DINAMICA_Fig6_carrying_cap.eps>
-(epstopdf)                    date: 2014-11-27 12:24:54
+(epstopdf)                    date: 2014-11-27 13:24:54
 (epstopdf)                    size: 7506549 bytes
 (epstopdf)             Output file: <Figures/DINAMICA_Fig6_carrying_cap-eps-con
 verted-to.pdf>
-(epstopdf)                    date: 2015-12-19 13:43:44
+(epstopdf)                    date: 2015-12-19 14:43:44
 (epstopdf)                    size: 768070 bytes
 (epstopdf)             Command: <epstopdf --outfile=Figures/DINAMICA_Fig6_carry
 ing_cap-eps-converted-to.pdf Figures/DINAMICA_Fig6_carrying_cap.eps>
@@ -3466,11 +3466,11 @@ Overfull \hbox (12.2716pt too wide) in paragraph at lines 743--744
 
 Package epstopdf Info: Source file: <Figures/DINAMICA_Fig7_partial_extinct.eps>
 
-(epstopdf)                    date: 2014-11-27 12:32:13
+(epstopdf)                    date: 2014-11-27 13:32:13
 (epstopdf)                    size: 4011002 bytes
 (epstopdf)             Output file: <Figures/DINAMICA_Fig7_partial_extinct-eps-
 converted-to.pdf>
-(epstopdf)                    date: 2015-12-19 13:36:31
+(epstopdf)                    date: 2015-12-19 14:36:31
 (epstopdf)                    size: 149529 bytes
 (epstopdf)             Command: <epstopdf --outfile=Figures/DINAMICA_Fig7_parti
 al_extinct-eps-converted-to.pdf Figures/DINAMICA_Fig7_partial_extinct.eps>
@@ -4122,7 +4122,7 @@ Package babel Info: Redefining spanish shorthand "!
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 164.
  [57]
-<Figures/ESTATICA_destruction_example.png, id=1140, 431.9337pt x 354.3639pt>
+<Figures/ESTATICA_destruction_example.png, id=1133, 431.9337pt x 354.3639pt>
 File: Figures/ESTATICA_destruction_example.png Graphic file (type png)
 
 <use Figures/ESTATICA_destruction_example.png>
@@ -4205,7 +4205,7 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 296.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 296.
-<Figures/ESTATICA_hist_kmagnitudes.png, id=1163, 847.0044pt x 267.8808pt>
+<Figures/ESTATICA_hist_kmagnitudes.png, id=1156, 847.0044pt x 267.8808pt>
 File: Figures/ESTATICA_hist_kmagnitudes.png Graphic file (type png)
 
 <use Figures/ESTATICA_hist_kmagnitudes.png>
@@ -4245,7 +4245,7 @@ Package babel Info: Redefining spanish shorthand "!
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 311.
  [61]
-<Figures/ESTATICA_tamanyo_kdegree_kradius.png, id=1180, 2186.1675pt x 2794.44pt
+<Figures/ESTATICA_tamanyo_kdegree_kradius.png, id=1173, 2186.1675pt x 2794.44pt
 >
 File: Figures/ESTATICA_tamanyo_kdegree_kradius.png Graphic file (type png)
  <use Figures/ESTATICA_tamanyo_kdegree_kradius.png>
@@ -4268,7 +4268,7 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 324.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 324.
-<Figures/ESTATICA_correlation_figs.png, id=1185, 2110.88625pt x 852.18375pt>
+<Figures/ESTATICA_correlation_figs.png, id=1178, 2110.88625pt x 852.18375pt>
 File: Figures/ESTATICA_correlation_figs.png Graphic file (type png)
 
 <use Figures/ESTATICA_correlation_figs.png>
@@ -4312,7 +4312,7 @@ Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 360.
  [63 <D:/disco_usuario/javier/upm/doctorado/tesis/texto_tesis_upm/texto_tutto/F
 igures/ESTATICA_tamanyo_kdegree_kradius.png>]
-<ESTATICA_density_plots.png, id=1203, 433.62pt x 267.399pt>
+<ESTATICA_density_plots.png, id=1196, 433.62pt x 267.399pt>
 File: ESTATICA_density_plots.png Graphic file (type png)
 
 <use ESTATICA_density_plots.png>
@@ -4358,7 +4358,7 @@ Package babel Info: Redefining spanish shorthand "!
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 372.
 
-<Figures/ESTATICA_histo_corr_rewiring.png, id=1211, 763.4121pt x 842.4273pt>
+<Figures/ESTATICA_histo_corr_rewiring.png, id=1204, 763.4121pt x 842.4273pt>
 File: Figures/ESTATICA_histo_corr_rewiring.png Graphic file (type png)
 
 <use Figures/ESTATICA_histo_corr_rewiring.png>
@@ -4423,7 +4423,7 @@ Package babel Info: Redefining spanish shorthand "!
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 455.
 
-<Figures/ESTATICA_destruction_comparativa_dosredes.png, id=1226, 867.24pt x 361
+<Figures/ESTATICA_destruction_comparativa_dosredes.png, id=1219, 867.24pt x 361
 .35pt>
 File: Figures/ESTATICA_destruction_comparativa_dosredes.png Graphic file (type 
 png)
@@ -4470,7 +4470,7 @@ Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 467.
  [68 <D:/disco_usuario/javier/upm/doctorado/tesis/texto_tesis_upm/texto_tutto/F
 igures/ESTATICA_destruction_comparativa_dosredes.png>]
-<Figures/ESTATICA_destructions_comparison.png, id=1241, 867.24pt x 361.35pt>
+<Figures/ESTATICA_destructions_comparison.png, id=1234, 867.24pt x 361.35pt>
 File: Figures/ESTATICA_destructions_comparison.png Graphic file (type png)
 
 <use Figures/ESTATICA_destructions_comparison.png>
@@ -4566,7 +4566,7 @@ Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 16.
 [71
 
-] <Figures/VIS_bipartito_SD_020.png, id=1263, 1052.43187pt x 275.52937pt>
+] <Figures/VIS_bipartito_SD_020.png, id=1256, 1052.43187pt x 275.52937pt>
 File: Figures/VIS_bipartito_SD_020.png Graphic file (type png)
 
 <use Figures/VIS_bipartito_SD_020.png>
@@ -4574,7 +4574,7 @@ Package pdftex.def Info: Figures/VIS_bipartito_SD_020.png used on input line 25
 .
 (pdftex.def)             Requested size: 420.96529pt x 110.20978pt.
 
-<Figures/VIS_matrix_SD_001.png, id=1266, 928.9104pt x 529.98pt>
+<Figures/VIS_matrix_SD_001.png, id=1259, 928.9104pt x 529.98pt>
 File: Figures/VIS_matrix_SD_001.png Graphic file (type png)
 
 <use Figures/VIS_matrix_SD_001.png>
@@ -4584,7 +4584,7 @@ Package pdftex.def Info: Figures/VIS_matrix_SD_001.png used on input line 36.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<Figures/VIS_matrix_PL_001.png, id=1270, 963.6pt x 722.7pt>
+<Figures/VIS_matrix_PL_001.png, id=1263, 963.6pt x 722.7pt>
 File: Figures/VIS_matrix_PL_001.png Graphic file (type png)
 
 <use Figures/VIS_matrix_PL_001.png>
@@ -4653,7 +4653,7 @@ Package babel Info: Redefining spanish shorthand "?
  [73 <D:/disco_usuario/javier/upm/doctorado/tesis/texto_tesis_upm/texto_tutto/F
 igures/VIS_matrix_SD_001.png> <D:/disco_usuario/javier/upm/doctorado/tesis/text
 o_tesis_upm/texto_tutto/Figures/VIS_matrix_PL_001.png>] <Figures/VIS_M_PL_034_p
-olar.png, id=1291, 596.4684pt x 596.4684pt>
+olar.png, id=1284, 596.4684pt x 596.4684pt>
 File: Figures/VIS_M_PL_034_polar.png Graphic file (type png)
 
 <use Figures/VIS_M_PL_034_polar.png>
@@ -4676,7 +4676,7 @@ Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 69.
  [74 <D:/disco_usuario/javier/upm/doctorado/tesis/texto_tesis_upm/texto_tutto/F
 igures/VIS_M_PL_034_polar.png (PNG copy)>]
-<Figures/VIS_Modvskdegree3.PDF, id=1306, 592.2125pt x 638.385pt>
+<Figures/VIS_Modvskdegree3.PDF, id=1299, 592.2125pt x 638.385pt>
 File: Figures/VIS_Modvskdegree3.PDF Graphic file (type pdf)
 
 <use Figures/VIS_Modvskdegree3.PDF>
@@ -4703,18 +4703,18 @@ Package babel Info: Redefining spanish shorthand "!
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 85.
 Package epstopdf Info: Source file: <Figures/VIS_ALL_SD_004.eps>
-(epstopdf)                    date: 2015-07-16 14:04:36
+(epstopdf)                    date: 2015-07-16 15:04:36
 (epstopdf)                    size: 3182155 bytes
 (epstopdf)             Output file: <Figures/VIS_ALL_SD_004-eps-converted-to.pd
 f>
-(epstopdf)                    date: 2015-12-24 15:00:16
+(epstopdf)                    date: 2015-12-24 16:00:16
 (epstopdf)                    size: 458570 bytes
 (epstopdf)             Command: <epstopdf --outfile=Figures/VIS_ALL_SD_004-eps-
 converted-to.pdf Figures/VIS_ALL_SD_004.eps>
 (epstopdf)             \includegraphics on input line 91.
 Package epstopdf Info: Output file is already uptodate.
 
-<Figures/VIS_ALL_SD_004-eps-converted-to.pdf, id=1308, 968.61874pt x 1040.88875
+<Figures/VIS_ALL_SD_004-eps-converted-to.pdf, id=1301, 968.61874pt x 1040.88875
 pt>
 File: Figures/VIS_ALL_SD_004-eps-converted-to.pdf Graphic file (type pdf)
  <use Figures/VIS_ALL_SD_004-eps-converted-to.pdf>
@@ -4779,14 +4779,14 @@ Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 105.
  [77 <D:/disco_usuario/javier/upm/doctorado/tesis/texto_tesis_upm/texto_tutto/F
 igures/VIS_ALL_SD_004-eps-converted-to.pdf>]
-<Figures/VIS_zig_pl_024.png, id=1335, 2336.73pt x 2252.415pt>
+<Figures/VIS_zig_pl_024.png, id=1328, 2336.73pt x 2252.415pt>
 File: Figures/VIS_zig_pl_024.png Graphic file (type png)
 
 <use Figures/VIS_zig_pl_024.png>
 Package pdftex.def Info: Figures/VIS_zig_pl_024.png used on input line 108.
 (pdftex.def)             Requested size: 373.88445pt x 360.39377pt.
 
-<Figures/VIS_M_PL_031_ziggurat.png, id=1340, 2999.205pt x 2156.055pt>
+<Figures/VIS_M_PL_031_ziggurat.png, id=1333, 2999.205pt x 2156.055pt>
 File: Figures/VIS_M_PL_031_ziggurat.png Graphic file (type png)
 
 <use Figures/VIS_M_PL_031_ziggurat.png>
@@ -4814,7 +4814,7 @@ Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 124.
 [78 <D:/disco_usuario/javier/upm/doctorado/tesis/texto_tesis_upm/texto_tutto/Fi
 gures/VIS_zig_pl_024.png>]
-<Figures/VIS_M_PL_031_polar.png, id=1353, 867.24pt x 282.3348pt>
+<Figures/VIS_M_PL_031_polar.png, id=1346, 867.24pt x 282.3348pt>
 File: Figures/VIS_M_PL_031_polar.png Graphic file (type png)
 
 <use Figures/VIS_M_PL_031_polar.png>
@@ -4873,7 +4873,7 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 206.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 206.
-[81] <Figures/VIS_M_PL_010_ziggurat.png, id=1383, 711.1368pt x 932.7648pt>
+[81] <Figures/VIS_M_PL_010_ziggurat.png, id=1376, 711.1368pt x 932.7648pt>
 File: Figures/VIS_M_PL_010_ziggurat.png Graphic file (type png)
 
 <use Figures/VIS_M_PL_010_ziggurat.png>
@@ -4900,7 +4900,7 @@ Package babel Info: Redefining spanish shorthand "?
 
  <D:/disco_usuario/javier/upm/doctorado/tesis/texto_tesis_upm/texto_tutto/Figur
 es/VIS_M_PL_010_ziggurat.png>]
-<Figures/VIS_M_SD_016_ziggurat.png, id=1391, 2366.8425pt x 2890.8pt>
+<Figures/VIS_M_SD_016_ziggurat.png, id=1384, 2366.8425pt x 2890.8pt>
 File: Figures/VIS_M_SD_016_ziggurat.png Graphic file (type png)
 
 <use Figures/VIS_M_SD_016_ziggurat.png>
@@ -4931,7 +4931,7 @@ Package babel Info: Redefining spanish shorthand "?
 
  <D:/disco_usuario/javier/upm/doctorado/tesis/texto_tesis_upm/texto_tutto/Figur
 es/VIS_M_SD_016_ziggurat.png>]
-<Figures/VIS_M_PL_047_ziggurat.png, id=1402, 2276.505pt x 3017.2725pt>
+<Figures/VIS_M_PL_047_ziggurat.png, id=1395, 2276.505pt x 3017.2725pt>
 File: Figures/VIS_M_PL_047_ziggurat.png Graphic file (type png)
 
 <use Figures/VIS_M_PL_047_ziggurat.png>
@@ -4992,7 +4992,7 @@ Package babel Info: Redefining spanish shorthand "?
  [85
 
 ]
-<Figures/VIS_PL_012.pdf, id=1422, 542.025pt x 722.7pt>
+<Figures/VIS_PL_012.pdf, id=1415, 542.025pt x 722.7pt>
 File: Figures/VIS_PL_012.pdf Graphic file (type pdf)
 
 <use Figures/VIS_PL_012.pdf>
@@ -5015,7 +5015,7 @@ Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 256.
  [86 <D:/disco_usuario/javier/upm/doctorado/tesis/texto_tesis_upm/texto_tutto/F
 igures/VIS_PL_012.pdf>]
-<Figures/VIS_SD_007.pdf, id=1437, 597.23125pt x 845.1575pt>
+<Figures/VIS_SD_007.pdf, id=1430, 597.23125pt x 845.1575pt>
 File: Figures/VIS_SD_007.pdf Graphic file (type pdf)
 
 <use Figures/VIS_SD_007.pdf>
@@ -5046,7 +5046,7 @@ Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 264.
 [87 <D:/disco_usuario/javier/upm/doctorado/tesis/texto_tesis_upm/texto_tutto/Fi
 gures/VIS_SD_007.pdf>]
-<Figures/VIS_M_SD_004_pol3_pol4_ziggurat.png, id=1454, 884.8257pt x 699.8145pt>
+<Figures/VIS_M_SD_004_pol3_pol4_ziggurat.png, id=1447, 884.8257pt x 699.8145pt>
 File: Figures/VIS_M_SD_004_pol3_pol4_ziggurat.png Graphic file (type png)
 <use Figures/VIS_M_SD_004_pol3_pol4_ziggurat.png>
 Package pdftex.def Info: Figures/VIS_M_SD_004_pol3_pol4_ziggurat.png used on in
@@ -5078,7 +5078,7 @@ Package babel Info: Redefining spanish shorthand "?
 
  <D:/disco_usuario/javier/upm/doctorado/tesis/texto_tesis_upm/texto_tutto/Figur
 es/VIS_M_SD_004_pol3_pol4_ziggurat.png>]
-<Figures/VIS_M_SD_004_minus_k4_ziggurat.png, id=1463, 902.1705pt x 663.1977pt>
+<Figures/VIS_M_SD_004_minus_k4_ziggurat.png, id=1456, 902.1705pt x 663.1977pt>
 File: Figures/VIS_M_SD_004_minus_k4_ziggurat.png Graphic file (type png)
 
 <use Figures/VIS_M_SD_004_minus_k4_ziggurat.png>
@@ -5086,7 +5086,7 @@ Package pdftex.def Info: Figures/VIS_M_SD_004_minus_k4_ziggurat.png used on inp
 ut line 279.
 (pdftex.def)             Requested size: 297.71718pt x 218.85591pt.
 
-<Figures/VIS_M_SD_018_ziggurat.png, id=1466, 717.1593pt x 661.2705pt>
+<Figures/VIS_M_SD_018_ziggurat.png, id=1459, 717.1593pt x 661.2705pt>
 File: Figures/VIS_M_SD_018_ziggurat.png Graphic file (type png)
 
 <use Figures/VIS_M_SD_018_ziggurat.png>
@@ -5113,7 +5113,7 @@ Package babel Info: Redefining spanish shorthand "?
  <D:/disco_usuario/javier/upm/doctorado/tesis/texto_tesis_upm/texto_tutto/Figur
 es/VIS_M_SD_004_minus_k4_ziggurat.png> <D:/disco_usuario/javier/upm/doctorado/t
 esis/texto_tesis_upm/texto_tutto/Figures/VIS_M_SD_018_ziggurat.png>]
-<Figures/VIS_Modvskdegree3-sd04.pdf, id=1482, 1849.63017pt x 1992.00215pt>
+<Figures/VIS_Modvskdegree3-sd04.pdf, id=1475, 1849.63017pt x 1992.00215pt>
 File: Figures/VIS_Modvskdegree3-sd04.pdf Graphic file (type pdf)
 
 <use Figures/VIS_Modvskdegree3-sd04.pdf>
@@ -5137,7 +5137,7 @@ Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 302.
  [90 <D:/disco_usuario/javier/upm/doctorado/tesis/texto_tesis_upm/texto_tutto/F
 igures/VIS_Modvskdegree3-sd04.pdf>]
-<Figures/VIS_M_SD_004_minus_k3k2_ziggurat.png, id=1499, 873.0216pt x 1312.4232p
+<Figures/VIS_M_SD_004_minus_k3k2_ziggurat.png, id=1492, 873.0216pt x 1312.4232p
 t>
 File: Figures/VIS_M_SD_004_minus_k3k2_ziggurat.png Graphic file (type png)
  <use Figures/VIS_M_SD_004_minus_k3k2_ziggurat.png>
@@ -5536,7 +5536,7 @@ Package logreq Info: Writing requests to 'tesis_JGA_mutualismo.run.xml'.
 Here is how much of TeX's memory you used:
  41794 strings out of 493921
  792303 string characters out of 3147276
- 979979 words of memory out of 3000000
+ 979980 words of memory out of 3000000
  43913 multiletter control sequences out of 15000+200000
  112388 words of font info for 236 fonts, out of 3000000 for 9000
  842 hyphenation exceptions out of 8191
@@ -5560,9 +5560,9 @@ man/ubkl8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/bookman/ubkli8a.pfb
 ><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/courier/ucrr8a.pfb><C:/Program Fi
 les/MiKTeX 2.9/fonts/type1/urw/palatino/uplb8a.pfb><C:/Program Files/MiKTeX 2.9
 /fonts/type1/urw/palatino/uplr8a.pfb>
-Output written on tesis_JGA_mutualismo.pdf (113 pages, 17109649 bytes).
+Output written on tesis_JGA_mutualismo.pdf (113 pages, 17101238 bytes).
 PDF statistics:
- 1725 PDF objects out of 1728 (max. 8388607)
+ 1718 PDF objects out of 1728 (max. 8388607)
  418 named destinations out of 1000 (max. 500000)
  681 words of extra memory for PDF output out of 10000 (max. 10000000)
 
