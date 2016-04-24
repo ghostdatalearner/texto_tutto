@@ -4,15 +4,13 @@
 \label{ChapterESTATICA}  % Change X to a consecutive number; for referencing this chapter elsewhere, use \ref{ChapterX}
 
 
-Como se ha visto en el capítulo anterior el estudio de la estructura de la red mutualista es fundamental para la compresión de las poblaciones de interacciones mutualistas y  sus modelos dinámicos. 
-La descripción de dicha estructura se hace mediante indicadores estadísticos, como el \textit{anidamiento}
-y la \textit{modularidad}. Las medidas locales de centralidad y grado ayudan a ordenar las especies y su importancia relativa para
-la resitencia de la red ante perturbaciones externas. Sin embargo, no existe un marco teórico que explique las relaciones entre los observables
-que se manejan habitualmente.
+Como se ha visto en el capítulo anterior, la estructura de la red mutualista determina la dinámica de poblaciones. El conjunto de interacciones es lo que mantiene la biodiversidad de los ecosistemas \cite{mccann2007protecting}.
+Las propiedades de dicha estructura se resumen mediante indicadores estadísticos globales como el \textit{anidamiento}
+y la \textit{modularidad}. Por su parte las medidas locales de centralidad y grado permiten ordenar las especies y conocer su importancia relativa para la resistencia de la red ante perturbaciones externas. 
 
-En este capítulo se describe el potencial para analizar el mutualismo de la técnica conocida como \textit{descomposición k-core}. Además
-de permitir la definición de unas magnitudes topológicas muy sencillas, que muestran una alta correlación con las clásicas, es la base
-para una nueva ordenación de las especies en función de su aportación a la resitencia de la red.
+Los índices que se manejan en la literatura son numerosos y de origen diverso y no existe un marco teórico que explique las relaciones entre los observables más habituales.
+
+En este capítulo se describe el potencial de una técnica clásica en el análisis de grafos, conocida como \textit{descomposición k-core}, en el estudio de las redes mutualistas.
 
 %----------------------------------------------------------------------------------------
 %	SECTION 1
@@ -20,10 +18,34 @@ para una nueva ordenación de las especies en función de su aportación a la re
 
 \section{Propiedades estructurales del mutualismo}
 
-Es un hecho empírico que las redes mutualistas muestran \textit{anidamiento} \cite{bascompte2003nested}. Hay un grupo de especies generalistas, con un alto número de conexiones, mientras que las especialistas tienen una alta probabilidad de conectarse a generalistas pero no a otras especialistas. El anidamiento parece proporcionar estabilidad estructural y maximizar las poblaciones de la comunidad \cite{thebault2010stability, suweis2013emergence}. Por estas razones la medida del anidamiento resulta tan popular en el análisis del mutualismo. 
+Como se indicó en la introducción, la investigación sobre la estructura del mutualismo heredó las herramientas conceptuales del análisis de las \textit{food webs}, entre ellas el uso de la \textit{conectancia}. Esta magnitud es la fracción de enlaces presentes sobre todos los posibles entre las especies de ambas clases. En la actualidad resulta un índice global de utilidad limitada, pero sigue
+usándose para la construcción de modelos nulos que veremos en este mismo capítulo. La distribución de grado es la traducción local de la conectancia,
+y es muy heterogénea en las redes mutualistas, con algunas especies mucho más conectadas de lo que cabría esperar por azar \cite{jordano2003invariant}.
 
-La modularidad es otra propiedad global observada en estas redes \cite{newman2004finding, olesen2007modularity}. De una forma intuitiva, los módulos son grupos de nodos fuertemente conectados entre sí dentro de una red con baja conectividad. Los módulos parecen actuar como cortafuegos ante las extinciones en cascada \cite{saavedra2011strong} mientras que las redes muy anidadas son más vulnerables a este fenómeno \cite{lever2014sudden}. 
-$  $
+Durante la última década el \textit{anidamiento} se ha considerado como la característica distintiva del mutualismo\cite{bascompte2003nested}, aunque en la actualidad esta afirmación está sujeta a revisión. Este concepto tiene una definición clara en ecología, una comunidad es anidada si las especies encontradas en un ámbito geográfico reducido son un subconjunto de las existentes en un ámbito mayor más rico en recursos. Originalmente se aplicó al estudio de la distribución de la fauna en islas. La de una isla pequeña aislada es un subconjunto de la que existe en tierra firme o en una isla mayor de las mismas características biogeográficas \cite{young1958zoogeography, atmar1986nested}.
+
+Si las especies se ordenan por grado, la matriz de interacción de una comunidad con anidamiento fuerte muestra abundancia de interacciones entre las especies situadas en el vértice superior izquierdo. Allí se concentran las muy conectadas,
+las de grado reducido aparecen conectadas con este núcleo y raramente entre ellas .
+
+En las redes mutualistas se observa un grupo de especies generalistas con un alto número de conexiones y especialistas que se conectan con las generalistas pero apenas con otras especialistas. Esta organización, que tradicionalmente se ha caracterizado como anidamiento, parece proporcionar estabilidad estructural y maximizar las poblaciones de la comunidad \cite{memmott2004tolerance,bastolla2009,thebault2010stability,suweis2013emergence}. 
+
+La medida del anidamiento es la más popular en el análisis del mutualismo, pero no está exenta de problemas. El principal es que existen distintos indicadores que no miden lo mismo. No vamos a hacer una revisión de todos ellos, porque la producción en este terreno ha sido prolífica \cite{ulrich2009consumer}, pero mencionaremos los más destacados. 
+
+Los basados en la \textit{temperatura} comparan la posición de los elementos de la matriz de interacción con la llamada isoclina de anidamiento perfecto. La curvatura de esta línea se define por conectancia de la red. La temperatura se calcula con una función del número enlaces por debajo de la isoclina o los huecos por encima de ella y de la distancia a la que se encuentran de esta \cite{ulrich2007null}. El método más popular es el \textit{Nestedness Temperature Calculator}(N TC) de Atmar y Patterson \cite{atmar1995nestedness}.
+
+Los métodos de tipo \textit{gap} se basan en un conteo del número de veces que habría que mover los enlaces de la matriz para conseguir un anidamiento perfecto. El primero en publicarse fue el llamado $BR$ \cite{brualdi1999nested}.
+
+La tercera aproximación consiste en utilizar la definición original de anidamiento y medir la superposición (\textit{overlaping}). Se cuentan las interacciones por filas y columnas y se identifican las que son subconjuntos por similaridad. El primer índice en seguir este criterio fue el $HH$ \cite{hausdorf2003nestedness}. En los últimos años se han empleado mucho evoluciones de esta idea como $NODF$ (\textit{Node Overlap Decreasing Fill}) \cite{almeida2008consistent} y $PRN$ (\textit{Percentage Relativized Nestedness}) \cite{podani2012comparative}.
+
+En los métodos descritos la matriz de interacción es binaria, o se trata como tal. Si se desea tener el cuenta el peso de los enlaces, en el
+caso de que se disponga de datos, existen alterantivas. $WNODF$ es una modificación de $NODF$ \cite{almeida2011straightforward}, mientras que $WIN$ se basa en la distancia Manhattan \cite{galeano2009weighted}. Por último, hay que citar el \textit{Radio Espectral} \cite{staniczenko2013ghost}. Este índice es el valor del módulo del autovalor máximo de la matriz de interacción, y es válido tanto para matrices binarias como pesadas. 
+
+Otro indicador global que se emplea de forma habitual en la caracterización del mutualismo es la modularidad \cite{newman2004finding, olesen2007modularity}. De una forma intuitiva, los módulos son grupos de nodos fuertemente conectados entre sí dentro de una red con baja conectividad.
+Al igual que sucede con el anidamiento, existen diferentes algoritmos para el cálculo de la modularidad. En mutualismo el
+más usado es el de Barber para redes binarias \cite{barber2007modularity} y una versión reciente (\textit{QuanBiMo}) para redes pesadas \cite{dormann2014method}.
+
+La relación entre modularidad y anidamiento en las redes mutualistas ha despertado el interés de la comunidad científica \cite{olesen2007modularity, dupont2009ecological}. Parecen actuar como porpiedades en cierto sentido antagónicas y por tanto como reguladoras de la estabilidad \cite{fortuna2010nestedness}. Por ejemplo, los módulos actúan como cortafuegos ante las extinciones en cascada \cite{saavedra2011strong} mientras que las redes muy anidadas son más vulnerables a este fenómeno \cite{lever2014sudden}. 
+
 Ambas magnitudes se corresponden con propiedades globales de la red, pero no ofrecen medidas locales. No tiene sentido hablar de anidamiento o modularidad de una especie. Esta limitación supone un obstáculo en la práctica a la hora de definir políticas de conservación, porque no resultan útiles para predecir el comportamiento ante extinciones parciales. Desde un punto de vista analítico, también es deseable poder encontrar principios que funcionen tanto a escala global como a escala local. 
 Además, la relación entre anidamiento, modularidad y establidad de la red es un tema de intenso debate académico \cite{fortuna2010nestedness, james2012disentangling, staniczenko2013ghost, feng2014heterogeneity}. Como resultado de todas estas consideraciones, la búsqueda de medidas alternativas, basadas en propiedades estadísticas o topológicas, es un campo de investigación muy activo \cite{podani2014new,chagnon2015characterizing,strona2015new}.
 
@@ -62,7 +84,7 @@ Al valor máximo de \textit{k}, lo llamamos $ks_{max}$, que corresponde a \texti
 Las especies más conectadas de una red mutualista son resistentes a las perturbaciones externas porque el beneficio que reciben depende de múltiples fuentes. Esta parece ser la razón por la que las redes mutualistas tienden al anidamiento, una conexión directa con el centro de la red aumenta las probabilidades de supervivencia. Para medir la 'distancia' desde un nodo cualquiera a la \textit{k-shell} más interna de la clase opuesta, hemos definido el \textit{$k_{radius}$}.
 
 \begin{theo} 
-El \textit{$k_{radius}$} del nodo $m$ de la clase $A$ es el valor medio de la distancia a las especies de $C^B$
+El \textit{$k_{radius}$} de la especie $m$ de la clase $A$ es el valor medio de las distancias más cortas desde esta a cada una de las especies de $C^B$
 \begin{align*}
 \displaystyle
 k^A_{radius}(m) = \frac{1}{\mid C^{B} \mid}\sum\limits_{j \in C^{B}} dist_{mj}  \qquad   m \in A
@@ -95,7 +117,7 @@ La figura \ref{fig:ESTATICA_red_example} es una red de frugívoros real, de dime
 
 El camino más corto desde la planta $2$ a cada una de las cuatro especies de dispersores de la $2-shell$ es $1$ al estar enlazada con todas ellas. Su $k_{radius}$ es, en consecuencia, $1$ porque se ha definido como el promedio de las distancias a todas las especies de la \textit{shell} máxima de la clase contraria. Lo mismo ocurre con la planta $1$ . Se puede comprobar que el $k_{radius}$ de todas las especies de aves de la $2$-$shell$ es también $1$, midiendo sus distancias respectivas a las plantas $1$ y $2$.
 
-El cálculo es simple aunque algo más laborioso para las plantas de la $1$-$shell$. En la figura \ref{fig:ESTATICA_SD_030_example_distances} se ha tomado como ejemplo la especie número $4$. Hay que medir primero la distancia con cada una de las aves de la $2$-$shell$. Para ello, se han representado con distintos colores los caminos más cortos. La distancia con el dispersor $1$ es $1$ porque comparten enlace (camino en color azul marino). Con la especie $2$ no hay conexión directa, el camino más corto (representado en azul celeste) es $pl4$-$disp1$-$pl2$-$disp2$ y la distancia es $3$. Lo mismo sucede con las especies de ave $3$ (camino rojo) y $4$ (camino violeta), ambas a distancia $3$ de la planta $4$. Medidas las cuatro distancias, ya se puede calcular el $k_{radius}$ de la especie de planta $4$, que es el promedio de 1, 3, 3 y 3, es decir 2,5. Este procedimiento hay que repetirlo para todas las especies de la red.
+El cálculo es simple aunque algo más laborioso para las plantas de la $1$-$shell$. En la figura \ref{fig:ESTATICA_SD_030_example_distances} se ha tomado como ejemplo la especie número $4$. Hay que medir primero la distancia con cada una de las aves de la $2$-$shell$. Para ello, se han representado con distintos colores los caminos más cortos. La distancia con el dispersor $1$ es $1$ porque comparten enlace (camino en color azul marino). Con la especie $2$ no hay conexión directa, el camino más corto (representado en verde) es $pl4$-$disp1$-$pl2$-$disp2$ y la distancia es $3$. Lo mismo sucede con las especies de ave $3$ (camino rojo) y $4$ (camino violeta), ambas a distancia $3$ de la planta $4$. Medidas las cuatro distancias, ya se puede calcular el $k_{radius}$ de la especie de planta $4$, que es el promedio de 1, 3, 3 y 3, es decir 2,5. Este procedimiento hay que repetirlo para todas las especies de la red.
 
 \begin{figure}[h!]
 \centering
@@ -110,7 +132,7 @@ Podemos definir una magnitud global, teniendo en cuenta los $k_{radius}$ de toda
 El \textit{$\overline k_{radius}$} de una red se obtiene promediando los ${k}_{radius}$ de todos los nodos, sin importar la clase a la que pertenezcan.
 \begin{align*}
 \displaystyle
-\overline {k}_{radius} = \frac{1}{\mid A \cup B \mid}\sum\limits_{l \in A \cup B} k_{radius}l
+\overline {k}_{radius} = \frac{1}{\mid A \cup B \mid}\sum\limits_{l \in A \cup B} k_{radius}\left(l\right)
 \stepcounter{equation}\tag{\theequation}\label{avgkradius}
 \end{align*}
 \label{ESTATICA_avgkradius}
@@ -121,9 +143,10 @@ Una red con todos sus nodos conectados (matriz de adyacencia cuadrada) tendría 
 El ${k}_{radius}$ es una buena medida de conexión al corazón de la red pero no de centralidad. Por ejemplo, su valor es bajo para un especialista con un enlace a la \textit{shell} más interna, aunque sabemos que no resulta determinante para la estabilidad global de la red. Para atender esta necesidad, definimos una segunda \textit{k-magnitud}.
 
 \begin{theo} 
+El \textit{$k_{degree}$} de la especie $m$ de la clase $A$ es la suma de los inversos de los $k_{radius}$ de las especies de la clase $B$ que tienen enlace directo con ella.
 \begin{align*}
 \displaystyle
-k^A_{degree}(m) = \sum\limits_{j} \frac{a_{mj} }{k_{radius}j}  \quad   m \in A, \forall j \in B
+k^A_{degree}(m) = \sum\limits_{j} \frac{a_{mj} }{k^B_{radius}\left(j\right)}  \quad   m \in A, \forall j \in B
 \stepcounter{equation}\tag{\theequation}
 \end{align*}
 \label{kdegree}
@@ -131,9 +154,26 @@ k^A_{degree}(m) = \sum\limits_{j} \frac{a_{mj} }{k_{radius}j}  \quad   m \in A, 
 
 Donde $a_{mj}$ es el elemento de la matriz de interacción que representa el enlace, cuyo valor es $1$ si existe o $0$ si no está presente. El $k_{degree}$ es la suma de los inversos de los $k_{radius}$ de los nodos conectados con $m$. Una especie de la \textit{shell} más interna tiene un $k_{degree}m$ elevado,  mientras que los especialistas con solo uno o dos enlaces tiene un $k_{degree}$ reducido. 
 
-En el ejemplo de la figura \ref{fig:ESTATICA_red_example}, vamos a calcular el $k_{degree}$ de la planta $1$. Se obtuvo que el $k_{radius}$ de las cuatro especies de la $2$-$shell$ de dispersores es $1$. Al tener la planta enlace con cada una de ellas, el $k_{degree}$, que es la suma de los inversos de los $4$ valores de $k_{radius}$, vale $4$. Si ahora nos fijamos en la planta $4$, solo tiene un enlace con el dispersor $1$, cuyo $k_{radius}$ es $1$ y así el $k_{degree}$ de la planta $1$ vale solo $1$. De manera intuitiva, la planta $1$ parece ser menos importante para la supervivencia de la red que la planta $4$. En el próximo apartado se explica como medirlo.
+En el ejemplo de la figura \ref{fig:ESTATICA_red_example}, vamos a calcular el $k_{degree}$ de la planta $1$. Se obtuvo que el $k_{radius}$ de las cuatro especies de la $2$-$shell$ de dispersores es $1$. Al tener la planta enlace con cada una de ellas, el $k_{degree}$, que es la suma de los inversos de los $4$ valores de $k_{radius}$, vale $4$. Si ahora nos fijamos en la planta $4$, solo tiene un enlace con el dispersor $1$, cuyo $k_{radius}$ es $1$ y así el $k_{degree}$ de la planta $1$ vale solo $1$. De manera intuitiva, la planta $1$ parece ser menos importante para la supervivencia de la red que la planta $4$. 
 
-El  $\overline k_{degree}$ recuerda la definición del \textit{índice de Harary} que se deine como la suma de los inversos de las distancias entre todos los nodos de un grafo conectado \cite{plavvsic1993harary}. El  $\overline k_{degree}$ teniendo solo tiene en cuenta los enlaces con la \textit{shell} más interna y utiliza el inverso de los $k_{radius}$, no de las distancias.
+Por último, vamos a calcular el $k_{degree}$ de la especie de pájaro $1$:
+\begin{equation}
+k^B_{degree}\left(1\right) = \frac{1}{k^A_{radius}\left(1\right)} + \frac{1}{k^A_{radius}\left(2\right)} + \frac{1}{k^A_{radius}\left(4\right)} + \frac{1}{k^A_{radius}\left(5\right)} = 2,8
+\label{example_kdegree}
+\end{equation}
+
+Al igual que se ha definido el $\overline k_{radius}$ podemos definir el grado medio de una red:
+\begin{theo} 
+El \textit{$\overline k_{degree}$} de una red se obtiene promediando los ${k}_{degree}$ de todos los nodos, sin importar la clase a la que pertenezcan.
+\begin{align*}
+\displaystyle
+\overline {k}_{degree} = \frac{1}{\mid A \cup B \mid}\sum\limits_{l \in A \cup B} k_{degree}\left(l\right)
+\stepcounter{equation}\tag{\theequation}\label{avgkdegree}
+\end{align*}
+\label{ESTATICA_avgkdegree}
+\end{theo}
+
+El  $\overline k_{degree}$ recuerda el \textit{índice de Harary} que se deine como la suma de los inversos de las distancias entre todos los nodos de un grafo conectado \cite{plavvsic1993harary}. El  $\overline k_{degree}$ teniendo solo tiene en cuenta los enlaces con la \textit{shell} máxima y utiliza el inverso de los $k_{radius}$, no de las distancias.
 
 En la tabla \ref{table:table_SD_030} pueden consultarse los valores de las \textit{k-magnitudes} de la red que se ha utilizado como ejemplo.
 

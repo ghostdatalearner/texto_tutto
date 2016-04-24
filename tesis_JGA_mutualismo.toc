@@ -32,23 +32,23 @@
 \contentsline {section}{\numberline {2.9}Anexo: Datos de las simulaciones del modelo con saturaci\IeC {\'o}n}{48}{section.117}
 \contentsline {chapter}{\numberline {3}Estructura del mutualismo}{51}{chapter.122}
 \contentsline {section}{\numberline {3.1}Propiedades estructurales del mutualismo}{52}{section.123}
-\contentsline {section}{\numberline {3.2}Descripci\IeC {\'o}n basada en la descompisi\IeC {\'o}n \textit {k-core}}{52}{section.124}
-\contentsline {section}{\numberline {3.3}K magnitudes}{54}{section.127}
-\contentsline {subsection}{\numberline {3.3.1}Algoritmo de destrucci\IeC {\'o}n basado en \textit {k-shell}}{58}{subsection.131}
-\contentsline {section}{\numberline {3.4}Material y m\IeC {\'e}todos}{59}{section.133}
-\contentsline {section}{\numberline {3.5}Resultados}{60}{section.135}
-\contentsline {subsection}{\numberline {3.5.1}An\IeC {\'a}lisis exploratorio}{60}{subsection.136}
-\contentsline {subsection}{\numberline {3.5.2}Correlaci\IeC {\'o}n entre \textit {k-magnitudes} y propiedades globales}{62}{subsection.139}
-\contentsline {subsection}{\numberline {3.5.3}Recableado aleatorio}{65}{subsection.144}
-\contentsline {subsection}{\numberline {3.5.4}Rendimiento del algoritmo de destrucci\IeC {\'o}n}{67}{subsection.147}
-\contentsline {section}{\numberline {3.6}Conclusiones}{69}{section.150}
-\contentsline {chapter}{\numberline {4}Visualizaciones}{71}{chapter.151}
-\contentsline {section}{\numberline {4.1}Representaciones cl\IeC {\'a}sicas del mutualismo}{71}{section.152}
-\contentsline {section}{\numberline {4.2}Visualizaciones basadas en \textit {k-magnitudes}}{72}{section.156}
-\contentsline {subsection}{\numberline {4.2.1}El diagrama polar}{73}{subsection.157}
-\contentsline {subsection}{\numberline {4.2.2}El diagrama zigurat}{75}{subsection.160}
-\contentsline {section}{\numberline {4.3}Visualizaci\IeC {\'o}n de la estructura}{85}{section.170}
-\contentsline {section}{\numberline {4.4}Conclusiones}{93}{section.178}
-\contentsline {chapter}{\numberline {5}Conclusiones de la tesis}{95}{chapter.179}
-\contentsline {section}{\numberline {5.1}XXXX mutualismo}{95}{section.180}
-\contentsline {chapter}{Bibliograf\IeC {\'\i }a}{97}{chapter*.181}
+\contentsline {section}{\numberline {3.2}Descripci\IeC {\'o}n basada en la descompisi\IeC {\'o}n \textit {k-core}}{54}{section.124}
+\contentsline {section}{\numberline {3.3}K magnitudes}{56}{section.127}
+\contentsline {subsection}{\numberline {3.3.1}Algoritmo de destrucci\IeC {\'o}n basado en \textit {k-shell}}{60}{subsection.132}
+\contentsline {section}{\numberline {3.4}Material y m\IeC {\'e}todos}{61}{section.134}
+\contentsline {section}{\numberline {3.5}Resultados}{62}{section.136}
+\contentsline {subsection}{\numberline {3.5.1}An\IeC {\'a}lisis exploratorio}{62}{subsection.137}
+\contentsline {subsection}{\numberline {3.5.2}Correlaci\IeC {\'o}n entre \textit {k-magnitudes} y propiedades globales}{64}{subsection.140}
+\contentsline {subsection}{\numberline {3.5.3}Recableado aleatorio}{67}{subsection.145}
+\contentsline {subsection}{\numberline {3.5.4}Rendimiento del algoritmo de destrucci\IeC {\'o}n}{69}{subsection.148}
+\contentsline {section}{\numberline {3.6}Conclusiones}{71}{section.151}
+\contentsline {chapter}{\numberline {4}Visualizaciones}{73}{chapter.152}
+\contentsline {section}{\numberline {4.1}Representaciones cl\IeC {\'a}sicas del mutualismo}{73}{section.153}
+\contentsline {section}{\numberline {4.2}Visualizaciones basadas en \textit {k-magnitudes}}{74}{section.157}
+\contentsline {subsection}{\numberline {4.2.1}El diagrama polar}{75}{subsection.158}
+\contentsline {subsection}{\numberline {4.2.2}El diagrama zigurat}{77}{subsection.161}
+\contentsline {section}{\numberline {4.3}Visualizaci\IeC {\'o}n de la estructura}{87}{section.171}
+\contentsline {section}{\numberline {4.4}Conclusiones}{95}{section.179}
+\contentsline {chapter}{\numberline {5}Conclusiones de la tesis}{97}{chapter.180}
+\contentsline {section}{\numberline {5.1}XXXX mutualismo}{97}{section.181}
+\contentsline {chapter}{Bibliograf\IeC {\'\i }a}{99}{chapter*.182}

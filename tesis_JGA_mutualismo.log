@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2013.8.13)  23 APR 2016 09:46
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2013.8.13)  24 APR 2016 19:08
 entering extended mode
 **D:/disco_usuario/javier/upm/doctorado/tesis/texto_tesis_upm/texto_tutto/tesis
 _JGA_mutualismo.tex
@@ -3895,52 +3895,32 @@ Package babel Info: Redefining spanish shorthand "?
  3. Estructura del mutualismo
 --------------------
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 21.
+(babel)             in language  on input line 14.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 21.
+(babel)             in language  on input line 14.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 21.
+(babel)             in language  on input line 14.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 21.
+(babel)             in language  on input line 14.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 21.
+(babel)             in language  on input line 14.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 21.
+(babel)             in language  on input line 14.
 [51
 
 ]
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 21.
+(babel)             in language  on input line 19.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 21.
+(babel)             in language  on input line 19.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 21.
+(babel)             in language  on input line 19.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 21.
+(babel)             in language  on input line 19.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 21.
+(babel)             in language  on input line 19.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 21.
-
-Overfull \hbox (10.66234pt too wide) in paragraph at lines 23--24
-[]\T1/pbk/l/n/10.95 Es un he-cho em-pí-ri-co que las re-des mu-tua-lis-tas mues
--tran \T1/pbk/l/it/10.95 anida-mien-to \T1/pbk/l/n/10.95 [[][]Bas+03[][]].
- []
-
-Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 30.
-Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 30.
-Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 30.
-Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 30.
-Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 30.
-Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 30.
-LaTeX Font Info:    Font shape `T1/pbk/m/it' in size <9> not available
-(Font)              Font shape `T1/pbk/l/it' tried instead on input line 32.
+(babel)             in language  on input line 19.
 LaTeX Info: Redefining \sptext on input line 35.
 LaTeX Info: Redefining \. on input line 35.
 LaTeX Info: Redefining \% on input line 35.
@@ -3956,555 +3936,610 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 35.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 35.
-[52]
-Package mdframed Info: mdframed works in twoside mode on input line 37.
+ [52]
+LaTeX Info: Redefining \sptext on input line 51.
+LaTeX Info: Redefining \. on input line 51.
+LaTeX Info: Redefining \% on input line 51.
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 51.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 51.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 51.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 51.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 51.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 51.
+ [53]
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 52.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 52.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 52.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 52.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 52.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 52.
+LaTeX Font Info:    Font shape `T1/pbk/m/it' in size <9> not available
+(Font)              Font shape `T1/pbk/l/it' tried instead on input line 54.
+Package mdframed Info: mdframed works in twoside mode on input line 59.
 Package mdframed Info: mdframed detected package amsthm 
  changed the theorem header of amsthm
-(mdframed)              on input line 37.
+(mdframed)              on input line 59.
 Package mdframed Info: mdframed detected package amsthm 
  changed the theorem header of amsthm
-(mdframed)              on input line 40.
-
-<Figures/ESTATICA_kcore_decomposition_example.png, id=1047, 714.41907pt x 411.7
+(mdframed)              on input line 62.
+LaTeX Info: Redefining \sptext on input line 65.
+LaTeX Info: Redefining \. on input line 65.
+LaTeX Info: Redefining \% on input line 65.
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 65.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 65.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 65.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 65.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 65.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 65.
+ [54]
+<Figures/ESTATICA_kcore_decomposition_example.png, id=1094, 714.41907pt x 411.7
 8844pt>
 File: Figures/ESTATICA_kcore_decomposition_example.png Graphic file (type png)
  <use Figures/ESTATICA_kcore_decomposition_example.png>
 Package pdftex.def Info: Figures/ESTATICA_kcore_decomposition_example.png used 
-on input line 48.
+on input line 70.
 (pdftex.def)             Requested size: 357.20866pt x 205.8937pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-LaTeX Info: Redefining \sptext on input line 58.
-LaTeX Info: Redefining \. on input line 58.
-LaTeX Info: Redefining \% on input line 58.
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 58.
+(babel)             in language  on input line 82.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 58.
+(babel)             in language  on input line 82.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 58.
+(babel)             in language  on input line 82.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 58.
+(babel)             in language  on input line 82.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 58.
+(babel)             in language  on input line 82.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 58.
-[53]
+(babel)             in language  on input line 82.
+LaTeX Info: Redefining \sptext on input line 85.
+LaTeX Info: Redefining \. on input line 85.
+LaTeX Info: Redefining \% on input line 85.
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 60.
+(babel)             in language  on input line 85.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 60.
+(babel)             in language  on input line 85.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 60.
+(babel)             in language  on input line 85.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 60.
+(babel)             in language  on input line 85.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 60.
+(babel)             in language  on input line 85.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 60.
-Package mdframed Info: mdframed works in twoside mode on input line 65.
-Package mdframed Info: mdframed detected package amsthm 
- changed the theorem header of amsthm
-(mdframed)              on input line 65.
-Package mdframed Info: mdframed detected package amsthm 
- changed the theorem header of amsthm
-(mdframed)              on input line 72.
-LaTeX Info: Redefining \sptext on input line 75.
-LaTeX Info: Redefining \. on input line 75.
-LaTeX Info: Redefining \% on input line 75.
-Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 75.
-Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 75.
-Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 75.
-Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 75.
-Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 75.
-Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 75.
- [54 <D:/disco_usuario/javier/upm/doctorado/tesis/texto_tesis_upm/texto_tutto/F
+(babel)             in language  on input line 85.
+ [55 <D:/disco_usuario/javier/upm/doctorado/tesis/texto_tesis_upm/texto_tutto/F
 igures/ESTATICA_kcore_decomposition_example.png>]
-<Figures/ESTATICA_SD_030_example_network.pdf, id=1064, 845.1575pt x 597.23125pt
+Package mdframed Info: mdframed works in twoside mode on input line 87.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 87.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 94.
+
+<Figures/ESTATICA_SD_030_example_network.pdf, id=1101, 845.1575pt x 597.23125pt
 >
 File: Figures/ESTATICA_SD_030_example_network.pdf Graphic file (type pdf)
  <use Figures/ESTATICA_SD_030_example_network.pdf>
 Package pdftex.def Info: Figures/ESTATICA_SD_030_example_network.pdf used on in
-put line 85.
+put line 107.
 (pdftex.def)             Requested size: 422.57771pt x 298.61488pt.
-LaTeX Info: Redefining \sptext on input line 99.
-LaTeX Info: Redefining \. on input line 99.
-LaTeX Info: Redefining \% on input line 99.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+LaTeX Info: Redefining \sptext on input line 121.
+LaTeX Info: Redefining \. on input line 121.
+LaTeX Info: Redefining \% on input line 121.
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 99.
+(babel)             in language  on input line 121.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 99.
+(babel)             in language  on input line 121.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 99.
+(babel)             in language  on input line 121.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 99.
+(babel)             in language  on input line 121.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 99.
+(babel)             in language  on input line 121.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 99.
- [55 <D:/disco_usuario/javier/upm/doctorado/tesis/texto_tesis_upm/texto_tutto/F
-igures/ESTATICA_SD_030_example_network.pdf, page is rotated 90 degrees>]
-<Figures/ESTATICA_SD_030_example_distances.pdf, id=1092, 845.1575pt x 597.23125
+(babel)             in language  on input line 121.
+[56]
+<Figures/ESTATICA_SD_030_example_distances.pdf, id=1112, 845.1575pt x 597.23125
 pt>
 File: Figures/ESTATICA_SD_030_example_distances.pdf Graphic file (type pdf)
  <use Figures/ESTATICA_SD_030_example_distances.pdf>
 Package pdftex.def Info: Figures/ESTATICA_SD_030_example_distances.pdf used on 
-input line 102.
+input line 124.
 (pdftex.def)             Requested size: 422.57771pt x 298.61488pt.
-Package mdframed Info: mdframed works in twoside mode on input line 110.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+Package mdframed Info: mdframed works in twoside mode on input line 132.
 Package mdframed Info: mdframed detected package amsthm 
  changed the theorem header of amsthm
-(mdframed)              on input line 110.
+(mdframed)              on input line 132.
 Package mdframed Info: mdframed detected package amsthm 
  changed the theorem header of amsthm
-(mdframed)              on input line 117.
-LaTeX Info: Redefining \sptext on input line 120.
-LaTeX Info: Redefining \. on input line 120.
-LaTeX Info: Redefining \% on input line 120.
+(mdframed)              on input line 139.
+LaTeX Info: Redefining \sptext on input line 142.
+LaTeX Info: Redefining \. on input line 142.
+LaTeX Info: Redefining \% on input line 142.
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 120.
+(babel)             in language  on input line 142.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 120.
+(babel)             in language  on input line 142.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 120.
+(babel)             in language  on input line 142.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 120.
+(babel)             in language  on input line 142.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 120.
+(babel)             in language  on input line 142.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 120.
- [56 <D:/disco_usuario/javier/upm/doctorado/tesis/texto_tesis_upm/texto_tutto/F
-igures/ESTATICA_SD_030_example_distances.pdf, page is rotated 90 degrees>]
-Package mdframed Info: mdframed works in twoside mode on input line 124.
+(babel)             in language  on input line 142.
+[57 <D:/disco_usuario/javier/upm/doctorado/tesis/texto_tesis_upm/texto_tutto/Fi
+gures/ESTATICA_SD_030_example_network.pdf, page is rotated 90 degrees>]
+Package mdframed Info: mdframed works in twoside mode on input line 146.
 Package mdframed Info: mdframed detected package amsthm 
  changed the theorem header of amsthm
-(mdframed)              on input line 124.
+(mdframed)              on input line 146.
 Package mdframed Info: mdframed detected package amsthm 
  changed the theorem header of amsthm
-(mdframed)              on input line 130.
+(mdframed)              on input line 153.
+LaTeX Info: Redefining \sptext on input line 153.
+LaTeX Info: Redefining \. on input line 153.
+LaTeX Info: Redefining \% on input line 153.
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 153.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 153.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 153.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 153.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 153.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 153.
+
+[58 <D:/disco_usuario/javier/upm/doctorado/tesis/texto_tesis_upm/texto_tutto/Fi
+gures/ESTATICA_SD_030_example_distances.pdf, page is rotated 90 degrees>]
+Package mdframed Info: mdframed works in twoside mode on input line 167.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 167.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 174.
+LaTeX Info: Redefining \sptext on input line 199.
+LaTeX Info: Redefining \. on input line 199.
+LaTeX Info: Redefining \% on input line 199.
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 199.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 199.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 199.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 199.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 199.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 199.
+
+[59]
 LaTeX Font Info:    Font shape `T1/pbk/bx/it' in size <12> not available
-(Font)              Font shape `T1/pbk/b/it' tried instead on input line 161.
+(Font)              Font shape `T1/pbk/b/it' tried instead on input line 201.
 LaTeX Font Info:    Font shape `T1/pbk/b/it' in size <12> not available
-(Font)              Font shape `T1/pbk/db/it' tried instead on input line 161.
+(Font)              Font shape `T1/pbk/db/it' tried instead on input line 201.
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 161.
+(babel)             in language  on input line 201.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 161.
+(babel)             in language  on input line 201.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 161.
+(babel)             in language  on input line 201.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 161.
+(babel)             in language  on input line 201.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 161.
+(babel)             in language  on input line 201.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 161.
-LaTeX Info: Redefining \sptext on input line 164.
-LaTeX Info: Redefining \. on input line 164.
-LaTeX Info: Redefining \% on input line 164.
-Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 164.
-Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 164.
-Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 164.
-Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 164.
-Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 164.
-Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 164.
- [57]
-<Figures/ESTATICA_destruction_example.png, id=1133, 431.9337pt x 354.3639pt>
+(babel)             in language  on input line 201.
+
+<Figures/ESTATICA_destruction_example.png, id=1175, 431.9337pt x 354.3639pt>
 File: Figures/ESTATICA_destruction_example.png Graphic file (type png)
 
 <use Figures/ESTATICA_destruction_example.png>
 Package pdftex.def Info: Figures/ESTATICA_destruction_example.png used on input
- line 171.
+ line 211.
 (pdftex.def)             Requested size: 237.56427pt x 194.90074pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-LaTeX Info: Redefining \sptext on input line 179.
-LaTeX Info: Redefining \. on input line 179.
-LaTeX Info: Redefining \% on input line 179.
+LaTeX Info: Redefining \sptext on input line 217.
+LaTeX Info: Redefining \. on input line 217.
+LaTeX Info: Redefining \% on input line 217.
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 179.
+(babel)             in language  on input line 217.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 179.
+(babel)             in language  on input line 217.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 179.
+(babel)             in language  on input line 217.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 179.
+(babel)             in language  on input line 217.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 179.
+(babel)             in language  on input line 217.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 179.
-[58]
+(babel)             in language  on input line 217.
+[60]
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 180.
+(babel)             in language  on input line 220.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 180.
+(babel)             in language  on input line 220.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 180.
+(babel)             in language  on input line 220.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 180.
+(babel)             in language  on input line 220.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 180.
+(babel)             in language  on input line 220.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 180.
-LaTeX Info: Redefining \sptext on input line 187.
-LaTeX Info: Redefining \. on input line 187.
-LaTeX Info: Redefining \% on input line 187.
+(babel)             in language  on input line 220.
+LaTeX Info: Redefining \sptext on input line 227.
+LaTeX Info: Redefining \. on input line 227.
+LaTeX Info: Redefining \% on input line 227.
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 187.
+(babel)             in language  on input line 227.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 187.
+(babel)             in language  on input line 227.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 187.
+(babel)             in language  on input line 227.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 187.
+(babel)             in language  on input line 227.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 187.
+(babel)             in language  on input line 227.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 187.
- [59 <D:/disco_usuario/javier/upm/doctorado/tesis/texto_tesis_upm/texto_tutto/F
+(babel)             in language  on input line 227.
+ [61 <D:/disco_usuario/javier/upm/doctorado/tesis/texto_tesis_upm/texto_tutto/F
 igures/ESTATICA_destruction_example.png>]
 
-LaTeX Warning: Float too large for page by 1.02415pt on input line 290.
+LaTeX Warning: Float too large for page by 1.02415pt on input line 330.
 
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 292.
+(babel)             in language  on input line 332.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 292.
+(babel)             in language  on input line 332.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 292.
+(babel)             in language  on input line 332.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 292.
+(babel)             in language  on input line 332.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 292.
+(babel)             in language  on input line 332.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 292.
+(babel)             in language  on input line 332.
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 296.
+(babel)             in language  on input line 336.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 296.
+(babel)             in language  on input line 336.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 296.
+(babel)             in language  on input line 336.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 296.
+(babel)             in language  on input line 336.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 296.
+(babel)             in language  on input line 336.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 296.
-<Figures/ESTATICA_hist_kmagnitudes.png, id=1156, 847.0044pt x 267.8808pt>
+(babel)             in language  on input line 336.
+<Figures/ESTATICA_hist_kmagnitudes.png, id=1198, 847.0044pt x 267.8808pt>
 File: Figures/ESTATICA_hist_kmagnitudes.png Graphic file (type png)
 
 <use Figures/ESTATICA_hist_kmagnitudes.png>
 Package pdftex.def Info: Figures/ESTATICA_hist_kmagnitudes.png used on input li
-ne 305.
+ne 345.
 (pdftex.def)             Requested size: 423.50116pt x 133.94006pt.
-LaTeX Info: Redefining \sptext on input line 311.
-LaTeX Info: Redefining \. on input line 311.
-LaTeX Info: Redefining \% on input line 311.
+LaTeX Info: Redefining \sptext on input line 351.
+LaTeX Info: Redefining \. on input line 351.
+LaTeX Info: Redefining \% on input line 351.
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 311.
+(babel)             in language  on input line 351.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 311.
+(babel)             in language  on input line 351.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 311.
+(babel)             in language  on input line 351.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 311.
+(babel)             in language  on input line 351.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 311.
+(babel)             in language  on input line 351.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 311.
- [60 <D:/disco_usuario/javier/upm/doctorado/tesis/texto_tesis_upm/texto_tutto/F
+(babel)             in language  on input line 351.
+ [62 <D:/disco_usuario/javier/upm/doctorado/tesis/texto_tesis_upm/texto_tutto/F
 igures/ESTATICA_hist_kmagnitudes.png>]
-LaTeX Info: Redefining \sptext on input line 311.
-LaTeX Info: Redefining \. on input line 311.
-LaTeX Info: Redefining \% on input line 311.
+LaTeX Info: Redefining \sptext on input line 351.
+LaTeX Info: Redefining \. on input line 351.
+LaTeX Info: Redefining \% on input line 351.
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 311.
+(babel)             in language  on input line 351.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 311.
+(babel)             in language  on input line 351.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 311.
+(babel)             in language  on input line 351.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 311.
+(babel)             in language  on input line 351.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 311.
+(babel)             in language  on input line 351.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 311.
- [61]
-<Figures/ESTATICA_tamanyo_kdegree_kradius.png, id=1173, 2186.1675pt x 2794.44pt
+(babel)             in language  on input line 351.
+ [63]
+<Figures/ESTATICA_tamanyo_kdegree_kradius.png, id=1214, 2186.1675pt x 2794.44pt
 >
 File: Figures/ESTATICA_tamanyo_kdegree_kradius.png Graphic file (type png)
  <use Figures/ESTATICA_tamanyo_kdegree_kradius.png>
 Package pdftex.def Info: Figures/ESTATICA_tamanyo_kdegree_kradius.png used on i
-nput line 316.
+nput line 356.
 (pdftex.def)             Requested size: 393.49316pt x 502.97751pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 324.
+(babel)             in language  on input line 364.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 324.
+(babel)             in language  on input line 364.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 324.
+(babel)             in language  on input line 364.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 324.
+(babel)             in language  on input line 364.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 324.
+(babel)             in language  on input line 364.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 324.
-<Figures/ESTATICA_correlation_figs.png, id=1178, 2110.88625pt x 852.18375pt>
+(babel)             in language  on input line 364.
+<Figures/ESTATICA_correlation_figs.png, id=1219, 2110.88625pt x 852.18375pt>
 File: Figures/ESTATICA_correlation_figs.png Graphic file (type png)
 
 <use Figures/ESTATICA_correlation_figs.png>
 Package pdftex.def Info: Figures/ESTATICA_correlation_figs.png used on input li
-ne 332.
+ne 372.
 (pdftex.def)             Requested size: 422.16977pt x 170.43372pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-LaTeX Info: Redefining \sptext on input line 343.
-LaTeX Info: Redefining \. on input line 343.
-LaTeX Info: Redefining \% on input line 343.
+LaTeX Info: Redefining \sptext on input line 381.
+LaTeX Info: Redefining \. on input line 381.
+LaTeX Info: Redefining \% on input line 381.
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 343.
+(babel)             in language  on input line 381.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 343.
+(babel)             in language  on input line 381.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 343.
+(babel)             in language  on input line 381.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 343.
+(babel)             in language  on input line 381.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 343.
+(babel)             in language  on input line 381.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 343.
-[62]
-LaTeX Info: Redefining \sptext on input line 360.
-LaTeX Info: Redefining \. on input line 360.
-LaTeX Info: Redefining \% on input line 360.
+(babel)             in language  on input line 381.
+[64]
+LaTeX Info: Redefining \sptext on input line 400.
+LaTeX Info: Redefining \. on input line 400.
+LaTeX Info: Redefining \% on input line 400.
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 360.
+(babel)             in language  on input line 400.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 360.
+(babel)             in language  on input line 400.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 360.
+(babel)             in language  on input line 400.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 360.
+(babel)             in language  on input line 400.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 360.
+(babel)             in language  on input line 400.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 360.
- [63 <D:/disco_usuario/javier/upm/doctorado/tesis/texto_tesis_upm/texto_tutto/F
+(babel)             in language  on input line 400.
+ [65 <D:/disco_usuario/javier/upm/doctorado/tesis/texto_tesis_upm/texto_tutto/F
 igures/ESTATICA_tamanyo_kdegree_kradius.png>]
-<ESTATICA_density_plots.png, id=1196, 433.62pt x 267.399pt>
+<ESTATICA_density_plots.png, id=1239, 433.62pt x 267.399pt>
 File: ESTATICA_density_plots.png Graphic file (type png)
 
 <use ESTATICA_density_plots.png>
-Package pdftex.def Info: ESTATICA_density_plots.png used on input line 365.
+Package pdftex.def Info: ESTATICA_density_plots.png used on input line 405.
 (pdftex.def)             Requested size: 368.57874pt x 227.29022pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-Overfull \hbox (10.95937pt too wide) in paragraph at lines 370--371
+Overfull \hbox (10.95937pt too wide) in paragraph at lines 410--411
 \T1/pbk/l/n/10.95 son su-fi-cien-tes pa-ra es-ta in-ves-ti-ga-ción. Por ejem-pl
 o, no se pro-pug-na que $\U/zeur/m/n/10.95 log\U/zeus/m/n/10.95 ¨[][]©$
  []
 
-LaTeX Info: Redefining \sptext on input line 372.
-LaTeX Info: Redefining \. on input line 372.
-LaTeX Info: Redefining \% on input line 372.
+LaTeX Info: Redefining \sptext on input line 411.
+LaTeX Info: Redefining \. on input line 411.
+LaTeX Info: Redefining \% on input line 411.
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 372.
+(babel)             in language  on input line 411.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 372.
+(babel)             in language  on input line 411.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 372.
+(babel)             in language  on input line 411.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 372.
+(babel)             in language  on input line 411.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 372.
+(babel)             in language  on input line 411.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 372.
-[64 <D:/disco_usuario/javier/upm/doctorado/tesis/texto_tesis_upm/texto_tutto/Fi
+(babel)             in language  on input line 411.
+[66 <D:/disco_usuario/javier/upm/doctorado/tesis/texto_tesis_upm/texto_tutto/Fi
 gures/ESTATICA_correlation_figs.png>]
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 372.
+(babel)             in language  on input line 412.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 372.
+(babel)             in language  on input line 412.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 372.
+(babel)             in language  on input line 412.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 372.
+(babel)             in language  on input line 412.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 372.
+(babel)             in language  on input line 412.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 372.
+(babel)             in language  on input line 412.
 
-<Figures/ESTATICA_histo_corr_rewiring.png, id=1204, 763.4121pt x 842.4273pt>
+<Figures/ESTATICA_histo_corr_rewiring.png, id=1247, 763.4121pt x 842.4273pt>
 File: Figures/ESTATICA_histo_corr_rewiring.png Graphic file (type png)
 
 <use Figures/ESTATICA_histo_corr_rewiring.png>
 Package pdftex.def Info: Figures/ESTATICA_histo_corr_rewiring.png used on input
- line 380.
+ line 420.
 (pdftex.def)             Requested size: 442.77933pt x 488.60818pt.
 
-Overfull \hbox (7.87894pt too wide) in paragraph at lines 380--381
+Overfull \hbox (7.87894pt too wide) in paragraph at lines 420--421
  [][] 
  []
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-LaTeX Info: Redefining \sptext on input line 386.
-LaTeX Info: Redefining \. on input line 386.
-LaTeX Info: Redefining \% on input line 386.
+LaTeX Info: Redefining \sptext on input line 426.
+LaTeX Info: Redefining \. on input line 426.
+LaTeX Info: Redefining \% on input line 426.
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 386.
+(babel)             in language  on input line 426.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 386.
+(babel)             in language  on input line 426.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 386.
+(babel)             in language  on input line 426.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 386.
+(babel)             in language  on input line 426.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 386.
+(babel)             in language  on input line 426.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 386.
-[65 <D:/disco_usuario/javier/upm/doctorado/tesis/texto_tesis_upm/texto_tutto/ES
+(babel)             in language  on input line 426.
+[67 <D:/disco_usuario/javier/upm/doctorado/tesis/texto_tesis_upm/texto_tutto/ES
 TATICA_density_plots.png>]
-LaTeX Info: Redefining \sptext on input line 387.
-LaTeX Info: Redefining \. on input line 387.
-LaTeX Info: Redefining \% on input line 387.
+LaTeX Info: Redefining \sptext on input line 426.
+LaTeX Info: Redefining \. on input line 426.
+LaTeX Info: Redefining \% on input line 426.
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 387.
+(babel)             in language  on input line 426.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 387.
+(babel)             in language  on input line 426.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 387.
+(babel)             in language  on input line 426.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 387.
+(babel)             in language  on input line 426.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 387.
+(babel)             in language  on input line 426.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 387.
- [66 <D:/disco_usuario/javier/upm/doctorado/tesis/texto_tesis_upm/texto_tutto/F
+(babel)             in language  on input line 426.
+ [68 <D:/disco_usuario/javier/upm/doctorado/tesis/texto_tesis_upm/texto_tutto/F
 igures/ESTATICA_histo_corr_rewiring.png>]
 
-LaTeX Warning: Command \' invalid in math mode on input line 397.
+LaTeX Warning: Command \' invalid in math mode on input line 437.
 
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 455.
+(babel)             in language  on input line 495.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 455.
+(babel)             in language  on input line 495.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 455.
+(babel)             in language  on input line 495.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 455.
+(babel)             in language  on input line 495.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 455.
+(babel)             in language  on input line 495.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 455.
-
-<Figures/ESTATICA_destruction_comparativa_dosredes.png, id=1219, 867.24pt x 361
+(babel)             in language  on input line 495.
+LaTeX Info: Redefining \sptext on input line 498.
+LaTeX Info: Redefining \. on input line 498.
+LaTeX Info: Redefining \% on input line 498.
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 498.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 498.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 498.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 498.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 498.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 498.
+[69]
+<Figures/ESTATICA_destruction_comparativa_dosredes.png, id=1267, 867.24pt x 361
 .35pt>
 File: Figures/ESTATICA_destruction_comparativa_dosredes.png Graphic file (type 
 png)
  <use Figures/ESTATICA_destruction_comparativa_dosredes.png>
 Package pdftex.def Info: Figures/ESTATICA_destruction_comparativa_dosredes.png 
-used on input line 461.
+used on input line 501.
 (pdftex.def)             Requested size: 390.2544pt x 162.60599pt.
 LaTeX Font Info:    Font shape `T1/pbk/m/n' in size <7.6> not available
-(Font)              Font shape `T1/pbk/l/n' tried instead on input line 462.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-LaTeX Info: Redefining \sptext on input line 467.
-LaTeX Info: Redefining \. on input line 467.
-LaTeX Info: Redefining \% on input line 467.
+(Font)              Font shape `T1/pbk/l/n' tried instead on input line 502.
+LaTeX Info: Redefining \sptext on input line 507.
+LaTeX Info: Redefining \. on input line 507.
+LaTeX Info: Redefining \% on input line 507.
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 467.
+(babel)             in language  on input line 507.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 467.
+(babel)             in language  on input line 507.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 467.
+(babel)             in language  on input line 507.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 467.
+(babel)             in language  on input line 507.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 467.
+(babel)             in language  on input line 507.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 467.
-[67]
-LaTeX Info: Redefining \sptext on input line 467.
-LaTeX Info: Redefining \. on input line 467.
-LaTeX Info: Redefining \% on input line 467.
-Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 467.
-Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 467.
-Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 467.
-Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 467.
-Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 467.
-Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 467.
- [68 <D:/disco_usuario/javier/upm/doctorado/tesis/texto_tesis_upm/texto_tutto/F
+(babel)             in language  on input line 507.
+ [70 <D:/disco_usuario/javier/upm/doctorado/tesis/texto_tesis_upm/texto_tutto/F
 igures/ESTATICA_destruction_comparativa_dosredes.png>]
-<Figures/ESTATICA_destructions_comparison.png, id=1234, 867.24pt x 361.35pt>
+<Figures/ESTATICA_destructions_comparison.png, id=1275, 867.24pt x 361.35pt>
 File: Figures/ESTATICA_destructions_comparison.png Graphic file (type png)
 
 <use Figures/ESTATICA_destructions_comparison.png>
 Package pdftex.def Info: Figures/ESTATICA_destructions_comparison.png used on i
-nput line 470.
+nput line 510.
 (pdftex.def)             Requested size: 433.61894pt x 180.67456pt.
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 477.
+(babel)             in language  on input line 517.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 477.
+(babel)             in language  on input line 517.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 477.
+(babel)             in language  on input line 517.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 477.
+(babel)             in language  on input line 517.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 477.
+(babel)             in language  on input line 517.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 477.
-LaTeX Info: Redefining \sptext on input line 484.
-LaTeX Info: Redefining \. on input line 484.
-LaTeX Info: Redefining \% on input line 484.
+(babel)             in language  on input line 517.
+LaTeX Info: Redefining \sptext on input line 523.
+LaTeX Info: Redefining \. on input line 523.
+LaTeX Info: Redefining \% on input line 523.
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 484.
+(babel)             in language  on input line 523.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 484.
+(babel)             in language  on input line 523.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 484.
+(babel)             in language  on input line 523.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 484.
+(babel)             in language  on input line 523.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 484.
+(babel)             in language  on input line 523.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 484.
- [69 <D:/disco_usuario/javier/upm/doctorado/tesis/texto_tesis_upm/texto_tutto/F
+(babel)             in language  on input line 523.
+ [71 <D:/disco_usuario/javier/upm/doctorado/tesis/texto_tesis_upm/texto_tutto/F
 igures/ESTATICA_destructions_comparison.png>])
 (D:\disco_usuario\javier\upm\doctorado\tesis\texto_tesis_upm\texto_tutto\Chapte
 rs/Chapter_VISUALIZACION.tex
@@ -4523,7 +4558,7 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 3.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 3.
- [70]
+ [72]
 Cap\IeC {\'\i }tulo 4.
 Package babel Info: Redefining spanish shorthand <<
 (babel)             in language  on input line 3.
@@ -4564,9 +4599,9 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 16.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 16.
-[71
+[73
 
-] <Figures/VIS_bipartito_SD_020.png, id=1256, 1052.43187pt x 275.52937pt>
+] <Figures/VIS_bipartito_SD_020.png, id=1298, 1052.43187pt x 275.52937pt>
 File: Figures/VIS_bipartito_SD_020.png Graphic file (type png)
 
 <use Figures/VIS_bipartito_SD_020.png>
@@ -4574,7 +4609,7 @@ Package pdftex.def Info: Figures/VIS_bipartito_SD_020.png used on input line 25
 .
 (pdftex.def)             Requested size: 420.96529pt x 110.20978pt.
 
-<Figures/VIS_matrix_SD_001.png, id=1259, 928.9104pt x 529.98pt>
+<Figures/VIS_matrix_SD_001.png, id=1301, 928.9104pt x 529.98pt>
 File: Figures/VIS_matrix_SD_001.png Graphic file (type png)
 
 <use Figures/VIS_matrix_SD_001.png>
@@ -4584,7 +4619,7 @@ Package pdftex.def Info: Figures/VIS_matrix_SD_001.png used on input line 36.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<Figures/VIS_matrix_PL_001.png, id=1263, 963.6pt x 722.7pt>
+<Figures/VIS_matrix_PL_001.png, id=1305, 963.6pt x 722.7pt>
 File: Figures/VIS_matrix_PL_001.png Graphic file (type png)
 
 <use Figures/VIS_matrix_PL_001.png>
@@ -4633,7 +4668,7 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 58.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 58.
-[72 <D:/disco_usuario/javier/upm/doctorado/tesis/texto_tesis_upm/texto_tutto/Fi
+[74 <D:/disco_usuario/javier/upm/doctorado/tesis/texto_tesis_upm/texto_tutto/Fi
 gures/VIS_bipartito_SD_020.png>]
 LaTeX Info: Redefining \sptext on input line 58.
 LaTeX Info: Redefining \. on input line 58.
@@ -4650,10 +4685,10 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 58.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 58.
- [73 <D:/disco_usuario/javier/upm/doctorado/tesis/texto_tesis_upm/texto_tutto/F
+ [75 <D:/disco_usuario/javier/upm/doctorado/tesis/texto_tesis_upm/texto_tutto/F
 igures/VIS_matrix_SD_001.png> <D:/disco_usuario/javier/upm/doctorado/tesis/text
 o_tesis_upm/texto_tutto/Figures/VIS_matrix_PL_001.png>] <Figures/VIS_M_PL_034_p
-olar.png, id=1284, 596.4684pt x 596.4684pt>
+olar.png, id=1326, 596.4684pt x 596.4684pt>
 File: Figures/VIS_M_PL_034_polar.png Graphic file (type png)
 
 <use Figures/VIS_M_PL_034_polar.png>
@@ -4674,9 +4709,9 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 69.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 69.
- [74 <D:/disco_usuario/javier/upm/doctorado/tesis/texto_tesis_upm/texto_tutto/F
+ [76 <D:/disco_usuario/javier/upm/doctorado/tesis/texto_tesis_upm/texto_tutto/F
 igures/VIS_M_PL_034_polar.png (PNG copy)>]
-<Figures/VIS_Modvskdegree3.PDF, id=1299, 592.2125pt x 638.385pt>
+<Figures/VIS_Modvskdegree3.PDF, id=1341, 592.2125pt x 638.385pt>
 File: Figures/VIS_Modvskdegree3.PDF Graphic file (type pdf)
 
 <use Figures/VIS_Modvskdegree3.PDF>
@@ -4714,7 +4749,7 @@ converted-to.pdf Figures/VIS_ALL_SD_004.eps>
 (epstopdf)             \includegraphics on input line 91.
 Package epstopdf Info: Output file is already uptodate.
 
-<Figures/VIS_ALL_SD_004-eps-converted-to.pdf, id=1301, 968.61874pt x 1040.88875
+<Figures/VIS_ALL_SD_004-eps-converted-to.pdf, id=1343, 968.61874pt x 1040.88875
 pt>
 File: Figures/VIS_ALL_SD_004-eps-converted-to.pdf Graphic file (type pdf)
  <use Figures/VIS_ALL_SD_004-eps-converted-to.pdf>
@@ -4744,7 +4779,7 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 97.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 97.
-[75]
+[77]
 LaTeX Info: Redefining \sptext on input line 102.
 LaTeX Info: Redefining \. on input line 102.
 LaTeX Info: Redefining \% on input line 102.
@@ -4760,7 +4795,7 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 102.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 102.
- [76 <D:/disco_usuario/javier/upm/doctorado/tesis/texto_tesis_upm/texto_tutto/F
+ [78 <D:/disco_usuario/javier/upm/doctorado/tesis/texto_tesis_upm/texto_tutto/F
 igures/VIS_Modvskdegree3.PDF>]
 LaTeX Info: Redefining \sptext on input line 105.
 LaTeX Info: Redefining \. on input line 105.
@@ -4777,16 +4812,16 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 105.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 105.
- [77 <D:/disco_usuario/javier/upm/doctorado/tesis/texto_tesis_upm/texto_tutto/F
+ [79 <D:/disco_usuario/javier/upm/doctorado/tesis/texto_tesis_upm/texto_tutto/F
 igures/VIS_ALL_SD_004-eps-converted-to.pdf>]
-<Figures/VIS_zig_pl_024.png, id=1328, 2336.73pt x 2252.415pt>
+<Figures/VIS_zig_pl_024.png, id=1370, 2336.73pt x 2252.415pt>
 File: Figures/VIS_zig_pl_024.png Graphic file (type png)
 
 <use Figures/VIS_zig_pl_024.png>
 Package pdftex.def Info: Figures/VIS_zig_pl_024.png used on input line 108.
 (pdftex.def)             Requested size: 373.88445pt x 360.39377pt.
 
-<Figures/VIS_M_PL_031_ziggurat.png, id=1333, 2999.205pt x 2156.055pt>
+<Figures/VIS_M_PL_031_ziggurat.png, id=1375, 2999.205pt x 2156.055pt>
 File: Figures/VIS_M_PL_031_ziggurat.png Graphic file (type png)
 
 <use Figures/VIS_M_PL_031_ziggurat.png>
@@ -4812,9 +4847,9 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 124.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 124.
-[78 <D:/disco_usuario/javier/upm/doctorado/tesis/texto_tesis_upm/texto_tutto/Fi
+[80 <D:/disco_usuario/javier/upm/doctorado/tesis/texto_tesis_upm/texto_tutto/Fi
 gures/VIS_zig_pl_024.png>]
-<Figures/VIS_M_PL_031_polar.png, id=1346, 867.24pt x 282.3348pt>
+<Figures/VIS_M_PL_031_polar.png, id=1388, 867.24pt x 282.3348pt>
 File: Figures/VIS_M_PL_031_polar.png Graphic file (type png)
 
 <use Figures/VIS_M_PL_031_polar.png>
@@ -4836,7 +4871,7 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 133.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 133.
- [79 <D:/disco_usuario/javier/upm/doctorado/tesis/texto_tesis_upm/texto_tutto/F
+ [81 <D:/disco_usuario/javier/upm/doctorado/tesis/texto_tesis_upm/texto_tutto/F
 igures/VIS_M_PL_031_ziggurat.png> <D:/disco_usuario/javier/upm/doctorado/tesis/
 texto_tesis_upm/texto_tutto/Figures/VIS_M_PL_031_polar.png>]
 LaTeX Info: Redefining \sptext on input line 141.
@@ -4854,7 +4889,7 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 141.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 141.
- [80]
+ [82]
 
 LaTeX Warning: Float too large for page by 6.31601pt on input line 204.
 
@@ -4873,7 +4908,7 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 206.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 206.
-[81] <Figures/VIS_M_PL_010_ziggurat.png, id=1376, 711.1368pt x 932.7648pt>
+[83] <Figures/VIS_M_PL_010_ziggurat.png, id=1419, 711.1368pt x 932.7648pt>
 File: Figures/VIS_M_PL_010_ziggurat.png Graphic file (type png)
 
 <use Figures/VIS_M_PL_010_ziggurat.png>
@@ -4895,12 +4930,12 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 214.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 214.
- [82
+ [84
 
 
  <D:/disco_usuario/javier/upm/doctorado/tesis/texto_tesis_upm/texto_tutto/Figur
 es/VIS_M_PL_010_ziggurat.png>]
-<Figures/VIS_M_SD_016_ziggurat.png, id=1384, 2366.8425pt x 2890.8pt>
+<Figures/VIS_M_SD_016_ziggurat.png, id=1427, 2366.8425pt x 2890.8pt>
 File: Figures/VIS_M_SD_016_ziggurat.png Graphic file (type png)
 
 <use Figures/VIS_M_SD_016_ziggurat.png>
@@ -4927,11 +4962,11 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 222.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 222.
-[83
+[85
 
  <D:/disco_usuario/javier/upm/doctorado/tesis/texto_tesis_upm/texto_tutto/Figur
 es/VIS_M_SD_016_ziggurat.png>]
-<Figures/VIS_M_PL_047_ziggurat.png, id=1395, 2276.505pt x 3017.2725pt>
+<Figures/VIS_M_PL_047_ziggurat.png, id=1437, 2276.505pt x 3017.2725pt>
 File: Figures/VIS_M_PL_047_ziggurat.png Graphic file (type png)
 
 <use Figures/VIS_M_PL_047_ziggurat.png>
@@ -4958,7 +4993,7 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 231.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 231.
-[84
+[86
 
  <D:/disco_usuario/javier/upm/doctorado/tesis/texto_tesis_upm/texto_tutto/Figur
 es/VIS_M_PL_047_ziggurat.png>]
@@ -4989,10 +5024,10 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 248.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 248.
- [85
+ [87
 
 ]
-<Figures/VIS_PL_012.pdf, id=1415, 542.025pt x 722.7pt>
+<Figures/VIS_PL_012.pdf, id=1456, 542.025pt x 722.7pt>
 File: Figures/VIS_PL_012.pdf Graphic file (type pdf)
 
 <use Figures/VIS_PL_012.pdf>
@@ -5013,9 +5048,9 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 256.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 256.
- [86 <D:/disco_usuario/javier/upm/doctorado/tesis/texto_tesis_upm/texto_tutto/F
+ [88 <D:/disco_usuario/javier/upm/doctorado/tesis/texto_tesis_upm/texto_tutto/F
 igures/VIS_PL_012.pdf>]
-<Figures/VIS_SD_007.pdf, id=1430, 597.23125pt x 845.1575pt>
+<Figures/VIS_SD_007.pdf, id=1471, 597.23125pt x 845.1575pt>
 File: Figures/VIS_SD_007.pdf Graphic file (type pdf)
 
 <use Figures/VIS_SD_007.pdf>
@@ -5044,9 +5079,9 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 264.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 264.
-[87 <D:/disco_usuario/javier/upm/doctorado/tesis/texto_tesis_upm/texto_tutto/Fi
+[89 <D:/disco_usuario/javier/upm/doctorado/tesis/texto_tesis_upm/texto_tutto/Fi
 gures/VIS_SD_007.pdf>]
-<Figures/VIS_M_SD_004_pol3_pol4_ziggurat.png, id=1447, 884.8257pt x 699.8145pt>
+<Figures/VIS_M_SD_004_pol3_pol4_ziggurat.png, id=1489, 884.8257pt x 699.8145pt>
 File: Figures/VIS_M_SD_004_pol3_pol4_ziggurat.png Graphic file (type png)
 <use Figures/VIS_M_SD_004_pol3_pol4_ziggurat.png>
 Package pdftex.def Info: Figures/VIS_M_SD_004_pol3_pol4_ziggurat.png used on in
@@ -5072,13 +5107,13 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 276.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 276.
-[88
+[90
 
 
 
  <D:/disco_usuario/javier/upm/doctorado/tesis/texto_tesis_upm/texto_tutto/Figur
 es/VIS_M_SD_004_pol3_pol4_ziggurat.png>]
-<Figures/VIS_M_SD_004_minus_k4_ziggurat.png, id=1456, 902.1705pt x 663.1977pt>
+<Figures/VIS_M_SD_004_minus_k4_ziggurat.png, id=1498, 902.1705pt x 663.1977pt>
 File: Figures/VIS_M_SD_004_minus_k4_ziggurat.png Graphic file (type png)
 
 <use Figures/VIS_M_SD_004_minus_k4_ziggurat.png>
@@ -5086,7 +5121,7 @@ Package pdftex.def Info: Figures/VIS_M_SD_004_minus_k4_ziggurat.png used on inp
 ut line 279.
 (pdftex.def)             Requested size: 297.71718pt x 218.85591pt.
 
-<Figures/VIS_M_SD_018_ziggurat.png, id=1459, 717.1593pt x 661.2705pt>
+<Figures/VIS_M_SD_018_ziggurat.png, id=1501, 717.1593pt x 661.2705pt>
 File: Figures/VIS_M_SD_018_ziggurat.png Graphic file (type png)
 
 <use Figures/VIS_M_SD_018_ziggurat.png>
@@ -5108,12 +5143,12 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 292.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 292.
- [89
+ [91
 
  <D:/disco_usuario/javier/upm/doctorado/tesis/texto_tesis_upm/texto_tutto/Figur
 es/VIS_M_SD_004_minus_k4_ziggurat.png> <D:/disco_usuario/javier/upm/doctorado/t
 esis/texto_tesis_upm/texto_tutto/Figures/VIS_M_SD_018_ziggurat.png>]
-<Figures/VIS_Modvskdegree3-sd04.pdf, id=1475, 1849.63017pt x 1992.00215pt>
+<Figures/VIS_Modvskdegree3-sd04.pdf, id=1516, 1849.63017pt x 1992.00215pt>
 File: Figures/VIS_Modvskdegree3-sd04.pdf Graphic file (type pdf)
 
 <use Figures/VIS_Modvskdegree3-sd04.pdf>
@@ -5135,9 +5170,9 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 302.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 302.
- [90 <D:/disco_usuario/javier/upm/doctorado/tesis/texto_tesis_upm/texto_tutto/F
+ [92 <D:/disco_usuario/javier/upm/doctorado/tesis/texto_tesis_upm/texto_tutto/F
 igures/VIS_Modvskdegree3-sd04.pdf>]
-<Figures/VIS_M_SD_004_minus_k3k2_ziggurat.png, id=1492, 873.0216pt x 1312.4232p
+<Figures/VIS_M_SD_004_minus_k3k2_ziggurat.png, id=1533, 873.0216pt x 1312.4232p
 t>
 File: Figures/VIS_M_SD_004_minus_k3k2_ziggurat.png Graphic file (type png)
  <use Figures/VIS_M_SD_004_minus_k3k2_ziggurat.png>
@@ -5167,7 +5202,7 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 310.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 310.
-[91 <D:/disco_usuario/javier/upm/doctorado/tesis/texto_tesis_upm/texto_tutto/Fi
+[93 <D:/disco_usuario/javier/upm/doctorado/tesis/texto_tesis_upm/texto_tutto/Fi
 gures/VIS_M_SD_004_minus_k3k2_ziggurat.png>]
 LaTeX Info: Redefining \sptext on input line 325.
 LaTeX Info: Redefining \. on input line 325.
@@ -5184,7 +5219,7 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 325.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 325.
- [92
+ [94
 
 
 ]
@@ -5218,7 +5253,7 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 3.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 3.
- [93
+ [95
 
 ]
 Package babel Info: Redefining spanish shorthand <<
@@ -5233,7 +5268,7 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 3.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 3.
- [94
+ [96
 
 ]
 Cap\IeC {\'\i }tulo 5.
@@ -5277,7 +5312,7 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 359.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 359.
- [95]
+ [97]
 Package babel Info: Redefining spanish shorthand <<
 (babel)             in language  on input line 359.
 Package babel Info: Redefining spanish shorthand >>
@@ -5290,7 +5325,7 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 359.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 359.
- [96
+ [98
 
 ]
 Package babel Info: Redefining spanish shorthand <<
@@ -5317,7 +5352,7 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 359.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 359.
- [97]
+ [99]
 Overfull \hbox (11.53839pt too wide) in paragraph at lines 359--359
 \T1/pbk/l/n/10 com-pe-ti-tion and in-crea-ses bio-di-ver-sity''. En: \T1/pbk/l/
 it/10 Na-tu-re \T1/pbk/l/n/10 458 (2009), págs. 1018[]20. 
@@ -5338,7 +5373,7 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 359.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 359.
-[98]
+[100]
 LaTeX Info: Redefining \sptext on input line 359.
 LaTeX Info: Redefining \. on input line 359.
 LaTeX Info: Redefining \% on input line 359.
@@ -5354,13 +5389,28 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 359.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 359.
- [99]
+ [101]
 Overfull \hbox (15.88774pt too wide) in paragraph at lines 359--359
 \T1/pbk/l/n/10 tri-ces''. En: \T1/pbk/l/it/10 En-vi-ron-men-tal Mo-de-lling & S
 oft-wa-re \T1/pbk/l/n/10 24.11 (2009), págs. 1342[]1346. 
  []
 
-
+LaTeX Info: Redefining \sptext on input line 359.
+LaTeX Info: Redefining \. on input line 359.
+LaTeX Info: Redefining \% on input line 359.
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 359.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 359.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 359.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 359.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 359.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 359.
+[102]
 Overfull \hbox (6.38766pt too wide) in paragraph at lines 359--359
 \T1/pbk/l/n/10 dis-per-sal: con-nec-tan-ce, de-pen-den-ce asym-me-tries, and co
 evo-lu-tion''. En: \T1/pbk/l/it/10 Ame-
@@ -5381,109 +5431,22 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 359.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 359.
-[100]
+[103]
+Overfull \hbox (34.02254pt too wide) in paragraph at lines 359--359
+[]\T1/pbk/l/n/10 Kevin Mc-Cann. ``Pro-tec-ting bios-truc-tu-re''. En: \T1/pbk/l
+/it/10 Na-tu-re \T1/pbk/l/n/10 446.7131 (2007), págs. 29[]29. 
+ []
+
+
 Overfull \hbox (9.77315pt too wide) in paragraph at lines 359--359
 \T1/pbk/l/n/10 anemo-nes with fish and crus-ta-ceans''. En: \T1/pbk/l/it/10 To-
 xi-con \T1/pbk/l/n/10 54.8 (2009), págs. 1071[]74. 
  []
 
-LaTeX Info: Redefining \sptext on input line 359.
-LaTeX Info: Redefining \. on input line 359.
-LaTeX Info: Redefining \% on input line 359.
-Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 359.
-Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 359.
-Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 359.
-Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 359.
-Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 359.
-Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 359.
-[101]
+
 Overfull \hbox (4.674pt too wide) in paragraph at lines 359--359
 \T1/pbk/l/it/10 of Scien-ces of the Uni-ted Sta-tes of Ame-ri-ca \T1/pbk/l/n/10
  102.47 (2005), págs. 16919[]16926. 
- []
-
-
-Overfull \hbox (22.10907pt too wide) in paragraph at lines 359--359
-\T1/pbk/l/it/10 Pro-cee-dings of the Na-tio-nal Aca-demy of Scien-ces \T1/pbk/l
-/n/10 103.23 (2006), págs. 8577[]8582. 
- []
-
-
-Overfull \hbox (3.60934pt too wide) in paragraph at lines 359--359
-\T1/pbk/l/it/10 dings of the Na-tio-nal Aca-demy of Scien-ces \T1/pbk/l/n/10 10
-4.50 (2007), págs. 19891[]19896. 
- []
-
-LaTeX Info: Redefining \sptext on input line 359.
-LaTeX Info: Redefining \. on input line 359.
-LaTeX Info: Redefining \% on input line 359.
-Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 359.
-Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 359.
-Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 359.
-Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 359.
-Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 359.
-Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 359.
-[102]
-Overfull \hbox (7.09285pt too wide) in paragraph at lines 359--359
-\T1/pbk/l/n/10 cal graphs''. En: \T1/pbk/l/it/10 Jour-nal of Mat-he-ma-ti-cal C
-he-mistry \T1/pbk/l/n/10 12.1 (1993), págs. 235[]50. 
- []
-
-
-Overfull \hbox (2.54817pt too wide) in paragraph at lines 359--359
-\T1/pbk/l/n/10 tion of eco-lo-gi-cal da-ta''. En: \T1/pbk/l/it/10 Eco-lo-gi-cal
- Mo-de-lling \T1/pbk/l/n/10 220.5 (2009), págs. 673[]683. 
- []
-
-
-Overfull \hbox (0.64557pt too wide) in paragraph at lines 359--359
-[]\T1/pbk/l/n/10 Daniel B Stouf-fer y Jor-di Bas-com-pte. ``Com-part-men-ta-li-
-za-tion in-crea-ses food-
- []
-
-LaTeX Info: Redefining \sptext on input line 359.
-LaTeX Info: Redefining \. on input line 359.
-LaTeX Info: Redefining \% on input line 359.
-Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 359.
-Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 359.
-Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 359.
-Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 359.
-Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 359.
-Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 359.
-[103]
-Overfull \hbox (6.62842pt too wide) in paragraph at lines 359--359
-\T1/pbk/l/n/10 eco-lo-gi-cal mu-tua-lis-tic net-works''. En: \T1/pbk/l/it/10 Na
--tu-re \T1/pbk/l/n/10 500.7463 (2013), págs. 449[]452. 
- []
-
-
-Overfull \hbox (0.68579pt too wide) in paragraph at lines 359--359
-[]\T1/pbk/l/n/10 Diego P Váz-quez. ``De-gree dis-tri-bu-tion in plant--animal m
-u-tua-lis-tic net-works:
- []
-
-
-Overfull \hbox (18.97987pt too wide) in paragraph at lines 359--359
-\T1/pbk/l/n/10 for-bid-den links or ran-dom in-ter-ac-tions?'' En: \T1/pbk/l/it
-/10 Oi-kos \T1/pbk/l/n/10 108.2 (2005), págs. 421[]426. 
  []
 
 LaTeX Info: Redefining \sptext on input line 359.
@@ -5502,6 +5465,83 @@ Package babel Info: Redefining spanish shorthand "!
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 359.
 [104]
+Overfull \hbox (22.10907pt too wide) in paragraph at lines 359--359
+\T1/pbk/l/it/10 Pro-cee-dings of the Na-tio-nal Aca-demy of Scien-ces \T1/pbk/l
+/n/10 103.23 (2006), págs. 8577[]8582. 
+ []
+
+
+Overfull \hbox (3.60934pt too wide) in paragraph at lines 359--359
+\T1/pbk/l/it/10 dings of the Na-tio-nal Aca-demy of Scien-ces \T1/pbk/l/n/10 10
+4.50 (2007), págs. 19891[]19896. 
+ []
+
+
+Overfull \hbox (7.09285pt too wide) in paragraph at lines 359--359
+\T1/pbk/l/n/10 cal graphs''. En: \T1/pbk/l/it/10 Jour-nal of Mat-he-ma-ti-cal C
+he-mistry \T1/pbk/l/n/10 12.1 (1993), págs. 235[]50. 
+ []
+
+
+Overfull \hbox (2.54817pt too wide) in paragraph at lines 359--359
+\T1/pbk/l/n/10 tion of eco-lo-gi-cal da-ta''. En: \T1/pbk/l/it/10 Eco-lo-gi-cal
+ Mo-de-lling \T1/pbk/l/n/10 220.5 (2009), págs. 673[]683. 
+ []
+
+LaTeX Info: Redefining \sptext on input line 359.
+LaTeX Info: Redefining \. on input line 359.
+LaTeX Info: Redefining \% on input line 359.
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 359.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 359.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 359.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 359.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 359.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 359.
+[105]
+Overfull \hbox (0.64557pt too wide) in paragraph at lines 359--359
+[]\T1/pbk/l/n/10 Daniel B Stouf-fer y Jor-di Bas-com-pte. ``Com-part-men-ta-li-
+za-tion in-crea-ses food-
+ []
+
+
+Overfull \hbox (6.62842pt too wide) in paragraph at lines 359--359
+\T1/pbk/l/n/10 eco-lo-gi-cal mu-tua-lis-tic net-works''. En: \T1/pbk/l/it/10 Na
+-tu-re \T1/pbk/l/n/10 500.7463 (2013), págs. 449[]452. 
+ []
+
+LaTeX Info: Redefining \sptext on input line 359.
+LaTeX Info: Redefining \. on input line 359.
+LaTeX Info: Redefining \% on input line 359.
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 359.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 359.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 359.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 359.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 359.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 359.
+[106]
+Overfull \hbox (0.68579pt too wide) in paragraph at lines 359--359
+[]\T1/pbk/l/n/10 Diego P Váz-quez. ``De-gree dis-tri-bu-tion in plant--animal m
+u-tua-lis-tic net-works:
+ []
+
+
+Overfull \hbox (18.97987pt too wide) in paragraph at lines 359--359
+\T1/pbk/l/n/10 for-bid-den links or ran-dom in-ter-ac-tions?'' En: \T1/pbk/l/it
+/10 Oi-kos \T1/pbk/l/n/10 108.2 (2005), págs. 421[]426. 
+ []
+
 LaTeX Info: Redefining \sptext on input line 365.
 LaTeX Info: Redefining \. on input line 365.
 LaTeX Info: Redefining \% on input line 365.
@@ -5517,7 +5557,7 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 365.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 365.
- [105]
+[107]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 365.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 365.
 
@@ -5530,17 +5570,17 @@ LaTeX Info: Redefining \% on input line 30.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 365.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 365.
 Package rerunfilecheck Info: File `tesis_JGA_mutualismo.out' has not changed.
-(rerunfilecheck)             Checksum: BF98C66FCEE1EABA6FDB94C861FA0B4F;10546.
+(rerunfilecheck)             Checksum: 8DD117E24410C693B78A1B206C27DDA7;10546.
 Package logreq Info: Writing requests to 'tesis_JGA_mutualismo.run.xml'.
  ) 
 Here is how much of TeX's memory you used:
- 41794 strings out of 493921
- 792303 string characters out of 3147276
- 979980 words of memory out of 3000000
- 43913 multiletter control sequences out of 15000+200000
+ 41841 strings out of 493921
+ 793459 string characters out of 3147276
+ 984593 words of memory out of 3000000
+ 43946 multiletter control sequences out of 15000+200000
  112388 words of font info for 236 fonts, out of 3000000 for 9000
  842 hyphenation exceptions out of 8191
- 75i,17n,76p,10492b,2565s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 75i,17n,78p,10492b,2568s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}<C:/Program File
 s/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files/MiKTeX
  2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fon
@@ -5560,9 +5600,9 @@ man/ubkl8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/bookman/ubkli8a.pfb
 ><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/courier/ucrr8a.pfb><C:/Program Fi
 les/MiKTeX 2.9/fonts/type1/urw/palatino/uplb8a.pfb><C:/Program Files/MiKTeX 2.9
 /fonts/type1/urw/palatino/uplr8a.pfb>
-Output written on tesis_JGA_mutualismo.pdf (113 pages, 17101238 bytes).
+Output written on tesis_JGA_mutualismo.pdf (115 pages, 17115564 bytes).
 PDF statistics:
- 1718 PDF objects out of 1728 (max. 8388607)
- 418 named destinations out of 1000 (max. 500000)
+ 1762 PDF objects out of 2073 (max. 8388607)
+ 432 named destinations out of 1000 (max. 500000)
  681 words of extra memory for PDF output out of 10000 (max. 10000000)
 

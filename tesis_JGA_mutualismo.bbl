@@ -122,6 +122,35 @@
   \field{year}{2008}
 \endentry
 
+\entry{almeida2011straightforward}{article}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Almeida-Neto}{A.-N.}%
+     {M{\'a}rio}{M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Ulrich}{U.}%
+     {Werner}{W.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Elsevier}%
+  }
+  \strng{namehash}{ANMUW1}
+  \strng{fullhash}{ANMUW1}
+  \field{labelalpha}{ANU11}
+  \field{sortinit}{A}
+  \field{number}{2}
+  \field{pages}{173\bibrangedash 178}
+  \field{title}{A straightforward computational approach for measuring
+  nestedness using quantitative matrices}
+  \field{volume}{26}
+  \field{journaltitle}{Environmental Modelling \& Software}
+  \field{year}{2011}
+\endentry
+
 \entry{atmar1995nestedness}{article}{}
   \name{author}{2}{}{%
     {{}%
@@ -427,6 +456,29 @@
   \field{year}{2002}
 \endentry
 
+\entry{barber2007modularity}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Barber}{B.}%
+     {Michael~J}{M.~J.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {APS}%
+  }
+  \strng{namehash}{BMJ1}
+  \strng{fullhash}{BMJ1}
+  \field{labelalpha}{Bar07}
+  \field{sortinit}{B}
+  \field{number}{6}
+  \field{pages}{066102}
+  \field{title}{Modularity and community detection in bipartite networks}
+  \field{volume}{76}
+  \field{journaltitle}{Physical Review E}
+  \field{year}{2007}
+\endentry
+
 \entry{bascompte2003nested}{article}{}
   \name{author}{4}{}{%
     {{}%
@@ -700,6 +752,34 @@
   \field{volume}{4}
   \field{journaltitle}{Ecology Letters}
   \field{year}{2001}
+\endentry
+
+\entry{brualdi1999nested}{article}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Brualdi}{B.}%
+     {Richard~A}{R.~A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Sanderson}{S.}%
+     {James~G}{J.~G.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Springer}%
+  }
+  \strng{namehash}{BRASJG1}
+  \strng{fullhash}{BRASJG1}
+  \field{labelalpha}{BS99}
+  \field{sortinit}{B}
+  \field{number}{2}
+  \field{pages}{256\bibrangedash 264}
+  \field{title}{Nested species subsets, gaps, and discrepancy}
+  \field{volume}{119}
+  \field{journaltitle}{Oecologia}
+  \field{year}{1999}
 \endentry
 
 \entry{briand1982phylogenetic}{article}{}
@@ -1065,6 +1145,35 @@
   \field{volume}{78}
   \field{journaltitle}{Journal of Animal Ecology}
   \field{year}{2009}
+\endentry
+
+\entry{dormann2014method}{article}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Dormann}{D.}%
+     {Carsten~F}{C.~F.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Strauss}{S.}%
+     {Rouven}{R.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Wiley Online Library}%
+  }
+  \strng{namehash}{DCFSR1}
+  \strng{fullhash}{DCFSR1}
+  \field{labelalpha}{DS14}
+  \field{sortinit}{D}
+  \field{number}{1}
+  \field{pages}{90\bibrangedash 98}
+  \field{title}{A method for detecting modules in quantitative bipartite
+  networks}
+  \field{volume}{5}
+  \field{journaltitle}{Methods in Ecology and Evolution}
+  \field{year}{2014}
 \endentry
 
 \entry{dunne2008compilation}{article}{}
@@ -1519,6 +1628,35 @@
   definici{\'o}n y de traducci{\'o}n}
   \field{journaltitle}{Pol{\'\i}tica y sociedad}
   \field{year}{2000}
+\endentry
+
+\entry{hausdorf2003nestedness}{article}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Hausdorf}{H.}%
+     {Bernhard}{B.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Hennig}{H.}%
+     {Christian}{C.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Springer}%
+  }
+  \strng{namehash}{HBHC1}
+  \strng{fullhash}{HBHC1}
+  \field{labelalpha}{HH03}
+  \field{sortinit}{H}
+  \field{number}{1}
+  \field{pages}{102\bibrangedash 109}
+  \field{title}{Nestedness of north-west European land snail ranges as a
+  consequence of differential immigration from Pleistocene glacial refuges}
+  \field{volume}{135}
+  \field{journaltitle}{Oecologia}
+  \field{year}{2003}
 \endentry
 
 \entry{ito1991indirect}{article}{}
@@ -2093,6 +2231,29 @@
   \field{year}{1992}
 \endentry
 
+\entry{mccann2007protecting}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {McCann}{M.}%
+     {Kevin}{K.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Nature Publishing Group}%
+  }
+  \strng{namehash}{MK1}
+  \strng{fullhash}{MK1}
+  \field{labelalpha}{McC07}
+  \field{sortinit}{M}
+  \field{number}{7131}
+  \field{pages}{29\bibrangedash 29}
+  \field{title}{Protecting biostructure}
+  \field{volume}{446}
+  \field{journaltitle}{Nature}
+  \field{year}{2007}
+\endentry
+
 \entry{montresor2013distributed}{article}{}
   \name{author}{3}{}{%
     {{}%
@@ -2406,6 +2567,40 @@
   \field{volume}{96}
   \field{journaltitle}{Emu}
   \field{year}{1996}
+\endentry
+
+\entry{memmott2004tolerance}{article}{}
+  \name{author}{3}{}{%
+    {{}%
+     {Memmott}{M.}%
+     {Jane}{J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Waser}{W.}%
+     {Nickolas~M}{N.~M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Price}{P.}%
+     {Mary~V}{M.~V.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {The Royal Society}%
+  }
+  \strng{namehash}{MJWNMPMV1}
+  \strng{fullhash}{MJWNMPMV1}
+  \field{labelalpha}{MWP04}
+  \field{sortinit}{M}
+  \field{number}{1557}
+  \field{pages}{2605\bibrangedash 2611}
+  \field{title}{Tolerance of pollination networks to species extinctions}
+  \field{volume}{271}
+  \field{journaltitle}{Proceedings of the Royal Society of London B: Biological
+  Sciences}
+  \field{year}{2004}
 \endentry
 
 \entry{newman2003structure}{article}{}
@@ -2767,6 +2962,34 @@
   \field{sortinit}{P}
   \field{title}{De la capacit{\'e} politique des classes ouvri{\`e}res}
   \field{year}{1868}
+\endentry
+
+\entry{podani2012comparative}{article}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Podani}{P.}%
+     {J{\'a}nos}{J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Schmera}{S.}%
+     {D{\'e}nes}{D.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Wiley Online Library}%
+  }
+  \strng{namehash}{PJSD1}
+  \strng{fullhash}{PJSD1}
+  \field{labelalpha}{PS12}
+  \field{sortinit}{P}
+  \field{number}{10}
+  \field{pages}{889\bibrangedash 900}
+  \field{title}{A comparative evaluation of pairwise nestedness measures}
+  \field{volume}{35}
+  \field{journaltitle}{Ecography}
+  \field{year}{2012}
 \endentry
 
 \entry{ramirez1989biologia}{article}{}
@@ -3463,6 +3686,67 @@
   \field{year}{2008}
 \endentry
 
+\entry{ulrich2009consumer}{article}{}
+  \name{author}{3}{}{%
+    {{}%
+     {Ulrich}{U.}%
+     {Werner}{W.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Almeida-Neto}{A.-N.}%
+     {M{\'a}rio}{M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Gotelli}{G.}%
+     {Nicholas~J}{N.~J.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Wiley Online Library}%
+  }
+  \strng{namehash}{UWANMGNJ1}
+  \strng{fullhash}{UWANMGNJ1}
+  \field{labelalpha}{UANG09}
+  \field{sortinit}{U}
+  \field{number}{1}
+  \field{pages}{3\bibrangedash 17}
+  \field{title}{A consumer's guide to nestedness analysis}
+  \field{volume}{118}
+  \field{journaltitle}{Oikos}
+  \field{year}{2009}
+\endentry
+
+\entry{ulrich2007null}{article}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Ulrich}{U.}%
+     {Werner}{W.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Gotelli}{G.}%
+     {Nicholas~J}{N.~J.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Eco Soc America}%
+  }
+  \strng{namehash}{UWGNJ1}
+  \strng{fullhash}{UWGNJ1}
+  \field{labelalpha}{UG07}
+  \field{sortinit}{U}
+  \field{number}{7}
+  \field{pages}{1824\bibrangedash 1831}
+  \field{title}{Null model analysis of species nestedness patterns}
+  \field{volume}{88}
+  \field{journaltitle}{Ecology}
+  \field{year}{2007}
+\endentry
+
 \entry{van1878commensaux}{book}{}
   \name{author}{1}{}{%
     {{}%
@@ -3658,6 +3942,30 @@
   \field{volume}{134}
   \field{journaltitle}{The American Naturalist}
   \field{year}{1989}
+\endentry
+
+\entry{young1958zoogeography}{misc}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Young}{Y.}%
+     {Frank~N}{F.~N.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Darlington}{D.}%
+     {Philip~J}{P.~J.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {JSTOR}%
+  }
+  \strng{namehash}{YFNDPJ1}
+  \strng{fullhash}{YFNDPJ1}
+  \field{labelalpha}{YD58}
+  \field{sortinit}{Y}
+  \field{title}{Zoogeography: The Geographical Distribution of Animals}
+  \field{year}{1958}
 \endentry
 
 \entry{yoon20043d}{inproceedings}{}
