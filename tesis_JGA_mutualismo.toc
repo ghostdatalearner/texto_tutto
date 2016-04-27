@@ -34,21 +34,31 @@
 \contentsline {section}{\numberline {3.1}Propiedades estructurales del mutualismo}{52}{section.123}
 \contentsline {section}{\numberline {3.2}Descripci\IeC {\'o}n basada en la descompisi\IeC {\'o}n \textit {k-core}}{54}{section.124}
 \contentsline {section}{\numberline {3.3}K magnitudes}{56}{section.127}
-\contentsline {subsection}{\numberline {3.3.1}Algoritmo de destrucci\IeC {\'o}n basado en \textit {k-shell}}{60}{subsection.132}
-\contentsline {section}{\numberline {3.4}Material y m\IeC {\'e}todos}{61}{section.134}
-\contentsline {section}{\numberline {3.5}Resultados}{62}{section.136}
-\contentsline {subsection}{\numberline {3.5.1}An\IeC {\'a}lisis exploratorio}{62}{subsection.137}
-\contentsline {subsection}{\numberline {3.5.2}Correlaci\IeC {\'o}n entre \textit {k-magnitudes} y propiedades globales}{64}{subsection.140}
-\contentsline {subsection}{\numberline {3.5.3}Recableado aleatorio}{67}{subsection.145}
-\contentsline {subsection}{\numberline {3.5.4}Rendimiento del algoritmo de destrucci\IeC {\'o}n}{69}{subsection.148}
-\contentsline {section}{\numberline {3.6}Conclusiones}{71}{section.151}
-\contentsline {chapter}{\numberline {4}Visualizaciones}{73}{chapter.152}
-\contentsline {section}{\numberline {4.1}Representaciones cl\IeC {\'a}sicas del mutualismo}{73}{section.153}
-\contentsline {section}{\numberline {4.2}Visualizaciones basadas en \textit {k-magnitudes}}{74}{section.157}
-\contentsline {subsection}{\numberline {4.2.1}El diagrama polar}{75}{subsection.158}
-\contentsline {subsection}{\numberline {4.2.2}El diagrama zigurat}{77}{subsection.161}
-\contentsline {section}{\numberline {4.3}Visualizaci\IeC {\'o}n de la estructura}{87}{section.171}
-\contentsline {section}{\numberline {4.4}Conclusiones}{95}{section.179}
-\contentsline {chapter}{\numberline {5}Conclusiones de la tesis}{97}{chapter.180}
-\contentsline {section}{\numberline {5.1}XXXX mutualismo}{97}{section.181}
-\contentsline {chapter}{Bibliograf\IeC {\'\i }a}{99}{chapter*.182}
+\contentsline {section}{\numberline {3.4}Material y m\IeC {\'e}todos}{60}{section.132}
+\contentsline {subsection}{\numberline {3.4.1}An\IeC {\'a}lisis mediante modelo nulo}{60}{subsection.133}
+\contentsline {subsection}{\numberline {3.4.2}Experimento de recableado}{62}{subsection.135}
+\contentsline {section}{\numberline {3.5}Resultados}{63}{section.137}
+\contentsline {subsection}{\numberline {3.5.1}An\IeC {\'a}lisis exploratorio}{63}{subsection.138}
+\contentsline {subsection}{\numberline {3.5.2}Relaci\IeC {\'o}n entre $degree$ y $k_{degree}$}{65}{subsection.141}
+\contentsline {subsection}{\numberline {3.5.3}Correlaci\IeC {\'o}n entre \textit {k-magnitudes} y propiedades globales}{65}{subsection.143}
+\contentsline {subsection}{\numberline {3.5.4}Recableado aleatorio}{68}{subsection.148}
+\contentsline {subsection}{\numberline {3.5.5}Rendimiento del algoritmo de destrucci\IeC {\'o}n}{70}{subsection.150}
+\contentsline {section}{\numberline {3.6}Conclusiones}{71}{section.153}
+\contentsline {section}{\numberline {3.7}Anexo: K-magnitudes de las redes analizadas}{73}{section.154}
+\contentsline {section}{\numberline {3.8}Anexo: Unidades reducidas}{74}{section.156}
+\contentsline {chapter}{\numberline {4}Visualizaciones}{75}{chapter.158}
+\contentsline {section}{\numberline {4.1}Representaciones cl\IeC {\'a}sicas del mutualismo}{75}{section.159}
+\contentsline {section}{\numberline {4.2}Visualizaciones basadas en \textit {k-magnitudes}}{76}{section.163}
+\contentsline {subsection}{\numberline {4.2.1}El diagrama polar}{77}{subsection.164}
+\contentsline {subsection}{\numberline {4.2.2}El diagrama zigurat}{79}{subsection.167}
+\contentsline {section}{\numberline {4.3}Visualizaci\IeC {\'o}n de la estructura}{89}{section.177}
+\contentsline {section}{\numberline {4.4}Conclusiones}{97}{section.185}
+\contentsline {chapter}{\numberline {5}Estudio de resistencia}{99}{chapter.186}
+\contentsline {section}{\numberline {5.1}Propiedades estructurales del mutualismo}{100}{section.187}
+\contentsline {subsection}{\numberline {5.1.1}Algoritmo de destrucci\IeC {\'o}n basado en \textit {k-shell}}{100}{subsection.188}
+\contentsline {section}{\numberline {5.2}Material y m\IeC {\'e}todos}{102}{section.190}
+\contentsline {subsection}{\numberline {5.2.1}An\IeC {\'a}lisis mediante modelo nulo}{102}{subsection.191}
+\contentsline {section}{\numberline {5.3}Conclusiones}{102}{section.192}
+\contentsline {chapter}{\numberline {6}Conclusiones de la tesis}{103}{chapter.193}
+\contentsline {section}{\numberline {6.1}XXXX mutualismo}{103}{section.194}
+\contentsline {chapter}{Bibliograf\IeC {\'\i }a}{105}{chapter*.195}

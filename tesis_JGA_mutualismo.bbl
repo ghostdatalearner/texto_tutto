@@ -45,6 +45,28 @@
   \field{year}{2008}
 \endentry
 
+\entry{alava2004preferential}{article}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Alava}{A.}%
+     {MJ}{M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Dorogovtsev}{D.}%
+     {SN}{S.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{AMDS1}
+  \strng{fullhash}{AMDS1}
+  \field{labelalpha}{AD04}
+  \field{sortinit}{A}
+  \field{title}{Preferential compactness of networks}
+  \field{journaltitle}{arXiv preprint cond-mat/0407643}
+  \field{year}{2004}
+\endentry
+
 \entry{alvarez2005k}{article}{}
   \name{author}{4}{}{%
     {{}%
@@ -900,6 +922,39 @@
   \field{year}{2015}
 \endentry
 
+\entry{chapanond2005graph}{article}{}
+  \name{author}{3}{}{%
+    {{}%
+     {Chapanond}{C.}%
+     {Anurat}{A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Krishnamoorthy}{K.}%
+     {Mukkai~S}{M.~S.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Yener}{Y.}%
+     {B{\"u}lent}{B.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Springer}%
+  }
+  \strng{namehash}{CAKMSYB1}
+  \strng{fullhash}{CAKMSYB1}
+  \field{labelalpha}{CKY05}
+  \field{sortinit}{C}
+  \field{number}{3}
+  \field{pages}{265\bibrangedash 281}
+  \field{title}{Graph theoretic and spectral analysis of Enron email data}
+  \field{volume}{11}
+  \field{journaltitle}{Computational \& Mathematical Organization Theory}
+  \field{year}{2005}
+\endentry
+
 \entry{csardi2006igraph}{article}{}
   \name{author}{2}{}{%
     {{}%
@@ -1012,6 +1067,36 @@
   \field{volume}{111}
   \field{journaltitle}{Proceedings of the National Academy of Sciences}
   \field{year}{2014}
+\endentry
+
+\entry{dormann2008introducing}{article}{}
+  \name{author}{3}{}{%
+    {{}%
+     {Dormann}{D.}%
+     {Carsten~F}{C.~F.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Gruber}{G.}%
+     {Bernd}{B.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Fr{\"u}nd}{F.}%
+     {Jochen}{J.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{DCFGBFJ1}
+  \strng{fullhash}{DCFGBFJ1}
+  \field{labelalpha}{DGF08}
+  \field{sortinit}{D}
+  \field{pages}{0\bibrangedash 2413793}
+  \field{title}{Introducing the bipartite package: analysing ecological
+  networks}
+  \field{volume}{1}
+  \field{journaltitle}{interaction}
+  \field{year}{2008}
 \endentry
 
 \entry{dorogovtsev2006k}{article}{}
@@ -1147,6 +1232,38 @@
   \field{year}{2009}
 \endentry
 
+\entry{dormann2009indices}{article}{}
+  \name{author}{4}{}{%
+    {{}%
+     {Dormann}{D.}%
+     {Carsten~F}{C.~F.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Fr{\"u}nd}{F.}%
+     {Jochen}{J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Bl{\"u}thgen}{B.}%
+     {Nico}{N.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Gruber}{G.}%
+     {Bernd}{B.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{DCF+1}
+  \strng{fullhash}{DCFFJBNGB1}
+  \field{labelalpha}{Dor+09}
+  \field{sortinit}{D}
+  \field{title}{Indices, graphs and null models: analyzing bipartite ecological
+  networks}
+  \field{year}{2009}
+\endentry
+
 \entry{dormann2014method}{article}{}
   \name{author}{2}{}{%
     {{}%
@@ -1274,6 +1391,64 @@
   \field{title}{Frugivores and seed dispersal}
   \field{volume}{15}
   \field{year}{2012}
+\endentry
+
+\entry{elberling1999structure}{article}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Elberling}{E.}%
+     {Heidi}{H.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Olesen}{O.}%
+     {Jens~M}{J.~M.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Wiley Online Library}%
+  }
+  \strng{namehash}{EHOJM1}
+  \strng{fullhash}{EHOJM1}
+  \field{labelalpha}{EO99}
+  \field{sortinit}{E}
+  \field{number}{3}
+  \field{pages}{314\bibrangedash 323}
+  \field{title}{The structure of a high latitude plant-flower visitor system:
+  the dominance of flies}
+  \field{volume}{22}
+  \field{journaltitle}{Ecography}
+  \field{year}{1999}
+\endentry
+
+\entry{egghe2003measure}{article}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Egghe}{E.}%
+     {Leo}{L.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Rousseau}{R.}%
+     {Ronald}{R.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Wiley Online Library}%
+  }
+  \strng{namehash}{ELRR1}
+  \strng{fullhash}{ELRR1}
+  \field{labelalpha}{ER03}
+  \field{sortinit}{E}
+  \field{number}{3}
+  \field{pages}{193\bibrangedash 202}
+  \field{title}{A measure for the cohesion of weighted networks}
+  \field{volume}{54}
+  \field{journaltitle}{Journal of the American Society for Information Science
+  and Technology}
+  \field{year}{2003}
 \endentry
 
 \entry{encinas2012}{article}{}
@@ -1468,6 +1643,27 @@
   \field{year}{2012}
 \endentry
 
+\entry{gotelli1996null}{article}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Gotelli}{G.}%
+     {Nicholas~J}{N.~J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Graves}{G.}%
+     {Gary~R}{G.~R.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{GNJGGR1}
+  \strng{fullhash}{GNJGGR1}
+  \field{labelalpha}{GG96}
+  \field{sortinit}{G}
+  \field{title}{Null models in ecology.}
+  \field{year}{1996}
+\endentry
+
 \entry{gu2015emerging}{article}{}
   \name{author}{3}{}{%
     {{}%
@@ -1608,6 +1804,34 @@
   \field{volume}{185}
   \field{journaltitle}{Ecological Modelling}
   \field{year}{2005}
+\endentry
+
+\entry{gotelli2012statistical}{article}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Gotelli}{G.}%
+     {Nicholas~J}{N.~J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Ulrich}{U.}%
+     {Werner}{W.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Wiley Online Library}%
+  }
+  \strng{namehash}{GNJUW1}
+  \strng{fullhash}{GNJUW1}
+  \field{labelalpha}{GU12}
+  \field{sortinit}{G}
+  \field{number}{2}
+  \field{pages}{171\bibrangedash 180}
+  \field{title}{Statistical challenges in null model analysis}
+  \field{volume}{121}
+  \field{journaltitle}{Oikos}
+  \field{year}{2012}
 \endentry
 
 \entry{herrero2000terminologia}{article}{}
@@ -1802,6 +2026,46 @@
   \field{volume}{105}
   \field{journaltitle}{Proceedings of the National Academy of Sciences}
   \field{year}{2008}
+\endentry
+
+\entry{joppa2010nestedness}{article}{}
+  \name{author}{5}{}{%
+    {{}%
+     {Joppa}{J.}%
+     {Lucas~N}{L.~N.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Montoya}{M.}%
+     {Jos{\'e}~M}{J.~M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Sol{\'e}}{S.}%
+     {Richard}{R.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Sanderson}{S.}%
+     {Jim}{J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Pimm}{P.}%
+     {Stuart~L}{S.~L.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Evolutionary Ecology}%
+  }
+  \strng{namehash}{JLN+1}
+  \strng{fullhash}{JLNMJMSRSJPSL1}
+  \field{labelalpha}{Jop+10}
+  \field{sortinit}{J}
+  \field{title}{On nestedness in ecological networks}
+  \field{journaltitle}{Evolutionary ecology research. 2010; 12: 35-46}
+  \field{year}{2010}
 \endentry
 
 \entry{jordano1987patterns}{article}{}
@@ -2247,7 +2511,7 @@
   \field{labelalpha}{McC07}
   \field{sortinit}{M}
   \field{number}{7131}
-  \field{pages}{29\bibrangedash 29}
+  \field{pages}{29}
   \field{title}{Protecting biostructure}
   \field{volume}{446}
   \field{journaltitle}{Nature}
@@ -2309,6 +2573,55 @@
   \field{volume}{54}
   \field{journaltitle}{Toxicon}
   \field{year}{2009}
+\endentry
+
+\entry{mello2011modularity}{article}{}
+  \name{author}{6}{}{%
+    {{}%
+     {Mello}{M.}%
+     {Marco Aurelio~Ribeiro}{M.~A.~R.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Marquitti}{M.}%
+     {Fl{\'a}via Maria~Darcie}{F.~M.~D.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Guimaraes~Jr}{G.~J.}%
+     {Paulo~R}{P.~R.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Kalko}{K.}%
+     {Elisabeth Klara~Viktoria}{E.~K.~V.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Jordano}{J.}%
+     {Pedro}{P.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Aguiar}{A.}%
+     {Marcus Aloizio~Martinez}{M.~A.~M.}%
+     {de}{d.}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Springer}%
+  }
+  \strng{namehash}{MMAR+1}
+  \strng{fullhash}{MMARMFMDGJPRKEKVJPAMAMd1}
+  \field{labelalpha}{Mel+11}
+  \field{sortinit}{M}
+  \field{number}{1}
+  \field{pages}{131\bibrangedash 140}
+  \field{title}{The modularity of seed dispersal: differences in structure and
+  robustness between bat--and bird--fruit networks}
+  \field{volume}{167}
+  \field{journaltitle}{Oecologia}
+  \field{year}{2011}
 \endentry
 
 \entry{mosquin1967observations}{article}{}
@@ -3747,6 +4060,34 @@
   \field{year}{2007}
 \endentry
 
+\entry{ulrich2013pattern}{article}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Ulrich}{U.}%
+     {Werner}{W.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Gotelli}{G.}%
+     {Nicholas~J}{N.~J.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Wiley Online Library}%
+  }
+  \strng{namehash}{UWGNJ1}
+  \strng{fullhash}{UWGNJ1}
+  \field{labelalpha}{UG13}
+  \field{sortinit}{U}
+  \field{number}{1}
+  \field{pages}{2\bibrangedash 18}
+  \field{title}{Pattern detection in null model analysis}
+  \field{volume}{122}
+  \field{journaltitle}{Oikos}
+  \field{year}{2013}
+\endentry
+
 \entry{van1878commensaux}{book}{}
   \name{author}{1}{}{%
     {{}%
@@ -3765,6 +4106,40 @@
   \field{title}{Les commensaux et les parasites dans le r{\`e}gne animal}
   \field{volume}{9}
   \field{year}{1878}
+\endentry
+
+\entry{vazquez2009evaluating}{article}{}
+  \name{author}{3}{}{%
+    {{}%
+     {V{\'a}zquez}{V.}%
+     {Diego~P}{D.~P.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Chacoff}{C.}%
+     {Natacha~P}{N.~P.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Cagnolo}{C.}%
+     {Luciano}{L.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Eco Soc America}%
+  }
+  \strng{namehash}{VDPCNPCL1}
+  \strng{fullhash}{VDPCNPCL1}
+  \field{labelalpha}{VCC09}
+  \field{sortinit}{V}
+  \field{number}{8}
+  \field{pages}{2039\bibrangedash 2046}
+  \field{title}{Evaluating multiple determinants of the structure of
+  plant-animal mutualistic networks}
+  \field{volume}{90}
+  \field{journaltitle}{Ecology}
+  \field{year}{2009}
 \endentry
 
 \entry{verhulst1845}{article}{}
@@ -3874,6 +4249,26 @@
   \field{volume}{108}
   \field{journaltitle}{Oikos}
   \field{year}{2005}
+\endentry
+
+\entry{wagner2003does}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Wagner}{W.}%
+     {Andreas}{A.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{WA1}
+  \strng{fullhash}{WA1}
+  \field{labelalpha}{Wag03}
+  \field{sortinit}{W}
+  \field{number}{202}
+  \field{pages}{PE41}
+  \field{title}{Does selection mold molecular networks}
+  \field{volume}{2003}
+  \field{journaltitle}{Sci STKE}
+  \field{year}{2003}
 \endentry
 
 \entry{williams2011biology}{article}{}
@@ -4049,6 +4444,31 @@
   \field{volume}{53}
   \field{journaltitle}{The Journal of Supercomputing}
   \field{year}{2010}
+\endentry
+
+\entry{zhang2011constructing}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Zhang}{Z.}%
+     {WenJun}{W.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{2}{%
+    {International Academy of Ecology}%
+    {Environmental Sciences (IAEES)}%
+  }
+  \strng{namehash}{ZW1}
+  \strng{fullhash}{ZW1}
+  \field{labelalpha}{Zha11}
+  \field{sortinit}{Z}
+  \field{number}{2}
+  \field{pages}{81}
+  \field{title}{Constructing ecological interaction networks by correlation
+  analysis: hints from community sampling}
+  \field{volume}{1}
+  \field{journaltitle}{Network Biology}
+  \field{year}{2011}
 \endentry
 
 \lossort

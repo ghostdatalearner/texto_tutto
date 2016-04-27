@@ -138,7 +138,9 @@ El \textit{$\overline k_{radius}$} de una red se obtiene promediando los ${k}_{r
 \label{ESTATICA_avgkradius}
 \end{theo}
 
-Una red con todos sus nodos conectados (matriz de adyacencia cuadrada) tendría $\overline {k}_{radius}=1$, el menor posible. En una con matriz de adyacencia triangular el $\overline {k}_{radius}$ vale $1.5$. Intuitivamente, el $\overline {k}_{radius}$ será pequeño para redes muy anidadas, porque la probabilidad de conexión con la \textit{shell} más interna es elevada. Las especies generalistas están muy interconectadas y las especialistas tienen enlaces directos con las \textit{k-shells} de mayor índice. por el contrario, una distribución de enlaces puramente aleatoria conduciría a una red con mayor $\overline {k}_{radius}$.
+Una red con todos sus nodos conectados (matriz de adyacencia cuadrada) tendría $\overline {k}_{radius}=1$, el menor posible. En una con matriz de adyacencia triangular el $\overline {k}_{radius}$ vale $1.5$. Intuitivamente, el $\overline {k}_{radius}$ será pequeño para redes muy anidadas, porque la probabilidad de conexión con la \textit{shell} más interna es elevada. Las especies generalistas están muy interconectadas y las especialistas tienen enlaces directos con las \textit{k-shells} de mayor índice. Por el contrario, una distribución de enlaces puramente aleatoria conduciría a una red con mayor $\overline {k}_{radius}$.
+
+Es necesario aclarar en este punto que $\overline {k}_{radius}$ no es una medida de anidamiento, sino de compacidad. La noción de \textit{network compactness} se ha utilizado con diferentes sentidos y no siempre precisos en la literatura \cite{wagner2003does, egghe2003measure, chapanond2005graph, zhang2011constructing}. Nosotros utilizaremos una de las definiciones más laxas, la que indica que una red es compacta cuando los nodos se conectan de manera preferente a las partes más centrales \cite{alava2004preferential}. Es en este sentido en el que nos referiremos a $\overline {k}_{radius}$ como medida de compacidad de la red.
 
 El ${k}_{radius}$ es una buena medida de conexión al corazón de la red pero no de centralidad. Por ejemplo, su valor es bajo para un especialista con un enlace a la \textit{shell} más interna, aunque sabemos que no resulta determinante para la estabilidad global de la red. Para atender esta necesidad, definimos una segunda \textit{k-magnitud}.
 
@@ -198,147 +200,61 @@ En la tabla \ref{table:table_SD_030} pueden consultarse los valores de las \text
   \caption{\label{table:table_SD_030} \textit{K-magnitudes} de la red de la figura \ref{fig:ESTATICA_SD_030_example_distances}. Valores globlales: $\overline k_{radius} = 1,5 $ y $\overline k_{degree} = 2,24$.}
 \end{table}%
 
-\subsection{Algoritmo de destrucción basado en \textit{k-shell}}
-
-Para poder establecer políticas de conservación es necesario disponer de un respaldo cuantitativo, localizando a las especies que más contribuyen a la estabilidad de las redes \cite{sole2001fragility, dakos2014resilience, thebault2010stability, suweis2013emergence, santamaria2015removing}.  Hay dos aproximaciones posibles. La primera se basa en la dinámica de ponlaciones y depende en gran medida de la parametrización del modelo elegido \cite{dakos2014critical}. La segunda, que utiliza solo la topología de la red, es más sencilla de implementar y por tanto mucho más popular. Es la que seguimos en este capítulo.
-
-La biodiversidad y resistencia de una comunidad mutualista depende de su estructura. La extinción de algunas especies provoca que partes de la red queden desconectadas de la componente gigante y posiblemente expuestas a la desaparición. Por este motivo, la evolución del tamaño de la componente gigante cuando se eliminan especies es el criterio más utilizado para estudiar la resistencia estructural estática.
-
-Esto es lo que hace el método de medida de Dunne \cite{dunne2002biodiversity}, ideado en origen para \textit{food webs}. Las especies se van retirando una por una de la red (extinciones primarias). Este hecho produce extinciones secundarias de aquellas especies. La gráfica de la fracción de la red inicial superviviente, frente a la fracción de extinciones primarias (en escala normalizada entre 0 y 1) define la \textit{curva de extinción}. Cuanto menor sea el área bajo esta curva, más rápida será la destrucción de la red.
-
-\begin{figure}[h!]
-\centering
-\includegraphics[scale=0.55]{Figures/ESTATICA_destruction_example.png}
-\caption{Ejemplo de curva de extinción siguiendo el método de Dunne. El área bajo la curva indica la velocidad a la que se desintegra la componente gigante.}
-\label{fig:ESTATICA_destruction_example}
-\end{figure}
-
-La clave está en el orden de selección de las especies que se retiran en las extinciones primarias. Si disponemos de una cifra que defina su importancia para esa red concreta, se podrán concentrar los esfuerzos de conservación en las especies que más aportan a la supervivencia del sistema. El problema es que no existe un criterio universalmente aceptado para establecer esa clasificación que resulte óptimo para cualquier red.
-
-En el mutualismo, parece lógico pensar que las especies de las \textit{shells} más internas son las más importantes para mantener la integridad de la red. El algoritmo de destrucción que proponemos se basa en la secuencia $k$-$shell, k_{degree}, k_{radius}$, esto es, se empiezan las extinciones primarias por las especies pertenecientes a la $k$-$shell$ de mayor índice, y dentro de esta, el de mayor $k_{degree}$, y en caso de coincidencia, el de menor $k_{radius}$. 
-
 \section{Material y métodos}
 
 Para este capítulo hemos utilizado la colección de datos de redes mutualistas de la \textit{Web of Life}  \url{http://www.web-of-life.es/} \cite{fortuna2014web}. Hemos analizado todas las disponibles en las categorías \textit{planta-polinizador} y \textit{planta-dispersor de semillas}. En diciembre de 2015 dicha colección consta de 59 redes de la primera familia y 30 de la segunda. El número de especies por red varía entre 6 y 997 y el número de interacciones entre 6 y 2993.
 
 El software se ha desarrollado en \texttt{R} y \texttt{Python}. La \textit{descomposición k-core} se realiza con el paquete \texttt{R} \texttt{igraph} \cite{csardi2006igraph}. El mismo paquete ofrece funciones para el cálculo de $NODF$ y $Modularity$. El código \texttt{R} para medir ${k}_{degree}$ y ${k}_{radius}$ es propio. Los valores medios de estas magnitudes se calculan descartando las especies que no pertenecen a la componente gigante cuando en la red se produce esta circunstancia. 
 
-Para medir la bondad del algoritmo de destrucción, hemos comparado su rendimiento con el que ofrece \textit{MusRank}, de reciente publicación y basado en una clasificación de la importancia de los nodos similar a la del \textit{PageRank} de Google  \citep{dominguez2015ranking}. Tanto el algoritmo basado en \textit{k-shell} como la medición del \textit{MusRank} se han codificado en \texttt{Python}.
+\subsection{Análisis mediante modelo nulo}
+\label{sec:nullmodels}
 
-\begin{table}[htbp]
-\tiny
-  \centering
-    \begin{tabular}{lrrrrrrrrr}
-    \toprule
-    $Red$  & $Plantas$ & $Animales$ & $Enlaces$ & $k_{max}$ & $\overline k_{degree}$ & $\overline k_{radius}$ & $NODF$ & $Modularity$ & $Area_{Mus-k}$ \\
-    \midrule
- 
-    M\_PL\_001 & 84   & 101  & 361  & 4    & 1,56 & 3,01 & 14,46 & 0,45 & 0,08 \\
-    M\_PL\_002 & 43   & 64   & 196  & 3    & 1,4  & 3,04 & 15,36 & 0,48 & 0,11 \\
-    M\_PL\_003 & 36   & 25   & 81   & 2    & 0,93 & 3,31 & 19,19 & 0,57 & 0,02 \\
-    M\_PL\_004 & 12   & 102  & 167  & 3    & 1,52 & 2,53 & 28,15 & 0,45 & 0,09 \\
-    M\_PL\_005 & 96   & 275  & 923  & 8    & 2,54 & 2,8  & 14,74 & 0,24 & 0,14 \\
-    M\_PL\_006 & 17   & 61   & 146  & 4    & 2,28 & 2,44 & 44,58 & 0,33 & 0,04 \\
-    M\_PL\_007 & 16   & 36   & 85   & 3    & 1,68 & 2,51 & 31,54 & 0,36 & 0,12 \\
-    M\_PL\_008 & 11   & 38   & 106  & 4    & 2,19 & 2,37 & 35,97 & 0,21 & 0,03 \\
-    M\_PL\_009 & 24   & 118  & 242  & 4    & 1,54 & 2,81 & 15,39 & 0,44 & 0,16 \\
-    M\_PL\_010 & 31   & 76   & 456  & 8    & 4,57 & 2,38 & 35,17 & 0,02 & 0,03 \\
-    M\_PL\_011 & 14   & 13   & 52   & 3    & 2,27 & 2,16 & 54,59 & 0,29 & 0 \\
-    M\_PL\_012 & 29   & 55   & 145  & 4    & 2,01 & 2,51 & 30,4 & 0,42 & 0,05 \\
-    M\_PL\_013 & 9    & 56   & 103  & 4    & 1,96 & 2,4  & 34,25 & 0,38 & 0,14 \\
-    M\_PL\_014 & 29   & 81   & 179  & 3    & 1,48 & 2,8  & 25,68 & 0,44 & 0,08 \\
-    M\_PL\_015 & 131  & 666  & 2933 & 9    & 2,9  & 2,88 & 9,17 & 0,35 & 0,08 \\
-    M\_PL\_016 & 26   & 179  & 412  & 5    & 1,88 & 2,73 & 21,98 & 0,42 & 0,15 \\
-    M\_PL\_017 & 25   & 79   & 299  & 6    & 3,28 & 2,47 & 40,37 & 0,15 & 0,04 \\
-    M\_PL\_018 & 39   & 105  & 383  & 5    & 2,26 & 2,74 & 19,73 & 0,24 & 0,11 \\
-    M\_PL\_019 & 40   & 85   & 264  & 5    & 1,97 & 2,71 & 17,51 & 0,34 & 0,13 \\
-    M\_PL\_020 & 20   & 91   & 190  & 4    & 1,84 & 2,56 & 37,12 & 0,39 & 0,09 \\
-    M\_PL\_021 & 91   & 677  & 1193 & 5    & 1,23 & 3,06 & 7,55 & 0,58 & 0,21 \\
-    M\_PL\_022 & 21   & 45   & 83   & 2    & 0,84 & 3,68 & 18,02 & 0,6  & 0,14 \\
-    M\_PL\_023 & 23   & 72   & 125  & 3    & 1,35 & 2,75 & 22,88 & 0,54 & 0,14 \\
-    M\_PL\_024 & 11   & 18   & 38   & 3    & 1,71 & 1,97 & 29,02 & 0,42 & 0,16 \\
-    M\_PL\_025 & 13   & 44   & 143  & 5    & 3,4  & 2,13 & 46,02 & 0,16 & 0 \\
-    M\_PL\_026 & 105  & 54   & 204  & 3    & 1,13 & 2,85 & 25,13 & 0,56 & 0,11 \\
-    M\_PL\_027 & 18   & 60   & 120  & 3    & 1,2  & 2,96 & 13,94 & 0,55 & 0,19 \\
-    M\_PL\_028 & 41   & 139  & 374  & 5    & 2,11 & 2,75 & 16,43 & 0,37 & 0,1 \\
-    M\_PL\_029 & 49   & 118  & 346  & 5    & 1,94 & 2,76 & 15,77 & 0,41 & 0,12 \\
-    M\_PL\_030 & 28   & 53   & 109  & 2    & 0,83 & 3,54 & 11,16 & 0,54 & 0,17 \\
-    M\_PL\_031 & 48   & 49   & 156  & 4    & 1,57 & 3,39 & 12,34 & 0,54 & 0,05 \\
-    M\_PL\_032 & 7    & 33   & 65   & 3    & 2,41 & 2,07 & 56,66 & 0,1  & 0,05 \\
-    M\_PL\_033 & 13   & 34   & 141  & 5    & 3,4  & 2,24 & 29,5 & 0,07 & 0,04 \\
-    M\_PL\_034 & 26   & 128  & 312  & 5    & 2,1  & 2,61 & 25,01 & 0,42 & 0,08 \\
-    M\_PL\_035 & 61   & 36   & 178  & 4    & 1,74 & 2,85 & 25,74 & 0,43 & 0 \\
-    M\_PL\_036 & 10   & 12   & 30   & 2    & 1,31 & 2,51 & 35,96 & 0,38 & 0,09 \\
-    M\_PL\_037 & 10   & 40   & 72   & 3    & 1,37 & 2,7  & 23,16 & 0,44 & 0,14 \\
-    M\_PL\_038 & 8    & 42   & 79   & 3    & 1,56 & 2,44 & 28,31 & 0,39 & 0,06 \\
-    M\_PL\_039 & 17   & 51   & 129  & 4    & 1,99 & 2,61 & 25,34 & 0,45 & 0,12 \\
-    M\_PL\_040 & 29   & 43   & 114  & 3    & 1,32 & 2,92 & 15,18 & 0,5  & 0,03 \\
-    M\_PL\_041 & 31   & 43   & 145  & 4    & 2,11 & 2,51 & 25,3 & 0,35 & 0,11 \\
-    M\_PL\_042 & 12   & 6    & 25   & 3    & 2,34 & 1,71 & 49,79 & 0,33 & 0,07 \\
-    M\_PL\_043 & 28   & 82   & 250  & 4    & 1,99 & 2,71 & 22,17 & 0,29 & 0,1 \\
-    M\_PL\_044 & 110  & 609  & 1125 & 4    & 1,12 & 3,36 & 4,92 & 0,57 & 0,22 \\
-    M\_PL\_045 & 17   & 26   & 63   & 3    & 1,73 & 2,43 & 30,77 & 0,45 & 0,09 \\
-    M\_PL\_046 & 16   & 44   & 278  & 8    & 6,45 & 1,96 & 63,6 & -0,03 & 0 \\
-    M\_PL\_047 & 19   & 186  & 425  & 6    & 2,31 & 2,56 & 29,96 & 0,29 & 0,09 \\
-    M\_PL\_048 & 30   & 236  & 671  & 7    & 2,78 & 2,61 & 26,23 & 0,21 & 0,08 \\
-    M\_PL\_049 & 37   & 225  & 590  & 6    & 2,08 & 2,76 & 18,13 & 0,38 & 0,14 \\
-    M\_PL\_050 & 14   & 35   & 86   & 3    & 1,71 & 2,49 & 32,58 & 0,43 & 0,08 \\
-    M\_PL\_051 & 14   & 90   & 164  & 4    & 2,13 & 2,34 & 26,96 & 0,45 & 0,1 \\
-    M\_PL\_052 & 15   & 39   & 92   & 3    & 1,7  & 2,51 & 30,91 & 0,31 & 0,14 \\
-    M\_PL\_053 & 99   & 294  & 589  & 3    & 0,92 & 3,8  & 4,71 & 0,58 & 0,2 \\
-    M\_PL\_054 & 113  & 318  & 773  & 5    & 1,42 & 3,07 & 8,08 & 0,46 & 0,2 \\
-    M\_PL\_055 & 64   & 195  & 431  & 4    & 1,29 & 3,13 & 8,71 & 0,52 & 0,19 \\
-    M\_PL\_056 & 91   & 365  & 871  & 5    & 1,43 & 3,24 & 6,86 & 0,46 & 0,17 \\
-    M\_PL\_057 & 114  & 883  & 1920 & 8    & 1,8  & 2,88 & 7,04 & 0,48 & 0,23 \\
-    M\_PL\_058 & 32   & 81   & 319  & 6    & 3,03 & 2,48 & 26,64 & 0,22 & 0,06 \\
-    M\_PL\_059 & 13   & 13   & 71   & 5    & 4,72 & 1,57 & 76,88 & 0,04 & 0,01 \\
-    M\_SD\_001 & 7    & 21   & 50   & 3    & 2,33 & 2,16 & 40,77 & 0,18 & 0,06 \\
-    M\_SD\_002 & 31   & 9    & 119  & 6    & 4,61 & 1,85 & 62,16 & 0,02 & -0,02 \\
-    M\_SD\_003 & 25   & 16   & 68   & 3    & 1,78 & 2,45 & 41,09 & 0,33 & 0,05 \\
-    M\_SD\_004 & 34   & 20   & 95   & 4    & 2,37 & 2,19 & 39,82 & 0,35 & 0,01 \\
-    M\_SD\_005 & 25   & 13   & 49   & 3    & 1,33 & 2,38 & 27,93 & 0,53 & 0,1 \\
-    M\_SD\_006 & 21   & 15   & 51   & 3    & 1,51 & 2,35 & 32,79 & 0,45 & 0,08 \\
-    M\_SD\_007 & 72   & 7    & 143  & 3    & 2,34 & 2,37 & 51,67 & 0,28 & 0 \\
-    M\_SD\_008 & 16   & 10   & 110  & 7    & 6,56 & 1,48 & 56,33 & -0,04 & -0,01 \\
-    M\_SD\_009 & 7    & 18   & 38   & 3    & 1,9  & 2,15 & 33,02 & 0,32 & 0,06 \\
-    M\_SD\_010 & 50   & 14   & 234  & 6    & 4,48 & 2,14 & 42,13 & 0,04 & -0,1 \\
-    M\_SD\_011 & 11   & 14   & 47   & 3    & 2,14 & 2,17 & 45,41 & 0,31 & 0,03 \\
-    M\_SD\_012 & 35   & 29   & 146  & 4    & 2,31 & 2,57 & 33,04 & 0,23 & 0 \\
-    M\_SD\_013 & 36   & 19   & 197  & 7    & 4,38 & 2,31 & 37,37 & 0,33 & -0,13 \\
-    M\_SD\_014 & 16   & 17   & 121  & 5    & 5,16 & 1,87 & 78,76 & 0,08 & -0,01 \\
-    M\_SD\_015 & 5    & 27   & 86   & 4    & 4,25 & 1,65 & 67,34 & 0,03 & -0,01 \\
-    M\_SD\_016 & 24   & 61   & 500  & 11   & 8,4  & 2,01 & 58,84 & 0    & 0,01 \\
-    M\_SD\_017 & 16   & 8    & 72   & 5    & 4,74 & 1,63 & 60,12 & 0,08 & -0,04 \\
-    M\_SD\_018 & 29   & 32   & 66   & 2    & 0,75 & 3,41 & 11,21 & 0,59 & 0,21 \\
-    M\_SD\_019 & 169  & 40   & 666  & 7    & 3,23 & 2,62 & 32,87 & 0,33 & -0,09 \\
-    M\_SD\_020 & 25   & 33   & 150  & 5    & 3,07 & 2,31 & 53,55 & 0,13 & -0,01 \\
-    M\_SD\_021 & 18   & 28   & 129  & 5    & 3,46 & 2,19 & 61,52 & 0,18 & -0,01 \\
-    M\_SD\_022 & 207  & 110  & 1121 & 8    & 3,21 & 2,8  & 16,81 & 0,2  & -0,01 \\
-    M\_SD\_023 & 15   & 8    & 38   & 3    & 2,3  & 2,03 & 66,8 & 0,22 & 0 \\
-    M\_SD\_024 & 12   & 7    & 40   & 3    & 2,5  & 1,99 & 56,83 & 0,12 & -0,02 \\
-    M\_SD\_025 & 7    & 6    & 22   & 3    & 2,41 & 1,69 & 66,67 & 0,19 & 0 \\
-    M\_SD\_026 & 3    & 3    & 6    & 2    & 1,83 & 1,33 & 100  & 0,17 & 0 \\
-    M\_SD\_027 & 12   & 4    & 31   & 4    & 3,45 & 1,53 & 73,61 & 0    & 0 \\
-    M\_SD\_028 & 8    & 5    & 26   & 4    & 3,65 & 1,38 & 89,47 & 0,02 & 0 \\
-    M\_SD\_029 & 4    & 5    & 10   & 2    & 1,98 & 1,52 & 81,25 & 0,27 & 0 \\
-    M\_SD\_030 & 5    & 4    & 11   & 2    & 2,24 & 1,5  & 66,67 & 0,23 & 0 \\
-    
-    \bottomrule
-    \end{tabular}%
-    \caption{\label{table:table_results} Propiedades de las redes utilizadas en el estudio.}
+El análisis de modelo nulo es una técnica para evaluar la significación estadística de las magnitudes de red y resulta imprescindible cuando estas no son libres de escala \cite{gotelli1996null}. En particular se ha aplicado en diversos trabajos para estudiar la validez de las distintas medidas de anidamiento \cite{ulrich2013pattern, feng2014heterogeneity} y modularidad \cite{fortuna2010nestedness, mello2011modularity}. En esta investigación se ha empleado para comparar el comportamiento de $\overline k_{radius}$ y de la medida de anidamiento $NODF$.
 
-\end{table}%
+Un modelo nulo no es más que una modificación aleatoria de la red original. Para valorar la significación estadística de un índice, se genera un
+número elevado de redes según el modelo nulo y se construye la distribución de probabilidad, que tenderá, por el teorema del límite central a una gaussiana. Si el valor de la red real no se debe a puro azar sino a una propiedad intrínseca, será significativo desde el punto de vista estadístico. De forma habitual se considera que esto es así
+si se aleja al menos dos desviaciones estándar de la media estimada. En general se utilizarán unidades reducidas en este procecidimiento ($z scores$).
 
+Hay numerosos modelos nulos disponibles, en función de los criterios con que se desee construir la red modificada. Esto plantea un reto a los investigadores porque los resultados y las conclusiones que se desprendan de ellos dependerán del modelo elegido \cite{ulrich2007null,gotelli2012statistical}. Así, si se utilizan modelos muy restrictivos, no puede afirmarse que las redes mutualistas sean fuertemente anidadas, en especial las que tienen matriz de interacción pesada \cite{joppa2010nestedness, staniczenko2013ghost}. Si se utilizan modelos menos condicionados, el anidamiento es entonces más habitual, como indicaba el trabajo seminal de Bascopmte \textit{et al} \cite{bascompte2003nested}.
+
+En este estudio se han utilizado los dos modelos nulos de uso más frecuente en el análisis de redes binarias y pesadas, ambos disponibles como funciones del paquete \texttt{bipartite} en lenguaje \texttt{R} \cite{dormann2008introducing}. Para las pesadas, se emplea el modelo \texttt{swap.web}, en el que se conservan la conectancia y las distribuciones marginales \cite{ dormann2009indices}. Para las redes binaras se ha escogido el modelo \texttt{mgen} que devuelve un modelo aleatorio que conserva tan solo el número de enlaces de la red original\cite{vazquez2009evaluating}. Este segundo es mucho menos restrictivo que el primero.
+
+\begin{figure}[hp!]
+\centering
+\includegraphics[scale=0.5]{Figures/ESTATICA_zALL.png}
+\caption{Ejemplo de $z scores$ de $NODF$ y $z\overline k_{radius}$ para una red de polinizadores con matriz de interacción binaria \cite{elberling1999structure} }
+\label{fig:zscores}
+\end{figure}
+
+El propósito no es llevar a cabo un análisis exhaustivo con modelos de diferente nivel de restricción sino comparar el comportamiento de $\overline k_{radius}$ con el de $NODF$. Para
+cada red se generan $1000$ modelos nulos con los que se construyen las distribuciones de probabilidad de $NODF$ and $\overline k_{radius}$. El valor $zNODF$ de la red original es estadísticamente significativo si es mayor que $2$, ya que este índice crece con el anidamiento, en tanto que $z\overline k_{radius}$ debe ser menor que $-2$ para que se pueda afirmar que la red es compacta (figure \ref{fig:zscores}).
+
+\subsection{Experimento de recableado}
+
+El objetivo de este experimento es medir la correlación de $NODF$ and $\overline k_{radius}$, para una red dada, cuando algunos de sus enlaces son recableados de forma aleatoria. Este procedimiento se aplica solo a las redes binarias, por la complejidad de definir un método de recableado para las pesadas que no altere por completo su estructura.
+
+Se empieza cambiando uno por ciento de los enlaces, seleccionados al azar sin reemplazo. Las \textit{k-magnitudes} de la red alterada se calculan y se almacenan. La operación se repite con el porcentaje ente $1$ y $50$ en $25$ pasos. El recableado se aplica siempre a la red original, no es acumulativo. 
+
+El experimento se repite $10$ veces para cada red. Es equivalente a un modelo nulo que conserva el número de enlaces pero en el que solo se deja espacio al azar en un porcentaje reducido. La evolución de $NODF$ y $\overline k_{radius}$ y de sus \textit{z-scores} puede así compararse con los parámetros de la red original y con los del modelo nulo explicado en la sección \ref{sec:nullmodels} (figura \ref{fig:z_M_PL_012_rewire_Binary_ES_model_5}).
+
+\begin{figure}[h!]
+\centering
+\includegraphics[scale=0.7]{Figures/ESTATICA_z_M_PL_012_rewire_Binary_ES_model_5.png}
+\caption {Gráfica del experimento de recableado para la red de polinizadores número $12$ (Parque de Garajonay, compilada por Olesen, no publicada). La nube de cruces pequeñas representa los pares de valores $zNODF,z\overline k_{radius}$ de las $1000$ realizaciones del modelo nulo. Los puntos representan ese par de valores para cada red recableada. El aspa azul dentro de un círculo señala los valores de $zNODF,z\overline k_{radius}$ de la red original. En gris, el resultado de la regresión lineal para los valores de las redes recableadas.}
+\label{fig:z_M_PL_012_rewire_Binary_ES_model_5}
+\end{figure}
+
+\clearpage
 \section{Resultados}
 
 En este apartado se describen los resultados de los siguientes procedimientos: análisis exploratorio de los datos de las redes de la colección, estudio de la correlación entre las \textit{k-magnitudes} las medidas estadísticas habituales, experimento de recableado y comparación del algoritmo de destrucción basado en \textit{k-shell} con el basado en \textit{MusRank}.
 
 \subsection{Análisis exploratorio}
 
-En la figura \ref{fig:ESTATICA_hist_kmagnitudes} se han representado los histogramas de las tres \textit{k-magnitudes} que describen globalmente las redes incluidas en la investigación. En la mitad de ellas el índice $k$ máximo es $4$ o menos y solo hay dos que tengan más de $8$. La distribución del $\overline{k}_{radius}$ es aproximadamente normal, con una mediana de $2,51$ y media $2,47$. Teniendo en cuenta que el valor mínimo de esta magnitud es $1$, podemos deducir que las redes mutualistas analizadas son \textit{very small world}, las especies se encuentran muy próximas a la \textit{k-shell} más interna. Este dato concuerda con la observación de que los especialistas se conectan con generalistas lo que les proporciona más probabilidades de supervivencia. Finalmente, el $\overline{k}_{degree}$ se
+La figura \ref{fig:ESTATICA_hist_kmagnitudes} contiene los histogramas de las tres \textit{k-magnitudes} globales que describen las redes incluidas en la investigación. En la mitad de ellas el $k$ máximo es $4$ o inferior y solo hay dos en las que este índice supere $8$. La distribución del $\overline{k}_{radius}$ es aproximadamente normal, con una mediana de $2,51$ y media $2,47$. Teniendo en cuenta que el valor mínimo de esta magnitud es $1$, podemos deducir que las redes mutualistas analizadas son \textit{very small world}, las especies se encuentran muy próximas a la \textit{k-shell} más interna. Este dato concuerda con la observación de que los especialistas se conectan con generalistas lo que les proporciona más probabilidades de supervivencia. Finalmente, el $\overline{k}_{degree}$ se
 concentra entre los valores $0,5$ y $3,5$ con la mediana en $2,08$. La conectividad media de las redes es reducida
 porque abundan los especialistas. En el tercer histograma hay una diferencia sensible entre las redes de polinizadores
-y las de dispersores de semillas, pues estas últimas tienen valores más elevados.
+y las de dispersores de semillas, estas últimas tienen valores más elevados.
 
 \begin{figure}[h!]
 \centering
@@ -347,18 +263,30 @@ y las de dispersores de semillas, pues estas últimas tienen valores más elevad
 \label{fig:ESTATICA_hist_kmagnitudes}
 \end{figure}
 
-En una primera aproximación visual a los datos, encontramos que existía una alta correlación entre el $\overline{k}_{radius}$ de la red y el número de especies (figura \ref{fig:ESTATICA_tamanyo_kdegree_kradius}). Como cabía esperar, cuanto mayor es la red, mayor es la distancia media a la \textit{shell} máxima. El crecimiento sigue una ley logarítmica, nótese la escala del eje $X$. Sucede algo parecido con el número de enlaces, pero en este caso se puede apreciar mayor dispersión. 
+En una primera aproximación visual a los datos, se observa que que existe una correlación notable entre el $\overline{k}_{radius}$ de la red y el número de especies (figura \ref{fig:ESTATICA_tamanyo_kdegree_kradius}), impresión que confirman los datos de la regresión lineal. Como cabía esperar, cuanto mayor es la red, mayor es la distancia media a la \textit{shell} máxima. El crecimiento sigue una ley logarítmica, nótese la escala del eje $X$. Sucede algo parecido con el número de enlaces, pero en este caso se puede apreciar mayor dispersión. Podemos concluis que $\overline{k}_{radius}$ no es libre de escala.
 
-Por el contrario, el $\overline{k}_{degree}$ no parece guardar ninguna relación con el tamaño de la red, ya se mida en número total de especies o de enlaces. Vemos que para la mayoría de redes su valor está en torno a $2$. Este dato hace sospechar que la distribución del ${k}_{degree}$ en las redes sigue una exponencial decreciente. La mayoría de los nodos tienen valores bajos, por lo que la media arroja ese valor tan pequeño. En la figura \ref{fig:ESTATICA_density_plots} aparecen las gráficas de dicha distribución de tres redes en las que resulta evidente la asimetría. 
+Por el contrario, $\overline{k}_{degree}$ no parece guardar relación con el tamaño de la red, ya se mida en número total de especies o de enlaces. Para la mayoría de redes su valor está en torno a $2$. Este dato hace sospechar que la distribución de ${k}_{degree}$ en las redes es muy heterogénea. La mayoría de los nodos tienen valores bajos, por lo que la media arroja ese valor tan reducido. En la figura \ref{fig:ESTATICA_density_plots} aparecen las gráficas de dicha distribución de tres redes en las que resulta evidente la asimetría. 
 
 \begin{figure}[h!]
 \centering
-\includegraphics[scale=0.18]{Figures/ESTATICA_tamanyo_kdegree_kradius.png}
+\includegraphics[scale=0.55]{Figures/ESTATICA_tamanyo_kdegree_kradius.png}
 \caption{Diagramas de dispersión que relacionan las \textit{k-magnitudes} con el tamaño de la red.}
 \label{fig:ESTATICA_tamanyo_kdegree_kradius}
 \end{figure}
 
-Si observamos la relación entre las dos \textit{k-magnitudes} y el indíce $k$ máximo de la red, descubrimos que la relación es inversa, el $\overline{k}_{degree}$ crece con el índice y el $\overline{k}_{radius}$ disminuye. No obstante, se aprecia una importante dispersión para redes con un mismo $k$ máximo.
+Al observar la relación entre las dos \textit{k-magnitudes} y el índice $k$ máximo de la red, se descubre que el comportamiento es diferente. El $\overline{k}_{radius}$ no guarda relación con el $k$ máximo y se observa una importante dispersión de valores para un mismo índice $k$ máximo. Este dato puede resultar paradójico pues un $k$ elevado significa que en la red puede haber caminos largos. No obstante, el cálculo de $\overline{k}_{radius}$ se hace con los caminos más cortos, y al existir una alta conectividad directa con la \textit{shell} más interna, este no es el factor más determinante. La correlación de $\overline{k}_{degree}$ crece con el $k$ máximo es notable. El $k$ máximo crece con la conectividad, y en consecuencia es lógico que $\overline{k}_{degree}$ se comporte de forma similar a este índice.
+
+\subsection{Relación entre $degree$ y $k_{degree}$}
+
+Las distribuciones de grado de las redes mutualistas siguen leyes de potencia truncada \cite{jordano2003invariant,vazquez2005degree}. El grado se utiliza de manera habitual como un indicador de importancia de la especie dentro de la red. Es muy sencillo de medir pero no está exento de inconvenientes.
+
+La descomposición \textit{k-core} ha permitido definir el $k_{degree}$ como un grado ponderado por la distancia a la \textit{shell} máxima
+\begin{figure}[h!]
+\centering
+\includegraphics[scale=0.5]{Figures/ESTATICA_kdegree_over_degree_M_PL_001.png}
+\caption{Diagramas de dispersión que relacionan las \textit{k-magnitudes} con el tamaño de la red.}
+\label{fig:ESTATICA_tamanyo_kdegree_kradius}
+\end{figure}
 
 
 \subsection{Correlación entre \textit{k-magnitudes} y propiedades globales}
@@ -429,67 +357,67 @@ Hay un porcentaje no despreciable de redes que no siguen esa variación para las
 Lo que muestra cualitativamente este experimento, es que cuanto  mayores son el tamaño y la simetría, las redes parecen menos destructibles ante pequeños cambios. El valor de la correlación del experimento de recableado podría utilizarse como indicador numérico de la resistencia a una variación de las condiciones ambientales.
 
 % Table generated by Excel2LaTeX from sheet 'Hoja1'
-\begin{table}[ht!]
-  \centering
-  \tiny
-    \begin{tabular}{lrrrr}
-    \toprule
-    $Red$ & $Plantas$ & $Animales$ & $Asimetría de clases$ & $Corr \overline r_{radius} y NODF$ \\
-    \midrule
-    M\_PL\_001 & 84   & 101  & 0,09 & -0,89 \\
-    M\_PL\_002 & 43   & 64   & 0,20 & -0,78 \\
-    M\_PL\_003 & 36   & 25   & 0,18 & -0,67 \\
-    M\_PL\_004 & 12   & 102  & 0,79 & -0,76 \\
-    M\_PL\_006 & 17   & 61   & 0,56 & -0,27 \\
-    M\_PL\_007 & 16   & 36   & 0,38 & -0,35 \\
-    M\_PL\_008 & 11   & 38   & 0,55 & -0,64 \\
-    M\_PL\_009 & 24   & 118  & 0,66 & -0,83 \\
-    M\_PL\_010 & 31   & 76   & 0,42 & -0,91 \\
-    M\_PL\_012 & 29   & 55   & 0,31 & -0,94 \\
-    M\_PL\_013 & 9    & 56   & 0,72 & -0,56 \\
-    M\_PL\_014 & 29   & 81   & 0,47 & -0,71 \\
-    M\_PL\_017 & 25   & 79   & 0,52 & -0,46 \\
-    M\_PL\_018 & 39   & 105  & 0,46 & -0,88 \\
-    M\_PL\_019 & 40   & 85   & 0,36 & -0,77 \\
-    M\_PL\_020 & 20   & 91   & 0,64 & -0,87 \\
-    M\_PL\_022 & 21   & 45   & 0,36 & 0,07 \\
-    M\_PL\_023 & 23   & 72   & 0,52 & -0,62 \\
-    M\_PL\_025 & 13   & 44   & 0,54 & -0,65 \\
-    M\_PL\_026 & 105  & 54   & 0,32 & -0,91 \\
-    M\_PL\_027 & 18   & 60   & 0,54 & -0,26 \\
-    M\_PL\_028 & 41   & 139  & 0,54 & -0,81 \\
-    M\_PL\_029 & 49   & 118  & 0,41 & -0,93 \\
-    M\_PL\_030 & 28   & 53   & 0,31 & -0,63 \\
-    M\_PL\_031 & 48   & 49   & 0,01 & -0,47 \\
-    M\_PL\_033 & 13   & 34   & 0,45 & -0,08 \\
-    M\_PL\_034 & 26   & 128  & 0,66 & -0,80 \\
-    M\_PL\_035 & 61   & 36   & 0,26 & -0,76 \\
-    M\_PL\_037 & 10   & 40   & 0,60 & 0,21 \\
-    M\_PL\_038 & 8    & 42   & 0,68 & 0,19 \\
-    M\_PL\_039 & 17   & 51   & 0,50 & -0,80 \\
-    M\_PL\_040 & 29   & 43   & 0,19 & -0,28 \\
-    M\_PL\_041 & 31   & 43   & 0,16 & -0,68 \\
-    M\_PL\_043 & 28   & 82   & 0,49 & -0,82 \\
-    M\_PL\_045 & 17   & 26   & 0,21 & -0,52 \\
-    M\_PL\_046 & 16   & 44   & 0,47 & -0,91 \\
-    M\_PL\_050 & 14   & 35   & 0,43 & -0,83 \\
-    M\_PL\_051 & 14   & 90   & 0,73 & -0,70 \\
-    M\_PL\_052 & 15   & 39   & 0,44 & -0,77 \\
-    M\_PL\_058 & 32   & 81   & 0,43 & -0,31 \\
-    M\_SD\_003 & 25   & 16   & 0,22 & -0,76 \\
-    M\_SD\_004 & 34   & 20   & 0,26 & -0,83 \\
-    M\_SD\_007 & 72   & 7    & 0,82 & 0,14 \\
-    M\_SD\_010 & 50   & 14   & 0,56 & -0,30 \\
-    M\_SD\_012 & 35   & 29   & 0,09 & 0,30 \\
-    M\_SD\_013 & 36   & 19   & 0,31 & -0,78 \\
-    M\_SD\_016 & 24   & 61   & 0,44 & -0,94 \\
-    M\_SD\_018 & 29   & 32   & 0,05 & -0,84 \\
-    M\_SD\_020 & 25   & 33   & 0,14 & 0,17 \\
-    M\_SD\_021 & 18   & 28   & 0,22 & -0,77 \\
-    \bottomrule
-    \end{tabular}%
-  \caption{\label{table:table_rewiring} Resultados del experimento de recableado de hasta un 10\% de enlaces.}
-\end{table}%
+%\begin{table}[ht!]
+%  \centering
+%  \tiny
+%    \begin{tabular}{lrrrr}
+%    \toprule
+%    $Red$ & $Plantas$ & $Animales$ & $Asimetría de clases$ & $Corr \overline r_{radius} y NODF$ \\
+%    \midrule
+%    M\_PL\_001 & 84   & 101  & 0,09 & -0,89 \\
+%    M\_PL\_002 & 43   & 64   & 0,20 & -0,78 \\
+%    M\_PL\_003 & 36   & 25   & 0,18 & -0,67 \\
+%    M\_PL\_004 & 12   & 102  & 0,79 & -0,76 \\
+%    M\_PL\_006 & 17   & 61   & 0,56 & -0,27 \\
+%    M\_PL\_007 & 16   & 36   & 0,38 & -0,35 \\
+%    M\_PL\_008 & 11   & 38   & 0,55 & -0,64 \\
+%    M\_PL\_009 & 24   & 118  & 0,66 & -0,83 \\
+%    M\_PL\_010 & 31   & 76   & 0,42 & -0,91 \\
+%    M\_PL\_012 & 29   & 55   & 0,31 & -0,94 \\
+%    M\_PL\_013 & 9    & 56   & 0,72 & -0,56 \\
+%    M\_PL\_014 & 29   & 81   & 0,47 & -0,71 \\
+%    M\_PL\_017 & 25   & 79   & 0,52 & -0,46 \\
+%    M\_PL\_018 & 39   & 105  & 0,46 & -0,88 \\
+%    M\_PL\_019 & 40   & 85   & 0,36 & -0,77 \\
+%    M\_PL\_020 & 20   & 91   & 0,64 & -0,87 \\
+%    M\_PL\_022 & 21   & 45   & 0,36 & 0,07 \\
+%    M\_PL\_023 & 23   & 72   & 0,52 & -0,62 \\
+%    M\_PL\_025 & 13   & 44   & 0,54 & -0,65 \\
+%    M\_PL\_026 & 105  & 54   & 0,32 & -0,91 \\
+%    M\_PL\_027 & 18   & 60   & 0,54 & -0,26 \\
+%    M\_PL\_028 & 41   & 139  & 0,54 & -0,81 \\
+%    M\_PL\_029 & 49   & 118  & 0,41 & -0,93 \\
+%    M\_PL\_030 & 28   & 53   & 0,31 & -0,63 \\
+%    M\_PL\_031 & 48   & 49   & 0,01 & -0,47 \\
+%    M\_PL\_033 & 13   & 34   & 0,45 & -0,08 \\
+%    M\_PL\_034 & 26   & 128  & 0,66 & -0,80 \\
+%    M\_PL\_035 & 61   & 36   & 0,26 & -0,76 \\
+%    M\_PL\_037 & 10   & 40   & 0,60 & 0,21 \\
+%    M\_PL\_038 & 8    & 42   & 0,68 & 0,19 \\
+%    M\_PL\_039 & 17   & 51   & 0,50 & -0,80 \\
+%    M\_PL\_040 & 29   & 43   & 0,19 & -0,28 \\
+%    M\_PL\_041 & 31   & 43   & 0,16 & -0,68 \\
+%    M\_PL\_043 & 28   & 82   & 0,49 & -0,82 \\
+%    M\_PL\_045 & 17   & 26   & 0,21 & -0,52 \\
+%    M\_PL\_046 & 16   & 44   & 0,47 & -0,91 \\
+%    M\_PL\_050 & 14   & 35   & 0,43 & -0,83 \\
+%    M\_PL\_051 & 14   & 90   & 0,73 & -0,70 \\
+%    M\_PL\_052 & 15   & 39   & 0,44 & -0,77 \\
+%    M\_PL\_058 & 32   & 81   & 0,43 & -0,31 \\
+%    M\_SD\_003 & 25   & 16   & 0,22 & -0,76 \\
+%    M\_SD\_004 & 34   & 20   & 0,26 & -0,83 \\
+%    M\_SD\_007 & 72   & 7    & 0,82 & 0,14 \\
+%    M\_SD\_010 & 50   & 14   & 0,56 & -0,30 \\
+%    M\_SD\_012 & 35   & 29   & 0,09 & 0,30 \\
+%    M\_SD\_013 & 36   & 19   & 0,31 & -0,78 \\
+%    M\_SD\_016 & 24   & 61   & 0,44 & -0,94 \\
+%    M\_SD\_018 & 29   & 32   & 0,05 & -0,84 \\
+%    M\_SD\_020 & 25   & 33   & 0,14 & 0,17 \\
+%    M\_SD\_021 & 18   & 28   & 0,22 & -0,77 \\
+%    \bottomrule
+%    \end{tabular}%
+%  \caption{\label{table:table_rewiring} Resultados del experimento de recableado de hasta un 10\% de enlaces.}
+%\end{table}%
 
 
 \subsection{Rendimiento del algoritmo de destrucción}
@@ -523,3 +451,167 @@ Esta técnica descubre detalles internos de una forma natural, agrupando las esp
 La descomposición es también el criterio de una nueva ordenación de las especies. Hemos provocado extinciones primarias y evaluado la evolución del tamaño de la componente gigante. Los resultados muestra que el procedimiento de extinción basado en \textit{k-shell} obtiene un mejor renidmiento que \textit{MusRank} para casi todas las redes de polinizadores de la colección investigada, y es ligeramente peor para las de dispersores de semillas. La ordenación por \textit{k-core} es un buen predictor de la resistencia de red.
 
 Aunque hemos enfocado el estudio en redes mutualistas, la técnica se puede extender a otros tipos de redes bipartitas, por ejemplo comensalistas. Relaciones bipartitas y con fuerte anidamiento, como las que aparecen en redes de innovación y comercio, podrían también beneficiarse de este análisis.
+
+\clearpage
+\section{Anexo: K-magnitudes de las redes analizadas}
+\label{ESTATICA_ANEXO_kmagnitudes}
+\begin{table}[ht!]
+\fontsize{2.1mm}{2.1mm}\selectfont
+  \centering
+    \begin{tabular}{lrrrrrrrrr}
+    \toprule
+    $Red$  & $Matriz$ & $Plantas$ & $Animales$ & $Enlaces$ & $k_{max}$ & $\overline k_{degree}$ & $\overline k_{radius}$ & $NODF$ & $Modularity$ \\
+    \midrule
+     M\_PL\_001 & Binaria & 84   & 101  & 361  & 4    & 1,56 & 3,01 & 14,46 & 0,45 \\
+    M\_PL\_002 & Binaria & 43   & 64   & 196  & 3    & 1,40 & 3,04 & 15,36 & 0,48 \\
+    M\_PL\_003 & Binaria & 36   & 25   & 81   & 2    & 0,93 & 3,31 & 19,19 & 0,57 \\
+    M\_PL\_004 & Pesada & 12   & 102  & 167  & 3    & 1,52 & 2,53 & 28,15 & 0,45 \\
+    M\_PL\_005 & Binaria & 96   & 275  & 923  & 8    & 2,54 & 2,80 & 14,74 & 0,24 \\
+    M\_PL\_006 & Pesada & 17   & 61   & 146  & 4    & 2,28 & 2,44 & 44,58 & 0,33 \\
+    M\_PL\_007 & Pesada & 16   & 36   & 85   & 3    & 1,68 & 2,51 & 31,54 & 0,36 \\
+    M\_PL\_008 & Binaria & 11   & 38   & 106  & 4    & 2,19 & 2,37 & 35,97 & 0,21 \\
+    M\_PL\_009 & Binaria & 24   & 118  & 242  & 4    & 1,54 & 2,81 & 15,39 & 0,44 \\
+    M\_PL\_010 & Binaria & 31   & 76   & 456  & 8    & 4,57 & 2,38 & 35,17 & 0,02 \\
+    M\_PL\_011 & Binaria & 14   & 13   & 52   & 3    & 2,27 & 2,16 & 54,59 & 0,29 \\
+    M\_PL\_012 & Binaria & 29   & 55   & 145  & 4    & 2,01 & 2,51 & 30,40 & 0,42 \\
+    M\_PL\_013 & Pesada & 9    & 56   & 103  & 4    & 1,96 & 2,40 & 34,25 & 0,38 \\
+    M\_PL\_014 & Binaria & 29   & 81   & 179  & 3    & 1,48 & 2,80 & 25,68 & 0,44 \\
+    M\_PL\_015 & Binaria & 131  & 666  & 2933 & 9    & 2,90 & 2,88 & 9,17 & 0,35 \\
+    M\_PL\_016 & Binaria & 26   & 179  & 412  & 5    & 1,88 & 2,73 & 21,98 & 0,42 \\
+    M\_PL\_017 & Pesada & 25   & 79   & 299  & 6    & 3,28 & 2,47 & 40,37 & 0,15 \\
+    M\_PL\_018 & Binaria & 39   & 105  & 383  & 5    & 2,26 & 2,74 & 19,73 & 0,24 \\
+    M\_PL\_019 & Pesada & 40   & 85   & 264  & 5    & 1,97 & 2,71 & 17,51 & 0,34 \\
+    M\_PL\_020 & Binaria & 20   & 91   & 190  & 4    & 1,84 & 2,56 & 37,12 & 0,39 \\
+    M\_PL\_021 & Binaria & 91   & 677  & 1193 & 5    & 1,23 & 3,06 & 7,55 & 0,58 \\
+    M\_PL\_022 & Binaria & 21   & 45   & 83   & 2    & 0,84 & 3,68 & 18,02 & 0,60 \\
+    M\_PL\_023 & Binaria & 23   & 72   & 125  & 3    & 1,35 & 2,75 & 22,88 & 0,54 \\
+    M\_PL\_024 & Pesada & 11   & 18   & 38   & 3    & 1,71 & 1,97 & 29,02 & 0,42 \\
+    M\_PL\_025 & Pesada & 13   & 44   & 143  & 5    & 3,40 & 2,13 & 46,02 & 0,16 \\
+    M\_PL\_026 & Binaria & 105  & 54   & 204  & 3    & 1,13 & 2,85 & 25,13 & 0,56 \\
+    M\_PL\_027 & Binaria & 18   & 60   & 120  & 3    & 1,20 & 2,96 & 13,94 & 0,55 \\
+    M\_PL\_028 & Binaria & 41   & 139  & 374  & 5    & 2,11 & 2,75 & 16,43 & 0,37 \\
+    M\_PL\_029 & Binaria & 49   & 118  & 346  & 5    & 1,94 & 2,76 & 15,77 & 0,41 \\
+    M\_PL\_030 & Binaria & 28   & 53   & 109  & 2    & 0,83 & 3,54 & 11,16 & 0,54 \\
+    M\_PL\_031 & Binaria & 48   & 49   & 156  & 4    & 1,57 & 3,39 & 12,34 & 0,54 \\
+    M\_PL\_032 & Binaria & 7    & 33   & 65   & 3    & 2,41 & 2,07 & 56,66 & 0,10 \\
+    M\_PL\_033 & Pesada & 13   & 34   & 141  & 5    & 3,40 & 2,24 & 29,50 & 0,07 \\
+    M\_PL\_034 & Binaria & 26   & 128  & 312  & 5    & 2,10 & 2,61 & 25,01 & 0,42 \\
+    M\_PL\_035 & Binaria & 61   & 36   & 178  & 4    & 1,74 & 2,85 & 25,74 & 0,43 \\
+    M\_PL\_036 & Binaria & 10   & 12   & 30   & 2    & 1,31 & 2,51 & 35,96 & 0,38 \\
+    M\_PL\_037 & Binaria & 10   & 40   & 72   & 3    & 1,37 & 2,70 & 23,16 & 0,44 \\
+    M\_PL\_038 & Binaria & 8    & 42   & 79   & 3    & 1,56 & 2,44 & 28,31 & 0,39 \\
+    M\_PL\_039 & Binaria & 17   & 51   & 129  & 4    & 1,99 & 2,61 & 25,34 & 0,45 \\
+    M\_PL\_040 & Pesada & 29   & 43   & 114  & 3    & 1,32 & 2,92 & 15,18 & 0,50 \\
+    M\_PL\_041 & Pesada & 31   & 43   & 145  & 4    & 2,11 & 2,51 & 25,30 & 0,35 \\
+    M\_PL\_042 & Binaria & 12   & 6    & 25   & 3    & 2,34 & 1,71 & 49,79 & 0,33 \\
+    M\_PL\_043 & Binaria & 28   & 82   & 250  & 4    & 1,99 & 2,71 & 22,17 & 0,29 \\
+    M\_PL\_044 & Pesada & 110  & 609  & 1125 & 4    & 1,12 & 3,36 & 4,92 & 0,57 \\
+    M\_PL\_045 & Pesada & 17   & 26   & 63   & 3    & 1,73 & 2,43 & 30,77 & 0,45 \\
+    M\_PL\_046 & Binaria & 16   & 44   & 278  & 8    & 6,45 & 1,96 & 63,60 & -0,03 \\
+    M\_PL\_047 & Binaria & 19   & 186  & 425  & 6    & 2,31 & 2,56 & 29,96 & 0,29 \\
+    M\_PL\_048 & Binaria & 30   & 236  & 671  & 7    & 2,78 & 2,61 & 26,23 & 0,21 \\
+    M\_PL\_049 & Binaria & 37   & 225  & 590  & 6    & 2,08 & 2,76 & 18,13 & 0,38 \\
+    M\_PL\_050 & Binaria & 14   & 35   & 86   & 3    & 1,71 & 2,49 & 32,58 & 0,43 \\
+    M\_PL\_051 & Pesada & 14   & 90   & 164  & 4    & 2,13 & 2,34 & 26,96 & 0,45 \\
+    M\_PL\_052 & Binaria & 15   & 39   & 92   & 3    & 1,70 & 2,51 & 30,91 & 0,31 \\
+    M\_PL\_053 & Binaria & 99   & 294  & 589  & 3    & 0,92 & 3,80 & 4,71 & 0,58 \\
+    M\_PL\_054 & Pesada & 113  & 318  & 773  & 5    & 1,42 & 3,07 & 8,08 & 0,46 \\
+    M\_PL\_055 & Pesada & 64   & 195  & 431  & 4    & 1,29 & 3,13 & 8,71 & 0,52 \\
+    M\_PL\_056 & Pesada & 91   & 365  & 871  & 5    & 1,43 & 3,24 & 6,86 & 0,46 \\
+    M\_PL\_057 & Pesada & 114  & 883  & 1920 & 8    & 1,80 & 2,88 & 7,04 & 0,48 \\
+    M\_PL\_058 & Pesada & 32   & 81   & 319  & 6    & 3,03 & 2,48 & 26,64 & 0,22 \\
+    M\_PL\_059 & Pesada & 13   & 13   & 71   & 5    & 4,72 & 1,57 & 76,88 & 0,04 \\
+    M\_SD\_001 & Pesada & 7    & 21   & 50   & 3    & 2,33 & 2,16 & 40,77 & 0,18 \\
+    M\_SD\_002 & Pesada & 31   & 9    & 119  & 6    & 4,61 & 1,85 & 62,16 & 0,02 \\
+    M\_SD\_003 & Pesada & 25   & 16   & 68   & 3    & 1,78 & 2,45 & 41,09 & 0,33 \\
+    M\_SD\_004 & Pesada & 34   & 20   & 95   & 4    & 2,37 & 2,19 & 39,82 & 0,35 \\
+    M\_SD\_005 & Pesada & 25   & 13   & 49   & 3    & 1,33 & 2,38 & 27,93 & 0,53 \\
+    M\_SD\_006 & Pesada & 21   & 15   & 51   & 3    & 1,51 & 2,35 & 32,79 & 0,45 \\
+    M\_SD\_007 & Binaria & 72   & 7    & 143  & 3    & 2,34 & 2,37 & 51,67 & 0,28 \\
+    M\_SD\_008 & Pesada & 16   & 10   & 110  & 7    & 6,56 & 1,48 & 56,33 & -0,04 \\
+    M\_SD\_009 & Pesada & 7    & 18   & 38   & 3    & 1,90 & 2,15 & 33,02 & 0,32 \\
+    M\_SD\_010 & Pesada & 50   & 14   & 234  & 6    & 4,48 & 2,14 & 42,13 & 0,04 \\
+    M\_SD\_011 & Binaria & 11   & 14   & 47   & 3    & 2,14 & 2,17 & 45,41 & 0,31 \\
+    M\_SD\_012 & Pesada & 35   & 29   & 146  & 4    & 2,31 & 2,57 & 33,04 & 0,23 \\
+    M\_SD\_013 & Binaria & 36   & 19   & 197  & 7    & 4,38 & 2,31 & 37,37 & 0,33 \\
+    M\_SD\_014 & Binaria & 16   & 17   & 121  & 5    & 5,16 & 1,87 & 78,76 & 0,08 \\
+    M\_SD\_015 & Binaria & 5    & 27   & 86   & 4    & 4,25 & 1,65 & 67,34 & 0,03 \\
+    M\_SD\_016 & Binaria & 24   & 61   & 500  & 11   & 8,40 & 2,01 & 58,84 & 0,00 \\
+    M\_SD\_017 & Binaria & 16   & 8    & 72   & 5    & 4,74 & 1,63 & 60,12 & 0,08 \\
+    M\_SD\_018 & Binaria & 29   & 32   & 66   & 2    & 0,75 & 3,41 & 11,21 & 0,59 \\
+    M\_SD\_019 & Binaria & 169  & 40   & 666  & 7    & 3,23 & 2,62 & 32,87 & 0,33 \\
+    M\_SD\_020 & Pesada & 25   & 33   & 150  & 5    & 3,07 & 2,31 & 53,55 & 0,13 \\
+    M\_SD\_021 & Binaria & 18   & 28   & 129  & 5    & 3,46 & 2,19 & 61,52 & 0,18 \\
+    M\_SD\_022 & Binaria & 207  & 110  & 1121 & 8    & 3,21 & 2,80 & 16,81 & 0,20 \\
+    M\_SD\_023 & Pesada & 15   & 8    & 38   & 3    & 2,30 & 2,03 & 66,80 & 0,22 \\
+    M\_SD\_024 & Binaria & 12   & 7    & 40   & 3    & 2,50 & 1,99 & 56,83 & 0,12 \\
+    M\_SD\_025 & Binaria & 7    & 6    & 22   & 3    & 2,41 & 1,69 & 66,67 & 0,19 \\
+    M\_SD\_026 & Binaria & 3    & 3    & 6    & 2    & 1,83 & 1,33 & 100,00 & 0,17 \\
+    M\_SD\_027 & Binaria & 12   & 4    & 31   & 4    & 3,45 & 1,53 & 73,61 & 0,00 \\
+    M\_SD\_028 & Binaria & 8    & 5    & 26   & 4    & 3,65 & 1,38 & 89,47 & 0,02 \\
+    M\_SD\_029 & Binaria & 4    & 5    & 10   & 2    & 1,98 & 1,52 & 81,25 & 0,27 \\
+    M\_SD\_030 & Binaria & 5    & 4    & 11   & 2    & 2,24 & 1,50 & 66,67 & 0,23 \\
+    \bottomrule
+    \end{tabular}%
+    \caption{\label{table:table_results} Propiedades de las redes utilizadas en el estudio.}
+\end{table}%
+
+\clearpage
+\section{Anexo: Unidades reducidas}
+\label{ESTATICA_ANEXO_zscores}
+\begin{table}[ht!]
+\fontsize{2.5mm}{2.5mm}\selectfont
+  \centering
+    \begin{tabular}{lrrrrrrrrr}
+    \toprule
+    $Red$  & $Matriz$ & $zNODF$ & $z\overline K_{radius}$ &  &  $Red$  & $Matriz$ & $zNODF$ & $z\overline K_{radius}$ \\
+    \midrule
+    M\_PL\_001 & Binaria & 10,58 & -2,33 &      & M\_PL\_046 & Binaria & 11,82 & -5,53 \\
+    M\_PL\_002 & Binaria & 6,00 & -1,45 &      & M\_PL\_047 & Binaria & 13,07 & -1,98 \\
+    M\_PL\_003 & Binaria & 5,87 & -1,05 &      & M\_PL\_048 & Binaria & 13,62 & -2,22 \\
+    M\_PL\_004 & Pesada & 2,71 & 0,49 &      & M\_PL\_049 & Binaria & 10,53 & -3,83 \\
+    M\_PL\_005 & Binaria & 11,77 & -2,87 &      & M\_PL\_050 & Binaria & 5,43 & -1,03 \\
+    M\_PL\_006 & Pesada & -4,40 & 2,75 &      & M\_PL\_051 & Pesada & -1,01 & -0,40 \\
+    M\_PL\_007 & Pesada & -7,66 & 1,61 &      & M\_PL\_052 & Binaria & 5,66 & -1,30 \\
+    M\_PL\_008 & Binaria & 5,48 & -2,74 &      & M\_PL\_053 & Binaria & 5,05 & 0,00 \\
+    M\_PL\_009 & Binaria & 5,97 & -3,10 &      & M\_PL\_054 & Pesada & -5,25 & 1,31 \\
+    M\_PL\_010 & Binaria & 9,88 & -5,25 &      & M\_PL\_055 & Pesada & -2,51 & 0,30 \\
+    M\_PL\_011 & Binaria & 5,68 & -1,40 &      & M\_PL\_056 & Pesada & -5,93 & 5,10 \\
+    M\_PL\_012 & Binaria & 9,33 & -3,09 &      & M\_PL\_057 & Pesada & -5,94 & -1,92 \\
+    M\_PL\_013 & Pesada & -2,26 & 0,69 &      & M\_PL\_058 & Pesada & -4,54 & 1,12 \\
+    M\_PL\_014 & Binaria & 7,22 & -0,50 &      & M\_PL\_059 & Pesada & 6,84 & -7,34 \\
+    M\_PL\_015 & Binaria & 15,16 & -1,56 &      & M\_SD\_001 & Pesada & -1,03 & 0,76 \\
+    M\_PL\_016 & Binaria & 9,05 & -1,59 &      & M\_SD\_002 & Pesada & 0,16 & -1,50 \\
+    M\_PL\_017 & Pesada & -5,09 & 2,13 &      & M\_SD\_003 & Pesada & 0,59 & 1,04 \\
+    M\_PL\_018 & Binaria & 7,64 & -2,23 &      & M\_SD\_004 & Pesada & 0,17 & -1,79 \\
+    M\_PL\_019 & Pesada & -4,33 & 1,60 &      & M\_SD\_005 & Pesada & 0,89 & -0,64 \\
+    M\_PL\_020 & Binaria & 10,14 & -2,05 &      & M\_SD\_006 & Pesada & -1,47 & 1,06 \\
+    M\_PL\_021 & Binaria & 8,06 & -2,53 &      & M\_SD\_007 & Binaria & 9,66 & 0,20 \\
+    M\_PL\_022 & Binaria & 3,93 & 0,58 &      & M\_SD\_008 & Pesada & 0,09 & -1,24 \\
+    M\_PL\_023 & Binaria & 6,32 & -2,84 &      & M\_SD\_009 & Pesada & -1,90 & 0,22 \\
+    M\_PL\_024 & Pesada & -1,79 & -1,98 &      & M\_SD\_010 & Pesada & -3,64 & 0,55 \\
+    M\_PL\_025 & Pesada & -3,04 & 0,46 &      & M\_SD\_011 & Binaria & 4,07 & -1,56 \\
+    M\_PL\_026 & Binaria & 12,06 & -3,44 &      & M\_SD\_012 & Pesada & -0,24 & 2,74 \\
+    M\_PL\_027 & Binaria & 3,94 & -1,29 &      & M\_SD\_013 & Binaria & 4,68 & -1,56 \\
+    M\_PL\_028 & Binaria & 7,86 & -2,27 &      & M\_SD\_014 & Binaria & 10,53 & -5,39 \\
+    M\_PL\_029 & Binaria & 7,70 & -2,76 &      & M\_SD\_015 & Binaria & 6,54 & -5,45 \\
+    M\_PL\_030 & Binaria & 3,23 & -1,69 &      & M\_SD\_016 & Binaria & 16,65 & -7,99 \\
+    M\_PL\_031 & Binaria & 3,98 & 0,22 &      & M\_SD\_017 & Binaria & 5,01 & -5,06 \\
+    M\_PL\_032 & Binaria & 7,51 & -1,70 &      & M\_SD\_018 & Binaria & 3,77 & -1,35 \\
+    M\_PL\_033 & Pesada & -2,26 & 2,05 &      & M\_SD\_019 & Binaria & 15,38 & -3,49 \\
+    M\_PL\_034 & Binaria & 9,98 & -1,38 &      & M\_SD\_020 & Pesada & -0,17 & 2,60 \\
+    M\_PL\_035 & Binaria & 9,55 & -1,90 &      & M\_SD\_021 & Binaria & 9,74 & -2,15 \\
+    M\_PL\_036 & Binaria & 3,01 & -0,91 &      & M\_SD\_022 & Binaria & 13,24 & -2,40 \\
+    M\_PL\_037 & Binaria & 3,99 & -1,54 &      & M\_SD\_023 & Pesada & 4,09 & -0,73 \\
+    M\_PL\_038 & Binaria & 4,58 & -1,31 &      & M\_SD\_024 & Binaria & 4,17 & -0,91 \\
+    M\_PL\_039 & Binaria & 5,69 & -1,95 &      & M\_SD\_025 & Binaria & 3,52 & -2,34 \\
+    M\_PL\_040 & Pesada & -3,66 & 3,03 &      & M\_SD\_026 & Binaria & 2,58 & -1,28 \\
+    M\_PL\_041 & Pesada & -1,61 & -0,42 &      & M\_SD\_027 & Binaria & 4,51 & -3,14 \\
+    M\_PL\_042 & Binaria & 3,20 & -2,53 &      & M\_SD\_028 & Binaria & 4,84 & -3,29 \\
+    M\_PL\_043 & Binaria & 6,87 & -1,03 &      & M\_SD\_029 & Binaria & 3,21 & -0,96 \\
+    M\_PL\_044 & Pesada & -3,26 & 0,65 &      & M\_SD\_030 & Binaria & 2,45 & -1,13 \\
+    M\_PL\_045 & Pesada & -1,93 & 1,00 &      &      &      &      &  \\
+    \bottomrule
+    \end{tabular}%
+    \caption{\label{table:table_results} Propiedades de las redes utilizadas en el estudio.}
+\end{table}%
