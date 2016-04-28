@@ -104,7 +104,7 @@ En la fórmula \ref{ESTATICA_kradius} $dist_{mj}$ es el camino más corto de la 
 
 \begin{figure}[h!]
 \centering
-\includegraphics[scale=0.5]{ESTATICA_SD_030_example_network.pdf}
+\includegraphics[scale=0.5]{Figures/ESTATICA_SD_030_example_network.pdf}
 \caption {Red de frugívoros en Santa Bárbara, Sierra de Baza (España) \cite{jordano1993geographical}.}
 \label{fig:ESTATICA_red_example}
 \end{figure}
@@ -121,7 +121,7 @@ El cálculo es simple aunque algo más laborioso para las plantas de la $1$-$she
 
 \begin{figure}[h!]
 \centering
-\includegraphics[scale=0.5]{ESTATICA_SD_030_example_distances.pdf}
+\includegraphics[scale=0.5]{Figures/ESTATICA_SD_030_example_distances.pdf}
 \caption {Red de frugívoros en Santa Bárbara, Sierra de Baza (España) \cite{jordano1993geographical}.}
 \label{fig:ESTATICA_SD_030_example_distances}
 \end{figure}
@@ -223,11 +223,11 @@ En este estudio se han utilizado los dos modelos nulos de uso más frecuente en 
 \centering
 \includegraphics[scale=0.5]{Figures/ESTATICA_zALL.png}
 \caption{Ejemplo de $z scores$ de $NODF$ y $z\overline k_{radius}$ para una red de polinizadores con matriz de interacción binaria \cite{elberling1999structure} }
-\label{fig:zscores}
+\label{fig:ESTATICA_zALL}
 \end{figure}
 
 El propósito no es llevar a cabo un análisis exhaustivo con modelos de diferente nivel de restricción sino comparar el comportamiento de $\overline k_{radius}$ con el de $NODF$. Para
-cada red se generan $1000$ modelos nulos con los que se construyen las distribuciones de probabilidad de $NODF$ and $\overline k_{radius}$. El valor $zNODF$ de la red original es estadísticamente significativo si es mayor que $2$, ya que este índice crece con el anidamiento, en tanto que $z\overline k_{radius}$ debe ser menor que $-2$ para que se pueda afirmar que la red es compacta (figure \ref{fig:zscores}).
+cada red se generan $1000$ modelos nulos con los que se construyen las distribuciones de probabilidad de $NODF$ and $\overline k_{radius}$. El valor $zNODF$ de la red original es estadísticamente significativo si es mayor que $2$, ya que este índice crece con el anidamiento, en tanto que $z\overline k_{radius}$ debe ser menor que $-2$ para que se pueda afirmar que la red es compacta (figure \ref{fig:ESTATICA_zALL}).
 
 \subsection{Experimento de recableado}
 
@@ -337,12 +337,32 @@ Si se examina de nuevo la figura \ref{fig:ESTATICA_corrfigs}, se verá que las r
 
 \begin{figure}[h!]
 \centering
-\includegraphics[scale=0.85]{ESTATICA_density_plots.png}
+\includegraphics[scale=0.85]{Figures/ESTATICA_density_plots.png}
 \caption {Distribución de densidad del $k_{degree}$ en tres redes diferentes. Junto a las líneas verticales pueden verse los valores del $\overline {k}_{degree}$ y de la $Modularity$.}
 \label{fig:ESTATICA_density_plots}
 \end{figure}
 
 Las elevadas correlaciones de $\overline {k}_{radius}$ con $NODF$ y de $\overline {k}_{radius}$ con $Modularity$ son suficientes para esta investigación. Por ejemplo, no se propugna que $log(\overline {k}_{radius})$ sea un buen predictor de $NODF$, de hecho el test de \textit{Shapiro-Wilk} muestra heterocedasticidad. La colección de la \textit{Web of Life} no es una muestra aleatoria, y la distribución de las magnitudes no son normales. Sin embargo, las correlaciones apoyan la idea de que el $\overline {k}_{radius}$ es un indicador global de anidamiento, y el $\overline {k}_{degree}$ de modularidad y que la \textit{descomposición k-core} es una alternativa válida para el estudio del mutualismo.
+
+\subsection{Análisis de modelo nulo}
+
+Mediante este análisis hemos estudiado como se comportan estadísticamente dos índices, $NODF$ y $\overline k_{radius}$. La razón de escoger estas dos magnitudes es la alta correlación que
+muestran para toda la colección. La tabla \ref{table:table_results_zscores} contiene los índices reducidos.
+
+Por lo que respecta a la medida de anidamiento $NODF$, el resultado concuerda con la literatura. Utilizando un modelo nulo restrictivo, como el que hemos empleado para las redes pesadas, solo $3$ de $32$son significativamente anidadas. Se consideran así si su $zNODF$ está por encima de $2$ lo que equivale a una probabilidad de aparición aleatoria inferior al $5\%$.
+La medida de compacidad con$\overline {k}_{radius}$ es más restrictiva. De las $32$ redes solo una es significativamente compacta ($z\overline {k}_{radius} < 2$), la red de polinizadores $059$, que además es una de las tres que muestra $zNODF$ por encima de $2$.
+
+\begin{figure}[h!]
+\centering
+\includegraphics[scale=0.35]{Figures/ESTATICA_zscores_all.eps}
+\caption {Diagramas de dispersión de $z\overline k_{radius}$ y $zNODF$ para toda la colección de redes. A la izquierda, en azul, las redes pesadas. A la derecha, en salmón, las redes binarias.}
+\label{fig:ESTATICA_zscore_all}
+\end{figure}
+
+La situación es opuesta para las redes binarias, para las que se ha usado un modelo nulo \textit{free free}. Las $57$ disponibles en la colección muestran anidamiento no debido al azar según el análisis. Para este subconjunto la compacidad también resulta ser menos común que el anidamiento, solo $27$ tienen un índice $z\overline {k}_{radius}$ inferior a $2$.
+
+De estos datos concluimos que $\overline k_{radius}$ puede resultar una medida útil de la proximidad del conjunto de las especies de la red a su núcleo más conectado. Solo parte de las redes significativamente anidadas de la colección, según $zNODF$, resultan ser también compactas. La probabilidad de aparición aleatoria de esta propiedad es inferior a la del anidamiento.
+
 
 \subsection{Recableado aleatorio}
 
@@ -352,7 +372,7 @@ El experimento comienza recableando al azar un enlace, se analiza la red resulta
 
 \begin{figure}[h!]
 \centering
-\includegraphics[scale=0.58]{ESTATICA_histo_corr_rewiring.png}
+\includegraphics[scale=0.58]{Figures/ESTATICA_histo_corr_rewiring.png}
 \caption {Resultados del experimento de recableado. Histograma de correlación $\overline {k}_{radius}$ y $NODF$, para un máximo del 10\% de enlaces; dispersión en función del tamaño de la red, el tamaño de los nodos es proporcional a la asimetría de clases, y gráficas para tres redes. En estas últimas el asterisco azul indica el valor de la red original, sin modificar ninguna conexión.}
 \label{fig:ESTATICA_histo_corr_rewiring}
 \end{figure}
@@ -433,7 +453,7 @@ Como hemos indicado, los resultados de nuestro algoritmo de destrucción se comp
 
 \begin{figure}[h!]
 \centering
-\includegraphics[scale=0.45]{ESTATICA_destruction_comparativa_dosredes.png}
+\includegraphics[scale=0.45]{Figures/ESTATICA_destruction_comparativa_dosredes.png}
 \caption {Curva de extinción de la red planta-polinizador $M\_PL\_010$ para ambos algoritmos}
 \label{fig:ESTATICA_destruction_comparativa_dosredes}
 \end{figure}
@@ -442,7 +462,7 @@ La figura \ref{fig:ESTATICA_destructions_comparison} muestra la comparativa de r
 
 \begin{figure}[h!]
 \centering
-\includegraphics[scale=0.5]{ESTATICA_destructions_comparison.png}
+\includegraphics[scale=0.5]{Figures/ESTATICA_destructions_comparison.png}
 \caption {Comparison of destruction performance of \textit{k-shell} ranking based algorithm vs. \textit{MusRank}}
 \label{fig:ESTATICA_destructions_comparison}
 \end{figure}
@@ -620,5 +640,5 @@ Aunque hemos enfocado el estudio en redes mutualistas, la técnica se puede exte
     M\_PL\_045 & Pesada & -1,93 & 1,00 &      &      &      &      &  \\
     \bottomrule
     \end{tabular}%
-    \caption{\label{table:table_results} Propiedades de las redes utilizadas en el estudio.}
+    \caption{\label{table:table_results_zscores} Propiedades de las redes utilizadas en el estudio.}
 \end{table}%
