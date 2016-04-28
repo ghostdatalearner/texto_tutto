@@ -276,16 +276,23 @@ Por el contrario, $\overline{k}_{degree}$ no parece guardar relación con el tam
 
 Al observar la relación entre las dos \textit{k-magnitudes} y el índice $k$ máximo de la red, se descubre que el comportamiento es diferente. El $\overline{k}_{radius}$ no guarda relación con el $k$ máximo y se observa una importante dispersión de valores para un mismo índice $k$ máximo. Este dato puede resultar paradójico pues un $k$ elevado significa que en la red puede haber caminos largos. No obstante, el cálculo de $\overline{k}_{radius}$ se hace con los caminos más cortos, y al existir una alta conectividad directa con la \textit{shell} más interna, este no es el factor más determinante. La correlación de $\overline{k}_{degree}$ crece con el $k$ máximo es notable. El $k$ máximo crece con la conectividad, y en consecuencia es lógico que $\overline{k}_{degree}$ se comporte de forma similar a este índice.
 
-\subsection{Relación entre $degree$ y $k_{degree}$}
+\subsection{Relación entre las medidas de grado}
 
-Las distribuciones de grado de las redes mutualistas siguen leyes de potencia truncada \cite{jordano2003invariant,vazquez2005degree}. El grado se utiliza de manera habitual como un indicador de importancia de la especie dentro de la red. Es muy sencillo de medir pero no está exento de inconvenientes.
+La distribución de grado de las redes mutualistas sigue una ley de potencia truncada \cite{jordano2003invariant,vazquez2005degree}. El grado se utiliza de manera habitual en el análisis de redes como indicador de importancia del nodo. Se mide con facilidad pero no está exento de inconvenientes. Por ejemplo, dos especies de una red mutualista con el mismo grado pueden pertenecer a \textit{k shells} diferentes, o incluso siendo de la misma, estar conectados con nodos de $k_{radius}$ dispares.
 
-La descomposición \textit{k-core} ha permitido definir el $k_{degree}$ como un grado ponderado por la distancia a la \textit{shell} máxima
+La descomposición \textit{k core} ha permitido definir el $k_{degree}$ como un grado ponderado por la la inversa del $k_{radius}$ de las especies conectadas. 
+
+Los dos índices guardan una correlación muy elevada para todas las redes, como se aprecia en el histograma de la figura \ref{fig:ESTATICA_ALL_plots_kdegree_degree_M_PL_001_ES}. A su derecha se ha representado el diagrama de dispersión para una red concreta, la relación cuasi lineal es similar para el resto. Los valores de la recta de regresión indican que para este caso, $k_{degree}$ se puede predecir de forma muy aproximada, multiplicando por $0.4$ el grado de la especie. La constante multiplicativa es siempre inferior a la unidad, porque la aportación a $k_{degree}$ de cada enlace se divide por el $k{radius}$ de la especie conectada que por definición es mayor o igual que $1$. 
+
+Cabe preguntarse para qué crear un índice que no es más que otro ya existente multiplicado por una constante. La razón se entenderá observando con atención los diagramas de la fila inferior. El de la izquierda es la distribución de grado de la red, con su forma característica de ley de potencia truncada. En el del centro, se representa la función de distribución de $k_{degree}$. La escala de los ejes $X$ no es la misma, porque el rango de $k_{degree}$ es inferior como se acaba de explicar, pero empleando la misma anchura de diagrama es fácil ver que las figuras son muy parecidas.
+
+En la última gráfica, se realiza una transformación simple. Los valores de $k_{degree}$ se dividen por el coeficiente $\alpha$ de la correlación lineal y el resultado (en turquesa) se superpone a la distribución de grado (en verde). Con esta representación queda claro que $k_{degree}$ no es un meramente el grado escalado. Lo que hace es transformar la distribución discreta de grado en otra con muchos más puntos intermedios, con lo que se obtiene una ordenación con criterio topológico de los nodos de idéntico grado. Esta sutil diferencia es importante a la hora decidir qué nodos son más importantes para la supervivencia de la red. La utilidad de este índice frente al grado se describe con detalles numéricos en el capítulo \ref{ChapterDESTRCCION}.
+
 \begin{figure}[h!]
 \centering
-\includegraphics[scale=0.5]{Figures/ESTATICA_kdegree_over_degree_M_PL_001.png}
-\caption{Diagramas de dispersión que relacionan las \textit{k-magnitudes} con el tamaño de la red.}
-\label{fig:ESTATICA_tamanyo_kdegree_kradius}
+\includegraphics[scale=0.5]{Figures/ESTATICA_ALL_plots_kdegree_degree_M_PL_001_ES.png}
+\caption{Relación entre $degree$ y $k_{degree}$. Arriba a la izquierda, histograma de la correlación entre ambas magnitudes para todas las redes del estudio. A su derecha, diagrama de dispersión de ambas magnitudes para la red de polinizadores $001$ y valores de la regresión lineal para esta red. En la fila inferior, funciones de distribución de los dos índices. En el tercer diagrama se han representado ambos, sobre la escala de $degree$ con la transformación en el eje $X$ $k_{degree} = \alpha * degree$ siendo $\alpha$ el coeficiente de regresión lineal que en esta caso vale aproximadamente $0.4$.}
+\label{fig:ESTATICA_ALL_plots_kdegree_degree_M_PL_001_ES}
 \end{figure}
 
 
