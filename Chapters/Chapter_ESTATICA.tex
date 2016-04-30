@@ -79,7 +79,7 @@ Es posible que uno de ellos sea vacío, es decir, no todas las \textit{k-shell} 
 Al valor máximo de \textit{k}, lo llamamos $ks_{max}$, que corresponde a \textit{shell} más interna de la red $ks_{max}\equiv C^{A,B}$. Esta nomenclatura simplifica la definición de las \textit{k-magnitudes} que surgen de la red descompuesta siguiendo el procedimiento descrito.
 
 
-\section{K magnitudes}
+\section{Definición de las k-magnitudes}
 
 Las especies más conectadas de una red mutualista son resistentes a las perturbaciones externas porque el beneficio que reciben depende de múltiples fuentes. Esta parece ser la razón por la que las redes mutualistas tienden al anidamiento, una conexión directa con el centro de la red aumenta las probabilidades de supervivencia. Para medir la 'distancia' desde un nodo cualquiera a la \textit{k-shell} más interna de la clase opuesta, hemos definido el \textit{$k_{radius}$}.
 
@@ -227,11 +227,11 @@ En este estudio se han utilizado los dos modelos nulos de uso más frecuente en 
 \end{figure}
 
 El propósito no es llevar a cabo un análisis exhaustivo con modelos de diferente nivel de restricción sino comparar el comportamiento de $\overline k_{radius}$ con el de $NODF$. Para
-cada red se generan $1000$ modelos nulos con los que se construyen las distribuciones de probabilidad de $NODF$ and $\overline k_{radius}$. El valor $zNODF$ de la red original es estadísticamente significativo si es mayor que $2$, ya que este índice crece con el anidamiento, en tanto que $z\overline k_{radius}$ debe ser menor que $-2$ para que se pueda afirmar que la red es compacta (figure \ref{fig:ESTATICA_zALL}).
+cada red se generan $1000$ modelos nulos con los que se construyen las distribuciones de probabilidad de $NODF$ y $\overline k_{radius}$. El valor $zNODF$ de la red original es estadísticamente significativo si es mayor que $2$, ya que este índice crece con el anidamiento, en tanto que $z\overline k_{radius}$ debe ser menor que $-2$ para que se pueda afirmar que la red es compacta (figure \ref{fig:ESTATICA_zALL}).
 
 \subsection{Experimento de recableado}
 
-El objetivo de este experimento es medir la correlación de $NODF$ and $\overline k_{radius}$, para una red dada, cuando algunos de sus enlaces son recableados de forma aleatoria. Este procedimiento se aplica solo a las redes binarias, por la complejidad de definir un método de recableado para las pesadas que no altere por completo su estructura.
+El objetivo de este experimento es comparar la alteración de $NODF$ y $\overline k_{radius}$, para una red dada, cuando algunos de sus enlaces se recablean de forma aleatoria. Para ello se mide la correlación de ambas magnitudes. Este procedimiento se aplica solo a las redes binarias, por la complejidad de definir un método de recableado para las pesadas que no altere por completo su estructura.
 
 Se empieza cambiando uno por ciento de los enlaces, seleccionados al azar sin reemplazo. Las \textit{k-magnitudes} de la red alterada se calculan y se almacenan. La operación se repite con el porcentaje ente $1$ y $50$ en $25$ pasos. El recableado se aplica siempre a la red original, no es acumulativo. 
 
@@ -297,6 +297,7 @@ En la última gráfica, se realiza una transformación simple. Los valores de $k
 
 
 \subsection{Correlación entre \textit{k-magnitudes} y propiedades globales}
+\label{subsection:Correlacion}
 
 Uno de los objetivos principales de la investigación es hallar la posible relación entre las magnitudes que se derivan de la \textit{descomposición k-core} y las que se utilizan habitualmente en la caracterización del mutualismo. Hemos encontrado que las \textit{k-magnitudes} globales tienen una fuerte correlación con estas dos medidas, y esto es de gran interés puesto que surgen de la agregación de las propiedades locales de cada nodo.
 
@@ -354,7 +355,7 @@ La medida de compacidad con$\overline {k}_{radius}$ es más restrictiva. De las 
 
 \begin{figure}[h!]
 \centering
-\includegraphics[scale=0.35]{Figures/ESTATICA_zscores_all.eps}
+\includegraphics[scale=0.4]{Figures/ESTATICA_zscores_all.eps}
 \caption {Diagramas de dispersión de $z\overline k_{radius}$ y $zNODF$ para toda la colección de redes. A la izquierda, en azul, las redes pesadas. A la derecha, en salmón, las redes binarias.}
 \label{fig:ESTATICA_zscore_all}
 \end{figure}
@@ -366,22 +367,30 @@ De estos datos concluimos que $\overline k_{radius}$ puede resultar una medida �
 
 \subsection{Recableado aleatorio}
 
-Con este experimento se busca entender como se alteran $\overline {k}_{radius}$ y $NODF$ al reconectar al azar un porcentaje de enlaces de la red. La idea subyacente es que las comunidades mutualistas adoptan configuraciones estables, con anidamiento fuerte y $\overline {k}_{radius}$ reducido. Si esto es así, el recableado debe de conducir a un estado más inestable y, eventualmente, a una configuración aleatoria. En el tránsito entre esos dos extremos, la relación encontrada entre las dos magnitudes en el apartado anterior (ecuación \ref{eq:kradius_vs_nodf}) debería de mantenerse. Al reducirse el anidamiento, el $\overline {k}_{radius}$ crecerá de forma lineal.
-
-El experimento comienza recableando al azar un enlace, se analiza la red resultante y se halla la correlación entre $log(\overline {k}_{radius})$  y $NODF$. La operación se repite con $2,3,..,n$ nodos hasta alcanzar un porcentaje fijado de antemano. El experimento se repite $20$ veces para cada red. Se han incluido $50$  redes con más de $40$ enlaces y menos de $200$ para evitar la destrucción abrupta de redes muy pequeñas o un excesivo tiempo de cómputo para las mayores. La figura \ref{fig:ESTATICA_histo_corr_rewiring} es el resultado.
+La idea subyacente a este experimento es que las comunidades mutualistas adoptan configuraciones estables, anidadas y compactas. Al recablear de forma aleatoria un porcentaje de sus enlaces deben de llegar a un estado más desordenado (fig. \ref{fig:z_M_PL_012_rewire_Binary_ES_model_5}). En el apartado anterior hemos visto que la premisa de partida no es cierta para las redes pesadas si se utiliza un modelo nulo restrictivo. Hemos limitado el experimento a las que tienen matriz de interacción binaria, en las que sí puede admitirse.
 
 \begin{figure}[h!]
 \centering
-\includegraphics[scale=0.58]{Figures/ESTATICA_histo_corr_rewiring.png}
-\caption {Resultados del experimento de recableado. Histograma de correlación $\overline {k}_{radius}$ y $NODF$, para un máximo del 10\% de enlaces; dispersión en función del tamaño de la red, el tamaño de los nodos es proporcional a la asimetría de clases, y gráficas para tres redes. En estas últimas el asterisco azul indica el valor de la red original, sin modificar ninguna conexión.}
+\includegraphics[scale=0.33]{Figures/ESTATICA_histo_corr_rewiring_ES.eps}
+\caption {Experimento de recableado de las redes con matrices binarias. Histograma de correlación de los índices reducidos $z \overline {k}_{radius}$ y $zNODF$ para todas las redes (arriba) y para el subconjunto de las que tienen más de $100$ enlaces. En la columna de la derecha, resultados del experimento para las redes  $M\_PL\_038$ de ($79$ enlaces, arriba) y $M\_PL\_038$ de ($456$ enlaces, abajo).}
 \label{fig:ESTATICA_histo_corr_rewiring}
 \end{figure}
 
-El histograma representa los valores de la correlación entre las dos magnitudes aludidas cuando en el experimento se recablean hasta un 10\% de los enlaces. Para la mayoría de las redes se obtienen correlaciones en torno al valor $-0,84$ que se encontró en el apartado anterior. Un pequeño porcentaje de reconexiones hace que $NODF$ se reduzca y que $\overline {k}_{radius}$ aumente de una manera predecible (véase la figura correspondiente a la red $M\_PL\_012$ en la fila inferior). Para las redes que se comportan así, un mayor porcentaje de reconexiones no supone un gran cambio en el estado final. la gráfica de la red $M\_PL\_010$ se ha obtenido cambiando hasta la mitad de los enlaces. Hay una zona de atracción en torno a $\overline {k}_{radius}$ de valor $0,35$ y $NODF$ casi nula, que representa una configuración aleatoria de la red muy alejada de la real.
+El histograma de la parte superior de la figura \ref{fig:ESTATICA_histo_corr_rewiring} muestra que los valores de la correlación se concentran en torno a $0.8$, lo que indica que ambas magnitudes se degradan en el mismo sentido al recablear, con un patrón similar. Sin embargo, hay un número no desdeñable para las que este valor es reducido e incluso próximo a $0$. El diagrama de recableado de la red $M\_PL\_038$ es un ejemplo, el anidamiento se destruye pero el $z \overline {k}_{radius}$ apenas se modifica. Una posible explicación es que la red inicialmente es anidada pero no compacta, de manera que
+esta segunda magnitud ya presenta un alto grado inicial de desorden. También es una red pequeña, con una estructura más sensible a pequeños cambios.
 
-Hay un porcentaje no despreciable de redes que no siguen esa variación para las que el experimento arroja valores reducidos de correlación e incluso positivos. Es el caso, por ejemplo, de $M\_SD\_007$. Un mínimo cambio destruye el anidamiento sin alterar de manera sustancial el $\overline {k}_{radius}$. Buscando el origen de este comportamiento dispar, se ha representado en la fila intermedia de la figura un diagrama de dispersión que relaciona el valor de la correlación con el número de especies de la red y con la asimetría de clases. Esta se mide como el valor absoluto de la diferencia entre el número de especies de ambas clases dividida por su suma (tabla \ref{table:table_rewiring}) . El área correspondiente al rombo de cada especie es proporcional a esta cantidad. De la gráfica podemos deducir que cuanto mayor es el tamaño de la red, la correlación lineal entre $NODF$ y $log(\overline {k}_{radius})$ tiene mayor tendencia a mantenerse aunque cambie un pequeño porcentaje de conexiones. Para redes más pequeñas, el factor que destruye con mayor rapidez el anidamiento es la asimetría, y la red $M\_SD\_007$ es un caso extremo, con $72$ especies de plantas, solo $7$ de polinizadores y una estructura muy peculiar como se verá en el próximo capítulo de visualizaciones. Estas redes asimétricas son mucho más sensibles a las reconexiones, porque hay una mayor probabilidad de alterar la \textit{k-shell} máxima.
+En el histograma inferior se han eliminado las redes con menos de $100$ enlaces. La mayoría de las redes con bajos valores de correlación son de pequeño tamaño, la medianase desplaza hasta $0,77$ y la distribución se parece más a una gaussiana. El diagrama de $M\_PL\_038$ muestra el comportamiento de las redes con más interacciones. La correlación es mucho mayor y el par de valores iniciales está más alejado de la nube de puntos del modelo nulo que en $M\_PL\_038$. La red $M\_PL\_010$ es fuertemente anidada y compacta. El recableado hace que los dos índices se degraden de forma similar y que pierda ambas propiedades aproximadamente a la vez.
 
-Lo que muestra cualitativamente este experimento, es que cuanto  mayores son el tamaño y la simetría, las redes parecen menos destructibles ante pequeños cambios. El valor de la correlación del experimento de recableado podría utilizarse como indicador numérico de la resistencia a una variación de las condiciones ambientales.
+\begin{figure}[h!]
+\centering
+\includegraphics[scale=0.6]{Figures/ESTATITCA_asimetria_corr.png}
+\caption {Correlación de $z \overline {k}_{radius}$ y $zNODF$ en función del número de especies de la red.}
+\label{fig:ESTATICA_asimetria_corr}
+\end{figure}
+
+Buscando el origen de este comportamiento dispar, se ha representado el diagrama de dispersión que relaciona el valor de la correlación con el número de especies de la red y con la asimetría de clases. Esta se mide como el valor absoluto de la diferencia entre el número de especies de ambas clases dividida por su suma. El área correspondiente al círculo de cada especie es proporcional a esta cantidad. De la gráfica se deduce que cuanto mayor es el tamaño de la red, la correlación lineal entre $NODF$ y $log(\overline {k}_{radius})$ tiene mayor tendencia a mantenerse aunque cambie un pequeño porcentaje de conexiones. Para redes más pequeñas, el factor que destruye con mayor rapidez el anidamiento es la asimetría, y la red $M\_SD\_007$ es un caso extremo, con $72$ especies de plantas, solo $7$ de polinizadores y una estructura muy peculiar como se verá en el próximo capítulo de visualizaciones. Estas redes asimétricas son mucho más sensibles a las reconexiones, porque hay una mayor probabilidad de alterar la \textit{k-shell} máxima.
+
+Lo que muestra el experimento, es que cuanto  mayores son el tamaño y la simetría, las redes parecen menos destructibles ante pequeños cambios. El valor de la correlación podría utilizarse como indicador numérico de la resistencia a una variación de las condiciones ambientales.
 
 % Table generated by Excel2LaTeX from sheet 'Hoja1'
 %\begin{table}[ht!]
@@ -447,28 +456,6 @@ Lo que muestra cualitativamente este experimento, es que cuanto  mayores son el 
 %\end{table}%
 
 
-\subsection{Rendimiento del algoritmo de destrucción}
-
-Como hemos indicado, los resultados de nuestro algoritmo de destrucción se comparan con los obtenidos con \textit{MusRank}, un procedimiento de alto rendimiento. Tras probar diversas posibles combinaciones de los \textit{k-parámetros} encontramos que la más eficiente se basa en ordenar las especies primero por su \textit{k-shell}, a igualdad de  \textit{k-shell} por su $k_{radius}$, y a igualdad de ambos parámetros, por su $k_{degree}$. El área bajo la curva de extinción se utiliza para medir la velocidad de destrucción (mayor cuanto más pequeña). Por ejemplo, la figura \ref{fig:ESTATICA_destruction_comparativa_dosredes} muestra el tamaño de la componente gigante superviviente en función de la fracción de extinciones primarias para la red de polinizadores $M\_PL\_010$ (Elberling \& Olesen, no publicada). A la izquierda, el proceso de destrucción siguiendo el {MusRank}, a la derecha, según la ordenación basada en \textit{k-shell}. Mientras que con \textit{MusRank} la pendiente decreciente permanece casi constante, con \textit{k-shell} puede verse como al eliminarse la \textit{k-shell} máxima se produce una caída abrupta en el número de especies supervivientes.
-
-\begin{figure}[h!]
-\centering
-\includegraphics[scale=0.45]{Figures/ESTATICA_destruction_comparativa_dosredes.png}
-\caption {Curva de extinción de la red planta-polinizador $M\_PL\_010$ para ambos algoritmos}
-\label{fig:ESTATICA_destruction_comparativa_dosredes}
-\end{figure}
-
-La figura \ref{fig:ESTATICA_destructions_comparison} muestra la comparativa de rendimiento para las $89$ redes del estudio, medida como la diferencia de áreas normalizadas según \textit{MusRank} y según \textit{k-shell}. Si es positiva, el segundo procedimiento es más destructivo y por tanto más eficaz, y viceversa (última columna de la tabla \ref{table:table_results}). la destrucción basada en \textit{k-shell} es más rápida para $57$ de las $59$ redes del tipo \textit{planta-polinizador}. 
-
-\begin{figure}[h!]
-\centering
-\includegraphics[scale=0.5]{Figures/ESTATICA_destructions_comparison.png}
-\caption {Comparison of destruction performance of \textit{k-shell} ranking based algorithm vs. \textit{MusRank}}
-\label{fig:ESTATICA_destructions_comparison}
-\end{figure}
-
-La diferencia de rendimiento no es tan llamativa para las de dispersores de semillas, \textit{MusRank} supera a \textit{k-shell} en $13$ casos, es más lento en $10$ y equivalente en $y$. Como hemos visto, las redes de este tipo en la colección estudiada son de menor tamaño y más anidades. El procedimiento basado en \textit{k-shell} parece ser mejor predictor de la resistencia de la red en comunidades grandes y modulares, mientras que \textit{MusRank} alcanza mejor rendimiento para redes pequeñas y fuertemente anidadas.
-
 \section{Conclusiones}
 
 La \textit{descomposición k-core} proporciona una sólida base para el análisis del mutualismo. Hemos demostrado como las \textit{k-magnitudes} definidas como propiedades surgidas del procedimiento, permiten conocer en detalle la estructura de las redes. En particular, al promediar los valores locales para todo el sistema, $\overline {k}_{radius}$ y $\overline {k}_{degree}$ muestran una fuerte correlación con los observables globales $NODF$ y $Modularity$. 
@@ -483,11 +470,11 @@ Aunque hemos enfocado el estudio en redes mutualistas, la técnica se puede exte
 \section{Anexo: K-magnitudes de las redes analizadas}
 \label{ESTATICA_ANEXO_kmagnitudes}
 \begin{table}[ht!]
-\fontsize{2.1mm}{2.1mm}\selectfont
+\fontsize{2.2mm}{2.2mm}\selectfont
   \centering
     \begin{tabular}{lrrrrrrrrr}
     \toprule
-    $Red$  & $Matriz$ & $Plantas$ & $Animales$ & $Enlaces$ & $k_{max}$ & $\overline k_{degree}$ & $\overline k_{radius}$ & $NODF$ & $Modularity$ \\
+    $Red$  & $Matriz$ & $Pl.$ & $Anim.$ & $Enlaces$ & $k_{max}$ & $\overline k_{degree}$ & $\overline k_{radius}$ & $NODF$ & $Modul.$ \\
     \midrule
      M\_PL\_001 & Binaria & 84   & 101  & 361  & 4    & 1,56 & 3,01 & 14,46 & 0,45 \\
     M\_PL\_002 & Binaria & 43   & 64   & 196  & 3    & 1,40 & 3,04 & 15,36 & 0,48 \\
@@ -641,4 +628,48 @@ Aunque hemos enfocado el estudio en redes mutualistas, la técnica se puede exte
     \bottomrule
     \end{tabular}%
     \caption{\label{table:table_results_zscores} Propiedades de las redes utilizadas en el estudio.}
+\end{table}%
+
+\clearpage
+\section{Anexo: Experimento de recableado}
+\label{ESTATICA_ANEXO_tabrecableado}
+\begin{table}[ht!]
+\fontsize{2.5mm}{2.5mm}\selectfont
+  \centering
+      \begin{tabular}{lrrrrrlrrrr}
+    \toprule
+    $Red$  & $Especies$ & $Enlaces$ & $Corr$ & $Asimetría$ &      & $Red$  & $Especies$ & $Enlaces$ & $Corr$& $Asimetría$ \\
+    \midrule
+      M\_PL\_001 & 185  & 361  & -0,85 & 0,05 &      & M\_PL\_038 & 50   & 79   & -0,13 & 0,43 \\
+    M\_PL\_002 & 107  & 196  & -0,74 & 0,11 &      & M\_PL\_039 & 68   & 129  & -0,55 & 0,26 \\
+    M\_PL\_003 & 61   & 81   & -0,43 & 0,14 &      & M\_PL\_042 & 18   & 25   & -0,54 & 0,24 \\
+    M\_PL\_005 & 371  & 923  & -0,77 & 0,19 &      & M\_PL\_043 & 110  & 250  & -0,47 & 0,22 \\
+    M\_PL\_008 & 49   & 106  & -0,37 & 0,25 &      & M\_PL\_046 & 60   & 278  & -0,89 & 0,10 \\
+    M\_PL\_009 & 142  & 242  & -0,74 & 0,39 &      & M\_PL\_047 & 205  & 425  & -0,84 & 0,39 \\
+    M\_PL\_010 & 107  & 456  & -0,92 & 0,10 &      & M\_PL\_048 & 266  & 671  & -0,87 & 0,31 \\
+    M\_PL\_011 & 27   & 52   & -0,68 & 0,02 &      & M\_PL\_049 & 262  & 590  & -0,76 & 0,32 \\
+    M\_PL\_012 & 84   & 145  & -0,89 & 0,18 &      & M\_PL\_050 & 49   & 86   & -0,67 & 0,24 \\
+    M\_PL\_014 & 110  & 179  & -0,80 & 0,29 &      & M\_PL\_052 & 54   & 92   & -0,64 & 0,26 \\
+    M\_PL\_015 & 797  & 2933 & -0,88 & 0,18 &      & M\_PL\_053 & 393  & 589  & -0,77 & 0,33 \\
+    M\_PL\_016 & 205  & 412  & -0,76 & 0,37 &      & M\_SD\_007 & 79   & 143  & -0,01 & 0,45 \\
+    M\_PL\_018 & 144  & 383  & -0,71 & 0,17 &      & M\_SD\_011 & 25   & 47   & -0,52 & 0,06 \\
+    M\_PL\_020 & 111  & 190  & -0,84 & 0,37 &      & M\_SD\_013 & 55   & 197  & -0,68 & 0,09 \\
+    M\_PL\_021 & 768  & 1193 & -0,75 & 0,49 &      & M\_SD\_014 & 33   & 121  & -0,79 & 0,01 \\
+    M\_PL\_022 & 66   & 83   & 0,02 & 0,29 &      & M\_SD\_015 & 32   & 86   & -0,02 & 0,26 \\
+    M\_PL\_023 & 95   & 125  & -0,63 & 0,39 &      & M\_SD\_016 & 85   & 500  & -0,95 & 0,07 \\
+    M\_PL\_026 & 159  & 204  & -0,75 & 0,25 &      & M\_SD\_017 & 24   & 72   & -0,40 & 0,11 \\
+    M\_PL\_027 & 78   & 120  & -0,21 & 0,35 &      & M\_SD\_018 & 61   & 66   & -0,64 & 0,05 \\
+    M\_PL\_028 & 180  & 374  & -0,79 & 0,26 &      & M\_SD\_019 & 209  & 666  & -0,92 & 0,19 \\
+    M\_PL\_029 & 167  & 346  & -0,80 & 0,20 &      & M\_SD\_021 & 46   & 129  & -0,85 & 0,08 \\
+    M\_PL\_030 & 81   & 109  & -0,40 & 0,23 &      & M\_SD\_022 & 317  & 1121 & -0,73 & 0,09 \\
+    M\_PL\_031 & 97   & 156  & -0,03 & 0,01 &      & M\_SD\_024 & 19   & 40   & -0,13 & 0,13 \\
+    M\_PL\_032 & 40   & 65   & -0,67 & 0,40 &      & M\_SD\_025 & 13   & 22   & -0,26 & 0,05 \\
+    M\_PL\_034 & 154  & 312  & -0,80 & 0,33 &      & M\_SD\_026 & 6    & 6    & -0,34 & 0,00 \\
+    M\_PL\_035 & 97   & 178  & -0,68 & 0,14 &      & M\_SD\_027 & 16   & 31   & -0,23 & 0,26 \\
+    M\_PL\_036 & 22   & 30   & -0,29 & 0,07 &      & M\_SD\_028 & 13   & 26   & -0,32 & 0,12 \\
+    M\_PL\_037 & 50   & 72   & -0,07 & 0,42 &      & M\_SD\_029 & 9    & 10   & -0,52 & 0,10 \\
+         &      &      &      &      &      & M\_SD\_030 & 9    & 11   & -0,41 & 0,09 \\
+    \bottomrule
+    \end{tabular}%
+    \caption{\label{table:table_results_recableados} Resultados del experimento de recableado para las redes con matriz de interacción binaria. La correlación es la de $zNODF$ y $z \overline {k}_{radius}$ para las redes recableadas. La asimetría de especies es la diferencia entre el número de especies de cada clase dividida por la suma.}
 \end{table}%

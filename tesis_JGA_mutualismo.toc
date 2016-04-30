@@ -33,7 +33,7 @@
 \contentsline {chapter}{\numberline {3}Estructura del mutualismo}{51}{chapter.122}
 \contentsline {section}{\numberline {3.1}Propiedades estructurales del mutualismo}{52}{section.123}
 \contentsline {section}{\numberline {3.2}Descripci\IeC {\'o}n basada en la descompisi\IeC {\'o}n \textit {k-core}}{54}{section.124}
-\contentsline {section}{\numberline {3.3}K magnitudes}{56}{section.127}
+\contentsline {section}{\numberline {3.3}Definici\IeC {\'o}n de las k-magnitudes}{56}{section.127}
 \contentsline {section}{\numberline {3.4}Material y m\IeC {\'e}todos}{60}{section.132}
 \contentsline {subsection}{\numberline {3.4.1}An\IeC {\'a}lisis mediante modelo nulo}{60}{subsection.133}
 \contentsline {subsection}{\numberline {3.4.2}Experimento de recableado}{62}{subsection.135}
@@ -43,10 +43,10 @@
 \contentsline {subsection}{\numberline {3.5.3}Correlaci\IeC {\'o}n entre \textit {k-magnitudes} y propiedades globales}{66}{subsection.143}
 \contentsline {subsection}{\numberline {3.5.4}An\IeC {\'a}lisis de modelo nulo}{69}{subsection.148}
 \contentsline {subsection}{\numberline {3.5.5}Recableado aleatorio}{70}{subsection.150}
-\contentsline {subsection}{\numberline {3.5.6}Rendimiento del algoritmo de destrucci\IeC {\'o}n}{72}{subsection.152}
-\contentsline {section}{\numberline {3.6}Conclusiones}{73}{section.155}
-\contentsline {section}{\numberline {3.7}Anexo: K-magnitudes de las redes analizadas}{75}{section.156}
-\contentsline {section}{\numberline {3.8}Anexo: Unidades reducidas}{76}{section.158}
+\contentsline {section}{\numberline {3.6}Conclusiones}{72}{section.153}
+\contentsline {section}{\numberline {3.7}Anexo: K-magnitudes de las redes analizadas}{73}{section.154}
+\contentsline {section}{\numberline {3.8}Anexo: Unidades reducidas}{74}{section.156}
+\contentsline {section}{\numberline {3.9}Anexo: Experimento de recableado}{75}{section.158}
 \contentsline {chapter}{\numberline {4}Visualizaciones}{77}{chapter.160}
 \contentsline {section}{\numberline {4.1}Representaciones cl\IeC {\'a}sicas del mutualismo}{77}{section.161}
 \contentsline {section}{\numberline {4.2}Visualizaciones basadas en \textit {k-magnitudes}}{78}{section.165}
