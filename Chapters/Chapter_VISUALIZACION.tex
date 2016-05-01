@@ -2,6 +2,10 @@
 
 \chapter{Visualizaciones} % Main chapter title
 
+Las visualizaciones son una herramienta imprescindible para el análisis de la información, y en particular en la ciencia de redes. La representación gráfica es básica en el análisis exploratorio pero también necesaria para la síntesis de resultados. Al trabajar con redes ecológicas se emplean gráficos de uso común en el análisis de redes sociales \cite{freeman2012social}. No ha habido apenas desarrollo de herramientas y gráficas específicas para este campo de aplicación \cite{yoon20043d, kazanci2007econet}.
+
+En el estudio del mutualismo se utilizan sobre todo dos tipos de gráfico: el diagrama bipartito y la matriz de adyacencia. Ambos son sencillas y ponen de manifiesto la separación entre las clases de especies, pero tienen limitaciones importantes. En este capítulo proponemos dos tipos de visualización que se construyen utilizando las \textit{k magnitudes}
+
 \label{VISUALIZACIÓN} % Change X to a consecutive number; for referencing this chapter elsewhere, use \ref{ChapterX}
 
 %----------------------------------------------------------------------------------------
@@ -10,15 +14,18 @@
 
 \section{Representaciones clásicas del mutualismo}
 
-Las visualizaciones son una herramienta cada día más importante en el análisis de la información, y en particular en la ciencia de redes. La representación gráfica es básica en el análisis exploratorio pero también necesaria para la síntesis de resultados. Las redes ecológicas se suelen visualizar con gráficos de uso común para redes sociales \cite{freeman2012social}. Quizá porque su tamaño es reducido en comparación con otras aplicaciones, no ha habido apenas desarrollo de herramientas y gráficas específicas para este campo de aplicación \cite{yoon20043d, kazanci2007econet}.
+Las redes mutualistas son bipartitas y por ello no es de extraño que el diagrama bipartito haya sido el más empleado en la literatura. En este 
+gráfico los nodo se disponen en dos filas paralelas, ya sean horizontales o verticales, y se unen aquellos que comparten enlace. Cuando el tamaño
+de la red es reducido, este diagrama tan simple funciona de manera satisfactoria.
 
-En el análisis del mutualismo se utilizan de forma habitual dos representaciones: el diagrama bipartito y la matriz de adyacencia. Ambas  son sencillas y ponen de manifiesto la separación entre clases de especies, pero tienen inconvenientes importantes. 
+\begin{figure}[h!]
+\centering
+\includegraphics[scale=0.33]{Figures/VIS_SD_030_bipartita.png}
+\caption{Diagrama bipartito de la red de dispersores de semillas que se usó como ejemplo de cálculo de las \textit{k magnitudes}. Véase la figura \ref{fig:ESTATICA_red_example}.}
+\label{fig:Figures/VIS_SD_030_bipartita}
+\end{figure}
 
-En el diagrama bipartito se disponen las especies en dos filas paralelas, ya sean horizontales o verticales
-y se unen aquellas que interactúan.
-
-
-En el ejemplo de la figura \ref{fig:INTRO_bip_ficticia} la red era pequeña, podían distinguirse el núcleo de especies más conectadas ($1$ y $2$ de cada clase) y los enlaces se veían con claridad. Cuando el número de especies supera unas pocas decenas, la situación cambia de forma radical.
+En el ejemplo de la figura \ref{fig:Figures/VIS_SD_030_bipartita} puede distinguirse el núcleo de especies más conectadas (especies de plantas $1$ y $2$ y todos los polinizadores) y como las especialistas se conectan a él. Los enlaces se ven con claridad. No obstante, es difícil captar la estructura interna de la red como en la representación que utilizamos en la figura \ref{fig:ESTATICA_red_example}. El diagrama bipartito es ideal para redes de afiliación, en las que el dato clave es la conexión entre los nodos de ambas clases, pero no permite apreciar las interacciones indirectas entre elementos de una misma clase que comparten enlace con un nodo de la contraria.
 
 \begin{figure}[h!]
 \centering
@@ -27,27 +34,38 @@ En el ejemplo de la figura \ref{fig:INTRO_bip_ficticia} la red era pequeña, pod
 \label{fig:VIS_bipartito_SD_020}
 \end{figure}
 
-La red de la figura \ref{fig:VIS_bipartito_SD_020} tiene $58$ especies y $150$ enlaces, frente a $28$ especies y $50$ enlaces de la anterior. Es una red de dimensiones moderadas, pero ya es muy complicado seguir los detalles del gráfico. A pesar de ello, algunos autores consiguen resultados excelentes con redes de dimensiones similares a las de este segundo ejemplo, jugando con formas, colores y tamaños \cite{dakos2014critical}. Cuando se llega al centenar de especies, la zona central degenera en una mancha en la que es imposible distinguir los enlaces. Por este motivo, en la literatura sobre mutualismo no aparecen gráficos de redes grandes. 
+Cuando el número de especies supera unas pocas decenas, el diagrama bipartito se vuelve confuso. La red de la figura \ref{fig:VIS_bipartito_SD_020} tiene $58$ especies y $150$ enlaces, frente a $9$ especies y $11$ enlaces de la anterior. Es una red de dimensiones moderadas, pero es muy complicado seguir los detalles del gráfico. A pesar de ello, algunos autores consiguen resultados excelentes con redes de dimensiones similares a las de este segundo ejemplo, jugando con formas, colores y tamaños \cite{dakos2014critical}. Cuando se llega al centenar de especies, la zona central degenera en una mancha en la que es imposible distinguir los enlaces. Por este motivo, en la literatura sobre mutualismo no aparecen diagramas bipartitos de redes grandes. 
 
-La Matriz de adyacencia ofrece una visión más rica si los nodos se ordenan de la forma adecuada. Colocando los más conectados en la parte superior izquierda, es fácil localizar el núcleo de especies generalistas. Con redes pequeñas como la del primer ejemplo, el resultado es muy satisfactorio.
+La matriz de adyacencia ofrece una visión más rica si los nodos se ordenan de la forma adecuada. Colocando los más conectados en la parte superior izquierda, es fácil localizar el núcleo de especies generalistas. Para redes pequeñas, el resultado es muy satisfactorio.
 
 \begin{figure}[h!]
 \centering
-\includegraphics[scale=0.4]{Figures/VIS_matrix_SD_001.png}
+\includegraphics[scale=0.12]{Figures/VIS_matrix_SD_001.png}
 \caption{Matriz de adyacencia de una red de dispersores en New Jersey \cite{baird1980selection}. Las casillas coloreadas indican la existencia de enlace.}
 \label{fig:VIS_matrix_SD_001}
 \end{figure}
 
-Por el contrario, la matriz de adyacencia se vuelve también muy confusa para redes grandes, como muestra la figura \ref{fig:VIS_matrix_PL_001}.
+Por el contrario, esta representación gráfica se vuelve también muy confusa para redes grandes, como muestra la figura \ref{fig:VIS_matrix_PL_001}.
 
-\begin{figure}[h!]
+\begin{figure}[hp!]
 \centering
-\includegraphics[scale=0.4]{Figures/VIS_matrix_PL_001.png}
-\caption{Matriz de adyacencia de una red de polinizadores en Los Andes, Chile \cite{arroyo1982community}.}
+\includegraphics[scale=0.45]{Figures/VIS_M_PL_017_matrix.png}
+\caption{Matriz de adyacencia de una red de polinizadores en Bristol, Inglaterra \cite{memmott1999structure}.}
 \label{fig:VIS_matrix_PL_001}
 \end{figure}
 
+Una alternativa que algunos autores han explorado es utilizar representaciones convencionales para redes no bipartitas, asignando un color o forma específicos para cada clase \cite{mello2011missing,genini2010cheaters,toju2014assembly}. Esta solución tiene la ventaja de que se percibe mucho mejor la red y las relaciones indirectas que hemos mencionado. El precio que se paga es que los diagramas se vuelven muy complicados de entender con redes de tamaño medio (figura \ref{fig:VIS_grafos_weboflife}).
 
+\begin{figure}[hp!]
+\centering
+\includegraphics[scale=0.75]{Figures/VIS_grafos_weboflife.png}
+\caption{Representación de dos redes de la colección \textit{web of  life} mediante la herramienta de visualización que ofrece la página web.}
+\label{fig:VIS_grafos_weboflife}
+\end{figure}
+
+Estas limitaciones nos han llevado a diseñar visualizaciones específicamente adaptadas a las características de las redes mutualistas: bipartitas, con una fuerte jerarquía y en el rango de centenares de enlaces. 
+
+\clearpage
 \section{Visualizaciones basadas en \textit{k-magnitudes}}
 
 En este apartado se describen dos nuevos tipos de visualización que se basan en las \textit{k magnitudes} definidas en el capítulo anterior: el diagrama polar y el diagrama zigurat.

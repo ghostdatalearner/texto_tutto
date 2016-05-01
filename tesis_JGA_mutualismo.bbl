@@ -196,38 +196,6 @@
   \field{year}{1995}
 \endentry
 
-\entry{arroyo1982community}{article}{}
-  \name{author}{3}{}{%
-    {{}%
-     {Arroyo}{A.}%
-     {Mary T~Kalin}{M.~T.~K.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Primack}{P.}%
-     {Richard}{R.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Armesto}{A.}%
-     {Juan}{J.}%
-     {}{}%
-     {}{}}%
-  }
-  \list{publisher}{1}{%
-    {JSTOR}%
-  }
-  \strng{namehash}{AMTKPRAJ1}
-  \strng{fullhash}{AMTKPRAJ1}
-  \field{labelalpha}{APA82}
-  \field{sortinit}{A}
-  \field{pages}{82\bibrangedash 97}
-  \field{title}{Community studies in pollination ecology in the high temperate
-  Andes of central Chile. I. Pollination mechanisms and altitudinal variation}
-  \field{journaltitle}{American journal of botany}
-  \field{year}{1982}
-\endentry
-
 \entry{addicott1995cheating}{article}{}
   \name{author}{2}{}{%
     {{}%
@@ -1614,6 +1582,44 @@
   \field{year}{2014}
 \endentry
 
+\entry{genini2010cheaters}{article}{}
+  \name{author}{4}{}{%
+    {{}%
+     {Genini}{G.}%
+     {Julieta}{J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Morellato}{M.}%
+     {L~Patr{\'\i}cia~C}{L.~P.~C.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Guimar{\~a}es}{G.}%
+     {Paulo~R}{P.~R.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Olesen}{O.}%
+     {Jens~M}{J.~M.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {The Royal Society}%
+  }
+  \strng{namehash}{GJ+1}
+  \strng{fullhash}{GJMLPCGPROJM1}
+  \field{labelalpha}{Gen+10}
+  \field{sortinit}{G}
+  \field{number}{4}
+  \field{pages}{494\bibrangedash 497}
+  \field{title}{Cheaters in mutualism networks}
+  \field{volume}{6}
+  \field{journaltitle}{Biology letters}
+  \field{year}{2010}
+\endentry
+
 \entry{geib2012tracing}{article}{}
   \name{author}{2}{}{%
     {{}%
@@ -2575,6 +2581,56 @@
   \field{year}{2009}
 \endentry
 
+\entry{mello2011missing}{article}{}
+  \name{author}{6}{}{%
+    {{}%
+     {Mello}{M.}%
+     {Marco Aurelio~Ribeiro}{M.~A.~R.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Marquitti}{M.}%
+     {Fl{\'a}via Maria~Darcie}{F.~M.~D.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Guimar{\~a}es~Jr}{G.~J.}%
+     {Paulo~Roberto}{P.~R.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Kalko}{K.}%
+     {Elisabeth Klara~Viktoria}{E.~K.~V.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Jordano}{J.}%
+     {Pedro}{P.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Aguiar}{A.}%
+     {Marcus Aloizio~Martinez}{M.~A.~M.}%
+     {de}{d.}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Public Library of Science}%
+  }
+  \strng{namehash}{MMAR+1}
+  \strng{fullhash}{MMARMFMDGJPRKEKVJPAMAMd2}
+  \field{labelalpha}{Mel+11}
+  \field{extraalpha}{1}
+  \field{sortinit}{M}
+  \field{number}{2}
+  \field{pages}{e17395}
+  \field{title}{The missing part of seed dispersal networks: structure and
+  robustness of bat-fruit interactions}
+  \field{volume}{6}
+  \field{journaltitle}{PLoS One}
+  \field{year}{2011}
+\endentry
+
 \entry{mello2011modularity}{article}{}
   \name{author}{6}{}{%
     {{}%
@@ -2614,6 +2670,7 @@
   \strng{namehash}{MMAR+1}
   \strng{fullhash}{MMARMFMDGJPRKEKVJPAMAMd1}
   \field{labelalpha}{Mel+11}
+  \field{extraalpha}{2}
   \field{sortinit}{M}
   \field{number}{1}
   \field{pages}{131\bibrangedash 140}
@@ -2622,6 +2679,29 @@
   \field{volume}{167}
   \field{journaltitle}{Oecologia}
   \field{year}{2011}
+\endentry
+
+\entry{memmott1999structure}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Memmott}{M.}%
+     {Jane}{J.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Wiley Online Library}%
+  }
+  \strng{namehash}{MJ2}
+  \strng{fullhash}{MJ2}
+  \field{labelalpha}{Mem99}
+  \field{sortinit}{M}
+  \field{number}{5}
+  \field{pages}{276\bibrangedash 280}
+  \field{title}{The structure of a plant-pollinator food web}
+  \field{volume}{2}
+  \field{journaltitle}{Ecology letters}
+  \field{year}{1999}
 \endentry
 
 \entry{mosquin1967observations}{article}{}
@@ -2816,8 +2896,8 @@
   \list{publisher}{1}{%
     {Springer, Berlin}%
   }
-  \strng{namehash}{MJ2}
-  \strng{fullhash}{MJ2}
+  \strng{namehash}{MJ3}
+  \strng{fullhash}{MJ3}
   \field{labelalpha}{Mur93}
   \field{sortinit}{M}
   \field{title}{Mathematical Biology I. An Introduction. Interdisciplinary
@@ -3997,6 +4077,42 @@
   \field{volume}{89}
   \field{journaltitle}{Ecology}
   \field{year}{2008}
+\endentry
+
+\entry{toju2014assembly}{article}{}
+  \name{author}{4}{}{%
+    {{}%
+     {Toju}{T.}%
+     {Hirokazu}{H.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Guimar{\~a}es}{G.}%
+     {Paulo~R}{P.~R.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Olesen}{O.}%
+     {Jens~M}{J.~M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Thompson}{T.}%
+     {John~N}{J.~N.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Nature Publishing Group}%
+  }
+  \strng{namehash}{TH+1}
+  \strng{fullhash}{THGPROJMTJN1}
+  \field{labelalpha}{Toj+14}
+  \field{sortinit}{T}
+  \field{title}{Assembly of complex plant--fungus networks}
+  \field{volume}{5}
+  \field{journaltitle}{Nature communications}
+  \field{year}{2014}
 \endentry
 
 \entry{ulrich2009consumer}{article}{}
