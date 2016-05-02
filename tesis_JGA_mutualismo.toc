@@ -51,15 +51,15 @@
 \contentsline {section}{\numberline {4.1}Representaciones cl\IeC {\'a}sicas del mutualismo}{78}{section.162}
 \contentsline {section}{\numberline {4.2}Visualizaciones basadas en \textit {k-magnitudes}}{81}{section.168}
 \contentsline {subsection}{\numberline {4.2.1}El diagrama polar}{81}{subsection.169}
-\contentsline {subsection}{\numberline {4.2.2}El diagrama zigurat}{83}{subsection.172}
-\contentsline {section}{\numberline {4.3}Visualizaci\IeC {\'o}n de la estructura}{92}{section.182}
-\contentsline {section}{\numberline {4.4}Conclusiones}{100}{section.190}
-\contentsline {chapter}{\numberline {5}Estudio de resistencia}{101}{chapter.191}
-\contentsline {section}{\numberline {5.1}Propiedades estructurales del mutualismo}{102}{section.192}
-\contentsline {subsection}{\numberline {5.1.1}Algoritmo de destrucci\IeC {\'o}n basado en \textit {k-shell}}{102}{subsection.193}
-\contentsline {section}{\numberline {5.2}Material y m\IeC {\'e}todos}{104}{section.195}
-\contentsline {subsection}{\numberline {5.2.1}An\IeC {\'a}lisis mediante modelo nulo}{104}{subsection.196}
-\contentsline {section}{\numberline {5.3}Conclusiones}{104}{section.197}
-\contentsline {chapter}{\numberline {6}Conclusiones de la tesis}{105}{chapter.198}
-\contentsline {section}{\numberline {6.1}XXXX mutualismo}{105}{section.199}
-\contentsline {chapter}{Bibliograf\IeC {\'\i }a}{107}{chapter*.200}
+\contentsline {subsection}{\numberline {4.2.2}El diagrama zigurat}{85}{subsection.174}
+\contentsline {section}{\numberline {4.3}Visualizaci\IeC {\'o}n de la estructura}{94}{section.184}
+\contentsline {section}{\numberline {4.4}Conclusiones}{102}{section.192}
+\contentsline {chapter}{\numberline {5}Estudio de resistencia}{103}{chapter.193}
+\contentsline {section}{\numberline {5.1}Propiedades estructurales del mutualismo}{104}{section.194}
+\contentsline {subsection}{\numberline {5.1.1}Algoritmo de destrucci\IeC {\'o}n basado en \textit {k-shell}}{104}{subsection.195}
+\contentsline {section}{\numberline {5.2}Material y m\IeC {\'e}todos}{106}{section.197}
+\contentsline {subsection}{\numberline {5.2.1}An\IeC {\'a}lisis mediante modelo nulo}{106}{subsection.198}
+\contentsline {section}{\numberline {5.3}Conclusiones}{106}{section.199}
+\contentsline {chapter}{\numberline {6}Conclusiones de la tesis}{107}{chapter.200}
+\contentsline {section}{\numberline {6.1}XXXX mutualismo}{107}{section.201}
+\contentsline {chapter}{Bibliograf\IeC {\'\i }a}{109}{chapter*.202}

@@ -68,26 +68,45 @@ Estas limitaciones nos han llevado a diseñar visualizaciones específicamente a
 \clearpage
 \section{Visualizaciones basadas en \textit{k-magnitudes}}
 
-En este apartado se describen dos nuevos tipos de visualización que se basan en las \textit{k magnitudes} definidas en el capítulo anterior: el diagrama polar y el diagrama zigurat.
+En esta sección se describen dos nuevos tipos de visualización que se basan en las \textit{k magnitudes} definidas en el capítulo anterior: el diagrama polar y el diagrama zigurat.
 
 \subsection{El diagrama polar}
 
-El diagrama polar se inspira en el \textit{fingerprint plot}, desarrollado por Álvarez-Hamelin \textit{et al} y que se basa en la descomposición \textit{k-core} \cite{alvarez2005k}. Los autores emplearon la técnica para reducir la información y poder visualizar redes muy grandes con índice $k$ máximo del orden de varias decenas. Los nodos se ubican de manera concénrica, a una distancia inversamente proporcional a la \textit{k-shell} a la que pertenecen. No se representan todos los enlaces, solo los más pesados. Una versión más evolucionada no utiliza los nodos sino las \textit{k-shell} que se disponen en espiral \cite{barbera2015critical}.
+El diagrama polar se inspira en el \textit{fingerprint plot}, desarrollado por Álvarez-Hamelin \textit{et al} y que se basa en la descomposición \textit{k-core} \cite{alvarez2005k}. Los autores emplearon esta técnica para reducir la información y poder visualizar redes muy grandes con índice $k$ máximo del orden de varias decenas. Los nodos se ubican de manera concéntrica, a una distancia que depende de su \textit{k-shell} y de las de sus vecinos. El tamaño de los nodos es proporcional al logaritmo del grado y el color indica la \textit{shell} a la que pertenecen. No se dibujan todos los enlaces, solo un pequeño porcentaje elegido al azar.
 
 \begin{figure}[h!]
 \centering
-\includegraphics[scale=0.6]{Figures/VIS_M_PL_034_polar.png}
+\includegraphics[scale=0.5]{Figures/VIS_fingerprint_plot.png}
+\caption{\textit{Fingerprint plot} de la difusión de la noticia del descubrimiento del bosón de Higgs en Twitter \cite{de2013anatomy}. La imagen se generó con el software \texttt{LaNet-vi}, desarrollado por el equipo que creó este tipo de diagrama \cite{alvarez2008low}.}
+\label{fig:VIS_M_PL_034_polar}
+\end{figure}
+
+Una versión evolucionada de esta forma de representar redes grandes usando la descomposición \textit{k-core} utiliza las \textit{k-shell} en lugar de los nodos. Estas se dibujan como círculos que se disponen en espiral alrededor de la \textit{shell} máxima (figura \ref{fig:VIS_taksim}).
+
+\begin{figure}[h!]
+\centering
+\includegraphics[scale=0.6]{Figures/VIS_taksim.png}
+\caption{Diagrama de relaciones entre las \textit{k shells} de retweets de los participantes en las protestas del parque Taksim Gezi en Estamnul en 2013   \cite{barbera2015critical}.}
+\label{fig:VIS_taksim}
+\end{figure}
+
+
+En el \textit{diagrama polar} se conservan las ideas de diagrama concéntrico y la coloración en función del \textit{k-shell}, pero hay cambios profundos en el resto de detalle. La naturaleza bipartita de las redes mutualistas es la principal diferencia con el \textit{fingerprint plot} original. En el diagrama polar cada clase ocupa uno de los semiplanos, divididos horizontalmente. La forma de los nodos se emplea para remarcar esta diferencia. 
+
+El centro de cada especie se sitúa a una distancia $k_{radius}$ del origen de coordenadas. Recordemos que el valor mínimo de esta magnitud es $1$. El área de los nodos es proporcional a su $k_{degree}$ y el color propio de la \textit{k-shell}. El algoritmo de representación asigna el ángulo que se distribuye para evitar al máximo la superposición de nodos. Una diferencia sustancial con el  \textit{fingerprint plot} es que en este tipo de visualizació no se representan los enlaces.
+
+\begin{figure}[h!]
+\centering
+\includegraphics[scale=0.4]{Figures/VIS_M_PL_034_polar.png}
 \caption[PolarExample]{Diagrama polar de una comunidad de polinizadores en la isla de Chiloé (Chile) \cite{smith2005diversity}.}
 \label{fig:VIS_M_PL_034_polar}
 \end{figure}
 
-En el diagrama polar se conserva la idea de diagrama concéntrico y la coloración en función del \textit{k-shell}, pero el difiere en todo lo demás de los dos mencionados. Para empezar, la red es bipartita. Cada clase se sitúa en un de los semiplanos y se utiliza la forma de los nodos para remarcar esta diferencia. El centro de cada especie se sitúa a una distancia $k_{radius}$ del origen de coordenadas, recordemos que el valor mínimo de esta magnitud es $1$. El ángulo se distribuye al azar por el algoritmo de representación para evitar al máximo la superposición de nodos. El área es proporcional al $k_{degree}$ y el color, propio de la \textit{k-shell}. Los enlaces no se representan.
+Se puede elegir incluir los nombres de todas las especies, de ninguna, o de un pequeño número, por defecto las tres más centrales y las tres más alejadas. Además, el usuario puede decidir que se añadan los histogramas de las tres \textit{k-magnitudes}, que contienen información muy valiosa.
 
-Se puede elegir incluir los nombres de todas las especies, de ninguna, o de un pequeño número, por defecto las tres más centrales y las tres más alejadas. Adicionalmente, el usuario puede decidir que se añadan los histogramas de las tres \textit{k-magnitudes}, que contienen información muy valiosa.
+La figura \ref{fig:VIS_M_PL_034_polar} es la representación polar de una red de polinizadores, que hemos elegido por ser una red mutualista tipo tanto por tamaño, anidamiento, modularidad y valores de las \textit{k magnitudes}, todos ellos no demasiado alejados de la media (tabla \ref{table:table_results}). El histograma de la distribución por \textit{k shells} tiene forma de bañera, muy repetido en estas redes. Hay unos pocos nodos dominantes y centrales, de índice $k = 5$ y un número importante de especies en las \textit{shells} exteriores. Es una red de elevada asimetría de especies ($0.66$), véase tabla \ref{table:table_results_recableados}).
 
-La figura \ref{fig:VIS_M_PL_034_polar} es la representación polar de una red de polinizadores, que hemos elegido por ser una red mutualista tipo tanto por tamaño, anidamiento, modularidad y valores de las \textit{k magnitudes}, todos ellos no demasiado alejados de la media (tabla \ref{table:table_results}). El histograma de la distribución por \textit{k shells} tiene forma de bañera, muy repetido en estas redes. Hay unos pocos nodos domninantes y centrales, de índice $k = 5$ y un número importante de especies en las \textit{shells} exteriores. Es una red de elevada asimetría ($0.66$, véase tabla \ref{table:table_rewiring}).
-
-La utilidad del diagrama polar se descubre al comparar varias redes, incluso si son de tamaños muy dispares. En la figura \ref{fig:VIS_Modvskdegree3}, se han escogido tres redes situadas en ambos extremos y en el centro del diagrama \ref{fig:ESTATICA_corrfigs} (derecha). La red de polinizadores $PL\_010$  tiene un valor de $Modularity$ bajo $(0.25)$, y alto el de $\overline {k}_{degree}$ $(4.57)$. El diagrama polar muestra la estructura en capas del mutualismo. Esta es mucho más evidente en la red $SD\_007$ ($Modularity:    0.28$, $\overline {k}_{degree}: 2.34$). La distribución de $\overline {k}_{degree}$ es más abrupta, con dos especies muy dominantes. La imagen transmite la idea de que esta una red tiene una mayor organización jerárquica que $PL\_010$.
+La utilidad del diagrama polar se descubre al comparar varias redes, incluso si son de tamaños muy dispares. En la figura \ref{fig:VIS_Modvskdegree3}, se han escogido tres redes situadas en ambos extremos y en el centro del diagrama \ref{fig:ESTATICA_corrfigs} (derecha). La red de polinizadores $PL\_010$  tiene un valor de $Modularity$ bajo $(0.25)$, y alto el de $\overline {k}_{degree}$ $(4.57)$. El diagrama polar muestra la estructura en capas del mutualismo. Esta es mucho más evidente en la red $SD\_007$ ($Modularity: 0.28$, $\overline {k}_{degree}: 2.34$). La distribución de $\overline {k}_{degree}$ es más abrupta, con dos especies muy dominantes. La imagen transmite la idea de que esta una red tiene una mayor organización jerárquica que $PL\_010$.
 
 La red $PL\_021$ es grande y fuertemente modular ($Modularity: 0.57$, $\overline {k}_{degree}: 1.23$). La distribución de $\overline {k}_{degree}$ es aun más abrupta. Se ha incluido en la parte inferior izquierda la distribución de densidades que ya aparecía en la figura \ref{fig:ESTATICA_density_plots} porque la escala logarítmica en el eje horizontal permite ver mejor las diferencias.
 
@@ -100,6 +119,7 @@ La red $PL\_021$ es grande y fuertemente modular ($Modularity: 0.57$, $\overline
 
 A pesar de que el diagrama polar ofrece una nueva visión de las comunidades mutualistas, tiene limitaciones. Como en toda estrategia de reducción de la información hay que renunciar a representar detalles en favor de una mejor visibilidad, en este caso los enlaces. No se trata de un detalle menor, así que se ha desarrollado un segundo tipo de diagrama que los toma como base de su construcción.
 
+\clearpage
 \subsection{El diagrama zigurat}
 
 El diagrana zigurat se ha creado para mostrar la estructura de \textit{k shells} de una red bipartita y todos los enlaces entre sus nodos. La idea básica consiste en agrupar las especies en \textit{shells} que se representan como pequeños zigurats\footnote{Según el DRAE: Torre escalonada y piramidal, característica de la arquitectura religiosa asiria y caldea.}. Las dos \textit{shells} máximas se colocan en el eje de simetría horizontal, ligeramente hacia la izquierda. El resto, se distribuyen siguiendo una disposición en forma de almendra, que deja un gran espacio libre para dibujar los enlaces.

@@ -100,6 +100,36 @@
   \field{year}{2005}
 \endentry
 
+\entry{alvarez2008low}{article}{}
+  \true{moreauthor}
+  \name{author}{2}{}{%
+    {{}%
+     {Alvarez-Hamelin}{A.-H.}%
+     {JI}{J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Busch}{B.}%
+     {JR}{J.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {IOP Publishing}%
+  }
+  \strng{namehash}{AHJBJ+1}
+  \strng{fullhash}{AHJBJ+1}
+  \field{labelalpha}{AHB+08}
+  \field{sortinit}{A}
+  \field{number}{12}
+  \field{pages}{125003}
+  \field{title}{A low complexity visualization tool that helps to perform
+  complex systems analysis}
+  \field{volume}{10}
+  \field{journaltitle}{New Journal of Physics}
+  \field{year}{2008}
+\endentry
+
 \entry{almeida2008consistent}{article}{}
   \name{author}{5}{}{%
     {{}%
@@ -1035,6 +1065,42 @@
   \field{volume}{111}
   \field{journaltitle}{Proceedings of the National Academy of Sciences}
   \field{year}{2014}
+\endentry
+
+\entry{de2013anatomy}{article}{}
+  \name{author}{4}{}{%
+    {{}%
+     {De~Domenico}{D.~D.}%
+     {Manlio}{M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Lima}{L.}%
+     {Antonio}{A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Mougel}{M.}%
+     {Paul}{P.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Musolesi}{M.}%
+     {Mirco}{M.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Nature Publishing Group}%
+  }
+  \strng{namehash}{DDM+1}
+  \strng{fullhash}{DDMLAMPMM1}
+  \field{labelalpha}{DD+13}
+  \field{sortinit}{D}
+  \field{title}{The anatomy of a scientific rumor}
+  \field{volume}{3}
+  \field{journaltitle}{Scientific reports}
+  \field{year}{2013}
 \endentry
 
 \entry{dormann2008introducing}{article}{}
