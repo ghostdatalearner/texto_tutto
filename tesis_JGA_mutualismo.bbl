@@ -694,6 +694,40 @@
   \field{year}{1982}
 \endentry
 
+\entry{bezerra2009pollination}{article}{}
+  \name{author}{3}{}{%
+    {{}%
+     {Bezerra}{B.}%
+     {Elis{\^a}ngela~LS}{E.~L.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Machado}{M.}%
+     {Isabel~C}{I.~C.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Mello}{M.}%
+     {Marco~AR}{M.~A.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Wiley Online Library}%
+  }
+  \strng{namehash}{BELMICMMA1}
+  \strng{fullhash}{BELMICMMA1}
+  \field{labelalpha}{BMM09}
+  \field{sortinit}{B}
+  \field{number}{5}
+  \field{pages}{1096\bibrangedash 1101}
+  \field{title}{Pollination networks of oil-flowers: a tiny world within the
+  smallest of all worlds}
+  \field{volume}{78}
+  \field{journaltitle}{Journal of Animal Ecology}
+  \field{year}{2009}
+\endentry
+
 \entry{box1979robustness}{article}{}
   \name{author}{1}{}{%
     {{}%
@@ -2645,6 +2679,58 @@
   \field{volume}{54}
   \field{journaltitle}{Toxicon}
   \field{year}{2009}
+\endentry
+
+\entry{medan2002plant}{article}{}
+  \name{author}{7}{}{%
+    {{}%
+     {Medan}{M.}%
+     {Diego}{D.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Montaldo}{M.}%
+     {Norberto~H}{N.~H.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Devoto}{D.}%
+     {Mariano}{M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Mantese}{M.}%
+     {Anita}{A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Vasellati}{V.}%
+     {Viviana}{V.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Roitman}{R.}%
+     {Germ{\'a}n~G}{G.~G.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Bartoloni}{B.}%
+     {Norberto~H}{N.~H.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {JSTOR}%
+  }
+  \strng{namehash}{MD+1}
+  \strng{fullhash}{MDMNHDMMAVVRGGBNH1}
+  \field{labelalpha}{Med+02}
+  \field{sortinit}{M}
+  \field{pages}{233\bibrangedash 241}
+  \field{title}{Plant-pollinator relationships at two altitudes in the Andes of
+  Mendoza, Argentina}
+  \field{journaltitle}{Arctic, Antarctic, and Alpine Research}
+  \field{year}{2002}
 \endentry
 
 \entry{mello2011missing}{article}{}
