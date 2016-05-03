@@ -153,7 +153,7 @@ En algunas redes se incluyen observaciones de especies que no están conectadas 
 
 Un detalle importante es que en el diagrama zigurat, las áreas no transmiten información. Se han dispuesto así por conveniencia para poder representar con la mayor claridad posible los enlaces y las agrupaciones en \textit{k shells}.
 
-La red de la figura \ref{fig:ziggurat} es de pequeño tamaño. En el gráfico bipartito todavía se pueden seguir los enlaces individuales. Sin embargo, el zigurat ofrece una visión mucho más rica de la organización con cuatro \textit{shells} internas y la $1$-$shell$ con pocas especies. Se pueden descubrir con facilidad algunos patrones, como la baja conectividad entre especies de las \textit{shells} de menor índice $k$, o la relativa importancia de la especie dispersora $2$ que en el bipartito aparece en el extremo izquierdo. Hay dos especies desconectadas de la componente gigante, pueden verse en la parte inferior izquierda del diagrama.
+La red de la figura \ref{fig:ziggurat} es de pequeño tamaño y produce una figura que recuerda a un pez con su boca y aletas. Esta imagen se repite en numerosos ejemplos. En el gráfico bipartito todavía se pueden seguir los enlaces individuales. Sin embargo, el zigurat ofrece una visión mucho más rica de la organización con cuatro \textit{shells} internas y la $1$-$shell$ con pocas especies. Se pueden descubrir con facilidad algunos patrones, como la baja conectividad entre especies de las \textit{shells} de menor índice $k$, o la relativa importancia de la especie dispersora $2$ que en el bipartito aparece en el extremo izquierdo. Hay dos especies desconectadas de la componente gigante, pueden verse en la parte inferior izquierda del diagrama.
 
 \begin{figure}[hp!]
 \centering
@@ -163,7 +163,6 @@ La red de la figura \ref{fig:ziggurat} es de pequeño tamaño. En el gráfico bi
 \end{figure}
 
 El diagrama zigurat funciona bien para los tamaños típicos de las redes mutualistas documentadas en la literatura. La red de la figura \ref{fig:VIS_zig_pl_024} es pequeña, muy simétrica y con valores intermedios de $NODF$ y de las \textit{k magnitudes} (véase la tabla \ref{table:table_results}). La especie con mayor $k_{degree}$ $(5,74)$ es la planta $1$. En esta red todas las especies de las \textit{shells} máximas están conectadas entre sí, por lo que sus $k_{radius}$ valen $1,0$, pero esto no tiene por qué suceder siempre. Las más distantes de la $3$-$shell$ (descartando las que no están conectadas con la componente gigante) son los polinizadores $12$, $17$ y $18$, con  $k_{radius}$ $3,0$, que aparecen conectadas al extremo derecho del zigurat de la $2$-$shell$ de plantas.
-
 
 \begin{figure}[h!]
 \centering
@@ -222,7 +221,7 @@ El diagrama zigurat no solo sirve para captar la riqueza y variedad de las comun
 \begin{figure}[h!]
 \centering
 \includegraphics[scale=0.42]{Figures/VIS_M_PL_059_ziggurat.png}
-\caption {Red de polinizadores $M\_PL\_059$, Parque Nacional do Catimbau, Brasil, con $26$ especies y $71$ enlaces \cite{bezerra2009pollination}. $NODF = 76,88$, $z \overline {k}_{radius} = 1,57$ .}
+\caption {Red de polinizadores $M\_PL\_059$, Parque Nacional do Catimbau, Brasil, con $26$ especies y $71$ enlaces \cite{bezerra2009pollination}. $NODF = 76,88$, $\overline {k}_{radius} = 1,57$ .}
 \label{fig:VIS_M_PL_059_ziggurat}
 \end{figure}
 
@@ -317,7 +316,7 @@ En la figura \ref{fig:VIS_Modvskdegree3-sd04} se han representado los diagramas 
 \begin{figure}[ht!]
 \centering
 \includegraphics[scale=0.5]{Figures/VIS_M_SD_004_minus_k3k2_ziggurat.png}
-\caption {Red de frugívoros $M\_SD\_004$, en la que se han eliminado todos los polinizadores de la $3$-$shell$ ($NODF = 36,24$, $\overline k_{radius} = 2,17$)y la $2$-$shell$ ($NODF = 33,055$, $\overline k_{radius} = 2,15$), véase la figura \ref{fig:ziggurat}.} 
+\caption {Red de frugívoros $M\_SD\_004$, en la que se han eliminado todos los polinizadores de la $3$-$shell$ ($NODF = 36,24$, $\overline k_{radius} = 2,17$) y la $2$-$shell$ ($NODF = 33,055$, $\overline k_{radius} = 2,15$), véase la figura \ref{fig:ziggurat}.} 
 \label{fig:VIS_M_SD_004_minus_k3k2_ziggurat}
 \end{figure}
 
@@ -339,7 +338,12 @@ La conservación de las especies de las \textit{shells} máximas debe ser priori
 \clearpage
 \section{Conclusiones}
 
-Nunc posuere quam at lectus tristique eu ultrices augue venenatis. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Aliquam erat volutpat. Vivamus sodales tortor eget quam adipiscing in vulputate ante ullamcorper. Sed eros ante, lacinia et sollicitudin et, aliquam sit amet augue. In hac habitasse platea dictumst.
+La visualización de datos es una gran ayuda para la investigación, porque permite observar detalles estructurales. Para ello, las herramientas gráficas deben estar adaptadas a las propiedades de la información. Los gráficos más usados en el estudio de las comunidades mutualistas se vuelven muy confusos cuando la red tiene unas pocas decenas de especies. 
+
+La descomposición \textit{k core} ha permitido definir dos nuevos diagramas, denominados polar y zigurat. El diagrama polar utiliza la descomposición
+como mecanismo de reducción de la información. Permite percibir en qué grado la red es jerárquica y es útil para comparar redes con independencia de sus tamaños.
+
+El diagrama zigurat es más rico. Se representan todas las especies y enlaces y revela con claridad la estructura de \textit{k shells}. Tiene aplicación para comparar la evolución temporal de una red, ya sea por extinciones parciales, por experimentos de reconfiguración o por cualquier otra circunstancia que altere el número de especies y su conectividad. Los diagramas de zigurat tienden a adoptar una serie de figuras tipo que permiten deducir a simple vista algunas propiedades de la red.
 
 \clearpage
 \section{Anexo: Red del Parque Nacional de Canaima}
