@@ -58,9 +58,9 @@
 \contentsline {chapter}{\numberline {5}Estudio de resistencia}{105}{chapter.197}
 \contentsline {section}{\numberline {5.1}Medici\IeC {\'o}n de la resistencia}{106}{section.198}
 \contentsline {section}{\numberline {5.2}M\IeC {\'e}todos}{107}{section.199}
-\contentsline {section}{\numberline {5.3}Resultados}{110}{section.207}
-\contentsline {section}{\numberline {5.4}Conclusiones}{111}{section.208}
-\contentsline {section}{\numberline {5.5}Anexo: Resultados de los procesos de destrucci\IeC {\'o}n}{112}{section.209}
-\contentsline {chapter}{\numberline {6}Conclusiones de la tesis}{115}{chapter.213}
-\contentsline {section}{\numberline {6.1}XXXX mutualismo}{115}{section.214}
-\contentsline {chapter}{Bibliograf\IeC {\'\i }a}{117}{chapter*.215}
+\contentsline {section}{\numberline {5.3}Resultados}{111}{section.207}
+\contentsline {section}{\numberline {5.4}Conclusiones}{113}{section.210}
+\contentsline {section}{\numberline {5.5}Anexo: Resultados de los procesos de destrucci\IeC {\'o}n}{114}{section.211}
+\contentsline {chapter}{\numberline {6}Conclusiones de la tesis}{117}{chapter.215}
+\contentsline {section}{\numberline {6.1}XXXX mutualismo}{117}{section.216}
+\contentsline {chapter}{Bibliograf\IeC {\'\i }a}{119}{chapter*.217}
