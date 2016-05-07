@@ -1093,6 +1093,39 @@
   \field{year}{2014}
 \endentry
 
+\entry{dicks2002compartmentalization}{article}{}
+  \name{author}{3}{}{%
+    {{}%
+     {Dicks}{D.}%
+     {LV}{L.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Corbet}{C.}%
+     {SA}{S.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Pywell}{P.}%
+     {RF}{R.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Wiley Online Library}%
+  }
+  \strng{namehash}{DLCSPR1}
+  \strng{fullhash}{DLCSPR1}
+  \field{labelalpha}{DCP02}
+  \field{sortinit}{D}
+  \field{number}{1}
+  \field{pages}{32\bibrangedash 43}
+  \field{title}{Compartmentalization in plant--insect flower visitor webs}
+  \field{volume}{71}
+  \field{journaltitle}{Journal of Animal Ecology}
+  \field{year}{2002}
+\endentry
+
 \entry{de2013anatomy}{article}{}
   \name{author}{4}{}{%
     {{}%
