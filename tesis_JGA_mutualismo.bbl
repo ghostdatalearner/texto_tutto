@@ -2184,6 +2184,39 @@
   \field{year}{2003}
 \endentry
 
+\entry{jonhson2013factors}{article}{}
+  \name{author}{3}{}{%
+    {{}%
+     {Jonhson}{J.}%
+     {Samuel}{S.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Dom{\'\i}nguez-Garc{\'\i}a}{D.-G.}%
+     {Virginia}{V.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Mu{\~n}oz}{M.}%
+     {Miguel~A}{M.~A.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Public Library of Science}%
+  }
+  \strng{namehash}{JSDGVMMA1}
+  \strng{fullhash}{JSDGVMMA1}
+  \field{labelalpha}{JDGM13}
+  \field{sortinit}{J}
+  \field{number}{9}
+  \field{pages}{e74025}
+  \field{title}{Factors determining nestedness in complex networks}
+  \field{volume}{8}
+  \field{journaltitle}{PloS one}
+  \field{year}{2013}
+\endentry
+
 \entry{jones2008}{article}{}
   \name{author}{9}{}{%
     {{}%
@@ -4766,6 +4799,59 @@
   \field{volume}{2003}
   \field{journaltitle}{Sci STKE}
   \field{year}{2003}
+\endentry
+
+\entry{weitz2013phage}{article}{}
+  \name{author}{7}{}{%
+    {{}%
+     {Weitz}{W.}%
+     {Joshua~S}{J.~S.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Poisot}{P.}%
+     {Timoth{\'e}e}{T.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Meyer}{M.}%
+     {Justin~R}{J.~R.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Flores}{F.}%
+     {Cesar~O}{C.~O.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Valverde}{V.}%
+     {Sergi}{S.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Sullivan}{S.}%
+     {Matthew~B}{M.~B.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Hochberg}{H.}%
+     {Michael~E}{M.~E.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Elsevier}%
+  }
+  \strng{namehash}{WJS+1}
+  \strng{fullhash}{WJSPTMJRFCOVSSMBHME1}
+  \field{labelalpha}{Wei+13}
+  \field{sortinit}{W}
+  \field{number}{2}
+  \field{pages}{82\bibrangedash 91}
+  \field{title}{Phage--bacteria infection networks}
+  \field{volume}{21}
+  \field{journaltitle}{Trends in microbiology}
+  \field{year}{2013}
 \endentry
 
 \entry{williams2011biology}{article}{}

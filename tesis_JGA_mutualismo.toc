@@ -32,21 +32,21 @@
 \contentsline {section}{\numberline {2.9}Anexo: Datos de las simulaciones del modelo con saturaci\IeC {\'o}n}{48}{section.117}
 \contentsline {chapter}{\numberline {3}Estructura del mutualismo}{51}{chapter.122}
 \contentsline {section}{\numberline {3.1}Propiedades estructurales del mutualismo}{52}{section.123}
-\contentsline {section}{\numberline {3.2}Descripci\IeC {\'o}n basada en la descomposici\IeC {\'o}n \textit {k-core}}{54}{section.124}
+\contentsline {section}{\numberline {3.2}Descripci\IeC {\'o}n basada en la descomposici\IeC {\'o}n \textit {k-core}}{55}{section.125}
 \contentsline {section}{\numberline {3.3}Definici\IeC {\'o}n de las k-magnitudes}{56}{section.127}
 \contentsline {section}{\numberline {3.4}Material y m\IeC {\'e}todos}{60}{section.132}
-\contentsline {subsection}{\numberline {3.4.1}An\IeC {\'a}lisis mediante modelo nulo}{60}{subsection.133}
+\contentsline {subsection}{\numberline {3.4.1}An\IeC {\'a}lisis mediante modelo nulo}{61}{subsection.133}
 \contentsline {subsection}{\numberline {3.4.2}Experimento de recableado}{62}{subsection.135}
-\contentsline {section}{\numberline {3.5}Resultados}{63}{section.137}
-\contentsline {subsection}{\numberline {3.5.1}An\IeC {\'a}lisis exploratorio}{63}{subsection.138}
-\contentsline {subsection}{\numberline {3.5.2}Relaci\IeC {\'o}n entre las medidas de grado}{65}{subsection.141}
-\contentsline {subsection}{\numberline {3.5.3}Correlaci\IeC {\'o}n entre \textit {k-magnitudes} y propiedades globales}{66}{subsection.143}
-\contentsline {subsection}{\numberline {3.5.4}An\IeC {\'a}lisis de modelo nulo}{69}{subsection.148}
-\contentsline {subsection}{\numberline {3.5.5}Recableado aleatorio}{70}{subsection.150}
-\contentsline {section}{\numberline {3.6}Conclusiones}{72}{section.154}
-\contentsline {section}{\numberline {3.7}Anexo: Unidades reducidas}{73}{section.155}
-\contentsline {section}{\numberline {3.8}Anexo: K-magnitudes de las redes analizadas}{74}{section.157}
-\contentsline {section}{\numberline {3.9}Anexo: Experimento de recableado}{75}{section.159}
+\contentsline {section}{\numberline {3.5}Resultados}{64}{section.137}
+\contentsline {subsection}{\numberline {3.5.1}An\IeC {\'a}lisis exploratorio}{64}{subsection.138}
+\contentsline {subsection}{\numberline {3.5.2}Relaci\IeC {\'o}n entre las medidas de grado}{66}{subsection.141}
+\contentsline {subsection}{\numberline {3.5.3}Correlaci\IeC {\'o}n entre \textit {k-magnitudes} y propiedades globales}{67}{subsection.143}
+\contentsline {subsection}{\numberline {3.5.4}An\IeC {\'a}lisis de modelo nulo}{70}{subsection.148}
+\contentsline {subsection}{\numberline {3.5.5}Recableado aleatorio}{71}{subsection.150}
+\contentsline {section}{\numberline {3.6}Conclusiones}{73}{section.154}
+\contentsline {section}{\numberline {3.7}Anexo: Unidades reducidas}{74}{section.155}
+\contentsline {section}{\numberline {3.8}Anexo: K-magnitudes de las redes analizadas}{75}{section.157}
+\contentsline {section}{\numberline {3.9}Anexo: Experimento de recableado}{76}{section.159}
 \contentsline {chapter}{\numberline {4}Visualizaciones}{77}{chapter.161}
 \contentsline {section}{\numberline {4.1}Representaciones cl\IeC {\'a}sicas del mutualismo}{78}{section.162}
 \contentsline {section}{\numberline {4.2}Visualizaciones basadas en \textit {k-magnitudes}}{81}{section.168}

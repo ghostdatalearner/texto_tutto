@@ -16,7 +16,7 @@ En el estudio del mutualismo se utilizan sobre todo dos tipos de gráfico: el di
 \section{Representaciones clásicas del mutualismo}
 
 Las redes mutualistas son bipartitas y por ello no es de extraño que el diagrama bipartito haya sido el más empleado en la literatura. En este 
-gráfico los nodo se disponen en dos filas paralelas, ya sean horizontales o verticales, y se unen aquellos que comparten enlace. Cuando el tamaño
+gráfico los nodos se disponen en dos filas paralelas, ya sean horizontales o verticales, y se unen aquellos que comparten enlace. Cuando el tamaño
 de la red es reducido, este diagrama tan simple funciona de manera satisfactoria.
 
 \begin{figure}[h!]
@@ -94,7 +94,7 @@ Una versión evolucionada de esta forma de representar redes grandes usando la d
 
 En el \textit{diagrama polar} se conservan las ideas de diagrama concéntrico y la coloración en función del \textit{k-shell}, pero hay cambios profundos en el resto de detalle. La naturaleza bipartita de las redes mutualistas es la principal diferencia con el \textit{fingerprint plot} original. En el diagrama polar cada clase ocupa uno de los semiplanos, divididos horizontalmente. La forma de los nodos se emplea para remarcar esta diferencia. 
 
-El centro de cada especie se sitúa a una distancia $k_{radius}$ del origen de coordenadas. Recordemos que el valor mínimo de esta magnitud es $1$. El área de los nodos es proporcional a su $k_{degree}$ y el color propio de la \textit{k-shell}. El algoritmo de representación asigna el ángulo que se distribuye para evitar al máximo la superposición de nodos. Una diferencia sustancial con el  \textit{fingerprint plot} es que en este tipo de visualizació no se representan los enlaces.
+El centro de cada especie se sitúa a una distancia $k_{radius}$ del origen de coordenadas. Recordemos que el valor mínimo de esta magnitud es $1$. El tamaño de los nodos es proporcional a su $k_{degree}$ y el color propio de la \textit{k-shell}. El algoritmo de representación asigna el ángulo que se distribuye para evitar al máximo la superposición de nodos. Una diferencia sustancial con el  \textit{fingerprint plot} es que en este tipo de visualizació no se representan los enlaces.
 
 \begin{figure}[h!]
 \centering
@@ -107,7 +107,7 @@ Se puede elegir incluir los nombres de todas las especies, de ninguna, o de un p
 
 La figura \ref{fig:VIS_M_PL_034_polar} es la representación polar de una red de polinizadores, que hemos elegido por ser una red mutualista tipo tanto por tamaño, anidamiento, modularidad y valores de las \textit{k magnitudes}, todos ellos no demasiado alejados de la media (tabla \ref{table:table_results}). El histograma de la distribución por \textit{k shells} tiene forma de bañera, muy repetido en estas redes. Hay unos pocos nodos dominantes y centrales, de índice $k = 5$ y un número importante de especies en las \textit{shells} exteriores. Es una red de elevada asimetría de especies ($0.66$), véase tabla \ref{table:table_results_recableados}).
 
-La utilidad del diagrama polar se descubre al comparar varias redes, incluso si son de tamaños muy dispares. En la figura \ref{fig:VIS_Modvskdegree3}, se han escogido tres redes situadas en ambos extremos y en el centro del diagrama \ref{fig:ESTATICA_corrfigs} (derecha). La red de polinizadores $PL\_010$  tiene un valor de $Modularity$ bajo $(0.25)$, y alto el de $\overline {k}_{degree}$ $(4.57)$. El diagrama polar muestra la estructura en capas del mutualismo. Esta es mucho más evidente en la red $SD\_007$ ($Modularity: 0.28$, $\overline {k}_{degree}: 2.34$). La distribución de $\overline {k}_{degree}$ es más abrupta, con dos especies muy dominantes. La imagen transmite la idea de que esta una red tiene una mayor organización jerárquica que $PL\_010$.
+La utilidad del diagrama polar se descubre al comparar varias redes, incluso si son de tamaños muy dispares. En la figura \ref{fig:VIS_Modvskdegree3}, se han escogido tres redes situadas en ambos extremos y en el centro del diagrama \ref{fig:ESTATICA_corrfigs} (derecha). La red de polinizadores $PL\_010$  tiene un valor de $Modularity$ bajo $(0.25)$, y alto el de $\overline {k}_{degree}$ $(4.57)$. El diagrama polar muestra la estructura en capas del mutualismo. Esta es mucho más evidente en la red $SD\_007$ ($Modularity: 0.28$, $\overline {k}_{degree}: 2.34$). La distribución de $\overline {k}_{degree}$ es más abrupta, con dos especies muy dominantes. La imagen transmite la idea de que esta red tiene una mayor organización jerárquica que $PL\_010$.
 
 La red $PL\_021$ es grande y fuertemente modular ($Modularity: 0.57$, $\overline {k}_{degree}: 1.23$). La distribución de $\overline {k}_{degree}$ es aun más abrupta. Se ha incluido en la parte inferior izquierda la distribución de densidades que ya aparecía en la figura \ref{fig:ESTATICA_density_plots} porque la escala logarítmica en el eje horizontal permite ver mejor las diferencias.
 
@@ -124,7 +124,7 @@ A pesar de que el diagrama polar ofrece una nueva visión de las comunidades mut
 \subsection{El diagrama zigurat}
 \label{sec:diagrama_zigurat}
 
-El diagrana zigurat se ha creado para mostrar la estructura de \textit{k shells} de una red bipartita y los enlaces entre sus nodos. La idea básica consiste en agrupar las especies en \textit{shells} que se representan como pequeños zigurats\footnote{Según el DRAE: Torre escalonada y piramidal, característica de la arquitectura religiosa asiria y caldea.}. Las dos \textit{shells} máximas se colocan en el eje de simetría horizontal, ligeramente hacia la izquierda. El resto, se distribuyen siguiendo una disposición en forma de almendra, que deja un gran espacio libre para dibujar los enlaces.
+El diagrama zigurat se ha creado para mostrar la estructura de \textit{k shells} de una red bipartita y los enlaces entre sus nodos. La idea básica consiste en agrupar las especies en \textit{shells} que se representan como pequeños zigurats\footnote{Según el DRAE: Torre escalonada y piramidal, característica de la arquitectura religiosa asiria y caldea.}. Las dos \textit{shells} máximas se colocan en el eje de simetría horizontal, ligeramente hacia la izquierda. El resto, se distribuyen siguiendo una disposición en forma de almendra, que deja un gran espacio libre para dibujar los enlaces.
 
 \begin{figure}[h!]
 \centering
@@ -217,7 +217,7 @@ La red de polinizadores de un brezal danés (figura \ref{fig:VIS_M_PL_047_ziggur
 \clearpage
 \section{Visualización de la estructura}
 
-El diagrama zigurat no solo sirve para captar la riqueza y variedad de las comunidades mutualistas, también puede ayudar a entender algunas de sus propiedades. En el capítulo precedente se llevó a cabo un análisis de modelo nulo que reveló importantes diferencias en las redes de la colección \ref{fig:ESTATICA_zscore_all}. Se comprobó que la mayoría de las que tienen matriz de interacción pesada no son significativamente anidadas usando un modelo nulo restrictivo. Pese a ello, tres si mostraban fuerte anidamiento y una de ellas además era compacta, la red de polinizadores $059$ (figura \ref{fig:VIS_M_PL_059_ziggurat}).
+El diagrama zigurat no solo sirve para captar la riqueza y variedad de las comunidades mutualistas, también puede ayudar a entender algunas de sus propiedades. En el capítulo precedente se llevó a cabo un análisis de modelo nulo que reveló importantes diferencias en las redes de la colección \ref{fig:ESTATICA_zscore_all}. Se comprobó que la mayoría de las que tienen matriz de adyacencia pesada no son significativamente anidadas usando un modelo nulo restrictivo. Pese a ello, tres sí mostraban fuerte anidamiento y una de ellas además era compacta, la red de polinizadores $059$ (figura \ref{fig:VIS_M_PL_059_ziggurat}).
 
 \begin{figure}[h!]
 \centering
@@ -243,7 +243,7 @@ En el extremo opuesto se encuentra la red de polinizadores $031$ (figura \ref{fi
 \end{figure}
 
 \clearpage
-En el capítulo anterior también se describió un experimento que consiste en recablear al azar un porcentaje de los enlaces y medir su efecto en la correlación entre $NODF$ y $\overline k_{radius}$ (figura \ref{fig:ESTATICA_histo_corr_rewiring}). La mayoría de las redes experimentan una degradaciónl lineal por la que el anidamiento, medido con $NODF$, decrece y el $\overline k_{radius}$ aumenta. Se llega a un estado similar al que se obtendría si las especies interactuasen al azar, lo que sabemos que está lejos de la realidad.
+En el capítulo anterior también se describió un experimento que consiste en recablear al azar un porcentaje de los enlaces y medir su efecto en la correlación entre $NODF$ y $\overline k_{radius}$ (figura \ref{fig:ESTATICA_histo_corr_rewiring}). La mayoría de las redes experimentan una degradación lineal por la que el anidamiento, medido con $NODF$, decrece y el $\overline k_{radius}$ aumenta. Se llega a un estado similar al que se obtendría si las especies interactuasen al azar, lo que sabemos que está lejos de la realidad.
 
 No obstante, un pequeño porcentaje se salía de este patrón. En general, eran redes pequeñas o con una marcada asimetría. En los dos ejemplos que se incluyen a continuación, los diagramas zigurat permiten entender el por qué de este comportamiento.
 
@@ -326,7 +326,7 @@ Cabe preguntarse si las redes resultantes de las extinciones se parecen a redes 
 
 Su aspecto general es muy similar al de lo que queda de la comunidad de Puerto Rico al extinguirse los frugívoros de la \textit{shell} máxima. Esto lleva a pensar que las comunidades mutualistas con bajos índices $k$ máximos pueden ser restos de otras anteriores más complejas que han perdido parte de sus nodos. Alternativamente, podrían ser estados iniciales de formación.
 
-Al exponer en el capítulo anterior el mecanismo de extinción basado en $k$-$shell$, se vio que la mayor destrucción se produce si se eliminan éstas de mayor a menor índice. Se ha comprobado como afecta a la red $M\_SD\_004$ la pérdida de los cinco frugívoros de la \textit{shell} máxima, ¿qué ocurre si ese núcleo se mantiene y se destruyen los de índices $k$ menores?
+Se ha comprobado como afecta a la red $M\_SD\_004$ la pérdida de los cinco frugívoros de la \textit{shell} máxima, ¿qué ocurre si ese núcleo se mantiene y se destruyen los de índices $k$ menores?
 
 En la imagen superior de la figura \ref{fig:VIS_M_SD_004_minus_k3k2_ziggurat}, se han extinguido las dos especies de frugívoros que formaban la $3$-$shell$. La $NODF$ baja muy poco, de $39,82$ a $36,34$ y el $\overline k_{radius}$ prácticamente no se modifica. El contraste es grande si se compara con el resultado de eliminar los dos frugívoros de mayor $\overline k_{degree}$, tanto en el porcentaje de cambio de las magnitudes como en el de la estructura de la red. Se sigue conservando el índice $k$ máximo $4$.
 
