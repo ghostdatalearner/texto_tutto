@@ -1,0 +1,19 @@
+% Appendix B
+
+\appendix
+\renewcommand{\thechapter}{B}
+\chapter{Paquete kcorebip, manual de uso} % Main appendix title
+
+\label{APP_KCOREMANBIP} % For referencing this appendix elsewhere, use \ref{AppendixA}
+
+\section*{Introducción}
+
+El paquete \texttt{kcorebip} realiza la descomposición \texttt{k-core} de una red y su análisis y permite construir los diagramas\textit{polar}
+y \textit{zigurat}. Funciona para cualquier tipo de red bipartita aunque en lo que sigue se utilizará la terminología de las redes mutualistas.
+
+El paquete instala desde \texttt{github} con el comando \texttt{install\_github}$("$\path{jgalgarra/kcorebip}$")$, para lo cual previamente se tiene que cargar el paquete \texttt{devtools}.
+ 
+\subsection*{Formato del fichero de entrada}
+\label{input_file_format}
+
+Utilizamos el formato de fichero de entrada de la base de datos \href{http://www.web-of-life.es/}{web of life} \cite{bascompte2009}. Los datos se alamacenan en ficheros \texttt{.csv} files. Las especies de la clase \textit{a} se distribuyen por columnas,y las de la clase \textit{b} por fileas. La primera columna contiene las etiquetas de las especies de la clase b, y la primera fila, las etiquetas de la clase a. Si la matriz de adyacencia es binaria, la celda $especie\_a\_m,especie\_b\_n$ estará rellena a $1$ si hay enlace y a $0$ si no lo hay. Si es pesas, a un numero real diferente de $0$ en el caso de que las especies interactúen.

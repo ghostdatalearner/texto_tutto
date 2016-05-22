@@ -44,12 +44,13 @@ onehalfspacing, % Single line spacing, alternatives: onehalfspacing or doublespa
 %\usepackage{mdframed}
 \usepackage{xfrac}
 \usepackage{adjustbox}
-
+\usepackage[toc,page]{appendix}
 
 \usepackage{mathpazo} 
 \usepackage{eulervm}
 \usepackage{bookman}
 \usepackage{csvsimple}
+\usepackage{url}
 
 \usepackage[backend=bibtex,style=alphabetic,natbib=true]{biblatex} % (which resembles APA)
 \addbibresource{tesis_JGA_mutualismo.bib} % The filename of the bibliography
@@ -323,6 +324,7 @@ The acknowledgements and the people to thank go here, don't forget to include yo
 {0pt}{55.5ex plus 1ex minus .2ex}{22.3ex plus .2ex}
 
 \renewcommand{\chaptername}{Capítulo}
+\renewcommand{\appendixname}{Apéndice}
 
 \mainmatter % Begin numeric (1,2,3...) page numbering
 
@@ -337,7 +339,12 @@ The acknowledgements and the people to thank go here, don't forget to include yo
 \input{Chapters/Chapter_VISUALIZACION}
 \input{Chapters/Chapter_DESTRUCCION}
 \input{Chapters/Chapter_CONCLUSIONES}
-%\input{Appendices/AppendixA}
+
+%\begin{appendices}
+\addtocontents{toc}{\protect\setcounter{tocdepth}{0}}
+\input{Manual/Appendix_kcorebipman}
+%\input{Manual/Appendix_dummy}
+%\end{appendices}
 
 %----------------------------------------------------------------------------------------
 %	THESIS CONTENT - APPENDICES

@@ -53,6 +53,7 @@
 \patchcmd{\@makeschapterhead}{\vspace*{50\p@}}{\abovechapterspace}{}{}
 \newcommand{\abovechapterspace}{\vspace*{50pt}}
 
+
 \ifbool{listtoc}{% If the liststotoc option has been passed to the class, add the lists to the table of contents
 	\patchcmd{\listoftables}{\@starttoc{lot}}{%
 		\addchaptertocentry{\listtablename}\@starttoc{lot}}{}{}%
