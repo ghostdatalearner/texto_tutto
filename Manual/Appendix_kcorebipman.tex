@@ -1,7 +1,7 @@
-% Appendix A
+% Appendix B
 
 \appendix
-\renewcommand{\thechapter}{A}
+\renewcommand{\thechapter}{B}
 \chapter{Paquete kcorebip, manual de uso} % Main appendix title
 
 \label{APP_KCOREMANBIP} % For referencing this appendix elsewhere, use \ref{AppendixA}
@@ -16,14 +16,14 @@ Se instala desde \texttt{github} usando el comando \texttt{install\_github}$("$\
 \subsection*{Formato del fichero de entrada}
 \label{input_file_format}
 
-En \texttt{kcorebip} se utiliza el formato de fichero de entrada de la base de datos \href{http://www.web-of-life.es/}{web of life} \cite{bascompte2009}. Los datos se alamacenan en ficheros \texttt{.csv}. Las especies de la clase \textit{a} se distribuyen por columnas y las de la clase \textit{b} por fileas. La primera columna contiene las etiquetas de las especies de la clase b, y la primera fila, las etiquetas de la clase a. Si la matriz de adyacencia es binaria, la celda $especie\_a\_m,especie\_b\_n$ estará rellena con $1$ si hay enlace y con $0$ si no lo hay. Si es pesada, con un numero real diferente de $0$ en el caso de que las especies interactúen.
+En \texttt{kcorebip} se utiliza el formato de fichero de entrada de la base de datos \href{http://www.web-of-life.es/}{web of life} \cite{bascompte2009}. Los datos se alamacenan en ficheros \texttt{.csv}. Las especies de la clase \textit{a} se distribuyen por columnas y las de nodos \textit{b} por fileas. La primera columna contiene las etiquetas de las especies de la clase b, y la primera fila, las etiquetas de la clase a. Si la matriz de adyacencia es binaria, la celda $especie\_a\_m,especie\_b\_n$ estará rellena con $1$ si hay enlace y con $0$ si no lo hay. Si es pesada, con un numero real diferente de $0$ en el caso de que las especies interactúen.
 
 La norma para nombrar los ficheros es $M\_XX\_NNN.csv$ donde $XX$ es el tipo, $PL$ para redes de polinizadores y $SD$ para dispersores, y $NNN$ un número de serie. No obstante, los ficheros pueden tener el nombre que se desee.
 
 \begin{figure}[h!]
 \centering
 \includegraphics[scale=0.8]{ManFigs/SD_029_csv.png}
-\caption {Ejemplo de fichero de entrada, rede de dispersores número $029$ de la \href{http://www.web-of-life.es/}{web of life}.}
+\caption {Ejemplo de fichero de entrada, red de dispersores número $029$ de la \href{http://www.web-of-life.es/}{web of life}.}
 \label{fig:AKMAN_red_example}
 \end{figure}
 
@@ -126,21 +126,21 @@ polar_graph("M_PL_034.csv","data/",plotsdir="grafresults/",
 
 \begin{figure}[h!]
 \centering
-\includegraphics[scale=0.43]{ManFigs/M_PL_034_polar.png}
+\includegraphics[scale=0.41]{ManFigs/M_PL_034_polar.png}
 \caption {Ejemplo de diagrama polar.}
 \label{fig:AKMAN_M_PL_034_polar}
 \end{figure}
 
 El título del diagrama incluye $\overline{k}_{radius}$, $\overline {k}_{degree}$, $NODF$ \cite{almeida2008consistent} y $Modularity$ usando el método \textit{QanBiMo} \cite{dormann2014method}.
 
-Los nodos aparecen sin etiquetas por defecto. Se puede elegir que aparezcan algunas con el parámetro \texttt{printable\_labels}, pero los textos siempre oscurecen el resultado. Las etiquetas de las clases son configurables. La función utiliza de manera automática \texttt{"Plant, Pollinator"} y \texttt{"Plant, Disperser"} si el fichero de entrada sigue la norma de nombrado de \texttt{web of life} pero pueden modificarse con el parámetro de entrada \texttt{glabels}. Tres histogramas se representan bajo el diagrama principal con las distribuciones de $k_{radius}$, $k_{degree}$ y $k_{shell}$. 
+Por defecto, los nodos aparecen sin etiquetas. Se puede elegir que aparezcan algunas con el parámetro \texttt{printable\_labels}. Por ejemplo, si se fija a $3$ se incluirán las de los tres nodos con menor ${k}_{radius}$ y las de los tres con mayor ${k}_{radius}$. Los textos siempre oscurecen el resultado final por lo que habrá que evitarlos en lo posible. Las etiquetas de las clases son configurables, así como las abreviaturas. Esto permite tratar cualquier tipo de red bipartita. La función utiliza de manera automática \texttt{"Plant, Pollinator"} y \texttt{"Plant, Disperser"} si el fichero de entrada sigue la norma de nombrado de \texttt{web of life} pero pueden modificarse con el parámetro de entrada \texttt{glabels}. Tres histogramas se representan bajo el diagrama principal con las distribuciones de $k_{radius}$, $k_{degree}$ y $k_{shell}$. 
 
 La configuración del diagrama polar es muy simple. El siguiente ejemplo muestra como cambiar el aspecto de la figura \ref{fig:AKMAN_M_PL_034_polar}.
 
 \clearpage
 \begin{figure}[h!]
 \centering
-\includegraphics[scale=0.75]{ManFigs/polar_params.pdf}
+\includegraphics[scale=0.8]{ManFigs/polar_params.pdf}
 \caption {Diagrama polar con diversos parámetros de visualización.}
 \label{fig:AKMAN_polar_params}
 \end{figure}
@@ -193,7 +193,7 @@ La configuración del diagrama zigurat es mucho más rica y compleja que la del 
 %\end{figure}
 
 Algunos parámetros de entrada son equivalentes a los del  diagrama polar como \texttt{filename}, \texttt{datadir} y \texttt{plotsdir} que 
-corresponden al fichero de entrada, al directorio de entrada y al directorio de salida. El directorio de salida se llama
+corresponden al fichero de entrada, al directorio de entrada y al directorio de salida. El fichero de salida se llama
 como el de entrada más \texttt{\_ziggurat.png} y el usuario puede también añadir la etiqueta \texttt{file\_name\_append}.
 
 Estos parámetros gráficos proporcionan un conjunto de herramientas muy flexible para mejorar las visualizaciones, como
@@ -233,13 +233,14 @@ ziggurat_graph("data/","M_PL_012.csv",  plotsdir = "grafresults/",
 
 \begin{figure}[hp!]
 \centering
-\includegraphics[scale=0.45]{ManFigs/M_PL_012_ziggurat.png}
+\includegraphics[scale=0.47]{ManFigs/M_PL_012_ziggurat.png}
 \caption {Zigurat de una red de polinizadores en el Parque de Garajonay, La Palma (España). Olesen, no publicada.}
 \label{fig:AKMAN_ziggurat_012}
 \end{figure}
 
-Este gráfico está casi listo para enviar a una publicación, pero hay detalles que podrían mejorarse, como el tamaño
-de las etiquetas. Vamos a proceder a cambiar distintos parámetros de entrada para mostrar como afectan a la imagen.
+Este gráfico está casi listo para enviar a una publicación, pero hay detalles que podrían mejorarse. Por ejemplo, el tamaño
+de las etiquetas que aparecen demasiado pequeñas o la altura de los rectángulos de los zigurats. Vamos a proceder a cambiar 
+distintos parámetros de entrada para mostrar como afectan a la imagen.
 
 \clearpage
 \begin{figure}[hbt!]
@@ -252,7 +253,9 @@ de las etiquetas. Vamos a proceder a cambiar distintos parámetros de entrada pa
 \clearpage
 No vamos a repetir el significado de los que se explicaron en el ejemplo anterior. El papel que desempeñan algunos de los nuevos
 es evidente. Se ha cambiado el color de relleno de los zigurats, especificando los pares \texttt{color\_guild\_a} y \texttt{color\_guild\_b},
-y también el color de las etiquetas de las especies. Se ha añadido un color de relleno tenue. Este truco sirve para mostrar el área de dibujo, que se ha aumentado en horizontal un $20\%$ con \texttt{rescale\_plot\_area=c(1.2,1)}. Este cambio solo afecta al área de dibujo pero no a la imagen. La relación de aspecto puede modificarse para \textit{aplanar} el diagrama si es inferior a $1$ o para \textit{estirarlo} si es mayor. El valor por defecto es $1$, así que no es obligatorio incluirlo en la llamada, pero se ha añadido para explicar su significado.
+y también el color de las etiquetas de las especies. Se ha añadido un color de relleno tenue. Este truco sirve para mostrar el área de dibujo, que se ha aumentado en horizontal un $20\%$ con \texttt{rescale\_plot\_area=c(1.2,1)}. Este cambio solo afecta al área de dibujo pero no a la imagen. 
+
+La relación de aspecto puede modificarse para \textit{aplanar} el diagrama si es inferior a $1$ o para \textit{estirarlo} si es mayor. El valor por defecto es $1$, así que no es obligatorio incluirlo en la llamada, pero se ha añadido para explicar su significado.
 
 Si no se usan \textit{splines}, como en este ejemplo, los enlaces aparecen como líneas rectas. Si se usan, se puede indicar cuantos puntos deben tener.
 
@@ -271,14 +274,16 @@ El siguiente ejemplo muestra como manejar las \textit{weird tails} y los \textit
 \clearpage
 \begin{figure}[hp!]
 \centering
-\includegraphics[scale=0.5]{ManFigs/M_PL_031_ziggurat.png}
+\includegraphics[scale=0.55]{ManFigs/M_PL_031_ziggurat.png}
 \caption {Ziggurat de una red de polinizadores en la Alta Guyana (Venezuela) \cite{ramirez1989biologia}.}
 \label{fig:AKMAN_ziggurat_031}
 \end{figure}
 
-Los \textit{outsiders} aparecen bajo el gráfico principal. Esta red tiene un rico conjunto de \textit{weird chains}, conectadas tanto a los zigurats de la \textit{2-shell} como a la \textit{shell} máxima. Si la especie de planta $28$ se extingue, arrastrará al polinizador $21$ y también a la planta $40$. Esta es una rara cadena de especialistas conectadas entre ellas y muy expuesta a las perturbaciones externas.
+Los \textit{outsiders} aparecen bajo el gráfico principal. Esta red tiene un rico conjunto de \textit{weird chains}, conectadas tanto a los zigurats de la \textit{2-shell} como a la \textit{shell} máxima. Obsérvense las cadenas conectadas a los polinizadores de la \textit{2-shell}, o la formada por la planta $30$ y el polinizador $42$ en el extremo inferior izquierdo.
 
-La función \texttt{ziggurat\_graph} ofrece distintos controles de entrada para manejar la apariencia y posición de estas especies.
+Si la especie de planta $28$ se extingue, arrastrará al polinizador $21$ y también a la planta $40$. Esta es una rara cadena de especialistas conectadas entre ellas y muy expuesta a las perturbaciones externas. Otra configuración interesante es la formada por la planta $21$ a la que se enlazan los polinizadores $30$ y $49$.
+
+La función \texttt{ziggurat\_graph} ofrece distintos controles de entrada para manejar la apariencia y posición de este tipo de especies.
 
 \clearpage
 \begin{figure}[hp!]
@@ -290,13 +295,11 @@ La función \texttt{ziggurat\_graph} ofrece distintos controles de entrada para 
 
 
 \clearpage
-Es posible mostrar los nombres de las especies dentro de los rectángulos. Hay que tener cuidad, porque pueden convertir
-en ilegible el diagrama, por tanto no se recomienda su uso si no es para redes pequeñas. En ningún caso se muestran los
-nombres de las especies de la \textit{1-shell}.
+Es posible mostrar los nombres de las especies dentro de los rectángulos. Puesto que los nombres científicos suelen ser largos, conviene abreviarlos quedándose solo con los $n$ primeros caracteres de ambos elementos de la nomenclatura binomial. Esto se consigue con el parámetro \texttt{shorten\_species\_name}. Como se ha indicado al hablar de las etiquetas de especie en el diagrama polar, hay que tener cuidado, porque pueden convertir en ilegible el diagrama. No se recomienda su uso si no es para redes pequeñas. En ningún caso se muestran los nombres de las especies de la \textit{1-shell}.
 
 \begin{figure}[hp!]
 \centering
-\includegraphics[scale=0.45]{ManFigs/M_SD_025_ziggurat.png}
+\includegraphics[scale=0.48]{ManFigs/M_SD_025_ziggurat.png}
 \caption {Zigurat con nombres de especies.}
 \label{fig:AKMAN_ziggurat_025}
 \end{figure}
@@ -315,7 +318,6 @@ ziggurat_graph("./data/","M_SD_025.csv",plotsdir="grafresults/",
 \normalsize
 
 \clearpage
-
 \noindent La función devuelve su propio entorno llamado \texttt{zgg} donde se almacenan los parámetros de configuración y los resultados. Usándolo puede consultarse:
 
 \begin{itemize}
