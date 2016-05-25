@@ -210,3 +210,125 @@ Para terminar estos ejemplos, se simulará el comportamiento de la red ante aume
 
 En la figura \ref{fig:ASIGMUNDMAN_sigmund_95} se añade una mortalidad del $95\%$ durante $5$ años a la especie de polinizador $2$. La caída brusca está a punto de llevar a esta especie a la extinción pero al cesar el beneficio mutualista hace que se recupere porque no baja del mínimo vital aunque llega a estar muy próxima a él alrededor del año $90$ de la simulación.
 
+\section{Uso en modo \textit{batch}}
+
+SIGMUND se puede lanzar en modo \textit{batch} desde la línea de comandos para realizar todo tipo de experimentos. El script se llama \texttt{sigmund\_standalone.py}. La simulación puede utilizar los parámetros almacenados en un fichero con una simulación previa, recibir
+valores por línea de comandos o una combinación de ambas opciones.
+
+\subsection{Configuración del script sigmund\_standalone.py}
+
+\noindent Sintaxis de la llamada
+
+\fontsize{3mm}{3mm}\selectfont
+\begin{verbatim}
+usage: sigmund_standalone.py [-h] [-simfile SIMFILE_NAME] [-g] [-v]
+                             [-years SIM_YEARS] [-fw] [-outsf OUTSF] [-ds]
+                             [-dsdir DSDIR] [-stop] [-rlink RLINK]
+                             [-Blprob BLPROB] [-Blsd BLSD] [-Bltype BLTYPE]
+                             [-Blspecies BLSPECIES] [-Bssvarper BSSVARPER]
+                             [-Bssvarsd BSSVARSD] [-Bssvartype BSSVARTYPE]
+                             [-Bssvartype_param BSSVARTYPE_PARAM]
+                             [-Bssvarspecies BSSVARSPECIES]
+                             [-pl_ext_period PL_EXT_PERIOD]
+                             [-pl_ext_spike PL_EXT_SPIKE]
+                             [-pl_ext_numperiod PL_EXT_NUMPERIOD]
+                             [-pl_ext_rate PL_EXT_RATE]
+                             [-pl_ext_start PL_EXT_START]
+                             [-pl_ext_species PL_EXT_SPECIES]
+                             [-pol_ext_period POL_EXT_PERIOD]
+                             [-pol_ext_spike POL_EXT_SPIKE]
+                             [-pol_ext_numperiod POL_EXT_NUMPERIOD]
+                             [-pol_ext_rate POL_EXT_RATE]
+                             [-pol_ext_start POL_EXT_START]
+                             [-pol_ext_species POL_EXT_SPECIES]
+
+optional arguments:
+  -h, --help                           show this help message and exit
+  -simfile SIMFILE_NAME                Simulation parameters file
+  -g                                   Generate and store graphs
+  -v                                   Verbose output
+  -years SIM_YEARS                     Simulation span in years
+  -fw                                  Superimposed food web
+  -outsf OUTSF                         Append suffix to output file names
+  -ds                                  Results data save
+  -dsdir DSDIR                         Data save directory
+  -stop                                On extinction stop simulation
+  -rlink RLINK                         Randomlinks removal
+  -Blprob BLPROB                       Blossom probability
+  -Blsd BLSD                           Blossom deviation
+  -Bltype BLTYPE                       Blossom type: Binary, Gaussian
+  -Blspecies BLSPECIES                 Blossom species
+  -Bssvarper BSSVARPER                 Blossom variability period
+  -Bssvarsd BSSVARSD                   Blossom variability deviation
+  -Bssvartype BSSVARTYPE 			   Blossom variability modulation type: None, linear, sin
+  -Bssvartype_param BSSVARTYPE_PARAM   Blossom variability modulation parameter
+  -Bssvarspecies BSSVARSPECIES 		   Blossom variability affected species
+  -pl_ext_period PL_EXT_PERIOD         Plants external pert, period in years
+  -pl_ext_spike PL_EXT_SPIKE           Plants external pert, spike (fraction of period)
+  -pl_ext_numperiod PL_EXT_NUMPERIOD   Plants external pert, repeat pert
+  -pl_ext_rate PL_EXT_RATE             Plants external pert, rate
+  -pl_ext_start PL_EXT_START           Plants external pert, initial year
+  -pl_ext_species PL_EXT_SPECIES       Plants external pert, affected species
+  -pol_ext_period POL_EXT_PERIOD       Pollinators external pert, period in years
+  -pol_ext_spike POL_EXT_SPIKE         Pollinators external pert, spike
+  -pol_ext_numperiod POL_EXT_NUMPERIOD Pollinators external pert, repeat pert
+  -pol_ext_rate POL_EXT_RATE           Pollinators external pert, rate
+  -pol_ext_start POL_EXT_START         Pollinators external pert, initial year
+  -pol_ext_species POL_EXT_SPECIES     Pollinators external pert, affected species
+\end{verbatim}
+\normalsize
+
+Ejemplo de uso: 
+
+\fontsize{3mm}{3mm}\selectfont
+\begin{verbatim}
+./sigmund_standalone.py -simfile exp18_Verhulst_oso_20.sim -y 50 -g -rlink 0.1 -v
+\end{verbatim}
+\normalsize
+
+En este ejemplo se cargan las condiciones de simulación almacenadas en el fichero \texttt{exp18\_Verhulst\_oso\_20.sim}, se indica que la simulación dure 50 años, que se generen y almacenen los resultados gráficos, que se elimine un $10\%$ de enlace y que la salida sea en modo \texttt{verbose}, como si se hubiera invocado desde la interfaz de usuario. Cuando en el comando de llamada se incluyen parámteros como en este ejemplo, tienen precedencia sobre la configuración que haya en el fichero. Así, esta simulación cubre un periodo de 50 años con independencia de que en fichero se indique otra cifra.  
+
+Si el flag \texttt{-v} no se activa, el programa se ejecuta en modo silencioso. Si el flag \texttt{-stop} está activo, el script devolverá tan solo las cadenas de caracteres \texttt{"SURVIVAL"} O \texttt{"EXTINCTION"}. Con esta opción se pueden lanzar múltiples simulaciones para comprobar si la red sobrevive bajo las condiciones especificadas. La simulación se detiene cuando el programa comprueba que el sistema está por debajo del mínimo vital y que no puede remontar.
+
+
+\subsection{Script survival.py}
+
+\noindent Este ejemplo muestra como puede usarse el script \texttt{sigmund\_standalone.py} cuando se elimina de forma aleatoria el $70\%$ de los enlaces de la red a lo largo de un periodo de 50 años.
+
+\fontsize{3mm}{3mm}\selectfont
+\begin{verbatim}
+import subprocess
+survival_success  =  0
+no_experiments  =  50
+com_base = "python3 sigmund_standalone.py -simfile exp18_10.sim -y 50 -stop -rlink 0.7"
+for i in range(0,no_experiments):
+    b = subprocess.check_output(com_base+str(rrate), shell=True)
+    if str(b).find("EXTINCTION") == -1:
+        print("remove links "+str(rrate)+" survival")
+        survival_success += 1
+    else:
+        print("remove links "+str(rrate)+" extinction")
+print("Experiments "+str(no_experiments)+"/ Network survived " \
+      + str(survival_success)+" times")
+\end{verbatim}
+\normalsize
+
+En este script se invoca \texttt{sigmund\_standalone.py} como un proceso externo, se puede obtener el mismo resultado con cualquier
+otro lenguaje de programación.
+
+\subsection{Script sigmund\_createinput\_atmax.py}
+
+En numerosas ocasiones resulta conveniente comenzar la simulación con todas las poblaciones en máximos. El cálculo de este valor es
+algebraicamente complicado, pero muy sencillo si se deja evolucionar libremente al sistema hasta que alcanza el punto de equilibrio.
+Este script lanza una simulación y crea dos ficheros de entrada con los parámetros de los originales, excepto las poblaciones iniciales
+que se sustituyen por los valores de población máxima. Estos ficheros tienen el nombre de los originales con el sufijo \texttt{MAX}.
+
+\fontsize{3.5mm}{3.5mm}\selectfont
+\begin{verbatim}
+./sigmund_createinput_atmax.py -fichout
+\end{verbatim}
+\normalsize
+
+
+\normalsize
+

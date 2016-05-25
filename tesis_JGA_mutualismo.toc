@@ -69,10 +69,14 @@
 \contentsline {section}{\numberline {A.2}Formato de los ficheros de entrada}{122}{section.222}
 \contentsline {section}{\numberline {A.3}Uso interactivo}{123}{section.224}
 \contentsline {subsection}{\numberline {A.3.1}Ejemplos}{125}{subsection.226}
-\contentsline {chapter}{\numberline {B}Paquete kcorebip, manual de uso}{131}{appendix.236}
-\contentsline {section}{\numberline {B.1}Introducci\IeC {\'o}n}{131}{section.237}
-\contentsline {section}{\numberline {B.2}Formato del fichero de entrada}{132}{section.238}
-\contentsline {section}{\numberline {B.3}An\IeC {\'a}lisis de la red}{132}{section.240}
-\contentsline {section}{\numberline {B.4}Diagrama polar}{133}{section.241}
-\contentsline {section}{\numberline {B.5}El diagrama zigurat}{136}{section.244}
-\contentsline {chapter}{Bibliograf\IeC {\'\i }a}{147}{appendix*.251}
+\contentsline {section}{\numberline {A.4}Uso en modo \textit {batch}}{130}{section.236}
+\contentsline {subsection}{\numberline {A.4.1}Configuraci\IeC {\'o}n del script sigmund\_standalone.py}{130}{subsection.237}
+\contentsline {subsection}{\numberline {A.4.2}Script survival.py}{132}{subsection.238}
+\contentsline {subsection}{\numberline {A.4.3}Script sigmund\_createinput\_atmax.py}{132}{subsection.239}
+\contentsline {chapter}{\numberline {B}Paquete kcorebip, manual de uso}{133}{appendix.240}
+\contentsline {section}{\numberline {B.1}Introducci\IeC {\'o}n}{133}{section.241}
+\contentsline {section}{\numberline {B.2}Formato del fichero de entrada}{134}{section.242}
+\contentsline {section}{\numberline {B.3}An\IeC {\'a}lisis de la red}{134}{section.244}
+\contentsline {section}{\numberline {B.4}Diagrama polar}{135}{section.245}
+\contentsline {section}{\numberline {B.5}El diagrama zigurat}{138}{section.248}
+\contentsline {chapter}{Bibliograf\IeC {\'\i }a}{149}{appendix*.255}
