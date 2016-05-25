@@ -6,17 +6,17 @@
 
 \label{APP_KCOREMANBIP} % For referencing this appendix elsewhere, use \ref{AppendixA}
 
-\section*{Introducción}
+\section{Introducción}
 
 El paquete \texttt{kcorebip} realiza la descomposición \texttt{k-core} de una red y su análisis y permite dibujar los diagramas \textit{polar}
 y \textit{zigurat}. Funciona para cualquier tipo de red bipartita aunque en lo que sigue se utilizará la terminología de las redes mutualistas.
 
 Se instala desde \texttt{github} usando el comando \texttt{install\_github}$("$\path{jgalgarra/kcorebip}$")$, para lo cual previamente se tiene que cargar el paquete \texttt{devtools}.
  
-\subsection*{Formato del fichero de entrada}
+\section{Formato del fichero de entrada}
 \label{input_file_format}
 
-En \texttt{kcorebip} se utiliza el formato de fichero de entrada de la base de datos \href{http://www.web-of-life.es/}{web of life} \cite{bascompte2009}. Los datos se alamacenan en ficheros \texttt{.csv}. Las especies de la clase \textit{a} se distribuyen por columnas y las de nodos \textit{b} por fileas. La primera columna contiene las etiquetas de las especies de la clase b, y la primera fila, las etiquetas de la clase a. Si la matriz de adyacencia es binaria, la celda $especie\_a\_m,especie\_b\_n$ estará rellena con $1$ si hay enlace y con $0$ si no lo hay. Si es pesada, con un numero real diferente de $0$ en el caso de que las especies interactúen.
+En \texttt{kcorebip} se utiliza el formato de fichero de entrada de la base de datos \href{http://www.web-of-life.es/}{web of life} \cite{bascompte2009}. Los datos se almacenan en ficheros \texttt{.csv} utilizando como separador la coma y entrecomillando las cadenas de caracteres con los nombres de las especies. Las especies de la clase \textit{a} se distribuyen por columnas y las de nodos \textit{b} por fileas. La primera columna contiene las etiquetas de las especies de la clase b, y la primera fila, las etiquetas de la clase a. Si la matriz de adyacencia es binaria, la celda $especie\_a\_m,especie\_b\_n$ estará rellena con $1$ si hay enlace y con $0$ si no lo hay. Si es pesada, con un numero real diferente de $0$ en el caso de que las especies interactúen.
 
 La norma para nombrar los ficheros es $M\_XX\_NNN.csv$ donde $XX$ es el tipo, $PL$ para redes de polinizadores y $SD$ para dispersores, y $NNN$ un número de serie. No obstante, los ficheros pueden tener el nombre que se desee.
 
@@ -27,7 +27,7 @@ La norma para nombrar los ficheros es $M\_XX\_NNN.csv$ donde $XX$ es el tipo, $P
 \label{fig:AKMAN_red_example}
 \end{figure}
 
-\subsection*{Análisis de la red}
+\section{Análisis de la red}
 \label{network_analysis}
 
 La función \texttt{analyze\_network} lleva a cabo la descomposición \textit{k-core}.
@@ -90,7 +90,7 @@ La función devuelve:
 
 \end{itemize}
 
-\subsection*{Diagrama polar}
+\section{Diagrama polar}
 \label{polar_plot}
 
 La función \texttt{polar\_graph} permite representar el diagrama polar de una red. La sintaxis de llamada es:
@@ -135,9 +135,9 @@ El título del diagrama incluye $\overline{k}_{radius}$, $\overline {k}_{degree}
 
 Por defecto, los nodos aparecen sin etiquetas. Se puede elegir que aparezcan algunas con el parámetro \texttt{printable\_labels}. Por ejemplo, si se fija a $3$ se incluirán las de los tres nodos con menor ${k}_{radius}$ y las de los tres con mayor ${k}_{radius}$. Los textos siempre oscurecen el resultado final por lo que habrá que evitarlos en lo posible. Las etiquetas de las clases son configurables, así como las abreviaturas. Esto permite tratar cualquier tipo de red bipartita. La función utiliza de manera automática \texttt{"Plant, Pollinator"} y \texttt{"Plant, Disperser"} si el fichero de entrada sigue la norma de nombrado de \texttt{web of life} pero pueden modificarse con el parámetro de entrada \texttt{glabels}. Tres histogramas se representan bajo el diagrama principal con las distribuciones de $k_{radius}$, $k_{degree}$ y $k_{shell}$. 
 
+\clearpage
 La configuración del diagrama polar es muy simple. El siguiente ejemplo muestra como cambiar el aspecto de la figura \ref{fig:AKMAN_M_PL_034_polar}.
 
-\clearpage
 \begin{figure}[h!]
 \centering
 \includegraphics[scale=0.8]{ManFigs/polar_params.pdf}
@@ -146,7 +146,7 @@ La configuración del diagrama polar es muy simple. El siguiente ejemplo muestra
 \end{figure}
 
 \clearpage
-\subsection*{El diagrama zigurat}
+\section{El diagrama zigurat}
 
 \noindent La función \texttt{ziggurat\_graph} crea el diagrama zigurat de una red bipartita. La sintaxis de llamada es:
 

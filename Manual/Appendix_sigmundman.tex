@@ -6,11 +6,11 @@
 
 \label{APP_SIGMUNDMAN} % For referencing this appendix elsewhere, use \ref{AppendixA}
 
-\section*{Introducción}
+\section{Introducción}
 
 La aplicación \texttt{SIGMUND} permite llevar a cabo simulaciones del modelo dinámico descrito en el capítulo \ref{chapterDINAMICA}, tanto de forma interactiva como en modo \texttt{batch}.
 
-El \textit{software} se ha desarrollado en \texttt{Python} y puede ejecutarse en cualquier entorno que disponga de la versión \texttt{3.} o superior. Se recomienda instalar una distribución que incluya todos los paquetes habituales en cálculo científico. En concreto, la distribución \href{https://www.continuum.io/}{Anaconda} proporciona un entorno completo sobre el que instalar \texttt{SIGMUND} sin necesidad de añadir manualmente ningún paquete adicional.
+El \textit{software} se ha desarrollado en \texttt{Python} y puede ejecutarse en cualquier entorno que disponga de la versión \texttt{3.0} o superior. Se recomienda instalar una distribución que incluya todos los paquetes habituales en cálculo científico. En concreto, la distribución \href{https://www.continuum.io/}{Anaconda} proporciona un entorno completo sobre el que instalar \texttt{SIGMUND} sin necesidad de añadir manualmente ningún paquete adicional.
 
 El paquete se instala desde \texttt{github} clonando el repositorio:
 
@@ -19,10 +19,10 @@ El paquete se instala desde \texttt{github} clonando el repositorio:
  clone https://github.com/jgalgarra/sigmund 
 \end{verbatim}
 \normalsize
-
-Este manual describe la aplicación en su versión \texttt{2.05}.
+%
+%Este manual describe la aplicación en su versión \texttt{2.05}.
  
-\subsection*{Formato de los ficheros de entrada}
+\section{Formato de los ficheros de entrada}
 \label{sec:ASIGMUNDMAN_input_file_format}
 
 Las simulaciones requieren dos ficheros de entrada para cada red, que se almacenan en el directorio \path{sigmund/src/pak_tfm/input}. El primero se llamará \texttt{XXX\_a.txt} donde \textit{XXX} puede ser cualquier nombre, lo único obligatorio es que termine en \texttt{\_a.txt}. El segundo debe llamarse \texttt{\_b.txt}. Por motivos de simplicidad, la interfaz de usuario se refiere a plantas y polinizadores, pero puede usarse para otros tipos de red mutualista.
@@ -38,7 +38,7 @@ En el fichero \texttt{\_b} se almacena la información en el sentido planta - po
 \end{figure}
 
 \clearpage
-\subsection*{Uso interactivo}
+\section{Uso interactivo}
 \label{sec:ASIGMUNDMAN_ui}
 
 $SIGMUND$ queda preparado para funcionar una vez clonado el repositorio. Navegar hasta el directorio \path{sigmund/src/pak_tfm} que se habrá creado en ese proceso. Si se utiliza \texttt{Windows} hágase doble click con el botón izquierdo sobre el icono \texttt{sigmund\_tool.py}. Bajo \texttt{Linux} se puede lanzar con el comando \texttt{sigmund\_tool.py}.
@@ -94,14 +94,14 @@ El sistema puede atacarse de manera opcional con distintos tipos de perturbacion
 
     \item \texttt{Deviation}: Desviación estándar del periodo de floración.
     
-    \item \texttt{Type}:  \texttt{None} media constante, \texttt{linear} media vairable definida por la pendiente o \texttt{sinusoidal} media variable definida por el periodo.
+    \item \texttt{Type}:  \texttt{None} desviación constante, \texttt{linear} desviación varuable definida por la pendiente o \texttt{sinusoidal} desviación variable modulada por una sinusoide del periodo especificado.
     
     \item \texttt{Species}: lista de especies afectadas.
 \end{itemize}
 
 \end{itemize}
 
-Perturbaciones externas. Ataques exógenos (epidemias, sequías, migraciones...) que pueden producir un aumento abrupto de las tasas
+Perturbaciones externas. Ataques exógenos (sequías, migraciones...) que pueden producir un aumento abrupto de las tasas
 de mortalidad. Hay dos líneas de entrada, una para plantas y otra para animales.
 
 \begin{itemize}
@@ -118,7 +118,7 @@ Por último, los parámetros de una simulación pueden salvarse en fichero y rec
  \item \texttt{End simulation}
 \end{itemize}
 
-\subsection*{Ejemplos}
+\subsection{Ejemplos}
 
 En esta sección se presentan distintos casos de uso con el simulador y su significado ecológico.
 
@@ -131,13 +131,41 @@ En esta sección se presentan distintos casos de uso con el simulador y su signi
 
 En la figura \ref{fig:ASIGMUNDMAN_sigmund_tiempos} se ha representado el modelo simplificado que se emplea para el periodo de floración. El primer año, el periodo de floración de las
 plantas y de los animales coincide al $100\%$ con el de estos últimos, por lo que el beneficio mutualista es óptimo y loa coeficientes planta polinizador son los que se leen de la
-matriz de interacción. El segundo año, el periodo de floración se ha adelantado y el área de coincidencia es solo el $90\%$ del óptimo de manera que los coeficientes se multiplicarán
-por este factor reductor en la simulación.
+matriz de interacción. El segundo año, el periodo de floración se ha adelantado y el área de coincidencia es solo el $90\%$ del óptimo de manera que los coeficientes se multiplicarán por este factor reductor en la simulación.
+
+\begin{figure}[h!]
+\centering
+\includegraphics[scale=1]{ManFigs/sigmund_pendiente.png}
+\caption{Cálculo del factor de multiplicación anual.}
+\label{fig:ASIGMUNDMAN_sigmund_pendiente}
+\end{figure}
+
+El cálculo del factor $p$ por el que se multiplican los coeficientes mutualistas cada año, en función de la variabilidad, se representa en la figura \ref{fig:ASIGMUNDMAN_sigmund_pendiente}. Supongamos el caso más simple, en el que el valor medio de la variabilidad es constante. El periodo de coindicencia de la floración y la actividad animal $T_{pl}$ se ha introducido por la interfaz de usuario expresado como fracción del año, por ejemplo $0.1$. Si la floración se adelanta más de $0.05$ o se retrasa más de $0.05$ respecto del punto central óptimo no habría coincidencia y se multiplicaría por cero. Si está en ese rango, el factor multiplicativo $p$ se modela linealmente:
+
+\begin{equation}
+p = 1 - \frac{2x}{T_{pl}}
+\label{eq:sigmund_p}
+\end{equation}
+
+Donde $x$ representa el desplazamiento del centro del periodo de floración. Si es igual a $0$, la situación es óptima y el factor $p$ vale $1$, si es mayor en valor absoluto que $1/2$ el valor $p$ es cero como se ha indicado y si está en un valor intermedio, el factor valdrá entre $0$ y $1$.
+
+La variación anual del momento inicial de la floración se calcula, en el caso de media constante como una variable normal de media $0$ y desviación estándar $\sigma$. Si el valor de la desviación es pequeño frente al del periodo tendrá poco efecto, pero a partir de una relación de $1$ a $10$ empieza a causar problemas notables.
+
+El simulador ofrece dos posibilidades más. La primera de ellas es el crecimiento lineal de la desviación estándar a lo largo del periodo de estudio. De esta forma se puede estudiar el impacto de un aumento de la variabilidad a largo plazo inducido por cambio climático o por otras causas. La segunda es simular una variación cíclica modulando la desviación estándar por una sinusoide.
+
+\begin{figure}[h!]
+\centering
+\includegraphics[scale=1]{ManFigs/sigmund_oscilacion_diag_red.png}
+\caption{Diagrama polar y zigurta de la red ejemplo.}
+\label{fig:ASIGMUNDMAN_sigmund_oscilacion_diag_red}
+\end{figure}
+
+Para los ejemplos, se analizará la evolución dinámica de una pequeña red ficticia \ref{fig:ASIGMUNDMAN_sigmund_oscilacion_diag_red} que se usó en el capítulo \ref{chapterDINAMICA} y que allí se representó con el diagrama bipartito \ref{fig:DINAMICA_SAT_red_exper_resilience_strong}
 
 \begin{figure}[h!]
 \centering
 \includegraphics[scale=1]{ManFigs/sigmund_red_exper.png}
-\caption{Evolución dinámica sin perturbaciones en una red de ejemplo.}
+\caption{Evolución dinámica sin perturbaciones en la red ejemplo.}
 \label{fig:ASIGMUNDMAN_sigmund_red_exper}
 \end{figure}
 
@@ -148,35 +176,37 @@ por este factor reductor en la simulación.
 \label{fig:ASIGMUNDMAN_sigmund_oscilacion_intensidad}
 \end{figure}
 
-\clearpage
-En las dos figuras precedentes se ve la evolución dinámica de una pequeña red ficticia. En la primera se ve como las especies crecen hasta alcanzar el punto de equilibrio de poblaciones máximas en ausencia de perturbaciones. En la segunda, se incluye una variación de la intensidad de la floración en las dos especies de planta más generalistas, la $1$ y las $2$. El tipo de perturbación es binaria y la probabilidad es $0.95$, así que, por término medio, el $95\%$ de los años la floración es normal y el $5\%$, inexistente. Puede observarse la caída abrupta de las tasas
-de crecimiento eficiente de ambas especies de plantas cuando ocurre uno de estos eventos. Esto afecta a los polinizadores y el sistema trada más tiempo en alcanzar las poblaciones máximas.
+En la figura \ref{fig:ASIGMUNDMAN_sigmund_red_exper} se ve la dinámica de una pequeña red ficticia que se usó en el capítulo \ref{chapterDINAMICA}. Puede comprobarse como como el número de individuos de todas las especies crece hasta alcanzar el punto de equilibrio de poblaciones máximas en ausencia de perturbaciones. 
+
+En la figura \ref{fig:ASIGMUNDMAN_sigmund_oscilacion_intensidad} se incluye una variación de la intensidad de la floración en las dos especies de planta más generalistas, la $1$ y las $2$. El tipo de perturbación es binaria y la probabilidad es $0.95$, así que, por término medio, el $95\%$ de los años la floración es normal y el $5\%$, inexistente. Se ve la caída abrupta de las tasas
+de crecimiento eficiente de ambas especies de plantas cuando ocurre uno de estos eventos. Esto afecta a los polinizadores y en conjunto el sistema tarda más tiempo en alcanzar las poblaciones máximas.
 
 \begin{figure}[h!]
 \centering
 \includegraphics[scale=1]{ManFigs/sigmund_oscilacion_tiempo_none.png}
-\caption{Perturbación gaussiana en el periodo de floración.}
+\caption{Perturbación gaussiana en el periodo de floración con desviación estándar constante.}
 \label{fig:ASIGMUNDMAN_sigmund_oscilacion_tiempo_none}
 \end{figure}
 
-En la figura \ref{fig:ASIGMUNDMAN_sigmund_oscilacion_tiempo_none} la perturbación se produce en el periodo de floración de todas las especies. Es una gaussiana de media $0.2$ y desviación estándar $0.02$, el valor se toma al inicio de cada año y se multiplica por los coeficientes de beneficio mutualista de las especies afectadas, todas las vegetales en este ejemplo. El efecto sobre el sistema global es devastador, la red se destruye.
+En la figura \ref{fig:ASIGMUNDMAN_sigmund_oscilacion_tiempo_none} se ha introducido una perturbación en el periodo de floración de todas las especies. Es una gaussiana de media $0.2$ y desviación estándar $0.02$. El valor se toma al inicio de cada año y se multiplica por los coeficientes de beneficio mutualista de las especies afectadas, todas las vegetales en este ejemplo. El efecto sobre el sistema global resulta devastador, la red se destruye.
 
-
-Por el contrario, en la figura \ref{fig:ASIGMUNDMAN_sigmund_oscilacion_tiempo_sin}, la media no es constante sino que oscila entre $0$ y $0.2$ sgún un periodo de 10 años. La red no se destruye en este caso, simplemente tarda más en alcanzar los máximos de población. Aunque la amplitud de la oscilación se amplíe, la red se muestra mucho más resistente a los cambios cíclicos que cuando estos no ocurren en fase.
-
-\clearpage
-\begin{figure}[ht!]
+\begin{figure}[hp!]
 \centering
 \includegraphics[scale=1]{ManFigs/sigmund_oscilacion_tiempo_sin.png}
-\caption{Perturbación gaussiana en el periodo de floración con oscilación sinusoidal.}
+\caption{Perturbación gaussiana en el periodo de floración con oscilación sinusoidal de la desviación estándar.}
 \label{fig:ASIGMUNDMAN_sigmund_oscilacion_tiempo_sin}
 \end{figure}
 
-Para terminar estos ejemplos, una gráfica de la red ante aumentos abruptos pero breves de la mortalidad. En la figura \ref{fig:ASIGMUNDMAN_sigmund_95} se añade una mortalidad del $95\%$ durante $5$ años a la especie de polinizador $2$. La caída brusca está a punto de llevar a esta especie a la extinción pero al cesar el beneficio mutualista hace que se recupere porque no baja del mínimo vital aunque llega a estar muy próxima a él alrededor del año 90 de la simulación.
-
-\begin{figure}[h!]
+\begin{figure}[hp!]
 \centering
 \includegraphics[scale=1]{ManFigs/sigmund_95.png}
-\caption{Perturbación sobre la especie de polinizador .}
+\caption{Aumento abrupto de la mortalidad de la especie de polinizador número $2$.}
 \label{fig:ASIGMUNDMAN_sigmund_95}
 \end{figure}
+
+Por el contrario, en la figura \ref{fig:ASIGMUNDMAN_sigmund_oscilacion_tiempo_sin}, la desviación estándar no es constante sino que oscila sinusoidalmente entre $0$ y $0.2$ según un periodo de 10 años. La red no se destruye como resultado de esta perturbación, simplemente tarda más en alcanzar los valores máximos de población. Aunque la amplitud de la oscilación crezca, la red se muestra mucho más resistente a los cambios cíclicos que cuando estos no ocurren en fase.
+
+Para terminar estos ejemplos, se simulará el comportamiento de la red ante aumentos abruptos pero breves de la mortalidad. Este tipo de perturbaciones que actúan a corto plazo, a diferencia de las que se acaban de describir, pueden servir para modelar eventos como zoonosis, plagas o desastres naturales. El simulador permite atacar ambas clases con parámetros independientes para cada una.
+
+En la figura \ref{fig:ASIGMUNDMAN_sigmund_95} se añade una mortalidad del $95\%$ durante $5$ años a la especie de polinizador $2$. La caída brusca está a punto de llevar a esta especie a la extinción pero al cesar el beneficio mutualista hace que se recupere porque no baja del mínimo vital aunque llega a estar muy próxima a él alrededor del año $90$ de la simulación.
+
