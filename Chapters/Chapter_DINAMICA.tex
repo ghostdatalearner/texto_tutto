@@ -703,7 +703,7 @@ N^{p}_{l}(t+\Delta T)=N^{p}_{l}(t) + sgn \left(\hat{r}^{p}_{ef,l} \right) Binomi
 La simulación estocástica tiene una ventaja adicional de gran interés. Las perturbaciones externas se modelan como variaciones temporales de la tasa efectiva de reproducción, restando el efecto del siniestro. Computacionalmente es muy sencillo llevar a cabo esta modificación; si, por el contrario, se resuelven numéricamente las ecuaciones diferenciales, es necesario cambiar las condiciones iniciales para cada nueva perturbación y garantizar la continuidad en dichos puntos.
 
 \subsection{Software}
-Se ha desarrollado un simulador numérico (\textit{SIGMUND)} que es el que ha permitido llevar a cabo los experimentos. El lenguaje utilizado ha sido \texttt{Python}, con los paquetes \texttt{NumPy} y \texttt{SciPy} para la parte de cálculo, \texttt{PyQt} para construir una interfaz de usuario interactiva y \texttt{Matplotlib} para la parte gráfica.
+Se ha desarrollado un simulador numérico (\textit{SIGMUND)} que es el que ha permitido llevar a cabo los experimentos (ver Apéncide \ref{APP_SIGMUNDMAN}). El lenguaje utilizado ha sido \texttt{Python}, con los paquetes \texttt{NumPy} y \texttt{SciPy} para la parte de cálculo, \texttt{PyQt} para construir una interfaz de usuario interactiva y \texttt{Matplotlib} para la parte gráfica.
 
 Los gráficos de alta resolución para este documento se generan con \texttt{R}, tomando como base los ficheros de salida del simulador. 
 

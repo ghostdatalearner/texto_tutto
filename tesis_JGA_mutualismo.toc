@@ -53,7 +53,7 @@
 \contentsline {subsection}{\numberline {4.2.1}El diagrama polar}{81}{subsection.169}
 \contentsline {subsection}{\numberline {4.2.2}El diagrama zigurat}{85}{subsection.174}
 \contentsline {section}{\numberline {4.3}Visualizaci\IeC {\'o}n de la estructura}{93}{section.184}
-\contentsline {section}{\numberline {4.4}Conclusiones}{103}{section.194}
+\contentsline {section}{\numberline {4.4}Conclusiones}{102}{section.194}
 \contentsline {section}{\numberline {4.5}Anexo: Red del Parque Nacional de Canaima}{104}{section.195}
 \contentsline {chapter}{\numberline {5}Estudio de resistencia}{105}{chapter.197}
 \contentsline {section}{\numberline {5.1}Medici\IeC {\'o}n de la resistencia}{106}{section.198}
