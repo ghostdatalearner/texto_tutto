@@ -204,7 +204,7 @@
 \fancyfoot{} % Erase the default headers and footers style to replace with our own
 
 \usepackage{color}
-\definecolor{bgpagenum}{gray}{.82}
+\definecolor{bgpagenum}{gray}{.9}
 \definecolor{fgheader}{gray}{.5}
 \if@twoside % If we are in two sided mode, print alternating page headers
 

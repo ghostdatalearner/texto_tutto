@@ -49,6 +49,13 @@ La tercera aproximación consiste en utilizar la definición original de anidami
 En los métodos descritos la matriz de adyacencia es binaria, o se trata como tal. Si se desea tener el cuenta el peso de los enlaces, en el
 caso de que se disponga de datos, existen alterantivas. $WNODF$ es una modificación de $NODF$ \cite{almeida2011straightforward}, mientras que $WINE$ se basa en la distancia Manhattan \cite{galeano2009weighted}. Por último, hay que citar el \textit{Radio Espectral} \cite{staniczenko2013ghost}. Este índice es el valor del módulo del autovalor máximo de la matriz de adyacencia, y es válido tanto para matrices binarias como pesadas. 
 
+\begin{figure}[h!]
+\centering
+\includegraphics[scale=0.66]{Figures/ESTATICA_nested_subsets.jpg}
+\caption{Interfaz de usuario del \textit{Nestedness Temperature Calculator}. Obsérvese la línea de anidamiento perfecto y las ocurrencias por debajo de ella \cite{atmar1995nestedness}.}
+\label{fig:ESTATICA_nested_subsets}
+\end{figure}
+
 Otro indicador global que se emplea de forma habitual en la caracterización del mutualismo es la modularidad \cite{newman2004finding, olesen2007modularity}. De una forma intuitiva, los módulos son grupos de nodos fuertemente conectados entre sí dentro de una red con baja conectividad.
 Al igual que sucede con el anidamiento, existen diferentes algoritmos para el cálculo de la modularidad. En mutualismo el
 más usado es el de Barber para redes binarias \cite{barber2007modularity} y una versión reciente (\textit{QuanBiMo}) para redes pesadas \cite{dormann2014method}.
@@ -107,7 +114,7 @@ En la fórmula \ref{ESTATICA_kradius} $dist_{mj}$ es el camino más corto de la 
 
 \begin{figure}[h!]
 \centering
-\includegraphics[scale=0.52]{Figures/ESTATICA_SD_030_example_network.pdf}
+\includegraphics[scale=0.55]{Figures/ESTATICA_SD_030_example_network.pdf}
 \caption {Red de frugívoros en Santa Bárbara, Sierra de Baza (España) \cite{jordano1993geographical}.}
 \label{fig:ESTATICA_red_example}
 \end{figure}
@@ -124,12 +131,12 @@ El cálculo es simple aunque algo más laborioso para las plantas de la $1$-$she
 
 \begin{figure}[h!]
 \centering
-\includegraphics[scale=0.52]{Figures/ESTATICA_SD_030_example_distances.pdf}
+\includegraphics[scale=0.55]{Figures/ESTATICA_SD_030_example_distances.pdf}
 \caption {Red de frugívoros en Santa Bárbara, Sierra de Baza (España) \cite{jordano1993geographical}.}
 \label{fig:ESTATICA_SD_030_example_distances}
 \end{figure}
 
-Podemos definir una magnitud global, teniendo en cuenta los $k_{radius}$ de todas las especies.
+Podemos definir una magnitud global, que proporcione una idea de la dispersión de los nodos respecto del núcleo estable de la red, identificado con la\textit{shell} máxima. Para ello, se promedian los los $k_{radius}$ de todas las especies de la comunidad.
 
 \begin{theo} 
 El \textit{$\overline k_{radius}$} de una red se obtiene promediando los ${k}_{radius}$ de todos los nodos, sin importar la clase a la que pertenezcan.
