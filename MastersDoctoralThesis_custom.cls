@@ -303,17 +303,30 @@
 %	DECLARATION PAGE DESIGN
 %----------------------------------------------------------------------------------------
 
-\providecaptionname{american,australian,british,canadian,english,newzealand,UKenglish,USenglish}{\authorshipname}{Declaration of Authorship} % Declaration of Authorship text for English countries
+%\providecaptionname{american,australian,british,canadian,english,newzealand,UKenglish,USenglish}{\authorshipname}{Declaration of Authorship} % Declaration of Authorship text for English countries
 \providecaptionname{spanish}{\authorshipname}{Declaración de autoría} 
-\providecaptionname{german,ngerman,austrian,naustrian}{\authorshipname}{Eidesstattliche Erkl\"arung} % Declaration of Authorship text for Germanic countries
+%\providecaptionname{german,ngerman,austrian,naustrian}{\authorshipname}{Eidesstattliche Erkl\"arung} % Declaration of Authorship text for Germanic countries
+%
+%\newenvironment{declaration}{
+%	\checktoopen
+%	\tttypeout{\authorshipname}
+%	\thispagestyle{plain}
+%	\null\vfil
+%	{\noindent\huge\bfseries\authorshipname\par\vspace{10pt}}
+%}{}
 
 \newenvironment{declaration}{
+%	\checktoopen
+%	\tttypeout{\authorshipname}
+%	\thispagestyle{plain}
+%	\null\vfil
+%	{\noindent\huge\bfseries\authorshipname\par\vspace{10pt}}
+	
 	\checktoopen
-	\tttypeout{\authorshipname}
-	\thispagestyle{plain}
-	\null\vfil
-	{\noindent\huge\bfseries\authorshipname\par\vspace{10pt}}
-}{}
+\tttypeout{\authorshipname}
+\thispagestyle{plain}
+\begin{center}{\huge\textit{\authorshipname}\par}\end{center}
+}
 
 %----------------------------------------------------------------------------------------
 %	DEDICATION PAGE DESIGN
@@ -336,24 +349,10 @@
 \providecaptionname{american,australian,british,canadian,english,newzealand,UKenglish,USenglish}{\byname}{by}
 \providecaptionname{spanish}{\byname}{por}
 \newenvironment{abstract}{
-	\checktoopen
-	\tttypeout{\abstractname}
-	\null\vfil
-	\begin{center}
-	{\normalsize \MakeUppercase{\univname} \par} % University name in capitals
-	\bigskip
-	{\huge\textit{\abstractname} \par}
-	\bigskip
-	{\normalsize \facname \par} % Faculty name
-	{\normalsize \deptname \par} % Department name
-	\bigskip
-	{\normalsize \degreename\par} % Degree name
-	\bigskip
-	{\normalsize\bfseries \@title \par} % Thesis title
-	\medskip
-	{\normalsize \byname{} \authorname \par} % Author name
-	\bigskip
-	\end{center}
+		\checktoopen
+\tttypeout{\abstractname}
+\thispagestyle{plain}
+\begin{center}{\huge\textit{\abstractname}\par}\end{center}
 }
 {
   \vfil\vfil\vfil\null

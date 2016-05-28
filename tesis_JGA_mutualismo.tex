@@ -156,7 +156,6 @@ onehalfspacing, % Single line spacing, alternatives: onehalfspacing or doublespa
 \frontmatter % Use roman page numbering style (i, ii, iii, iv...) for the pre-content pages
 
 \pagestyle{plain} % Default to the plain heading style until the thesis style is called for the body content
-
 %----------------------------------------------------------------------------------------
 %	TITLE PAGE
 %----------------------------------------------------------------------------------------
@@ -165,32 +164,16 @@ onehalfspacing, % Single line spacing, alternatives: onehalfspacing or doublespa
 \begin{center}
 \includegraphics[scale=0.6]{Figures/logoupm.jpg}
 
-\textsc{\large \groupname}\\
-\textsc{\large \deptname}\\[5.5cm] % University name
+\textsc{\Large \univname}\\
+\textsc{\large \deptname}\\
+\textsc{\large \groupname}\\[4.0cm] % University name
 
-
-
-%\HRule \\[0.4cm] % Horizontal line
 {\huge \textsc \ttitle}\\[5cm] % Thesis title
-%\HRule \\[1.5cm] % Horizontal line
- 
-%\begin{minipage}{0.4\textwidth}
-%\begin{flushleft} \large
-%\emph{Autor:}\\
-%{\authorname} % Author name - remove the \href bracket to remove the link
-%\end{flushleft}
-%\end{minipage}
-%\begin{minipage}{0.4\textwidth}
-%\begin{flushright} \large
-%\emph{Director:} \\
-%{\supname} % Supervisor name - remove the \href bracket to remove the link  
-%\end{flushright}
-%\end{minipage}\\[3cm]
- 
-%\large \textit{A thesis submitted in fulfilment of the requirements\\ for the degree of \degreename}\\[0.3cm] % University requirement text
-%\textit{in the}\\[0.4cm]
-%\groupname\\\deptname\\[2cm] % Research group name and department name
-{\Large \authorname}\\[1cm]
+{\Large \authorname}\\[0.15cm]
+\small Doctor en Historia\\
+\small Máster en Física de Sistemas Complejos\\
+\small Licenciado en Geografía e Historia\\
+\small Ingeniero de Telecomunicación\\[1.0cm] 
 \Large{{Director: }{Dr. Javier Galeano Prieto}}\\[1cm]
 \textsc{\Large Tesis doctoral}\\[0.5cm] % Thesis type
 {\large 2016}\\[4cm] % Date
@@ -200,6 +183,7 @@ onehalfspacing, % Single line spacing, alternatives: onehalfspacing or doublespa
 \vfill
 \end{center}
 \end{titlepage}
+
 
 %----------------------------------------------------------------------------------------
 %	DECLARATION PAGE
@@ -226,7 +210,7 @@ onehalfspacing, % Single line spacing, alternatives: onehalfspacing or doublespa
 %\rule[0.5em]{25em}{0.5pt} % This prints a line to write the date
 %\end{declaration}
 %
-%\cleardoublepage
+\cleardoublepage
 
 %----------------------------------------------------------------------------------------
 %	QUOTATION PAGE
@@ -237,6 +221,20 @@ onehalfspacing, % Single line spacing, alternatives: onehalfspacing or doublespa
 \hfill\textit{\large All models are wrong but some are useful}\footnote{\cite{box1979robustness}}\bigbreak
 
 \hfill George Box (Estadístico, 1919-2013)
+
+
+
+%----------------------------------------------------------------------------------------
+%	ACKNOWLEDGEMENTS
+%----------------------------------------------------------------------------------------
+\clearpage
+\begin{acknowledgements}
+\addchaptertocentry{\acknowledgementname} % Add the acknowledgements to the table of contents
+
+The acknowledgements and the people to thank go here, don't forget to include your project advisor\ldots
+
+\end{acknowledgements}
+\clearpage
 
 %----------------------------------------------------------------------------------------
 %	ABSTRACT PAGE
@@ -250,15 +248,16 @@ The Thesis Abstract is written here (and usually kept to just this page). The pa
 \end{abstract}
 
 %----------------------------------------------------------------------------------------
-%	ACKNOWLEDGEMENTS
+%	ENGLISH ABSTRACT
 %----------------------------------------------------------------------------------------
+% Se reaprovecha la declaration page para el Abstract en inglés
+\renewcommand{\authorshipname}{Abstract}
+\begin{declaration}
+\addchaptertocentry{\authorshipname}
 
-\begin{acknowledgements}
-\addchaptertocentry{\acknowledgementname} % Add the acknowledgements to the table of contents
+Bla bla
+\end{declaration}
 
-The acknowledgements and the people to thank go here, don't forget to include your project advisor\ldots
-
-\end{acknowledgements}
 
 %----------------------------------------------------------------------------------------
 %	LIST OF CONTENTS/FIGURES/TABLES PAGES
@@ -282,34 +281,6 @@ The acknowledgements and the people to thank go here, don't forget to include yo
 %
 %\end{abbreviations}
 
-%----------------------------------------------------------------------------------------
-%	PHYSICAL CONSTANTS/OTHER DEFINITIONS
-%----------------------------------------------------------------------------------------
-
-%\begin{constants}{lr@{${}={}$}l} % The list of physical constants is a three column table
-%
-%% The \SI{}{} command is provided by the siunitx package, see its documentation for instructions on how to use it
-%
-%Speed of Light & $c$ & \SI{2.99792458e8}{\meter\per\second} (exact)\\
-%%Constant Name & $Symbol$ & $Constant Value$ with units\\
-%
-%\end{constants}
-
-%----------------------------------------------------------------------------------------
-%	SYMBOLS
-%----------------------------------------------------------------------------------------
-
-%\begin{symbols}{lll} % Include a list of Symbols (a three column table)
-%
-%$a$ & distance & \si{\meter} \\
-%$P$ & power & \si{\watt} (\si{\joule\per\second}) \\
-%%Symbol & Name & Unit \\
-%
-%\addlinespace % Gap to separate the Roman symbols from the Greek
-%
-%$\omega$ & angular frequency & \si{\radian} \\
-%
-%\end{symbols}
 
 %----------------------------------------------------------------------------------------
 %	DEDICATION

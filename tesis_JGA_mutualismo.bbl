@@ -2024,7 +2024,7 @@
   \field{year}{2012}
 \endentry
 
-\entry{goldsteinif}{article}{}
+\entry{Goldstein2016}{article}{}
   \name{author}{2}{}{%
     {{}%
      {Goldstein}{G.}%
@@ -2037,17 +2037,24 @@
      {}{}%
      {}{}}%
   }
-  \list{publisher}{1}{%
-    {Springer}%
-  }
   \strng{namehash}{GJZM1}
   \strng{fullhash}{GJZM1}
-  \field{labelalpha}{GZ}
+  \field{labelalpha}{GZ16}
   \field{sortinit}{G}
-  \field{pages}{1\bibrangedash 9}
+  \verb{doi}
+  \verb 10.1007/s11829-016-9431-2
+  \endverb
+  \field{issn}{1872-8847}
+  \field{number}{3}
+  \field{pages}{263\bibrangedash 271}
   \field{title}{What if we lose a hub? Experimental testing of pollination
   network resilience to removal of keystone floral resources}
+  \verb{url}
+  \verb http://dx.doi.org/10.1007/s11829-016-9431-2
+  \endverb
+  \field{volume}{10}
   \field{journaltitle}{Arthropod-Plant Interactions}
+  \field{year}{2016}
 \endentry
 
 \entry{herrero2000terminologia}{article}{}
@@ -4491,6 +4498,45 @@
   \field{volume}{89}
   \field{journaltitle}{Ecology}
   \field{year}{2008}
+\endentry
+
+\entry{timoteo2016high}{article}{}
+  \name{author}{4}{}{%
+    {{}%
+     {Tim{\'o}teo}{T.}%
+     {S{\'e}rgio}{S.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Ramos}{R.}%
+     {Jaime~Albino}{J.~A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Vaughan}{V.}%
+     {Ian~Phillip}{I.~P.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Memmott}{M.}%
+     {Jane}{J.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Elsevier}%
+  }
+  \strng{namehash}{TS+1}
+  \strng{fullhash}{TSRJAVIPMJ1}
+  \field{labelalpha}{Tim+16}
+  \field{sortinit}{T}
+  \field{number}{7}
+  \field{pages}{910\bibrangedash 915}
+  \field{title}{High Resilience of Seed Dispersal Webs Highlighted by the
+  Experimental Removal of the Dominant Disperser}
+  \field{volume}{26}
+  \field{journaltitle}{Current Biology}
+  \field{year}{2016}
 \endentry
 
 \entry{toju2014assembly}{article}{}
