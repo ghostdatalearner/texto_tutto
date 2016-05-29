@@ -212,9 +212,39 @@ Ha habido diferentes estrategias de ataque. Wright propuso un modelo de dos espe
 
 Phasellus fermentum magna in augue gravida cursus. Cras sed pretium lorem. Pellentesque eget ornare odio. Proin accumsan, massa viverra cursus pharetra, ipsum nisi lobortis velit, a malesuada dolor lorem eu neque.
 
-%----------------------------------------------------------------------------------------
-%	ESTRUCTURA DE LA TESIS
-%----------------------------------------------------------------------------------------
+\section{Objetivos}
+
+En esta tesis desarrollaremos aportaciones teóricas y computacionales al modelado del mutualismo en ecología con las siguientes metas:
+
+\begin{enumerate}
+\item Construir modelos dinámicos alternativos que eviten las limitaciones conocidas de los actuales.
+   \begin{enumerate}
+		\item Deben limitar las poblaciones bajo cualquier circunstancia.
+		\item Evitarán los problemas derivados de la formulación de Pearl.
+		\item Permitirán una explicación biológica de sus propiedades analíticas.
+   \end{enumerate}
+   
+\item Definir una descripción de las propiedades estructurales de las redes mutualistas basada únicamente en su topología.
+		\begin{enumerate}
+		\item Las magnitudes deberán explicar las propiedades del mutualismo tanto a escala local como a escala global.
+		\item Se establecerá la relación de las citas propiedades topológicas con los índices más habituales en la descripción de las redes mutualistas.
+		\end{enumerate}
+		
+\item Construir nuevos tipos de visualización que superen las limitaciones del diagrama bipartito y de la matriz de interacción para el tamaño habitual de las redes reales.
+
+\item Estudiar la resistencia de las redes mutualistas y las posibles políticas de conservación a la luz de su caracterización topológica.
+\begin{enumerate}
+		\item Comparar los criterios de ordenación existentes con los que surjan del desarrollo de la tesis.
+		\item Validar los resultados con un conjunto amplio de redes reales.
+		\end{enumerate}
+		
+\item Publicar en modalidad \textit{Open Source} todo el software desarrollado con dos propósitos.
+ \begin{enumerate}
+		\item Reproducibilidad de los resultados obtenidos para su validación, crítica o refutación por otros investigadores.
+		\item Poner en manos de la comunidad científica las herramientas que permitan aprovechar los resultados teóricos de este trabajo.
+		\end{enumerate}
+\end{enumerate}
+
 
 \section{Estructura de la tesis}
 
@@ -226,5 +256,20 @@ Las visualizaciones de redes mutualistas habituales no funcionan bien a partir d
 
 En el capítulo \ref{ChapterDESTRUCCION} se realiza un estudio estático de la resistencia de las redes mutualistas. En él se comparan los índices de ordenación más populares con los que surgen de la \textit{k estructura} de las redes.
 
-Finalmente, en el capítulo \ref{chapterCONCLUSIONES} se elaboran las conclusiones de la tesis.
+En el capítulo \ref{chapterCONCLUSIONES} se elaboran las conclusiones de la tesis.
 
+Cierran la memoria los manuales de usuario de las dos aplicaciones desarrolladas.
+
+
+\section{Anexo: Información sobre este documento}
+\label{INTROGEN_ANEXO_KConst}
+
+Esta memoria se ha escrito en \texttt{LaTeX} utilizando como base el fichero de clase desarrollado por Steve Gunn y Sunil Patel, que puede descargarse desde \url{http://www.latextemplates.com/}.
+
+Toda el historial de edición se ha registrado con \texttt{git}. Los ficheros fuente pueden descargarse libremente desde \texttt{github} usando el comando:
+
+\fontsize{3.5mm}{3.5mm}\selectfont
+\begin{verbatim}
+     git clone https://github.com/ghostdatalearner/texto_tutto.git
+\end{verbatim}
+\normalsize
