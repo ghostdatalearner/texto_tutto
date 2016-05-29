@@ -402,30 +402,30 @@ En el histograma inferior se han eliminado las redes con menos de $100$ enlaces.
 Buscando el origen de este comportamiento dispar, se ha representado el diagrama de dispersión que relaciona el valor de la correlación con el número de especies de la red y con la asimetría de clases. Esta se mide como el valor absoluto de la diferencia entre el número de especies de ambas clases dividida por su suma (tabla \ref{table:table_results_recableados}). El área correspondiente al círculo de cada especie es proporcional a esta cantidad. De la gráfica se deduce que cuanto mayor es el tamaño de la red la correlación lineal entre $NODF$ y $log(\overline {k}_{radius})$ tiene mayor tendencia a mantenerse aunque cambie un pequeño porcentaje de conexiones. Para redes más pequeñas, el factor que destruye con mayor rapidez el anidamiento es la asimetría, y la red $M\_SD\_007$ es un caso extremo, con $72$ especies de plantas, solo $7$ de polinizadores y una estructura muy peculiar como se verá en el próximo capítulo de visualizaciones. Estas redes asimétricas son mucho más sensibles a las reconexiones, porque hay una mayor probabilidad de alterar la \textit{k-shell} máxima.
 
 Lo que muestra el experimento es que cuanto  mayores son el tamaño y la simetría, las redes parecen menos destructibles ante pequeños cambios. El valor de la correlación podría utilizarse como indicador numérico de la resistencia a una variación de las condiciones ambientales.
-
-\begin{figure}[h!]
+\clearpage
+\begin{figure}[htp!]
 \centering
-\includegraphics[scale=0.6]{ESTATICA_zscores_networks_evolution.png}
+\includegraphics[scale=0.62]{ESTATICA_zscores_networks_evolution.png}
 \caption {Comparativa de la evolución de $z \overline {k}_{radius}$ y $zNODF$ en el experimento de recableado de tres redes. Los triángulos marcan los pares de valores de las redes originales. A medida que crece el porcentaje de recableado aleatorio, las redes resultantes son más desordenadas y se desplazan al cuadrante superior izquierdo, combinación de falta de anidamiento y de compacidad.}
 \label{fig:ESTATICA_asimetria_corr}
 \end{figure}
 
-\section{Conclusiones}
-
-La \textit{descomposición k-core} proporciona una sólida base para el análisis del mutualismo. Hemos demostrado como las \textit{k-magnitudes} definidas como propiedades surgidas del procedimiento, permiten conocer en detalle la estructura de las redes. En particular, al promediar los valores locales para todo el sistema, $\overline {k}_{radius}$ y $\overline {k}_{degree}$ muestran una fuerte correlación con los observables globales $NODF$ y $Modularity$. 
-
-Mediante el análisis de modelo nulo se ha comprobado que $\overline {k}_{radius}$ es una medida de compacidad, que es una propiedad que se presenta solo en un subconjunto de redes significativamente anidadas.
-
-La descomposición es también útil para una nueva ordenación de importancia de las especies. El ${k}_{degree}$ permite refinar la que proporciona el grado, al crear una escala en la que hay una probabilidad muy inferior de repetición de valores.
-
-Mediante el experimento de recableado hemos comprobado como el anidamiento y la compacidad desaparecen de forma casi simultánea en las redes binarias que parten de un estado muy ordenado. Este comportamiento es menos habitual en redes pequeñas o con una fuerte asimetría de especies.
-
-Aunque hemos enfocado el estudio en redes mutualistas, la técnica se puede extender a otros tipos de redes bipartitas, por ejemplo comensalistas. Relaciones bipartitas y con fuerte anidamiento, como las que aparecen en redes de innovación y comercio, podrían también beneficiarse de este análisis.
-
-\section{Anexo: Unidades reducidas}
-\label{ESTATICA_ANEXO_zscores}
+%\section{Conclusiones}
+%
+%La \textit{descomposición k-core} proporciona una sólida base para el análisis del mutualismo. Hemos demostrado como las \textit{k-magnitudes} definidas como propiedades surgidas del procedimiento, permiten conocer en detalle la estructura de las redes. En particular, al promediar los valores locales para todo el sistema, $\overline {k}_{radius}$ y $\overline {k}_{degree}$ muestran una fuerte correlación con los observables globales $NODF$ y $Modularity$. 
+%
+%Mediante el análisis de modelo nulo se ha comprobado que $\overline {k}_{radius}$ es una medida de compacidad, que es una propiedad que se presenta solo en un subconjunto de redes significativamente anidadas.
+%
+%La descomposición es también útil para una nueva ordenación de importancia de las especies. El ${k}_{degree}$ permite refinar la que proporciona el grado, al crear una escala en la que hay una probabilidad muy inferior de repetición de valores.
+%
+%Mediante el experimento de recableado hemos comprobado como el anidamiento y la compacidad desaparecen de forma casi simultánea en las redes binarias que parten de un estado muy ordenado. Este comportamiento es menos habitual en redes pequeñas o con una fuerte asimetría de especies.
+%
+%Aunque hemos enfocado el estudio en redes mutualistas, la técnica se puede extender a otros tipos de redes bipartitas, por ejemplo comensalistas. Relaciones bipartitas y con fuerte anidamiento, como las que aparecen en redes de innovación y comercio, podrían también beneficiarse de este análisis.
+\clearpage
+\section{Anexos}
+\label{ESTATICA_ANEXO}
 \begin{table}[ht!]
-\fontsize{2.5mm}{2.5mm}\selectfont
+\fontsize{2.2mm}{2.2mm}\selectfont
   \centering
     \begin{tabular}{lrrrrrrrrr}
     \toprule
@@ -480,11 +480,47 @@ Aunque hemos enfocado el estudio en redes mutualistas, la técnica se puede exte
     \end{tabular}%
     \caption{\label{table:table_results_zscores} Resultados del análisis de modelo nulo en unidades reducidas.}
 \end{table}%
+\begin{table}[h!]
+\fontsize{2.2mm}{2.2mm}\selectfont
+  \centering
+      \begin{tabular}{lrrrrrlrrrr}
+    \toprule
+    $Red$  & $Especies$ & $Enlaces$ & $Corr$ & $Asim.$ &      & $Red$  & $Especies$ & $Enlaces$ & $Corr$& $Asim.$ \\
+    \midrule
+      M\_PL\_001 & 185  & 361  & -0,85 & 0,05 &      & M\_PL\_038 & 50   & 79   & -0,13 & 0,43 \\
+    M\_PL\_002 & 107  & 196  & -0,74 & 0,11 &      & M\_PL\_039 & 68   & 129  & -0,55 & 0,26 \\
+    M\_PL\_003 & 61   & 81   & -0,43 & 0,14 &      & M\_PL\_042 & 18   & 25   & -0,54 & 0,24 \\
+    M\_PL\_005 & 371  & 923  & -0,77 & 0,19 &      & M\_PL\_043 & 110  & 250  & -0,47 & 0,22 \\
+    M\_PL\_008 & 49   & 106  & -0,37 & 0,25 &      & M\_PL\_046 & 60   & 278  & -0,89 & 0,10 \\
+    M\_PL\_009 & 142  & 242  & -0,74 & 0,39 &      & M\_PL\_047 & 205  & 425  & -0,84 & 0,39 \\
+    M\_PL\_010 & 107  & 456  & -0,92 & 0,10 &      & M\_PL\_048 & 266  & 671  & -0,87 & 0,31 \\
+    M\_PL\_011 & 27   & 52   & -0,68 & 0,02 &      & M\_PL\_049 & 262  & 590  & -0,76 & 0,32 \\
+    M\_PL\_012 & 84   & 145  & -0,89 & 0,18 &      & M\_PL\_050 & 49   & 86   & -0,67 & 0,24 \\
+    M\_PL\_014 & 110  & 179  & -0,80 & 0,29 &      & M\_PL\_052 & 54   & 92   & -0,64 & 0,26 \\
+    M\_PL\_015 & 797  & 2933 & -0,88 & 0,18 &      & M\_PL\_053 & 393  & 589  & -0,77 & 0,33 \\
+    M\_PL\_016 & 205  & 412  & -0,76 & 0,37 &      & M\_SD\_007 & 79   & 143  & -0,01 & 0,45 \\
+    M\_PL\_018 & 144  & 383  & -0,71 & 0,17 &      & M\_SD\_011 & 25   & 47   & -0,52 & 0,06 \\
+    M\_PL\_020 & 111  & 190  & -0,84 & 0,37 &      & M\_SD\_013 & 55   & 197  & -0,68 & 0,09 \\
+    M\_PL\_021 & 768  & 1193 & -0,75 & 0,49 &      & M\_SD\_014 & 33   & 121  & -0,79 & 0,01 \\
+    M\_PL\_022 & 66   & 83   & 0,02 & 0,29 &      & M\_SD\_015 & 32   & 86   & -0,02 & 0,26 \\
+    M\_PL\_023 & 95   & 125  & -0,63 & 0,39 &      & M\_SD\_016 & 85   & 500  & -0,95 & 0,07 \\
+    M\_PL\_026 & 159  & 204  & -0,75 & 0,25 &      & M\_SD\_017 & 24   & 72   & -0,40 & 0,11 \\
+    M\_PL\_027 & 78   & 120  & -0,21 & 0,35 &      & M\_SD\_018 & 61   & 66   & -0,64 & 0,05 \\
+    M\_PL\_028 & 180  & 374  & -0,79 & 0,26 &      & M\_SD\_019 & 209  & 666  & -0,92 & 0,19 \\
+    M\_PL\_029 & 167  & 346  & -0,80 & 0,20 &      & M\_SD\_021 & 46   & 129  & -0,85 & 0,08 \\
+    M\_PL\_030 & 81   & 109  & -0,40 & 0,23 &      & M\_SD\_022 & 317  & 1121 & -0,73 & 0,09 \\
+    M\_PL\_031 & 97   & 156  & -0,03 & 0,01 &      & M\_SD\_024 & 19   & 40   & -0,13 & 0,13 \\
+    M\_PL\_032 & 40   & 65   & -0,67 & 0,40 &      & M\_SD\_025 & 13   & 22   & -0,26 & 0,05 \\
+    M\_PL\_034 & 154  & 312  & -0,80 & 0,33 &      & M\_SD\_026 & 6    & 6    & -0,34 & 0,00 \\
+    M\_PL\_035 & 97   & 178  & -0,68 & 0,14 &      & M\_SD\_027 & 16   & 31   & -0,23 & 0,26 \\
+    M\_PL\_036 & 22   & 30   & -0,29 & 0,07 &      & M\_SD\_028 & 13   & 26   & -0,32 & 0,12 \\
+    M\_PL\_037 & 50   & 72   & -0,07 & 0,42 &      & M\_SD\_029 & 9    & 10   & -0,52 & 0,10 \\
+         &      &      &      &      &      & M\_SD\_030 & 9    & 11   & -0,41 & 0,09 \\
+    \bottomrule
+    \end{tabular}%
+    \caption{\label{table:table_results_recableados} Resultados del experimento de recableado para las redes con matriz de adyacencia binaria. La correlación es la de $zNODF$ y $z \overline {k}_{radius}$ para las redes recableadas. La asimetría de especies es la diferencia entre el número de especies de cada clase dividida por la suma.}
+\end{table}%
 
-
-\clearpage
-\section{Anexo: K-magnitudes de las redes analizadas}
-\label{ESTATICA_ANEXO_kmagnitudes}
 \begin{table}[ht!]
 \fontsize{2.2mm}{2.2mm}\selectfont
   \centering
@@ -584,49 +620,4 @@ Aunque hemos enfocado el estudio en redes mutualistas, la técnica se puede exte
     \bottomrule
     \end{tabular}%
     \caption{\label{table:table_results} Propiedades de las redes utilizadas en el estudio.}
-\end{table}%
-
-
-\clearpage
-\section{Anexo: Experimento de recableado}
-\label{ESTATICA_ANEXO_tabrecableado}
-\begin{table}[ht!]
-\fontsize{2.5mm}{2.5mm}\selectfont
-  \centering
-      \begin{tabular}{lrrrrrlrrrr}
-    \toprule
-    $Red$  & $Especies$ & $Enlaces$ & $Corr$ & $Asim.$ &      & $Red$  & $Especies$ & $Enlaces$ & $Corr$& $Asim.$ \\
-    \midrule
-      M\_PL\_001 & 185  & 361  & -0,85 & 0,05 &      & M\_PL\_038 & 50   & 79   & -0,13 & 0,43 \\
-    M\_PL\_002 & 107  & 196  & -0,74 & 0,11 &      & M\_PL\_039 & 68   & 129  & -0,55 & 0,26 \\
-    M\_PL\_003 & 61   & 81   & -0,43 & 0,14 &      & M\_PL\_042 & 18   & 25   & -0,54 & 0,24 \\
-    M\_PL\_005 & 371  & 923  & -0,77 & 0,19 &      & M\_PL\_043 & 110  & 250  & -0,47 & 0,22 \\
-    M\_PL\_008 & 49   & 106  & -0,37 & 0,25 &      & M\_PL\_046 & 60   & 278  & -0,89 & 0,10 \\
-    M\_PL\_009 & 142  & 242  & -0,74 & 0,39 &      & M\_PL\_047 & 205  & 425  & -0,84 & 0,39 \\
-    M\_PL\_010 & 107  & 456  & -0,92 & 0,10 &      & M\_PL\_048 & 266  & 671  & -0,87 & 0,31 \\
-    M\_PL\_011 & 27   & 52   & -0,68 & 0,02 &      & M\_PL\_049 & 262  & 590  & -0,76 & 0,32 \\
-    M\_PL\_012 & 84   & 145  & -0,89 & 0,18 &      & M\_PL\_050 & 49   & 86   & -0,67 & 0,24 \\
-    M\_PL\_014 & 110  & 179  & -0,80 & 0,29 &      & M\_PL\_052 & 54   & 92   & -0,64 & 0,26 \\
-    M\_PL\_015 & 797  & 2933 & -0,88 & 0,18 &      & M\_PL\_053 & 393  & 589  & -0,77 & 0,33 \\
-    M\_PL\_016 & 205  & 412  & -0,76 & 0,37 &      & M\_SD\_007 & 79   & 143  & -0,01 & 0,45 \\
-    M\_PL\_018 & 144  & 383  & -0,71 & 0,17 &      & M\_SD\_011 & 25   & 47   & -0,52 & 0,06 \\
-    M\_PL\_020 & 111  & 190  & -0,84 & 0,37 &      & M\_SD\_013 & 55   & 197  & -0,68 & 0,09 \\
-    M\_PL\_021 & 768  & 1193 & -0,75 & 0,49 &      & M\_SD\_014 & 33   & 121  & -0,79 & 0,01 \\
-    M\_PL\_022 & 66   & 83   & 0,02 & 0,29 &      & M\_SD\_015 & 32   & 86   & -0,02 & 0,26 \\
-    M\_PL\_023 & 95   & 125  & -0,63 & 0,39 &      & M\_SD\_016 & 85   & 500  & -0,95 & 0,07 \\
-    M\_PL\_026 & 159  & 204  & -0,75 & 0,25 &      & M\_SD\_017 & 24   & 72   & -0,40 & 0,11 \\
-    M\_PL\_027 & 78   & 120  & -0,21 & 0,35 &      & M\_SD\_018 & 61   & 66   & -0,64 & 0,05 \\
-    M\_PL\_028 & 180  & 374  & -0,79 & 0,26 &      & M\_SD\_019 & 209  & 666  & -0,92 & 0,19 \\
-    M\_PL\_029 & 167  & 346  & -0,80 & 0,20 &      & M\_SD\_021 & 46   & 129  & -0,85 & 0,08 \\
-    M\_PL\_030 & 81   & 109  & -0,40 & 0,23 &      & M\_SD\_022 & 317  & 1121 & -0,73 & 0,09 \\
-    M\_PL\_031 & 97   & 156  & -0,03 & 0,01 &      & M\_SD\_024 & 19   & 40   & -0,13 & 0,13 \\
-    M\_PL\_032 & 40   & 65   & -0,67 & 0,40 &      & M\_SD\_025 & 13   & 22   & -0,26 & 0,05 \\
-    M\_PL\_034 & 154  & 312  & -0,80 & 0,33 &      & M\_SD\_026 & 6    & 6    & -0,34 & 0,00 \\
-    M\_PL\_035 & 97   & 178  & -0,68 & 0,14 &      & M\_SD\_027 & 16   & 31   & -0,23 & 0,26 \\
-    M\_PL\_036 & 22   & 30   & -0,29 & 0,07 &      & M\_SD\_028 & 13   & 26   & -0,32 & 0,12 \\
-    M\_PL\_037 & 50   & 72   & -0,07 & 0,42 &      & M\_SD\_029 & 9    & 10   & -0,52 & 0,10 \\
-         &      &      &      &      &      & M\_SD\_030 & 9    & 11   & -0,41 & 0,09 \\
-    \bottomrule
-    \end{tabular}%
-    \caption{\label{table:table_results_recableados} Resultados del experimento de recableado para las redes con matriz de adyacencia binaria. La correlación es la de $zNODF$ y $z \overline {k}_{radius}$ para las redes recableadas. La asimetría de especies es la diferencia entre el número de especies de cada clase dividida por la suma.}
 \end{table}%
