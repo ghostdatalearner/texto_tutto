@@ -66,6 +66,10 @@
 		\addchaptertocentry{\contentsname}\@starttoc{toc}}{}{}%
 }
 
+\usepackage{tocloft}
+\setlength{\cftfignumwidth}{2.75em}
+
+
 \patchcmd{\tableofcontents}{\MakeUppercase}{\MakeMarkcase}{}{}
 \patchcmd{\tableofcontents}{\MakeUppercase}{\MakeMarkcase}{}{}
 \patchcmd{\listoffigures}{\MakeUppercase}{\MakeMarkcase}{}{}
