@@ -2795,6 +2795,26 @@
   \field{year}{1992}
 \endentry
 
+\entry{may1981models}{misc}{}
+  \name{author}{1}{}{%
+    {{}%
+     {May}{M.}%
+     {RM}{R.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Blackwell: Oxford, UK}%
+  }
+  \strng{namehash}{MR1}
+  \strng{fullhash}{MR1}
+  \field{labelalpha}{May81}
+  \field{sortinit}{M}
+  \field{title}{Models for two interacting populations. In Theoretical Ecology.
+  Principles and Applications. 2nd edn.(Ed. RM May.) pp. 78--104}
+  \field{year}{1981}
+\endentry
+
 \entry{mccann2007protecting}{article}{}
   \name{author}{1}{}{%
     {{}%
@@ -4498,6 +4518,45 @@
   \field{volume}{89}
   \field{journaltitle}{Ecology}
   \field{year}{2008}
+\endentry
+
+\entry{thrall2007coevolution}{article}{}
+  \name{author}{4}{}{%
+    {{}%
+     {Thrall}{T.}%
+     {Peter~H}{P.~H.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Hochberg}{H.}%
+     {Michael~E}{M.~E.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Burdon}{B.}%
+     {Jeremy~J}{J.~J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Bever}{B.}%
+     {James~D}{J.~D.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Elsevier}%
+  }
+  \strng{namehash}{TPH+1}
+  \strng{fullhash}{TPHHMEBJJBJD1}
+  \field{labelalpha}{Thr+07}
+  \field{sortinit}{T}
+  \field{number}{3}
+  \field{pages}{120\bibrangedash 126}
+  \field{title}{Coevolution of symbiotic mutualists and parasites in a
+  community context}
+  \field{volume}{22}
+  \field{journaltitle}{Trends in Ecology \& Evolution}
+  \field{year}{2007}
 \endentry
 
 \entry{timoteo2016high}{article}{}
