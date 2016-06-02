@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2013.8.13)  2 JUN 2016 13:47
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2013.8.13)  2 JUN 2016 13:56
 entering extended mode
 **D:/disco_usuario/javier/upm/doctorado/tesis/texto_tesis_upm/texto_tutto/tesis
 _JGA_mutualismo.tex
@@ -2223,7 +2223,7 @@ LaTeX Font Info:    Try loading font information for T1+cmtt on input line 154.
 ("C:\Program Files\MiKTeX 2.9\tex\latex\base\t1cmtt.fd"
 File: t1cmtt.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
-<Figures/logoupm.jpg, id=300, 147.55125pt x 137.01187pt>
+<Figures/logoupm.jpg, id=304, 147.55125pt x 137.01187pt>
 File: Figures/logoupm.jpg Graphic file (type jpg)
 
 <use Figures/logoupm.jpg>
@@ -2681,7 +2681,7 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 42.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 42.
- [2] <Figures/INTRO_Pollination.jpg, id=829, 578.16pt x 611.4042pt>
+ [2] <Figures/INTRO_Pollination.jpg, id=834, 578.16pt x 611.4042pt>
 File: Figures/INTRO_Pollination.jpg Graphic file (type jpg)
 
 <use Figures/INTRO_Pollination.jpg>
@@ -2709,7 +2709,7 @@ Package babel Info: Redefining spanish shorthand "?
  [3 <D:/disco_usuario/javier/upm/doctorado/tesis/texto_tesis_upm/texto_tutto/Fi
 gures/INTRO_Pollination.jpg>]
 <Figures/INTRO_Lasius_niger_y_Cinara_tujafilina_en_Thuja_occidentalis.jpg, id=8
-48, 246.6816pt x 182.3613pt>
+53, 246.6816pt x 182.3613pt>
 File: Figures/INTRO_Lasius_niger_y_Cinara_tujafilina_en_Thuja_occidentalis.jpg 
 Graphic file (type jpg)
 
@@ -2748,7 +2748,7 @@ Package babel Info: Redefining spanish shorthand "!
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 80.
 
-<Figures/INTRO_Chengjiang_and_Burgess_Shale_1.png, id=871, 503.63156pt x 152.57
+<Figures/INTRO_Chengjiang_and_Burgess_Shale_1.png, id=876, 503.63156pt x 152.57
 pt>
 File: Figures/INTRO_Chengjiang_and_Burgess_Shale_1.png Graphic file (type png)
  <use Figures/INTRO_Chengjiang_and_Burgess_Shale_1.png>
@@ -2784,7 +2784,7 @@ Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 98.
  [5 <D:/disco_usuario/javier/upm/doctorado/tesis/texto_tesis_upm/texto_tutto/Fi
 gures/INTRO_Chengjiang_and_Burgess_Shale_1.png>]
-<Figures/INTRO_bip_ficticia.png, id=891, 850.67813pt x 496.85625pt>
+<Figures/INTRO_bip_ficticia.png, id=896, 850.67813pt x 496.85625pt>
 File: Figures/INTRO_bip_ficticia.png Graphic file (type png)
 
 <use Figures/INTRO_bip_ficticia.png>
@@ -2808,7 +2808,7 @@ Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 113.
  [6 <D:/disco_usuario/javier/upm/doctorado/tesis/texto_tesis_upm/texto_tutto/Fi
 gures/INTRO_bip_ficticia.png>]
-<Figures/INTRO_M_PL_011a_matrix.png, id=909, 913.4928pt x 992.508pt>
+<Figures/INTRO_M_PL_011a_matrix.png, id=914, 913.4928pt x 992.508pt>
 File: Figures/INTRO_M_PL_011a_matrix.png Graphic file (type png)
 
 <use Figures/INTRO_M_PL_011a_matrix.png>
@@ -2936,25 +2936,37 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 217.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 217.
+LaTeX Info: Redefining \sptext on input line 251.
+LaTeX Info: Redefining \. on input line 251.
+LaTeX Info: Redefining \% on input line 251.
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 251.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 251.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 251.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 251.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 251.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 251.
+ [12]
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 251.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 251.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 251.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 251.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 251.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 251.
 )
 (D:\disco_usuario\javier\upm\doctorado\tesis\texto_tesis_upm\texto_tutto\Chapte
 rs/Chapter_DINAMICA.tex
-LaTeX Info: Redefining \sptext on input line 3.
-LaTeX Info: Redefining \. on input line 3.
-LaTeX Info: Redefining \% on input line 3.
-Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 3.
-Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 3.
-Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 3.
-Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 3.
-Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 3.
-Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 3.
- [12]
 LaTeX Info: Redefining \sptext on input line 3.
 LaTeX Info: Redefining \. on input line 3.
 LaTeX Info: Redefining \% on input line 3.
@@ -3069,7 +3081,7 @@ ps>
 (epstopdf)             \includegraphics on input line 60.
 Package epstopdf Info: Output file is already uptodate.
 
-<Figures/DINAMICA_r1_Verh+modif_r1-p8p8K50-eps-converted-to.pdf, id=1070, 728.7
+<Figures/DINAMICA_r1_Verh+modif_r1-p8p8K50-eps-converted-to.pdf, id=1081, 728.7
 225pt x 403.5075pt>
 File: Figures/DINAMICA_r1_Verh+modif_r1-p8p8K50-eps-converted-to.pdf Graphic fi
 le (type pdf)
@@ -3109,7 +3121,7 @@ ps>
 (epstopdf)             \includegraphics on input line 102.
 Package epstopdf Info: Output file is already uptodate.
 
-<Figures/DINAMICA_r1_eq_N1N2_r1p8b12p05K50-eps-converted-to.pdf, id=1082, 450.6
+<Figures/DINAMICA_r1_eq_N1N2_r1p8b12p05K50-eps-converted-to.pdf, id=1093, 450.6
 8375pt x 375.4025pt>
 File: Figures/DINAMICA_r1_eq_N1N2_r1p8b12p05K50-eps-converted-to.pdf Graphic fi
 le (type pdf)
@@ -3230,7 +3242,7 @@ gram.eps>
 (epstopdf)             \includegraphics on input line 260.
 Package epstopdf Info: Output file is already uptodate.
 
-<Figures/DINAMICA_solut_r9b03K100+flowdiagram-eps-converted-to.pdf, id=1112, 79
+<Figures/DINAMICA_solut_r9b03K100+flowdiagram-eps-converted-to.pdf, id=1123, 79
 5.97375pt x 318.18875pt>
 File: Figures/DINAMICA_solut_r9b03K100+flowdiagram-eps-converted-to.pdf Graphic
  file (type pdf)
@@ -3385,7 +3397,7 @@ ps-converted-to.pdf Figures/DINAMICA_Figure1h.eps>
 (epstopdf)             \includegraphics on input line 411.
 Package epstopdf Info: Output file is already uptodate.
 
-<Figures/DINAMICA_Figure1h-eps-converted-to.pdf, id=1166, 1211.52625pt x 320.19
+<Figures/DINAMICA_Figure1h-eps-converted-to.pdf, id=1177, 1211.52625pt x 320.19
 624pt>
 File: Figures/DINAMICA_Figure1h-eps-converted-to.pdf Graphic file (type pdf)
  <use Figures/DINAMICA_Figure1h-eps-converted-to.pdf>
@@ -3453,7 +3465,7 @@ s-converted-to.pdf Figures/DINAMICA_Figure2.eps>
 (epstopdf)             \includegraphics on input line 482.
 Package epstopdf Info: Output file is already uptodate.
 
-<Figures/DINAMICA_Figure2-eps-converted-to.pdf, id=1208, 286.06876pt x 281.05pt
+<Figures/DINAMICA_Figure2-eps-converted-to.pdf, id=1219, 286.06876pt x 281.05pt
 >
 File: Figures/DINAMICA_Figure2-eps-converted-to.pdf Graphic file (type pdf)
  <use Figures/DINAMICA_Figure2-eps-converted-to.pdf>
@@ -3521,7 +3533,7 @@ Package babel Info: Redefining spanish shorthand "!
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 535.
  [31]
-<Figures/DINAMICA_Figure3.png, id=1250, 828.09375pt x 639.89063pt>
+<Figures/DINAMICA_Figure3.png, id=1261, 828.09375pt x 639.89063pt>
 File: Figures/DINAMICA_Figure3.png Graphic file (type png)
 
 <use Figures/DINAMICA_Figure3.png>
@@ -3703,7 +3715,7 @@ Package babel Info: Redefining spanish shorthand "!
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 653.
 
-<Figures/DINAMICA_red_exper_2.png, id=1303, 710.4141pt x 295.5843pt>
+<Figures/DINAMICA_red_exper_2.png, id=1314, 710.4141pt x 295.5843pt>
 File: Figures/DINAMICA_red_exper_2.png Graphic file (type png)
 
 <use Figures/DINAMICA_red_exper_2.png>
@@ -3722,7 +3734,7 @@ ction-eps-converted-to.pdf Figures/DINAMICA_Fig5_extinction.eps>
 (epstopdf)             \includegraphics on input line 668.
 Package epstopdf Info: Output file is already uptodate.
 
-<Figures/DINAMICA_Fig5_extinction-eps-converted-to.pdf, id=1305, 451.6875pt x 5
+<Figures/DINAMICA_Fig5_extinction-eps-converted-to.pdf, id=1316, 451.6875pt x 5
 26.96875pt>
 File: Figures/DINAMICA_Fig5_extinction-eps-converted-to.pdf Graphic file (type 
 pdf)
@@ -3760,7 +3772,7 @@ ing_cap-eps-converted-to.pdf Figures/DINAMICA_Fig6_carrying_cap.eps>
 (epstopdf)             \includegraphics on input line 680.
 Package epstopdf Info: Output file is already uptodate.
 
-<Figures/DINAMICA_Fig6_carrying_cap-eps-converted-to.pdf, id=1314, 677.53125pt 
+<Figures/DINAMICA_Fig6_carrying_cap-eps-converted-to.pdf, id=1325, 677.53125pt 
 x 451.6875pt>
 File: Figures/DINAMICA_Fig6_carrying_cap-eps-converted-to.pdf Graphic file (typ
 e pdf)
@@ -3786,7 +3798,7 @@ al_extinct-eps-converted-to.pdf Figures/DINAMICA_Fig7_partial_extinct.eps>
 (epstopdf)             \includegraphics on input line 687.
 Package epstopdf Info: Output file is already uptodate.
 
-<Figures/DINAMICA_Fig7_partial_extinct-eps-converted-to.pdf, id=1317, 451.6875p
+<Figures/DINAMICA_Fig7_partial_extinct-eps-converted-to.pdf, id=1328, 451.6875p
 t x 526.96875pt>
 File: Figures/DINAMICA_Fig7_partial_extinct-eps-converted-to.pdf Graphic file (
 type pdf)
@@ -3829,7 +3841,7 @@ Package babel Info: Redefining spanish shorthand "!
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 698.
 
-<Figures/DINAMICA_SATU_experimento_1.pdf, id=1332, 377.41pt x 458.71375pt>
+<Figures/DINAMICA_SATU_experimento_1.pdf, id=1343, 377.41pt x 458.71375pt>
 File: Figures/DINAMICA_SATU_experimento_1.pdf Graphic file (type pdf)
 
 <use Figures/DINAMICA_SATU_experimento_1.pdf>
@@ -3837,7 +3849,7 @@ Package pdftex.def Info: Figures/DINAMICA_SATU_experimento_1.pdf used on input
 line 705.
 (pdftex.def)             Requested size: 249.09137pt x 302.75201pt.
 
-<Figures/DINAMICA_SATU_experimento_2.pdf, id=1338, 505.89pt x 401.5pt>
+<Figures/DINAMICA_SATU_experimento_2.pdf, id=1349, 505.89pt x 401.5pt>
 File: Figures/DINAMICA_SATU_experimento_2.pdf Graphic file (type pdf)
 
 <use Figures/DINAMICA_SATU_experimento_2.pdf>
@@ -3865,7 +3877,7 @@ Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 722.
 [39 <D:/disco_usuario/javier/upm/doctorado/tesis/texto_tesis_upm/texto_tutto/Fi
 gures/DINAMICA_Fig6_carrying_cap-eps-converted-to.pdf>]
-<Figures/DINAMICA_SAT_red_exper_resilience_strong.pdf, id=1354, 1026.83624pt x 
+<Figures/DINAMICA_SAT_red_exper_resilience_strong.pdf, id=1365, 1026.83624pt x 
 412.54124pt>
 File: Figures/DINAMICA_SAT_red_exper_resilience_strong.pdf Graphic file (type p
 df)
@@ -3877,7 +3889,7 @@ sed on input line 727.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<Figures/DINAMICA_SATU_nested.pdf, id=1358, 377.41pt x 451.6875pt>
+<Figures/DINAMICA_SATU_nested.pdf, id=1369, 377.41pt x 451.6875pt>
 File: Figures/DINAMICA_SATU_nested.pdf Graphic file (type pdf)
 
 <use Figures/DINAMICA_SATU_nested.pdf>
@@ -3905,7 +3917,7 @@ Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 742.
 [40 <D:/disco_usuario/javier/upm/doctorado/tesis/texto_tesis_upm/texto_tutto/Fi
 gures/DINAMICA_Fig7_partial_extinct-eps-converted-to.pdf>]
-<Figures/DINAMICA_SAT_red_exper_resilience_weak.pdf, id=1370, 1024.82875pt x 40
+<Figures/DINAMICA_SAT_red_exper_resilience_weak.pdf, id=1381, 1024.82875pt x 40
 3.5075pt>
 File: Figures/DINAMICA_SAT_red_exper_resilience_weak.pdf Graphic file (type pdf
 )
@@ -3917,7 +3929,7 @@ d on input line 745.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<Figures/DINAMICA_SATU_weak.pdf, id=1374, 377.41pt x 451.6875pt>
+<Figures/DINAMICA_SATU_weak.pdf, id=1385, 377.41pt x 451.6875pt>
 File: Figures/DINAMICA_SATU_weak.pdf Graphic file (type pdf)
 
 <use Figures/DINAMICA_SATU_weak.pdf>
@@ -4219,7 +4231,7 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 19.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 19.
- <Figures/ESTATICA_redes_ejemplos.png, id=1512, 599.99156pt x 339.51843pt>
+ <Figures/ESTATICA_redes_ejemplos.png, id=1523, 599.99156pt x 339.51843pt>
 File: Figures/ESTATICA_redes_ejemplos.png Graphic file (type png)
 
 <use Figures/ESTATICA_redes_ejemplos.png>
@@ -4267,7 +4279,7 @@ Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 49.
  [55 <D:/disco_usuario/javier/upm/doctorado/tesis/texto_tesis_upm/texto_tutto/F
 igures/ESTATICA_redes_ejemplos.png>]
-<Figures/ESTATICA_nested_subsets.jpg, id=1551, 341.275pt x 280.04625pt>
+<Figures/ESTATICA_nested_subsets.jpg, id=1562, 341.275pt x 280.04625pt>
 File: Figures/ESTATICA_nested_subsets.jpg Graphic file (type jpg)
 
 <use Figures/ESTATICA_nested_subsets.jpg>
@@ -4364,7 +4376,7 @@ Package babel Info: Redefining spanish shorthand "!
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 107.
  [58]
-<Figures/ESTATICA_SD_030_example_network.pdf, id=1613, 845.1575pt x 597.23125pt
+<Figures/ESTATICA_SD_030_example_network.pdf, id=1624, 845.1575pt x 597.23125pt
 >
 File: Figures/ESTATICA_SD_030_example_network.pdf Graphic file (type pdf)
  <use Figures/ESTATICA_SD_030_example_network.pdf>
@@ -4393,7 +4405,7 @@ Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 130.
 [59 <D:/disco_usuario/javier/upm/doctorado/tesis/texto_tesis_upm/texto_tutto/Fi
 gures/ESTATICA_SD_030_example_network.pdf, page is rotated 90 degrees>]
-<Figures/ESTATICA_SD_030_example_distances.pdf, id=1638, 845.1575pt x 597.23125
+<Figures/ESTATICA_SD_030_example_distances.pdf, id=1649, 845.1575pt x 597.23125
 pt>
 File: Figures/ESTATICA_SD_030_example_distances.pdf Graphic file (type pdf)
  <use Figures/ESTATICA_SD_030_example_distances.pdf>
@@ -4516,7 +4528,7 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 230.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 230.
- [63] <Figures/ESTATICA_zALL.png, id=1715, 867.24pt x 285.2256pt>
+ [63] <Figures/ESTATICA_zALL.png, id=1726, 867.24pt x 285.2256pt>
 File: Figures/ESTATICA_zALL.png Graphic file (type png)
 
 <use Figures/ESTATICA_zALL.png>
@@ -4551,7 +4563,7 @@ Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 249.
  [64 <D:/disco_usuario/javier/upm/doctorado/tesis/texto_tesis_upm/texto_tutto/F
 igures/ESTATICA_zALL.png>]
-<Figures/ESTATICA_z_M_PL_012_rewire_Binary_ES_model_5.png, id=1730, 433.62pt x 
+<Figures/ESTATICA_z_M_PL_012_rewire_Binary_ES_model_5.png, id=1741, 433.62pt x 
 289.08pt>
 File: Figures/ESTATICA_z_M_PL_012_rewire_Binary_ES_model_5.png Graphic file (ty
 pe png)
@@ -4602,7 +4614,7 @@ Package babel Info: Redefining spanish shorthand "!
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 263.
 
-<Figures/ESTATICA_hist_kmagnitudes.png, id=1736, 867.24pt x 289.08pt>
+<Figures/ESTATICA_hist_kmagnitudes.png, id=1747, 867.24pt x 289.08pt>
 File: Figures/ESTATICA_hist_kmagnitudes.png Graphic file (type png)
 
 <use Figures/ESTATICA_hist_kmagnitudes.png>
@@ -4628,7 +4640,7 @@ Package babel Info: Redefining spanish shorthand "?
 
  <D:/disco_usuario/javier/upm/doctorado/tesis/texto_tesis_upm/texto_tutto/Figur
 es/ESTATICA_hist_kmagnitudes.png>]
-<Figures/ESTATICA_tamanyo_kdegree_kradius.png, id=1744, 794.97pt x 867.24pt>
+<Figures/ESTATICA_tamanyo_kdegree_kradius.png, id=1755, 794.97pt x 867.24pt>
 File: Figures/ESTATICA_tamanyo_kdegree_kradius.png Graphic file (type png)
 
 <use Figures/ESTATICA_tamanyo_kdegree_kradius.png>
@@ -4690,7 +4702,7 @@ Package babel Info: Redefining spanish shorthand "!
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 301.
 [68]
-<Figures/ESTATICA_ALL_plots_kdegree_degree_M_PL_001_ES.png, id=1758, 867.24pt x
+<Figures/ESTATICA_ALL_plots_kdegree_degree_M_PL_001_ES.png, id=1769, 867.24pt x
  578.16pt>
 File: Figures/ESTATICA_ALL_plots_kdegree_degree_M_PL_001_ES.png Graphic file (t
 ype png)
@@ -4732,7 +4744,7 @@ Package babel Info: Redefining spanish shorthand "?
 
 [69 <D:/disco_usuario/javier/upm/doctorado/tesis/texto_tesis_upm/texto_tutto/Fi
 gures/ESTATICA_ALL_plots_kdegree_degree_M_PL_001_ES.png>]
-<Figures/ESTATICA_correlation_figs.png, id=1767, 2110.88625pt x 852.18375pt>
+<Figures/ESTATICA_correlation_figs.png, id=1778, 2110.88625pt x 852.18375pt>
 File: Figures/ESTATICA_correlation_figs.png Graphic file (type png)
 
 <use Figures/ESTATICA_correlation_figs.png>
@@ -4756,7 +4768,7 @@ Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 347.
  [70 <D:/disco_usuario/javier/upm/doctorado/tesis/texto_tesis_upm/texto_tutto/F
 igures/ESTATICA_correlation_figs.png>] <Figures/ESTATICA_density_plots.png, id=
-1779, 433.62pt x 252.945pt>
+1790, 433.62pt x 252.945pt>
 File: Figures/ESTATICA_density_plots.png Graphic file (type png)
 
 <use Figures/ESTATICA_density_plots.png>
@@ -4810,7 +4822,7 @@ l-eps-converted-to.pdf Figures/ESTATICA_zscores_all.eps>
 (epstopdf)             \includegraphics on input line 369.
 Package epstopdf Info: Output file is already uptodate.
 
-<Figures/ESTATICA_zscores_all-eps-converted-to.pdf, id=1786, 1157.32375pt x 723
+<Figures/ESTATICA_zscores_all-eps-converted-to.pdf, id=1797, 1157.32375pt x 723
 .70375pt>
 File: Figures/ESTATICA_zscores_all-eps-converted-to.pdf Graphic file (type pdf)
 
@@ -4860,7 +4872,7 @@ _rewiring_ES-eps-converted-to.pdf Figures/ESTATICA_histo_corr_rewiring_ES.eps>
 (epstopdf)             \includegraphics on input line 385.
 Package epstopdf Info: Output file is already uptodate.
 
-<Figures/ESTATICA_histo_corr_rewiring_ES-eps-converted-to.pdf, id=1796, 1207.51
+<Figures/ESTATICA_histo_corr_rewiring_ES-eps-converted-to.pdf, id=1807, 1207.51
 125pt x 736.7525pt>
 File: Figures/ESTATICA_histo_corr_rewiring_ES-eps-converted-to.pdf Graphic file
  (type pdf)
@@ -4888,7 +4900,7 @@ Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 392.
  [73 <D:/disco_usuario/javier/upm/doctorado/tesis/texto_tesis_upm/texto_tutto/F
 igures/ESTATICA_histo_corr_rewiring_ES-eps-converted-to.pdf>]
-<Figures/ESTATITCA_asimetria_corr.png, id=1806, 578.16pt x 216.81pt>
+<Figures/ESTATITCA_asimetria_corr.png, id=1817, 578.16pt x 216.81pt>
 File: Figures/ESTATITCA_asimetria_corr.png Graphic file (type png)
 
 <use Figures/ESTATITCA_asimetria_corr.png>
@@ -4912,7 +4924,7 @@ Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 405.
  [74 <D:/disco_usuario/javier/upm/doctorado/tesis/texto_tesis_upm/texto_tutto/F
 igures/ESTATITCA_asimetria_corr.png>]
-<Figures/ESTATICA_zscores_networks_evolution.png, id=1814, 722.7pt x 522.2712pt
+<Figures/ESTATICA_zscores_networks_evolution.png, id=1825, 722.7pt x 522.2712pt
 >
 File: Figures/ESTATICA_zscores_networks_evolution.png Graphic file (type png)
  <use Figures/ESTATICA_zscores_networks_evolution.png>
@@ -5061,7 +5073,7 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 16.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 16.
- <Figures/VIS_SD_030_bipartita.png, id=1844, 587.19376pt x 392.46625pt>
+ <Figures/VIS_SD_030_bipartita.png, id=1855, 587.19376pt x 392.46625pt>
 File: Figures/VIS_SD_030_bipartita.png Graphic file (type png)
 
 <use Figures/VIS_SD_030_bipartita.png>
@@ -5069,7 +5081,7 @@ Package pdftex.def Info: Figures/VIS_SD_030_bipartita.png used on input line 24
 .
 (pdftex.def)             Requested size: 193.77454pt x 129.51425pt.
 
-<Figures/VIS_bipartito_SD_020.png, id=1849, 1052.43187pt x 275.52937pt>
+<Figures/VIS_bipartito_SD_020.png, id=1860, 1052.43187pt x 275.52937pt>
 File: Figures/VIS_bipartito_SD_020.png Graphic file (type png)
 
 <use Figures/VIS_bipartito_SD_020.png>
@@ -5094,14 +5106,14 @@ Package babel Info: Redefining spanish shorthand "?
  [80 <D:/disco_usuario/javier/upm/doctorado/tesis/texto_tesis_upm/texto_tutto/F
 igures/VIS_SD_030_bipartita.png> <D:/disco_usuario/javier/upm/doctorado/tesis/t
 exto_tesis_upm/texto_tutto/Figures/VIS_bipartito_SD_020.png>]
-<Figures/VIS_matrix_SD_001.png, id=1857, 2902.845pt x 1656.1875pt>
+<Figures/VIS_matrix_SD_001.png, id=1868, 2902.845pt x 1656.1875pt>
 File: Figures/VIS_matrix_SD_001.png Graphic file (type png)
 
 <use Figures/VIS_matrix_SD_001.png>
 Package pdftex.def Info: Figures/VIS_matrix_SD_001.png used on input line 44.
 (pdftex.def)             Requested size: 406.39554pt x 231.86467pt.
 
-<Figures/VIS_M_PL_017_matrix.png, id=1861, 963.6pt x 578.16pt>
+<Figures/VIS_M_PL_017_matrix.png, id=1872, 963.6pt x 578.16pt>
 File: Figures/VIS_M_PL_017_matrix.png Graphic file (type png)
 
 <use Figures/VIS_M_PL_017_matrix.png>
@@ -5109,7 +5121,7 @@ Package pdftex.def Info: Figures/VIS_M_PL_017_matrix.png used on input line 53.
 
 (pdftex.def)             Requested size: 433.616pt x 260.16959pt.
 
-<Figures/VIS_grafos_weboflife.png, id=1868, 575.90157pt x 267.24844pt>
+<Figures/VIS_grafos_weboflife.png, id=1879, 575.90157pt x 267.24844pt>
 File: Figures/VIS_grafos_weboflife.png Graphic file (type png)
 
 <use Figures/VIS_grafos_weboflife.png>
@@ -5176,7 +5188,7 @@ Package babel Info: Redefining spanish shorthand "!
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 74.
 
-<Figures/VIS_fingerprint_plot.png, id=1884, 697.10437pt x 533.74406pt>
+<Figures/VIS_fingerprint_plot.png, id=1895, 697.10437pt x 533.74406pt>
 File: Figures/VIS_fingerprint_plot.png Graphic file (type png)
 
 <use Figures/VIS_fingerprint_plot.png>
@@ -5184,7 +5196,7 @@ Package pdftex.def Info: Figures/VIS_fingerprint_plot.png used on input line 80
 .
 (pdftex.def)             Requested size: 348.55133pt x 266.87137pt.
 
-<Figures/VIS_taksim.png, id=1890, 541.5432pt x 425.9112pt>
+<Figures/VIS_taksim.png, id=1901, 541.5432pt x 425.9112pt>
 File: Figures/VIS_taksim.png Graphic file (type png)
 
 <use Figures/VIS_taksim.png>
@@ -5213,7 +5225,7 @@ Package babel Info: Redefining spanish shorthand "?
 
  <D:/disco_usuario/javier/upm/doctorado/tesis/texto_tesis_upm/texto_tutto/Figur
 es/VIS_fingerprint_plot.png>]
-<Figures/VIS_M_PL_034_polar.png, id=1898, 867.24pt x 867.24pt>
+<Figures/VIS_M_PL_034_polar.png, id=1909, 867.24pt x 867.24pt>
 File: Figures/VIS_M_PL_034_polar.png Graphic file (type png)
 
 <use Figures/VIS_M_PL_034_polar.png>
@@ -5241,7 +5253,7 @@ Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 109.
 [84 <D:/disco_usuario/javier/upm/doctorado/tesis/texto_tesis_upm/texto_tutto/Fi
 gures/VIS_taksim.png>]
-<Figures/VIS_Modvskdegree3.PDF, id=1912, 592.2125pt x 638.385pt>
+<Figures/VIS_Modvskdegree3.PDF, id=1923, 592.2125pt x 638.385pt>
 File: Figures/VIS_Modvskdegree3.PDF Graphic file (type pdf)
 
 <use Figures/VIS_Modvskdegree3.PDF>
@@ -5302,7 +5314,7 @@ Package babel Info: Redefining spanish shorthand "!
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 124.
 
-<Figures/VIS_explicacion_zigurat.png, id=1928, 1049.42062pt x 734.745pt>
+<Figures/VIS_explicacion_zigurat.png, id=1939, 1049.42062pt x 734.745pt>
 File: Figures/VIS_explicacion_zigurat.png Graphic file (type png)
 
 <use Figures/VIS_explicacion_zigurat.png>
@@ -5321,7 +5333,7 @@ converted-to.pdf Figures/VIS_ALL_SD_004.eps>
 (epstopdf)             \includegraphics on input line 143.
 Package epstopdf Info: Output file is already uptodate.
 
-<Figures/VIS_ALL_SD_004-eps-converted-to.pdf, id=1929, 968.61874pt x 1040.88875
+<Figures/VIS_ALL_SD_004-eps-converted-to.pdf, id=1940, 968.61874pt x 1040.88875
 pt>
 File: Figures/VIS_ALL_SD_004-eps-converted-to.pdf Graphic file (type pdf)
  <use Figures/VIS_ALL_SD_004-eps-converted-to.pdf>
@@ -5369,7 +5381,7 @@ Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 151.
  [88 <D:/disco_usuario/javier/upm/doctorado/tesis/texto_tesis_upm/texto_tutto/F
 igures/VIS_ALL_SD_004-eps-converted-to.pdf>] <Figures/VIS_M_PL_024_ziggurat.png
-, id=1946, 930.1149pt x 587.0733pt>
+, id=1957, 930.1149pt x 587.0733pt>
 File: Figures/VIS_M_PL_024_ziggurat.png Graphic file (type png)
 
 <use Figures/VIS_M_PL_024_ziggurat.png>
@@ -5393,7 +5405,7 @@ Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 167.
  [89 <D:/disco_usuario/javier/upm/doctorado/tesis/texto_tesis_upm/texto_tutto/F
 igures/VIS_M_PL_024_ziggurat.png>]
-<Figures/VIS_M_PL_031_ziggurat.png, id=1956, 450.9648pt x 388.3308pt>
+<Figures/VIS_M_PL_031_ziggurat.png, id=1967, 450.9648pt x 388.3308pt>
 File: Figures/VIS_M_PL_031_ziggurat.png Graphic file (type png)
 
 <use Figures/VIS_M_PL_031_ziggurat.png>
@@ -5422,7 +5434,7 @@ Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 176.
 [90 <D:/disco_usuario/javier/upm/doctorado/tesis/texto_tesis_upm/texto_tutto/Fi
 gures/VIS_M_PL_031_ziggurat.png>]
-<Figures/VIS_M_PL_031_polar.png, id=1966, 867.24pt x 282.3348pt>
+<Figures/VIS_M_PL_031_polar.png, id=1977, 867.24pt x 282.3348pt>
 File: Figures/VIS_M_PL_031_polar.png Graphic file (type png)
 
 <use Figures/VIS_M_PL_031_polar.png>
@@ -5446,7 +5458,7 @@ Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 190.
  [91 <D:/disco_usuario/javier/upm/doctorado/tesis/texto_tesis_upm/texto_tutto/F
 igures/VIS_M_PL_031_polar.png>]
-<Figures/VIS_M_PL_010_ziggurat.png, id=1982, 837.3684pt x 794.97pt>
+<Figures/VIS_M_PL_010_ziggurat.png, id=1993, 837.3684pt x 794.97pt>
 File: Figures/VIS_M_PL_010_ziggurat.png Graphic file (type png)
 
 <use Figures/VIS_M_PL_010_ziggurat.png>
@@ -5470,7 +5482,7 @@ Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 200.
  [92 <D:/disco_usuario/javier/upm/doctorado/tesis/texto_tesis_upm/texto_tutto/F
 igures/VIS_M_PL_010_ziggurat.png>]
-<Figures/VIS_M_SD_016_ziggurat.png, id=1990, 2366.8425pt x 2890.8pt>
+<Figures/VIS_M_SD_016_ziggurat.png, id=2001, 2366.8425pt x 2890.8pt>
 File: Figures/VIS_M_SD_016_ziggurat.png Graphic file (type png)
 
 <use Figures/VIS_M_SD_016_ziggurat.png>
@@ -5501,7 +5513,7 @@ Package babel Info: Redefining spanish shorthand "?
 
  <D:/disco_usuario/javier/upm/doctorado/tesis/texto_tesis_upm/texto_tutto/Figur
 es/VIS_M_SD_016_ziggurat.png>]
-<Figures/VIS_M_PL_047_ziggurat.png, id=1998, 2276.505pt x 3017.2725pt>
+<Figures/VIS_M_PL_047_ziggurat.png, id=2009, 2276.505pt x 3017.2725pt>
 File: Figures/VIS_M_PL_047_ziggurat.png Graphic file (type png)
 
 <use Figures/VIS_M_PL_047_ziggurat.png>
@@ -5545,7 +5557,7 @@ Package babel Info: Redefining spanish shorthand "!
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 218.
 
-<Figures/VIS_M_PL_059_ziggurat.png, id=2008, 1011.78pt x 794.97pt>
+<Figures/VIS_M_PL_059_ziggurat.png, id=2019, 1011.78pt x 794.97pt>
 File: Figures/VIS_M_PL_059_ziggurat.png Graphic file (type png)
 
 <use Figures/VIS_M_PL_059_ziggurat.png>
@@ -5571,7 +5583,7 @@ Package babel Info: Redefining spanish shorthand "?
 
  <D:/disco_usuario/javier/upm/doctorado/tesis/texto_tesis_upm/texto_tutto/Figur
 es/VIS_M_PL_059_ziggurat.png (PNG copy)>] <Figures/VIS_M_PL_022_ziggurat.png, i
-d=2018, 773.0481pt x 756.6669pt>
+d=2029, 773.0481pt x 756.6669pt>
 File: Figures/VIS_M_PL_022_ziggurat.png Graphic file (type png)
 
 <use Figures/VIS_M_PL_022_ziggurat.png>
@@ -5613,7 +5625,7 @@ Package babel Info: Redefining spanish shorthand "?
 
 [97
 
-] <Figures/VIS_PL_012.pdf, id=2036, 542.025pt x 722.7pt>
+] <Figures/VIS_PL_012.pdf, id=2047, 542.025pt x 722.7pt>
 File: Figures/VIS_PL_012.pdf Graphic file (type pdf)
 
 <use Figures/VIS_PL_012.pdf>
@@ -5636,7 +5648,7 @@ Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 270.
  [98 <D:/disco_usuario/javier/upm/doctorado/tesis/texto_tesis_upm/texto_tutto/F
 igures/VIS_PL_012.pdf>]
-<Figures/VIS_SD_007.pdf, id=2051, 542.025pt x 722.7pt>
+<Figures/VIS_SD_007.pdf, id=2062, 542.025pt x 722.7pt>
 File: Figures/VIS_SD_007.pdf Graphic file (type pdf)
 
 <use Figures/VIS_SD_007.pdf>
@@ -5662,7 +5674,7 @@ Package babel Info: Redefining spanish shorthand "?
 
  <D:/disco_usuario/javier/upm/doctorado/tesis/texto_tesis_upm/texto_tutto/Figur
 es/VIS_SD_007.pdf>]
-<Figures/VIS_M_SD_004_pol3_pol4_ziggurat.png, id=2066, 884.8257pt x 699.8145pt>
+<Figures/VIS_M_SD_004_pol3_pol4_ziggurat.png, id=2077, 884.8257pt x 699.8145pt>
 File: Figures/VIS_M_SD_004_pol3_pol4_ziggurat.png Graphic file (type png)
 <use Figures/VIS_M_SD_004_pol3_pol4_ziggurat.png>
 Package pdftex.def Info: Figures/VIS_M_SD_004_pol3_pol4_ziggurat.png used on in
@@ -5692,7 +5704,7 @@ Package babel Info: Redefining spanish shorthand "?
 
  <D:/disco_usuario/javier/upm/doctorado/tesis/texto_tesis_upm/texto_tutto/Figur
 es/VIS_M_SD_004_pol3_pol4_ziggurat.png>]
-<Figures/VIS_M_SD_004_minus_k4_ziggurat.png, id=2074, 902.1705pt x 663.1977pt>
+<Figures/VIS_M_SD_004_minus_k4_ziggurat.png, id=2085, 902.1705pt x 663.1977pt>
 File: Figures/VIS_M_SD_004_minus_k4_ziggurat.png Graphic file (type png)
 
 <use Figures/VIS_M_SD_004_minus_k4_ziggurat.png>
@@ -5700,7 +5712,7 @@ Package pdftex.def Info: Figures/VIS_M_SD_004_minus_k4_ziggurat.png used on inp
 ut line 293.
 (pdftex.def)             Requested size: 297.71718pt x 218.85591pt.
 
-<Figures/VIS_M_SD_018_ziggurat.png, id=2077, 717.1593pt x 661.2705pt>
+<Figures/VIS_M_SD_018_ziggurat.png, id=2088, 717.1593pt x 661.2705pt>
 File: Figures/VIS_M_SD_018_ziggurat.png Graphic file (type png)
 
 <use Figures/VIS_M_SD_018_ziggurat.png>
@@ -5727,7 +5739,7 @@ Package babel Info: Redefining spanish shorthand "?
  <D:/disco_usuario/javier/upm/doctorado/tesis/texto_tesis_upm/texto_tutto/Figur
 es/VIS_M_SD_004_minus_k4_ziggurat.png> <D:/disco_usuario/javier/upm/doctorado/t
 esis/texto_tesis_upm/texto_tutto/Figures/VIS_M_SD_018_ziggurat.png>]
-<Figures/VIS_Modvskdegree3-sd04.pdf, id=2089, 1849.63017pt x 1992.00215pt>
+<Figures/VIS_Modvskdegree3-sd04.pdf, id=2100, 1849.63017pt x 1992.00215pt>
 File: Figures/VIS_Modvskdegree3-sd04.pdf Graphic file (type pdf)
 
 <use Figures/VIS_Modvskdegree3-sd04.pdf>
@@ -5751,7 +5763,7 @@ Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 316.
  [102 <D:/disco_usuario/javier/upm/doctorado/tesis/texto_tesis_upm/texto_tutto/
 Figures/VIS_Modvskdegree3-sd04.pdf>]
-<Figures/VIS_M_SD_004_minus_k3k2_ziggurat.png, id=2105, 873.0216pt x 1312.4232p
+<Figures/VIS_M_SD_004_minus_k3k2_ziggurat.png, id=2116, 873.0216pt x 1312.4232p
 t>
 File: Figures/VIS_M_SD_004_minus_k3k2_ziggurat.png Graphic file (type png)
  <use Figures/VIS_M_SD_004_minus_k3k2_ziggurat.png>
@@ -5963,7 +5975,7 @@ Package babel Info: Redefining spanish shorthand "!
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 48.
  [109]
-<Figures/RES_M_SD_028_ziggurat.png, id=2171, 598.6365pt x 756.6669pt>
+<Figures/RES_M_SD_028_ziggurat.png, id=2182, 598.6365pt x 756.6669pt>
 File: Figures/RES_M_SD_028_ziggurat.png Graphic file (type png)
 
 <use Figures/RES_M_SD_028_ziggurat.png>
@@ -6004,7 +6016,7 @@ Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 119.
 
 [111]
-<Figures/DEST_M_PL_001_MRdunne_extinction_plot.png, id=2190, 289.08pt x 289.08p
+<Figures/DEST_M_PL_001_MRdunne_extinction_plot.png, id=2201, 289.08pt x 289.08p
 t>
 File: Figures/DEST_M_PL_001_MRdunne_extinction_plot.png Graphic file (type png)
 
@@ -6055,7 +6067,7 @@ uction.eps>
 (epstopdf)             \includegraphics on input line 136.
 Package epstopdf Info: Output file is already uptodate.
 
-<Figures/DEST_M_PL_012_ziggurat_hf_destruction-eps-converted-to.pdf, id=2199, 1
+<Figures/DEST_M_PL_012_ziggurat_hf_destruction-eps-converted-to.pdf, id=2210, 1
 714.405pt x 763.85374pt>
 File: Figures/DEST_M_PL_012_ziggurat_hf_destruction-eps-converted-to.pdf Graphi
 c file (type pdf)
@@ -6082,7 +6094,7 @@ Package babel Info: Redefining spanish shorthand "?
 
 [113 <D:/disco_usuario/javier/upm/doctorado/tesis/texto_tesis_upm/texto_tutto/F
 igures/DEST_M_PL_012_ziggurat_hf_destruction-eps-converted-to.pdf>]
-<Figures/DEST_krisk_kdegree_comparison_ES.png, id=2210, 867.24pt x 867.24pt>
+<Figures/DEST_krisk_kdegree_comparison_ES.png, id=2221, 867.24pt x 867.24pt>
 File: Figures/DEST_krisk_kdegree_comparison_ES.png Graphic file (type png)
 
 <use Figures/DEST_krisk_kdegree_comparison_ES.png>
@@ -6113,7 +6125,7 @@ Package babel Info: Redefining spanish shorthand "?
 
  <D:/disco_usuario/javier/upm/doctorado/tesis/texto_tesis_upm/texto_tutto/Figur
 es/DEST_krisk_kdegree_comparison_ES.png>]
-<Figures/DEST_M_PL_044_juanmamethod_extinction_plot.png, id=2218, 578.16pt x 57
+<Figures/DEST_M_PL_044_juanmamethod_extinction_plot.png, id=2229, 578.16pt x 57
 8.16pt>
 File: Figures/DEST_M_PL_044_juanmamethod_extinction_plot.png Graphic file (type
  png)
@@ -6138,7 +6150,7 @@ Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 169.
  [115 <D:/disco_usuario/javier/upm/doctorado/tesis/texto_tesis_upm/texto_tutto/
 Figures/DEST_M_PL_044_juanmamethod_extinction_plot.png>]
-<Figures/DEST_M_PL_007_ziggurat.png, id=2227, 921.2016pt x 641.7576pt>
+<Figures/DEST_M_PL_007_ziggurat.png, id=2238, 921.2016pt x 641.7576pt>
 File: Figures/DEST_M_PL_007_ziggurat.png Graphic file (type png)
 
 <use Figures/DEST_M_PL_007_ziggurat.png>
@@ -6162,7 +6174,7 @@ Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 185.
  [116 <D:/disco_usuario/javier/upm/doctorado/tesis/texto_tesis_upm/texto_tutto/
 Figures/DEST_M_PL_007_ziggurat.png>]
-<Figures/DEST_destruccion_PL007.png, id=2237, 1680.5184pt x 794.0064pt>
+<Figures/DEST_destruccion_PL007.png, id=2248, 1680.5184pt x 794.0064pt>
 File: Figures/DEST_destruccion_PL007.png Graphic file (type png)
 
 <use Figures/DEST_destruccion_PL007.png>
@@ -6441,7 +6453,7 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 25.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 25.
- <ManFigs/matricessim.png, id=2299, 349.7868pt x 303.534pt>
+ <ManFigs/matricessim.png, id=2310, 349.7868pt x 303.534pt>
 File: ManFigs/matricessim.png Graphic file (type png)
 
 <use ManFigs/matricessim.png>
@@ -6483,7 +6495,7 @@ nux \T1/pbk/l/n/10.95 se pue-de lan-zar con el co-man-do \T1/pcr/m/n/10.95 sigm
 und_tool.py\T1/pbk/l/n/10.95 . 
  []
 
-<ManFigs/sigmund_ui.png, id=2307, 403.94623pt x 323.53987pt>
+<ManFigs/sigmund_ui.png, id=2318, 403.94623pt x 323.53987pt>
 File: ManFigs/sigmund_ui.png Graphic file (type png)
 
 <use ManFigs/sigmund_ui.png>
@@ -6544,7 +6556,7 @@ Package babel Info: Redefining spanish shorthand "!
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 119.
 
-<ManFigs/sigmund_tiempos.png, id=2318, 330.2739pt x 206.4513pt>
+<ManFigs/sigmund_tiempos.png, id=2329, 330.2739pt x 206.4513pt>
 File: ManFigs/sigmund_tiempos.png Graphic file (type png)
 
 <use ManFigs/sigmund_tiempos.png>
@@ -6567,7 +6579,7 @@ Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 133.
  [129 <D:/disco_usuario/javier/upm/doctorado/tesis/texto_tesis_upm/texto_tutto/
 ManFigs/sigmund_tiempos.png (PNG copy)>]
-<ManFigs/sigmund_pendiente.png, id=2324, 342.5598pt x 219.98988pt>
+<ManFigs/sigmund_pendiente.png, id=2335, 342.5598pt x 219.98988pt>
 File: ManFigs/sigmund_pendiente.png Graphic file (type png)
 
 <use ManFigs/sigmund_pendiente.png>
@@ -6590,7 +6602,7 @@ Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 153.
  [130 <D:/disco_usuario/javier/upm/doctorado/tesis/texto_tesis_upm/texto_tutto/
 ManFigs/sigmund_pendiente.png (PNG copy)>]
-<ManFigs/sigmund_oscilacion_diag_red.png, id=2331, 425.9317pt x 210.0443pt>
+<ManFigs/sigmund_oscilacion_diag_red.png, id=2342, 425.9317pt x 210.0443pt>
 File: ManFigs/sigmund_oscilacion_diag_red.png Graphic file (type png)
 
 <use ManFigs/sigmund_oscilacion_diag_red.png>
@@ -6598,14 +6610,14 @@ Package pdftex.def Info: ManFigs/sigmund_oscilacion_diag_red.png used on input
 line 156.
 (pdftex.def)             Requested size: 425.93065pt x 210.04378pt.
 
-<ManFigs/sigmund_red_exper.png, id=2335, 396.90685pt x 172.29169pt>
+<ManFigs/sigmund_red_exper.png, id=2346, 396.90685pt x 172.29169pt>
 File: ManFigs/sigmund_red_exper.png Graphic file (type png)
 
 <use ManFigs/sigmund_red_exper.png>
 Package pdftex.def Info: ManFigs/sigmund_red_exper.png used on input line 165.
 (pdftex.def)             Requested size: 396.90587pt x 172.29126pt.
 
-<ManFigs/sigmund_oscilacion_intensidad.png, id=2336, 391.12524pt x 210.16116pt>
+<ManFigs/sigmund_oscilacion_intensidad.png, id=2347, 391.12524pt x 210.16116pt>
 File: ManFigs/sigmund_oscilacion_intensidad.png Graphic file (type png)
 <use ManFigs/sigmund_oscilacion_intensidad.png>
 Package pdftex.def Info: ManFigs/sigmund_oscilacion_intensidad.png used on inpu
@@ -6633,7 +6645,7 @@ Package babel Info: Redefining spanish shorthand "?
 [131 <D:/disco_usuario/javier/upm/doctorado/tesis/texto_tesis_upm/texto_tutto/M
 anFigs/sigmund_oscilacion_diag_red.png> <D:/disco_usuario/javier/upm/doctorado/
 tesis/texto_tesis_upm/texto_tutto/ManFigs/sigmund_red_exper.png>]
-<ManFigs/sigmund_oscilacion_tiempo_none.png, id=2345, 377.2494pt x 226.9278pt>
+<ManFigs/sigmund_oscilacion_tiempo_none.png, id=2356, 377.2494pt x 226.9278pt>
 File: ManFigs/sigmund_oscilacion_tiempo_none.png Graphic file (type png)
 
 <use ManFigs/sigmund_oscilacion_tiempo_none.png>
@@ -6659,7 +6671,7 @@ Package babel Info: Redefining spanish shorthand "?
 ManFigs/sigmund_oscilacion_intensidad.png (PNG copy)> <D:/disco_usuario/javier/
 upm/doctorado/tesis/texto_tesis_upm/texto_tutto/ManFigs/sigmund_oscilacion_tiem
 po_none.png (PNG copy)>]
-<ManFigs/sigmund_oscilacion_tiempo_sin.png, id=2351, 380.1402pt x 227.50597pt>
+<ManFigs/sigmund_oscilacion_tiempo_sin.png, id=2362, 380.1402pt x 227.50597pt>
 File: ManFigs/sigmund_oscilacion_tiempo_sin.png Graphic file (type png)
 
 <use ManFigs/sigmund_oscilacion_tiempo_sin.png>
@@ -6667,7 +6679,7 @@ Package pdftex.def Info: ManFigs/sigmund_oscilacion_tiempo_sin.png used on inpu
 t line 193.
 (pdftex.def)             Requested size: 380.13925pt x 227.5054pt.
 
-<ManFigs/sigmund_95.png, id=2352, 353.54485pt x 201.77785pt>
+<ManFigs/sigmund_95.png, id=2363, 353.54485pt x 201.77785pt>
 File: ManFigs/sigmund_95.png Graphic file (type png)
 
 <use ManFigs/sigmund_95.png>
@@ -6867,7 +6879,7 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 16.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 16.
- <ManFigs/SD_029_csv.png, id=2378, 472.01344pt x 101.62968pt>
+ <ManFigs/SD_029_csv.png, id=2389, 472.01344pt x 101.62968pt>
 File: ManFigs/SD_029_csv.png Graphic file (type png)
 
 <use ManFigs/SD_029_csv.png>
@@ -6936,7 +6948,7 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 121.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 121.
-[139] <ManFigs/M_PL_034_polar.png, id=2390, 867.24pt x 867.24pt>
+[139] <ManFigs/M_PL_034_polar.png, id=2401, 867.24pt x 867.24pt>
 File: ManFigs/M_PL_034_polar.png Graphic file (type png)
 
 <use ManFigs/M_PL_034_polar.png>
@@ -6959,7 +6971,7 @@ Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 138.
  [140 <D:/disco_usuario/javier/upm/doctorado/tesis/texto_tesis_upm/texto_tutto/
 ManFigs/M_PL_034_polar.png>]
-<ManFigs/polar_params.pdf, id=2399, 542.025pt x 722.7pt>
+<ManFigs/polar_params.pdf, id=2410, 542.025pt x 722.7pt>
 File: ManFigs/polar_params.pdf Graphic file (type pdf)
 
 <use ManFigs/polar_params.pdf>
@@ -7014,7 +7026,7 @@ Package babel Info: Redefining spanish shorthand "?
  [142
 
 ]
-<ManFigs/M_SD_004_ziggurat_improved.pdf, id=2421, 542.025pt x 722.7pt>
+<ManFigs/M_SD_004_ziggurat_improved.pdf, id=2432, 542.025pt x 722.7pt>
 File: ManFigs/M_SD_004_ziggurat_improved.pdf Graphic file (type pdf)
 
 <use ManFigs/M_SD_004_ziggurat_improved.pdf>
@@ -7039,7 +7051,7 @@ Package babel Info: Redefining spanish shorthand "?
  [143
 
  <D:/disco_usuario/javier/upm/doctorado/tesis/texto_tesis_upm/texto_tutto/ManFi
-gs/M_SD_004_ziggurat_improved.pdf>] <ManFigs/M_PL_012_ziggurat.png, id=2445, 91
+gs/M_SD_004_ziggurat_improved.pdf>] <ManFigs/M_PL_012_ziggurat.png, id=2456, 91
 9.5153pt x 790.3929pt>
 File: ManFigs/M_PL_012_ziggurat.png Graphic file (type png)
 
@@ -7065,7 +7077,7 @@ Package babel Info: Redefining spanish shorthand "?
 
  <D:/disco_usuario/javier/upm/doctorado/tesis/texto_tesis_upm/texto_tutto/ManFi
 gs/M_PL_012_ziggurat.png>]
-<ManFigs/M_PL_012_ziggurat_improved.pdf, id=2451, 542.025pt x 722.7pt>
+<ManFigs/M_PL_012_ziggurat_improved.pdf, id=2462, 542.025pt x 722.7pt>
 File: ManFigs/M_PL_012_ziggurat_improved.pdf Graphic file (type pdf)
 
 <use ManFigs/M_PL_012_ziggurat_improved.pdf>
@@ -7108,7 +7120,7 @@ Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 274.
  [146
 
-] <ManFigs/M_PL_031_ziggurat.png, id=2470, 817.1328pt x 794.0064pt>
+] <ManFigs/M_PL_031_ziggurat.png, id=2481, 817.1328pt x 794.0064pt>
 File: ManFigs/M_PL_031_ziggurat.png Graphic file (type png)
 
 <use ManFigs/M_PL_031_ziggurat.png>
@@ -7138,7 +7150,7 @@ Package babel Info: Redefining spanish shorthand "?
 
  <D:/disco_usuario/javier/upm/doctorado/tesis/texto_tesis_upm/texto_tutto/ManFi
 gs/M_PL_031_ziggurat.png>]
-<ManFigs/M_PL_031_ziggurat_improved.pdf, id=2478, 542.025pt x 722.7pt>
+<ManFigs/M_PL_031_ziggurat_improved.pdf, id=2489, 542.025pt x 722.7pt>
 File: ManFigs/M_PL_031_ziggurat_improved.pdf Graphic file (type pdf)
 
 <use ManFigs/M_PL_031_ziggurat_improved.pdf>
@@ -7163,7 +7175,7 @@ Package babel Info: Redefining spanish shorthand "?
  [148
 
  <D:/disco_usuario/javier/upm/doctorado/tesis/texto_tesis_upm/texto_tutto/ManFi
-gs/M_PL_031_ziggurat_improved.pdf>] <ManFigs/M_SD_025_ziggurat.png, id=2510, 88
+gs/M_PL_031_ziggurat_improved.pdf>] <ManFigs/M_SD_025_ziggurat.png, id=2521, 88
 2.8985pt x 794.2473pt>
 File: ManFigs/M_SD_025_ziggurat.png Graphic file (type png)
 
@@ -7295,9 +7307,6 @@ Package babel Info: Redefining spanish shorthand "?
  [153
 
 ]
-LaTeX Info: Redefining \sptext on input line 375.
-LaTeX Info: Redefining \. on input line 375.
-LaTeX Info: Redefining \% on input line 375.
 Package babel Info: Redefining spanish shorthand <<
 (babel)             in language  on input line 375.
 Package babel Info: Redefining spanish shorthand >>
@@ -7310,34 +7319,34 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 375.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 375.
- [154]
-Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 375.
-Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 375.
-Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 375.
-Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 375.
-Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 375.
-Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 375.
-Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 375.
-Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 375.
-Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 375.
-Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 375.
-Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 375.
-Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 375.
- [155
+ [154
 
 ]
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 375.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 375.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 375.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 375.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 375.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 375.
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 375.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 375.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 375.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 375.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 375.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 375.
+ [155]
 Overfull \hbox (11.53839pt too wide) in paragraph at lines 375--375
 \T1/pbk/l/n/10 com-pe-ti-tion and in-crea-ses bio-di-ver-sity''. En: \T1/pbk/l/
 it/10 Na-tu-re \T1/pbk/l/n/10 458 (2009), págs. 1018[]20. 
@@ -7603,7 +7612,7 @@ LaTeX Info: Redefining \% on input line 31.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 381.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 381.
 Package rerunfilecheck Info: File `tesis_JGA_mutualismo.out' has not changed.
-(rerunfilecheck)             Checksum: 14E6550D09DD8D1947EE25DF27675F82;14665.
+(rerunfilecheck)             Checksum: 2186D1058329100318899ACA2DE5DA0B;14839.
 
 
 LaTeX Font Warning: Size substitutions with differences
@@ -7618,10 +7627,10 @@ LaTeX Warning: There were multiply-defined labels.
 Package logreq Info: Writing requests to 'tesis_JGA_mutualismo.run.xml'.
  ) 
 Here is how much of TeX's memory you used:
- 43754 strings out of 493921
- 829002 string characters out of 3147276
+ 43756 strings out of 493921
+ 829025 string characters out of 3147276
  1149240 words of memory out of 3000000
- 45500 multiletter control sequences out of 15000+200000
+ 45501 multiletter control sequences out of 15000+200000
  195790 words of font info for 444 fonts, out of 3000000 for 9000
  842 hyphenation exceptions out of 8191
  80i,17n,89p,10492b,2679s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -7645,9 +7654,9 @@ a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/bookman/ubkli8a.pfb><C:/Prog
 ram Files/MiKTeX 2.9/fonts/type1/urw/courier/ucrr8a.pfb><C:/Program Files/MiKTe
 X 2.9/fonts/type1/urw/palatino/uplb8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/ty
 pe1/urw/palatino/uplr8a.pfb>
-Output written on tesis_JGA_mutualismo.pdf (183 pages, 26270822 bytes).
+Output written on tesis_JGA_mutualismo.pdf (183 pages, 26272118 bytes).
 PDF statistics:
- 2793 PDF objects out of 2984 (max. 8388607)
- 630 named destinations out of 1000 (max. 500000)
- 1050 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 2800 PDF objects out of 2984 (max. 8388607)
+ 631 named destinations out of 1000 (max. 500000)
+ 1058 words of extra memory for PDF output out of 10000 (max. 10000000)
 
