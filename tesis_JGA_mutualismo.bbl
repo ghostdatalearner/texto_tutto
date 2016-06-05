@@ -2651,6 +2651,50 @@
   \field{year}{1989}
 \endentry
 
+\entry{lane2014visualization}{article}{}
+  \name{author}{5}{}{%
+    {{}%
+     {Lane}{L.}%
+     {Peter~W}{P.~W.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Lindenmayer}{L.}%
+     {David~B}{D.~B.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Barton}{B.}%
+     {Philip~S}{P.~S.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Blanchard}{B.}%
+     {Wade}{W.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Westgate}{W.}%
+     {Martin~J}{M.~J.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Wiley Online Library}%
+  }
+  \strng{namehash}{LPW+1}
+  \strng{fullhash}{LPWLDBBPSBWWMJ1}
+  \field{labelalpha}{Lan+14}
+  \field{sortinit}{L}
+  \field{number}{16}
+  \field{pages}{3279\bibrangedash 3289}
+  \field{title}{Visualization of species pairwise associations: a case study of
+  surrogacy in bird assemblages}
+  \field{volume}{4}
+  \field{journaltitle}{Ecology and evolution}
+  \field{year}{2014}
+\endentry
+
 \entry{lever2014sudden}{article}{}
   \name{author}{4}{}{%
     {{}%

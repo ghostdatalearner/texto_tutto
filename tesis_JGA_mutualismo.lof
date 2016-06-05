@@ -68,33 +68,33 @@
 \contentsline {figure}{\numberline {4.25}{\ignorespaces Diagramas polares de la red $M\_SD\_004$ intacta, tras eliminar los dos polinizadores de mayor $k_{degree}$ y tras suprimir la $4$-$shell$ de polinizadores completa.\relax }}{102}{figure.caption.203}
 \contentsline {figure}{\numberline {4.26}{\ignorespaces Red de frug\IeC {\'\i }voros $M\_SD\_004$, en la que se han eliminado todos los polinizadores de la $3$-$shell$ ($NODF = 36,24$, $\overline k_{radius} = 2,17$) y la $2$-$shell$ ($NODF = 33,055$, $\overline k_{radius} = 2,15$), v\IeC {\'e}ase la figura \ref {fig:ziggurat}.\relax }}{103}{figure.caption.204}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {5.1}{\ignorespaces Diagrama zigurat de una de dispersores en la Ca\IeC {\~n}ada Travina, Sierra de Cazorla. Compilada por Pedro Jordano, no publicada.\relax }}{110}{figure.caption.210}
-\contentsline {figure}{\numberline {5.2}{\ignorespaces Curva de destrucci\IeC {\'o}n de la red de polinizadores $001$ ordenada por $MusRank$ y midiendo la fracci\IeC {\'o}n de plantas sobreviviente. El \IeC {\'a}rea bajo la curva es 0.312 (tabla \ref {table:dunne_destruction}).\relax }}{112}{figure.caption.216}
-\contentsline {figure}{\numberline {5.3}{\ignorespaces Destrucci\IeC {\'o}n de la componente gigante de la red de polinizadores n\IeC {\'u}mero $012$ (Olesen, unpublished), ordenando por $k_{risk}$. A la izquierda, la red original con $84$ especies. A la derecha, la componente gigante que queda tras retirar las $7$ especies m\IeC {\'a}s importantes, siguiendo esta secuencia: $planta1$, $planta2$, $polinizador2$, $polinizador1$, $planta3$, $planta6$ y $planta5$.\relax }}{113}{figure.caption.218}
-\contentsline {figure}{\numberline {5.4}{\ignorespaces Comparaci\IeC {\'o}n del rendimiento de los dos criterios m\IeC {\'a}s destructivos de la mitad de la componente gigante, $k_{risk}$ y $degree$ (arriba) y comportamiento de ${k}_{risk}$ en funci\IeC {\'o}n del tama\IeC {\~n}o de la red.\relax }}{114}{figure.caption.219}
-\contentsline {figure}{\numberline {5.5}{\ignorespaces Rendimiento del procedimiento de extinci\IeC {\'o}n de especies animales para $MusRank$ y ${k}_{degree}$ para las dos magnitudes de salida.\relax }}{115}{figure.caption.220}
-\contentsline {figure}{\numberline {5.6}{\ignorespaces Red de polinizadores en Shelfanger, Norfolk, Reino Unido \cite {dicks2002compartmentalization}.\relax }}{116}{figure.caption.221}
-\contentsline {figure}{\numberline {5.7}{\ignorespaces Resultado de la retirada de $10$ especies animales de la red $M\_PL\_007$. A la izquierda, siguiendo el orden indicado por ${k}_{degree}$. La componente gigante que queda tiene $32$ especies ($8$ de plantas, $24$ de polinizadores. A la derecha, siguiendo $MusRank$. La componente gigante tiene $33$ especies ($7$ de plantas, $26$ de polinizadores).\relax }}{117}{figure.caption.222}
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Diagrama zigurat de una de dispersores en la Ca\IeC {\~n}ada Travina, Sierra de Cazorla. Compilada por Pedro Jordano, no publicada.\relax }}{110}{figure.caption.211}
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Curva de destrucci\IeC {\'o}n de la red de polinizadores $001$ ordenada por $MusRank$ y midiendo la fracci\IeC {\'o}n de plantas sobreviviente. El \IeC {\'a}rea bajo la curva es 0.312 (tabla \ref {table:dunne_destruction}).\relax }}{112}{figure.caption.217}
+\contentsline {figure}{\numberline {5.3}{\ignorespaces Destrucci\IeC {\'o}n de la componente gigante de la red de polinizadores n\IeC {\'u}mero $012$ (Olesen, unpublished), ordenando por $k_{risk}$. A la izquierda, la red original con $84$ especies. A la derecha, la componente gigante que queda tras retirar las $7$ especies m\IeC {\'a}s importantes, siguiendo esta secuencia: $planta1$, $planta2$, $polinizador2$, $polinizador1$, $planta3$, $planta6$ y $planta5$.\relax }}{113}{figure.caption.219}
+\contentsline {figure}{\numberline {5.4}{\ignorespaces Comparaci\IeC {\'o}n del rendimiento de los dos criterios m\IeC {\'a}s destructivos de la mitad de la componente gigante, $k_{risk}$ y $degree$ (arriba) y comportamiento de ${k}_{risk}$ en funci\IeC {\'o}n del tama\IeC {\~n}o de la red.\relax }}{114}{figure.caption.220}
+\contentsline {figure}{\numberline {5.5}{\ignorespaces Rendimiento del procedimiento de extinci\IeC {\'o}n de especies animales para $MusRank$ y ${k}_{degree}$ para las dos magnitudes de salida.\relax }}{115}{figure.caption.221}
+\contentsline {figure}{\numberline {5.6}{\ignorespaces Red de polinizadores en Shelfanger, Norfolk, Reino Unido \cite {dicks2002compartmentalization}.\relax }}{116}{figure.caption.222}
+\contentsline {figure}{\numberline {5.7}{\ignorespaces Resultado de la retirada de $10$ especies animales de la red $M\_PL\_007$. A la izquierda, siguiendo el orden indicado por ${k}_{degree}$. La componente gigante que queda tiene $32$ especies ($8$ de plantas, $24$ de polinizadores. A la derecha, siguiendo $MusRank$. La componente gigante tiene $33$ especies ($7$ de plantas, $26$ de polinizadores).\relax }}{117}{figure.caption.223}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {A.1}{\ignorespaces Ejemplo de ficheros de entrada para la simulaci\IeC {\'o}n de la figura \ref {fig:DINAMICA_SAT_exper_resilience_strong}.\relax }}{126}{figure.caption.247}
-\contentsline {figure}{\numberline {A.2}{\ignorespaces Interfaz de usuario de \texttt {SIGMUND} \relax }}{127}{figure.caption.249}
-\contentsline {figure}{\numberline {A.3}{\ignorespaces Significado de la coincidencia del periodo de floraci\IeC {\'o}n\relax }}{129}{figure.caption.251}
-\contentsline {figure}{\numberline {A.4}{\ignorespaces C\IeC {\'a}lculo del factor de multiplicaci\IeC {\'o}n anual.\relax }}{130}{figure.caption.252}
-\contentsline {figure}{\numberline {A.5}{\ignorespaces Diagrama polar y zigurta de la red ejemplo.\relax }}{131}{figure.caption.254}
-\contentsline {figure}{\numberline {A.6}{\ignorespaces Evoluci\IeC {\'o}n din\IeC {\'a}mica sin perturbaciones en la red ejemplo.\relax }}{131}{figure.caption.255}
-\contentsline {figure}{\numberline {A.7}{\ignorespaces Perturbaci\IeC {\'o}n binaria de la intensidad de floraci\IeC {\'o}n.\relax }}{132}{figure.caption.256}
-\contentsline {figure}{\numberline {A.8}{\ignorespaces Perturbaci\IeC {\'o}n gaussiana en el periodo de floraci\IeC {\'o}n con desviaci\IeC {\'o}n est\IeC {\'a}ndar constante.\relax }}{132}{figure.caption.257}
-\contentsline {figure}{\numberline {A.9}{\ignorespaces Perturbaci\IeC {\'o}n gaussiana en el periodo de floraci\IeC {\'o}n con oscilaci\IeC {\'o}n sinusoidal de la desviaci\IeC {\'o}n est\IeC {\'a}ndar.\relax }}{133}{figure.caption.258}
-\contentsline {figure}{\numberline {A.10}{\ignorespaces Aumento abrupto de la mortalidad de la especie de polinizador n\IeC {\'u}mero $2$.\relax }}{133}{figure.caption.259}
+\contentsline {figure}{\numberline {A.1}{\ignorespaces Ejemplo de ficheros de entrada para la simulaci\IeC {\'o}n de la figura \ref {fig:DINAMICA_SAT_exper_resilience_strong}.\relax }}{126}{figure.caption.248}
+\contentsline {figure}{\numberline {A.2}{\ignorespaces Interfaz de usuario de \texttt {SIGMUND} \relax }}{127}{figure.caption.250}
+\contentsline {figure}{\numberline {A.3}{\ignorespaces Significado de la coincidencia del periodo de floraci\IeC {\'o}n\relax }}{129}{figure.caption.252}
+\contentsline {figure}{\numberline {A.4}{\ignorespaces C\IeC {\'a}lculo del factor de multiplicaci\IeC {\'o}n anual.\relax }}{130}{figure.caption.253}
+\contentsline {figure}{\numberline {A.5}{\ignorespaces Diagrama polar y zigurta de la red ejemplo.\relax }}{131}{figure.caption.255}
+\contentsline {figure}{\numberline {A.6}{\ignorespaces Evoluci\IeC {\'o}n din\IeC {\'a}mica sin perturbaciones en la red ejemplo.\relax }}{131}{figure.caption.256}
+\contentsline {figure}{\numberline {A.7}{\ignorespaces Perturbaci\IeC {\'o}n binaria de la intensidad de floraci\IeC {\'o}n.\relax }}{132}{figure.caption.257}
+\contentsline {figure}{\numberline {A.8}{\ignorespaces Perturbaci\IeC {\'o}n gaussiana en el periodo de floraci\IeC {\'o}n con desviaci\IeC {\'o}n est\IeC {\'a}ndar constante.\relax }}{132}{figure.caption.258}
+\contentsline {figure}{\numberline {A.9}{\ignorespaces Perturbaci\IeC {\'o}n gaussiana en el periodo de floraci\IeC {\'o}n con oscilaci\IeC {\'o}n sinusoidal de la desviaci\IeC {\'o}n est\IeC {\'a}ndar.\relax }}{133}{figure.caption.259}
+\contentsline {figure}{\numberline {A.10}{\ignorespaces Aumento abrupto de la mortalidad de la especie de polinizador n\IeC {\'u}mero $2$.\relax }}{133}{figure.caption.260}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {B.1}{\ignorespaces Ejemplo de fichero de entrada, red de dispersores n\IeC {\'u}mero $029$ de la \href {http://www.web-of-life.es/}{web of life}.\relax }}{138}{figure.caption.267}
-\contentsline {figure}{\numberline {B.2}{\ignorespaces Ejemplo de diagrama polar.\relax }}{140}{figure.caption.270}
-\contentsline {figure}{\numberline {B.3}{\ignorespaces Diagrama polar con diversos par\IeC {\'a}metros de visualizaci\IeC {\'o}n.\relax }}{141}{figure.caption.271}
-\contentsline {figure}{\numberline {B.4}{\ignorespaces Zigurat de una comunidad de frug\IeC {\'\i }voros en Puerto Rico \cite {carlo2003avian}.\relax }}{143}{figure.caption.273}
-\contentsline {figure}{\numberline {B.5}{\ignorespaces Zigurat de una red de polinizadores en el Parque de Garajonay, La Palma (Espa\IeC {\~n}a). Olesen, no publicada.\relax }}{144}{figure.caption.274}
-\contentsline {figure}{\numberline {B.6}{\ignorespaces Ziggurat mejorado de la red $M\_PL\_012$.\relax }}{145}{figure.caption.275}
-\contentsline {figure}{\numberline {B.7}{\ignorespaces Ziggurat de una red de polinizadores en la Alta Guyana (Venezuela) \cite {ramirez1989biologia}.\relax }}{147}{figure.caption.276}
-\contentsline {figure}{\numberline {B.8}{\ignorespaces Zigurat mejorado de la figura \ref {fig:AKMAN_ziggurat_031}.\relax }}{148}{figure.caption.277}
-\contentsline {figure}{\numberline {B.9}{\ignorespaces Zigurat con nombres de especies.\relax }}{149}{figure.caption.278}
+\contentsline {figure}{\numberline {B.1}{\ignorespaces Ejemplo de fichero de entrada, red de dispersores n\IeC {\'u}mero $029$ de la \href {http://www.web-of-life.es/}{web of life}.\relax }}{138}{figure.caption.268}
+\contentsline {figure}{\numberline {B.2}{\ignorespaces Ejemplo de diagrama polar.\relax }}{140}{figure.caption.271}
+\contentsline {figure}{\numberline {B.3}{\ignorespaces Diagrama polar con diversos par\IeC {\'a}metros de visualizaci\IeC {\'o}n.\relax }}{141}{figure.caption.272}
+\contentsline {figure}{\numberline {B.4}{\ignorespaces Zigurat de una comunidad de frug\IeC {\'\i }voros en Puerto Rico \cite {carlo2003avian}.\relax }}{143}{figure.caption.274}
+\contentsline {figure}{\numberline {B.5}{\ignorespaces Zigurat de una red de polinizadores en el Parque de Garajonay, La Palma (Espa\IeC {\~n}a). Olesen, no publicada.\relax }}{144}{figure.caption.275}
+\contentsline {figure}{\numberline {B.6}{\ignorespaces Ziggurat mejorado de la red $M\_PL\_012$.\relax }}{145}{figure.caption.276}
+\contentsline {figure}{\numberline {B.7}{\ignorespaces Ziggurat de una red de polinizadores en la Alta Guyana (Venezuela) \cite {ramirez1989biologia}.\relax }}{147}{figure.caption.277}
+\contentsline {figure}{\numberline {B.8}{\ignorespaces Zigurat mejorado de la figura \ref {fig:AKMAN_ziggurat_031}.\relax }}{148}{figure.caption.278}
+\contentsline {figure}{\numberline {B.9}{\ignorespaces Zigurat con nombres de especies.\relax }}{149}{figure.caption.279}
 \addvspace {10\p@ }
