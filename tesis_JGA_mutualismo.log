@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2013.8.13)  5 JUN 2016 20:49
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2013.8.13)  7 JUN 2016 14:32
 entering extended mode
 **D:/disco_usuario/javier/upm/doctorado/tesis/texto_tesis_upm/texto_tutto/tesis
 _JGA_mutualismo.tex
@@ -3889,7 +3889,24 @@ sed on input line 727.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<Figures/DINAMICA_SATU_nested.pdf, id=1374, 377.41pt x 451.6875pt>
+LaTeX Info: Redefining \sptext on input line 733.
+LaTeX Info: Redefining \. on input line 733.
+LaTeX Info: Redefining \% on input line 733.
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 733.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 733.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 733.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 733.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 733.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 733.
+[40 <D:/disco_usuario/javier/upm/doctorado/tesis/texto_tesis_upm/texto_tutto/Fi
+gures/DINAMICA_Fig7_partial_extinct-eps-converted-to.pdf>]
+<Figures/DINAMICA_SATU_nested.pdf, id=1383, 377.41pt x 451.6875pt>
 File: Figures/DINAMICA_SATU_nested.pdf Graphic file (type pdf)
 
 <use Figures/DINAMICA_SATU_nested.pdf>
@@ -3900,23 +3917,7 @@ Package pdftex.def Info: Figures/DINAMICA_SATU_nested.pdf used on input line 73
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-LaTeX Info: Redefining \sptext on input line 742.
-LaTeX Info: Redefining \. on input line 742.
-LaTeX Info: Redefining \% on input line 742.
-Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 742.
-Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 742.
-Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 742.
-Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 742.
-Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 742.
-Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 742.
-[40 <D:/disco_usuario/javier/upm/doctorado/tesis/texto_tesis_upm/texto_tutto/Fi
-gures/DINAMICA_Fig7_partial_extinct-eps-converted-to.pdf>]
+
 <Figures/DINAMICA_SAT_red_exper_resilience_weak.pdf, id=1386, 1024.82875pt x 40
 3.5075pt>
 File: Figures/DINAMICA_SAT_red_exper_resilience_weak.pdf Graphic file (type pdf
@@ -3953,6 +3954,9 @@ Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 762.
  [41 <D:/disco_usuario/javier/upm/doctorado/tesis/texto_tesis_upm/texto_tutto/F
 igures/DINAMICA_SATU_experimento_1.pdf>]
+LaTeX Info: Redefining \sptext on input line 775.
+LaTeX Info: Redefining \. on input line 775.
+LaTeX Info: Redefining \% on input line 775.
 Package babel Info: Redefining spanish shorthand <<
 (babel)             in language  on input line 775.
 Package babel Info: Redefining spanish shorthand >>
@@ -3965,26 +3969,23 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 775.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 775.
-LaTeX Info: Redefining \sptext on input line 780.
-LaTeX Info: Redefining \. on input line 780.
-LaTeX Info: Redefining \% on input line 780.
-Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 780.
-Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 780.
-Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 780.
-Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 780.
-Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 780.
-Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 780.
 
 [42 <D:/disco_usuario/javier/upm/doctorado/tesis/texto_tesis_upm/texto_tutto/Fi
 gures/DINAMICA_SATU_experimento_2.pdf> <D:/disco_usuario/javier/upm/doctorado/t
 esis/texto_tesis_upm/texto_tutto/Figures/DINAMICA_SAT_red_exper_resilience_stro
 ng.pdf>]
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 775.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 775.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 775.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 775.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 775.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 775.
 LaTeX Info: Redefining \sptext on input line 788.
 LaTeX Info: Redefining \. on input line 788.
 LaTeX Info: Redefining \% on input line 788.
@@ -7664,7 +7665,7 @@ a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/bookman/ubkli8a.pfb><C:/Prog
 ram Files/MiKTeX 2.9/fonts/type1/urw/courier/ucrr8a.pfb><C:/Program Files/MiKTe
 X 2.9/fonts/type1/urw/palatino/uplb8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/ty
 pe1/urw/palatino/uplr8a.pfb>
-Output written on tesis_JGA_mutualismo.pdf (183 pages, 26273825 bytes).
+Output written on tesis_JGA_mutualismo.pdf (183 pages, 26273897 bytes).
 PDF statistics:
  2808 PDF objects out of 2984 (max. 8388607)
  633 named destinations out of 1000 (max. 500000)

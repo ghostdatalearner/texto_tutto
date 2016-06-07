@@ -104,7 +104,7 @@ En ausencia de mutualismo se convierte en la ecuación logística modificada. El
 \label{fig:per capita_growth_rate_mutualism}
 \end{figure}
 
-Incluyendo la modificación usada en las ecuaciones \ref{eq:May_reff}, el modelo se puede escribir como:
+Incluyendo la modificación usada en las ecuaciones \ref{eq:May_reff}, nuestro modelo se puede escribir como:
 \begin{align*}
 \displaystyle & \frac{dN_1}{dt}= N_{1} \left( r_{\rm{eq},1}- |r_{\rm{eq},1}| \frac{N_1}{K_1} \right) = r_{\rm{eq},1}\, N_1 \left(1-sgn(r_{\rm{eq},1})\frac{N_1}{K_1}\right)\\
 \displaystyle & \frac{dN_2}{dt}= N_{2} \left( r_{\rm{eq},2}- |r_{\rm{eq},2}| \frac{N_2}{K_2} \right)= r_{\rm{eq},2}\, N_2 \left(1-sgn(r_{\rm{eq},2})\frac{N_2}{K_2}\right)
@@ -113,7 +113,7 @@ Incluyendo la modificación usada en las ecuaciones \ref{eq:May_reff}, el modelo
 
 Como ya se ha indicado, la función $sgn(r_{\rm{eq}})$ tiene sentido biológico porque la competencia intra especie debe ser siempre negativa, con independencia del signo de la tasa vegetativa.
 
-Para llegar a la fórmula final, generalizamos a una comunidad con $n$ esoecies de la clase $P$ (plantas), y $m$ especies de la otra $A$ (animales), que se relacionan por medio de una red de interacciones bipartita, pesada y bidireccional. Tomemos una especie $i$ de $P$ de población $N_i$ y otra $j$ de $A$ con $N_j$ individuos. Los pesos de la red representan la tasa de beneficio que recibe la población $i$ por la existencia de $j$. 
+Para llegar a la fórmula final, generalizamos a una comunidad con $n$ especies de la clase $P$ (plantas), y $m$ especies de la otra $A$ (animales), que se relacionan por medio de una red de interacciones bipartita, pesada y bidireccional. Tomemos una especie $i$ de $P$ de población $N_i$ y otra $j$ de $A$ con $N_j$ individuos. Los pesos de la red representan la tasa de beneficio que recibe la población $i$ por la existencia de $j$. 
 
 Las expresiones de las tasas de crecimiento de las especies $i$, $j$ quedan:
 \begin{align*}
@@ -262,9 +262,9 @@ Para cualquier definición de $sgn(r_{eff},1)$ y $sgn(r_{eff},2)$ todos los fact
 \label{fig:stab1_phase}
 \end{figure}
 
-Este \textit{saddle} marca la frontera entre la cuenca de atracción de los puntos fijos estables y, en consecuencia, controla la resistenca del sistema ante perturbaciones externas. Si está próximo a la destrucción completa ($N_1=0$,$N_2=0$), el sistema es más estable porque la cuenca de atracción de $(K_1,K_2)$ es más extensa.Sucede lo contrario cuando se localiza cerca del máximo vital, es decir, con ambas poblaciones tomando los valores máximos de sus capacidades de carga.
+Este \textit{saddle} marca la frontera entre la cuenca de atracción de los puntos fijos estables y, en consecuencia, controla la resistenca del sistema ante perturbaciones externas. Si está próximo a la destrucción completa ($N_1=0$,$N_2=0$), el sistema es más estable porque la cuenca de atracción de $(K_1,K_2)$ es más extensa. Sucede lo contrario cuando se localiza cerca del máximo vital, es decir, con ambas poblaciones tomando los valores máximos de sus capacidades de carga.
 
-La figura \ref{fig:stab1_phase}a muestra las soluciones del sistema \ref{eq:new_model} para dos especies con mutualismo obligado ($r_1<0$ y $r_2<0$), e incio de las trayectorias en los puntos de la rejilla entre $10$ y $70$; la \ref{fig:stab1_phase}b es el diagrama de flujo en torno al \textit{saddle} en ($30,30$). Cuanto mayor sea la intensidad del mutualismo, más próximo se encuentra este punto al origen.
+La figura \ref{fig:stab1_phase}a muestra las soluciones del sistema \ref{eq:new_model} para dos especies con mutualismo obligado ($r_1<0$ y $r_2<0$), e incio de las trayectorias en los puntos de la rejilla entre $10$ y $70$; la \ref{fig:stab1_phase}b es el diagrama de flujo en torno al \textit{saddle point} en ($30,30$). Cuanto mayor sea la intensidad del mutualismo, más próximo se encuentra este punto al origen.
 
 
 \subsection{Generalización con $n$ especies}
@@ -441,8 +441,8 @@ Los puntos fijos para ${N^a_2}^*$ se encuentran sustituyendo ${N^p_1}^*$ en la e
 
 \begin{enumerate}
 \item Ambas raíces complejas. No hay puntos fijos que no supongan extinciones.
-\item Una sola raíz real. Es un punto de bifuración de la dinámica del sistema. Las soluciones son reales pero degeneradas. En este caso existe un único punto fijo aparte de los de extinción. El estado final del sistema depende de la estabilidad de dicho punto. Sin embargo, lo más probable es que las poblaciones terminen extinguiéndose.
-\item Dos raíces reales. La situación es similar a la representada en la imagen de la izquierda de la figura \ref{DINAMICA_diagram}. Hay dos puntos fijos no triviales, típicamente uno estable y un \textit{saddle} sobre la divisoria de las dos cuencas de atracción. La posición de este segundo punto depende de la extensión de la cuenca de extinción y, por tanto, de la resistencia del sistema ante perturbaciones externas. Lo denominamos \textit{mínimo vital} y su valor lo representamos como$({N_{1}^{p}}^\bullet,{N_{2}^{a}}^\bullet)$.
+\item Una sola raíz real. Es un punto de bifurcación de la dinámica del sistema. Las soluciones son reales pero degeneradas. En este caso existe un único punto fijo aparte de los de extinción. El estado final del sistema depende de la estabilidad de dicho punto. Sin embargo, lo más probable es que las poblaciones terminen extinguiéndose.
+\item Dos raíces reales. La situación es similar a la representada en la imagen de la izquierda de la figura \ref{DINAMICA_diagram}. Hay dos puntos fijos no triviales, típicamente uno estable y un \textit{saddle point} sobre la divisoria de las dos cuencas de atracción. La posición de este segundo punto depende de la extensión de la cuenca de extinción y, por tanto, de la resistencia del sistema ante perturbaciones externas. Lo denominamos \textit{mínimo vital} y su valor lo representamos como$({N_{1}^{p}}^\bullet,{N_{2}^{a}}^\bullet)$.
 \end{enumerate}
 
 Para estudiar la estabilidad lineal de los puntos fijos, expandimos las ecuaciones \ref{eq:DINAMICA_dos_especies} en serie de Taylor en torno a ellos y calculamos el jacobiano del sistema (ver los detalles en el anexo \ref{DINAMICA_ANEXO_estabilidad}). Si los autovalores son negativos, el punto fijo es estable. En caso contrario, puede ser un \textit{saddle} si uno es positivo y otro negativo o inestable si ambos son negativos. Comenzando por la extinción total, el jacobiano puede escribirse como: 
@@ -487,7 +487,7 @@ especies.
 \subsection{La divisoria de la vida}
 \label{watershed}
 
-Llamaremos \textit{divisoria de la vida} al límite que separa las trayectorias que evolucionan hacia la capacidad máxima de población del sistema de las que terminan en su destrucción. En la imagen izquierda de la figura \ref{DINAMICA_diagram} es la curva que claramente delimita ambas cuencas. La divisoria incluye al \textit{saddle} no trivial $({N_1^p}^\bullet,{N_2^a}^\bullet)$, esto es, la combinación mínima de poblaciones que garantiza la supervivencia. Su posición en el espacio de fases es importante porque determina la posición base de dicha curva y en consecuencia la fragilidad del sistema, que se expresa como la relación de áreas entre las dos cuencas de atracción. La distancia de este punto al máximo de poblaciones indica la resistencia ante perturbaciones externas. Si es muy pequeña, una ligera disminución del número de individuos, provocada por enfermedades, sequías o siniestros de cualquier naturaleza puede llevar al sistema a la cuenca de destrucción. Por el contrario, si esta distancia es grande, la comunidad podrá recobrarse de estos eventos y crecer de nuevo hacia el máximo. Como los ciclos naturales suelen ser cíclicos, la combinación de poblaciones se moverá de manera habitual entre estos puntos, y un amplio rango dinámico facilita la permanencia en el tiempo. 
+Llamaremos \textit{divisoria de la vida} al límite que separa las trayectorias que evolucionan hacia la capacidad máxima de población del sistema de las que terminan en su destrucción. En la imagen izquierda de la figura \ref{DINAMICA_diagram} es la frontera entre las cuencas de atracción del punto de extinción en el origen y del máximo estable de poblaciones. La divisoria incluye al \textit{saddle} no trivial $({N_1^p}^\bullet,{N_2^a}^\bullet)$, la combinación mínima de poblaciones que garantiza la supervivencia. Su posición en el espacio de fases es importante porque determina la posición base de dicha curva y en consecuencia la fragilidad del sistema, que se expresa como la relación de áreas entre las dos cuencas de atracción. La distancia de este punto al máximo de poblaciones indica la resistencia ante perturbaciones externas. Si es muy pequeña, una ligera disminución del número de individuos, provocada por enfermedades, sequías o siniestros de cualquier naturaleza puede llevar al sistema a la cuenca de destrucción. Por el contrario, si esta distancia es grande, la comunidad podrá recobrarse de estos eventos y crecer de nuevo hacia el máximo. Como los ciclos naturales suelen ser cíclicos, la combinación de poblaciones se moverá de manera habitual entre estos puntos, y un amplio rango dinámico facilita la permanencia en el tiempo. 
 
 Para el sistema mínimo, de dos especies, las principales características de la divisoria se pueden encontrar analíticamente. Los puntos de la curva se corresponden a los pares de poblaciones $({N_1^p},{N_2^a})$ para los cuales la dinámica del sistema evoluciona exactamente sobre la curva y termina en el atractor $({N_1^p}^\bullet,{N_2^a}^\bullet)$. Sabemos que es un punto inestable y que la menor perturbación conducirá hacia uno u otro lado de la divisoria, pero conocer la expresión analítica de la curva supone un gran avance.  
 
@@ -534,7 +534,7 @@ Podemos despejar la constante $C$ teniendo en cuenta que la divisoria incluye el
 C = {N_2^a}^\bullet / ({N_1^p}^\bullet)^\frac{-B}{A} .
 \end{align}
 
-Para encontrar el valor del exponente fraccionario $\frac{B}{A}$, debemos volver a la definición de ñas tasas de crecimiento efectivas $r_{ef,1}$ y $r_{ef,2}$. De acuerdo con las ecuaciones \eqref{eq:coeffsreffs}, en $t=0$ tenemos que:
+Para encontrar el valor del exponente fraccionario $\frac{B}{A}$, debemos volver a la definición de las tasas de crecimiento efectivas $r_{ef,1}$ y $r_{ef,2}$. De acuerdo con las ecuaciones \eqref{eq:coeffsreffs}, en $t=0$ tenemos que:
  
 \begin{align}
 A = & \, r_{1}+ b_{12}\, {N_2^a}^0 - (\alpha_{1}+ c_{1} \, b_{12}\, {N_{2}^a}^0) \, {N_1^p}^0 , \nonumber\\
@@ -542,14 +542,14 @@ A = & \, r_{1}+ b_{12}\, {N_2^a}^0 - (\alpha_{1}+ c_{1} \, b_{12}\, {N_{2}^a}^0)
 \label{eq:reffs_2especies}
 \end{align}
 
-Si sabemos que nuestro punto inicial era parte de la divisoria, podemos obtener el valor del exponente diviendo estas expresiones. Alternativamente, si necesitamos encontrar otros puntos de la divisoria que no sean $({N_1^p}^\bullet,{N_2^a}^\bullet)$, podemos dividir las expresiones anteriores y, usando la ecuación \ref{eq:coeffsreffs_3}, llegar a la siguiente ecuación implícita:
+Si sabemos que nuestro punto inicial era parte de la divisoria, podemos obtener el valor del exponente dividiendo estas expresiones. Alternativamente, si necesitamos encontrar otros puntos de la divisoria que no sean $({N_1^p}^\bullet,{N_2^a}^\bullet)$, podemos dividir las expresiones anteriores y, usando la ecuación \ref{eq:coeffsreffs_3}, llegar a la siguiente ecuación implícita:
 
 \begin{align}
 \frac {\ln \left( \frac{{N_2^a}^\bullet}{{N_2^a}^0} \right)}{\ln \left( \frac{{N_1^p}^\bullet}{{N_1^p}^0} \right)} = \frac{( r_{2}+ b_{21}\, {N_1^p}^0) - (\alpha_{2}+ c_{2} \,  b_{21}\, {N_1^p}^0 ) \, {N_1^p}^0}{( r_{1}+ b_{12}\, {N_2^a}^0) - (\alpha_{1}+ c_{1} \, b_{12}\, {N_2^a}^0 ) \, {N_2^a}^0 } .
 \label{eq:implicita_watershed}
 \end{align}
 
-Resolviendo esta ecuación de forma numérica podemos encontrar cualquier punto de la divisoria, y con ello obtenemos el valor del exponente $\frac{B}{A}$. La figura \ref{fig:powerlaw} muestra un ejemplo concreto de divisoria, y una comparación entre la curva definida por el sistema \ref{eq:powerlaw} y la ecuación implícita \ref{eq:implicita_watershed}. Ambas se han resuelto por intergación numérica. Los puntos rojos se han encontrado haciendo un barrido del espacio de parámetros en una aproximación de \textit{fuerza bruta}, determinando el límite entre extinción y evolución hacia la capacidad máxima. La línea gris continua es la ley de potencia que se obtiene resolviendo las ecuaciones \ref{eq:powerlaw} y \ref{eq:implicita_watershed}
+Resolviendo esta ecuación de forma numérica podemos encontrar cualquier punto de la divisoria, y con ello obtenemos el valor del exponente $\frac{B}{A}$. La figura \ref{fig:powerlaw} muestra un ejemplo concreto de divisoria, y una comparación entre la curva definida por el sistema \ref{eq:powerlaw} y la ecuación implícita \ref{eq:implicita_watershed}. Ambas se han resuelto por integración numérica. Los puntos rojos se han encontrado haciendo un barrido del espacio de parámetros en una aproximación de \textit{fuerza bruta}, determinando el límite entre extinción y evolución hacia la capacidad máxima. La línea gris continua es la ley de potencia que se obtiene resolviendo las ecuaciones \ref{eq:powerlaw} y \ref{eq:implicita_watershed}
 
 \begin{figure}[ht!]
 \centering
@@ -612,7 +612,7 @@ Otro extremo que hay que investigar es lo que sucede en caso de extinciones parc
 
 Los modelos de población manejan cantidades discretas y la simulación es una herramienta potente para manejar la dinámica y el comportamiento estocástico. La elección de un método específico de simulación depende de su precisión y eficacia computacional y a veces representa un desafío.
 
-Por ejemplo, los modelos discretos de Markov se han utilizado con frecuencia para este tipo de simulaciones, pero esta estrategia tiene desventajas comparada con la simulación estocática discreta, ya sea basada en la distribución de Poisson o en la binomial. Para los modelos de Markov de dimensiones moderadas, el número de estados puede ser muy grande, minetras que las simulaciones basadas en Poisson o binomial, con su manejo de variables de estado agregadas es mucho más rápida  \cite{gustafsson2007bringing, balcan2009multiscale}.
+Por ejemplo, los modelos discretos de Markov se han utilizado con frecuencia para este tipo de simulaciones, pero esta estrategia tiene desventajas comparada con la simulación estocática discreta, ya sea basada en la distribución de Poisson o en la binomial. Para los modelos de Markov de dimensiones moderadas, el número de estados puede ser muy grande, mientras que las simulaciones basadas en Poisson o binomial, con su manejo de variables de estado agregadas es mucho más rápida  \cite{gustafsson2007bringing, balcan2009multiscale}.
 
 Hemos elegido la simulación binomial para resolver las ecuaciones de ambos modelos. Esta técnica es una extensión de la simulación de sistemas continuos y una elección razonable cuando el resultado del proceso aleatorio tiene solo dos posibles valores. Por ejemplo, la supervivencia en un intervalo finito de tiempo es un ensayo de Bernoulli, el individuo sobrevive o no. La reproducción también puede modelarse adecuadamente como un ensayo de Bernouilli si el intervalo de simulación es pequeño. 
 
@@ -670,7 +670,7 @@ La figura \ref{fig:red_exper_stab1} muestra una pequeña comunidad mutualista fi
 \label{fig:exper_stab1}
 \end{figure}
 
-En el primer experimento (figura \ref{fig:exper_carrying_cap}) el sistema empieza con todas las tasas efectivas negativas, excepto la del polinizador número $4$. Asumimos que el mutualismo es obligado. En estas circunstancias es sencillo encontrar los valores mínimos de población que garantizarían la supervivencia resolviendo $r_{\rm{eff}.i} = 0$ en las ecuaciones \ref{modelors}, para todo $i$.
+En el primer experimento (figura \ref{fig:red_exper_stab1}) el sistema empieza con todas las tasas efectivas negativas, excepto la del polinizador número $4$. Asumimos que el mutualismo es obligado. En estas circunstancias es sencillo encontrar los valores mínimos de población que garantizarían la supervivencia resolviendo $r_{\rm{eff}.i} = 0$ en las ecuaciones \ref{modelors}.
 
 Las tasas efectivas solo pueden ser positivas por el beneficio mutualista, pero en esta simulación las poblaciones iniciales no son suficientes para para conseguirlo, con la excepción del mencionado polinizador número $4$. Las especies de planta $1$ y $2$ empiezan con poblaciones por encima de sus capacidades de carga.
 Este experimento muestra el \textit{atractor de extinción} que conduce a la destrucción total de la comunidad.
@@ -693,7 +693,7 @@ La figura \ref{fig:exper_carrying_cap} muestra un segundo experimento, con la mi
 
 En la tercera simulación exploramos las extinciones parciales (figura \ref{fig:exper_stab2}). De nuevo, todas las tasas vegetativas son negativas, pero los pesos de los enlaces se han modificado ligeramente respecto al experimento anterior.
 
-En esta simulación todas las poblaciones empiezan por debajo de sus capacidades de carga. Todas evolucionan hacia sus máximos excepto el polinizador $4$ y la planta $4$ que se extinguen. La especie de planta $2$ empieza con una tasa eficaz negativa pero el crecimiento de sus mutualistas da la vuelta a esta situación y termina sobreviviendo.
+En esta simulación todas las poblaciones empiezan por debajo de sus capacidades de carga. Todas evolucionan hacia sus máximos excepto el polinizador $4$ y la planta $4$ que se extinguen. La especie de planta $2$ empieza con una tasa eficaz negativa pero el crecimiento de sus mutualistas da la vuelta a esta situación y termina sobreviviendo. Con estos tres casos se puede comprobar la riqueza dinámica de este modelo simple.
 
 \subsection{Simulaciones con saturación del beneficio}
 \label{results_alfa}
@@ -738,7 +738,7 @@ En el penúltimo usamos otra red ficticia, con siete especies de plantas y cinco
 \label{fig:DINAMICA_SAT_exper_resilience_strong}
 \end{figure}
 
-El sistema crecería hasta alcanzar máximos en ausencia de perturbaciones externas, pero la especie $6$ de plantas sufre un aumento abrupto de mortalidad de un $20\%$ anual que la conduce a la extinción. Esta especie estaba conectada solo al polinizador $1$, el más generalista de su clase. El efecto de la extinción es despreciable sobre este polinizador porque el resto de especies benefactoras lo suplen. 
+El sistema crecería hasta alcanzar máximos en ausencia de perturbaciones externas, pero la especie $6$ de plantas provocamos un aumento abrupto de mortalidad de un $20\%$ anual que la conduce a la extinción. Esta especie estaba conectada solo al polinizador $1$, el más generalista de su clase. El efecto de la extinción es despreciable sobre este polinizador porque el resto de especies benefactoras lo suplen. 
 
 \begin{figure}[h!]
 \centering
