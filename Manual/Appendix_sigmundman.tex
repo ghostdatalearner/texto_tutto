@@ -26,7 +26,7 @@ El paquete se instala desde \texttt{github} clonando el repositorio:
 \label{sec:ASIGMUNDMAN_input_file_format}
 
 Las simulaciones requieren dos ficheros de entrada para cada red, que se almacenan en el directorio \path{sigmund/src/pak_tfm/input}. El primero se llamará \texttt{XXX\_a.txt} donde \textit{XXX} puede ser cualquier nombre, lo único obligatorio es que termine en \texttt{\_a.txt}. El segundo debe llamarse \texttt{\_b.txt}. Por motivos de simplicidad, la interfaz de usuario se refiere a plantas y polinizadores, pero puede usarse para otros tipos de red mutualista.
-El primer fichero contiene los coeficientes de la matriz de adyacencia en el sentido polinizador - planta, esto es, el beneficio mutualista que la presencia de cada individuo del polinizador $i$ supone para la planta $j$. Los datos se organizan en columnas, cada una de ellas correspondiente a una especie de planta, en modo texto y separados por tabuladores. Hay una fila por cada especie de polinizador y cuatro adicionales con la población inicial de la especie de planta, el coeficiente $c_{j}$ (fórmula \ref{eq:alphavariable}), el término de fricción intraespecífica $\alpha_{j}$ y las tasas vegetativas de nacimiento y muerte.
+El primer fichero contiene los coeficientes de la matriz de adyacencia en el sentido polinizador - planta, esto es, el beneficio mutualista que la presencia de cada individuo del polinizador $i$ supone para la planta $j$. Los datos se organizan en columnas, cada una de ellas correspondiente a una especie de planta, en modo texto y separados por tabuladores. Hay una fila por cada especie de polinizador y cinco adicionales con la población inicial de la especie de planta, el coeficiente $c_{j}$ (fórmula \ref{eq:alphavariable}), el término de fricción intraespecífica $\alpha_{j}$ y las tasas vegetativas de nacimiento y muerte.
 
 En el fichero \texttt{\_b} se almacena la información en el sentido planta - polinizador, con tantas columnas como especies de estos segundos haya.
 
@@ -62,9 +62,9 @@ La interfaz de usuario está construida con el entorno gráfico \texttt{Qt} por 
 
 \item \texttt{Output suffix}: sufijo de salida opcional que se añadirá al nombre de los ficheros de salida que se escriben en  \path{./output}.
 
-\item \texttt{Comments}: campo opcional de escritura libra que sirve, por ejemplo, para que una descripción del experimento se pueda guardar en el informe de ejecución.
+\item \texttt{Comments}: campo opcional de escritura libre que sirve, por ejemplo, para que una descripción del experimento se pueda guardar en el informe de ejecución.
 
-\item \texttt{Mutualism Model}: indica si se usa el modelo de Verhuslt modificado o no hay mutualismo.
+\item \texttt{Mutualism Model}: indica si se usa el modelo de Verhulst modificado o no hay mutualismo.
 
 \item \texttt{Food web}: indica si hay una \textit{food web} sobre la comunidad mutualista.
 
@@ -104,7 +104,7 @@ de mortalidad. Hay dos líneas de entrada, una para plantas y otra para animales
 
 \begin{itemize}
  \item \texttt{Years}: Duración de la perturbación en años.
- \item \texttt{Spike}: Fracción activa del periodo de perturbación. Util en caso de perturbación repetitiva.
+ \item \texttt{Spike}: Fracción activa del periodo de perturbación. Útil en caso de perturbación repetitiva.
  \item \texttt{Spike}: Aumento de la tasa de mortalidad expresado en fracción unitaria.
  \item \texttt{Start}: Año de la simulación en que la perturbación empieza a tener efecto.
  \item \texttt{Species}: lista de especies afectadas.
@@ -138,7 +138,7 @@ matriz de interacción. El segundo año, el periodo de floración se ha adelanta
 \label{fig:ASIGMUNDMAN_sigmund_pendiente}
 \end{figure}
 
-El cálculo del factor $p$ por el que se multiplican los coeficientes mutualistas cada año, en función de la variabilidad, se representa en la figura \ref{fig:ASIGMUNDMAN_sigmund_pendiente}. Supongamos el caso más simple, en el que el valor medio de la variabilidad es constante. El periodo de coindicencia de la floración y la actividad animal $T_{pl}$ se ha introducido por la interfaz de usuario expresado como fracción del año, por ejemplo $0.1$. Si la floración se adelanta más de $0.05$ o se retrasa más de $0.05$ respecto del punto central óptimo no habría coincidencia y se multiplicaría por cero. Si está en ese rango, el factor multiplicativo $p$ se modela linealmente:
+El cálculo del factor $p$ por el que se multiplican los coeficientes mutualistas cada año, en función de la variabilidad, se representa en la figura \ref{fig:ASIGMUNDMAN_sigmund_pendiente}. Supongamos el caso más simple, en el que el valor medio de la variabilidad es constante. El periodo de coincidencia de la floración y la actividad animal $T_{pl}$ se ha introducido por la interfaz de usuario expresado como fracción del año, por ejemplo $0.1$. Si la floración se adelanta más de $0.05$ o se retrasa más de $0.05$ respecto del punto central óptimo no habría coincidencia y se multiplicaría por cero. Si está en ese rango, el factor multiplicativo $p$ se modela linealmente:
 
 \begin{equation}
 p = 1 - \frac{2|x|}{T_{pl}}
@@ -284,9 +284,9 @@ Ejemplo de uso:
 \end{verbatim}
 \normalsize
 
-En este ejemplo se cargan las condiciones de simulación almacenadas en el fichero \texttt{exp18\_Verhulst\_oso\_20.sim}, se indica que la simulación dure 50 años, que se generen y almacenen los resultados gráficos, que se elimine un $10\%$ de enlace y que la salida sea en modo \texttt{verbose}, como si se hubiera invocado desde la interfaz de usuario. Cuando en el comando de llamada se incluyen parámteros como en este ejemplo, tienen precedencia sobre la configuración que haya en el fichero. Así, esta simulación cubre un periodo de 50 años con independencia de que en el fichero se indique otra cifra.  
+En este ejemplo se cargan las condiciones de simulación almacenadas en el fichero \texttt{exp18\_Verhulst\_oso\_20.sim}, se indica que la simulación dure 50 años, que se generen y almacenen los resultados gráficos, que se elimine un $10\%$ de enlaces y que la salida sea en modo \texttt{verbose}, como si se hubiera invocado desde la interfaz de usuario. Cuando en el comando de llamada se incluyen parámetros como en este ejemplo, tienen precedencia sobre la configuración que haya en el fichero. Así, esta simulación cubre un periodo de 50 años con independencia de que en el fichero se indique otra cifra.  
 
-Si el flag \texttt{-v} no se activa, el programa se ejecuta en modo silencioso. Si el flag \texttt{-stop} está activo, el script devolverá tan solo las cadenas de caracteres \texttt{"SURVIVAL"} O \texttt{"EXTINCTION"}. Con esta opción se pueden lanzar múltiples simulaciones para comprobar si la red sobrevive bajo las condiciones especificadas. La simulación se detiene cuando el programa comprueba que el sistema está por debajo del mínimo vital y que no puede remontar.
+Si el flag \texttt{-v} no se activa, el programa se ejecuta en modo silencioso. Si el flag \texttt{-stop} está activo, el script devolverá tan solo las cadenas de caracteres \texttt{"SURVIVAL"} o \texttt{"EXTINCTION"}. Con esta opción se pueden lanzar múltiples simulaciones para comprobar si la red sobrevive bajo las condiciones especificadas. La simulación se detiene cuando el programa comprueba que el sistema está por debajo del mínimo vital y que no puede remontar.
 
 
 \subsection{Script survival.py}

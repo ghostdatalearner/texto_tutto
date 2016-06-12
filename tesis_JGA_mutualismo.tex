@@ -51,6 +51,8 @@ onehalfspacing, % Single line spacing, alternatives: onehalfspacing or doublespa
 \usepackage{bookman}
 \usepackage{csvsimple}
 \usepackage{url}
+\usepackage{color}
+
 
 \usepackage[backend=bibtex,style=alphabetic,natbib=true]{biblatex} % (which resembles APA)
 \addbibresource{tesis_JGA_mutualismo.bib} % The filename of the bibliography
@@ -129,11 +131,13 @@ onehalfspacing, % Single line spacing, alternatives: onehalfspacing or doublespa
 {0pt}{5.5ex plus 1ex minus .2ex}{2.3ex plus .2ex}
 \titlespacing*{\subsection}
 {0pt}{2.5ex plus 1ex minus .2ex}{1.3ex plus .2ex}
+
 %----------------------------------------------------------------------------------------
 %	THESIS INFORMATION
 %----------------------------------------------------------------------------------------
 
-\thesistitle{Contribuciones al modelado del mutualismo en ecología} % Your thesis title, this is used in the title and abstract, print it elsewhere with \ttitle
+%\thesistitle{Contribuciones al modelado del mutualismo en ecología} % Your thesis title, this is used in the title and abstract, print it elsewhere with \ttitle
+\thesistitle{Modelado de redes cooperativas}
 \supervisor{Dr. Javier \textsc{Galeano Prieto}} % Your supervisor's name, this is used in the title page, print it elsewhere with \supname
 \examiner{} % Your examiner's name, this is not currently used anywhere in the template, print it elsewhere with \examname
 \degree{Doctor of Philosophy} % Your degree name, this is used in the title page and abstract, print it elsewhere with \degreename
@@ -168,7 +172,8 @@ onehalfspacing, % Single line spacing, alternatives: onehalfspacing or doublespa
 \textsc{\large \deptname}\\
 \textsc{\large \groupname}\\[4.0cm] % University name
 
-{\huge \textsc \ttitle}\\[5cm] % Thesis title
+{\huge \textsc \ttitle}\\[2cm]
+\textcolor{red}{Borrador de prelectura\\Generado el 13 de junio de 2016}\\[2cm] % Thesis title
 {\Large \authorname}\\[0.15cm]
 \small Doctor en Historia del Arte\\
 \small Máster en Física de Sistemas Complejos\\
@@ -243,15 +248,15 @@ The acknowledgements and the people to thank go here, don't forget to include yo
 \begin{abstract}
 \addchaptertocentry{\abstractname} % Add the abstract to the table of contents
 
-El mutualismo es un tipo de interacción ecológica que resulta beneficiosa para ambas especies. La polinización es el ejemplo típico. Los polinizadores se alimentan del néctar, polen o aceite que producen las plantas y, a cambio, permiten la fertilización floral al dispersar el polen.
+El mutualismo es un tipo de interacción ecológica que resulta beneficiosa para ambas especies. La polinización es el ejemplo típico. Los animales se alimentan del néctar o aceite que producen las plantas y, a cambio, permiten la fertilización floral al dispersar el polen.
 
-El estudio de las comunidades mutualistas es un campo de investigación muy activo. Los datos disponibles crecen gracias al esfuerzo de los ecólogos de campo. Estos datos son vitales para probar las hipótesis que intentan modelar este tipo de relación.
+El estudio de las comunidades mutualistas es un campo de investigación muy activo. Los datos disponibles crecen gracias al esfuerzo de los ecólogos de campo. Estos datos son vitales para probar las hipótesis que intentan modelar este tipo de relación cooperativa.
 
 La ciencia de redes ha demostrado ser una herramienta útil en el terreno de las interacciones ecológicas, siguiendo los pasos de su aplicación con éxito en el modelado de otras comunidades como las \textit{food webs}. La estructura de la red determina la dinámica de las poblaciones y la resistencia global del sistema.
 
 En esta tesis describimos algunas contribuciones basadas en la ciencia de redes para mejorar la comprensión de esta relación.
 
-Los modelos dinámicos de población se basan en la ecuación de Verhulst (ecuación logística) en la que la tasa de crecimiento de Malthus se limita por el término de competencia intraespecífica. Los modelos más utilizados en mutualismo son modificaciones de la ecuación logística con términos adicionales para reflejar el beneficio de las interacciones. Estos modelos tienen limitaciones como la divergencia bajo determinadas condiciones (modelo de May) o una complejidad matemática que dificulta su tratamiento analítico (modelos tipo II). En este trabajo presentamos dos modelos inspirados en la ecuación logística, uno con capacidad de carga constante y otro con saturación del beneficio.
+Los modelos dinámicos de población se basan en la ecuación de Verhulst (ecuación logística) en la que la tasa de crecimiento de Malthus se limita por el término de competencia intraespecífica. Los más utilizados en mutualismo son modificaciones de la ecuación logística con términos adicionales para reflejar el beneficio de las interacciones. Estos modelos tienen limitaciones como la divergencia bajo determinadas condiciones (modelo de May) o una complejidad matemática que dificulta su tratamiento analítico (modelos tipo II). En este trabajo presentamos dos modelos inspirados en la ecuación logística, uno con capacidad de carga constante y otro con saturación del beneficio.
 
 Las comunidades mutualistas muestran propiedades como el \textit{anidamiento} y la \textit{modularidad} que se miden en la literatura con diferentes indicadores globales. Proponemos una descripción del mutualismo basada en propiedades topológicas que revela una herramienta clásica de análisis de grafos, la \textit{descomposición k-core}.
 
@@ -267,15 +272,15 @@ Definimos tres \textit{k-magnitudes} para describir la compacidad, conectividad 
 \begin{declaration}
 \addchaptertocentry{\authorshipname}
 
-Mutualism is a kind of ecologocial interaction that results benefitial for both involved species. Pollination is the typical example. Pollinators feed of nectar, pollen or oil provided by plants and, in turn, enable flower fertilization when they disperse pollen.   
+Mutualism is a kind of ecological interaction that results benefitial for both involved species. Pollination is the typical example. Animales feed of nectar or oil provided by plants and, in turn, enable flower fertilization when they disperse pollen.   
 
 The study of mutualistic communities is a vey active research field. Available data are growing thanks to the efforts of field ecologists. These data are vital to test the theoretical hypotheses that try to model this kind of relationship.
 
 Network science has proved to be a useful tool in this walk, following the succesful steps of its application in other areas of ecologial modelling like food webs. Network structure influences population dynamics and the overall system resilience. 
 
-In this thesis we describe some contributions based on network science to improve the understanding of this kind of relationship. 
+In this thesis we describe some contributions based on network science to improve the understanding of this kind of cooperative relationship. 
 
-Dynamic population models are based on the Verhulst’s equation (logisitic equation), where the classic Malthusian growth rate is damped by intraspecific competition terms. Mainstream population models for mutualism are modifications of the logistic equation with additional terms to account for the benefits produced by the interspecies interactions. These models have shortcomings as the population divergence under some conditions (May’s equations) or a mathematical complexity that difficults their analytical treatment
+Dynamic population models are based on the Verhulst’s equation (logisitic equation), where the classic Malthusian growth rate is damped by intraspecific competition terms. Mainstream population models for mutualism are modifications of the logistic equation with additional terms to account for the benefits produced by the interspecies interactions. They have shortcomings as the population divergence under some conditions (May’s equations) or a mathematical complexity that difficults their analytical treatment
 (Wright’s type II models). In this work, we introduce two models inspired by the original logistic equation, one with constant carrying capacity and the other with saturation of mutualistic benefit.
 
 Mutualistic communities show properties like \textit{nestedness} or \textit{modularity}, that are measured in the literature with different global indicators. We propose a description of mutualism based on topological properties unveiled by a classical graph analysis tool, the \textit{k-core decomposition}.

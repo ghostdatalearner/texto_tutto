@@ -130,6 +130,39 @@
   \field{year}{2008}
 \endentry
 
+\entry{arnoldi2016resilience}{article}{}
+  \name{author}{3}{}{%
+    {{}%
+     {Arnoldi}{A.}%
+     {Jean-Fran{\c{c}}ois}{J.-F.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Loreau}{L.}%
+     {Michel}{M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Haegeman}{H.}%
+     {Bart}{B.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Elsevier}%
+  }
+  \strng{namehash}{AJFLMHB1}
+  \strng{fullhash}{AJFLMHB1}
+  \field{labelalpha}{ALH16}
+  \field{sortinit}{A}
+  \field{pages}{47\bibrangedash 59}
+  \field{title}{Resilience, reactivity and variability: A mathematical
+  comparison of ecological stability measures}
+  \field{volume}{389}
+  \field{journaltitle}{Journal of theoretical biology}
+  \field{year}{2016}
+\endentry
+
 \entry{almeida2008consistent}{article}{}
   \name{author}{5}{}{%
     {{}%
@@ -285,14 +318,14 @@
 \entry{atmar1986nested}{article}{}
   \name{author}{1}{}{%
     {{}%
-     {ATMAR}{A.}%
-     {WIRT}{W.}%
+     {Atmar}{A.}%
+     {Wirt}{W.}%
      {}{}%
      {}{}}%
   }
   \strng{namehash}{AW1}
   \strng{fullhash}{AW1}
-  \field{labelalpha}{ATM86}
+  \field{labelalpha}{Atm86}
   \field{sortinit}{A}
   \field{pages}{65\bibrangedash 82}
   \field{title}{Nested subsets and the structure of insular mammalian faunas
@@ -483,7 +516,7 @@
   \field{number}{11}
   \field{title}{The Critical Periphery in the Growth of Social Protests}
   \field{volume}{10}
-  \field{journaltitle}{PloS one}
+  \field{journaltitle}{PloS One}
   \field{year}{2015}
 \endentry
 
@@ -663,6 +696,40 @@
   \field{volume}{325}
   \field{journaltitle}{Science}
   \field{year}{2009}
+\endentry
+
+\entry{ballantyne2015constructing}{inproceedings}{}
+  \name{author}{3}{}{%
+    {{}%
+     {Ballantyne}{B.}%
+     {G}{G}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Baldock}{B.}%
+     {Katherine~CR}{K.~C.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Willmer}{W.}%
+     {Patricia~Gillian}{P.~G.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{organization}{1}{%
+    {The Royal Society}%
+  }
+  \strng{namehash}{BGBKCWPG1}
+  \strng{fullhash}{BGBKCWPG1}
+  \field{labelalpha}{BBW15}
+  \field{sortinit}{B}
+  \field{booktitle}{Proc. R. Soc. B}
+  \field{number}{1814}
+  \field{pages}{20151130}
+  \field{title}{Constructing more informative plant--pollinator networks:
+  visitation and pollen deposition networks in a heathland plant community}
+  \field{volume}{282}
+  \field{year}{2015}
 \endentry
 
 \entry{bascompte2007plant}{article}{}
@@ -1766,6 +1833,39 @@
   \field{year}{2014}
 \endentry
 
+\entry{gao2016universal}{article}{}
+  \name{author}{3}{}{%
+    {{}%
+     {Gao}{G.}%
+     {Jianxi}{J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Barzel}{B.}%
+     {Baruch}{B.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Barab{\'a}si}{B.}%
+     {Albert-L{\'a}szl{\'o}}{A.-L.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Nature Publishing Group}%
+  }
+  \strng{namehash}{GJBBBAL1}
+  \strng{fullhash}{GJBBBAL1}
+  \field{labelalpha}{GBB16}
+  \field{sortinit}{G}
+  \field{number}{7590}
+  \field{pages}{307\bibrangedash 312}
+  \field{title}{Universal resilience patterns in complex networks}
+  \field{volume}{530}
+  \field{journaltitle}{Nature}
+  \field{year}{2016}
+\endentry
+
 \entry{genini2010cheaters}{article}{}
   \name{author}{4}{}{%
     {{}%
@@ -2041,17 +2141,10 @@
   \strng{fullhash}{GJZM1}
   \field{labelalpha}{GZ16}
   \field{sortinit}{G}
-  \verb{doi}
-  \verb 10.1007/s11829-016-9431-2
-  \endverb
-  \field{issn}{1872-8847}
   \field{number}{3}
   \field{pages}{263\bibrangedash 271}
   \field{title}{What if we lose a hub? Experimental testing of pollination
   network resilience to removal of keystone floral resources}
-  \verb{url}
-  \verb http://dx.doi.org/10.1007/s11829-016-9431-2
-  \endverb
   \field{volume}{10}
   \field{journaltitle}{Arthropod-Plant Interactions}
   \field{year}{2016}
@@ -2220,7 +2313,7 @@
   \field{pages}{e74025}
   \field{title}{Factors determining nestedness in complex networks}
   \field{volume}{8}
-  \field{journaltitle}{PloS one}
+  \field{journaltitle}{PloS One}
   \field{year}{2013}
 \endentry
 
@@ -4110,7 +4203,7 @@
   \field{title}{Estimating the tolerance of species to the effects of global
   environmental change}
   \field{volume}{4}
-  \field{journaltitle}{NATURE}
+  \field{journaltitle}{Nature}
   \field{year}{2013}
 \endentry
 
@@ -4243,7 +4336,7 @@
 \entry{smith2005diversity}{article}{}
   \name{author}{5}{}{%
     {{}%
-     {SMITH-RAM{\'I}REZ}{S.-R.}%
+     {Smith-Ram{\'i}rez}{S.-R.}%
      {Cecilia}{C.}%
      {}{}%
      {}{}}%

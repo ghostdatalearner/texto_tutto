@@ -8,7 +8,7 @@
 
 \section{Introducción}
 
-El paquete \texttt{kcorebip} realiza la descomposición \texttt{k-core} de una red y su análisis y permite dibujar los diagramas \textit{polar}
+El paquete \texttt{kcorebip} realiza la \textit{descomposición k-core} de una red y su análisis y permite dibujar los diagramas \textit{polar}
 y \textit{zigurat}. Funciona para cualquier tipo de red bipartita aunque en lo que sigue se utilizará la terminología de las redes mutualistas.
 
 Se instala desde \texttt{github} usando el comando \texttt{install\_github}$("$\path{jgalgarra/kcorebip}$")$, para lo cual previamente se tiene que cargar el paquete \texttt{devtools}.
@@ -16,7 +16,7 @@ Se instala desde \texttt{github} usando el comando \texttt{install\_github}$("$\
 \section{Formato del fichero de entrada}
 \label{input_file_format}
 
-En \texttt{kcorebip} se utiliza el formato de fichero de entrada de la base de datos \href{http://www.web-of-life.es/}{web of life} \cite{bascompte2009}. Los datos se almacenan en ficheros \texttt{.csv} utilizando como separador la coma y entrecomillando las cadenas de caracteres con los nombres de las especies. Las especies de la clase \textit{a} se distribuyen por columnas y las de nodos \textit{b} por fileas. La primera columna contiene las etiquetas de las especies de la clase b, y la primera fila, las etiquetas de la clase a. Si la matriz de adyacencia es binaria, la celda $especie\_a\_m,especie\_b\_n$ estará rellena con $1$ si hay enlace y con $0$ si no lo hay. Si es pesada, con un numero real diferente de $0$ en el caso de que las especies interactúen.
+En \texttt{kcorebip} se utiliza el formato de fichero de entrada de la base de datos \href{http://www.web-of-life.es/}{web of life} \cite{bascompte2009}. Los datos se almacenan en ficheros \texttt{.csv} utilizando como separador la coma y entrecomillando las cadenas de caracteres con los nombres de las especies. Las especies de la clase \textit{a} se distribuyen por columnas y las de nodos \textit{b} por filas. La primera columna contiene las etiquetas de las especies de la clase b, y la primera fila, las etiquetas de la clase a. Si la matriz de adyacencia es binaria, la celda $especie\_a\_m,especie\_b\_n$ estará rellena con $1$ si hay enlace y con $0$ si no lo hay. Si es pesada, con un numero real diferente de $0$ en el caso de que las especies interactúen.
 
 La norma para nombrar los ficheros es $M\_XX\_NNN.csv$ donde $XX$ es el tipo, $PL$ para redes de polinizadores y $SD$ para dispersores, y $NNN$ un número de serie. No obstante, los ficheros pueden tener el nombre que se desee.
 
@@ -47,19 +47,19 @@ Argumentos:
 	
 \item \texttt{directory}: directorio en el que se encuentra el fichero de la matriz.
 
-\item \texttt{guild\_a}: prefijo para los nodos almacenadoa en las filas.
+\item \texttt{guild\_a}: prefijo para los nodos almacenados en las filas.
 
-\item \texttt{guild\_b}: prefijo para los nodos almacenadoa en las columnas.
+\item \texttt{guild\_b}: prefijo para los nodos almacenados en las columnas.
 
-\item \texttt{plot\_graphs}: represeantar el histograma de \textit{k-shells} y un gráfico Kamada Kawai.
+\item \texttt{plot\_graphs}: representar el histograma de \textit{k-shells} y un gráfico Kamada Kawai.
 
-\item \texttt{only\_NODF}: cacular sólo la medida de anidamiento $NODF$.
+\item \texttt{only\_NODF}: calcular sólo la medida de anidamiento $NODF$.
 
 \end{itemize}
 
 La función devuelve:
 \begin{itemize}
-\item \texttt{calc\_values}, una lista que contiene los sigiuentes objetos:
+\item \texttt{calc\_values}, una lista que contiene los siguientes objetos:
    \begin{itemize}
    
 \item \texttt{graph}: la red descrita como un objeto del tipo \texttt{igraph::graph}.
@@ -111,9 +111,9 @@ polar_graph <- function( red, directorystr = "data/",
 \end{verbatim}
 \normalsize
 
-Los parámetros \texttt{red}, \texttt{directorystr} y \texttt{plotsdir} son el nombre de la matriz de adyacencia, el directorio en el que se encuentra y el directorio de salida. Si \texttt{print\_to\_file} es \texttt{FALSE} el diagrama se representa en ventana de la sesión \texttt{R} desde la que se lanza el comando. El nombre del fichero de salida es el del fichero de entrada al que se añade \texttt{\_polar.png}. Los paths son relativos al directorio de trabajo de la sesión \texttt{R} pero también pueden especificarse paths absolutos.
+Los parámetros \texttt{red}, \texttt{directorystr} y \texttt{plotsdir} son el nombre de la matriz de adyacencia, el directorio en el que se encuentra y el directorio de salida. Si \texttt{print\_to\_file} es \texttt{FALSE} el diagrama se representa en ventana de la sesión \texttt{R} desde la que se lanza el comando. El nombre del fichero de salida es el del fichero de entrada al que se añade \texttt{\_polar.png}. Los \textit{paths} son relativos al directorio de trabajo de la sesión \texttt{R} pero también pueden especificarse \textit{paths} absolutos.
 
-Los ficheros de salida tienen una resolución de 600 dpi y un tamaño de 12 x 12 pulgadas. Si el gráfico se presenta en la ventana de la sesión, los tamaños de las etqiuetas pueden variar en función de las fuentes instaladas y del tamaño de la ventana.
+Las imágenes en los ficheros de salida tienen una resolución de 600 dpi y un tamaño de 12 x 12 pulgadas. Si el gráfico se presenta en la ventana de la sesión, los tamaños de las etiquetas pueden variar en función de las fuentes instaladas y del tamaño de la ventana.
 
 El siguiente comnando crea el fichero \texttt{M\_PL\_001\_polar.png} en el directorio \texttt{grafresults/}
 

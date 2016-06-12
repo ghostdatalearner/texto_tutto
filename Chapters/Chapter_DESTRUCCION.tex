@@ -3,9 +3,9 @@
 \chapter{Estudio de resistencia} % Main chapter title
 \label{ChapterDESTRUCCION}  % Change X to a consecutive number; for referencing this chapter elsewhere, use \ref{ChapterX}
 
-La resistencia de una red mutualista ante circunstancias adversas, como enfermedades, sequías o desastres naturales, es un asunto del máximo interés práctico. Las políticas de conservación necesitan basarse en datos que permitan predecir el efecto sobre la comunidad de la pérdida de determinadas especies o de la introducción de otras previamente desaparecidas. Para ello, hay que poder medir la importancia de cada especie para la supervivencia de la red total, o de las especies de una de las clases.
+La resistencia de una red mutualista ante circunstancias adversas, como enfermedades o catástrofes naturales, es un asunto del máximo interés ecológico. Las políticas de conservación necesitan basarse en datos que permitan predecir el efecto sobre la comunidad de la pérdida de determinadas especies o de la introducción de otras previamente desaparecidas. Para ello, hay que poder medir la importancia de cada especie para la supervivencia de la red total, o de las especies de una de las clases.
 
-En este capítulo se expone como las \textit{k magnitudes} pueden contribuir a este propósito, al proporcionar criterios de ordenación con un enfoque novedoso.
+En este capítulo se expone como las \textit{k-magnitudes} pueden contribuir a este propósito, al proporcionar criterios de ordenación con un enfoque novedoso.
 
 %----------------------------------------------------------------------------------------
 %	SECTION 1
@@ -13,12 +13,12 @@ En este capítulo se expone como las \textit{k magnitudes} pueden contribuir a e
 
 \section{Medición de la resistencia}
 
-La resistencia de una red ecológica es un concepto complejo. En términos muy generales puede entenderse como la capacidad de supervivencia del sistema ante eventos adversos. Esta definición no resulta satisfactoria si no puede concretarse en una magnitud objetiva. El problema se presenta al escoger la propiedad medible y el método de perturbación. No es lo mismo estudiar la dinámica de las poblaciones ante perturbaciones temporales, que los cambios en la estructura de la red si desaparecen especies o interacciones. Tampoco se obtiene el mismo índice si se miden el tamaño de la componente gigante resultante, el número de especies o el número total de individuos. Por eso, al hablar de resistencia de las comunidades mutualistas, es imprescindible definir con rigor qué se va a medir y cómo se va a alterar la red original.
+La resistencia de una red ecológica es un concepto complejo \cite{arnoldi2016resilience}. En términos muy generales puede entenderse como la capacidad de supervivencia del sistema ante eventos adversos. Esta definición no resulta satisfactoria si no puede concretarse en una magnitud objetiva. El problema se presenta al escoger la propiedad medible y el método de perturbación. No es lo mismo estudiar la dinámica de las poblaciones ante perturbaciones temporales, que los cambios en la estructura de la red si desaparecen especies o interacciones. Tampoco se obtiene el mismo índice si se miden el tamaño de la componente gigante resultante, el número de especies o el número total de individuos. Por eso, al hablar de resistencia de las comunidades mutualistas, es imprescindible definir con rigor qué se va a medir y cómo se va a alterar la red original.
 
 Pueden distinguirse dos grandes líneas en el estudio de la resistencia. La más extendida es la estática, se modifica la red eliminando nodos, o más raramente enlaces, y se mide cuantas especies sobreviven \cite{memmott2004tolerance, ebenman2005using, kaiser2010robustness}. Esta forma de trabajar se heredó de la investigación sobre \textit{food webs}, que recordemos que son unipartitas \cite{dunne2002biodiversity, dunne2009cascading}. Para estas comunidades se ha usado la \textit{conectancia} como parámetro de estudio, pero como ya se expuso en la introducción es poco descriptivo en el mutualismo.
 El método más habitual consiste en provocar extinciones primarias en una de las clases de especies, normalmente en los animales, y medir su efecto sobre la clase contraria.
 
-La otra forma de abordar el problema consiste en perturbar modelos dinámicos o estadísticos y medir el efecto sobre las poblaciones \cite{thebault2010stability, saavedra2013estimating, suweis2013emergence}. Estos procedimientos son más complejos de simular.
+La otra forma de abordar el problema consiste en perturbar modelos dinámicos o estadísticos y medir el efecto sobre las poblaciones \cite{thebault2010stability, saavedra2013estimating, suweis2013emergence}. Estos procedimientos son más complejos de simular. En un trabajo reciente Gao \textit{et al.} llevan a cabo un estudio analítico de la resistencia de las redes complejas definiendo una \textit{resilience function} que reduce la dimensionalidad del problema y utilizan el modelo II de dinámica mutualista como ejemplo \cite{gao2016universal}. 
 
 La aproximación estática es más simple y es la que seguiremos en este capítulo, pero es necesario señalar sus principales limitaciones. Una es suponer que una especie desaparece solo cuando pierde todos sus enlaces. Esto es evidente en el caso de las especialistas puras que dependen de una sola benefactora para sobrevivir, pero no lo es tanto cuando reciben beneficio de varias pero no con la misma intensidad. El otro gran inconveniente es manejar la red como una entidad inalterable. La extinción de una especie puede hacer que otras a las que desplazaba en el consumo de recursos se puedan aprovechar de los que deja libres. Este tipo de recableado natural ocurre en la naturaleza y altera las condiciones de partida \cite{ramos2012topological, Goldstein2016, timoteo2016high}.
 
@@ -26,11 +26,11 @@ En este tipo de simulaciones es crucial el orden de extinción. No es lo mismo r
 
 \section{Métodos}
 
-En esta investigación hemos usado dos procedimientos de medida de la resistencia según la aproximación estática. En el primero, se ordenan las especies según uno de los criterios que se explicarán a continuación y se van retirando una a una de mayor a menor. No se hace distinción entre clases, pueden producirse extinciones primarias tanto de animales como de plantas. El resultado que se mide es el tamaño de la componente gigante resultante y qué fracción representa de la componente gigante original. El procedimiento se detiene cuando este es la mitad o menos y se registra el número de extinciones primarias que han conducido a ese punto. Se puede comparar la eficacia de los distintos criterios de ordenación sobre la colección de redes midiendo el procentaje que ese número de especies representa sobre dicha componente original.
+En esta investigación hemos usado dos procedimientos de medida de la resistencia según la aproximación estática. En el primero, se ordenan las especies según uno de los criterios que se explicarán a continuación y se van retirando una a una de mayor a menor. No se hace distinción entre clases, pueden producirse extinciones primarias tanto de animales como de plantas. El resultado que se mide es el tamaño de la componente gigante resultante y qué fracción representa de la componente gigante original. El procedimiento se detiene cuando este es la mitad o menos y se registra el número de extinciones primarias que han conducido a ese punto. Se puede comparar la eficacia de los distintos criterios de ordenación sobre la colección de redes midiendo el porcentaje que ese número de especies representa sobre dicha componente original.
 
 El propósito de esta medida es comprobar la resistencia de la red de una manera global. La supervivencia de los fragmentos que puedan quedar aislados de la componente gigante no es crítica para la de la red, porque estamos suponiendo que no hay recableado y que por tanto no se vuelven a conectar.
 
-Los índices de ordenación son: $grado$, ${k}_{degree}$, $centralidad$ $del$ $vector$ $propio$ y ${k}_{risk}$. Los dos primeros ya han aparecido en los capítulos precedentes. La centralidad del vector propio mide la importancia del nodo de una red por la de sus vecinos y se calcula como el vector propio de la matriz de adyacencia \cite{newman2008mathematics}. En nuestra implementación se ha usado la función \texttt{evcent} del paquete \textit{igrpah} de \textit{R}.
+Los índices de ordenación son: $grado$, ${k}_{degree}$, $centralidad$ $del$ $vector$ $propio$ y ${k}_{risk}$. Los dos primeros ya han aparecido en los capítulos precedentes. La centralidad del vector propio mide la importancia del nodo de una red por la de sus vecinos y se calcula como el vector propio de la matriz de adyacencia \cite{newman2008mathematics}. En nuestra implementación se ha usado la función \texttt{evcent} del paquete \texttt{igrah} de \texttt{R}.
 
 El último índice que utilizaremos es una nueva \textit{k magnitud}, que se añade a definidas en \ref{sec:ESTATICA_defkmagnitudes}. 
 
@@ -52,7 +52,7 @@ Es un índice relativo porque sirve para ordenar los nodos de una red, pero no e
 \centering
 \includegraphics[scale=0.5]{Figures/RES_M_SD_028_ziggurat.png}
 \caption{Diagrama zigurat de una de dispersores en la Cañada Travina, Sierra de Cazorla. Compilada por Pedro Jordano, no publicada.}
-\label{fig:ESTATICA_kcore_decomposition_example}
+\label{fig:RES_M_SD_028_ziggurat}
 \end{figure}
 
 La planta $2$ que pertenece a la \textit{shell} máxima solo tiene conexión a una especie de índice $k$ inferior, el dispersor $5$ de la $2$-$shell$. Por tanto:
@@ -62,7 +62,7 @@ k^A_{risk}\left(2\right) = k^A_{shell}\left(2\right) - k^B_{shell}\left(5\right)
 \label{krisk_example}
 \end{equation}
 
-Algo más laborioso pero igualmente simple es el cálculo de esta magnitud para el dispersor $1$:
+Algo más elaborado pero no complicado es el cálculo de esta magnitud para el dispersor $1$:
 
 \begin{flalign}
 k^B_{risk}\left(1\right) &= k^B_{shell}\left(1\right) - k^A_{shell}\left(8\right) + k^B_{shell}\left(1\right) - k^A_{shell}\left(5\right) + &&\nonumber\\
@@ -74,11 +74,12 @@ En la tabla \ref{tab:pars_SD_028} pueden verse los valores de los cuatro índice
 al ordenar por uno u otro criterio, pero en redes mayores sí se producen y tienen consecuencias como se verá en la sección de resultados.
 
 
+
 % Table generated by Excel2LaTeX from sheet 'M_SD_028_analysis'
 \begin{table}[htbp]
   \centering
-  \small
-    \begin{tabular}{rrrrrrr}
+  \normalsize
+    \begin{tabular}{lrrrrrr}
     \toprule
     $Especie$ & $k shell$ & ${k}_{radius}$ & ${k}_{degree}$ & ${k}_{risk}$ & $degree$ & $eigenc$ \\
 \midrule
@@ -118,12 +119,12 @@ El orden lo proporcionan los mismos índices que en el experimento anterior, má
 \stepcounter{equation}\tag{\theequation}\label{eq:DEST_MusRank}
 \end{align}
 
-Donde $\tilde{I}^{(n)}_{A}$ y $\tilde{V}^{(n)}_{P}$ son los valores de dichos índices en la iteración $n$ y ${M}_{AP}$ la matriz de adyacencia que se trata siempre como binaria. El índice de importancia se calcula como el sumatorio de los índices de vulnerabilidad de las especies conectadas en la iteración anterior. El de vulnerabilidad es la inversa del sumatorio de los inversos de los índices de importancia. En cada iteración, las variables $\tilde{I}^{(n)}_{A}$ y $\tilde{V}^{(n)}_{P}$ se normalizan. El algoritmo comienza asignando el valor $1$ a todos los índices. Mediante el procedimiento iterativo terminan convergiendo. Los autores no proporcionan una prueba estricta de convergencia. Para esta investigación se ha utilizado la implementación en \texttt{python} desarrollada por el Grupo de Sistemas Complejos de la UPM que ha convergido para todas las redes en menos de $50$ ciclos. Una vez aplicado el algoritmo \textit{MusRank} se emplea el índice de importancia de las especies animales como criterio de ordenación.
+Donde $\tilde{I}^{(n)}_{A}$ y $\tilde{V}^{(n)}_{P}$ son los valores de dichos índices en la iteración $n$ y ${M}_{AP}$ la matriz de adyacencia que se trata siempre como binaria. El índice de importancia se calcula como el sumatorio de los índices de vulnerabilidad de las especies conectadas en la iteración anterior. El de vulnerabilidad es la inversa del sumatorio de los inversos de los índices de importancia. En cada iteración, las variables $\tilde{I}^{(n)}_{A}$ y $\tilde{V}^{(n)}_{P}$ se normalizan. El algoritmo comienza asignando el valor $1$ a todos los índices. Mediante el procedimiento iterativo terminan convergiendo. Los autores no proporcionan una prueba estricta de convergencia. Para esta investigación se ha utilizado la implementación en \texttt{Python} desarrollada por el Grupo de Sistemas Complejos de la UPM que ha convergido para todas las redes en menos de $50$ ciclos. Una vez aplicado el algoritmo \textit{MusRank} se emplea el índice de importancia de las especies animales como criterio de ordenación.
 
 \begin{figure}[h!]
 \centering
-\includegraphics[scale=0.8]{Figures/DEST_M_PL_001_MRdunne_extinction_plot.png}
-\caption{Curva de destrucción de la red de polinizadores $001$ ordenada por $MusRank$ y midiendo la fracción de plantas sobreviviente. El área bajo la curva es 0.312 (tabla \ref{table:dunne_destruction}).}
+\includegraphics[scale=1]{Figures/DEST_M_PL_001_MRdunne_extinction_plot.png}
+\caption{Curva de destrucción de la red de polinizadores $001$ ordenada por $MusRank$ y midiendo la fracción de plantas sobreviviente. El área normalizada bajo la curva es 0.312 (tabla \ref{table:dunne_destruction}).}
 \label{fig:DEST_M_PL_001_MRdunne_extinction_plot}
 \end{figure}
 
@@ -131,18 +132,22 @@ Donde $\tilde{I}^{(n)}_{A}$ y $\tilde{V}^{(n)}_{P}$ son los valores de dichos í
 
 El efecto de la extinción de un pequeño porcentaje de especies muy centrales puede resultar dramático para la comunidad, como muestra la figura \ref{fig:DEST_M_PL_012_ziggurat_hf_destruction}. Se han retirado tan solo $7$ especies de las $81$ originales, empleando como criterio de ordenación ${k}_{risk}$. La red queda reducida a menos de la mitad de su tamaño. La estructura interna se degrada de manera evidente, el núcleo central es una $2$-$shell$ y hay numerosas especies en la $1$-$shell$ muy expuestas. Por ejemplo, la desaparición de la especie de planta número $4$ con esta configuración arrastraría a $8$ especies adicionales.
 
-\begin{figure}[h!]
+\begin{figure}[htp!]
 \centering
-\includegraphics[scale=0.25]{Figures/DEST_M_PL_012_ziggurat_hf_destruction.eps}
-\caption {Destrucción de la componente gigante de la red de polinizadores número $012$ (Olesen, unpublished), ordenando por $k_{risk}$. A la izquierda, la red original con $84$ especies. A la derecha, la componente gigante que queda tras retirar las $7$ especies más importantes, siguiendo esta secuencia: $planta1$, $planta2$, $polinizador2$, $polinizador1$, $planta3$, $planta6$ y $planta5$.}
+\includegraphics[scale=0.12]{Figures/DEST_M_PL_012_ziggurat_hf_destruction.png}
+\caption {Destrucción de la componente gigante de la red de polinizadores número $012$ (Olesen, unpublished), ordenando por $k_{risk}$. Arriba, la red original con $84$ especies. Abajo, la componente gigante que queda tras retirar las $7$ especies más importantes, siguiendo esta secuencia: $planta1$, $planta2$, $polinizador2$, $polinizador1$, $planta3$, $planta6$ y $planta5$.}
 \label{fig:DEST_M_PL_012_ziggurat_hf_destruction}
 \end{figure}
 
-En la tabla \ref{table:DEST_halfgc_destruction} se han recogido los resultados del primer procedimiento de destrucción, medido en número de especies que hay que eliminar de la red, siguiendo el orden del criterio especificado para destruir la mitad de la componente gigante. Según estos datos, $k_{risk}$ es el criterio más destructivo y por tanto el más eficaz para $76$ de las $89$ redes $(85.39\%)$; $k_{degree}$ para $44$, $(49.44\%)$; $degree$ para $58$, $(65.17\%)$ y
+En la tabla \ref{table:DEST_halfgc_destruction} se han recogido los resultados del primer procedimiento de destrucción, medido en número de especies que hay que eliminar de la red, siguiendo el orden del criterio especificado para destruir la mitad de la componente gigante.
+
+En el eje horizontal se representa el porcentaje de especies animales que se extinguen. En el vertical, el porcentaje de especies vegetales que sobreviven. El área normalizada bajo la curva será menor cuanto más rápidamente desaparezcan estas últimas como consecuencia de las extinciones primarias. El índice más eficaz para destruir la red el que da lugar al área menor. El uso de áreas normalizadas permite también comparar el comportamiento de dos redes a pesar de sus diferentes estructuras y tamaños.
+
+Según estos datos, $k_{risk}$ es el criterio más destructivo y por tanto el más eficaz para $76$ de las $89$ redes $(85.39\%)$; $k_{degree}$ para $44$, $(49.44\%)$; $degree$ para $58$, $(65.17\%)$ y
 $eigenvector$ $centrality$ es el mejor para $29$ redes $(32.58\%)$. En numerosas ocasiones, sobre todo si la red es pequeña, varios índices pueden producir el
 resultado óptimo, por eso la suma no es el $100\%$.
 
-En la parte superior de la figura \ref{fig:DEST_krisk_kdegree_comparison_ES} se comparan los rendimiento de los dos índices más eficaces. Se aprecia que ${k}_{risk}$ funciona de manera óptima cuando la destrucción se logra retirando un pequeño porcentaje de especies.
+En la parte superior de la figura \ref{fig:DEST_krisk_kdegree_comparison_ES} se comparan los rendimientos de los dos índices más eficaces. Se aprecia que ${k}_{risk}$ funciona de manera óptima cuando la destrucción se logra retirando un pequeño porcentaje de especies.
 
 \clearpage
 \begin{figure}[h!]
@@ -152,7 +157,7 @@ En la parte superior de la figura \ref{fig:DEST_krisk_kdegree_comparison_ES} se 
 \label{fig:DEST_krisk_kdegree_comparison_ES}
 \end{figure}
 
-En la parte inferior se ha representado el porcentaje de extinciones primarias que provoca la destrucción de la mitad de la componente gigante en función del tamaño de la red, usando ${k}_{risk}$. Para las redes muy pequeñas el porcentaje es grande, y se reduce de forma log lineal hasta llegar a las $100$ especies. A partir de ese punto, el porcentaje se estabiliza en torno al $12\%$. La gráfica es similar si en lugar de ${k}_{risk}$ se emplea otro criterio.
+En la parte inferior de \ref{fig:DEST_krisk_kdegree_comparison_ES} se ha representado el porcentaje de extinciones primarias que provoca la destrucción de la mitad de la componente gigante en función del tamaño de la red, usando ${k}_{risk}$. Para las redes muy pequeñas el porcentaje es grande, y se reduce de forma log lineal hasta llegar a las $100$ especies. A partir de ese punto, el porcentaje se estabiliza en torno al $12\%$. La gráfica es similar si en lugar de ${k}_{risk}$ se emplea otro criterio.
 
 Los resultados del segundo método de destrucción (extinción solo de especies animales) se recogen en las tablas \ref{table:dunne_destruction} y \ref{table:juanma_destruction}. En la primera se tiene en cuenta la fracción de especies vegetales sobrevivientes y en la segunda la de la componente gigante que queda. Se mide el área bajo la curva de extinción; cuanto menor es, más destructivo es el criterio de ordenación.
 
@@ -163,7 +168,7 @@ Los resultados del segundo método de destrucción (extinción solo de especies 
 \label{fig:DEST_M_PL_044_juanmamethod_extinction_plot}
 \end{figure}
 
-A primera vista, los resultados son paradójicos. Midiendo la fracción de especies de plantas $MusRank$ es el mejor índice de destrucción para $89$ redes $(100\%)$; $k_{risk}$ para $7$, $(7.87\%)$; $k_{degree}$ para $8$, $(8.99\%)$; $degree$ para $8$, $(8.99\%)$ y $eigenvector$ $centrality$ el mejor para $8$ redes $(8.99\%)$. El comportamiento óptimo de $MusRank$ es el esperado, y está de acuerdo con lo publicado por \cite{dominguez2015ranking}. Hay que tener en cuenta que es un índice que se elabora teniendo en cuenta la naturaleza bipartita de la red y que este procedimiento mide los efectos de la perturbación sobre una clase en la contraria. El resto de índices, incluyendo las \textit{k magnitudes}, miden propiedades generales de la red.
+A primera vista, los resultados son paradójicos. Midiendo la fracción superviviente de especies vegetales, $MusRank$ es el mejor índice de destrucción para $89$ redes $(100\%)$; $k_{risk}$ para $7$, $(7.87\%)$; $k_{degree}$ para $8$, $(8.99\%)$; $degree$ para $8$, $(8.99\%)$ y $eigenvector$ $centrality$ el mejor para $8$ redes $(8.99\%)$. El comportamiento óptimo de $MusRank$ es el esperado, y está de acuerdo con lo publicado por \cite{dominguez2015ranking}. Hay que tener en cuenta que es un índice que se elabora partiendo de la naturaleza bipartita de la red y que este procedimiento mide los efectos de la perturbación sobre una clase en la contraria. El resto de índices, incluyendo las \textit{k magnitudes}, miden propiedades generales de la red.
 
 Realizando la misma secuencia de extinciones primarias pero midiendo la fracción de componente gigante que queda, el rendimiento es muy diferente. $MusRank$ es el mejor solo para $18$ redes $(20.22\%)$; $k_{risk}$ para $39$, $(43.82\%)$; $k_{degree}$ para $58$, $(65.17\%)$; $degree$ para $44$, $(49.44\%)$ y $eigenvector$ $centrality$para $23$ redes $(25.84\%)$. Los índices basados en \textit{k magnitudes} pasan a ser óptimos y $MusRank$ a la última posición.
 
@@ -178,7 +183,7 @@ Para comprender la diferencia, el diagrama de zigurat resulta de gran ayuda.
 \label{fig:DEST_M_PL_007_ziggurat.png}
 \end{figure}
 
-La figura \ref{fig:DEST_M_PL_007_ziggurat.png} es una red de $36$ especies de planta y $16$ de polinizador. Dos de ellas se encuentran desconectadas de la componente gigante por lo que el tamaño original de esta es $50$. Se provocan $10$ extinciones primarias, siguiendo dos criterios, ${k}_{degree}$ y $MusRank$. En el gráfico \ref{fig:DEST_destruccion_PL007.png} se ven los resultados. Mientras que $MusRank$ produce más extinciones de plantas, ${k}_{degree}$ reduce más el tamaño de la componente gigante. Además, la estructura de la red resultante con ${k}_{degree}$ es más frágil, con una \textit{shell} máxima $2$. La red que queda con $MusRank$ muestra una estructura más compleja y un núcleo central mejor conectado.
+La figura \ref{fig:DEST_M_PL_007_ziggurat.png} es una red de $36$ especies de planta y $16$ de polinizadores. Dos de ellas se encuentran desconectadas de la componente gigante por lo que el tamaño original de esta es $50$. Se provocan $10$ extinciones primarias, siguiendo dos criterios, ${k}_{degree}$ y $MusRank$. En el gráfico \ref{fig:DEST_destruccion_PL007.png} se ven los resultados. Mientras que $MusRank$ produce más extinciones de plantas, ${k}_{degree}$ reduce más el tamaño de la componente gigante. Además, la estructura de la red resultante con ${k}_{degree}$ es más frágil, con una \textit{shell} máxima $2$. La red que queda con $MusRank$ muestra una estructura más compleja y un núcleo central mejor conectado.
 
 Este ejemplo explica la paradoja de como un mismo criterio puede resultar óptimo o mediocre en función de lo que se mida y esto tiene repercusiones prácticas. Si la política de conservación busca mantener la biodiversidad vegetal, $MusRank$  identifica mejor en qué especies de polinizadores deben
 centrarse los esfuerzos. Si, por el contrario, lo que se pretende es conservar la comunidad en su conjunto, ${k}_{degree}$ señala las especies capitales, sin importar la clase a la que pertenecen.
@@ -331,7 +336,7 @@ $eigenvector$ $centrality$ es el mejor para $29$ redes $(32.58\%)$.}
     \bottomrule
     \end{tabular}%
     \end{adjustbox}
-    \caption{\label{table:dunne_destruction} Áreas bajo las curvas normalizadas de destrucción, de acuerdo al índice del rango especificados, cuando la fracción de plantas supervivientes se representa en relación a la fracción de extinciones de animales. $MusRank$ es el mejor para $89$ redes $(100\%)$;
+    \caption{\label{table:dunne_destruction} Áreas bajo las curvas normalizadas de destrucción, de acuerdo al índice de ordenación especificado, cuando la fracción de plantas supervivientes se representa en relación a la fracción de extinciones de animales. $MusRank$ es el mejor para $89$ redes $(100\%)$;
 $k_{risk}$ el mejor para $7$, $(7.87\%)$; $k_{degree}$ para $8$, $(8.99\%)$; $degree$ para $8$, $(8.99\%)$ y
 $eigenvector$ $centrality$ el mejor para $8$ redes $(8.99\%)$.}
 %[1] "Juanma code with dunnemethod"
@@ -400,9 +405,9 @@ $eigenvector$ $centrality$ el mejor para $8$ redes $(8.99\%)$.}
     \bottomrule
     \end{tabular}%
     \end{adjustbox}
-    \caption{\label{table:juanma_destruction} Áreas bajo las curvas normalizadas de destrucción, de acuerdo al índice del rango especificados, cuando la fracción de la componente gigante superviviente se representa en relación a la fracción de extinciones de animales. $MusRank$ es el mejor para $18$ redes $(20.22\%)$;
+    \caption{\label{table:juanma_destruction} Áreas bajo las curvas normalizadas de destrucción, de acuerdo al índice de prdenación especificado, cuando la fracción de la componente gigante superviviente se representa en relación a la fracción de extinciones de animales. $MusRank$ es el mejor para $18$ redes $(20.22\%)$;
 $k_{risk}$ para $39$, $(43.82\%)$; $k_{degree}$ para $58$, $(65.17\%)$; $degree$ para $44$, $(49.44\%)$ y
-$eigenvector$ $centrality$ es el mehor para $23$ redes $(25.84\%)$.}
+$eigenvector$ $centrality$ es el mejor para $23$ redes $(25.84\%)$.}
 %[1] "Juanma code with juanmamethod"
 %[1] "krisk is the best for 39 networks (43.82%)"
 %[1] "kdegree is the best for 58 networks (65.17%)"
