@@ -1833,6 +1833,49 @@
   \field{year}{2014}
 \endentry
 
+\entry{garcia2014rethinking}{article}{}
+  \name{author}{5}{}{%
+    {{}%
+     {Garc{\'\i}a-Algarra}{G.-A.}%
+     {Javier}{J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Galeano}{G.}%
+     {Javier}{J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Pastor}{P.}%
+     {Juan~Manuel}{J.~M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Iriondo}{I.}%
+     {Jos{\'e}~Mar{\'\i}a}{J.~M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Ramasco}{R.}%
+     {Jos{\'e}~J}{J.~J.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Elsevier}%
+  }
+  \strng{namehash}{GAJ+1}
+  \strng{fullhash}{GAJGJPJMIJMRJJ1}
+  \field{labelalpha}{GA+14}
+  \field{sortinit}{G}
+  \field{pages}{332\bibrangedash 343}
+  \field{title}{Rethinking the logistic approach for population dynamics of
+  mutualistic interactions}
+  \field{volume}{363}
+  \field{journaltitle}{Journal of theoretical biology}
+  \field{year}{2014}
+\endentry
+
 \entry{gao2016universal}{article}{}
   \name{author}{3}{}{%
     {{}%
@@ -3755,6 +3798,87 @@
   \field{volume}{104}
   \field{journaltitle}{Proceedings of the National Academy of Sciences}
   \field{year}{2007}
+\endentry
+
+\entry{pastor2015simple}{article}{}
+  \name{author}{5}{}{%
+    {{}%
+     {Pastor}{P.}%
+     {Juan~Manuel}{J.~M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {García-Algarra}{G.-A.}%
+     {Javier}{J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Galeano}{G.}%
+     {Javier}{J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Iriondo}{I.}%
+     {Jos{\'e}~Mar{\'\i}a}{J.~M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Ramasco}{R.}%
+     {Jos{\'e}~J}{J.~J.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{PJM+1}
+  \strng{fullhash}{PJMGAJGJIJMRJJ1}
+  \field{labelalpha}{Pas+15}
+  \field{extraalpha}{1}
+  \field{sortinit}{P}
+  \field{number}{1}
+  \field{title}{A simple and bounded model of population dynamics for
+  mutualistic networks.}
+  \field{volume}{10}
+  \field{journaltitle}{Networks \& Heterogeneous Media}
+  \field{year}{2015}
+\endentry
+
+\entry{pastor2015dragging}{article}{}
+  \name{author}{5}{}{%
+    {{}%
+     {Pastor}{P.}%
+     {Juan~Manuel}{J.~M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {García-Algarra}{G.-A.}%
+     {Javier}{J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Iriondo}{I.}%
+     {Jos{\'e}~Mar{\'\i}a}{J.~M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Ramasco}{R.}%
+     {Jos{\'e}~J}{J.~J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Galeano}{G.}%
+     {Javier}{J.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{PJM+1}
+  \strng{fullhash}{PJMGAJIJMRJJGJ1}
+  \field{labelalpha}{Pas+15}
+  \field{extraalpha}{2}
+  \field{sortinit}{P}
+  \field{number}{1}
+  \field{title}{Dragging in Mutualistic Nnetworks}
+  \field{volume}{10}
+  \field{journaltitle}{Networks \& Heterogeneous Media}
+  \field{year}{2015}
 \endentry
 
 \entry{pennisi2005}{article}{}
