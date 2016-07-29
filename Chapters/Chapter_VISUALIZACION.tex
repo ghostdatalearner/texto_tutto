@@ -7,60 +7,60 @@ Las visualizaciones son una herramienta imprescindible para el análisis de la i
 
 En el estudio del mutualismo se utilizan sobre todo dos tipos de gráfico: el diagrama bipartito y la matriz de adyacencia. Ambos son sencillos y ponen de manifiesto la separación entre las clases de especies, pero tienen limitaciones importantes. En este capítulo proponemos dos tipos de visualización que se construyen utilizando las \textit{k-magnitudes}.
 
-\label{VISUALIZACIÓN} % Change X to a consecutive number; for referencing this chapter elsewhere, use \ref{ChapterX}
-
-\section{Representaciones clásicas del mutualismo}
-
-Las redes mutualistas son bipartitas y por ello no es extraño que el diagrama bipartito haya sido el más empleado en la literatura. En este 
-gráfico los nodos se disponen en dos filas paralelas, ya sean horizontales o verticales, y se unen aquellos que comparten enlace. Cuando el tamaño
-de la red es reducido, este diagrama tan simple funciona de manera satisfactoria.
-
-\begin{figure}[h!]
-\centering
-\includegraphics[scale=0.43]{Figures/VIS_SD_030_bipartita.png}
-\caption{Diagrama bipartito de la red de dispersores de semillas que se usó como ejemplo de cálculo de las \textit{k magnitudes}. Véase la figura \ref{fig:ESTATICA_red_example}.}
-\label{fig:Figures/VIS_SD_030_bipartita}
-\end{figure}
-
-En el ejemplo de la figura \ref{fig:Figures/VIS_SD_030_bipartita} puede distinguirse el núcleo de especies más conectadas (especies de plantas $1$ y $2$ y todos los polinizadores) y como las especialistas se conectan a él. Los enlaces se ven con claridad. No obstante, es difícil captar la estructura interna de la red. Sucede lo mismo en la representación de la figura \ref{fig:ESTATICA_red_example}. El diagrama bipartito es ideal para redes de afiliación, en las que el dato clave es la conexión entre los nodos de ambas clases, pero no permite apreciar las interacciones indirectas entre elementos de una misma clase que comparten enlace con un nodo de la contraria.
-
-\begin{figure}[h!]
-\centering
-\includegraphics[scale=0.4]{Figures/VIS_bipartito_SD_020.png}
-\caption{Red de dispersores en Nava Correhuelas, Sierra de Cazorla, España. Compilada por Pedro Jordano, no publicada.}
-\label{fig:VIS_bipartito_SD_020}
-\end{figure}
-
-Cuando el número de especies supera unas pocas decenas, el diagrama bipartito se vuelve confuso. La red de la figura \ref{fig:VIS_bipartito_SD_020} tiene $58$ especies y $150$ enlaces, frente a $9$ especies y $11$ enlaces de la anterior. Es una red de dimensiones moderadas, pero es muy complicado seguir los detalles del gráfico. A pesar de ello, algunos autores consiguen resultados excelentes con redes de dimensiones similares a las de este segundo ejemplo, jugando con formas, colores y tamaños \cite{dakos2014critical}. Cuando se llega al centenar de especies, la zona central degenera en una mancha en la que es imposible distinguir los enlaces. Por este motivo, en la literatura sobre mutualismo no aparecen diagramas bipartitos de redes grandes. 
-
-La matriz de adyacencia ofrece una visión más rica si los nodos se ordenan de la forma adecuada. Colocando los más conectados en la parte superior izquierda, es fácil localizar el núcleo de especies generalistas. Para redes pequeñas, el resultado es muy bueno.
-
-\begin{figure}[h!]
-\centering
-\includegraphics[scale=0.14]{Figures/VIS_matrix_SD_001.png}
-\caption{Matriz de adyacencia de una red de dispersores en New Jersey \cite{baird1980selection}. Las casillas coloreadas indican la existencia de enlace.}
-\label{fig:VIS_matrix_SD_001}
-\end{figure}
-
-Por el contrario, esta representación gráfica se vuelve también muy confusa para redes grandes, como muestra la figura \ref{fig:VIS_matrix_PL_001}.
-
-\begin{figure}[hp!]
-\centering
-\includegraphics[scale=0.45]{Figures/VIS_M_PL_017_matrix.png}
-\caption{Matriz de adyacencia de una red de polinizadores en Bristol, Inglaterra \cite{memmott1999structure}.}
-\label{fig:VIS_matrix_PL_001}
-\end{figure}
-
-Una alternativa que algunos autores han explorado es utilizar representaciones convencionales para redes no bipartitas, asignando un color o forma específicos para cada clase \cite{mello2011missing,genini2010cheaters,toju2014assembly}. Esta solución tiene la ventaja de que se percibe mucho mejor la red y las relaciones indirectas que hemos mencionado. El precio que se paga es que los diagramas se vuelven muy complicados de entender con redes de tamaño medio (figura \ref{fig:VIS_grafos_weboflife}).
-
-\begin{figure}[hp!]
-\centering
-\includegraphics[scale=0.75]{Figures/VIS_grafos_weboflife.png}
-\caption{Representación de dos redes de la colección \textit{web of  life} mediante la herramienta de visualización que ofrece la página web.}
-\label{fig:VIS_grafos_weboflife}
-\end{figure}
-
-Estas limitaciones nos han llevado a diseñar visualizaciones específicamente adaptadas a las características de las redes mutualistas: bipartitas, con una fuerte jerarquía y en el rango de centenares de enlaces. 
+%\label{VISUALIZACIÓN} % Change X to a consecutive number; for referencing this chapter elsewhere, use \ref{ChapterX}
+%
+%\section{Representaciones clásicas del mutualismo}
+%
+%Las redes mutualistas son bipartitas y por ello no es extraño que el diagrama bipartito haya sido el más empleado en la literatura. En este 
+%gráfico los nodos se disponen en dos filas paralelas, ya sean horizontales o verticales, y se unen aquellos que comparten enlace. Cuando el tamaño
+%de la red es reducido, este diagrama tan simple funciona de manera satisfactoria.
+%
+%\begin{figure}[h!]
+%\centering
+%\includegraphics[scale=0.43]{Figures/VIS_SD_030_bipartita.png}
+%\caption{Diagrama bipartito de la red de dispersores de semillas que se usó como ejemplo de cálculo de las \textit{k magnitudes}. Véase la figura \ref{fig:ESTATICA_red_example}.}
+%\label{fig:Figures/VIS_SD_030_bipartita}
+%\end{figure}
+%
+%En el ejemplo de la figura \ref{fig:Figures/VIS_SD_030_bipartita} puede distinguirse el núcleo de especies más conectadas (especies de plantas $1$ y $2$ y todos los polinizadores) y como las especialistas se conectan a él. Los enlaces se ven con claridad. No obstante, es difícil captar la estructura interna de la red. Sucede lo mismo en la representación de la figura \ref{fig:ESTATICA_red_example}. El diagrama bipartito es ideal para redes de afiliación, en las que el dato clave es la conexión entre los nodos de ambas clases, pero no permite apreciar las interacciones indirectas entre elementos de una misma clase que comparten enlace con un nodo de la contraria.
+%
+%\begin{figure}[h!]
+%\centering
+%\includegraphics[scale=0.4]{Figures/VIS_bipartito_SD_020.png}
+%\caption{Red de dispersores en Nava Correhuelas, Sierra de Cazorla, España. Compilada por Pedro Jordano, no publicada.}
+%\label{fig:VIS_bipartito_SD_020}
+%\end{figure}
+%
+%Cuando el número de especies supera unas pocas decenas, el diagrama bipartito se vuelve confuso. La red de la figura \ref{fig:VIS_bipartito_SD_020} tiene $58$ especies y $150$ enlaces, frente a $9$ especies y $11$ enlaces de la anterior. Es una red de dimensiones moderadas, pero es muy complicado seguir los detalles del gráfico. A pesar de ello, algunos autores consiguen resultados excelentes con redes de dimensiones similares a las de este segundo ejemplo, jugando con formas, colores y tamaños \cite{dakos2014critical}. Cuando se llega al centenar de especies, la zona central degenera en una mancha en la que es imposible distinguir los enlaces. Por este motivo, en la literatura sobre mutualismo no aparecen diagramas bipartitos de redes grandes. 
+%
+%La matriz de adyacencia ofrece una visión más rica si los nodos se ordenan de la forma adecuada. Colocando los más conectados en la parte superior izquierda, es fácil localizar el núcleo de especies generalistas. Para redes pequeñas, el resultado es muy bueno.
+%
+%\begin{figure}[h!]
+%\centering
+%\includegraphics[scale=0.14]{Figures/VIS_matrix_SD_001.png}
+%\caption{Matriz de adyacencia de una red de dispersores en New Jersey \cite{baird1980selection}. Las casillas coloreadas indican la existencia de enlace.}
+%\label{fig:VIS_matrix_SD_001}
+%\end{figure}
+%
+%Por el contrario, esta representación gráfica se vuelve también muy confusa para redes grandes, como muestra la figura \ref{fig:VIS_matrix_PL_001}.
+%
+%\begin{figure}[hp!]
+%\centering
+%\includegraphics[scale=0.45]{Figures/VIS_M_PL_017_matrix.png}
+%\caption{Matriz de adyacencia de una red de polinizadores en Bristol, Inglaterra \cite{memmott1999structure}.}
+%\label{fig:VIS_matrix_PL_001}
+%\end{figure}
+%
+%Una alternativa que algunos autores han explorado es utilizar representaciones convencionales para redes no bipartitas, asignando un color o forma específicos para cada clase \cite{mello2011missing,genini2010cheaters,toju2014assembly}. Esta solución tiene la ventaja de que se percibe mucho mejor la red y las relaciones indirectas que hemos mencionado. El precio que se paga es que los diagramas se vuelven muy complicados de entender con redes de tamaño medio (figura \ref{fig:VIS_grafos_weboflife}).
+%
+%\begin{figure}[hp!]
+%\centering
+%\includegraphics[scale=0.75]{Figures/VIS_grafos_weboflife.png}
+%\caption{Representación de dos redes de la colección \textit{web of  life} mediante la herramienta de visualización que ofrece la página web.}
+%\label{fig:VIS_grafos_weboflife}
+%\end{figure}
+%
+%Estas limitaciones nos han llevado a diseñar visualizaciones específicamente adaptadas a las características de las redes mutualistas: bipartitas, con una fuerte jerarquía y en el rango de centenares de enlaces. 
 
 \clearpage
 \section{Visualizaciones basadas en \textit{k-magnitudes}}
@@ -136,7 +136,7 @@ En la \textit{shell} máxima las especies se ordenan por $k_{degree}$, con el va
 
 \begin{figure}[hb!]
 \centering
-\includegraphics[scale=0.45]{Figures/VIS_ALL_SD_004.eps}
+\includegraphics[scale=0.15]{Figures/VIS_ALL_SD_004.eps}
 \caption {Diagrama zigurat de una comunidad de aves frugívoras de Puerto Rico  $M\_SD\_004$, con $54$ especies y $95$ enlaces \cite{carlo2003avian}. $\overline k_{radius} = 2,19$; $\overline k_{degree} = 2,37$; $NODF = 39,82$; $Modularity = 0.34$. Abajo el diagrama bipartito.}
 \label{fig:ziggurat}
 \end{figure}
@@ -232,8 +232,8 @@ En el extremo opuesto se encuentra la red de polinizadores $031$ (figura \ref{fi
 
 \begin{figure}[h!]
 \centering
-\includegraphics[scale=0.5]{Figures/VIS_M_PL_022_ziggurat.png}
-\caption {Red de polinizadores $M\_PL\_022$, Los Andes, Argentina, con $66$ especies y $83$ enlaces \cite{medan2002plant}. $NODF = 18,02$, $\overline {k}_{radius} = 3,68$ .}
+\includegraphics[scale=0.45]{Figures/VIS_M_PL_022_ziggurat.png}
+\caption {Red de polinizadores $M\_PL\_022$, Los Andes, Argentina, con $66$ especies y $83$ enlaces \cite{medan2002plant}. $NODF = 18,02$, $\overline {k}_{radius} = 3,68$.}
 \label{fig:VIS_M_PL_022_ziggurat}
 \end{figure}
 
