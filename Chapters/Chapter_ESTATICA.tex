@@ -79,7 +79,7 @@ El cálculo es simple aunque algo más laborioso para las plantas de la $1$-$she
 \label{fig:ESTATICA_SD_030_example_distances}
 \end{figure}
 
-Podemos definir una magnitud global, que proporcione una idea de la dispersión de los nodos respecto del núcleo estable de la red, identificado con la \textit{shell} máxima. Para ello, se promedian los los $k_{radius}$ de todas las especies.
+Podemos definir una magnitud global, que proporcione una idea de la dispersión de los nodos respecto del núcleo estable de la red, identificado con la \textit{shell} máxima. Para ello, se promedian los $k_{radius}$ de todas las especies.
 
 \begin{theo} 
 El \textit{$\overline k_{radius}$} de una red se obtiene promediando los ${k}_{radius}$ de todos los nodos, sin importar la clase a la que pertenezcan.
@@ -194,7 +194,7 @@ El experimento se repite $10$ veces para cada red. Es equivalente a un modelo nu
 \begin{figure}[h!]
 \centering
 \includegraphics[scale=1]{Figures/ESTATICA_z_M_PL_012_rewire_Binary_ES_model_5.png}
-\caption {Gráfica del experimento de recableado para la red de polinizadores número $12$ (Parque de Garajonay, compilada por Olesen, no publicada). La nube de cruces pequeñas representa los pares de valores $zNODF,z\overline k_{radius}$ de las $1000$ realizaciones del modelo nulo. Los puntos representan ese par de valores para cada red recableada. El aspa azul dentro de un círculo señala los valores de $zNODF,z\overline k_{radius}$ de la red original. En gris, el resultado de la regresión lineal para los valores de las redes recableadas.}
+\caption {Gráfica del experimento de recableado para la red de polinizadores número $12$ (Parque de Garajonay, compilada por Olesen, no publicada). La nube de cruces pequeñas representa los pares de valores $zNODF,z\overline k_{radius}$ de las $1000$ realizaciones del modelo nulo. Los puntos representan ese par de valores para cada red recableada. El aspa azul dentro de un círculo señala los valores de $zNODF,z\overline k_{radius}$ de la red original. La recta gris, el resultado de la regresión lineal para los valores de las redes recableadas.}
 \label{fig:z_M_PL_012_rewire_Binary_ES_model_5}
 \end{figure}
 
@@ -212,7 +212,7 @@ y las de dispersores de semillas, estas últimas tienen valores más elevados.
 \begin{figure}[h!]
 \centering
 \includegraphics[scale=0.5]{Figures/ESTATICA_hist_kmagnitudes.png}
-\caption{Histogramas de las \textit{k-magnitudes}.}
+\caption{Histogramas de las \textit{k-magnitudes} de las $89$ redes de la colección.}
 \label{fig:ESTATICA_hist_kmagnitudes}
 \end{figure}
 
@@ -239,7 +239,7 @@ Los dos índices, $grado$ y ${k}_{degree}$ guardan una correlación muy elevada 
 
 Cabe preguntarse para qué crear un índice que no es más que otro ya existente multiplicado por una constante. La razón se entenderá observando con atención los diagramas de la fila inferior. La figura \ref{fig:ESTATICA_ALL_plots_kdegree_degree_M_PL_001_ES}c es la distribución de probabilidad acumulada del grado de la red, con forma de ley de potencia truncada. En \ref{fig:ESTATICA_ALL_plots_kdegree_degree_M_PL_001_ES}d, se representa la distribución acumulada de $k_{degree}$. La escala de los ejes $X$ no es la misma, porque el rango de $k_{degree}$ es inferior como se acaba de explicar, pero empleando la misma anchura de diagrama es fácil ver que las figuras son muy parecidas (fig. \ref{fig:ESTATICA_ALL_plots_kdegree_degree_M_PL_001_ES}e).
 
-En la última gráfica, se realiza una transformación simple. Los valores de $k_{degree}$ se dividen por el coeficiente $\alpha$ de la correlación lineal y el resultado (en turquesa) se superpone a la distribución de grado (en rojo). Con esta representación queda claro que $k_{degree}$ no es un meramente el grado escalado. Lo que hace es transformar la distribución discreta de grado en otra con muchos más puntos intermedios, con lo que se obtiene una ordenación con criterio topológico de los nodos de idéntico grado. Esta sutil diferencia es importante a la hora decidir qué nodos son más importantes para la supervivencia de la red. La utilidad de este índice frente al grado se describe con detalles numéricos en el capítulo \ref{ChapterDESTRUCCION}.
+En la última gráfica, se realiza una transformación simple. Los valores de $k_{degree}$ se dividen por el coeficiente $\alpha$ de la correlación lineal y el resultado (en turquesa) se superpone a la distribución de grado (en rojo). Con esta representación queda claro que $k_{degree}$ no es meramente el grado escalado. Lo que hace es transformar la distribución discreta de grado en otra con muchos más puntos intermedios, con lo que se obtiene una ordenación con criterio topológico de los nodos de idéntico grado. Esta sutil diferencia es importante a la hora decidir qué nodos son más importantes para la supervivencia de la red. La utilidad de este índice frente al grado se describe con detalles numéricos en el capítulo \ref{ChapterDESTRUCCION}.
 
 \begin{figure}[h!]
 \centering
@@ -254,7 +254,7 @@ En la última gráfica, se realiza una transformación simple. Los valores de $k
 
 Uno de los objetivos principales de la investigación es hallar la posible relación entre las magnitudes que se derivan de la \textit{descomposición k-core} y las que se utilizan habitualmente en la caracterización del mutualismo. 
 
-Para realizar la comparación se calcula el anidamiento mediante \textit{NODF} y la modularidad siguiendo los procedimientos de cálculo descritos en el apartado \ref{sec:prop_mutualismo} \footnote{Para evitar confusiones entre el nombre la de la magnitud y la medida según un algoritmo concreto, en lo sucesivo se emplea \textit{Modularity}, en inglés y con mayúscula.}. Ambas medidas pueden obtenerse con el paquete \texttt{bipartite} en \texttt{R}. En la figura \ref{fig:ESTATICA_corrfigs} se han representado el $\overline {k}_{radius}$ en función de $NODF$ y el $\overline {k}_{degree}$ en función de la \textit{Modularity}. Las figuras sugerían que existe un fuerte correlación negativa entre el $\overline {k}_{radius}$ y $NODF$ por una parte y, por otra, entre el $\overline {k}_{degree}$ y la $modularidad$. 
+Para realizar la comparación se calcula el anidamiento mediante \textit{NODF} y la modularidad siguiendo los procedimientos de cálculo descritos en el apartado \ref{sec:prop_mutualismo} \footnote{Para evitar confusiones entre el nombre la de la magnitud y la medida según un algoritmo concreto, en lo sucesivo se emplea \textit{Modularity}, en inglés y con mayúscula.}. Ambas medidas pueden obtenerse con el paquete \texttt{bipartite} en \texttt{R}. En la figura \ref{fig:ESTATICA_corrfigs} se han representado el $\overline {k}_{radius}$ en función de $NODF$ y el $\overline {k}_{degree}$ en función de la \textit{Modularity}. Las figuras sugerían que existe una fuerte correlación negativa entre el $\overline {k}_{radius}$ y $NODF$ por una parte y, por otra, entre el $\overline {k}_{degree}$ y la $modularidad$. 
 
 \begin{figure}[h!]
 \centering
@@ -291,7 +291,7 @@ Si se examina de nuevo la figura \ref{fig:ESTATICA_corrfigs}, se verá que las r
 
 \begin{figure}[h!]
 \centering
-\includegraphics[scale=0.85]{Figures/ESTATICA_density_plots.png}
+\includegraphics[scale=0.75]{Figures/ESTATICA_density_plots.png}
 \caption {Distribución de densidad del $k_{degree}$ en tres redes diferentes. Junto a las líneas verticales pueden verse los valores del $\overline {k}_{degree}$ y de la $Modularity$.}
 \label{fig:ESTATICA_density_plots}
 \end{figure}
@@ -301,7 +301,7 @@ Las elevadas correlaciones de $\overline {k}_{radius}$ con $NODF$ y de $\overlin
 \subsection{Análisis de modelo nulo}
 
 Mediante este análisis hemos estudiado como se comportan estadísticamente dos índices, $NODF$ y $\overline k_{radius}$. La razón de escoger estas dos magnitudes es la alta correlación que
-muestran para toda la colección. La tabla \ref{table:table_results_zscores} contiene los índices reducidos.
+muestran para toda la colección. La tabla \ref{table:table_results_zscores} (Anexo \ref{ESTATICA_ANEXO}) contiene los índices reducidos.
 
 Por lo que respecta a la medida de anidamiento $NODF$, el resultado concuerda con la literatura. Utilizando un modelo nulo restrictivo, como el que hemos empleado para las redes pesadas, solo $3$ de $32$ son significativamente anidadas. Se consideran así si su $zNODF$ está por encima de $2$ lo que equivale a una probabilidad de aparición aleatoria inferior al $2.5\%$.
 La medida de la compacidad con $\overline {k}_{radius}$ es más restrictiva. De las $32$ redes solo una es significativamente compacta ($z\overline {k}_{radius} < 2$), la red de polinizadores $059$, que además es una de las tres que muestra $zNODF$ por encima de $2$.
@@ -347,28 +347,18 @@ Lo que muestra el experimento es que cuanto  mayores son el tamaño y la simetr�
 
 \begin{figure}[htp!]
 \centering
-\includegraphics[scale=0.62]{ESTATICA_zscores_networks_evolution.png}
+\includegraphics[scale=0.55]{ESTATICA_zscores_networks_evolution.png}
 \caption {Comparativa de la evolución de $z \overline {k}_{radius}$ y $zNODF$ en el experimento de recableado de tres redes. Los triángulos marcan los pares de valores de las redes originales. A medida que crece el porcentaje de recableado aleatorio, las redes resultantes son más desordenadas y se desplazan al cuadrante superior izquierdo, combinación de falta de anidamiento y de compacidad.}
 \label{fig:ESTATICA_asimetria_corr}
 \end{figure}
 
-%\section{Conclusiones}
-%
-%La \textit{descomposición k-core} proporciona una sólida base para el análisis del mutualismo. Hemos demostrado como las \textit{k-magnitudes} definidas como propiedades surgidas del procedimiento, permiten conocer en detalle la estructura de las redes. En particular, al promediar los valores locales para todo el sistema, $\overline {k}_{radius}$ y $\overline {k}_{degree}$ muestran una fuerte correlación con los observables globales $NODF$ y $Modularity$. 
-%
-%Mediante el análisis de modelo nulo se ha comprobado que $\overline {k}_{radius}$ es una medida de compacidad, que es una propiedad que se presenta solo en un subconjunto de redes significativamente anidadas.
-%
-%La descomposición es también útil para una nueva ordenación de importancia de las especies. El ${k}_{degree}$ permite refinar la que proporciona el grado, al crear una escala en la que hay una probabilidad muy inferior de repetición de valores.
-%
-%Mediante el experimento de recableado hemos comprobado como el anidamiento y la compacidad desaparecen de forma casi simultánea en las redes binarias que parten de un estado muy ordenado. Este comportamiento es menos habitual en redes pequeñas o con una fuerte asimetría de especies.
-%
-%Aunque hemos enfocado el estudio en redes mutualistas, la técnica se puede extender a otros tipos de redes bipartitas, por ejemplo comensalistas. Relaciones bipartitas y con fuerte anidamiento, como las que aparecen en redes de innovación y comercio, podrían también beneficiarse de este análisis.
 \clearpage
 \section{Anexo: Tablas de resultados}
 \label{ESTATICA_ANEXO}
 \begin{table}[ht!]
 \fontsize{2.2mm}{2.2mm}\selectfont
   \centering
+    \caption{\label{table:table_results_zscores} Resultados del análisis de modelo nulo en unidades reducidas.}
     \begin{tabular}{lrrrrrrrrr}
     \toprule
     $Red$  & $Matriz$ & $zNODF$ & $z\overline K_{radius}$ &  &  $Red$  & $Matriz$ & $zNODF$ & $z\overline K_{radius}$ \\
@@ -420,11 +410,11 @@ Lo que muestra el experimento es que cuanto  mayores son el tamaño y la simetr�
     M\_PL\_045 & Pesada & -1,93 & 1,00 &      &      &      &      &  \\
     \bottomrule
     \end{tabular}%
-    \caption{\label{table:table_results_zscores} Resultados del análisis de modelo nulo en unidades reducidas.}
 \end{table}%
 \begin{table}[h!]
 \fontsize{2.2mm}{2.2mm}\selectfont
   \centering
+      \caption{\label{table:table_results_recableados} Resultados del experimento de recableado para las redes con matriz de adyacencia binaria. La correlación es la de $zNODF$ y $z \overline {k}_{radius}$ para las redes recableadas. La asimetría de especies es la diferencia entre el número de especies de cada clase dividida por la suma.}
       \begin{tabular}{lrrrrrlrrrr}
     \toprule
     $Red$  & $Especies$ & $Enlaces$ & $Corr$ & $Asim.$ &      & $Red$  & $Especies$ & $Enlaces$ & $Corr$& $Asim.$ \\
@@ -460,12 +450,12 @@ Lo que muestra el experimento es que cuanto  mayores son el tamaño y la simetr�
          &      &      &      &      &      & M\_SD\_030 & 9    & 11   & -0,41 & 0,09 \\
     \bottomrule
     \end{tabular}%
-    \caption{\label{table:table_results_recableados} Resultados del experimento de recableado para las redes con matriz de adyacencia binaria. La correlación es la de $zNODF$ y $z \overline {k}_{radius}$ para las redes recableadas. La asimetría de especies es la diferencia entre el número de especies de cada clase dividida por la suma.}
 \end{table}%
 
 \begin{table}[ht!]
 \fontsize{2.2mm}{2.2mm}\selectfont
   \centering
+    \caption{\label{table:table_results} Propiedades de las redes utilizadas en el estudio.}
     \begin{tabular}{lrrrrrrrrr}
     \toprule
     $Red$  & $Matriz$ & $Pl.$ & $Anim.$ & $Enlaces$ & $k_{max}$ & $\overline k_{degree}$ & $\overline k_{radius}$ & $NODF$ & $Modul.$ \\
@@ -476,7 +466,7 @@ Lo que muestra el experimento es que cuanto  mayores son el tamaño y la simetr�
     M\_PL\_004 & Pesada & 12   & 102  & 167  & 3    & 1,52 & 2,53 & 28,15 & 0,45 \\
     M\_PL\_005 & Binaria & 96   & 275  & 923  & 8    & 2,54 & 2,80 & 14,74 & 0,24 \\
     M\_PL\_006 & Pesada & 17   & 61   & 146  & 4    & 2,28 & 2,44 & 44,58 & 0,33 \\
-    M\_PL\_007 & Pesada & 16   & 36   & 85   & 3    & 1,68 & 2,51 & 31,54 & 0,36 \\
+    M\_PL\_007 & Pesada & 16   & 36 º  & 85   & 3    & 1,68 & 2,51 & 31,54 & 0,36 \\
     M\_PL\_008 & Binaria & 11   & 38   & 106  & 4    & 2,19 & 2,37 & 35,97 & 0,21 \\
     M\_PL\_009 & Binaria & 24   & 118  & 242  & 4    & 1,54 & 2,81 & 15,39 & 0,44 \\
     M\_PL\_010 & Binaria & 31   & 76   & 456  & 8    & 4,57 & 2,38 & 35,17 & 0,02 \\
@@ -561,5 +551,4 @@ Lo que muestra el experimento es que cuanto  mayores son el tamaño y la simetr�
     M\_SD\_030 & Binaria & 5    & 4    & 11   & 2    & 2,24 & 1,50 & 66,67 & 0,23 \\
     \bottomrule
     \end{tabular}%
-    \caption{\label{table:table_results} Propiedades de las redes utilizadas en el estudio.}
 \end{table}%

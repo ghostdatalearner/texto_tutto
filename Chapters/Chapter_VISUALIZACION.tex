@@ -136,7 +136,7 @@ En la \textit{shell} máxima las especies se ordenan por $k_{degree}$, con el va
 
 \begin{figure}[hb!]
 \centering
-\includegraphics[scale=0.15]{Figures/VIS_ALL_SD_004.eps}
+\includegraphics[scale=0.45]{Figures/VIS_ALL_SD_004.eps}
 \caption {Diagrama zigurat de una comunidad de aves frugívoras de Puerto Rico  $M\_SD\_004$, con $54$ especies y $95$ enlaces \cite{carlo2003avian}. $\overline k_{radius} = 2,19$; $\overline k_{degree} = 2,37$; $NODF = 39,82$; $Modularity = 0.34$. Abajo el diagrama bipartito.}
 \label{fig:ziggurat}
 \end{figure}
@@ -242,13 +242,13 @@ En el capítulo anterior también se describió un experimento que consiste en r
 
 No obstante, un pequeño porcentaje se salía de este patrón. En general, eran redes pequeñas o con una marcada asimetría. En los dos ejemplos que se incluyen a continuación, los diagramas zigurat permiten entender el por qué de este comportamiento.
 
-El primero (figura \ref{fig:VIS_PL_012}) corresponde a una red de tamaño mediano, con una estructura compleja. La red original se representa con los colores habituales, las correspondientes a los distintos grados de recableado en otros tonos, para recalcar que no se trata de redes reales. 
+El primero (figura \ref{fig:VIS_PL_012}a) corresponde a una red de tamaño mediano, con una estructura compleja. La red original se representa con los colores habituales, las correspondientes a los distintos grados de recableado en otros tonos, para recalcar que no se trata de redes reales. 
 
 En la red sin alterar, se observa un índice $k$ máximo de $4$, y una gran conectividad directa con esas \textit{shells}. Hay un importante número de especies en la $1$-$shell$. En el gráfico de correlación general entre $NODF$ y $\overline k_{radius}$ (figura \ref{fig:ESTATICA_corrfigs}) esta red se sitúa en una zona intermedia.
 
-Cuando se reconectan al azar seis enlaces, la estructura cambia poco, aunque puede verse como aparece una $2$-$shell$ de plantas y aumenta la conectividad entre las \textit{k shells} inferiores. Es importante recalcar que esta red alterada es resultado de una realización aleatoria, la configuración puede variar entre distintos intentos, por eso las gráficas de la figura \ref{fig:ESTATICA_corrfigs} se obtuvieron repitiendo veinte veces el recabledado para un mismo número de enlaces. No obstante, un recableado mínimo como el del ejemplo, tiene pocas consecuencias para las medidas globales de esta red.
+Cuando se reconectan al azar seis enlaces, la estructura cambia poco, aunque puede verse como aparece una $2$-$shell$ de plantas y aumenta la conectividad entre las \textit{k shells} inferiores (fig. \ref{fig:VIS_PL_012}b). Es importante recalcar que esta red alterada es resultado de una realización aleatoria, la configuración puede variar entre distintos intentos, por eso las gráficas de la figura \ref{fig:ESTATICA_corrfigs} se obtuvieron repitiendo veinte veces el recabledado para un mismo número de enlaces. No obstante, un recableado mínimo como el del ejemplo, tiene pocas consecuencias para las medidas globales de esta red.
 
-Al aumentar a diecisiete los enlaces reconectados, la degradación es más notable. El índice $k$ máximo baja a $3$. Si sigue creciendo la cantidad de reconexiones, la modificación es aun más evidente. En la imagen, para treinta y dos cambios al azar, las $2$-$shells$ han crecido a costa de la $3$ y aparecen muchas más conexiones, en proporción, entre ellas. La $NODF$ ha bajado desde el original $30,40$ a $12,22$ y el $\overline k_{radius}$ pasa de $2,51$ a $2,82$.
+Al aumentar a diecisiete los enlaces reconectados, la degradación es más notable (fig. \ref{fig:VIS_PL_012}c). El índice $k$ máximo baja a $3$. Si sigue creciendo la cantidad de reconexiones, la modificación es aun más evidente. En la imagen, para treinta y dos cambios al azar, las $2$-$shells$ han crecido a costa de la $3$ y aparecen muchas más conexiones, en proporción, entre ellas. La $NODF$ ha bajado desde el original $30,40$ a $12,22$ y el $\overline k_{radius}$ pasa de $2,51$ a $2,82$ (fig. \ref{fig:VIS_PL_012}d).
 
 Obsérvese la forma de campanilla recostada que revela el diagrama zigurat de la red con la mitad de sus enlaces recableados, con  muchas conexiones entre especies de la $2$-$shell$. Esta figura es la de una red mutualista poco estructurada.
 
@@ -257,8 +257,8 @@ En el segundo ejemplo se presenta un caso extremo de comportamiento fuera de la 
 \clearpage
 \begin{figure}[ht!]
 \centering
-\includegraphics[scale=0.80]{Figures/VIS_PL_012.pdf}
-\caption {Red de polinizadores $M\_PL\_012$, en el Parque Nacional de Garajonay, La Gomera (España), compilada por Olesen y no publicada, con $84$ especies y $145$ enlaces. Arriba, la red original, $NODF = 30,40$, $\overline k_{radius} = 2,51$. En sentido horario, red con siete enlaces recableados al azar, $NODF = 26,62$, $\overline k_{radius} = 2,48$; con diecisiete enlaces recableados, $NODF = 22,62$, $\overline k_{radius} = 2,77$ y con treinta y dos, $NODF = 13,22$, $\overline k_{radius} = 2,82$.}
+\includegraphics[scale=0.80]{Figures/VIS_PL_012.png}
+\caption {Red de polinizadores $M\_PL\_012$, en el Parque Nacional de Garajonay, La Gomera (España), compilada por Olesen y no publicada, con $84$ especies y $145$ enlaces. a: red original, $NODF = 30,40$, $\overline k_{radius} = 2,51$. b: red con siete enlaces recableados al azar, $NODF = 26,62$, $\overline k_{radius} = 2,48$. c: con diecisiete enlaces recableados, $NODF = 22,62$, $\overline k_{radius} = 2,77$. d: con treinta y dos, $NODF = 13,22$, $\overline k_{radius} = 2,82$.}
 \label{fig:VIS_PL_012}
 \end{figure}
 
@@ -311,7 +311,7 @@ En la figura \ref{fig:VIS_Modvskdegree3-sd04} se han representado los diagramas 
 \clearpage
 \begin{figure}[ht!]
 \centering
-\includegraphics[scale=0.5]{Figures/VIS_M_SD_004_minus_k3k2_ziggurat.png}
+\includegraphics[scale=0.15]{Figures/VIS_M_SD_004_minus_k3k2_ziggurat.png}
 \caption {Red de frugívoros $M\_SD\_004$. a: se han eliminado todos los polinizadores de la $3$-$shell$ ($NODF = 36,24$, $\overline k_{radius} = 2,17$). b: además se han eliminado los de la $2$-$shell$ ($NODF = 33,055$, $\overline k_{radius} = 2,15$), véase la figura \ref{fig:ziggurat}.} 
 \label{fig:VIS_M_SD_004_minus_k3k2_ziggurat}
 \end{figure}
@@ -342,7 +342,7 @@ Desde la siguiente dirección puede descargarse un documento con los gráficos d
 \begin{table}[htbp]
 \fontsize{3mm}{3mm}\selectfont
   \centering
-
+    \caption{\label{table:kmag_pl_031} \textit{k magnitudes} de la red  de polinizadores $M\_PL\_031$ del Parque Nacional de Canaima, Venezuela, \cite{ramirez1989biologia}. Valores globales: $\overline k_{radius} = 3,39$; $\overline k_{degree} = 1,57$. Las especies desconectadas de la componente gigante aparecen señaladas con asterisco.}
     \begin{tabular}{lrrrlrr}
     \toprule
     $Especie$ & $k_{radius}$ & $k_{degree}$ &      & $Especie$ & $k_{radius}$ & $k_{degree}$ \\
@@ -398,5 +398,4 @@ Desde la siguiente dirección puede descargarse un documento con los gráficos d
          &      &      &      & Polinizador49 & 5,00 & 0,22 \\
     \bottomrule
     \end{tabular}%
-    \caption{\label{table:kmag_pl_031} \textit{k magnitudes} de la red  de polinizadores $M\_PL\_031$ del Parque Nacional de Canaima, Venezuela, \cite{ramirez1989biologia}. Valores globales: $\overline k_{radius} = 3,39$; $\overline k_{degree} = 1,57$. Las especies desconectadas de la componente gigante aparecen señaladas con asterisco.}
 \end{table}%
