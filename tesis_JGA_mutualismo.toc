@@ -10,70 +10,70 @@
 \contentsline {section}{\numberline {1.2}Redes en ecolog\IeC {\'\i }a}{5}{section.7}
 \contentsline {subsection}{\numberline {1.2.1}Redes mutualistas}{5}{subsection.9}
 \contentsline {section}{\numberline {1.3}Din\IeC {\'a}mica de las comunidades mutualistas}{9}{section.12}
-\contentsline {section}{\numberline {1.4}Objetivos}{12}{section.20}
-\contentsline {section}{\numberline {1.5}Estructura de la tesis}{13}{section.35}
-\contentsline {chapter}{\numberline {2}Modelado din\IeC {\'a}mico}{15}{chapter.36}
-\contentsline {section}{\numberline {2.1}Din\IeC {\'a}mica de las comunidades mutualistas}{15}{section.37}
-\contentsline {section}{\numberline {2.2}Modelo con capacidad de carga constante}{16}{section.38}
-\contentsline {subsection}{\numberline {2.2.1}An\IeC {\'a}lisis de estabilidad para dos especies}{20}{subsection.44}
-\contentsline {subsection}{\numberline {2.2.2}Generalizaci\IeC {\'o}n con $n$ especies}{23}{subsection.51}
-\contentsline {section}{\numberline {2.3}Modelo con saturaci\IeC {\'o}n del beneficio}{25}{section.58}
-\contentsline {subsection}{\numberline {2.3.1}An\IeC {\'a}lisis de estabilidad para dos especies}{26}{subsection.61}
-\contentsline {subsection}{\numberline {2.3.2}La divisoria de la vida}{30}{subsection.73}
-\contentsline {subsection}{\numberline {2.3.3}Generalizaci\IeC {\'o}n con $n$ especies}{32}{subsection.83}
-\contentsline {section}{\numberline {2.4}Material y m\IeC {\'e}todos}{35}{section.90}
-\contentsline {subsection}{\numberline {2.4.1}Integraci\IeC {\'o}n de las ecuaciones}{35}{subsection.91}
-\contentsline {subsection}{\numberline {2.4.2}Software}{36}{subsection.96}
-\contentsline {section}{\numberline {2.5}Resultados}{37}{section.97}
-\contentsline {subsection}{\numberline {2.5.1}Simulaciones con capacidades de carga constantes}{37}{subsection.98}
-\contentsline {subsection}{\numberline {2.5.2}Simulaciones con saturaci\IeC {\'o}n del beneficio}{39}{subsection.103}
-\contentsline {section}{\numberline {2.6}Anexo: An\IeC {\'a}lisis en detalle de la estabilidad del modelo con saturaci\IeC {\'o}n}{45}{section.110}
-\contentsline {section}{\numberline {2.7}Anexo: Datos de las simulaciones del modelo con \textit {K} constantes}{49}{section.125}
-\contentsline {section}{\numberline {2.8}Anexo: Datos de las simulaciones del modelo con saturaci\IeC {\'o}n}{50}{section.129}
-\contentsline {chapter}{\numberline {3}Estructura del mutualismo}{53}{chapter.134}
-\contentsline {section}{\numberline {3.1}Propiedades estructurales del mutualismo}{54}{section.135}
-\contentsline {section}{\numberline {3.2}Descripci\IeC {\'o}n basada en la descomposici\IeC {\'o}n \textit {k-core}}{57}{section.138}
-\contentsline {section}{\numberline {3.3}Definici\IeC {\'o}n de las k-magnitudes}{59}{section.141}
-\contentsline {section}{\numberline {3.4}Material y m\IeC {\'e}todos}{63}{section.146}
-\contentsline {subsection}{\numberline {3.4.1}An\IeC {\'a}lisis mediante modelo nulo}{63}{subsection.147}
-\contentsline {subsection}{\numberline {3.4.2}Experimento de recableado}{65}{subsection.149}
-\contentsline {section}{\numberline {3.5}Resultados}{65}{section.151}
-\contentsline {subsection}{\numberline {3.5.1}An\IeC {\'a}lisis exploratorio}{65}{subsection.152}
-\contentsline {subsection}{\numberline {3.5.2}Relaci\IeC {\'o}n entre las medidas de grado}{67}{subsection.155}
-\contentsline {subsection}{\numberline {3.5.3}Correlaci\IeC {\'o}n entre \textit {k-magnitudes} y propiedades globales}{70}{subsection.157}
-\contentsline {subsection}{\numberline {3.5.4}An\IeC {\'a}lisis de modelo nulo}{71}{subsection.162}
-\contentsline {subsection}{\numberline {3.5.5}Recableado aleatorio}{72}{subsection.164}
-\contentsline {section}{\numberline {3.6}Anexo: Tablas de resultados}{76}{section.168}
-\contentsline {chapter}{\numberline {4}Visualizaciones}{79}{chapter.172}
-\contentsline {section}{\numberline {4.1}Representaciones cl\IeC {\'a}sicas del mutualismo}{80}{section.173}
-\contentsline {section}{\numberline {4.2}Visualizaciones basadas en \textit {k-magnitudes}}{83}{section.179}
-\contentsline {subsection}{\numberline {4.2.1}El diagrama polar}{83}{subsection.180}
-\contentsline {subsection}{\numberline {4.2.2}El diagrama zigurat}{87}{subsection.185}
-\contentsline {section}{\numberline {4.3}Visualizaci\IeC {\'o}n de la estructura}{95}{section.195}
-\contentsline {section}{\numberline {4.4}Anexo: Gr\IeC {\'a}ficos de la colecci\IeC {\'o}n}{105}{section.205}
-\contentsline {section}{\numberline {4.5}Anexo: Red del Parque Nacional de Canaima}{105}{section.206}
-\contentsline {chapter}{\numberline {5}Estudio de resistencia}{107}{chapter.208}
-\contentsline {section}{\numberline {5.1}Medici\IeC {\'o}n de la resistencia}{108}{section.209}
-\contentsline {section}{\numberline {5.2}M\IeC {\'e}todos}{109}{section.210}
-\contentsline {section}{\numberline {5.3}Resultados}{112}{section.218}
-\contentsline {section}{\numberline {5.4}Anexo: Videos}{118}{section.224}
-\contentsline {section}{\numberline {5.5}Anexo: Resultados de los procesos de destrucci\IeC {\'o}n}{119}{section.225}
-\contentsline {chapter}{\numberline {6}Conclusiones de la tesis}{123}{chapter.229}
+\contentsline {section}{\numberline {1.4}Propiedades estructurales del mutualismo}{12}{section.20}
+\contentsline {section}{\numberline {1.5}Representaciones cl\IeC {\'a}sicas del mutualismo}{15}{section.23}
+\contentsline {section}{\numberline {1.6}Objetivos}{18}{section.29}
+\contentsline {section}{\numberline {1.7}Estructura de la tesis}{18}{section.44}
+\contentsline {chapter}{\numberline {2}Modelado din\IeC {\'a}mico}{21}{chapter.45}
+\contentsline {section}{\numberline {2.1}Din\IeC {\'a}mica de las comunidades mutualistas}{21}{section.46}
+\contentsline {section}{\numberline {2.2}Modelo con capacidad de carga constante}{22}{section.47}
+\contentsline {subsection}{\numberline {2.2.1}An\IeC {\'a}lisis de estabilidad para dos especies}{26}{subsection.53}
+\contentsline {subsection}{\numberline {2.2.2}Generalizaci\IeC {\'o}n con $n$ especies}{29}{subsection.60}
+\contentsline {section}{\numberline {2.3}Modelo con saturaci\IeC {\'o}n del beneficio}{31}{section.67}
+\contentsline {subsection}{\numberline {2.3.1}An\IeC {\'a}lisis de estabilidad para dos especies}{32}{subsection.70}
+\contentsline {subsection}{\numberline {2.3.2}La divisoria de la vida}{35}{subsection.82}
+\contentsline {subsection}{\numberline {2.3.3}Generalizaci\IeC {\'o}n con $n$ especies}{38}{subsection.92}
+\contentsline {section}{\numberline {2.4}Material y m\IeC {\'e}todos}{41}{section.99}
+\contentsline {subsection}{\numberline {2.4.1}Integraci\IeC {\'o}n de las ecuaciones}{41}{subsection.100}
+\contentsline {subsection}{\numberline {2.4.2}Software}{42}{subsection.105}
+\contentsline {section}{\numberline {2.5}Resultados}{43}{section.106}
+\contentsline {subsection}{\numberline {2.5.1}Simulaciones con capacidades de carga constantes}{43}{subsection.107}
+\contentsline {subsection}{\numberline {2.5.2}Simulaciones con saturaci\IeC {\'o}n del beneficio}{46}{subsection.112}
+\contentsline {section}{\numberline {2.6}Anexo: An\IeC {\'a}lisis en detalle de la estabilidad del modelo con saturaci\IeC {\'o}n}{51}{section.119}
+\contentsline {section}{\numberline {2.7}Anexo: Datos de las simulaciones del modelo con \textit {K} constantes}{55}{section.134}
+\contentsline {section}{\numberline {2.8}Anexo: Datos de las simulaciones del modelo con saturaci\IeC {\'o}n}{56}{section.138}
+\contentsline {chapter}{\numberline {3}Estructura del mutualismo}{59}{chapter.143}
+\contentsline {section}{\numberline {3.1}Descripci\IeC {\'o}n basada en la descomposici\IeC {\'o}n \textit {k-core}}{60}{section.144}
+\contentsline {section}{\numberline {3.2}Definici\IeC {\'o}n de las k-magnitudes}{62}{section.147}
+\contentsline {section}{\numberline {3.3}Material y m\IeC {\'e}todos}{66}{section.152}
+\contentsline {subsection}{\numberline {3.3.1}An\IeC {\'a}lisis mediante modelo nulo}{66}{subsection.153}
+\contentsline {subsection}{\numberline {3.3.2}Experimento de recableado}{68}{subsection.155}
+\contentsline {section}{\numberline {3.4}Resultados}{68}{section.157}
+\contentsline {subsection}{\numberline {3.4.1}An\IeC {\'a}lisis exploratorio}{68}{subsection.158}
+\contentsline {subsection}{\numberline {3.4.2}Relaci\IeC {\'o}n entre las medidas de grado}{70}{subsection.161}
+\contentsline {subsection}{\numberline {3.4.3}Correlaci\IeC {\'o}n entre \textit {k-magnitudes} y propiedades globales}{72}{subsection.163}
+\contentsline {subsection}{\numberline {3.4.4}An\IeC {\'a}lisis de modelo nulo}{75}{subsection.168}
+\contentsline {subsection}{\numberline {3.4.5}Recableado aleatorio}{75}{subsection.170}
+\contentsline {section}{\numberline {3.5}Anexo: Tablas de resultados}{79}{section.174}
+\contentsline {chapter}{\numberline {4}Visualizaciones}{81}{chapter.178}
+\contentsline {section}{\numberline {4.1}Visualizaciones basadas en \textit {k-magnitudes}}{82}{section.179}
+\contentsline {subsection}{\numberline {4.1.1}El diagrama polar}{82}{subsection.180}
+\contentsline {subsection}{\numberline {4.1.2}El diagrama zigurat}{86}{subsection.185}
+\contentsline {section}{\numberline {4.2}Visualizaci\IeC {\'o}n de la estructura}{94}{section.195}
+\contentsline {section}{\numberline {4.3}Anexo: Gr\IeC {\'a}ficos de la colecci\IeC {\'o}n}{104}{section.205}
+\contentsline {section}{\numberline {4.4}Anexo: Red del Parque Nacional de Canaima}{104}{section.206}
+\contentsline {chapter}{\numberline {5}Estudio de resistencia}{105}{chapter.208}
+\contentsline {section}{\numberline {5.1}Medici\IeC {\'o}n de la resistencia}{106}{section.209}
+\contentsline {section}{\numberline {5.2}M\IeC {\'e}todos}{107}{section.210}
+\contentsline {section}{\numberline {5.3}Resultados}{110}{section.218}
+\contentsline {section}{\numberline {5.4}Anexo: Videos}{116}{section.224}
+\contentsline {section}{\numberline {5.5}Anexo: Resultados de los procesos de destrucci\IeC {\'o}n}{117}{section.225}
+\contentsline {chapter}{\numberline {6}Conclusiones de la tesis}{121}{chapter.229}
 \setcounter {tocdepth}{2}
-\contentsline {chapter}{\numberline {A}SIGMUND, manual de uso}{127}{appendix.245}
-\contentsline {section}{\numberline {A.1}Introducci\IeC {\'o}n}{127}{section.246}
-\contentsline {section}{\numberline {A.2}Formato de los ficheros de entrada}{128}{section.247}
-\contentsline {section}{\numberline {A.3}Uso interactivo}{129}{section.249}
-\contentsline {subsection}{\numberline {A.3.1}Ejemplos}{131}{subsection.251}
-\contentsline {section}{\numberline {A.4}Uso en modo \textit {batch}}{136}{section.261}
-\contentsline {subsection}{\numberline {A.4.1}Configuraci\IeC {\'o}n del script sigmund\_standalone.py}{136}{subsection.262}
-\contentsline {subsection}{\numberline {A.4.2}Script survival.py}{138}{subsection.263}
-\contentsline {subsection}{\numberline {A.4.3}Script sigmund\_createinput\_atmax.py}{138}{subsection.264}
-\contentsline {chapter}{\numberline {B}Paquete kcorebip, manual de uso}{139}{appendix.265}
-\contentsline {section}{\numberline {B.1}Introducci\IeC {\'o}n}{139}{section.266}
-\contentsline {section}{\numberline {B.2}Formato del fichero de entrada}{140}{section.267}
-\contentsline {section}{\numberline {B.3}An\IeC {\'a}lisis de la red}{140}{section.269}
-\contentsline {section}{\numberline {B.4}Diagrama polar}{141}{section.270}
-\contentsline {section}{\numberline {B.5}El diagrama zigurat}{144}{section.273}
-\contentsline {chapter}{\numberline {C}Acerca de este documento}{155}{appendix.280}
-\contentsline {chapter}{Bibliograf\IeC {\'\i }a}{157}{appendix*.281}
+\contentsline {chapter}{\numberline {A}SIGMUND, manual de uso}{125}{appendix.245}
+\contentsline {section}{\numberline {A.1}Introducci\IeC {\'o}n}{125}{section.246}
+\contentsline {section}{\numberline {A.2}Formato de los ficheros de entrada}{126}{section.247}
+\contentsline {section}{\numberline {A.3}Uso interactivo}{127}{section.249}
+\contentsline {subsection}{\numberline {A.3.1}Ejemplos}{129}{subsection.251}
+\contentsline {section}{\numberline {A.4}Uso en modo \textit {batch}}{134}{section.261}
+\contentsline {subsection}{\numberline {A.4.1}Configuraci\IeC {\'o}n del script sigmund\_standalone.py}{134}{subsection.262}
+\contentsline {subsection}{\numberline {A.4.2}Script survival.py}{136}{subsection.263}
+\contentsline {subsection}{\numberline {A.4.3}Script sigmund\_createinput\_atmax.py}{136}{subsection.264}
+\contentsline {chapter}{\numberline {B}Paquete kcorebip, manual de uso}{137}{appendix.265}
+\contentsline {section}{\numberline {B.1}Introducci\IeC {\'o}n}{137}{section.266}
+\contentsline {section}{\numberline {B.2}Formato del fichero de entrada}{138}{section.267}
+\contentsline {section}{\numberline {B.3}An\IeC {\'a}lisis de la red}{138}{section.269}
+\contentsline {section}{\numberline {B.4}Diagrama polar}{139}{section.270}
+\contentsline {section}{\numberline {B.5}El diagrama zigurat}{142}{section.273}
+\contentsline {chapter}{\numberline {C}Acerca de este documento}{153}{appendix.280}
+\contentsline {chapter}{Bibliograf\IeC {\'\i }a}{155}{appendix*.281}
