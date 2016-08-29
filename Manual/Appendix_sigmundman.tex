@@ -50,7 +50,7 @@ Aparecerán dos ventanas, una con la salida de la sesión \texttt{Python} y otra
 \centering
 \includegraphics[scale=1]{ManFigs/sigmund_ui.png}
 \caption{Interfaz de usuario de \texttt{SIGMUND} }
-\label{fig:ASIGMUNDMAN_matricessim}
+\label{fig:ASIGMUNDMAN_sigmund_ui}
 \end{figure}
 
 La interfaz de usuario está construida con el entorno gráfico \texttt{Qt} por lo que la apariencia puede variar ligeramente dependiendo del sistema operativo y del juego de fuentes instalado. Este es el significado de los campos de entrada:
@@ -154,11 +154,11 @@ El simulador ofrece dos posibilidades más. La primera de ellas es el crecimient
 \begin{figure}[h!]
 \centering
 \includegraphics[scale=1]{ManFigs/sigmund_oscilacion_diag_red.png}
-\caption{Diagrama polar y zigurta de la red ejemplo.}
+\caption{Diagramas polar y zigurat de la red ejemplo.}
 \label{fig:ASIGMUNDMAN_sigmund_oscilacion_diag_red}
 \end{figure}
 
-Para los ejemplos, se analizará la dinámica de una pequeña red ficticia \ref{fig:ASIGMUNDMAN_sigmund_oscilacion_diag_red} que se usó en el capítulo \ref{chapterDINAMICA} y que allí se representó con el diagrama bipartito de la figura \ref{fig:DINAMICA_SAT_red_exper_resilience_strong}
+Para los ejemplos, se analizará la dinámica de una pequeña red ficticia \ref{fig:ASIGMUNDMAN_sigmund_oscilacion_diag_red} que se usó en el capítulo \ref{chapterDINAMICA} y que allí se representó con el diagrama bipartito de la figura \ref{fig:DINAMICA_SAT_red_exper_resilience_strong}.
 
 \begin{figure}[h!]
 \centering
@@ -286,12 +286,12 @@ Ejemplo de uso:
 
 En este ejemplo se cargan las condiciones de simulación almacenadas en el fichero \texttt{exp18\_Verhulst\_oso\_20.sim}, se indica que la simulación dure 50 años, que se generen y almacenen los resultados gráficos, que se elimine un $10\%$ de enlaces y que la salida sea en modo \texttt{verbose}, como si se hubiera invocado desde la interfaz de usuario. Cuando en el comando de llamada se incluyen parámetros como en este ejemplo, tienen precedencia sobre la configuración que haya en el fichero. Así, esta simulación cubre un periodo de 50 años con independencia de que en el fichero se indique otra cifra.  
 
-Si el flag \texttt{-v} no se activa, el programa se ejecuta en modo silencioso. Si el flag \texttt{-stop} está activo, el script devolverá tan solo las cadenas de caracteres \texttt{"SURVIVAL"} o \texttt{"EXTINCTION"}. Con esta opción se pueden lanzar múltiples simulaciones para comprobar si la red sobrevive bajo las condiciones especificadas. La simulación se detiene cuando el programa comprueba que el sistema está por debajo del mínimo vital y que no puede remontar.
+Si el flag \texttt{-v} no se activa, el programa se ejecuta en modo silencioso. Si el flag \texttt{-stop} está activo, el script devolverá tan solo las cadenas de caracteres \texttt{SURVIVAL} o \texttt{EXTINCTION}. Con esta opción se pueden lanzar múltiples simulaciones para comprobar si la red sobrevive bajo las condiciones especificadas. La simulación se detiene cuando el programa comprueba que el sistema está por debajo del mínimo vital y que no puede remontar.
 
 
 \subsection{Script survival.py}
 
-\noindent Este ejemplo muestra como puede usarse el script \texttt{sigmund\_standalone.py} cuando se elimina de forma aleatoria el $70\%$ de los enlaces de la red a lo largo de un periodo de 50 años.
+\noindent Este ejemplo muestra como puede usarse el script \texttt{sigmund\_standalone.py} cuando se eliminan de forma aleatoria el $70\%$ de los enlaces de la red a lo largo de un periodo de 50 años.
 
 \fontsize{3mm}{3mm}\selectfont
 \begin{verbatim}

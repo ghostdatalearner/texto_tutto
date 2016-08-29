@@ -41,9 +41,9 @@
 \contentsline {section}{\numberline {3.4}Resultados}{68}{section.157}
 \contentsline {subsection}{\numberline {3.4.1}An\IeC {\'a}lisis exploratorio}{68}{subsection.158}
 \contentsline {subsection}{\numberline {3.4.2}Relaci\IeC {\'o}n entre las medidas de grado}{70}{subsection.161}
-\contentsline {subsection}{\numberline {3.4.3}Correlaci\IeC {\'o}n entre \textit {k-magnitudes} y propiedades globales}{72}{subsection.163}
+\contentsline {subsection}{\numberline {3.4.3}Correlaci\IeC {\'o}n entre \textit {k-magnitudes} y propiedades globales}{73}{subsection.163}
 \contentsline {subsection}{\numberline {3.4.4}An\IeC {\'a}lisis de modelo nulo}{75}{subsection.168}
-\contentsline {subsection}{\numberline {3.4.5}Recableado aleatorio}{75}{subsection.170}
+\contentsline {subsection}{\numberline {3.4.5}Recableado aleatorio}{76}{subsection.170}
 \contentsline {section}{\numberline {3.5}Anexo: Tablas de resultados}{79}{section.174}
 \contentsline {chapter}{\numberline {4}Visualizaciones}{81}{chapter.178}
 \contentsline {section}{\numberline {4.1}Visualizaciones basadas en \textit {k-magnitudes}}{82}{section.179}

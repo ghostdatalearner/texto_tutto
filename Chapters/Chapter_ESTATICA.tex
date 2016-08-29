@@ -16,7 +16,7 @@ En este capítulo se describe el potencial de una técnica clásica en el análi
 
 La \textit{descomposición k-core}\footnote{Utilizamos la expresión original en inglés por ser prevalente en la bibliografía, a pesar de que algunos autores han propuesto traducciones como \textit{núcleos de grado k} \cite{herrero2000terminologia} o \textit{k-núcleos} \cite{cardona2006taxonomia, martinez2011aplicacion}} fue utilizada por primera vez por Stefen Seidman para medir la densidad local y la cohesión en redes sociales \cite{seidman1983network}. Dado un grafo no dirigido, un \textit{k-core} es el subgrafo máximo en el que todos sus nodos están conectados con al menos otros $k$ puntos \cite{dorogovtsev2006k}.
 
-La \textit{descomposición k-core} se ha utilizado de forma habitual como mecanismo de reducción de información para estudiar redes de distinta naturaleza \cite{kitsak2010identification, zhang2010using, barbera2015critical}. El resultado ofrece una visión organizada en capas, con los nodos más centrales en la \textit{shell} de mayor $k$. Esta cifra puede llegar al orden de las centenas en redes grandes. Hasta donde nosotros sabemos, no hay literatura sobre su aplicación al estudio del mutualismo, ya que son redes bipartitas de un tamaño mínimo comparado con los sistemas sociales o tecnológicos a los que se ha aplicado.
+La \textit{descomposición k-core} se ha utilizado de forma habitual como mecanismo de reducción de información para estudiar redes de distinta naturaleza \cite{kitsak2010identification, zhang2010using, barbera2015critical}. El resultado ofrece una visión organizada en capas, con los nodos más centrales en la \textit{shell} de mayor $k$. Esta cifra puede llegar al orden de las centenas en redes grandes. Hasta donde nosotros sabemos, no hay literatura sobre su uso en el estudio del mutualismo, ya que son redes bipartitas de un tamaño mínimo comparado con los sistemas sociales o tecnológicos a los que se ha aplicado.
 
 \begin{theo} 
 Sea un grafo no dirigido $G = \{V, E\}$, donde $V$ y $E$ son los conjuntos de nodos y enlaces respectivamente. Llamamos $deg_G(v)$ al grado del nodo $v$ en el grafo $G$. El subgrafo $M = \{C, E|C\}$ inducido por el subconjunto de nodos $C \subseteq V$ es
@@ -66,7 +66,7 @@ En la fórmula \ref{ESTATICA_kradius} $dist_{mj}$ es el camino más corto de la 
 \label{fig:ESTATICA_red_example}
 \end{figure}
 
-La figura \ref{fig:ESTATICA_red_example} es una red de frugívoros real, de dimensiones muy reducidas, con cinco especies de plantas, cuatro de aves (mirlos) y once enlaces. Llamaremos clase $A$ a las plantas y clase $B$ a las aves. La descomposición \textit{k-core} se ha realizado con el algoritmo de \textit{pruning}. El índice $k$ máximo es $2$, todas las aves pertenecen a la $2$-$shell$, no así todas las plantas. En este ejemplo todas las especies de la \textit{shell} máxima de la clase $A$ tienen enlace directo con todas las especies de la \textit{shell} máxima de la clase $B$, esto no tiene por qué ser siempre así. 
+La figura \ref{fig:ESTATICA_red_example} es una red de dispersores de semillas real, de dimensiones muy reducidas, con cinco especies de plantas, cuatro de aves frugívoras y once enlaces. Llamaremos clase $A$ a las plantas y clase $B$ a las aves. La descomposición \textit{k-core} se ha realizado con el algoritmo de \textit{pruning}. El índice $k$ máximo es $2$, todas las aves pertenecen a la $2$-$shell$, no así todas las plantas. En este ejemplo todas las especies de la \textit{shell} máxima de la clase $A$ tienen enlace directo con todas las especies de la \textit{shell} máxima de la clase $B$, esto no tiene por qué ser siempre así. 
 
 El camino más corto desde la planta $2$ a cada una de las cuatro especies de dispersores de la $2-shell$ es $1$ al estar enlazada con todas ellas. Su $k_{radius}$ es, en consecuencia, $1$ porque se ha definido como el promedio de las distancias a todas las especies de la \textit{shell} máxima de la clase contraria. Lo mismo ocurre con la planta $1$. Se puede comprobar que el $k_{radius}$ de todas las especies de aves de la $2$-$shell$ es también $1$, midiendo sus distancias respectivas a las plantas $1$ y $2$.
 
@@ -94,12 +94,12 @@ El \textit{$\overline k_{radius}$} de una red se obtiene promediando los ${k}_{r
 Una red con todos sus nodos conectados (matriz de adyacencia cuadrada) tendría $\overline {k}_{radius}=1$, el menor posible. En una con matriz de adyacencia triangular el $\overline {k}_{radius}$ vale $1.5$. Intuitivamente, el $\overline {k}_{radius}$ será pequeño para redes muy anidadas, porque la probabilidad de conexión con la \textit{shell} más interna es elevada. Las especies generalistas están muy interconectadas y las especialistas tienen enlaces directos con las \textit{k-shells} de mayor índice. Por el contrario, una distribución de enlaces puramente aleatoria conduciría a una red con mayor $\overline {k}_{radius}$.
 
 
-Es necesario aclarar en este punto que $\overline {k}_{radius}$ es una medida de anidamiento, sino de compacidad. La noción de \textit{network compactness} se ha utilizado con diferentes sentidos y no siempre precisos en la literatura \cite{wagner2003does, egghe2003measure, chapanond2005graph, zhang2011constructing}. Nosotros utilizaremos una de las definiciones más laxas, la que indica que una red es compacta cuando los nodos se conectan de manera preferente a las partes más centrales \cite{alava2004preferential}. Es en este sentido en el que nos referiremos a $\overline {k}_{radius}$ como medida de compacidad de la red.
+Es necesario aclarar en este punto que $\overline {k}_{radius}$ no es una medida de anidamiento, sino de compacidad. La noción de \textit{network compactness} se ha utilizado con diferentes sentidos y no siempre precisos en la literatura \cite{wagner2003does, egghe2003measure, chapanond2005graph, zhang2011constructing}. Nosotros utilizaremos una de las definiciones más laxas, la que indica que una red es compacta cuando los nodos se conectan de manera preferente a las partes más centrales \cite{alava2004preferential}. Es en este sentido en el que nos referiremos a $\overline {k}_{radius}$ como medida de compacidad de la red.
 
 El ${k}_{radius}$ es una buena medida de conexión al corazón de la red pero no de centralidad. Por ejemplo, su valor es bajo para un especialista con un enlace a la \textit{shell} más interna, aunque sabemos que no resulta determinante para la estabilidad global de la red. Para atender esta necesidad, definimos una segunda \textit{k-magnitud}.
 
 \begin{theo} 
-El \textit{$k_{degree}$} de la especie $m$ de la clase $A$ es la suma de sus enlaces pesados cada uno de ellos por la inversa del $k_{radius}$ de la especie de la clase $B$ con la que se conecta.
+El \textit{$k_{degree}$} de la especie $m$ de la clase $A$ es la suma de sus enlaces, pesados cada uno de ellos por la inversa del $k_{radius}$ de la especie de la clase $B$ con la que se conecta.
 \begin{align*}
 \displaystyle
 k^A_{degree}(m) = \sum\limits_{j} \frac{a_{mj} }{k^B_{radius}\left(j\right)}  \quad   m \in A, \forall j \in B
@@ -137,6 +137,7 @@ En la tabla \ref{table:table_SD_030} pueden consultarse los valores de las \text
 \begin{table}[htbp]
 \normalsize
   \centering
+  \caption{\label{table:table_SD_030} \textit{K-magnitudes} de la red de la figura \ref{fig:ESTATICA_SD_030_example_distances}. Valores globlales: $\overline k_{radius} = 1,5 $ y $\overline k_{degree} = 2,24$.}
     \begin{tabular}{lrr}
     \toprule
     $Especie$ & $k_{radius}$ & $k_{degree}$  \\
@@ -152,7 +153,6 @@ En la tabla \ref{table:table_SD_030} pueden consultarse los valores de las \text
     disp4 & 1    & 2 \\
     \bottomrule
     \end{tabular}%
-  \caption{\label{table:table_SD_030} \textit{K-magnitudes} de la red de la figura \ref{fig:ESTATICA_SD_030_example_distances}. Valores globlales: $\overline k_{radius} = 1,5 $ y $\overline k_{degree} = 2,24$.}
 \end{table}%
 
 \section{Material y métodos}
@@ -204,10 +204,10 @@ En este apartado se describen los resultados de los siguientes procedimientos: a
 
 \subsection{Análisis exploratorio}
 
-La figura \ref{fig:ESTATICA_hist_kmagnitudes} contiene los histogramas de las tres \textit{k-magnitudes} globales que describen las redes incluidas en la investigación. En la mitad de ellas el $k$ máximo es $4$ o inferior y solo hay dos en las que este índice supere $8$. La distribución del $\overline{k}_{radius}$ es aproximadamente normal, con una mediana de $2,51$ y media $2,47$. Teniendo en cuenta que el valor mínimo de esta magnitud es $1$, podemos deducir que en las redes mutualistas analizadas las especies se encuentran muy próximas a la \textit{k-shell} más interna. Este dato concuerda con la observación de que los especialistas se conectan con generalistas lo que les proporciona más probabilidades de supervivencia. Finalmente, el $\overline{k}_{degree}$ se
+La figura \ref{fig:ESTATICA_hist_kmagnitudes} contiene los histogramas de las tres \textit{k-magnitudes} globales que describen las redes incluidas en la investigación. En la mitad de ellas el $k$ máximo es $4$ o inferior y solo hay dos en las que este índice supera $8$. La distribución del $\overline{k}_{radius}$ es aproximadamente normal, con una mediana de $2,51$ y media $2,47$. Teniendo en cuenta que el valor mínimo de esta magnitud es $1$, podemos deducir que en las redes mutualistas analizadas las especies se encuentran muy próximas a la \textit{k-shell} más interna. Este dato concuerda con la observación de que los especialistas se conectan con generalistas lo que les proporciona más probabilidades de supervivencia. Finalmente, el $\overline{k}_{degree}$ se
 concentra entre los valores $0,5$ y $3,5$ con la mediana en $2,08$. La conectividad media de las redes es reducida
 porque abundan los especialistas. En el tercer histograma hay una diferencia sensible entre las redes de polinizadores
-y las de dispersores de semillas, estas últimas tienen valores más elevados.
+y las de dispersores de semillas, estas últimas tienen valores de $\overline{k}_{degree}$ más elevados.
 
 \begin{figure}[h!]
 \centering
@@ -216,7 +216,7 @@ y las de dispersores de semillas, estas últimas tienen valores más elevados.
 \label{fig:ESTATICA_hist_kmagnitudes}
 \end{figure}
 
-En una primera aproximación visual a los datos, se observa que existe una correlación notable entre el $\overline{k}_{radius}$ de la red y el número de especies (fig.~ \ref{fig:ESTATICA_tamanyo_kdegree_kradius}a), impresión que confirman los datos de la regresión lineal. Como cabía esperar, cuanto mayor es la red, mayor es la distancia media a la \textit{shell} máxima. El crecimiento sigue una ley logarítmica, nótese la escala del eje $X$. Sucede algo parecido con el número de enlaces, pero en este caso se puede apreciar mayor dispersión ((fig.~ \ref{fig:ESTATICA_tamanyo_kdegree_kradius}c). Podemos concluir que $\overline{k}_{radius}$ no es libre de escala.
+En una primera aproximación visual a los datos, se observa que existe una correlación notable entre el $\overline{k}_{radius}$ de la red y el número de especies (fig.~ \ref{fig:ESTATICA_tamanyo_kdegree_kradius}a), impresión que confirman los datos de la regresión lineal. Como cabía esperar, cuanto mayor es la red, mayor es la distancia media a la \textit{shell} máxima. El crecimiento sigue una ley logarítmica, nótese la escala del eje $X$. Sucede algo parecido con el número de enlaces, pero en este caso se puede apreciar mayor dispersión (figura  \ref{fig:ESTATICA_tamanyo_kdegree_kradius}c). Podemos concluir que $\overline{k}_{radius}$ no es libre de escala.
 
 Por el contrario, $\overline{k}_{degree}$ no parece guardar relación con el tamaño de la red, ya se mida en número total de especies o de enlaces. Para la mayoría de redes su valor está en torno a $2$ (fig.~ \ref{fig:ESTATICA_tamanyo_kdegree_kradius}b). Este dato hace sospechar que la distribución de ${k}_{degree}$ en las redes es muy heterogénea. La mayoría de los nodos tienen valores bajos, por lo que la media arroja ese valor tan reducido. En la figura \ref{fig:ESTATICA_density_plots} aparecen las gráficas de dicha distribución en tres redes en las que resulta evidente la asimetría. 
 
@@ -237,14 +237,14 @@ La descomposición \textit{k-core} ha permitido definir el $k_{degree}$ como un 
 
 Los dos índices, $grado$ y ${k}_{degree}$ guardan una correlación muy elevada para todas las redes, como se aprecia en el histograma de la figura \ref{fig:ESTATICA_ALL_plots_kdegree_degree_M_PL_001_ES}a. En \ref{fig:ESTATICA_ALL_plots_kdegree_degree_M_PL_001_ES}b se ha representado el diagrama de dispersión para una red concreta, la relación lineal es similar para el resto. Los valores de la recta de regresión indican que para este caso, $k_{degree}$ se puede predecir de forma muy aproximada, multiplicando por $0.4$ el grado de la especie. La constante multiplicativa es siempre inferior a la unidad, porque la aportación a $k_{degree}$ de cada enlace se divide por el $k{radius}$ de la especie conectada que, por definición, es mayor o igual que $1$. 
 
-Cabe preguntarse para qué crear un índice que no es más que otro ya existente multiplicado por una constante. La razón se entenderá observando con atención los diagramas de la fila inferior. La figura \ref{fig:ESTATICA_ALL_plots_kdegree_degree_M_PL_001_ES}c es la distribución de probabilidad acumulada del grado de la red, con forma de ley de potencia truncada. En \ref{fig:ESTATICA_ALL_plots_kdegree_degree_M_PL_001_ES}d, se representa la distribución acumulada de $k_{degree}$. La escala de los ejes $X$ no es la misma, porque el rango de $k_{degree}$ es inferior como se acaba de explicar, pero empleando la misma anchura de diagrama es fácil ver que las figuras son muy parecidas (fig. \ref{fig:ESTATICA_ALL_plots_kdegree_degree_M_PL_001_ES}e).
+Cabe preguntarse por la utilidad un índice que no parece más que otro ya existente multiplicado por una constante. La razón se entenderá observando con atención los diagramas de la fila inferior. La figura \ref{fig:ESTATICA_ALL_plots_kdegree_degree_M_PL_001_ES}c es la distribución de probabilidad acumulada del grado de la red, con forma de ley de potencia truncada. En \ref{fig:ESTATICA_ALL_plots_kdegree_degree_M_PL_001_ES}d, se representa la distribución acumulada de $k_{degree}$. La escala de los ejes $X$ no es la misma, porque el rango de $k_{degree}$ es inferior como se acaba de explicar.
 
-En la última gráfica, se realiza una transformación simple. Los valores de $k_{degree}$ se dividen por el coeficiente $\alpha$ de la correlación lineal y el resultado (en turquesa) se superpone a la distribución de grado (en rojo). Con esta representación queda claro que $k_{degree}$ no es meramente el grado escalado. Lo que hace es transformar la distribución discreta de grado en otra con muchos más puntos intermedios, con lo que se obtiene una ordenación con criterio topológico de los nodos de idéntico grado. Esta sutil diferencia es importante a la hora decidir qué nodos son más importantes para la supervivencia de la red. La utilidad de este índice frente al grado se describe con detalles numéricos en el capítulo \ref{ChapterDESTRUCCION}.
+En la gráfica \ref{fig:ESTATICA_ALL_plots_kdegree_degree_M_PL_001_ES}e se realiza una transformación simple. Los valores de $k_{degree}$ se dividen por el coeficiente $\alpha$ de la correlación lineal y el resultado (en turquesa) se superpone a la distribución de grado (en rojo). Con esta representación queda claro que $k_{degree}$ no es meramente el grado escalado. Lo que hace es transformar la distribución discreta de grado en otra con muchos más puntos intermedios, con lo que se obtiene una ordenación con criterio topológico de los nodos de idéntico grado. Esta sutil diferencia es importante a la hora decidir qué nodos son más importantes para la supervivencia de la red. La utilidad de este índice frente al grado se describe con detalles numéricos en el capítulo \ref{ChapterDESTRUCCION}.
 
 \begin{figure}[h!]
 \centering
 \includegraphics[scale=0.5]{Figures/ESTATICA_ALL_plots_kdegree_degree_M_PL_001_ES.png}
-\caption{Relación entre $degree$ y $k_{degree}$. a: histograma de la correlación entre ambas magnitudes para todas las redes del estudio. b: diagrama de dispersión de ambas magnitudes para la red de polinizadores $001$ y valores de la regresión lineal para esta red. c,d,e: funciones de distribución de probabilidad acumulada de los dos índices. En d) se han representado ambos, sobre la escala de $degree$ con la transformación en el eje $X$ $k_{degree} = \alpha * degree$ siendo $\alpha$ el coeficiente de regresión lineal que en este caso vale aproximadamente $0.4$.}
+\caption{Relación entre $degree$ y $k_{degree}$. a: histograma de la correlación entre ambas magnitudes para todas las redes del estudio. b: diagrama de dispersión de ambas magnitudes para la red de polinizadores $001$ y valores de la regresión lineal para esta red. c,d,e: distribuciones de probabilidad acumulada de los dos índices. En d) se han representado ambos sobre la escala de $degree$, con la transformación en el eje $X$ $k_{degree} = \alpha * degree$, siendo $\alpha$ el coeficiente de regresión lineal que en este caso vale aproximadamente $0,4$.}
 \label{fig:ESTATICA_ALL_plots_kdegree_degree_M_PL_001_ES}
 \end{figure}
 
@@ -254,7 +254,7 @@ En la última gráfica, se realiza una transformación simple. Los valores de $k
 
 Uno de los objetivos principales de la investigación es hallar la posible relación entre las magnitudes que se derivan de la \textit{descomposición k-core} y las que se utilizan habitualmente en la caracterización del mutualismo. 
 
-Para realizar la comparación se calcula el anidamiento mediante \textit{NODF} y la modularidad siguiendo los procedimientos de cálculo descritos en el apartado \ref{sec:prop_mutualismo} \footnote{Para evitar confusiones entre el nombre la de la magnitud y la medida según un algoritmo concreto, en lo sucesivo se emplea \textit{Modularity}, en inglés y con mayúscula.}. Ambas medidas pueden obtenerse con el paquete \texttt{bipartite} en \texttt{R}. En la figura \ref{fig:ESTATICA_corrfigs} se han representado el $\overline {k}_{radius}$ en función de $NODF$ y el $\overline {k}_{degree}$ en función de la \textit{Modularity}. Las figuras sugerían que existe una fuerte correlación negativa entre el $\overline {k}_{radius}$ y $NODF$ por una parte y, por otra, entre el $\overline {k}_{degree}$ y la $modularidad$. 
+Para realizar la comparación se calcula el anidamiento mediante \textit{NODF} y la modularidad siguiendo los procedimientos de cálculo descritos en el apartado \ref{sec:prop_mutualismo} \footnote{Para evitar confusiones entre el nombre la de la magnitud y la medida según un algoritmo concreto, en lo sucesivo se emplea \textit{Modularity}, en inglés y con mayúscula.}. Ambas medidas pueden obtenerse con el paquete \texttt{bipartite} en \texttt{R}. En la figura \ref{fig:ESTATICA_corrfigs} se han representado el $\overline {k}_{radius}$ en función de $NODF$ y el $\overline {k}_{degree}$ en función de la \textit{Modularity}. Las figuras sugieren que existe una fuerte correlación negativa entre el $\overline {k}_{radius}$ y $NODF$ por una parte y, por otra, entre el $\overline {k}_{degree}$ y la \textit{Modularity}. 
 
 \begin{figure}[h!]
 \centering
@@ -272,6 +272,7 @@ Es sencillo de entender; si la red es muy anidada las especies se conectan direc
 
 \begin{table}[ht]
 \centering
+\caption{\label{table:table_lmodel} Resultados de las regresiones lineales}
 \begin{tabular}{|l r | l r|}
 \hline
 $log(\overline {k}_{radius})$ vs $NODF$& & $log(\overline {k}_{degree})$ vs $Modularity$ & \\
@@ -282,10 +283,10 @@ $R^2$ ajustado&  0.8427  & $R'^2$ ajustado& 0.8064\\
 p-value & $<2.2 \times 10^{-16}$& p-value' & $<2.2 \times 10^{-16}$\\
 \hline
 \end{tabular}
-\caption{\label{table:table_lmodel} Resultados de las regresiones lineales}
+
 \end{table}
 
-La correlación entre $\overline {k}_{degree}$ y $Modularity$ es más complicada de intuir. La figura \ref{fig:ESTATICA_density_plots} ayuda a entenderla. La distribución de densidad del $k_{degree}$ está más concentrada y sesgada hacia la izquierda cuanto más modular es la red. En ese caso la mayoría de las especies tienen valores reducidos del ${k}_{degree}$ y en consecuencia el valor medio es reducido. La distribución se va aplanando a medida que la modularidad decrece y el valor medio se desplaza hacia la derecha. 
+La correlación entre $\overline {k}_{degree}$ y $Modularity$ es más complicada de intuir. La figura \ref{fig:ESTATICA_density_plots} ayuda a entenderla. La distribución de densidad del $k_{degree}$ está más concentrada y sesgada hacia la izquierda cuanto más modular es la red. En ese caso la mayoría de las especies tienen valores reducidos del ${k}_{degree}$ y en consecuencia el valor medio es pequeño. La distribución se va aplanando a medida que la modularidad decrece y el valor medio se desplaza hacia la derecha. 
 
 Si se examina de nuevo la figura \ref{fig:ESTATICA_corrfigs}, se verá que las redes de mayor tamaño son también las que tienen valores más altos de $Modularity$. La mayoría de ellas son de la clase \textit{planta-polinizador} mientras que las tipo \textit{dispersor de semillas} son más pequeñas. Este hecho ya fue apuntado por Olesen que estudió 51 redes y encontró que las que tienen menos de 150 especies no son modulares \cite{olesen2007modularity}. Los valores elevados de $\overline {k}_{degree}$ en redes reducidas casan bien con la observación de que en ese caso las especies se encuentran más próximas a la \textit{shell} más interna y añaden valores altos al ${k}_{degree}$ de las especies a las que se conectan.
 
@@ -296,7 +297,7 @@ Si se examina de nuevo la figura \ref{fig:ESTATICA_corrfigs}, se verá que las r
 \label{fig:ESTATICA_density_plots}
 \end{figure}
 
-Las elevadas correlaciones de $\overline {k}_{radius}$ con $NODF$ y de $\overline {k}_{radius}$ con $Modularity$ son suficientes para esta investigación. Por ejemplo, no se propugna que $log(\overline {k}_{radius})$ sea un buen predictor de $NODF$, de hecho el test de \textit{Shapiro-Wilk} muestra heterocedasticidad. La colección de la \textit{Web of Life} no es una muestra aleatoria, y las distribuciones de las magnitudes no son normales. Sin embargo, las correlaciones apoyan la idea de que el $\overline {k}_{radius}$ es un indicador global de una propiedad con comportamiento similar al del anidamiento, y el $\overline {k}_{degree}$ de modularidad y que la \textit{descomposición k-core} es una herramienta de interés para el estudio del mutualismo.
+Las elevadas correlaciones de $\overline {k}_{radius}$ con $NODF$ y de $\overline {k}_{radius}$ con $Modularity$ son suficientes para esta investigación. Por ejemplo, no se propugna que $log(\overline {k}_{radius})$ sea un buen predictor de $NODF$, de hecho el test de \textit{Shapiro-Wilk} muestra heterocedasticidad. La colección de la \textit{Web of Life} no es una muestra aleatoria, y las distribuciones de las magnitudes no son normales. Sin embargo, las correlaciones apoyan la idea de que el $\overline {k}_{radius}$ es un indicador global de una propiedad con comportamiento similar al del anidamiento, y el $\overline {k}_{degree}$ de modularidad y que por ello la \textit{descomposición k-core} es una herramienta de interés para el estudio del mutualismo.
 
 \subsection{Análisis de modelo nulo}
 
@@ -313,7 +314,7 @@ La medida de la compacidad con $\overline {k}_{radius}$ es más restrictiva. De 
 \label{fig:ESTATICA_zscore_all}
 \end{figure}
 
-La situación es opuesta para las redes binarias, para las que se ha usado un modelo nulo \textit{free free}. Las $57$ disponibles en la colección muestran anidamiento no debido al azar según el análisis. Para este subconjunto la compacidad también resulta ser menos común que el anidamiento, solo $27$ tienen un índice $z\overline {k}_{radius}$ inferior a $2$.
+La situación es opuesta para las redes binarias, para las que se ha usado un modelo nulo menos restrictivo. Las $59$ disponibles en la colección muestran anidamiento no debido al azar según el análisis. Para este subconjunto la compacidad también resulta ser menos común que el anidamiento, solo $27$ tienen un índice $z\overline {k}_{radius}$ inferior a $2$.
 
 De estos datos concluimos que $\overline k_{radius}$ puede resultar una medida útil de la proximidad del conjunto de las especies de la red a su núcleo más conectado. Solo parte de las redes significativamente anidadas de la colección, según $zNODF$, resultan ser también compactas. La probabilidad de aparición aleatoria de esta propiedad es inferior a la del anidamiento.
 
@@ -337,19 +338,19 @@ En el histograma \ref{fig:ESTATICA_histo_corr_rewiring}c se han eliminado las re
 \begin{figure}[h!]
 \centering
 \includegraphics[scale=0.75]{Figures/ESTATITCA_asimetria_corr.png}
-\caption {Correlación de $z \overline {k}_{radius}$ y $zNODF$ en el experimento de recableado en función del número de especies de la red. El área es proporcional a la asimetría de especies de cada red.}
+\caption {Correlación de $z \overline {k}_{radius}$ y $zNODF$ en el experimento de recableado en función del número de especies de la red. El área es proporcional a la asimetría de clases de cada red.}
 \label{fig:ESTATICA_asimetria_corr}
 \end{figure}
 
 Buscando el origen de este comportamiento dispar, se ha representado el diagrama de dispersión que relaciona el valor de la correlación con el número de especies de la red y con la asimetría de clases (fig. \ref{fig:ESTATICA_asimetria_corr}). Esta se mide como el valor absoluto de la diferencia entre el número de especies de ambas clases dividida por su suma (tabla \ref{table:table_results_recableados}). El área correspondiente al círculo de cada especie es proporcional a la asimetría. De la gráfica se deduce que cuanto mayor es el tamaño de la red la correlación lineal entre $NODF$ y $log(\overline {k}_{radius})$ tiene mayor tendencia a mantenerse aunque se recablee un pequeño porcentaje de conexiones. Para redes más pequeñas, el factor que destruye con mayor rapidez el anidamiento es la asimetría, y la red $M\_SD\_007$ es un caso extremo, con $72$ especies de plantas, solo $7$ de polinizadores y una estructura muy peculiar como se verá en el próximo capítulo de visualizaciones (figura \ref{fig:VIS_SD_007}). Estas redes asimétricas son mucho más sensibles a las reconexiones, porque hay una mayor probabilidad de alterar la \textit{k-shell} máxima.
 
-Lo que muestra el experimento es que cuanto  mayores son el tamaño y la simetría, las redes parecen menos destructibles ante pequeños cambios. El valor de la correlación podría utilizarse como indicador numérico de la resistencia a una variación de las condiciones ambientales.
+Para todas las redes, el experimento conduce a un estado de mayor desorden (figura \ref{fig:ESTATICA_zscores_networks_evolution}). Cuanto  mayores son el tamaño y la simetría, las redes parecen menos destructibles ante pequeños cambios. El valor de la correlación podría utilizarse como indicador numérico de la resistencia a una variación de las condiciones ambientales.
 
 \begin{figure}[htp!]
 \centering
 \includegraphics[scale=0.55]{ESTATICA_zscores_networks_evolution.png}
 \caption {Comparativa de la evolución de $z \overline {k}_{radius}$ y $zNODF$ en el experimento de recableado de tres redes. Los triángulos marcan los pares de valores de las redes originales. A medida que crece el porcentaje de recableado aleatorio, las redes resultantes son más desordenadas y se desplazan al cuadrante superior izquierdo, combinación de falta de anidamiento y de compacidad.}
-\label{fig:ESTATICA_asimetria_corr}
+\label{fig:ESTATICA_zscores_networks_evolution}
 \end{figure}
 
 \clearpage
@@ -414,7 +415,7 @@ Lo que muestra el experimento es que cuanto  mayores son el tamaño y la simetr�
 \begin{table}[h!]
 \fontsize{2.2mm}{2.2mm}\selectfont
   \centering
-      \caption{\label{table:table_results_recableados} Resultados del experimento de recableado para las redes con matriz de adyacencia binaria. La correlación es la de $zNODF$ y $z \overline {k}_{radius}$ para las redes recableadas. La asimetría de especies es la diferencia entre el número de especies de cada clase dividida por la suma.}
+      \caption{\label{table:table_results_recableados} Resultados del experimento de recableado para las redes con matriz de adyacencia binaria. La correlación es la de $zNODF$ y $z \overline {k}_{radius}$ para las redes recableadas. La asimetría de clases es la diferencia entre el número de especies de cada clase dividida por la suma.}
       \begin{tabular}{lrrrrrlrrrr}
     \toprule
     $Red$  & $Especies$ & $Enlaces$ & $Corr$ & $Asim.$ &      & $Red$  & $Especies$ & $Enlaces$ & $Corr$& $Asim.$ \\

@@ -69,13 +69,13 @@ En esta sección se describen dos nuevos tipos de visualización que se basan en
 
 \subsection{El diagrama polar}
 
-El diagrama polar se inspira en el \textit{fingerprint plot}, desarrollado por Álvarez-Hamelin \textit{et al} y que se basa en la descomposición \textit{k-core} \cite{alvarez2005k}. Los autores emplearon esta técnica para reducir la información y poder visualizar redes muy grandes con índice $k$ máximo del orden de varias decenas. Los nodos se ubican de manera concéntrica, a una distancia que depende de su \textit{k-shell} y de las de sus vecinos. El tamaño de los nodos es proporcional al logaritmo del grado y el color indica la \textit{shell} a la que pertenecen. No se dibujan todos los enlaces, solo un pequeño porcentaje elegido al azar.
+El diagrama polar se inspira en el \textit{fingerprint plot} (figura \ref{fig:fingerprint_plot}), desarrollado por Álvarez-Hamelin \textit{et al}, que se basa en la descomposición \textit{k-core} \cite{alvarez2005k}. Los autores emplearon esta técnica para reducir la información y poder visualizar redes muy grandes con índice $k$ máximo del orden de varias decenas. Los nodos se ubican de manera concéntrica, a una distancia que depende de su \textit{k-shell} y de las de sus vecinos. El tamaño de los nodos es proporcional al logaritmo del grado y el color indica la \textit{shell} a la que pertenecen. No se dibujan todos los enlaces, solo un pequeño porcentaje elegido al azar.
 
 \begin{figure}[h!]
 \centering
 \includegraphics[scale=0.5]{Figures/VIS_fingerprint_plot.png}
 \caption{\textit{Fingerprint plot} de la difusión de la noticia del descubrimiento del bosón de Higgs en Twitter \cite{de2013anatomy}. La imagen se generó con el software \texttt{LaNet-vi}, desarrollado por el equipo que creó este tipo de diagrama \cite{alvarez2008low}.}
-\label{fig:VIS_M_PL_034_polar}
+\label{fig:fingerprint_plot}
 \end{figure}
 
 Una versión evolucionada de esta forma de representar redes grandes usando la descomposición \textit{k-core} utiliza las \textit{k-shell} en lugar de los nodos. Estas se dibujan como círculos que se disponen en espiral alrededor de la \textit{shell} máxima (figura \ref{fig:VIS_taksim}).
@@ -90,7 +90,7 @@ Una versión evolucionada de esta forma de representar redes grandes usando la d
 
 En el \textit{diagrama polar} se conservan las ideas de diagrama concéntrico y la coloración en función de la \textit{k-shell}, pero hay cambios profundos en el resto de detalles. La naturaleza bipartita de las redes mutualistas es la principal diferencia con el \textit{fingerprint plot} original. En el diagrama polar cada clase ocupa uno de los semiplanos, separados por el eje de simetría vertical. La forma de los nodos se emplea para remarcar esta diferencia. 
 
-El centro de cada especie se sitúa a una distancia $k_{radius}$ del origen de coordenadas. Recordemos que el valor mínimo de esta magnitud es $1$. El área de los nodos es proporcional a su $k_{degree}$ y el color propio de la \textit{k-shell}. El algoritmo de representación asigna el ángulo que se distribuye para evitar al máximo la superposición de nodos. Una diferencia sustancial con el  \textit{fingerprint plot} es que en este tipo de visualización no se representan los enlaces.
+El centro de cada especie se sitúa a una distancia $k_{radius}$ del origen de coordenadas. Recordemos que el valor mínimo de esta magnitud es $1$. El área de los nodos es proporcional a su $k_{degree}$ y el color, el propio de la \textit{k-shell}. El algoritmo de representación asigna el ángulo que se distribuye para evitar al máximo la superposición de nodos. Una diferencia sustancial con el  \textit{fingerprint plot} es que en este tipo de visualización no se representan los enlaces.
 
 \begin{figure}[h!]
 \centering
@@ -114,7 +114,7 @@ La red $PL\_021$ es grande y fuertemente modular ($Modularity: 0.57$, $\overline
 \label{fig:VIS_Modvskdegree3}
 \end{figure}
 
-A pesar de que el diagrama polar ofrece una nueva visión de las comunidades mutualistas, tiene limitaciones. Como en toda estrategia de reducción de la información hay que renunciar a representar detalles en favor de una mejor visibilidad, en este caso los enlaces. No se trata de un detalle menor, así que se ha desarrollado un segundo tipo de diagrama que los toma como base de su construcción.
+A pesar de que el diagrama polar ofrece una nueva visión de las comunidades mutualistas, tiene limitaciones. Como en toda estrategia de reducción de la información hay que renunciar a representar detalles en favor de una mejor visibilidad, en este caso los enlaces. No se trata de un dato menor, así que se ha desarrollado un segundo tipo de diagrama que los toma como base de su construcción.
 
 \clearpage
 \subsection{El diagrama zigurat}
@@ -176,7 +176,7 @@ La red de la figura \ref{fig:VIS_M_PL_031_ziggurat} es de un tamaño intermedio,
 \label{fig:VIS_M_PL_031_polar}
 \end{figure}
 
-Estas especies tan alejadas del centro corren el peligro de extinción por arrastre que se describió en el apartado \ref{results_K_constante}. Supongamos que el polinizador número $7$ se extingue por una plaga. En la parte superior derecha de la figura \ref{fig:VIS_M_PL_031_ziggurat} puede verse la tripleta planta $21$, polinizadores $30$ y $49$ que quedarían desconectados de la componente gigante y posiblemente se extinguirían también. En el mejor de los casos, si por el peso de sus enlaces superaran el mínimo vital de la nueva red formada por las tres, podrían sobrevivir aisladas pero mucho más expuestas a cualquier perturbación posterior. Las plantas $44$ y $45$ desaparecerían con seguridad porque el polinizador $7$ es su única especie benefactora. De esta manera, la destrucción de un polinizador podría arrastrar cinco especies más a la extinción. En el diagrama se puede ver también la gran conectividad entre especies de las \textit{shells} de índices $2$ y $3$, lo que se traduce en anidamiento bajo y aumenta la modularidad. Por el contrario, la red de la figura \ref{fig:ziggurat} es mucho más anidada, con pocos enlaces que no terminen en la $4$-$shell$ y compacta, con un $\overline k_{radius}$ reducido ($2,19$ frente a $3,39$).
+Estas especies tan alejadas del centro corren el peligro de extinción por arrastre que se describió en el apartado \ref{results_K_constante}. Supongamos que el polinizador número $7$ se extingue por una plaga. En la parte superior derecha de la figura \ref{fig:VIS_M_PL_031_ziggurat} puede verse la tripleta planta $21$, polinizadores $30$ y $49$ que quedarían desconectados de la componente gigante y posiblemente se extinguirían también. En el mejor de los casos, si por el peso de sus enlaces superaran el mínimo vital de la nueva red formada por las tres, podrían sobrevivir aisladas pero mucho más expuestas a cualquier perturbación posterior. Las plantas $44$ y $45$ desaparecerían con seguridad porque el polinizador $7$ es su única especie benefactora. De esta manera, la destrucción de un polinizador podría arrastrar cinco especies más a la extinción. En el diagrama se puede ver también la gran conectividad entre especies de las \textit{shells} de índices $2$ y $3$, lo que se traduce en anidamiento bajo y aumento de la modularidad. Por el contrario, la red de la figura \ref{fig:ziggurat} es mucho más anidada, con pocos enlaces que no terminen en la $4$-$shell$ y compacta, con un $\overline k_{radius}$ reducido ($2,19$ frente a $3,39$).
 
 
 El tamaño de una red se puede medir en número de nodos o en número de enlaces, pero es esta segunda cifra la que predomina a la hora de fijar la complejidad de la estructura de \textit{k shells}. La red de la figura \ref{fig:VIS_M_PL_010_ziggurat}, tiene $107$ especies y $456$ enlaces y su índice $k$ máximo es $8$. Se aprecia asimetría importante con predominio de los polinizadores. En contraste con los ejemplos anteriores, hay muy pocas especies que pertenezcan a la $1$-$shell$. Las conexiones entre las distintas \textit{shells} forman un entramado visualmente complejo.
@@ -273,7 +273,7 @@ En el segundo ejemplo se presenta un caso extremo de comportamiento fuera de la 
 \clearpage
 Con esta configuración parece claro que una alteración mínima de las conexiones de las plantas tendrá un impacto sensible en la estructura global. Es lo que sucede recableando al azar solo seis enlaces. Aparece una $4$-$shell$ y disminuyen a la vez $NODF$ y  $\overline k_{radius}$. En el diagrama de correlación de los índices reducidos se ve que cualquier cambio disminuye el primer parámetro, pero esa información no basta para intuir los profundos cambios de estructura que se desencadenan.
 
-Una situación real en la que las redes cambian de forma drástica se produce por la extinción de una o más especies. En la figura \ref{fig:VIS_M_SD_004_pol3_pol4_ziggurat} se representa la red $M\_SD\_004$ (figura \ref{fig:ziggurat}), en la que se han eliminado únicamente los dos polinizadores de mayor $k_{degree}$, los números $3$ y $4$. El resultado es la reducción en $1$ del índice $k$ máximo, $NODF$ baja desde $39,82$ a $22,46$ y $\overline k_{radius}$ pasa de $2,19$ a $2,26$. La degradación de la red se asemeja a la que se ha visto con el experimento de recableado, con la fusión del $k$ máximo con el $k$-$1$ y el crecimiento de la proporción de enlaces entre especies fuera del $k$ máximo resultante. La red resultante adopta la ya conocida forma de campanilla.
+Una situación real en la que las redes cambian de forma drástica se produce por la extinción de una o más especies. En la figura \ref{fig:VIS_M_SD_004_pol3_pol4_ziggurat} se representa la red $M\_SD\_004$ (red original en la figura \ref{fig:ziggurat}), en la que se han eliminado únicamente los dos polinizadores de mayor $k_{degree}$, los números $3$ y $4$. El resultado es la reducción en $1$ del índice $k$ máximo, $NODF$ baja desde $39,82$ a $22,46$ y $\overline k_{radius}$ pasa de $2,19$ a $2,26$. La degradación de la red se asemeja a la que se ha visto con el experimento de recableado, con la fusión del $k$ máximo con el $k$-$1$ y el crecimiento de la proporción de enlaces entre especies fuera del $k$ máximo resultante. La red resultante adopta la ya conocida forma de campanilla.
 
 \begin{figure}[ht!]
 \centering
@@ -312,7 +312,7 @@ En la figura \ref{fig:VIS_Modvskdegree3-sd04} se han representado los diagramas 
 \begin{figure}[ht!]
 \centering
 \includegraphics[scale=0.15]{Figures/VIS_M_SD_004_minus_k3k2_ziggurat.png}
-\caption {Red de frugívoros $M\_SD\_004$. a: se han eliminado todos los polinizadores de la $3$-$shell$ ($NODF = 36,24$, $\overline k_{radius} = 2,17$). b: además se han eliminado los de la $2$-$shell$ ($NODF = 33,055$, $\overline k_{radius} = 2,15$), véase la figura \ref{fig:ziggurat}.} 
+\caption {Red de frugívoros $M\_SD\_004$. a: se han eliminado todos los polinizadores de la $3$-$shell$ ($NODF = 36,24$, $\overline k_{radius} = 2,17$). b: además se han eliminado los de la $2$-$shell$ ($NODF = 33,055$, $\overline k_{radius} = 2,15$), véase la red original en la figura \ref{fig:ziggurat}.} 
 \label{fig:VIS_M_SD_004_minus_k3k2_ziggurat}
 \end{figure}
 
@@ -342,7 +342,7 @@ Desde la siguiente dirección puede descargarse un documento con los gráficos d
 \begin{table}[htbp]
 \fontsize{3mm}{3mm}\selectfont
   \centering
-    \caption{\label{table:kmag_pl_031} \textit{k magnitudes} de la red  de polinizadores $M\_PL\_031$ del Parque Nacional de Canaima, Venezuela, \cite{ramirez1989biologia}. Valores globales: $\overline k_{radius} = 3,39$; $\overline k_{degree} = 1,57$. Las especies desconectadas de la componente gigante aparecen señaladas con asterisco.}
+    \caption{\label{table:kmag_pl_031} \textit{k magnitudes} de la red  de polinizadores $M\_PL\_031$ del Parque Nacional de Canaima, Venezuela, \cite{ramirez1989biologia}. Valores globales: $\overline k_{radius} = 3,39$; $\overline k_{degree} = 1,57$. Las especies desconectadas de la componente gigante aparecen señaladas con asterisco (figura \ref{fig:VIS_M_PL_031_ziggurat}).}
     \begin{tabular}{lrrrlrr}
     \toprule
     $Especie$ & $k_{radius}$ & $k_{degree}$ &      & $Especie$ & $k_{radius}$ & $k_{degree}$ \\

@@ -16,9 +16,9 @@ La imposibilidad de validar los modelos con series de datos de campo de periodos
 
 \section{Modelo con capacidad de carga constante}
 
-La primera solución para evitar un crecimiento ilimitado, como el que aparece en las ecuaciones de May, es la base de nuestro modelo con capacidad de carga constante. Desde el punto de vista ecológico, esta solución puede resultar ingenua puesto que el mutualismo supone un incremento de recursos. No obstante, resuelve los problemas descritos en la introducción y es de gran simplicidad.
+La primera solución para evitar un crecimiento ilimitado es la base de nuestro modelo con capacidad de carga constante y consiste en trabajar con valores máximos de población constantes. Desde el punto de vista ecológico, esta solución puede resultar ingenua puesto que el mutualismo supone un incremento de recursos. No obstante, resuelve los problemas descritos en la introducción y es de gran simplicidad.
 
-La ecuación de Verhulst enunciada en el formalismo de Pearl es:
+La ecuación de Verhulst con el formalismo de Pearl es:
 
 \begin{equation}
 \frac{dN}{dt}=r_{\rm{pc}} \, N \, , \; \;\, r_{\rm{pc}}=r\, \left(1-\frac{N}{K}\right)
@@ -52,22 +52,22 @@ La dinámica de la población de la especie $i$ se puede escribir como:
 \label{ec:vhoptionI}
 \end{equation}
 
-Si $r_b > r_d$ no hay diferencia con la formulación habitual del modelo de Pearl. El término cuadrático es siempre negativo y eso implica la reducción de la población. La ecuación también predice correctamente el comportamiento cuando $N>K$. Cuanto mayor sea la población, la tasa de crecimiento es menor, incluso si $r_b < r_d$. En la figura \ref{fig:r_equiv_Verh+modif} se puede ver una comparativa de la tasa de crecimiento en la formulación de Pearl y de la del modelo modificado de la ecuación \ref{ec:vhoptionI}. La figura \ref{fig:r_equiv_Verh+modif}a muestra la tasa de crecimiento para distintos valores de la tasa vegetativa entre $r=-0.8$ y $r=0.8$.
+Si $r_b > r_d$ no hay diferencia con la formulación habitual del modelo de Pearl. El término cuadrático es siempre negativo y eso implica la reducción de la población. La ecuación también predice correctamente el comportamiento cuando $N>K$. Cuanto mayor sea la población, la tasa de crecimiento es menor, incluso si $r_b < r_d$.
  
  
 \begin{figure}[ht]
 \centering
-\includegraphics[scale=0.5]{DINAMICA_r1_Verh+modif_r1-p8p8K50.png}
+\includegraphics[scale=0.6]{DINAMICA_r1_Verh+modif_r1-p8p8K50.png}
 \caption{a) Tasas de crecimiento per cápita para la ecuación logística en la fórmula de Pearl, para las tasas vegetativas $r=-0.8$ (azul)
 $r=-0.4$ (verde), $r=0.4$ (naranja) y $r=0.8$ (rojo). b) La misma gráfica para la ecuación modificada de nuestro modelo.}
 \label{fig:r_equiv_Verh+modif}
 \end{figure}
 
-Por su parte, la figura \ref{fig:r_equiv_Verh+modif}b muestra la tasa de crecimiento para nuestra fórmula modificada. En este caso la tasa per cápita disminuye siempre con el aumento de la población. Basados en esta idea proponemos un modelo de dinámica con capacidad de carga constante.
+La figura \ref{fig:r_equiv_Verh+modif}b muestra la tasa de crecimiento para nuestra fórmula modificada. En este caso la tasa per cápita disminuye siempre con el aumento de la población.
 
 En el modelo de May se asume que la capacidad de carga y la tasa de crecimiento intrínseca de las especies son constantes e independientes del término mutualista. El efecto del mutualismo es un incremento de la tasa de crecimiento efectiva.
 
-Para el sistema más simple posible, con una especie de cada clase, reescribimos las logísticas:
+Para el sistema más simple posible, con una especie de cada clase, reescribimos las ecuaciones de May (\ref{myeq2}) como:
 
 \begin{align*}
 \displaystyle & \frac{dN_1}{dt}= N_1 \, r_1\, \left(1 + \beta_{12}\frac{N_2}{K_1} \right) \, \left(1-\frac{N_1}{K_1}\right) \\
@@ -97,7 +97,7 @@ Y con esta definición:
 En ausencia de mutualismo se convierte en la ecuación logística modificada. El factor $\left(1-\frac{N_{1}}{K_{1}}\right)$ limita el crecimiento de la especie $1$ a la capacidad de carga $K_{1}$, y lo mismo sucede con la especie $2$, sin importar la intensidad del mutualismo cuando $K < 0$ y $r_{eff} \geq 0$. Las tasas efectivas dependen de la población de la otra especie. En adelante escribiremos solo $r_{eff,1}$ por simplicidad. Teniendo en cuenta la definición de $r_{eff}$, nuestro modelo se puede escribir como:
 \begin{align*}
 \displaystyle & \frac{dN_1}{dt}= r_{\rm{eff},1}\, N_1 \left(1-sgn(r_{\rm{eff},1})\frac{N_1}{K_1}\right)\\
-\displaystyle & \frac{dN_2}{dt}= r_{\rm{eff2},}\, N_2 \left(1-sgn(r_{\rm{eff},2})\frac{N_2}{K_2}\right)
+\displaystyle & \frac{dN_2}{dt}= r_{\rm{eff},2}\, N_2 \left(1-sgn(r_{\rm{eff},2})\frac{N_2}{K_2}\right)
 \stepcounter{equation}\tag{\theequation}\label{eq:new_model}
 \end{align*}
 
@@ -109,7 +109,7 @@ En ausencia de mutualismo se convierte en la ecuación logística modificada. El
 \label{fig:per capita_growth_rate_mutualism}
 \end{figure}
 
-Como ya se ha indicado, la función $sgn(r_{\rm{eff}})$ tiene sentido biológico porque la competencia intra especie debe ser siempre negativa, con independencia del signo de la tasa vegetativa. Los sistemas \ref{}
+Como ya se ha indicado, la función $sgn(r_{\rm{eff}})$ tiene sentido biológico porque la competencia intra especie debe ser siempre negativa, con independencia del signo de la tasa vegetativa.
 
 Para llegar a la fórmula final, generalizamos a una comunidad con $n$ especies de la clase $P$ (plantas), y $m$ especies de la otra $A$ (animales), que se relacionan por medio de una red de interacciones bipartita, pesada y bidireccional. Tomemos una especie $i$ de $P$ de población $N_i$ y otra $j$ de $A$ con $N_j$ individuos. Los pesos de la red representan la tasa de beneficio que recibe la población $i$ por la existencia de $j$. 
 
@@ -133,12 +133,12 @@ Y el modelo con capacidades de carga constantes queda así:
 \end{theo}
 
 \noindent donde el subíndice $i$ corresponde a las especies de la clase $P$ y $j$ a las de la clase $A$. El factor $r_{\rm{eff},i} - |r_{\rm{eff},i}| \frac{N_i}{K_i}$ es la tasa de crecimiento per cápita de la especie $i$, incluyendo los efectos del mutualismo y de la competencia intra especie. La figura \ref{fig:per capita_growth_rate_mutualism} es la tasa per cápita de la especie $1$ (en un sistema mutualista de $1+1$ especies),
-con tasa vegetativa negativa $r_1=-0.8$ y coeficientes mutualistas $b_{12}=0.05$ y $K_1=50$, para los siguiente valores de población de la especie $N_2=0,10,20,30,40,50$. Para $N_2=20$, la tasa eficaz es todavía negativa, lo que conduciría a la destrucción del sistema. Para
-$N_2=30$ la tasa ya es positiva y el sistema alcanzaría el máximo vital con las poblaciones en $K1$ y $K2$.
+con tasa vegetativa negativa $r_1=-0.8$ y coeficientes mutualistas $b_{12}=0.05$ y $K_1=50$, para los siguiente valores de población de la especie $N_2=0,10,20,30,40,50$. Para $N_2=10$, la tasa eficaz es todavía negativa, lo que conduciría a la destrucción del sistema. Para
+$N_2=20$ la tasa ya es positiva y el sistema alcanzaría el máximo vital con las poblaciones en $K1$ y $K2$.
 
 \subsection{Análisis de estabilidad para dos especies}
 
-Para ver el comportamiento dinámico de nuestro modelo, vamos hacer un estudio de estabilidad lineal con sólo dos especies (supongamos que la que llamamos $1$ es una planta la que llamamos $2$ un animal, sin pérdida de generalidad). Las ecuaciones del modelo son:
+Para ver el comportamiento dinámico de este modelo, vamos hacer un estudio de estabilidad lineal con sólo dos especies (supongamos que la que llamamos $1$ es una planta y la que llamamos $2$ un animal, sin pérdida de generalidad). Las ecuaciones del modelo son:
 \begin{align*}
 \displaystyle \frac{dN_1}{dt}= N_1 \left( r_{\rm{eff},1} - |r_{\rm{eff},1}| \frac{N_1}{K_1} \right) \\
 \displaystyle \frac{dN_2}{dt}= N_2 \left( r_{\rm{eff},2} - |r_{\rm{eff},2}| \frac{N_2}{K_2} \right)
@@ -226,7 +226,7 @@ Y hay un solo punto fijo estable cuando se dan las siguientes condiciones:
 
 Cuando ambas tasas efectivas de crecimiento son positivas, las poblaciones alcanzan las respectivas capacidades de carga.
 
-El último punto fijo $({-r_{2}}/{b_{21}}, {-r_{1}}/{b_{12}})$ satisface que $r_{\rm{eff},1}=0$ y $r_{\rm{eff},2}=0$, y solo aparece para $r_{1}<0$ y $r_{2}<0$. En este caso el jacobiano no está definido porque la función valor absoluto no es diferenciable en $x=0$. Sin embargo, se puede estudiar la estabilidad en su vecindad bajo dos hipótesis, cuando $r_{\rm{eff}}>0$ y cuando $r_{\rm{eff}}<0$.
+El último punto fijo $({-r_{2}}/{b_{21}}, {-r_{1}}/{b_{12}})$ satisface que $r_{\rm{eff},1}=0$ y $r_{\rm{eff},2}=0$, y solo aparece para $r_{1}<0$ y $r_{2}<0$. En este caso el jacobiano no está definido porque la función valor absoluto no es diferenciable en $r_{\rm{eff}} = 0$ . Sin embargo, se puede estudiar la estabilidad en su vecindad bajo dos hipótesis, cuando $r_{\rm{eff}}>0$ y cuando $r_{\rm{eff}}<0$.
 
 Podemos definir cuatro jacobianos dependiendo del signo de $r_{\rm{eff},1}$ y $r_{\rm{eff},2}$. En la vecindad de dicho punto las derivadas son:
 \begin{align*}
@@ -390,7 +390,7 @@ Las tasas efectivas de las especies de plantas se definen de forma similar susti
 
 Consideramos que este modelo podría resultar también válido para otro tipo de interacciones ecológicas en las que todos los términos $b_{ik}$ son positivos, como el comensalismo ($b_{ij}=0, b_{ji}>0)$ y el antagonismo ($b_{mn}>0,b_{nm}<0$). 
 
-La traducción biológica de este modelo es que a partir de un determinado nivel el aumento de individuos de la especie mutualista no aporta beneficio adicional. Imaginemos una especie de polinizadores y una planta de la que obtienen alimento en forma de néctar. Si la población de plantas crece sin medida, llegará un momento en que los insectos no podrán libar todo el néctar producido. Para mantener el modelo simple, suponemos que el efecto del mutualismo sobre $\alpha$ es proporcional al beneficio. El precio a pagar es incluir un nuevo parámetro.
+La traducción biológica de este modelo es que a partir de un determinado nivel el aumento de individuos de la especie mutualista no aporta beneficio adicional. Imaginemos una especie de polinizadores y una planta de la que obtienen alimento en forma de néctar. Si la población de plantas crece sin medida, llegará un momento en que los insectos no podrán libar todo el néctar producido. Para mantener el modelo simple, suponemos que el efecto del mutualismo sobre $\alpha$ es proporcional al beneficio. El precio a pagar es incluir el nuevo parámetro $c_{i}$.
 
 \subsection{Análisis de estabilidad para dos especies}
 
@@ -424,7 +424,7 @@ Además de los puntos fijos correspondientes a extinciones, aparecen otros no tr
 
 Sustituyendo la expresión de ${N^{a}_2}^*$ en la ecuación superior, encontramos que ${N^p_1}^*$ es la solución de una ecuación cuadrática en los puntos fijos: 
 \begin{equation}
-A\, {{N^p_1}^*}^2 + B \, {N^p_1}^* + C=0 ,
+A\, {{N^p_1}^*}^2 + B \, {N^p_1}^* + C=0 
 \label{eq:DINAMICA_quadra}
 \end{equation}
 
@@ -487,11 +487,11 @@ especies.
 \subsection{La divisoria de la vida}
 \label{watershed}
 
-Llamaremos \textit{divisoria de la vida} a la separatriz de las trayectorias que evolucionan hacia la capacidad máxima de población del sistema de las que terminan en su destrucción. En la imagen izquierda de la figura \ref{DINAMICA_diagram} es la frontera entre las cuencas de atracción del punto de extinción en el origen y del máximo estable de poblaciones. La divisoria incluye el punto de silla no trivial $({N_1^p}^\bullet,{N_2^a}^\bullet)$, la combinación mínima de poblaciones que garantiza la supervivencia. Su ubicación en el espacio de fases es importante porque determina la posición base de dicha curva y en consecuencia la fragilidad del sistema, que se expresa como la relación de áreas entre las dos cuencas de atracción. La distancia de este punto al máximo de poblaciones indica la resistencia ante perturbaciones externas. Si es muy pequeña, una ligera disminución del número de individuos, provocada por enfermedades, sequías o siniestros de cualquier naturaleza puede llevar al sistema a la cuenca de destrucción. Por el contrario, si esta distancia es grande, la comunidad podrá recobrarse de estos eventos y crecer de nuevo hacia el máximo. Como los ciclos naturales suelen ser periódicos, la combinación de poblaciones se moverá de manera habitual entre estos puntos, y un amplio rango dinámico facilita la permanencia en el tiempo. 
+Llamaremos \textit{divisoria de la vida} a la separatriz de las trayectorias que evolucionan hacia la capacidad máxima de población del sistema de las que terminan en su destrucción. En la la figura \ref{DINAMICA_diagram}a es la frontera entre las cuencas de atracción del punto de extinción en el origen y del máximo estable de poblaciones. La divisoria incluye el punto de silla no trivial $({N_1^p}^\bullet,{N_2^a}^\bullet)$, la combinación mínima de poblaciones que garantiza la supervivencia. Su ubicación en el espacio de fases es importante porque determina la posición base de dicha curva y en consecuencia la fragilidad del sistema, que se expresa como la relación de áreas entre las dos cuencas de atracción. La distancia de este punto al máximo de poblaciones indica la resistencia ante perturbaciones externas. Si es muy pequeña, una ligera disminución del número de individuos, provocada por enfermedades, sequías o siniestros de cualquier naturaleza puede llevar al sistema a la cuenca de destrucción. Por el contrario, si esta distancia es grande, la comunidad podrá recobrarse de estos eventos y crecer de nuevo hacia el máximo. Como los ciclos naturales suelen ser periódicos, la combinación de poblaciones se moverá de manera habitual entre estos puntos, y un amplio rango dinámico facilita la permanencia en el tiempo. 
 
 Para el sistema mínimo, de dos especies, las principales características de la divisoria se pueden encontrar analíticamente. Los puntos de la curva se corresponden a los pares de poblaciones $({N_1^p},{N_2^a})$ para los cuales la dinámica del sistema evoluciona exactamente sobre la curva y termina en el punto fijo $({N_1^p}^\bullet,{N_2^a}^\bullet)$. Sabemos que es un punto inestable y que la menor perturbación conducirá hacia uno u otro lado de la divisoria, pero conocer la expresión analítica de la curva supone un gran avance.  
 
-Por definición, en $({N_1^p}^\bullet,{N_2^a}^\bullet)$ las tasas efectivas de crecimiento son nulas. Para llegar a este punto desde cualquier otro de la divisoria, las tasas de ambas especies deben ser de signo contrario y evolucionar en el tiempo de forma similar. Si las dos fueran del mismo signo, las trayectorias irían hacia la extinción (negativo) o hacia el máximo vital (positivo). 
+Por definición, en $({N_1^p}^\bullet,{N_2^a}^\bullet)$ las tasas efectivas de crecimiento son nulas. Para llegar a este punto desde cualquier otro de la divisoria, las tasas de ambas especies deben ser exponenciales de signo contrario. Si las dos fueran del mismo signo, las trayectorias irían hacia la extinción (negativo) o hacia el máximo vital (positivo). 
 
 Supongamos que el sistema se aproxima a $({N_1^p}^\bullet,{N_2^a}^\bullet)$, desde una posición inicial $({N_1^p}^0,{N_2^a}^0)$ perteneciente a la separatriz. Las tasas efectivas de crecimiento son:
 
@@ -544,7 +544,7 @@ A = & \, r_{1}+ b_{12}\, {N_2^a}^0 - (\alpha_{1}+ c_{1} \, b_{12}\, {N_{2}^a}^0)
 
 Si sabemos que nuestro punto inicial era parte de la divisoria, podemos obtener el valor del exponente dividiendo estas expresiones.
 
-Alternativamente, si necesitamos encontrar otros puntos de la divisoria que no sean $({N_1^p}^\bullet,{N_2^a}^\bullet)$, podemos dividir las expresiones anteriores y, usando la ecuación \ref{eq:coeffsreffs_3}, llegar a la siguiente ecuación implícita:
+Alternativamente, si necesitamos encontrar otros puntos de la divisoria distintos de $({N_1^p}^\bullet,{N_2^a}^\bullet)$, podemos dividir las expresiones anteriores y, usando la ecuación \ref{eq:coeffsreffs_3}, llegar a la siguiente ecuación implícita:
 
 \begin{align}
 \frac {\ln \left( \frac{{N_2^a}^\bullet}{{N_2^a}^0} \right)}{\ln \left( \frac{{N_1^p}^\bullet}{{N_1^p}^0} \right)} = \frac{( r_{2}+ b_{21}\, {N_1^p}^0) - (\alpha_{2}+ c_{2} \,  b_{21}\, {N_1^p}^0 ) \, {N_1^p}^0}{( r_{1}+ b_{12}\, {N_2^a}^0) - (\alpha_{1}+ c_{1} \, b_{12}\, {N_2^a}^0 ) \, {N_2^a}^0 } .
@@ -614,9 +614,9 @@ Otro extremo que hay que investigar es lo que sucede en caso de extinciones parc
 \subsection{Integración de las ecuaciones}
 \label{DINAMINCA_NumSim}
 
-Los modelos de población manejan cantidades discretas y la simulación es una herramienta potente para manejar la dinámica y el comportamiento estocástico. La elección de un método específico de simulación depende de su precisión y eficacia computacional y a veces representa un desafío.
+Los modelos de población representan cantidades discretas y la simulación es una herramienta potente para manejar la dinámica y el comportamiento estocástico. La elección de un método específico de simulación depende de su precisión y eficacia computacional.
 
-Por ejemplo, los modelos discretos de Markov se han utilizado con frecuencia para este tipo de simulaciones, pero esta estrategia tiene desventajas comparada con la simulación estocática discreta, ya sea basada en la distribución de Poisson o en la binomial. Para los modelos de Markov de dimensiones moderadas, el número de estados puede ser muy grande, mientras que las simulaciones basadas en Poisson o binomial, con su manejo de variables de estado agregadas son mucho más rápidas  \cite{gustafsson2007bringing, balcan2009multiscale}.
+Los modelos discretos de Markov se han utilizado con frecuencia para este tipo de simulaciones, pero esta estrategia tiene desventajas comparada con la simulación estocática discreta, ya sea basada en la distribución de Poisson o en la binomial. Para los modelos de Markov de dimensiones moderadas, el número de estados puede ser muy grande, mientras que las simulaciones basadas en Poisson o binomial, con su manejo de variables de estado agregadas, son mucho más rápidas  \cite{gustafsson2007bringing, balcan2009multiscale}.
 
 Hemos elegido la simulación binomial para resolver las ecuaciones de ambos modelos. Esta técnica es una extensión de la simulación de sistemas continuos y una opción razonable cuando el resultado del proceso aleatorio tiene solo dos posibles valores. Por ejemplo, la supervivencia en un intervalo finito de tiempo es un ensayo de Bernoulli, el individuo sobrevive o no. La reproducción también puede modelarse adecuadamente como un ensayo de Bernouilli si el intervalo de simulación es pequeño. 
 
@@ -661,16 +661,16 @@ Es muy complicado obtener resultados analíticos para una comunidad mutualista p
 \begin{figure}[h!]
 \centering
 \includegraphics[scale=0.45]{DINAMICA_red_exper_2.png}
-\caption {Comunidad mutualista con cinco especies de plantas y cuatro de polinizadores.}
+\caption {Comunidad mutualista con cuatro especies de plantas y cinco de polinizadores.}
 \label{fig:red_exper_stab1}
 \end{figure}
 
-La figura \ref{fig:red_exper_stab1} muestra una pequeña comunidad mutualista ficticia, que hemos construido para los experimentos numéricos. Este ejemplo sencillo muestra la dinámica característica de las redes reales.
+La figura \ref{fig:red_exper_stab1} muestra una pequeña comunidad mutualista ficticia, que hemos construido para los experimentos numéricos. Este ejemplo sencillo sirve para entender la dinámica característica de las redes reales.
 
 \begin{figure}[ht!]
 \centering
 \includegraphics[width=8cm]{DINAMICA_Fig5_extinction-eps-converted-to.pdf}
-\caption {Dinámica de las poblaciones para $4+5$ especies que termina en la extinción completa. Parámetros en la tabla \ref{tab:experiment1}}
+\caption {Primer experimento. Dinámica de las poblaciones para $4+5$ especies que termina en la extinción completa. Parámetros en la tabla \ref{tab:experiment1}}
 \label{fig:exper_stab1}
 \end{figure}
 
@@ -682,7 +682,7 @@ Este experimento muestra el \textit{atractor de extinción} que conduce a la des
 \begin{figure}[ht!]
 \centering
 \includegraphics[scale = 0.5]{DINAMICA_Fig6_carrying_cap-eps-converted-to.pdf}
-\caption {Evolución temporal de las poblaciones y de las tasas de crecimiento efectivas del mismo sistema de $4+5$ especies (figura \ref{fig:red_exper_stab1}). La comunidad termina con todas las especies en sus capacidades de carga respectivas. Parámetros en la tabla \ref{tab:experiment2}.}
+\caption {Segundo experimento. Evolución temporal de las poblaciones y de las tasas de crecimiento efectivas del mismo sistema de $4+5$ especies (figura \ref{fig:red_exper_stab1}). La comunidad termina con todas las especies en sus capacidades de carga respectivas. Parámetros en la tabla \ref{tab:experiment2}.}
 \label{fig:exper_carrying_cap}
 \end{figure}
 
@@ -734,16 +734,16 @@ Los análisis de estabilidad de este capítulo asumían que las condiciones no s
 \label{fig:DINAMICA_SAT_red_exper_resilience_strong}
 \end{figure}
 
-En el penúltimo usamos otra red ficticia, con siete especies de plantas y cinco de polinizadores (figura \ref{fig:DINAMICA_SAT_red_exper_resilience_strong}). Puede identificarse de manera visual el núcleo central de especies generalistas y las especies especialistas conectadas a generalistas de la clase contraria. Se han elegido las poblaciones iniciales para que el sistema esté en la cuenca de supervivencia.
+En el penúltimo usamos otra red ficticia, con siete especies de plantas y cinco de polinizadores (figura \ref{fig:DINAMICA_SAT_red_exper_resilience_strong}). Puede identificarse de manera visual el núcleo central de generalistas y las especialistas conectadas a generalistas de la clase contraria. Se han elegido las poblaciones iniciales para que el sistema esté en la cuenca de supervivencia.
 
 \begin{figure}[h!]
 \centering
 \includegraphics[scale=0.6]{DINAMICA_SATU_nested.png}
-\caption {Experimento con la red con anidamiento fuerte. Una perturbación externa ataca la especie de planta número $6$. Tabla \ref{tab:SAT_exper_resilience_strong}.}
+\caption {Cuarto experimento. Red con anidamiento fuerte. Una perturbación externa ataca la especie de planta número $6$. Tabla \ref{tab:SAT_exper_resilience_strong}.}
 \label{fig:DINAMICA_SAT_exper_resilience_strong}
 \end{figure}
 
-El sistema crecería hasta alcanzar máximos en ausencia de perturbaciones externas, pero sobre la especie $6$ de plantas provocamos un aumento abrupto de mortalidad de un $20\%$ anual que la conduce a la extinción. Esta especie estaba conectada solo al polinizador $1$, el más generalista de su clase. El efecto de la extinción es despreciable sobre este polinizador porque el resto de especies benefactoras lo suplen. 
+El sistema crecería hasta alcanzar máximos en ausencia de perturbaciones externas, pero sobre la especie $6$ de plantas provocamos un aumento abrupto de mortalidad de un $20\%$ anual, a partir del año $100$, lo que conduce a su extinción. Esta especie estaba conectada solo al polinizador $1$, el más generalista de su clase. El efecto de la extinción es despreciable sobre este polinizador porque el resto de especies benefactoras lo suplen. 
 
 \begin{figure}[h!]
 \centering
@@ -757,13 +757,13 @@ El último experimento usa una red ligeramente modificada (figura  \ref{fig:DINA
 \begin{figure}[ht!]
 \centering
 \includegraphics[scale=0.6]{DINAMICA_SATU_weak.png}
-\caption {Experimento con una red menos anidada ($NODF = 26.39$). Una perturbación externa ataca la planta $6$. Tabla \ref{tab:SAT_exper_resilience_weak}.}
+\caption {Quinto experimento. Red débilmente anidada ($NODF = 26.39$). Una perturbación externa ataca la planta $6$. Tabla \ref{tab:SAT_exper_resilience_weak}.}
 \label{fig:DINAMICA_SATU_weak}
 \end{figure}
 
 Las posibilidades de supervivencia de una nueva especie que llegue a la comunidad son mayores si se conecta con una generalista. Esta propiedad se debe no solo al hecho de que las generalistas son menos vulnerables por la gran cantidad de especies de las que reciben beneficio. Enlazarse con una especialista expone a la destrucción por arrastre.
 
-Cuando la planta $6$ es atacada (fig. \ref{fig:DINAMICA_SATU_weak}) y se extingue, el efecto es mucho peor para la red. El polinizador $5$ pierde a su única especie benefactora, de manera que su tasa efectiva se vuelve negativa y finalmente desaparecerá. La planta $7$, conectada con el polinizador $5$ también se ve condenada a la extinción porque su enlace con el polinizador $1$ no compensa la pérdida. En resumen, una perturbación externa sobre la especie de planta $6$ arrastra a la extinción a la planta $7$ por culpa del enlace que comparten con el polinizador $5$. Si ambas plantas compartieran enlaces con el núcleo generalista esta destrucción en cascada resultaría mucho más improbable.
+Cuando la planta $6$ es atacada (fig. \ref{fig:DINAMICA_SATU_weak}) y se extingue, el efecto es mucho peor para la red. El polinizador $5$ pierde a su principal benefactora, de manera que su tasa efectiva se vuelve negativa y finalmente desaparecerá. La planta $7$, conectada con el polinizador $5$ también se ve condenada a la extinción porque su enlace con el polinizador $1$ no compensa la pérdida. En resumen, una perturbación externa sobre la especie de planta $6$ arrastra a la extinción a la planta $7$ por culpa del enlace que comparten con el polinizador $5$. Si ambas plantas compartieran enlaces con el núcleo generalista esta destrucción en cascada resultaría mucho más improbable.
 
 
 \clearpage
