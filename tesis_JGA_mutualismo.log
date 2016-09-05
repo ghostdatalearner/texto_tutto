@@ -1,9 +1,8 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2013.8.13)  5 SEP 2016 10:12
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2013.8.13)  5 SEP 2016 13:00
 entering extended mode
-**D:/disco_usuario/javier/upm/doctorado/tesis/texto_tesis_upm/texto_tutto/tesis
-_JGA_mutualismo.tex
+**tesis_JGA_mutualismo.tex
 
-(D:/disco_usuario/javier/upm/doctorado/tesis/texto_tesis_upm/texto_tutto/tesis_
+(D:\disco_usuario\javier\upm\doctorado\tesis\texto_tesis_upm\texto_tutto\tesis_
 JGA_mutualismo.tex
 LaTeX2e <2011/06/27>
 Babel <v3.8m> and hyphenation patterns for english, afrikaans, ancientgreek, ar
@@ -2316,10 +2315,8 @@ Package pdftex.def Info: Figures/logoupm.jpg used on input line 169.
 (pdftex.def)             Requested size: 88.53142pt x 82.20775pt.
 LaTeX Font Info:    Font shape `T1/pbk/m/sc' in size <10.95> not available
 (Font)              Font shape `T1/pbk/l/sc' tried instead on input line 171.
-LaTeX Font Info:    Font shape `T1/pbk/m/sc' in size <14.4> not available
-(Font)              Font shape `T1/pbk/l/sc' tried instead on input line 171.
 LaTeX Font Info:    Font shape `T1/pbk/m/sc' in size <12> not available
-(Font)              Font shape `T1/pbk/l/sc' tried instead on input line 172.
+(Font)              Font shape `T1/pbk/l/sc' tried instead on input line 171.
 LaTeX Font Info:    Font shape `T1/pbk/m/n' in size <20.74> not available
 (Font)              Font shape `T1/pbk/l/n' tried instead on input line 175.
 LaTeX Font Info:    Font shape `T1/pbk/m/sc' in size <20.74> not available
@@ -7635,13 +7632,13 @@ LaTeX Font Warning: Size substitutions with differences
 Package logreq Info: Writing requests to 'tesis_JGA_mutualismo.run.xml'.
  ) 
 Here is how much of TeX's memory you used:
- 43877 strings out of 493921
- 830135 string characters out of 3147276
+ 43874 strings out of 493921
+ 830097 string characters out of 3147276
  1150964 words of memory out of 3000000
- 45613 multiletter control sequences out of 15000+200000
- 195486 words of font info for 443 fonts, out of 3000000 for 9000
+ 45611 multiletter control sequences out of 15000+200000
+ 193468 words of font info for 441 fonts, out of 3000000 for 9000
  842 hyphenation exceptions out of 8191
- 80i,17n,89p,10492b,2679s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 80i,17n,89p,10420b,2679s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}<C:/Program File
 s/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files/MiKTeX
  2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fon
@@ -7662,7 +7659,7 @@ a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/bookman/ubkli8a.pfb><C:/Prog
 ram Files/MiKTeX 2.9/fonts/type1/urw/courier/ucrr8a.pfb><C:/Program Files/MiKTe
 X 2.9/fonts/type1/urw/palatino/uplb8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/ty
 pe1/urw/palatino/uplr8a.pfb>
-Output written on tesis_JGA_mutualismo.pdf (184 pages, 23301292 bytes).
+Output written on tesis_JGA_mutualismo.pdf (184 pages, 23300989 bytes).
 PDF statistics:
  2819 PDF objects out of 2984 (max. 8388607)
  640 named destinations out of 1000 (max. 500000)
