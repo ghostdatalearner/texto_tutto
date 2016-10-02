@@ -10,7 +10,7 @@
 
 \section{Dinámica de las comunidades mutualistas}
 
-En el capítulo anterior se han expuesto algunos de los problemas que tienen los modelos actuales de dinámica del mutualismo. Además de las limitaciones que se derivan de cada simplificación matemática hay una más grave para verificar la realidad de las predicciones. El peso de los coeficientes $b_{ij}$ de las matrices de interacción es muy difícil de determinar a partir de las observaciones de campo. Las comunidades complejas no pueden reproducirse en laboratorio para obtener medidas precisas por lo que se trabaja con el número de interacciones observadas como indicador. Esta solución no es del todo satisfactoria pero es la mejor de la que se dispone \cite{olesen2002geographic}. 
+En el capítulo anterior se han expuesto algunos de los problemas que tienen los modelos actuales de dinámica del mutualismo. Además de las limitaciones que se derivan de cada simplificación matemática hay una más grave para verificar la realidad de las predicciones. El peso de los coeficientes $b_{ij}$ de las matrices de interacción es muy difícil de determinar a partir de las observaciones de campo. Las comunidades complejas no pueden reproducirse en laboratorio para obtener medidas precisas por lo que se trabaja con el número de interacciones observadas como indicador. Esta solución no tiene carencias pero es la mejor de la que se dispone \cite{olesen2002geographic}. 
 
 La imposibilidad de validar los modelos con series de datos de campo de periodos prolongados hace que este campo de estudio siga siendo dominio de la teoría. En este capítulo se proponen dos modelos alternativos de dinámica. El primero se basa en la formulación de Pearl y se garantiza la estabilidad forzando a que la capacidad de carga sea constante \cite{pastor2015simple}. El segundo se aparta de lo publicado hasta la fecha y vuelve la vista a la formulación $r-\alpha$ de la ecuación de Verhulst \cite{garcia2014rethinking}.
 
@@ -65,9 +65,9 @@ $r=-0.4$ (verde), $r=0.4$ (naranja) y $r=0.8$ (rojo). b) La misma gráfica para 
 
 La figura \ref{fig:r_equiv_Verh+modif}b muestra la tasa de crecimiento para nuestra fórmula modificada. En este caso la tasa per cápita disminuye siempre con el aumento de la población.
 
-En el modelo de May se asume que la capacidad de carga y la tasa de crecimiento intrínseca de las especies son constantes e independientes del término mutualista. El efecto del mutualismo es un incremento de la tasa de crecimiento efectiva.
+En el modelo de May se asume que la capacidad de carga y la tasa de crecimiento intrínseca de las especies son constantes e independientes del término mutualista. En el nuestro, incluiremos los efectos del mutualismo en una tasa de crecimiento efectiva, modulada por la competencia.
 
-Para el sistema más simple posible, con una especie de cada clase, reescribimos las ecuaciones de May (\ref{myeq2}) como:
+Para el sistema más simple posible, con una especie de cada clase, escribimos:
 
 \begin{align*}
 \displaystyle & \frac{dN_1}{dt}= N_1 \, r_1\, \left(1 + \beta_{12}\frac{N_2}{K_1} \right) \, \left(1-\frac{N_1}{K_1}\right) \\
@@ -94,7 +94,7 @@ Y con esta definición:
 \label{eq:May_reff}
 \end{align*}
 
-En ausencia de mutualismo se convierte en la ecuación logística modificada. El factor $\left(1-\frac{N_{1}}{K_{1}}\right)$ limita el crecimiento de la especie $1$ a la capacidad de carga $K_{1}$, y lo mismo sucede con la especie $2$, sin importar la intensidad del mutualismo cuando $K < 0$ y $r_{eff} \geq 0$. Las tasas efectivas dependen de la población de la otra especie. En adelante escribiremos solo $r_{eff,1}$ por simplicidad. Teniendo en cuenta la definición de $r_{eff}$, nuestro modelo se puede escribir como:
+En ausencia de mutualismo se convierte en la ecuación logística. El factor $\left(1-\frac{N_{1}}{K_{1}}\right)$ limita el crecimiento de la especie $1$ a la capacidad de carga $K_{1}$, y lo mismo sucede con la especie $2$, sin importar la intensidad del mutualismo, cuando $K < 0$ y $r_{eff} \geq 0$. Las tasas efectivas dependen de la población de la otra especie. En adelante escribiremos solo $r_{eff,1}$ por simplicidad. Teniendo en cuenta la definición de $r_{eff}$ y aplicando la solución de usar el valor absoluto, nuestro modelo se define por el siguiente sistema de ecuaciones:
 \begin{align*}
 \displaystyle & \frac{dN_1}{dt}= r_{\rm{eff},1}\, N_1 \left(1-sgn(r_{\rm{eff},1})\frac{N_1}{K_1}\right)\\
 \displaystyle & \frac{dN_2}{dt}= r_{\rm{eff},2}\, N_2 \left(1-sgn(r_{\rm{eff},2})\frac{N_2}{K_2}\right)
@@ -120,9 +120,9 @@ Las expresiones de las tasas de crecimiento de las especies $i$, $j$ quedan:
 \stepcounter{equation}\tag{\theequation}\label{modelors}
 \end{align*}
 
-Y el modelo con capacidades de carga constantes queda así:
-
 \begin{theo}
+Modelo con capacidades de carga constantes.
+
 \begin{align*}
 \displaystyle
 &\frac{dN_i}{dt}=r_{\rm{eff},i}\, N_i - |r_{\rm{eff},i}| \, \frac{{N_i}^2}{K_i}  \\
@@ -474,8 +474,7 @@ Como los parámetros $c_{1}$ y $c_2$ son siempre positivos (recordemos que son e
 1-c_{1}\, {N_{1}^{p}}^\bullet - c_{2}\, {N_{2}^{a}}^\bullet > 0 .
 \end{equation}
 
-Todos estos resultados para dos especies indican que el modelo presenta una dinámica muy rica. Pese a ello es lo suficientemente simple para entender bien los diferentes regímenes y donde se localizan en el espacio de configuración de los parámetros. En este sentido, soluciona algunas de las limitaciones del modelo tipo II. Por ejemplo, encontrar una configuración para dos especies como la que aparece en la figura \ref{DINAMICA_typeII} requiere un esfuerzo considerable de afinamiento de los parámetros. Esta configuración con dos atractores y una divisoria nítida es ideal para estudiar fenómenos como la resistencia de la red, la capacidad de soportar una alta biodiversidad o la evolución de las interacciones de la red \cite{bastolla2009, suweis2013emergence}. Este régimen aparece de forma natural en el modelo propuesto, como se ve en la figura \ref{DINAMICA_diagram}, sin la necesidad de un complejo proceso de afinamiento. Además, como veremos en los siguientes apartados, una configuración equivalente con un atractor de extinción, otro con poblaciones finitas y una clara divisoria, aparece al extender el estudio a redes con muchas más
-especies.
+Todos estos resultados para dos especies indican que el modelo presenta una dinámica muy rica. Pese a ello es lo suficientemente simple para entender bien los diferentes regímenes y donde se localizan en el espacio de configuración de los parámetros. En este sentido, soluciona algunas de las limitaciones del modelo tipo II. Por ejemplo, encontrar una configuración para dos especies como la que aparece en la figura \ref{DINAMICA_typeII} requiere un esfuerzo considerable de afinamiento de los parámetros. Esta configuración con dos atractores y una divisoria nítida es ideal para estudiar fenómenos como la resistencia de la red, la capacidad de soportar una alta biodiversidad o la evolución de las interacciones de la red \cite{bastolla2009, suweis2013emergence}. Este régimen aparece de forma natural en el modelo propuesto, como se ve en la figura \ref{DINAMICA_diagram}, sin la necesidad de un complejo proceso de afinamiento. Además, como veremos en los siguientes apartados, una configuración equivalente con un atractor de extinción, otro con poblaciones finitas y una clara separatriz, aparece al extender el estudio a redes con muchas más especies.
 
 \begin{figure}
 \centering
@@ -553,7 +552,7 @@ Alternativamente, si necesitamos encontrar otros puntos de la divisoria distinto
 
 Resolviendo esta ecuación de forma numérica podemos encontrar cualquier punto de la divisoria, y con ello obtenemos el valor del coeficiente $C$. 
 
-La figura \ref{fig:powerlaw} muestra un ejemplo concreto de divisoria, y una comparación entre la curva definida por el sistema \ref{eq:powerlaw} y la ecuación implícita \ref{eq:implicita_watershed}. Ambas se han resuelto por integración numérica. Los puntos rojos se han encontrado haciendo un barrido del espacio de parámetros en una aproximación de \textit{fuerza bruta}, determinando el límite entre extinción y evolución hacia la capacidad máxima. La línea gris continua es la ley de potencia que se obtiene resolviendo las ecuaciones \ref{eq:powerlaw} y \ref{eq:implicita_watershed}
+La figura \ref{fig:powerlaw} muestra un ejemplo concreto de divisoria, y una comparación entre la curva definida por el sistema \ref{eq:powerlaw} y la ecuación implícita \ref{eq:implicita_watershed}. Ambas se han resuelto por integración numérica. Los puntos rojos se han encontrado haciendo un barrido del espacio de parámetros en una aproximación de \textit{fuerza bruta}, determinando el límite entre extinción y evolución hacia la capacidad máxima. La línea gris contínua es la ley de potencia que se obtiene resolviendo las ecuaciones \ref{eq:powerlaw} y \ref{eq:implicita_watershed}
 
 \begin{figure}[ht!]
 \centering
@@ -584,7 +583,7 @@ Estas son las expresiones para animales y plantas. Se puede reescribir el sistem
 
 Donde las tasas $r_{i}^{mut}$ representan el efecto del mutualismo sobre la especie $i$, mientras que las tasas $r^{*+}$ son las que incrementan el crecimento de la población y las $r^{*-}$ las que lo disminuyen vía competición intra especies. 
 
-Las ecuaciones  \ref{eq:DINAMICA_modeloralphaconmut} se pueden linealizar en torno a los puntos fijos. El jacobiano tiene el mismo aspecto que el correspondiente al sistema mínimo de dos especies (ecuación \eqref{eq:J}), con términos negativos en la diagonal de la matriz y positivos o nulos fuera de ella. Para los puntos fijos no triviales se pueden escribir como (véase el Anexo \ref{DINAMICA_ANEXO_estabilidad}):
+Las ecuaciones  \ref{eq:DINAMICA_modeloralphaconmut} se pueden linealizar en torno a los puntos fijos. El jacobiano tiene el mismo aspecto que el correspondiente al sistema mínimo de dos especies (ecuación \ref{eq:J}), con términos negativos en la diagonal de la matriz y positivos o nulos fuera de ella. Para los puntos fijos no triviales se pueden escribir como (véase el Anexo \ref{DINAMICA_ANEXO_estabilidad}):
 \begin{align}
 \displaystyle & J_{ii}= - {N^{a}_{i}}^* \left(\alpha_{i} + c_{i} \,  \sum_{k=1}^{n_{p}} b_{ik} {N^{p}_{k}}^* \right) \nonumber\\
 \displaystyle & J_{jj}= - {N^{p}_{j}}^* \left(\alpha_{j} + c_{j} \, \sum_{\ell=1}^{n_{a}} b_{j\ell}\, {N^{a}_{\ell}}^*\right)
@@ -743,7 +742,7 @@ En el penúltimo usamos otra red ficticia, con siete especies de plantas y cinco
 \label{fig:DINAMICA_SAT_exper_resilience_strong}
 \end{figure}
 
-El sistema crecería hasta alcanzar máximos en ausencia de perturbaciones externas, pero sobre la especie $6$ de plantas provocamos un aumento abrupto de mortalidad de un $20\%$ anual, a partir del año $100$, lo que conduce a su extinción. Esta especie estaba conectada solo al polinizador $1$, el más generalista de su clase. El efecto de la extinción es despreciable sobre este polinizador porque el resto de especies benefactoras lo suplen. 
+El sistema crecería hasta alcanzar máximos en ausencia de perturbaciones externas, pero sobre la especie de plantas número $6$ provocamos un aumento abrupto de mortalidad de un $20\%$ anual, a partir del año $100$, lo que conduce a su extinción. Esta especie estaba conectada solo al polinizador $1$, el más generalista de su clase. El efecto de la extinción es despreciable sobre este polinizador porque el resto de especies benefactoras lo suplen. 
 
 \begin{figure}[h!]
 \centering

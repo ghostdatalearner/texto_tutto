@@ -68,7 +68,7 @@ En la fórmula \ref{ESTATICA_kradius} $dist_{mj}$ es el camino más corto de la 
 
 La figura \ref{fig:ESTATICA_red_example} es una red de dispersores de semillas real, de dimensiones muy reducidas, con cinco especies de plantas, cuatro de aves frugívoras y once enlaces. Llamaremos clase $A$ a las plantas y clase $B$ a las aves. La descomposición \textit{k-core} se ha realizado con el algoritmo de \textit{pruning}. El índice $k$ máximo es $2$, todas las aves pertenecen a la $2$-$shell$, no así todas las plantas. En este ejemplo todas las especies de la \textit{shell} máxima de la clase $A$ tienen enlace directo con todas las especies de la \textit{shell} máxima de la clase $B$, esto no tiene por qué ser siempre así. 
 
-El camino más corto desde la planta $2$ a cada una de las cuatro especies de dispersores de la $2-shell$ es $1$ al estar enlazada con todas ellas. Su $k_{radius}$ es, en consecuencia, $1$ porque se ha definido como el promedio de las distancias a todas las especies de la \textit{shell} máxima de la clase contraria. Lo mismo ocurre con la planta $1$. Se puede comprobar que el $k_{radius}$ de todas las especies de aves de la $2$-$shell$ es también $1$, midiendo sus distancias respectivas a las plantas $1$ y $2$.
+El camino más corto desde la planta $2$ a cada una de las cuatro especies de dispersores de la $2$-$shell$ es $1$ al estar enlazada con todas ellas. Su $k_{radius}$ es, en consecuencia, $1$ porque se ha definido como el promedio de las distancias a todas las especies de la \textit{shell} máxima de la clase contraria. Lo mismo ocurre con la planta $1$. Se puede comprobar que el $k_{radius}$ de todas las especies de aves de la $2$-$shell$ es también $1$, midiendo sus distancias respectivas a las plantas $1$ y $2$.
 
 El cálculo es simple aunque algo más laborioso para las plantas de la $1$-$shell$. En la figura \ref{fig:ESTATICA_SD_030_example_distances} se ha tomado como ejemplo la especie número $4$. Hay que medir primero la distancia con cada una de las aves de la $2$-$shell$. Para ello, se han representado con distintos colores los caminos más cortos. La distancia con el dispersor $1$ es $1$ porque comparten enlace (camino en color azul marino). Con la especie $2$ no hay conexión directa, el camino más corto (representado en verde) es $pl4$-$disp1$-$pl2$-$disp2$ y la distancia es $3$. Lo mismo sucede con las especies de ave $3$ (camino rojo) y $4$ (camino violeta), ambas a distancia $3$ de la planta $4$. Medidas las cuatro distancias, ya se puede calcular el $k_{radius}$ de la especie de planta $4$, que es el promedio de 1, 3, 3 y 3, es decir 2,5. % Este procedimiento hay que repetirlo para todas las especies de la red.
 
@@ -175,7 +175,7 @@ En este estudio se han utilizado los dos modelos nulos de uso más frecuente en 
 \begin{figure}[hp!]
 \centering
 \includegraphics[scale=0.5]{Figures/ESTATICA_zALL.png}
-\caption{Ejemplo de $z scores$ de $NODF$ y $z\overline k_{radius}$ para una red de polinizadores con matriz de adyacencia binaria \cite{elberling1999structure} }
+\caption{Ejemplo de $z scores$ de $\overline k_{radius}$ y $NODF$ para una red de polinizadores con matriz de adyacencia binaria \cite{elberling1999structure}.}
 \label{fig:ESTATICA_zALL}
 \end{figure}
 
@@ -244,7 +244,7 @@ En la gráfica \ref{fig:ESTATICA_ALL_plots_kdegree_degree_M_PL_001_ES}e se reali
 \begin{figure}[h!]
 \centering
 \includegraphics[scale=0.5]{Figures/ESTATICA_ALL_plots_kdegree_degree_M_PL_001_ES.png}
-\caption{Relación entre $degree$ y $k_{degree}$. a: histograma de la correlación entre ambas magnitudes para todas las redes del estudio. b: diagrama de dispersión de ambas magnitudes para la red de polinizadores $001$ y valores de la regresión lineal para esta red. c,d,e: distribuciones de probabilidad acumulada de los dos índices. En d) se han representado ambos sobre la escala de $degree$, con la transformación en el eje $X$ $k_{degree} = \alpha * degree$, siendo $\alpha$ el coeficiente de regresión lineal que en este caso vale aproximadamente $0,4$.}
+\caption{Relación entre $degree$ y $k_{degree}$. a: histograma de la correlación entre ambas magnitudes para todas las redes del estudio (a); b: diagrama de dispersión de ambas magnitudes para la red de polinizadores $001$ y valores de la regresión lineal para esta red; c,d,e: distribuciones de probabilidad acumulada de los dos índices. En d) se han representado ambos sobre la escala de $degree$, con la transformación en el eje $X$ $k_{degree} = \alpha * degree$, siendo $\alpha$ el coeficiente de regresión lineal que en este caso vale aproximadamente $0,4$.}
 \label{fig:ESTATICA_ALL_plots_kdegree_degree_M_PL_001_ES}
 \end{figure}
 

@@ -255,11 +255,11 @@ No vamos a repetir el significado de los que se explicaron en el ejemplo anterio
 es evidente. Se ha cambiado el color de relleno de los zigurats, especificando los pares \texttt{color\_guild\_a} y \texttt{color\_guild\_b},
 y también el color de las etiquetas de las especies. Se ha añadido un color de relleno tenue. Este truco sirve para mostrar el área de dibujo, que se ha aumentado en horizontal un $20\%$ con \texttt{rescale\_plot\_area=c(1.2,1)}. Este cambio solo afecta al área de dibujo pero no a la imagen. 
 
-La relación de aspecto puede modificarse para \textit{aplanar} el diagrama si es inferior a $1$ o para \textit{estirarlo} si es mayor. El valor por defecto es $1$, así que no es obligatorio incluirlo en la llamada, pero se ha añadido para explicar su significado.
+La relación de aspecto puede modificarse para aplanar el diagrama si es inferior a $1$ o para estirarlo si es mayor. El valor por defecto es $1$, así que no es obligatorio incluirlo en la llamada, pero se ha añadido para explicar su significado.
 
 Si no se usan \textit{splines}, como en este ejemplo, los enlaces aparecen como líneas rectas. Si se usan, se puede indicar cuantos puntos deben tener.
 
-\textit{Fat tails} son los los conjuntos de especies de la \textit{1-shell} que pueden aparecer enlazadas a los generalistas de $k_{degree}$ máximo, los que se encuentran en el extremo izquierdo de la \textit{k-shell} máxima. Se pueden modificar las distancias vertical y horizontal a esas especies con \texttt{fattailjumpvert} y \texttt{fattailjumphoriz}. Obsérvese la posición relativa de la especie de plantas $28$.
+\textit{Fat tails} son los conjuntos de especies de la \textit{1-shell} que pueden aparecer enlazadas a los generalistas de $k_{degree}$ máximo, los que se encuentran en el extremo izquierdo de la \textit{k-shell} máxima. Se pueden modificar las distancias vertical y horizontal a esas especies con \texttt{fattailjumpvert} y \texttt{fattailjumphoriz}. Obsérvese la posición relativa de la especie de plantas $28$.
 
 Ya vimos como \texttt{height\_box\_y\_expand} controla la altura de las cajas de los zigurats exteriores. La altura y anchura los rectángulos que pertenecen a la \textit{k-shell} máxima de cada clase se modifican con \texttt{coremax\_triangle\_height\_factor} y \texttt{coremax\_triangle\_width\_factor}. 
 

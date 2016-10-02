@@ -3,7 +3,7 @@
 \chapter{Estudio de resistencia} % Main chapter title
 \label{ChapterDESTRUCCION}  % Change X to a consecutive number; for referencing this chapter elsewhere, use \ref{ChapterX}
 
-La resistencia de una red mutualista ante circunstancias adversas, como enfermedades o catástrofes naturales, es un asunto del máximo interés ecológico. Las políticas de conservación necesitan basarse en datos que permitan predecir el efecto sobre la comunidad de la pérdida de determinadas especies o de la introducción de otras previamente desaparecidas. Para ello, hay que poder medir la importancia de cada especie para la supervivencia de la red total, o de las especies de una de las clases.
+La resistencia de una red mutualista ante circunstancias adversas, como enfermedades o catástrofes naturales, tiene una gran trascendencia práctica. Las políticas de conservación necesitan basarse en datos que permitan predecir el efecto sobre la comunidad de la pérdida de determinadas especies o de la introducción de otras previamente desaparecidas. Para ello, hay que poder medir la importancia de cada especie para la supervivencia de la red total, o de las especies de una de las clases.
 
 En este capítulo se expone como las \textit{k-magnitudes} pueden contribuir a este propósito, al proporcionar criterios de ordenación con un enfoque novedoso.
 
@@ -13,7 +13,7 @@ En este capítulo se expone como las \textit{k-magnitudes} pueden contribuir a e
 
 \section{Medición de la resistencia}
 
-La resistencia de una red ecológica es un concepto complejo \cite{arnoldi2016resilience}. En términos muy generales puede entenderse como la capacidad de supervivencia del sistema ante eventos adversos. Esta definición no resulta satisfactoria si no puede concretarse en una magnitud objetiva. El problema se presenta al escoger la propiedad medible y el método de perturbación. No es lo mismo estudiar la dinámica de las poblaciones ante perturbaciones temporales, que los cambios en la estructura de la red si desaparecen especies o interacciones. Tampoco se obtiene el mismo índice si se miden el tamaño de la componente gigante resultante, el número de especies o el número total de individuos. Por eso, al hablar de resistencia de las comunidades mutualistas, es imprescindible definir con rigor qué se va a medir y cómo se va a alterar la red original.
+La resistencia de una red ecológica es un concepto difícil de precisar \cite{arnoldi2016resilience}. En términos muy generales puede entenderse como la capacidad de supervivencia del sistema ante eventos adversos. Esta definición no resulta satisfactoria si no puede concretarse en una magnitud objetiva. El problema se presenta al escoger la propiedad medible y el método de perturbación. No es lo mismo estudiar la dinámica de las poblaciones ante perturbaciones temporales, que los cambios en la estructura de la red si desaparecen especies o interacciones. Tampoco se obtiene el mismo índice si se miden el tamaño de la componente gigante resultante, el número de especies o el número total de individuos. Por eso, al hablar de resistencia de las comunidades mutualistas, es imprescindible definir con rigor qué se va a medir y cómo se va a alterar la red original.
 
 Pueden distinguirse dos grandes líneas en el estudio de la resistencia. La más extendida es la estática, se modifica la red eliminando nodos, o más raramente enlaces, y se mide cuantas especies sobreviven \cite{memmott2004tolerance, ebenman2005using, kaiser2010robustness}. Esta forma de trabajar se heredó de la investigación sobre \textit{food webs}, que recordemos que son unipartitas \cite{dunne2002biodiversity, dunne2009cascading}. Para estas comunidades se ha usado la \textit{conectancia} como parámetro de estudio, pero como ya se expuso en la introducción es poco descriptivo en el mutualismo.
 El método más habitual se basa en provocar extinciones primarias en una de las clases de especies, normalmente en los animales, y medir su efecto sobre la clase contraria.
@@ -153,7 +153,7 @@ En la figura \ref{fig:DEST_krisk_kdegree_comparison_ES}a se comparan los rendimi
 \begin{figure}[h!]
 \centering
 \includegraphics[scale=0.55]{Figures/DEST_krisk_kdegree_comparison_ES.png}
-\caption {Comparación del rendimiento de los dos criterios más destructivos de la mitad de la componente gigante, $k_{risk}$ y $degree$ (b) y comportamiento de ${k}_{risk}$ en función del tamaño de la red (b).}
+\caption {Comparación del rendimiento de los dos criterios más destructivos de la mitad de la componente gigante, $k_{risk}$ y $degree$ (a) y comportamiento de ${k}_{risk}$ en función del tamaño de la red (b).}
 \label{fig:DEST_krisk_kdegree_comparison_ES}
 \end{figure}
 
@@ -170,7 +170,7 @@ Los resultados del segundo método de destrucción (extinción solo de especies 
 
 A primera vista, los resultados son paradójicos. Midiendo la fracción superviviente de especies vegetales, $MusRank$ es el mejor índice de destrucción para $89$ redes $(100\%)$; $k_{risk}$ para $7$, $(7.87\%)$; $k_{degree}$ para $8$, $(8.99\%)$; $degree$ para $8$, $(8.99\%)$ y $eigenvector$ $centrality$ el mejor para $8$ redes $(8.99\%)$. El comportamiento óptimo de $MusRank$ es el esperado, y está de acuerdo con lo publicado por \cite{dominguez2015ranking}. Hay que tener en cuenta que es un índice que se elabora partiendo de la naturaleza bipartita de la red y que este procedimiento mide los efectos de la perturbación sobre una clase en la contraria. El resto de índices, incluyendo las \textit{k magnitudes}, miden propiedades generales de la red.
 
-Realizando la misma secuencia de extinciones primarias pero midiendo la fracción de componente gigante que queda, el rendimiento es muy diferente. $MusRank$ es el mejor solo para $18$ redes $(20.22\%)$; $k_{risk}$ para $39$, $(43.82\%)$; $k_{degree}$ para $58$, $(65.17\%)$; $degree$ para $44$, $(49.44\%)$ y $eigenvector$ $centrality$para $23$ redes $(25.84\%)$. Los índices basados en \textit{k magnitudes} pasan a ser óptimos y $MusRank$ a la última posición.
+Realizando la misma secuencia de extinciones primarias pero midiendo la fracción de componente gigante que queda, el rendimiento es muy diferente. $MusRank$ es el mejor solo para $18$ redes $(20.22\%)$; $k_{risk}$ para $39$, $(43.82\%)$; $k_{degree}$ para $58$, $(65.17\%)$; $degree$ para $44$, $(49.44\%)$ y $eigenvector$ $centrality$ para $23$ redes $(25.84\%)$. Los índices basados en \textit{k magnitudes} pasan a ser óptimos y $MusRank$ a la última posición.
 
 La diferencia resulta tan notable (figura \ref{fig:DEST_M_PL_044_juanmamethod_extinction_plot}) que llevó a pensar en errores en el \textit{software} o en el método. Sin embargo, se han comprobado meticulosamente los datos intermedios y las secuencias de extinción, repitiéndose los resultados. La explicación tiene que ver con la naturaleza de los índices que se acaba de exponer. Al medir la fracción de componente gigante, resultan más destructivos los que ordenan todas las especies de la red por un mismo criterio y en este caso $MusRank$ es el único que difiere.
 
@@ -200,7 +200,7 @@ centrarse los esfuerzos. Si, por el contrario, lo que se pretende es conservar l
 
 Para presentar de una manera más visual los procesos de destrucción de redes, se han producido dos vídeos. En el primero de ellos se muestra la destrucción de la mitad de la componente gigante de la red $M\_PL\_050$. Comienza teniendo $49$ especies y queda reducida a $22$ con tan solo $6$ extinciones primarias. Puede verse en \url{https://www.youtube.com/watch?v=nvoWhLhjXks}.
 
-En el segundo video se destruye la red $M\_PL\_007$ provocando extinciones primarias solo en las especies animales. Puede comprobarse el distinto estado final que se alcanza si se usan $MusRank$ p ${k}_{degree}$ como criterios de ordenación. Si se toma el primero, la red final tiene menos especies vegetales ($7$) que usando ${k}_{degree}$ ($8$). Sin embargo, el tamaño de la componente gigante que queda ($33$ especies) es mayor que con el segundo criterio ($32$). Puede verse en \url{https://www.youtube.com/watch?v=H1UxAClqCxg}. 
+En el segundo video se destruye la red $M\_PL\_007$ provocando extinciones primarias solo en las especies animales. Puede comprobarse el distinto estado final que se alcanza si se usan $MusRank$ y ${k}_{degree}$ como criterios de ordenación. Si se toma el primero, la red final tiene menos especies vegetales ($7$) que usando ${k}_{degree}$ ($8$). Sin embargo, el tamaño de la componente gigante que queda ($33$ especies) es mayor que con el segundo criterio ($32$). Puede verse en \url{https://www.youtube.com/watch?v=H1UxAClqCxg}. 
 
 %\section{Conclusiones}
 %

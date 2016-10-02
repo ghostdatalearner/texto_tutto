@@ -56,11 +56,11 @@ Aparecerán dos ventanas, una con la salida de la sesión \texttt{Python} y otra
 La interfaz de usuario está construida con el entorno gráfico \texttt{Qt} por lo que la apariencia puede variar ligeramente dependiendo del sistema operativo y del juego de fuentes instalado. Este es el significado de los campos de entrada:
 
 \begin{itemize}
-\item \texttt{Input File}: nombre de cualquiera de los ficheros de configuración de la red almacenados en \path{./input}. Se puede escoger de forma manual o se cargará automáticamente si se recrea una simulación almacenada. La interfaz de usuario mostrará el número de especies de cada clase.
+\item \texttt{Input File}: nombre de cualquiera de los ficheros de configuración de la red almacenados en \path{~/input}. Se puede escoger de forma manual o se cargará automáticamente si se recrea una simulación almacenada. La interfaz de usuario mostrará el número de especies de cada clase.
 
 \item \texttt{Years}:  Duración de la simulación en años, obligatorio.
 
-\item \texttt{Output suffix}: sufijo de salida opcional que se añadirá al nombre de los ficheros de salida que se escriben en  \path{./output}.
+\item \texttt{Output suffix}: sufijo de salida opcional que se añadirá al nombre de los ficheros de salida que se escriben en  \path{~/output}.
 
 \item \texttt{Comments}: campo opcional de escritura libre que sirve, por ejemplo, para que una descripción del experimento se pueda guardar en el informe de ejecución.
 
@@ -206,7 +206,7 @@ Por el contrario, en la figura \ref{fig:ASIGMUNDMAN_sigmund_oscilacion_tiempo_si
 
 Para terminar estos ejemplos, se simulará el comportamiento de la red ante aumentos abruptos pero breves de la mortalidad. Este tipo de perturbaciones que actúan a corto plazo, a diferencia de las que se acaban de describir, pueden servir para modelar eventos como zoonosis, plagas o desastres naturales. El simulador permite atacar ambas clases con parámetros independientes para cada una.
 
-En la figura \ref{fig:ASIGMUNDMAN_sigmund_95} se añade una mortalidad del $95\%$ durante $5$ años a la especie de polinizador $2$. La caída brusca está a punto de llevar a esta especie a la extinción pero al desaparecer, el beneficio mutualista hace que se recupere porque no baja del mínimo vital aunque llega a estar muy próxima a él alrededor del año $90$ de la simulación.
+En la figura \ref{fig:ASIGMUNDMAN_sigmund_95} se añade una mortalidad del $95\%$ durante $5$ años a la especie de polinizador $2$. La caída brusca está a punto de llevar a esta especie a la extinción. Cuando desaparece, el beneficio mutualista hace que la población se recupere porque no había bajado del mínimo vital aunque llegó a estar muy próxima alrededor del año $90$ de la simulación.
 
 \section{Uso en modo \textit{batch}}
 
